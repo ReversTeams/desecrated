@@ -5,7 +5,7 @@ journeymap/data
 local
 tacz_backup
 rhino.local.properties
-resourcepacks
+resourcepacks/*.zip
 
 # minecraft user files
 saves
@@ -80,3 +80,4 @@ oei
 !config/moonlight-client.toml
 !config/mantle-client.toml
 !config/emixx/emixx-client.toml
+!resourcepacks/antiques_gunpack_v0.2.2.zip

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:rods/wooden"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "antiques:reichs79"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

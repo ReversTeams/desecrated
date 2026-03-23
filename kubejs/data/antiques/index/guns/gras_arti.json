@@ -1,0 +1,14 @@
+{
+    
+    "name": "Mousquetoon Gras d'artillerie mle 1866-74",
+   
+    "display": "antiques:gras_arti_display",
+
+    "data": "antiques:gras_arti_data",
+   
+    "type": "rifle",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 14
+}

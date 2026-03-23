@@ -3,11 +3,10 @@
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
-    "travelerscompass": true,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -52,13 +51,24 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "minecolonies_compatibility": {
-    "crop.age": true,
-    "postbox.requested": true,
-    "stash.requested": true
+  "jadeaddons": {
+    "equipment_requirement": ""
   },
-  "mekanismcovers": {
-    "cover_component": true
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -68,62 +78,29 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "balm": {
-    "jade": true
-  },
-  "integrateddynamicscompat": {
-    "proxy": true,
-    "mechanical_squeezer": true,
-    "mechanical_drying_basin": true,
-    "drying_basin": true,
-    "part": true,
-    "squeezer": true
-  },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
-  },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "hammerlib": {
-    "root": true
-  },
-  "projecte": {
-    "emc_provider": false
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "waystones": {
-    "waystone": true
+  "vampirism": {
+    "altar_pillar": true,
+    "weapon_table": true,
+    "player_faction.lord_level_number": false,
+    "alchemy_table": true,
+    "entity_blood.show_fraction": false,
+    "entity_blood.max_for_render": 40,
+    "potion_table": true,
+    "totem": true,
+    "research_table": true,
+    "entity_blood.icon_per_line": 10,
+    "player_faction": true,
+    "entity_blood": true,
+    "altar_of_infusion": true,
+    "garlic_beacon": true,
+    "pedestal_charging": true,
+    "altar_of_inspiration": true
   },
   "corpse": {
     "corpse": true
+  },
+  "balm": {
+    "jade": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

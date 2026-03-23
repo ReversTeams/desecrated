@@ -1,0 +1,94 @@
+{
+  "ammo": "antiques:106x25",
+  "ammo_amount": 5,
+  "bolt": "open_bolt",
+  "rpm": 200,
+  "bullet": {
+    "life": 0.8,
+    "bullet_amount": 1,
+    "damage": 21,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.1,
+      "head_shot_multiplier": 4,
+      "damage_adjust": [
+	 	{"distance": 8, "damage": 21},
+	    {"distance": 25, "damage": 16},
+        {"distance": 30, "damage": 13},
+        {"distance": 40, "damage": 10},
+        {"distance": 50, "damage": 8},
+        {"distance": "infinite", "damage": 8}
+      ]
+    },
+    "speed": 60,
+    "gravity": 0.04,
+    "knockback": 1.5,
+    "friction": 0.012,
+    "ignite": false,
+    "pierce": 1
+  },
+  "bolt": "manual_action", 
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 10.91,
+      "tactical": 7.45
+    },
+    "cooldown": {
+      "empty": 6.41,
+      "tactical": 5.125
+    }
+  },
+  "draw_time": 2.21,
+  "put_away_time": 0.0,
+  "aim_time": 0.1,
+  "sprint_time": 0.2,
+  "weight": 1.3,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0, 0]},
+      {"time": 0.8, "value": [3.8, 3.8]},	  
+      {"time": 0.13, "value": [3.8, 3.8]},
+      {"time": 0.20, "value": [3.1, 3.1]},
+      {"time": 0.28, "value": [2.8, 2.8]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [0, 0]},
+      {"time": 0.13, "value": [-3, 0]},
+      {"time": 0.20, "value": [-3, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 3.2,
+    "move": 3.7,
+    "sneak": 2.1,
+    "lie": 0.45,
+    "aim": 1
+  },
+  "melee": {
+    "distance": 1.7,
+    "cooldown": 1.5,
+    "default": {
+      "animation_type": "melee_push",
+      "distance": 0.3,
+      "range_angle": 30,
+      "damage": 3.5,
+      "knockback": 1,
+      "prep": 0.71
+    }
+  },
+  "script": "tacz:m870_gun_logic",
+  "script_param": {
+    "bolt_time": 1.5,       
+    "bolt_feed_time": 0.71,   
+    "intro_empty": 10.91,     
+    "intro": 7.45,           
+    "loop": 6.41,
+    "ending": 5.125,
+    "intro_empty_feed": 8.33,
+    "loop_feed": 3.71      
+  }
+}

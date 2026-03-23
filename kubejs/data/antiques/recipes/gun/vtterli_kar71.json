@@ -1,0 +1,25 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+		"item": "tacz:modern_kinetic_gun",
+		"nbt": {
+			"GunId": "antiques:vtterli69_71"
+		}
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "antiques:vtterli_kar71"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

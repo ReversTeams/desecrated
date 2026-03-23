@@ -1,0 +1,1187 @@
+{
+	autofocus_id: "19AC0B8C0B44FA30"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exile"
+	group: "3C87A675DA0E75AE"
+	icon: "concatenatedadditionsartefacts:karma_tome"
+	id: "599002CA7AE7B666"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1850F5DBF7A4D5A5"]
+			id: "6C09D9DA982FB08C"
+			tasks: [
+				{
+					id: "7A5A4E031E4BF18D"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "antiques:reichs79"
+							HasBulletInBarrel: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76A34DCEA9C72B0E"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "antiques:gew71"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "134935F43B16DE86"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "antiques:kar71"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Weapons of Gold Barar"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["13A9932D7BCD2E2E"]
+			id: "3962C48843DC92C2"
+			tasks: [
+				{
+					id: "3913FC2E5424BC67"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "antiques:swiss78"
+							HasBulletInBarrel: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA98146B6B824B4"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 4
+							GunFireMode: "SEMI"
+							GunId: "antiques:vtterli69_71"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50F391122FC06563"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "SEMI"
+							GunId: "antiques:vtterli_kar71"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "257CB756A861E6B3"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "antiques:bayonet_sg1871"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Weapons of Varelia"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1850F5DBF7A4D5A5"]
+			id: "247C0B91B4A5E838"
+			tasks: [
+				{
+					id: "759C5558DA06C3FD"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "antiques:gras74"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CF03A5B22A2BD41"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "antiques:gras_arti"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "084C4F6A7AE042F3"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "antiques:bayonet_epee"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Weapons of Grania"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["13A9932D7BCD2E2E"]
+			id: "65A842A2DFECDFF0"
+			tasks: [
+				{
+					id: "00D2DC1094FE8B62"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "antiques:werndl"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79C1E8BD21B4455D"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "antiques:bayonet_1867"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Weapons of the Starlight Order"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0CA41706516F60D1"]
+			id: "582421ED6048E9FB"
+			tasks: [{
+				id: "32E9DCEC61AFCCB7"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "antiques:beaum71"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "Weapons of Red Barar"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "concatenatedadditionsartefacts:karma_tome"
+			id: "19AC0B8C0B44FA30"
+			rewards: [{
+				id: "655E292614567488"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2A014AA040A2E5D2"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 100
+			}]
+			title: "After the Storm"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:globe_banner_pattern"
+			id: "6054F9076164BFDE"
+			size: 0.75d
+			tasks: [{
+				id: "095F7CF043F53178"
+				title: "Modpack Author's Note"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			id: "416FA3E84EDBA716"
+			tasks: [{
+				advancement: "vampirism:vampire/first_blood"
+				criterion: ""
+				id: "3D33A033E9874AEF"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["416FA3E84EDBA716"]
+			id: "3F69B451E4B11129"
+			tasks: [{
+				id: "6E0B93551A338678"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 8
+					}
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			icon: "minecraft:skeleton_skull"
+			id: "16AC930FED22DF3D"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "433C418385C0ABCA"
+					title: "Consecration"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "11B219F29421AB99"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			icon: "minecraft:lantern"
+			id: "4B67C6BB6CC8905C"
+			tasks: [
+				{
+					id: "2640750435AEBA8F"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "0F1AEAB91EBF13CE"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			id: "0CA41706516F60D1"
+			rewards: [{
+				id: "4F019BB734D2BD6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "63F062C342397FFB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "simpleenemymod:pmcunit"
+				type: "observation"
+			}]
+			title: "The Crescent Society"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			id: "479883AB78B8D2FC"
+			rewards: [{
+				id: "3D54BEC29880CE53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "38723CACB17307B2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "simpleenemymod:ruunit"
+				type: "observation"
+			}]
+			title: "The Starlight Order"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			id: "384AD7FA6531C4B9"
+			rewards: [{
+				id: "1558678B3E0ABFA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "275936E67DB1435B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "simpleenemymod:usunit"
+				type: "observation"
+			}]
+			title: "The Forces of Gold Barar"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["384AD7FA6531C4B9"]
+			id: "1850F5DBF7A4D5A5"
+			tasks: [{
+				entity: "simpleenemymod:usunit"
+				id: "5B38546748E44E75"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Duchy's Soldiers"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["479883AB78B8D2FC"]
+			id: "13A9932D7BCD2E2E"
+			tasks: [{
+				entity: "simpleenemymod:ruunit"
+				id: "418F8CD5E008A36E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Order's Hunters"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The shield is a key defensive piece of equipment, ideal for blocking ranged attacks and melee hits. Although the base one might be enough for many, it's still possible to upgrade it."
+				""
+				"The giant swords have a similar ability, being large enough to block hits, but to a much lesser degree."
+			]
+			hide_dependent_lines: true
+			id: "36F8661C6E0C53D8"
+			rewards: [{
+				id: "73765E3A5A9E81A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5DD9F690DA3B804F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "minecraft:shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:wooden_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:stone_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:iron_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:diamond_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:netherquartz_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:skull_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:ender_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Shield"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Giant Swords and Shields"
+			x: 2.4999999999999996d
+			y: -3.5d
+		}
+		{
+			description: [
+				"The backpack is ideal for all of your storage needs on your person. I've had to hunt many cows and chase around sheep for several days to be able to fit all of the trinkets I found on my travels."
+				""
+				"Simply equip it on your back &a(and open it with the default keybind being B)&r&f."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "0BD5BADADC18CC3D"
+			rewards: [{
+				count: 2
+				id: "60DC33210E3EBB9D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Storage Everywhere"
+			tasks: [{
+				id: "12A760AF88731FEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "usefulbackpacks:backpack_medium"
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			description: ["The builder's best friend or archenemy. Some architects may say this is cheating, but filling in walls, ceilings, or floors quickly is useful in any building situation."]
+			id: "4134F85EED507D7B"
+			rewards: [
+				{
+					count: 2
+					id: "52B64EC57097F4EE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "14717A9744338FED"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Build a Base, Quickly"
+			tasks: [{
+				id: "49394A1CABCCB8CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:infinity_wand"
+							}
+						]
+					}
+				}
+				title: "Any Construction Wand"
+				type: "item"
+			}]
+			title: "Construction Wand"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"Iron chests and their other material-upgraded versions can store many more items than regular chests."
+				""
+				"On the other hand, drawers can hold a large quantity of a single item. They can also be upgraded or connected with a drawer controller."
+				"{@pagebreak}"
+				"Compacting drawers can be used for storing ores and ingots, which can be withdrawn in nugget, ingot, or block form."
+			]
+			id: "47F28365AC7EE987"
+			rewards: [
+				{
+					id: "295896F611E18162"
+					item: "ironchest:crystal_chest"
+					type: "item"
+				}
+				{
+					id: "5504CD916F60B662"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0D779FDA4E0CFA35"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+				{
+					id: "310CBAB3F86B77C3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "storagedrawers:drawers"
+						}
+					}
+					title: "Any Drawers"
+					type: "item"
+				}
+			]
+			title: "Early Storage"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"Many travelers and hunters bring sleeping bags with them, letting them sleep on the go more conveniently. Personally, it's a must for my travels."
+				""
+				"&a(The sleeping bag does not set your spawn, letting you respawn at your main bed in your home.)&r"
+				"{@pagebreak}"
+				"Hammocks are the lazy man's greatest dream: perfect for sleeping during the day."
+			]
+			id: "7C7D065A52F9A7D2"
+			rewards: [{
+				id: "13E5FBA180CF7246"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "291F2E8A7E1F8C5C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vampirism:coffin_white"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_light_gray"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_gray"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_black"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_brown"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_red"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_orange"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_yellow"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_lime"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_light_blue"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_cyan"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_blue"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_purple"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_magenta"
+								}
+								{
+									Count: 1b
+									id: "vampirism:coffin_pink"
+								}
+							]
+						}
+					}
+					title: "Any Coffin"
+					type: "item"
+				}
+				{
+					id: "7A97C011D67A5D81"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_white"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_orange"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_magenta"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_light_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_yellow"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_lime"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_pink"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_light_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_purple"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_brown"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_green"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_red"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_black"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_white"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_orange"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_magenta"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_light_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_yellow"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_lime"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_pink"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_light_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_cyan"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_black"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_blue"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Any Sleeping Bag or Hammock"
+					type: "item"
+				}
+			]
+			title: "Lazy Man's Dream"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"The Architectural Encyclopedia is a most interesting tome and a very popular one at that. It contains a vast array of knowledge about the architecture of the various civilizations of this world. For one who sees multiple ruins throughout their travels, this is quite useful to know the real names of these locations. Or at least, the attributed name."
+				""
+				"&a(This item mimics the /wits command, to display the name of the structure the player is located at.)"
+			]
+			id: "074421F47A443EC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54B70F6860297209"
+				table_id: 1301202443783474816L
+				type: "choice"
+			}]
+			subtitle: "Knowledge of Ruins"
+			tasks: [{
+				id: "3F478074FDC5FF2A"
+				item: "tangiblecommands:wits_item"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"As one who travels a lot, it's often annoying to either have to setup somewhere and then pack up everything in the morning, or to sleep without shelter. Well, what about simply folding everything into a tent and packing it up?"
+				""
+				"These tent designs are frequently used by adventurers to serve as a semi-mobile base that is easy to pack and unpack. They can contain a lot more than mere sleeping bags. You can store whole beds, furnaces, even ample storage. They are quite heavy, but still a sufficient lazy solution."
+				"{@pagebreak}"
+				"&a(Shift-right click the tent to pick it up and its content in one go. "
+				""
+				"&aZip-up tents can be opened and closed with a right-click.)&r"
+			]
+			id: "4A8D37AE43828409"
+			rewards: [{
+				id: "708FB6090573ED28"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			subtitle: "Nomadic Lifestyle"
+			tasks: [
+				{
+					id: "79273F61DEC3ED25"
+					item: "simplytents:zip_tent"
+					type: "item"
+				}
+				{
+					id: "20D43C4B4E9991AE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "simplytents:tent"
+								}
+								{
+									Count: 1b
+									id: "simplytents:wall_tent"
+								}
+								{
+									Count: 1b
+									id: "simplytents:roof_tent"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Any Other Tent"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"Anyone of any Path can create man-made paths, such as path blocks made through a shovel interaction with dirt, wood, stone, bricks, etc."
+				""
+				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
+			]
+			icon: "via_romana:charting_map"
+			id: "5B1114E8AD48A9D4"
+			subtitle: "Fast Travel Anywhere"
+			tasks: [{
+				id: "13AFB0DC1A961548"
+				item: "via_romana:charting_map"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			id: "7B878C2A6814469E"
+			tasks: [{
+				id: "278AB333DE705B93"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:red_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:cactus_green_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:brown_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:lapis_blue_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:purple_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:cyan_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:light_gray_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:pink_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:lime_green_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:yellow_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:light_blue_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:magenta_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:orange_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampiresneedumbrellas:white_iron_umbrella"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Iron Umbrella"
+				type: "item"
+			}]
+			title: "Sun Umbrellas"
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			id: "07E9BD4DB2D5F0FD"
+			tasks: [{
+				id: "2BB63E59D8324EC3"
+				item: "vampirism:blood_container"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+	]
+	title: "Fallen"
+}

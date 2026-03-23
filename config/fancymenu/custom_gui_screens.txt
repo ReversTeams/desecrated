@@ -36,3 +36,14 @@ custom_gui {
   popup_mode_background_overlay = true
 }
 
+custom_gui {
+  identifier = world_creation_loading
+  title = 
+  allow_esc = false
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+

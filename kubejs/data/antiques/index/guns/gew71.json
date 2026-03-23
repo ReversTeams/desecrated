@@ -1,0 +1,14 @@
+{
+    
+    "name": "Mauser Gewehr M1871",
+   
+    "display": "antiques:gew71_display",
+
+    "data": "antiques:gew71_data",
+   
+    "type": "rifle",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 14
+}

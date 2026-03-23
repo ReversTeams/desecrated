@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "minecraft:iron_bars"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "antiques:bayonet_spike"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

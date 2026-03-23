@@ -1,0 +1,14 @@
+{
+    
+    "name": "Mauser Karabiner M1871",
+   
+    "display": "antiques:kar71_display",
+
+    "data": "antiques:kar71_data",
+   
+    "type": "rifle",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 15
+}

@@ -1,0 +1,886 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcane_flesh"
+	group: "3C87A675DA0E75AE"
+	id: "2446C8C43448EC27"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Compel the lifeforce out of your veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."]
+			id: "068DF533DB041F37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14888EF83E146AED"
+					type: "random"
+				}
+				{
+					id: "7B28031F45864DBF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "235B77305328F671"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:sacrificialdagger"
+						tag: {
+							sacrifice: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C5FD08F5ACDA89C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:altar"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			description: ["Alchemy is a complex and spiritually charged process. Now its gates open to you, under the guidance of life essence. "]
+			id: "40EA73BEA023C14A"
+			rewards: [
+				{
+					id: "6B00225D36878DED"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "142A76BC66035242"
+					item: "bloodmagic:reinforcedslate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AB8BFEBE390B269"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:alchemytable"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			description: ["While the alchemy table works with life essence, the hellfire forge works with demonic will. The world of will manipulation is a relatively complex one, so be prepared if you do decide to embark on it. I, for one, never needed to delve into this art, but you may not have the luxury of alternative technologies."]
+			id: "6CE0DB1AEB597BCE"
+			rewards: [{
+				count: 16
+				id: "1594491139CA6E71"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D0885007F6B27D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulforge"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			description: ["These large runestones can be further inscribed with enchantments to augment the structure of a blood altar. Each tier of altar will require more to be used to allow for more advanced imbuements."]
+			id: "25A618A3B28B8DEE"
+			rewards: [{
+				id: "68D972FD21185F7D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 9L
+				id: "5C720E576BBEE187"
+				item: {
+					Count: 9
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:blankrune"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25A618A3B28B8DEE"]
+			description: ["Tired of bloodletting? If you have a steady source of creatures to kill, this dagger will allow you to efficiently rend the life force from their corporeal form. The world I lived in never lacked hostiles, that's for sure."]
+			id: "255F91EE26FB166D"
+			rewards: [{
+				id: "4217EE1A26AFFEEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "37EA8119BA50E3C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:daggerofsacrifice"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CE0DB1AEB597BCE"]
+			description: ["These strangely shaped gems can hold and stabilize demonic will within them, acting as portable reservoirs. They also automatically absorb it from kills performed with a sentient sword, which is an added bonus."]
+			id: "0D2E04D30E54E6C8"
+			tasks: [{
+				id: "44A38A04BF79BC8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 64.0d
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			description: ["An enchanted barbed snare to bootstrap any aspiring sanguimancer into the extraction of willpower from the souls of animated things. Unfortunately, it doesn't actually impede the movement of creatures that much, so it doesn't have much use afterwards."]
+			id: "4CD27FD09EF16094"
+			rewards: [{
+				id: "74092527CBEB78C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0EE8BA404B791B13"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulsnare"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D2E04D30E54E6C8"]
+			description: [
+				"The sentient sword is vaguely aware of its existence, and grows more powerful the more demonic will is nearby. Its most important attribute, however, is certainly how it seems to rip demonic will straight out of its victims, no ensnaring required."
+				""
+				"I once had a sentient sword. I believe it liked the smell of strawberries..."
+			]
+			id: "3E73EAD0A0A295F5"
+			rewards: [{
+				id: "26475380E542593C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6554577A8F60DB12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4CD27FD09EF16094"
+				"3E73EAD0A0A295F5"
+			]
+			dependency_requirement: "one_completed"
+			description: ["The willpower of animated things. It's more sinister than life essence, and I believe it comes from a place deep beyond this world. While life essence, the impetus, maintains the physical form, will is the elusive, emotional 'soul' of things that guides their purpose."]
+			id: "346C594E62FFDB7A"
+			rewards: [{
+				id: "5E5F6B9EA8F02186"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4ABDAE32F6BC60EC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E73EAD0A0A295F5"]
+			description: ["All your tools can be made sentient! Though you may hear whispers, worry not, they probably aren't conspiring against you."]
+			id: "29FA37C27A60B1E0"
+			rewards: [{
+				id: "097DA56D27DE38CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "6769201CBAE0F607"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C20EC4842944570"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulpickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54279F79D4CD3A07"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulshovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465F2A6149F21728"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulscythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			description: ["Life essence can be infused into various items to grant them special abilities. Stone sheets can be imbued to make them conductive to magic, and precious stones like diamonds can be infused to become blood orbs, which allow you to connect a channel to your life network."]
+			id: "209C0E2550C84C69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D5B70BC50A43075"
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "535EC0649F7AE316"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:weakbloodorb"
+					}
+					type: "item"
+				}
+				{
+					id: "2BD64A4E76DE23DA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:blankslate"
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Blood Crafting"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40EA73BEA023C14A"]
+			description: ["These ashes can be used to draw out alchemical arrays, a kind of magic circle. These will allow you to perform certain enchantments and cantrips, particularly for sigils or some small rituals."]
+			id: "2DC6C224BD1881C9"
+			rewards: [{
+				id: "6DD09A24470695AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "025C057BEBF75AFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DC6C224BD1881C9"]
+			description: ["This sigil is by far one of the most important in sanguimancy, as it allows you to see the numerical quantity of life essence contained within blood altars or your life network."]
+			id: "27BBE74203C33C95"
+			rewards: [{
+				id: "2C0EC6E5CC73A918"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "07D024FC495ECDE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:divinationsigil"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40EA73BEA023C14A"]
+			description: ["The alchemical reaction chamber, or ARC, is a useful machine for extra ore processing, recycling, or particular extractions such as separating blood shards out of saturated tau fruit."]
+			id: "51EDC749A53FF0D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D0525D709CA556A"
+				type: "random"
+			}]
+			tasks: [{
+				id: "56E0404A51517B1C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:alchemicalreactionchamber"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51EDC749A53FF0D3"]
+			description: ["The weak blood shard is a product of the demonic tau fruit and can be used in the creation of the penultimate instruments of sanguimancy, as well as to unveil the true secrets of alchemy."]
+			id: "51CDC5BD509CE535"
+			rewards: [{
+				id: "168D0B5792967ABC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3D92F93FDD37245F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:weakbloodshard"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3913EED76917339E"]
+			description: [
+				"Large rituals require ritual stones, and this stone is the core of it all. While you're at it, you should probably fill up your life essence network, you'll need that power for activation."
+				"Rituals are complex things with many variations, so you should read up on them in the Science of Blood."
+			]
+			id: "6D27277DA055DFBC"
+			rewards: [{
+				id: "3CCAB2F8B0FFA707"
+				item: {
+					Count: 1
+					id: "hexerei:lava_bottle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0247DD7DDC3F8084"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:masterritualstone"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D27277DA055DFBC"]
+			description: [
+				"I personally believe time is a precious resource. While you may not be in the same circumstances as I am, surely you do too. The ritual diviner is an indispensable tool for this cause, as it builds up the structure of rituals automatically using the stones on your person. After that, you'll need an activation crystal to open the ritual's structure up to your personal life essence."
+				""
+				"At this point, you may want to challenge the gateway to what lies beyond: The Hidden Realm."
+			]
+			id: "579E8F816742653C"
+			rewards: [{
+				count: 2
+				id: "37AFD735AF8B53C1"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D024789FABAD882"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:activationcrystalweak"
+					}
+					type: "item"
+				}
+				{
+					id: "3819CFFABA00ACE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:ritualdiviner"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["579E8F816742653C"]
+			description: [
+				"An upgraded ritual diviner, for the more advanced operations. Prepare with all of the strength you can acquire, because the next steps in this art require the exploration of the palace of demons: The Endless Realm."
+				""
+				"I never got far within the demon realm. In fact, a lot of the threats and monsters in there are more powerful than the nightmares on the surface world, and the maze-like geometry of their palace makes them hard to avoid."
+			]
+			id: "29289B6D4610B9D4"
+			rewards: [{
+				id: "32ABBD3833083EF5"
+				item: "bloodmagic:bleedingedge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F1FEAB4ACA7A230"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:ritualdivinerdusk"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D27277DA055DFBC"]
+			description: ["This funny-looking wrench thing lets you interface with activated rituals, allowing you to control their area of effect and other properties."]
+			id: "1AE3C9A1202FE409"
+			rewards: [{
+				id: "03C514B0FB510C00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "18C1ABBFAC17202C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:ritualtinkerer"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29289B6D4610B9D4"]
+			description: ["This metal native to the demon realm is the highest order material of sanguimancy, and the most permeable to demonic will. Beyond this point, your infrastructure is no longer limited by your knowledge of the art, but rather by how many resources you can dedicate to it."]
+			id: "639817BED42EBC3A"
+			rewards: [{
+				count: 2
+				id: "2992DF020D4CC712"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5556AD35B00359B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:rawdemonite"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["40EA73BEA023C14A"]
+			description: [
+				"As a result of performing alchemy using life essence, some items can be imbued with a thimble of sapience, allowing these objects to perform logistical tasks automatically. "
+				"These proved quite useful when I did not have access to other forms of logistics in the wilderness, and they have a certain advantage in that they transmit through the air, regardless of line of sight."
+			]
+			id: "234F7C53CB615880"
+			rewards: [{
+				id: "6A7B66590F60CFD9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "469A0DB3F684F4F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:componentframeparts"
+					}
+					type: "item"
+				}
+				{
+					id: "4E056B6004DD86A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfilterexact"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfilteroredict"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfilterenchant"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfiltermoditems"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:itemrouterfiltercomposite"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B9EE8A00649A8D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:masterroutingnode"
+					}
+					type: "item"
+				}
+				{
+					id: "4C18A2B5A7CA258A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:itemroutingnode"
+					}
+					type: "item"
+				}
+				{
+					id: "5F2116606D5FA3AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:noderouter"
+					}
+					type: "item"
+				}
+			]
+			title: "Blood Logistics"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6CE0DB1AEB597BCE"]
+			id: "4FA2BB65ED1D6A03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446E856F612B8915"
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "59DA2354D9E99CAE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:demoncrystallizer"
+					}
+					type: "item"
+				}
+				{
+					id: "180D6F495021D467"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:demoncrucible"
+					}
+					type: "item"
+				}
+				{
+					id: "322F951E34FAFA9C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:demonpylon"
+					}
+					type: "item"
+				}
+			]
+			title: "Aura Farming"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["209C0E2550C84C69"]
+			description: ["A better blood orb. Be careful, though, as a blood orb belonging to you will pull from your own life essence, regardless of who is using it."]
+			id: "3913EED76917339E"
+			rewards: [{
+				count: 4
+				id: "42EA347D9A07D7D8"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01731E058A1CDC1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:magicianbloodorb"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "Arcane Flesh"
+}

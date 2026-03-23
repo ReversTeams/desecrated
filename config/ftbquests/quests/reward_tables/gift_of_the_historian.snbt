@@ -1,0 +1,27 @@
+{
+	id: "120ECCBA82958E80"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "vampirism:blood_bottle"
+				tag: {
+					Damage: 8
+				}
+			}
+		}
+	]
+	title: "Gift of the Historian"
+}

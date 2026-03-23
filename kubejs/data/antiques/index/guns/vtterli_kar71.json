@@ -1,0 +1,14 @@
+{
+    
+    "name": "Vetterli Kavallerie M1871",
+   
+    "display": "antiques:vtterli_kar71_display",
+
+    "data": "antiques:vtterli_kar71_data",
+   
+    "type": "rifle",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 17
+}

@@ -1,0 +1,14 @@
+{
+    
+    "name": "Vetterli Repertiergewehr M1869-71",
+   
+    "display": "antiques:vtterli69_71_display",
+
+    "data": "antiques:vtterli69_71_data",
+   
+    "type": "rifle",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 16
+}

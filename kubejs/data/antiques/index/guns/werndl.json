@@ -1,0 +1,14 @@
+{
+    
+    "name": "Werndl Infanteriegewehr 1867/77",
+   
+    "display": "antiques:werndl_display",
+
+    "data": "antiques:werndl_data",
+   
+    "type": "rifle",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 18
+}

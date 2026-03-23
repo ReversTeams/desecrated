@@ -1,0 +1,14 @@
+[
+    {
+        "name": "safe_time",
+        "conditions": {
+            "maxdaycount": 7
+        }
+    },
+    {
+        "name": "day7",
+        "conditions": {
+            "mindaycount": 7
+        }
+    }
+]

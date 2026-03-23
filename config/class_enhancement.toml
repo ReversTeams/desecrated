@@ -1,0 +1,2504 @@
+
+#General Settings
+[general]
+	#If true, disables the built-in classes (Warrior, Ranger, Tank, Civilian) so only custom classes are available.
+	disableDefaultClasses = true
+
+#UI Text Configuration
+[ui]
+	#Text displayed on the Undo button.
+	undoButtonText = "UNDO"
+	#Text displayed on the Confirm button.
+	confirmButtonText = "CONFIRM SELECTION"
+	#Scale modifier for the Class Selection GUI (1.0 = Default size, 1.5 = 50% larger).
+	guiScale = 1.0
+	#Number of custom class slots (1-100). Restart required.
+	#Range: 1 ~ 100
+	customClassSlots = 6
+
+#Built-In Class Settings.
+[classes]
+
+	[classes.warrior]
+		#Display name shown in GUI.
+		name = "Knight"
+		#Lore text. Supports '&' color codes.
+		description = "Born to swing a sword."
+		#Cosmetic stat lines.
+		stats = ["&a+2 Damage", "&a+2 Health", "&c-20% Speed"]
+		#Stat modifiers.
+		attributes = ["minecraft:generic.attack_damage=2.0", "minecraft:generic.max_health=2.0", "minecraft:generic.movement_speed=-0.20:multiply_base"]
+		#Item to equip in Main Hand. Format: modid:item{nbt}=count
+		main_hand = "minecraft:stone_sword=1"
+		#Item to equip in Off Hand. Format: modid:item{nbt}=count
+		off_hand = "minecraft:shield=1"
+		#Items to equip in Armor slots. Format: modid:item{nbt}=count
+		armor = []
+		#Items to place in Inventory. Format: modid:item{nbt}=count
+		items = []
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[classes.ranger]
+		#Display name shown in GUI.
+		name = "Ranged"
+		#Lore text. Supports '&' color codes.
+		description = "You are quick with your movements, sharp with your shots."
+		#Cosmetic stat lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Stat modifiers.
+		attributes = ["minecraft:generic.movement_speed=0.20:multiply_base", "minecraft:generic.max_health=-2.0"]
+		#Item to equip in Main Hand. Format: modid:item{nbt}=count
+		main_hand = "minecraft:bow=1"
+		#Item to equip in Off Hand. Format: modid:item{nbt}=count
+		off_hand = ""
+		#Items to equip in Armor slots. Format: modid:item{nbt}=count
+		armor = []
+		#Items to place in Inventory. Format: modid:item{nbt}=count
+		items = ["minecraft:arrow=32"]
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[classes.tank]
+		#Display name shown in GUI.
+		name = "Tank"
+		#Lore text. Supports '&' color codes.
+		description = "Born slightly larger than average, you are able to take more damage."
+		#Cosmetic stat lines.
+		stats = ["&a+10 Health", "&c-15% Speed"]
+		#Stat modifiers.
+		attributes = ["minecraft:generic.max_health=10.0", "minecraft:generic.movement_speed=-0.15:multiply_base", "minecraft:generic.knockback_resistance=0.5"]
+		#Item to equip in Main Hand. Format: modid:item{nbt}=count
+		main_hand = ""
+		#Item to equip in Off Hand. Format: modid:item{nbt}=count
+		off_hand = ""
+		#Items to equip in Armor slots. Format: modid:item{nbt}=count
+		armor = ["minecraft:iron_chestplate=1"]
+		#Items to place in Inventory. Format: modid:item{nbt}=count
+		items = []
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[classes.none]
+		#Display name shown in GUI.
+		name = "Civilian"
+		#Lore text. Supports '&' color codes.
+		description = "No stat changes. You were born without any talent at all."
+		#Cosmetic stat lines.
+		stats = ["&7No stat changes."]
+		#Stat modifiers.
+		attributes = []
+		#Item to equip in Main Hand. Format: modid:item{nbt}=count
+		main_hand = ""
+		#Item to equip in Off Hand. Format: modid:item{nbt}=count
+		off_hand = ""
+		#Items to equip in Armor slots. Format: modid:item{nbt}=count
+		armor = []
+		#Items to place in Inventory. Format: modid:item{nbt}=count
+		items = ["minecraft:bread=5"]
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+#Custom Class Slots. Configure your own classes below. Set 'id' to enable a slot. Only the first N slots (set by customClassSlots) will be loaded.
+[custom_classes]
+
+	[custom_classes.custom_0]
+		#Unique internal ID. Leave empty to disable.
+		id = "exile"
+		#Display name shown in GUI.
+		name = "Noble Exile"
+		#Lore text shown in the panel.
+		description = "An exiled noble vampire having escaped the calamities of Red Barar's fall."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire", "&a+10% Strength"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = "asr:ender_giant_sword"
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = ["minecraft:leather_chestplate"]
+		#Starting items.
+		items = ["vampiresneedumbrellas:gold_umbrella"]
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_1]
+		#Unique internal ID. Leave empty to disable.
+		id = "vine"
+		#Display name shown in GUI.
+		name = "Sanguine of Vine"
+		#Lore text shown in the panel.
+		description = "A noble vampire of the Vine Sanguine faction, specializing in nature."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire", "&a+10% Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_2]
+		#Unique internal ID. Leave empty to disable.
+		id = "iron"
+		#Display name shown in GUI.
+		name = "Sanguine of Iron"
+		#Lore text shown in the panel.
+		description = "A noble vampire of the Iron Sanguine faction, accustomed to the arms."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire", "&a+10% Knockback Resistance"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = "asr:iron_giant_sword"
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = ["minecraft:leather_chestplate"]
+		#Starting items.
+		items = ["asr_gilded_iron_shield"]
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_3]
+		#Unique internal ID. Leave empty to disable.
+		id = "yore"
+		#Display name shown in GUI.
+		name = "Scholar of Yore"
+		#Lore text shown in the panel.
+		description = "A noble vampire studying the arcane blood arts of the past."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire", "&a+10% Speed"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_4]
+		#Unique internal ID. Leave empty to disable.
+		id = "artificer"
+		#Display name shown in GUI.
+		name = "Crimson Artificer"
+		#Lore text shown in the panel.
+		description = "A noble vampire engineering new capabilities with flesh and meat."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire", "&a+10% Armour"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = ["vampiresneedumbrellas:iron_umbrella"]
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_5]
+		#Unique internal ID. Leave empty to disable.
+		id = "outcast"
+		#Display name shown in GUI.
+		name = "Sanguine Outcast"
+		#Lore text shown in the panel.
+		description = "A traveller."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = ["vampiresneedumbrellas:gold_umbrella", "usefulbackpacks:backpack_small", "minecraft:beef=18", "simplytents:zip_tent"]
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_6]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_7]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_8]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_9]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_10]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_11]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_12]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_13]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_14]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_15]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_16]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_17]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_18]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_19]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_20]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_21]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_22]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_23]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_24]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_25]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_26]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_27]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_28]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_29]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_30]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_31]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_32]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_33]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_34]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_35]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_36]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_37]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_38]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_39]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_40]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_41]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_42]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_43]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_44]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_45]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_46]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_47]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_48]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_49]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_50]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_51]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_52]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_53]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_54]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_55]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_56]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_57]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_58]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_59]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_60]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_61]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_62]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_63]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_64]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_65]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_66]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_67]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_68]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_69]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_70]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_71]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_72]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_73]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_74]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_75]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_76]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_77]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_78]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_79]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_80]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_81]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_82]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_83]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_84]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_85]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_86]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_87]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_88]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_89]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_90]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_91]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_92]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_93]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_94]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_95]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_96]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_97]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_98]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_99]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI.
+		name = "New Class"
+		#Lore text shown in the panel.
+		description = "A custom path."
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers.
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+

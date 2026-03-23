@@ -1,0 +1,14 @@
+{
+    
+    "name": "Beaumont Infanterij-Geweer M71",
+   
+    "display": "antiques:beaum71_display",
+
+    "data": "antiques:beaum71_data",
+   
+    "type": "rifle",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 12
+}

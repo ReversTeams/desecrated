@@ -1,0 +1,50 @@
+[
+  {
+    "hostile": true,
+    "area": "spawn",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "hostile": true,
+    "when": "onjoin",
+    "spawntype": [
+      "mob_summoned",
+      "spawn_egg"
+    ],
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "simpleenemymod:pmcunit",
+      "simpleenemymod:ruunit",
+      "simpleenemymod:usunit"
+    ],
+    "phase": "safe_time",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "simpleenemymod:pmcunit",
+      "simpleenemymod:ruunit",
+      "simpleenemymod:usunit"
+    ],
+    "phase": "day7",
+    "when": "onjoin",
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "simpleenemymod:pmcunit",
+      "simpleenemymod:ruunit",
+      "simpleenemymod:usunit"
+    ],
+    "mincount": {
+      "amount": 16,
+      "mod": "simpleenemymod",
+      "perplayer": true
+    },
+    "result": "deny"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 22
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 9
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "antiques:vtterli69_71"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

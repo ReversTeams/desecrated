@@ -1,0 +1,290 @@
+{
+	autofocus_id: "5D4499D4254102B7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_flesh_revolution"
+	group: "3C87A675DA0E75AE"
+	icon: "butchery:meat_grinder"
+	id: "2184A92FC4DCEBD9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7522632161D258AA"
+				"63F1C9A1095AEC1E"
+			]
+			id: "34B4063F2F210048"
+			tasks: [
+				{
+					id: "16CC4292384CCDAE"
+					item: "vampirism:blood_sieve"
+					type: "item"
+				}
+				{
+					id: "483E724FFCF303D1"
+					item: "vampirism:blood_grinder"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5D4499D4254102B7"]
+			id: "623C14C05294EFCC"
+			tasks: [
+				{
+					id: "5A75F1E5A4383EA7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butchery:rope"
+								}
+								{
+									Count: 1b
+									id: "butchery:hook"
+								}
+							]
+						}
+					}
+					title: "Hanging Rope or Hook and Chain"
+					type: "item"
+				}
+				{
+					id: "5AEDDE562E9EFDF1"
+					item: "minecraft:chain"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "vampiresdelight:blood_wine_bottle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D4499D4254102B7"
+			rewards: [{
+				count: 3
+				id: "23E162B7C1D9BAC6"
+				item: "vampiresdelight:blood_wine_glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50A384161E70ECA3"
+				stat: "minecraft:mob_kills"
+				title: "End Another Being's Life"
+				type: "stat"
+				value: 1
+			}]
+			title: "Culinary Elegance"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["623C14C05294EFCC"]
+			id: "63F1C9A1095AEC1E"
+			tasks: [{
+				id: "5EA973AFC3ADC54F"
+				item: "butchery:meat_grinder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["623C14C05294EFCC"]
+			dependency_requirement: "one_started"
+			id: "7522632161D258AA"
+			tasks: [{
+				id: "272AFA21F258B742"
+				item: "butchery:blood_grate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["623C14C05294EFCC"]
+			id: "5B9F02CB6F9F9342"
+			tasks: [{
+				id: "4419A2EBC4B6B12B"
+				item: "butchery:skin_rack"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7522632161D258AA"]
+			id: "230591732D1998E3"
+			tasks: [{
+				id: "3DF3439A1F8A025E"
+				item: "butchery:pestle_and_mortar"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7522632161D258AA"]
+			id: "4C54DFACCDB8E8E0"
+			tasks: [
+				{
+					id: "0B0269E12AE0EF89"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butchery:metal_butchers_table"
+								}
+								{
+									Count: 1b
+									id: "butchery:birch_butchers_table"
+								}
+								{
+									Count: 1b
+									id: "butchery:crimson_butchers_table"
+								}
+								{
+									Count: 1b
+									id: "butchery:dark_oak_butchers_table"
+								}
+								{
+									Count: 1b
+									id: "butchery:jungle_butchers_table"
+								}
+								{
+									Count: 1b
+									id: "butchery:spruce_butchers_table"
+								}
+								{
+									Count: 1b
+									id: "butchery:warped_butchers_table"
+								}
+								{
+									Count: 1b
+									id: "butchery:oak_butchers_table"
+								}
+							]
+						}
+					}
+					title: "Any Butcher's Table"
+					type: "item"
+				}
+				{
+					id: "4EA929E61B37F7A8"
+					item: "butchery:metal_tray"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5D4499D4254102B7"]
+			id: "1A04E17C449CBCF1"
+			rewards: [{
+				id: "51CEF6F8EE97639F"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "butchery:butchers_guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E1FEC769AB14559"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "butchery:bone_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "butchery:copper_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "butchery:iron_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "butchery:gold_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "butchery:diamond_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "butchery:netherite_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Cleaver"
+				type: "item"
+			}]
+			title: "Cleaver"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A04E17C449CBCF1"]
+			id: "4B4FD1712575D3F8"
+			tasks: [{
+				id: "02EB7D5B60635CE8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "butchery:scrappable"
+					}
+				}
+				title: "Any #butchery:scrappable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "Flesh Industries"
+}

@@ -1,13 +1,84 @@
 {
-  "config_version": "2.0.14",
-  "config_datetime": "2026-01-23_22-48-27",
+  "config_version": "2.0.19",
+  "config_datetime": "2026-03-21_20-21-16",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
-    "enable_global_spacing_and_separation_modifier": false,
-    "global_spacing_and_separation_modifier": 1.0
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.7
   },
-  "structure_namespaces": [],
+  "structure_namespaces": [
+    {
+      "name": "minecraft",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": false,
+      "min_distance_from_world_center": 50,
+      "max_distance_from_world_center": 50
+    }
+  ],
   "structures": [],
-  "structure_sets": []
+  "structure_sets": [
+    {
+      "spacing": 26,
+      "separation": 19,
+      "name": "integrated_villages:regular_villages",
+      "is_disabled": false,
+      "salt": 1982700828,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "integrated_villages:clockwork_village": 1,
+        "integrated_villages:tavern_village": 1,
+        "integrated_villages:marketstead_village": 1,
+        "integrated_villages:quark/minka_village": 1,
+        "integrated_villages:mediterranean_village": 1,
+        "integrated_villages:pirate_village": 1,
+        "integrated_villages:kutcha_village": 1,
+        "integrated_villages:oasis_village": 1,
+        "integrated_villages:cabin_village": 1,
+        "integrated_villages:sunken_village": 1,
+        "integrated_villages:mossy_mounds": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "minecraft:villages",
+      "is_disabled": false,
+      "salt": 10387312,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "minecraft:village_snowy": 1,
+        "minecraft:village_plains": 1,
+        "minecraft:village_taiga": 1,
+        "minecraft:village_savanna": 1,
+        "minecraft:village_desert": 1
+      }
+    },
+    {
+      "spacing": 14,
+      "separation": 6,
+      "name": "perdition:scintillating_gateway",
+      "is_disabled": false,
+      "salt": 266853446,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "perdition:scintillating_gateway": 1
+      }
+    },
+    {
+      "spacing": 12,
+      "separation": 6,
+      "name": "perdition:tau_cross",
+      "is_disabled": false,
+      "salt": 266890446,
+      "frequency": 0.8,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "perdition:tau_cross": 1
+      }
+    }
+  ]
 }

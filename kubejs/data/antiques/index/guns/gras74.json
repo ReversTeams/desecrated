@@ -1,0 +1,14 @@
+{
+    
+    "name": "Fusil Gras mle 1866-74",
+   
+    "display": "antiques:gras74_display",
+
+    "data": "antiques:gras74_data",
+   
+    "type": "rifle",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 13
+}

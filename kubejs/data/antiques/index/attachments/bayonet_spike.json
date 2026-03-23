@@ -1,0 +1,6 @@
+{
+  "name": "Spike Bayonet",
+  "display": "antiques:bayonet_spike_display",
+  "data": "antiques:bayonet_spike_data",
+  "type": "muzzle"
+}
