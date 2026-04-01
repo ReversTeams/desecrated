@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thedulling:interfold_dulling_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 27,
+    "separation": 15,
+    "salt": 543532586
+  }
+}

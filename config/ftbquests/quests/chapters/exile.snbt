@@ -226,6 +226,11 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"Two months after the fall of the Queendom of Red Barar. I was lucky to escape the calamity unscathed, albeit my power still remains low and hunters roam the land. They are on my trail. I may not have much longer to write these words."
+				""
+				"To whoever finds this book, do know I am the last of a decimated nobility that once served the Blood Queen. Yes, a noble sanguine. By the time you have read this, we may all have fallen into the abyss of history."
+			]
 			hide_dependent_lines: true
 			icon: "concatenatedadditionsartefacts:karma_tome"
 			id: "19AC0B8C0B44FA30"
@@ -234,6 +239,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
+			subtitle: "The Fall of Red Barar"
 			tasks: [{
 				id: "2A014AA040A2E5D2"
 				stat: "minecraft:walk_one_cm"
@@ -259,14 +266,16 @@
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
 			id: "416FA3E84EDBA716"
+			size: 1.1d
 			tasks: [{
 				advancement: "vampirism:vampire/first_blood"
 				criterion: ""
 				id: "3D33A033E9874AEF"
 				type: "advancement"
 			}]
+			title: "Sanguine Nutrition"
 			x: 2.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["416FA3E84EDBA716"]
@@ -285,7 +294,7 @@
 				weak_nbt_match: true
 			}]
 			x: 2.0d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
@@ -414,9 +423,9 @@
 		}
 		{
 			description: [
-				"The shield is a key defensive piece of equipment, ideal for blocking ranged attacks and melee hits. Although the base one might be enough for many, it's still possible to upgrade it."
+				"As I am still wounded and lack a significant fraction of my original vitality. While my skin is still as though as armour, I am in need of better temporary protection. A crude shield will do nicely."
 				""
-				"The giant swords have a similar ability, being large enough to block hits, but to a much lesser degree."
+				"I much rather prefer opting for the more elegant solution of blocking with a sword. While these giant swords are brutish, they shall do for now."
 			]
 			hide_dependent_lines: true
 			id: "36F8661C6E0C53D8"
@@ -425,130 +434,187 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "5DD9F690DA3B804F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "5DD9F690DA3B804F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "minecraft:shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "asr:wooden_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "asr:stone_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "asr:iron_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "asr:diamond_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "asr:netherquartz_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "asr:skull_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "asr:ender_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
 						}
 					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "minecraft:shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:wooden_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:stone_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:iron_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:diamond_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:netherquartz_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:skull_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:ender_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
+					title: "Any Shield"
+					type: "item"
+					weak_nbt_match: true
 				}
-				title: "Any Shield"
-				type: "item"
-				weak_nbt_match: true
-			}]
+				{
+					id: "63711DC142F017EC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "asr:wooden_giant_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "asr:stone_giant_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "asr:golden_giant_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "asr:iron_giant_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "asr:diamond_giant_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "asr:ender_giant_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Basic Giant Sword"
+					type: "item"
+				}
+			]
 			title: "Giant Swords and Shields"
-			x: 2.4999999999999996d
-			y: -3.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			description: [
-				"The backpack is ideal for all of your storage needs on your person. I've had to hunt many cows and chase around sheep for several days to be able to fit all of the trinkets I found on my travels."
+				"I unfortunately no longer have servants in my possessions to carry my luggage for me. How saddening. These backpacks carry a handful of items on my person, which is clearly not enough for my grandeur. I should look to expand it soon."
 				""
-				"Simply equip it on your back &a(and open it with the default keybind being B)&r&f."
+				"&a(Backpacks can be placed in the back curio slot and opened with a keybind defaulted to B.)"
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -586,7 +652,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
@@ -1048,7 +1114,19 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"How painful! The rays of the sun weaken me significantly. My power has waned considerably, thus the sun does not turn me to ash. I am still very much uncomfortable during the day and this will only grow."
+				""
+				"A hat is not enough to shield my body from the light. An umbrella is elegant enough while being as large as me. I should have escaped with my grandfather's relic umbrella. It was infinitely durable and even more stylish. Alas, I must make my own umbrella with a puny iron, gold, or diamond rod."
+			]
 			id: "7B878C2A6814469E"
+			rewards: [{
+				count: 4
+				id: "14614BEA37F94501"
+				item: "minecraft:black_wool"
+				type: "item"
+			}]
+			subtitle: "Taste the Sun"
 			tasks: [{
 				id: "278AB333DE705B93"
 				item: {
@@ -1169,7 +1247,7 @@
 			}]
 			title: "Sun Umbrellas"
 			x: 3.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
@@ -1180,7 +1258,62 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -7.5d
+			y: -7.0d
+		}
+		{
+			id: "12443A5AB3AC5B9B"
+			rewards: [{
+				id: "5CE7117CBB98DB8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"Spell 0": "hlspells:sonic_boom"
+							currentSpellCycle: 0
+							spellsSize: 1
+						}
+					}
+					id: "hlspells:spell_book"
+					tag: {
+						Damage: 63
+						castBar: 0.0d
+						currentCastTime: 0.0d
+						spellHolder: {
+							"Spell 0": "hlspells:sonic_boom"
+							currentSpellCycle: 0
+							spellsSize: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DFC3665CC2D39F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"Spell 0": "hlspells:sonic_boom"
+							currentSpellCycle: 0
+							spellsSize: 1
+						}
+					}
+					id: "hlspells:spell_book"
+					tag: {
+						Damage: 63
+						castBar: 0.0d
+						currentCastTime: 0.0d
+						spellHolder: {
+							"Spell 0": "hlspells:sonic_boom"
+							currentSpellCycle: 0
+							spellsSize: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
 		}
 	]
 	title: "Fallen"

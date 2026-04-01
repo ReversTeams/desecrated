@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:armageddon",
+  "display": {
+    "icon": { "item": "thedulling:dullnode" },
+    "title": { "text": "Nobody Nodes" },
+    "description": { "text": "Destroy a Dull Node and obtain its core." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_node_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:node_core"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_node_core"]
+  ]
+}

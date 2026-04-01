@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "item": "thedulling:remains" },
+    "title": { "text": "The Dulling" },
+    "description": {
+      "text": "Welcome to The Dulling. To begin, travel to 0, 0, 0. It is recommended that you progress to diamond equipment before this."
+    },
+    "background": "thedulling:textures/block/dullstone2.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlocked": { "trigger": "minecraft:impossible" }
+  },
+  "requirements": [
+    ["unlocked"]
+  ]
+}

@@ -1,28 +1,28 @@
 {
- "pack.antiques.antiques.name": "Relics and antiques"
- "pack.antiques.antiques.desc": "Good 'Ol Black Powder"
+ "pack.antiques.antiques.name": "Relics and antiques",
+ "pack.antiques.antiques.desc": "Good 'Ol Black Powder",
  
  "antiques.attachment.bayonet_spike.name": "Spike Bayonet",
- "antiques.attachment.bayonet_epee.name": "1874 Epee Bayonet" 
- "antiques.attachment.bayonet_1867.name": "M.1867 Bayonet"  
- "antiques.attachment.bayonet_sg1871.name": "Seitengewehr Mod. 71"  
+ "antiques.attachment.bayonet_epee.name": "Granian Bayonet" ,
+ "antiques.attachment.bayonet_1867.name": "Gold Barar Bayonet",
+ "antiques.attachment.bayonet_sg1871.name": "Varelian Bayonet" , 
 
- "antiques.ammo.11mm_dutch.name": "M71 Patroon Scherp"
- "antiques.ammo.11mm_gras.name": "Mle 1879 Vernie"
- "antiques.ammo.11mm_werndl.name": "M77 Scharfe Patrone"
- "antiques.ammo.11mm_mauser.name": "Reichspatrone M1871" 
- "antiques.ammo.41_swiss.name": "Scharf Patrone 67"
- "antiques.ammo.106x25.name": "10.6 German Ordnance"
- "antiques.ammo.104_swiss.name": "10.4 Swiss Ordnance"
+ "antiques.ammo.11mm_dutch.name": "M71 Patroon Scherp",
+ "antiques.ammo.11mm_gras.name": "Mle 1879 Vernie",
+ "antiques.ammo.11mm_werndl.name": "M77 Scharfe Patrone",
+ "antiques.ammo.11mm_mauser.name": "Reichspatrone M1871" ,
+ "antiques.ammo.41_swiss.name": "Scharf Patrone 67",
+ "antiques.ammo.106x25.name": "10.6 German Ordnance",
+ "antiques.ammo.104_swiss.name": "10.4 Swiss Ordnance",
 
- "antiques.gun.beaum71.name": "Beaumont Infanterij-Geweer M71"
- "antiques.gun.gras74.name": "Fusil Gras mle 1866-74"
- "antiques.gun.gras_arti.name": "Mousquetoon Gras d'artillerie mle 1866-74"
- "antiques.gun.werndl.name": "Werndl Infanteriegewehr 1867/77"
- "antiques.gun.gew71.name": "Mauser Gewehr M1871" 
- "antiques.gun.kar71.name": "Mauser Karabiner M1871"  
- "antiques.gun.vtterli_kar71.name": "Vetterli Kavallerie M1871"
- "antiques.gun.vtterli69_71.name": "Vetterli Repertiergewehr M1869-71"
- "antiques.gun.reichs79.name": "M1879 Reichsrevolver"
- "antiques.gun.swiss78.name": "Revolver 1878"
+ "antiques.gun.beaum71.name": "Bellelune M87",
+ "antiques.gun.gras74.name": "Andesier 74",
+ "antiques.gun.gras_arti.name": "Andesier-ARTI 74I",
+ "antiques.gun.werndl.name": "Spear of Light",
+ "antiques.gun.gew71.name": "VAR71" ,
+ "antiques.gun.kar71.name": "VAR-K71"  ,
+ "antiques.gun.vtterli_kar71.name": "R2K Scharf",
+ "antiques.gun.vtterli69_71.name": "R2 713",
+ "antiques.gun.reichs79.name": "R19 Black Eagle",
+ "antiques.gun.swiss78.name": "R2-18 Forte"
 }

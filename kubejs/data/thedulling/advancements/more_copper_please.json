@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:copper_squared",
+  "display": {
+    "icon": { "item": "thedulling:ultra_dense_copper_ingot" },
+    "title": { "text": "Waiter! More Copper Please!" },
+    "description": { "text": "Craft an Ultra Dense Copper Ingot. I think that's enough now." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ultra_dense_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:ultra_dense_copper_ingot"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_ultra_dense_copper"]
+  ]
+}

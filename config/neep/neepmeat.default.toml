@@ -76,4 +76,3 @@ drillChassisMaxComplexity = 16
 	# Maximum number of blocks that can be part of a single Power Flower
 	# default: 160
 	maxBlocks = 160
-

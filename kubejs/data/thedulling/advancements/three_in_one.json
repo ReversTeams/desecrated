@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:carmilla",
+  "display": {
+    "icon": { "item": "thedulling:composite_gold_ingot" },
+    "title": { "text": "Three in One" },
+    "description": { "text": "Craft a Composite Gold Ingot." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_composite_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:composite_gold_ingot"] }
+        ]
+      }
+    }
+  }
+}

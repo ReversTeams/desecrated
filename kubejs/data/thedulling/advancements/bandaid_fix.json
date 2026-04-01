@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:book_of_life",
+  "display": {
+    "icon": { "item": "thedulling:sacreligious_core" },
+    "title": { "text": "Bandaid Fix" },
+    "description": { "text": "Craft a replacement Sacreligious Core, it will stop Dull Missionaries from spawning naturally when placed. That won't fully defeat the infection, though." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_sacreligious_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:sacreligious_core"] }
+        ]
+      }
+    }
+  }
+}

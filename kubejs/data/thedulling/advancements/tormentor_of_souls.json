@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:a_terrifying_fortress",
+  "display": {
+    "icon": { "item": "thedulling:stygian_scythe" },
+    "title": { "text": "Tormentor of Souls" },
+    "description": { "text": "Slay the Praefectus, an unholy wretch of the darkness that fuels its power through the souls of ancient Enchanters." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_praefectus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "thedulling:praefectus"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["killed_praefectus"]
+  ]
+}

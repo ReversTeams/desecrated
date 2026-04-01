@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:quiet_gardens",
+  "display": {
+    "icon": { "item": "thedulling:dullspore" },
+    "title": { "text": "Is it really a \"stone infection\" at this point?" },
+    "description": { "text": "Obtain Dullspores, an endgame crafting material. Don't let the Zealots catch you breaking the bloom." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dullspore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:dullspore"] }
+        ]
+      }
+    }
+  }
+}

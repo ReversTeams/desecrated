@@ -1,0 +1,24 @@
+{
+  "parent": "thedulling:skyfaller",
+  "display": {
+    "icon": { "item": "thedulling:swardstone" },
+    "title": { "text": "Quiet Gardens" },
+    "description": { "text": "Climb to the highest reaches of the Dulling's Heart, and see a paradise not meant for your kind." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entered_blooming_dulling_biome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "thedulling:blooming_dulling"
+          }
+        }
+      }
+    }
+  }
+}

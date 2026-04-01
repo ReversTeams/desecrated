@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:demigone",
+  "display": {
+    "icon": { "item": "thedulling:twilight" },
+    "title": { "text": "Book of The Cosmos" },
+    "description": { "text": "Acquire Twilight, a tome capable of reviving a dying sun." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_twilight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:twilight"] }
+        ]
+      }
+    }
+  }
+}

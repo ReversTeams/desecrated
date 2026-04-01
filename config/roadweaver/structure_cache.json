@@ -831,6 +831,14 @@
       ]
     },
     {
+      "id": "hexalia:herbalist_hut",
+      "displayName": "Herbalist Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "integrated_stronghold:stronghold",
       "displayName": "Stronghold",
       "isVanilla": false,
@@ -1652,7 +1660,9 @@
       "id": "vampirism:crypt",
       "displayName": "Crypt",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "vampirism:hunter_camp",
@@ -1690,13 +1700,17 @@
       "id": "vampirism:hunter_outpost_vampire_forest",
       "displayName": "Hunter Outpost Vampire Forest",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "vampirism:mother",
       "displayName": "Mother",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "vampirism:vampire_altar",
@@ -1710,7 +1724,9 @@
       "id": "vampirism:vampire_hut",
       "displayName": "Vampire Hut",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     }
   ],
   "tags": [

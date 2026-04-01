@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thedulling:incredible_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 46,
+    "salt": 1723743676
+  }
+}

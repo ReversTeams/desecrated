@@ -1,0 +1,27 @@
+{
+  "parent": "thedulling:last_sanctuary",
+  "display": {
+    "icon": { "item": "thedulling:angelic_tenebrite" },
+    "title": { "text": "A Terrifying Fortress" },
+    "description": { "text": "Discover a Dark Fortress." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entered_dark_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "thedulling:dark_fortress"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["entered_dark_fortress"]
+  ]
+}

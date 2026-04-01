@@ -1,0 +1,23 @@
+{
+  "parent": "thedulling:sun_eater",
+  "display": {
+    "icon": { "item": "thedulling:divine_crystal" },
+    "title": { "text": "Demi-Gone" },
+    "description": { "text": "Defeat a Demigod, gaining the means to reverse a Solar Eclipse." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_demigod": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "thedulling:demigod" }
+      }
+    }
+  },
+  "requirements": [
+    ["killed_demigod"]
+  ]
+}

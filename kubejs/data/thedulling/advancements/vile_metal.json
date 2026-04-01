@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:sunshine",
+  "display": {
+    "icon": { "item": "thedulling:shadow_steel" },
+    "title": { "text": "Vile Metal" },
+    "description": { "text": "Craft Shadow Steel." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_shadow_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:shadow_steel"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_shadow_steel"]
+  ]
+}

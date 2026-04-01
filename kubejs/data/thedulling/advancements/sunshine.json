@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:belly_of_the_beast",
+  "display": {
+    "icon": { "item": "thedulling:cosmic_ember" },
+    "title": { "text": "You were my Sunshine..." },
+    "description": { "text": "Acquire a piece of a dead sun." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_cosmic_ember": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:cosmic_ember"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_cosmic_ember"]
+  ]
+}

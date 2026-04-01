@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:armageddon",
+  "display": {
+    "icon": { "item": "thedulling:ancient_enchantment_core" },
+    "title": { "text": "Big Booty" },
+    "description": { "text": "Slay a Dulling Raid Boss and take its treasure." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ancient_enchantment_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:ancient_enchantment_core"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_ancient_enchantment_core"]
+  ]
+}

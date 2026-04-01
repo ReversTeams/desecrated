@@ -3,18 +3,9 @@
 [general]
 	#If true, disables the built-in classes (Warrior, Ranger, Tank, Civilian) so only custom classes are available.
 	disableDefaultClasses = true
-
-#UI Text Configuration
-[ui]
-	#Text displayed on the Undo button.
-	undoButtonText = "UNDO"
-	#Text displayed on the Confirm button.
-	confirmButtonText = "CONFIRM SELECTION"
-	#Scale modifier for the Class Selection GUI (1.0 = Default size, 1.5 = 50% larger).
-	guiScale = 1.0
 	#Number of custom class slots (1-100). Restart required.
 	#Range: 1 ~ 100
-	customClassSlots = 6
+	customClassSlots = 10
 
 #Built-In Class Settings.
 [classes]
@@ -112,7 +103,7 @@
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Strength"]
 		#Mechanical modifiers.
-		attributes = []
+		attributes = ["minecraft:generic.attack_damage=20.0"]
 		#Main hand item.
 		main_hand = "asr:ender_giant_sword"
 		#Off hand item.
@@ -128,17 +119,17 @@
 
 	[custom_classes.custom_1]
 		#Unique internal ID. Leave empty to disable.
-		id = "vine"
+		id = "yore"
 		#Display name shown in GUI.
-		name = "Sanguine of Vine"
+		name = "Scholar of Yore"
 		#Lore text shown in the panel.
-		description = "A noble vampire of the Vine Sanguine faction, specializing in nature."
+		description = "A noble vampire studying the arcane blood arts of the past."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&a+10% Health"]
+		stats = ["&aVampire", "&a+10% Speed"]
 		#Mechanical modifiers.
-		attributes = []
+		attributes = ["minecraft:generic.movement_speed=10.10:multiply_base"]
 		#Main hand item.
-		main_hand = ""
+		main_hand = "bloodyhell:sacrificial_dagger"
 		#Off hand item.
 		off_hand = "minecraft:lantern"
 		#Armor items.
@@ -152,54 +143,6 @@
 
 	[custom_classes.custom_2]
 		#Unique internal ID. Leave empty to disable.
-		id = "iron"
-		#Display name shown in GUI.
-		name = "Sanguine of Iron"
-		#Lore text shown in the panel.
-		description = "A noble vampire of the Iron Sanguine faction, accustomed to the arms."
-		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&a+10% Knockback Resistance"]
-		#Mechanical modifiers.
-		attributes = []
-		#Main hand item.
-		main_hand = "asr:iron_giant_sword"
-		#Off hand item.
-		off_hand = "minecraft:lantern"
-		#Armor items.
-		armor = ["minecraft:leather_chestplate"]
-		#Starting items.
-		items = ["asr_gilded_iron_shield"]
-		#Item ID for the class icon.
-		icon = "minecraft:paper"
-		#Commands to execute when this class is selected. Use %player% for player name.
-		commands = ["/vampirism level vampirism:vampire 1 %player%"]
-
-	[custom_classes.custom_3]
-		#Unique internal ID. Leave empty to disable.
-		id = "yore"
-		#Display name shown in GUI.
-		name = "Scholar of Yore"
-		#Lore text shown in the panel.
-		description = "A noble vampire studying the arcane blood arts of the past."
-		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&a+10% Speed"]
-		#Mechanical modifiers.
-		attributes = []
-		#Main hand item.
-		main_hand = ""
-		#Off hand item.
-		off_hand = "minecraft:lantern"
-		#Armor items.
-		armor = []
-		#Starting items.
-		items = []
-		#Item ID for the class icon.
-		icon = "minecraft:paper"
-		#Commands to execute when this class is selected. Use %player% for player name.
-		commands = ["/vampirism level vampirism:vampire 1 %player%"]
-
-	[custom_classes.custom_4]
-		#Unique internal ID. Leave empty to disable.
 		id = "artificer"
 		#Display name shown in GUI.
 		name = "Crimson Artificer"
@@ -208,7 +151,7 @@
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Armour"]
 		#Mechanical modifiers.
-		attributes = []
+		attributes = ["minecraft:generic.armor=20.0"]
 		#Main hand item.
 		main_hand = ""
 		#Off hand item.
@@ -216,9 +159,57 @@
 		#Armor items.
 		armor = []
 		#Starting items.
-		items = ["vampiresneedumbrellas:iron_umbrella"]
+		items = ["mininggadgets:mininggadget_simple{energy:480000}", "ultimine_addition:miner_certificate", "concatenatedadditionsfood:spicy_drop=16", "vampiresneedumbrellas:iron_umbrella"]
 		#Item ID for the class icon.
 		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_3]
+		#Unique internal ID. Leave empty to disable.
+		id = "vine"
+		#Display name shown in GUI.
+		name = "Sanguine of Vine"
+		#Lore text shown in the panel.
+		description = "A noble vampire of the Vine Sanguine faction, specializing in nature."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire", "&a+10% Health"]
+		#Mechanical modifiers.
+		attributes = ["minecraft:generic.max_health=20.0"]
+		#Main hand item.
+		main_hand = "hexalia:athame"
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = ["hexalia:purifying_sac", "hexalia:foul_sac=6", "hexalia:frost_sac=6"]
+		#Item ID for the class icon.
+		icon = "hexalia:athame"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_4]
+		#Unique internal ID. Leave empty to disable.
+		id = "iron"
+		#Display name shown in GUI.
+		name = "Sanguine of Iron"
+		#Lore text shown in the panel.
+		description = "A noble vampire of the Iron Sanguine faction, accustomed to the arms."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire", "&a+10% Knockback Resistance"]
+		#Mechanical modifiers.
+		attributes = ["minecraft:generic.knockback_resistance=10.20:multiply_base"]
+		#Main hand item.
+		main_hand = "asr:iron_giant_sword"
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = ["minecraft:chainmail_chestplate", "minecraft:chainmail_leggings"]
+		#Starting items.
+		items = ["asr_gilded_iron_shield"]
+		#Item ID for the class icon.
+		icon = "minecraft:iron_ingot"
 		#Commands to execute when this class is selected. Use %player% for player name.
 		commands = ["/vampirism level vampirism:vampire 1 %player%"]
 
@@ -242,7 +233,7 @@
 		#Starting items.
 		items = ["vampiresneedumbrellas:gold_umbrella", "usefulbackpacks:backpack_small", "minecraft:beef=18", "simplytents:zip_tent"]
 		#Item ID for the class icon.
-		icon = "minecraft:paper"
+		icon = "usefulbackpacks:backpack_small"
 		#Commands to execute when this class is selected. Use %player% for player name.
 		commands = ["/vampirism level vampirism:vampire 1 %player%"]
 

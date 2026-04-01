@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:armageddon",
+  "display": {
+    "icon": { "item": "thedulling:living_music_disc" },
+    "title": { "text": "Jammin" },
+    "description": { "text": "Acquire a Living Music Disc." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_living_music_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:living_music_disc"] }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "thedulling:winter_wonderland",
+  "display": {
+    "icon": { "item": "minecraft:powder_snow_bucket" },
+    "title": { "text": "A Cold, Dead, World." },
+    "description": { "text": "Enter the Lost Interfold. It was once beautiful, until the Dulling destroyed everything." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_lost_interfold": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "thedulling:lost_interfold"
+      }
+    }
+  },
+  "requirements": [
+    ["enter_lost_interfold"]
+  ]
+}

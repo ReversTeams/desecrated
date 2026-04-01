@@ -1,0 +1,15 @@
+
+["HLSpells Config"]
+	#Should the spells use experience?
+	spellsUseXP = false
+	#Should the spells only be obtainable from loot?
+	lootOnlyMode = false
+	#Should summoned entities from spells be able to attack players?
+	summonsAttackPlayers = true
+	#List of mobs which should take extra damage from aqua bolt
+	fireMobsList = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:enderman"]
+	#List of mobs which do not get damaged by the Lightning III spell
+	lightningSpellList = []
+	#Lists of mobs which are immune to repel and lure spell
+	sapientMobsList = ["minecraft:villager", "minecraft:pillager", "minecraft:evoker", "minecraft:illusioner", "minecraft:vindicator", "minecraft:piglin_brute", "minecraft:piglin"]
+

@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:tormentor_of_souls",
+  "display": {
+    "icon": { "item": "thedulling:ancient_enchanted_book" },
+    "title": { "text": "Absolute Power." },
+    "description": { "text": "Merge two over-max enchanted books into an Ancient Enchanted Book using the Omega Altar." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ancient_enchanted_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:ancient_enchanted_book"] }
+        ]
+      }
+    }
+  }
+}

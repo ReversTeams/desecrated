@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:potential_ritualist",
+  "display": {
+    "icon": { "item": "thedulling:ritual_core" },
+    "title": { "text": "Official Ritualist" },
+    "description": { "text": "Craft a Ritual Core." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ritual_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:ritual_core"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_ritual_core"]
+  ]
+}

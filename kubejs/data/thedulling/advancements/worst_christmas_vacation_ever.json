@@ -1,0 +1,23 @@
+{
+  "parent": "thedulling:a_cold_dead_world",
+  "display": {
+    "icon": { "item": "thedulling:black_ice_shard" },
+    "title": { "text": "Worst Christmas Vacation Ever." },
+    "description": { "text": "Escape the Lost Interfold." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leave_lost_interfold": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "thedulling:lost_interfold"
+      }
+    }
+  },
+  "requirements": [
+    ["leave_lost_interfold"]
+  ]
+}

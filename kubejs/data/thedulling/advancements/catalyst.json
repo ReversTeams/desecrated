@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:heart_of_stone",
+  "display": {
+    "icon": { "item": "thedulling:catalyst" },
+    "title": { "text": "Catalyst" },
+    "description": { "text": "Craft or find a Catalyst. You'll need a lot of them." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_catalyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:catalyst"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_catalyst"]
+  ]
+}

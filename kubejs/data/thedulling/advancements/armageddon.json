@@ -1,0 +1,18 @@
+{
+  "parent": "thedulling:root",
+  "display": {
+    "icon": { "item": "thedulling:sacreligious_core" },
+    "title": { "text": "Armageddon" },
+    "description": { "text": "The horrors of the Dull Church have rediscovered your world." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlocked": { "trigger": "minecraft:impossible" }
+  },
+  "requirements": [
+    ["unlocked"]
+  ]
+}

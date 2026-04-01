@@ -1,0 +1,27 @@
+{
+  "parent": "thedulling:a_cold_dead_world",
+  "display": {
+    "icon": { "item": "thedulling:ancient_flesh_block" },
+    "title": { "text": "Fading away" },
+    "description": { "text": "Discover one of the last Gorelick camps in the Gorescape." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entered_gorelick_settlement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "thedulling:gorelick_settlement"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["entered_gorelick_settlement"]
+  ]
+}

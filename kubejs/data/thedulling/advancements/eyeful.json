@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:root",
+  "display": {
+    "icon": { "item": "thedulling:gaze_rod" },
+    "title": { "text": "Eyeful" },
+    "description": { "text": "Obtain a Gaze Rod from the nether." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_gaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:gaze_rod"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_gaze_rod"]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:belly_of_the_beast",
+  "display": {
+    "icon": { "item": "thedulling:starstricken_flesh" },
+    "title": { "text": "Remember the Goremother" },
+    "description": { "text": "Take back the stolen flesh of a desecrated goddess." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_starstricken_flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:starstricken_flesh"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_starstricken_flesh"]
+  ]
+}

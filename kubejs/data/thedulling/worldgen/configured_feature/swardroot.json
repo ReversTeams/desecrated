@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 24,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "thedulling:swardstone"
+          }
+        },
+        "state": {
+          "Name": "thedulling:swardroot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "thedulling:bloomstone"
+          }
+        },
+        "state": {
+          "Name": "thedulling:swardroot"
+        }
+      }
+    ]
+  }
+}

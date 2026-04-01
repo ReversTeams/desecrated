@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:blockenheimer",
+  "display": {
+    "icon": { "item": "thedulling:radiant_alloy" },
+    "title": { "text": "Radiance" },
+    "description": { "text": "Craft Radiant Alloy." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_radiant_alloy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:radiant_alloy"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_radiant_alloy"]
+  ]
+}

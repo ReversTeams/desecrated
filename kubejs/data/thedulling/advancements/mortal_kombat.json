@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:a_cold_dead_world",
+  "display": {
+    "icon": { "item": "thedulling:grieving_hook" },
+    "title": { "text": "Insert Mortal Kombat reference here" },
+    "description": { "text": "Craft a Grieving Hook." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_grieving_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:grieving_hook"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_grieving_hook"]
+  ]
+}

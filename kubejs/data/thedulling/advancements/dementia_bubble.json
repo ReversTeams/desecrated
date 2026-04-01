@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:a_cold_dead_world",
+  "display": {
+    "icon": { "item": "thedulling:memory" },
+    "title": { "text": "Dementia Bubble" },
+    "description": { "text": "Obtain a memory from the Lost Interfold's shadow creatures." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_memory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:memory"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_memory"]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "thedulling:cats_out_of_the_bag",
+  "display": {
+    "icon": { "item": "thedulling:yvxshard" },
+    "title": { "text": "Acid Trip" },
+    "description": { "text": "Consume the Apple of Truth and gain the means to remove a Stain's invulnerability. Was it even real?" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "exit_yvxzlight": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "thedulling:yvxzlight"
+      }
+    }
+  },
+  "requirements": [
+    ["exit_yvxzlight"]
+  ]
+}

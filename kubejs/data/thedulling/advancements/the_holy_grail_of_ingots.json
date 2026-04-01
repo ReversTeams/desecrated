@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:three_in_one",
+  "display": {
+    "icon": { "item": "thedulling:sacred_bronze_ingot" },
+    "title": { "text": "The Holy Grail of Ingots" },
+    "description": { "text": "Craft Sacred Bronze, one of the rarest and strongest alloys to exist. How pitiful that the Dulling can craft such wonders, yet indulges only in destruction..." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_sacred_bronze_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:sacred_bronze_ingot"] }
+        ]
+      }
+    }
+  }
+}

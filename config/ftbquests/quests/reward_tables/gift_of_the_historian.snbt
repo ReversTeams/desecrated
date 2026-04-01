@@ -1,7 +1,7 @@
 {
 	id: "120ECCBA82958E80"
 	loot_size: 1
-	order_index: 0
+	order_index: 1
 	rewards: [
 		{
 			item: {

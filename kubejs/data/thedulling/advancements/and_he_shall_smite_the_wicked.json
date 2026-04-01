@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:skyfaller",
+  "display": {
+    "icon": { "item": "thedulling:sky_splitter" },
+    "title": { "text": "And he shall smite the wicked..." },
+    "description": { "text": "Craft the Sky Splitter, a legendary axe." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_sky_splitter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:sky_splitter"] }
+        ]
+      }
+    }
+  }
+}

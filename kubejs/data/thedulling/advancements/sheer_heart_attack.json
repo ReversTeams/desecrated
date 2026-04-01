@@ -1,0 +1,20 @@
+{
+  "parent": "thedulling:quiet_gardens",
+  "display": {
+    "icon": { "item": "thedulling:zealot_core" },
+    "title": { "text": "Sheer Heart Attack" },
+    "description": { "text": "Kill a Blooming Zealot, a powerful protector of the Gardens." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_blooming_zealot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "thedulling:blooming_zealot" }
+      }
+    }
+  }
+}

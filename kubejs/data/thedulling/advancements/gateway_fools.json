@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:devastation",
+  "display": {
+    "icon": { "item": "thedulling:heart_of_the_dulling" },
+    "title": { "text": "Key to the Gateway of Fools" },
+    "description": { "text": "Defeat the dreaded Devastator and claim the Dulling Chunk." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_heart_of_the_dulling_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:heart_of_the_dulling"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_heart_of_the_dulling_item"]
+  ]
+}

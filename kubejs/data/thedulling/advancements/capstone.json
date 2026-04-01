@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:absolute_power",
+  "display": {
+    "icon": { "item": "thedulling:ancient_reactor" },
+    "title": { "text": "Capstone" },
+    "description": { "text": "Craft an Ancient Reactor, the first step in applying Ancient Enchantments to your items." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ancient_reactor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:ancient_reactor"] }
+        ]
+      }
+    }
+  }
+}

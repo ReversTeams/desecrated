@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:armageddon",
+  "display": {
+    "icon": { "item": "thedulling:basic_core" },
+    "title": { "text": "Heart of Stone" },
+    "description": { "text": "Obtain the core of a basic Dulling unit." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_basic_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:basic_core"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_basic_core"]
+  ]
+}

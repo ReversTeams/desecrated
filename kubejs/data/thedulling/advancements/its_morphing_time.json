@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:eyeful",
+  "display": {
+    "icon": { "item": "thedulling:raw_entropite" },
+    "title": { "text": "It's Morphing Time" },
+    "description": { "text": "Obtain Entropite from the End." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_raw_entropite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:raw_entropite"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_raw_entropite"]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "has_precipitation": false,
+  "temperature": 0,
+  "downfall": 0,
+  "effects": {
+    "ambient_sound": "thedulling:dullambience",
+    "particle": { "options": { "type": "mycelium" }, "probability": 0.05 },
+    "foliage_color": -11120840,
+    "grass_color": -11120840,
+    "sky_color": -16777216,
+    "fog_color": -11120840,
+    "water_color": -16777216,
+    "water_fog_color": -16777216
+  },
+  "spawners": {
+    "monster": [{ "type": "lightning_bolt", "weight": 8, "minCount": 1, "maxCount": 1 }],
+    "creature": [], "ambient": [], "axolotls": [], "underground_water_creature": [],
+    "water_creature": [], "water_ambient": [], "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": ["minecraft:cave", "minecraft:cave_extra_underground", "minecraft:canyon"]
+  },
+  "features": [
+    [],                                           // 0 raw_generation
+    [],         								  // 1 lakes
+    [],                                           // 2 local_modifications
+    ["minecraft:fossil_upper","minecraft:fossil_lower"], // 3 underground_structures
+    [],                                           // 4 surface_structures
+    [],                                           // 5 (reserved)
+    [],
+    [ "thedulling:blocky_hanging_pillars_placed" ], // 7 underground_decoration  ✅
+    [],                                           // 8 vegetal_decoration
+    [],                                           // 9 top_layer_modification
+    []                                            // 10 (extra slot some packs include)
+  ]
+}

@@ -1,2541 +1,571 @@
 
 ["General Settings"]
-	#Enable the 'Try Linggango Modpack' message on the difficulty selection screen.
-	enableAdvertisement = false
-	#Order of difficulties in the GUI (by ID). Any unlisted IDs will appear at the bottom.
-	difficultyOrder = ["cozy", "normal", "extreme", "torture"]
-	#Scale modifier for the Difficulty Selection GUI (1.0 = Default size, 1.5 = 50% larger, etc.).
-	guiScale = 1.0
-
-["Difficulty Stats"]
-	#HP Multiplier for Cozy Mode. Multiplies the player's max health (e.g. 0.7 = 70% HP).
-	cozyHpMultiplier = 0.5
-	#HP Multiplier for Extreme Mode. Multiplies the player's max health (e.g., 3.0 = 3x HP).
-	extremeHpMultiplier = 3.0
-	#HP Multiplier for Torture Mode. Multiplies the player's max health (e.g., 6.0 = 6x HP).
-	tortureHpMultiplier = 6.0
-	#Damage Reduction Multiplier for Cozy Mode. Multiplies incoming damage (e.g., 1.0 = 100% damage, 0.5 = 50% damage).
-	cozyDmgMultiplier = 0.5
-	#Damage Taken Multiplier for Extreme Mode. Multiplies incoming damage (e.g., 3.0 = 3x damage taken).
-	extremeDmgMultiplier = 3.0
-	#Damage Taken Multiplier for Torture Mode. Multiplies incoming damage (e.g., 6.0 = 6x damage taken).
-	tortureDmgMultiplier = 6.0
-	#Mining Speed Multiplier for Cozy Mode. Increases how fast you break blocks (e.g., 1.3 = 30% faster).
-	cozyMiningSpeedMultiplier = 1.3
-	#Fall Damage Multiplier for Extreme Mode. Increases damage taken from falling.
-	extremeFallDmgMultiplier = 2.0
-	#Fall Damage Multiplier for Torture Mode. Increases damage taken from falling.
-	tortureFallDmgMultiplier = 3.0
-
-[Mechanics]
-	#Enable 'Vengeful AI': Animals and Villagers will attack the player if provoked.
-	enableVengefulAi = true
-	#Movement speed multiplier for Vengeful animals when chasing the player.
-	vengefulSpeed = 1.15
-	#Enable 'Crippling' effect: High fall damage or attacks can slow and weaken the player.
-	enableCrippling = true
-	#Chance to apply Crippling effect on hit/fall (0.0 to 1.0, where 0.2 = 20%).
-	cripplingChance = 0.2
-	#Enable 'Bleeding' effect: Chance to receive Wither effect when hit.
-	enableBleeding = false
-	#Chance to apply Bleeding effect on hit (0.0 to 1.0, where 0.1 = 10%).
-	bleedChance = 0.1
-	#Amount of hunger exhaustion applied to the player when hit in Torture mode.
-	exhaustionAmount = 0.5
-	#Amount of HP mobs heal when hitting the player in Torture mode (Vengeful AI only).
-	lifestealAmount = 2.0
-	#Enable extended underwater breath in Cozy Mode.
-	enableCozyBreath = true
-	#Ticks between restoring 1 air bubble in Cozy Mode (Higher = Slower refill). Default 4 gives ~30% more breath.
-	cozyBreathTick = 4
-	#Enable passive health regeneration in Cozy Mode.
-	enableCozyRegen = true
-	#Ticks between passive heals in Cozy Mode (20 ticks = 1 second). Default 100 = 5 seconds.
-	cozyRegenSpeed = 100
-	#Amount of HP to heal per tick interval in Cozy Mode (1.0 = half heart).
-	cozyRegenAmount = 1.0
-
-["Localization / Customization"]
-	#Display name for Cozy Mode in the selection menu.
-	cozyName = "Easy"
-	#Display name for Regular Mode in the selection menu.
-	normalName = "Normal"
-	#Display name for Extreme Mode in the selection menu.
-	extremeName = "Hard"
-	#Display name for Torture Mode in the selection menu.
-	tortureName = "Nightmare"
-	#Recommendation text for Cozy Mode.
-	cozyRecommendation = "Recommended for players that want a cozy, harmless gameplay."
-	#Recommendation text for Regular Mode.
-	normalRecommendation = "Recommended for casual & new players"
-	#Recommendation text for Extreme Mode.
-	extremeRecommendation = "Recommended for players that want challenge"
-	#Recommendation text for Torture Mode.
-	tortureRecommendation = "Recommended for professionals, the best players!"
-
-["Default Difficulty Colors"]
-	#Custom Colors for built-in difficulties (Use hex format like '#FF0000'. Leave blank to use defaults)
-	normalBgColor = ""
-	normalAccentColor = ""
-	cozyBgColor = ""
-	cozyAccentColor = ""
-	extremeBgColor = ""
-	extremeAccentColor = ""
-	tortureBgColor = ""
-	tortureAccentColor = ""
+	#Enable vengeful AI (animals/villagers fight back)
+	enableVengefulAI = true
+	#Movement speed for vengeful mobs
+	#Range: 0.1 ~ 5.0
+	vengefulSpeed = 1.2
 
 ["Custom Difficulties"]
-	#Number of custom difficulty slots (1-50). Restart required to apply amount changes.
-	#Range: 1 ~ 50
+	#Number of custom difficulty slots (max 10)
+	#Range: 0 ~ 10
 	customDifficultySlots = 10
+	#Order of difficulties in the menu
+	difficultyOrder = ["cozy", "normal", "extreme", "torture"]
 
-	["Custom Difficulties".custom_0]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 0"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_0 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_0 = "Custom 0"
+		#Description (use \n for line breaks)
+		description_0 = "Custom difficulty 0"
+		#Recommendation text
+		recommendation_0 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_0 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_0 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_0 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_0 = 1.0
+		#Enable bleeding
+		enableBleeding_0 = false
+		#Enable crippling
+		enableCrippling_0 = false
+		#Enable vengeful AI
+		enableVengefulAi_0 = false
+		#Enable health regeneration
+		enableRegen_0 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_0 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_0 = 0.0
+		#Background color (hex)
+		bgColor_0 = "#07070F"
+		#Accent color (hex)
+		accentColor_0 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_0 = ""
+		#Select sound (resource location)
+		selectSound_0 = ""
+		#Confirm sound (resource location)
+		confirmSound_0 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_0 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_0.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_0.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_1]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 1"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_1 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_1 = "Custom 1"
+		#Description (use \n for line breaks)
+		description_1 = "Custom difficulty 1"
+		#Recommendation text
+		recommendation_1 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_1 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_1 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_1 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_1 = 1.0
+		#Enable bleeding
+		enableBleeding_1 = false
+		#Enable crippling
+		enableCrippling_1 = false
+		#Enable vengeful AI
+		enableVengefulAi_1 = false
+		#Enable health regeneration
+		enableRegen_1 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_1 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_1 = 0.0
+		#Background color (hex)
+		bgColor_1 = "#07070F"
+		#Accent color (hex)
+		accentColor_1 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_1 = ""
+		#Select sound (resource location)
+		selectSound_1 = ""
+		#Confirm sound (resource location)
+		confirmSound_1 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_1 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_1.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_1.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_2]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 2"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_2 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_2 = "Custom 2"
+		#Description (use \n for line breaks)
+		description_2 = "Custom difficulty 2"
+		#Recommendation text
+		recommendation_2 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_2 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_2 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_2 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_2 = 1.0
+		#Enable bleeding
+		enableBleeding_2 = false
+		#Enable crippling
+		enableCrippling_2 = false
+		#Enable vengeful AI
+		enableVengefulAi_2 = false
+		#Enable health regeneration
+		enableRegen_2 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_2 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_2 = 0.0
+		#Background color (hex)
+		bgColor_2 = "#07070F"
+		#Accent color (hex)
+		accentColor_2 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_2 = ""
+		#Select sound (resource location)
+		selectSound_2 = ""
+		#Confirm sound (resource location)
+		confirmSound_2 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_2 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_2.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_2.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_3]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 3"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_3 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_3 = "Custom 3"
+		#Description (use \n for line breaks)
+		description_3 = "Custom difficulty 3"
+		#Recommendation text
+		recommendation_3 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_3 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_3 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_3 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_3 = 1.0
+		#Enable bleeding
+		enableBleeding_3 = false
+		#Enable crippling
+		enableCrippling_3 = false
+		#Enable vengeful AI
+		enableVengefulAi_3 = false
+		#Enable health regeneration
+		enableRegen_3 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_3 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_3 = 0.0
+		#Background color (hex)
+		bgColor_3 = "#07070F"
+		#Accent color (hex)
+		accentColor_3 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_3 = ""
+		#Select sound (resource location)
+		selectSound_3 = ""
+		#Confirm sound (resource location)
+		confirmSound_3 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_3 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_3.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_3.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_4]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 4"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_4 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_4 = "Custom 4"
+		#Description (use \n for line breaks)
+		description_4 = "Custom difficulty 4"
+		#Recommendation text
+		recommendation_4 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_4 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_4 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_4 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_4 = 1.0
+		#Enable bleeding
+		enableBleeding_4 = false
+		#Enable crippling
+		enableCrippling_4 = false
+		#Enable vengeful AI
+		enableVengefulAi_4 = false
+		#Enable health regeneration
+		enableRegen_4 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_4 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_4 = 0.0
+		#Background color (hex)
+		bgColor_4 = "#07070F"
+		#Accent color (hex)
+		accentColor_4 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_4 = ""
+		#Select sound (resource location)
+		selectSound_4 = ""
+		#Confirm sound (resource location)
+		confirmSound_4 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_4 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_4.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_4.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_5]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 5"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_5 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_5 = "Custom 5"
+		#Description (use \n for line breaks)
+		description_5 = "Custom difficulty 5"
+		#Recommendation text
+		recommendation_5 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_5 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_5 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_5 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_5 = 1.0
+		#Enable bleeding
+		enableBleeding_5 = false
+		#Enable crippling
+		enableCrippling_5 = false
+		#Enable vengeful AI
+		enableVengefulAi_5 = false
+		#Enable health regeneration
+		enableRegen_5 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_5 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_5 = 0.0
+		#Background color (hex)
+		bgColor_5 = "#07070F"
+		#Accent color (hex)
+		accentColor_5 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_5 = ""
+		#Select sound (resource location)
+		selectSound_5 = ""
+		#Confirm sound (resource location)
+		confirmSound_5 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_5 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_5.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_5.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_6]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 6"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_6 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_6 = "Custom 6"
+		#Description (use \n for line breaks)
+		description_6 = "Custom difficulty 6"
+		#Recommendation text
+		recommendation_6 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_6 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_6 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_6 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_6 = 1.0
+		#Enable bleeding
+		enableBleeding_6 = false
+		#Enable crippling
+		enableCrippling_6 = false
+		#Enable vengeful AI
+		enableVengefulAi_6 = false
+		#Enable health regeneration
+		enableRegen_6 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_6 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_6 = 0.0
+		#Background color (hex)
+		bgColor_6 = "#07070F"
+		#Accent color (hex)
+		accentColor_6 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_6 = ""
+		#Select sound (resource location)
+		selectSound_6 = ""
+		#Confirm sound (resource location)
+		confirmSound_6 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_6 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_6.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_6.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_7]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 7"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_7 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_7 = "Custom 7"
+		#Description (use \n for line breaks)
+		description_7 = "Custom difficulty 7"
+		#Recommendation text
+		recommendation_7 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_7 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_7 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_7 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_7 = 1.0
+		#Enable bleeding
+		enableBleeding_7 = false
+		#Enable crippling
+		enableCrippling_7 = false
+		#Enable vengeful AI
+		enableVengefulAi_7 = false
+		#Enable health regeneration
+		enableRegen_7 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_7 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_7 = 0.0
+		#Background color (hex)
+		bgColor_7 = "#07070F"
+		#Accent color (hex)
+		accentColor_7 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_7 = ""
+		#Select sound (resource location)
+		selectSound_7 = ""
+		#Confirm sound (resource location)
+		confirmSound_7 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_7 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_7.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_7.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_8]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 8"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_8 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_8 = "Custom 8"
+		#Description (use \n for line breaks)
+		description_8 = "Custom difficulty 8"
+		#Recommendation text
+		recommendation_8 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
+		uiTheme_8 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_8 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_8 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_8 = 1.0
+		#Enable bleeding
+		enableBleeding_8 = false
+		#Enable crippling
+		enableCrippling_8 = false
+		#Enable vengeful AI
+		enableVengefulAi_8 = false
+		#Enable health regeneration
+		enableRegen_8 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_8 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_8 = 0.0
+		#Background color (hex)
+		bgColor_8 = "#07070F"
+		#Accent color (hex)
+		accentColor_8 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_8 = ""
+		#Select sound (resource location)
+		selectSound_8 = ""
+		#Confirm sound (resource location)
+		confirmSound_8 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_8 = []
 
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_8.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_8.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_9]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
+	["Custom Difficulties"."Custom Difficulty 9"]
+		#Unique ID for this difficulty (leave empty to disable)
+		id_9 = ""
 		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
+		name_9 = "Custom 9"
+		#Description (use \n for line breaks)
+		description_9 = "Custom difficulty 9"
+		#Recommendation text
+		recommendation_9 = ""
+		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
 		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_9.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_9.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_10]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_10.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_10.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_11]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_11.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_11.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_12]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_12.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_12.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_13]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_13.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_13.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_14]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_14.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_14.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_15]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_15.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_15.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_16]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_16.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_16.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_17]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_17.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_17.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_18]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_18.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_18.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_19]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_19.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_19.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_20]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_20.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_20.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_21]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_21.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_21.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_22]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_22.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_22.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_23]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_23.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_23.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_24]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_24.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_24.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_25]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_25.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_25.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_26]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_26.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_26.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_27]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_27.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_27.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_28]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_28.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_28.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_29]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_29.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_29.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_30]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_30.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_30.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_31]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_31.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_31.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_32]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_32.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_32.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_33]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_33.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_33.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_34]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_34.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_34.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_35]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_35.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_35.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_36]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_36.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_36.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_37]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_37.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_37.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_38]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_38.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_38.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_39]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_39.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_39.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_40]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_40.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_40.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_41]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_41.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_41.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_42]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_42.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_42.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_43]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_43.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_43.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_44]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_44.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_44.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_45]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_45.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_45.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_46]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_46.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_46.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_47]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_47.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_47.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_48]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_48.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_48.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
-
-	["Custom Difficulties".custom_49]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name
-		name = "Custom Mode"
-		#Lore text shown in the panel. Use \n for new lines.
-		description = "- Custom Stats"
-		#Recommendation text.
-		recommendation = "Recommended for custom modpacks."
-		#UI Theme: 0=Green (Normal), 1=Aqua (Cozy), 2=Orange (Extreme), 3=Red (Torture)
-		#Range: 0 ~ 3
-		uiTheme = 0
-		#HP Multiplier
-		hpMultiplier = 1.0
-		#Damage Taken Multiplier
-		dmgMultiplier = 1.0
-		#Fall Damage Multiplier
-		fallDmgMultiplier = 1.0
-		#Enable Bleeding
-		enableBleeding = false
-		#Enable Crippling
-		enableCrippling = false
-		#Enable Vengeful AI
-		enableVengefulAi = false
-		#Enable Passive Regen
-		enableRegen = false
-		#Mob Lifesteal Amount
-		lifestealAmount = 0.0
-		#Exhaustion Amount on Hit
-		exhaustionAmount = 0.0
-		#Commands to run automatically when this difficulty is confirmed. Use %player% for the player's name.
-		commands = ["give %player% minecraft:diamond 1", "say %player% chose a custom difficulty!"]
-
-		#Custom Colors (Use hex format like '#FF0000'. Leave blank to use uiTheme default colors)
-		["Custom Difficulties".custom_49.colors]
-			#Background color of the difficulty button.
-			bgColor = ""
-			#Accent color of the button (the colored strip at the start, borders, highlights, particles).
-			accentColor = ""
-
-		#Sound Customization (Uses standard Minecraft sound event locations, e.g., 'minecraft:ui.button.click'. Leave blank for defaults.)
-		["Custom Difficulties".custom_49.sounds]
-			#Sound played when hovering over the difficulty.
-			hoverSound = "minecraft:ui.button.click"
-			#Sound played when selecting (clicking) the difficulty.
-			selectSound = "minecraft:entity.experience_orb.pickup"
-			#Sound played when confirming the difficulty.
-			confirmSound = "minecraft:entity.player.levelup"
+		uiTheme_9 = 0
+		#HP multiplier
+		#Range: 0.1 ~ 10.0
+		hpMultiplier_9 = 1.0
+		#Damage multiplier
+		#Range: 0.1 ~ 10.0
+		dmgMultiplier_9 = 1.0
+		#Fall damage multiplier
+		#Range: 0.1 ~ 10.0
+		fallDmgMultiplier_9 = 1.0
+		#Enable bleeding
+		enableBleeding_9 = false
+		#Enable crippling
+		enableCrippling_9 = false
+		#Enable vengeful AI
+		enableVengefulAi_9 = false
+		#Enable health regeneration
+		enableRegen_9 = false
+		#Lifesteal for hostile mobs
+		#Range: 0.0 ~ 20.0
+		lifestealAmount_9 = 0.0
+		#Exhaustion per hit
+		#Range: 0.0 ~ 10.0
+		exhaustionAmount_9 = 0.0
+		#Background color (hex)
+		bgColor_9 = "#07070F"
+		#Accent color (hex)
+		accentColor_9 = "#D4A843"
+		#Hover sound (resource location)
+		hoverSound_9 = ""
+		#Select sound (resource location)
+		selectSound_9 = ""
+		#Confirm sound (resource location)
+		confirmSound_9 = ""
+		#Commands to execute when selected (use %player% for player name)
+		commands_9 = []
+
+["Normal Difficulty"]
+	#Display name for Normal difficulty
+	normalName = "Normal"
+	#Recommendation text for Normal difficulty
+	normalRecommendation = "Recommended for first-time players"
+	#Background color for Normal (hex)
+	normalBgColor = "#07070F"
+	#Accent color for Normal (hex)
+	normalAccentColor = "#D4A843"
+
+["Extreme Difficulty"]
+	#Display name for Extreme difficulty
+	extremeName = "Hard"
+	#Recommendation text for Extreme difficulty
+	extremeRecommendation = "For experienced players seeking a challenge"
+	#HP multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	extremeHpMultiplier = 2.0
+	#Damage multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	extremeDmgMultiplier = 1.5
+	#Background color for Extreme (hex)
+	extremeBgColor = "#0F0A05"
+	#Accent color for Extreme (hex)
+	extremeAccentColor = "#FF8833"
+
+["Torture Difficulty"]
+	#Display name for Torture difficulty
+	tortureName = "Nightmare"
+	#Recommendation text for Torture difficulty
+	tortureRecommendation = "Only for masochists. You've been warned."
+	#HP multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	tortureHpMultiplier = 3.0
+	#Damage multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	tortureDmgMultiplier = 2.0
+	#Enable bleeding effect
+	enableBleeding = true
+	#Enable crippling effect
+	enableCrippling = true
+	#Lifesteal amount for hostile mobs
+	#Range: 0.0 ~ 20.0
+	lifestealAmount = 1.0
+	#Exhaustion added to player on hit
+	#Range: 0.0 ~ 10.0
+	exhaustionAmount = 0.5
+	#Background color for Torture (hex)
+	tortureBgColor = "#100505"
+	#Accent color for Torture (hex)
+	tortureAccentColor = "#FF3333"
+
+["Cozy Difficulty"]
+	#Display name for Cozy difficulty
+	cozyName = "Easy"
+	#Recommendation text for Cozy difficulty
+	cozyRecommendation = "For a relaxing, stress-free experience"
+	#HP multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	cozyHpMultiplier = 0.5
+	#Damage multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	cozyDmgMultiplier = 0.5
+	#Enable passive health regeneration
+	enableCozyRegen = true
+	#Ticks between regeneration (lower = faster)
+	#Range: 1 ~ 1200
+	cozyRegenSpeed = 40
+	#Health restored per regeneration tick
+	#Range: 0.1 ~ 20.0
+	cozyRegenAmount = 0.5
+	#Background color for Cozy (hex)
+	cozyBgColor = "#050F0F"
+	#Accent color for Cozy (hex)
+	cozyAccentColor = "#55FFFF"
 

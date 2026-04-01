@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:book_of_life",
+  "display": {
+    "icon": { "item": "thedulling:apostasy" },
+    "title": { "text": "Book of Death" },
+    "description": { "text": "Use Sacred Incense to unbind the power of Heresy, creating the ultimate act of treason against the Dull Church." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_apostasy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:apostasy"] }
+        ]
+      }
+    }
+  }
+}

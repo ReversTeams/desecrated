@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:catalyst",
+  "display": {
+    "icon": { "item": "thedulling:conjuring_catalyst" },
+    "title": { "text": "Bring me to Life" },
+    "description": { "text": "Craft a Conjuring Catalyst, allowing you to create your own automatic turret." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_conjuring_catalyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:conjuring_catalyst"] }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:sun_eater",
+  "display": {
+    "icon": { "item": "thedulling:celestial_diamond" },
+    "title": { "text": "Perfect Equilibrium" },
+    "description": { "text": "Craft a Celestial Diamond, the perfect balance of light and dark stored within a flawless diamond." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_celestial_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:celestial_diamond"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_celestial_diamond"]
+  ]
+}

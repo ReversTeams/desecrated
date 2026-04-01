@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:belly_of_the_beast",
+  "display": {
+    "icon": { "item": "thedulling:carmine_metal" },
+    "title": { "text": "Carmilla" },
+    "description": { "text": "Obtain Carmine Metal." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_carmine_metal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:carmine_metal"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_carmine_metal"]
+  ]
+}

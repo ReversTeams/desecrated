@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:dementia_bubble",
+  "display": {
+    "icon": { "item": "thedulling:eye_of_the_dark_fortress" },
+    "title": { "text": "Last Sanctuary" },
+    "description": { "text": "Craft an Eye to locate a Dark Fortress in the Lost Interfold." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_eye_of_the_dark_fortress": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:eye_of_the_dark_fortress"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_eye_of_the_dark_fortress"]
+  ]
+}

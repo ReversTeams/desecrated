@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "thedulling:dark_fortress",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "strongholds",
+  "terrain_adaptation": "beard_box",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -49
+    },
+    "max_inclusive": {
+      "absolute": -48
+    }
+  },
+  "biomes": [
+    "thedulling:lost_dulling",
+    "thedulling:lost_expanse",
+    "thedulling:forlorn_growth",
+    "thedulling:gorescape"
+  ],
+  "use_expansion_hack": false
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "random_block_match",
+          "block": "minecraft:end_stone",
+          "probability": 0.5
+        },
+        "state": {
+          "Name": "thedulling:endullstone"
+        }
+      }
+    ]
+  }
+}

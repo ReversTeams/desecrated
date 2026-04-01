@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:destroyer_destroyer",
+  "display": {
+    "icon": { "item": "thedulling:destroyer_pickaxe" },
+    "title": { "text": "World Carver" },
+    "description": { "text": "Upgrade a Crusher Pickaxe with a Forgotten Smithing Template and a Destroyer Core." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_destroyer_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:destroyer_pickaxe"] }
+        ]
+      }
+    }
+  }
+}

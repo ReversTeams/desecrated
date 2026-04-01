@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:a_cold_dead_world",
+  "display": {
+    "icon": { "item": "thedulling:ancient_cogwheel" },
+    "title": { "text": "You shall Create no more." },
+    "description": { "text": "Obtain an Ancient Cogwheel, found sealed away in the Dullstone of the Lost Interfold." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ancient_cogwheel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:ancient_cogwheel"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_ancient_cogwheel"]
+  ]
+}

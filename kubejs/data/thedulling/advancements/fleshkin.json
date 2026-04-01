@@ -1,0 +1,18 @@
+{
+  "parent": "thedulling:fading_away",
+  "display": {
+    "icon": { "item": "thedulling:gorelick_gift" },
+    "title": { "text": "Fleshkin" },
+    "description": { "text": "Give a gift to a Gorelick, raising your trust level." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlocked": { "trigger": "minecraft:impossible" }
+  },
+  "requirements": [
+    ["unlocked"]
+  ]
+}

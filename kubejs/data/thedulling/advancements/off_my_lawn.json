@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:blockenheimer",
+  "display": {
+    "icon": { "item": "thedulling:thorium_core" },
+    "title": { "text": "Get off my Lawn!" },
+    "description": { "text": "Craft a Thorium Core to stop the spread of Dullstone." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_thorium_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:thorium_core"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_thorium_core"]
+  ]
+}

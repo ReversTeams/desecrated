@@ -1,0 +1,23 @@
+{
+  "parent": "thedulling:belly_of_the_beast",
+  "display": {
+    "icon": { "item": "thedulling:apple_of_truth" },
+    "title": { "text": "Cat's out of the bag." },
+    "description": { "text": "Find and kill a Dull Priest to take its secret Apple." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_dull_priest": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "thedulling:dull_priest" }
+      }
+    }
+  },
+  "requirements": [
+    ["killed_dull_priest"]
+  ]
+}

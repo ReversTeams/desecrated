@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:armageddon",
+  "display": {
+    "icon": { "item": "thedulling:conforming_ritual" },
+    "title": { "text": "Potential Ritualist" },
+    "description": { "text": "Obtain a Dulling Ritual Tablet." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_any_ritual_tablet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "tag": "thedulling:anyritual" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_any_ritual_tablet"]
+  ]
+}

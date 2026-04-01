@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:a_cold_dead_world",
+  "display": {
+    "icon": { "item": "thedulling:eye_of_devastation" },
+    "title": { "text": "Devastating?" },
+    "description": { "text": "Craft an Eye of Devastation to locate a Devastator Arena." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_eye_of_devastation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:eye_of_devastation"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_eye_of_devastation"]
+  ]
+}

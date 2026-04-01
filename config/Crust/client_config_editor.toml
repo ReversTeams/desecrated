@@ -28,7 +28,7 @@
   # Set this to false to hide the in-game config editor button.
   # You may assign a hotkey to the editor in your options, whether or not you choose to display a button.
   # <Boolean> Valid Values: { true, false }, Default: true
-  pause_menu_button.enabled = true
+  pause_menu_button.enabled = false
 
   # The anchor position for the config editor button. That is, where it should be positioned relative to the screen or
   #   vanilla menu buttons.

@@ -1,0 +1,23 @@
+{
+  "parent": "thedulling:big_booty",
+  "display": {
+    "icon": { "item": "thedulling:dark_remains" },
+    "title": { "text": "Sun Eater" },
+    "description": { "text": "Defeat an Umbraphile, a Centaur-like construct that leeches sunlight to fuel its power." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_umbraphile": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "thedulling:umbraphile" }
+      }
+    }
+  },
+  "requirements": [
+    ["killed_umbraphile"]
+  ]
+}

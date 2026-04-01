@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:root",
+  "display": {
+    "icon": { "item": "thedulling:dense_copper_ingot" },
+    "title": { "text": "Copper²" },
+    "description": { "text": "Craft a Dense Copper Ingot." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dense_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:dense_copper_ingot"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_dense_copper"]
+  ]
+}

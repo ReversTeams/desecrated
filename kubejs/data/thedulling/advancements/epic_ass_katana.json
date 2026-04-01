@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:incredible",
+  "display": {
+    "icon": { "item": "thedulling:phase_cutter" },
+    "title": { "text": "Epic Ass Katana" },
+    "description": { "text": "Craft the Phase Cutter, a legendary sword." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_phase_cutter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:phase_cutter"] }
+        ]
+      }
+    }
+  }
+}

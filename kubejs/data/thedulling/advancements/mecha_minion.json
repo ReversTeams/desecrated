@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:radiance",
+  "display": {
+    "icon": { "item": "thedulling:radiant_ward" },
+    "title": { "text": "Mecha Minion" },
+    "description": { "text": "Craft a Radiant Ward." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_radiant_ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:radiant_ward"] }
+        ]
+      }
+    }
+  }
+}

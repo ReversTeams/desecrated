@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:armageddon",
+  "display": {
+    "icon": { "item": "thedulling:black_ice_shard" },
+    "title": { "text": "Winter Wonderland" },
+    "description": { "text": "Defeat a Dull Missionary and obtain a Black Ice Shard." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_black_ice_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:black_ice_shard"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_black_ice_shard"]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "thedulling:nobody_nodes",
+  "display": {
+    "icon": { "item": "thedulling:forgotten_upgrade_template" },
+    "title": { "text": "Blasphemy!" },
+    "description": { "text": "Defeat a Prophet and claim its valuable treasures." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_prophet": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "thedulling:prophet" }
+      }
+    }
+  }
+}

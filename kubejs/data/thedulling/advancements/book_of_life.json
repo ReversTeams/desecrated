@@ -1,0 +1,22 @@
+{
+  "parent": "thedulling:stone_infection_at_this_point",
+  "display": {
+    "icon": { "item": "thedulling:heresy" },
+    "title": { "text": "Book of Life" },
+    "description": { "text": "Craft Heresy, a powerful tome used to craft items necessary for loosening the Dulling's grasp on your world." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_heresy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:heresy"] }
+        ]
+      }
+    }
+  }
+}

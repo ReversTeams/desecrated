@@ -1,0 +1,20 @@
+{
+  "parent": "thedulling:belly_of_the_beast",
+  "display": {
+    "icon": { "item": "thedulling:skycaller_core" },
+    "title": { "text": "Skyfaller" },
+    "description": { "text": "Defeat the Skycaller, a hulking mass of Bloomstone that protects the sacred gardens above." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_skycaller": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "thedulling:skycaller" }
+      }
+    }
+  }
+}

@@ -3,4 +3,3 @@
 # Modpack developers should probably disable this. Regular users should probably keep it enabled.
 # default: true
 updateDefaultValues = true
-

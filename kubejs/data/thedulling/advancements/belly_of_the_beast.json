@@ -1,0 +1,20 @@
+{
+  "parent": "thedulling:gateway_fools",
+  "display": {
+    "icon": { "item": "thedulling:watchful_dullstone_bricks" },
+    "title": { "text": "Belly of the Beast" },
+    "description": { "text": "Enter the Heart of the Dulling, a place where reality itself bends to the will of the Church. When you're at rock bottom, the only way to go is up!" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_heart_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "thedulling:heart_of_the_dulling"
+      }
+    }
+  }
+}

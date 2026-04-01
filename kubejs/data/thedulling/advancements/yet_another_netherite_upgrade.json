@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:fading_away",
+  "display": {
+    "icon": { "item": "thedulling:verglasteel_upgrade_template" },
+    "title": { "text": "Yet another Netherite upgrade..." },
+    "description": { "text": "Obtain a Verglasteel Upgrade Template either from Gorelick Trading or by defeating a certain boss." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_verglasteel_upgrade_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:verglasteel_upgrade_template"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_verglasteel_upgrade_template"]
+  ]
+}

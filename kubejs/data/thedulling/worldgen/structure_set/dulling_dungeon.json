@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thedulling:dulling_dungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 8,
+    "salt": 1412512319
+  }
+}

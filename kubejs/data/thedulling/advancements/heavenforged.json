@@ -1,0 +1,25 @@
+{
+  "parent": "thedulling:sun_eater",
+  "display": {
+    "icon": { "item": "thedulling:cosmic_gold_ingot" },
+    "title": { "text": "Heavenforged" },
+    "description": { "text": "Craft a Cosmic Gold Ingot. Its splendor rivals that of a galaxy." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_cosmic_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["thedulling:cosmic_gold_ingot"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_cosmic_gold_ingot"]
+  ]
+}

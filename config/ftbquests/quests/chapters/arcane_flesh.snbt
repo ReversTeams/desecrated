@@ -881,6 +881,91 @@
 			x: 1.0d
 			y: -1.0d
 		}
+		{
+			id: "445742EA3F278341"
+			tasks: [{
+				id: "6311FD92EC14DC35"
+				item: {
+					Count: 1
+					id: "sons_of_sins:sickle_of_struggle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "3142ECB14BD0600D"
+			tasks: [{
+				id: "0E6A8CA43D458267"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3142ECB14BD0600D"]
+			id: "681EF488E543DB48"
+			tasks: [{
+				id: "493962C65BE3E642"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3142ECB14BD0600D"]
+			id: "1B89069CF6F1DCC1"
+			tasks: [{
+				id: "5166DEFA64452371"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "5EA463A36036C699"
+			tasks: [{
+				id: "02974B87792F75DA"
+				structure: "fracture:flesh_dungeon"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "18228BC1BD391EE8"
+			tasks: [{
+				entity: "fracture:flesh_obelisk"
+				id: "2354B7337C66B41D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "6BC96AC76C36559E"
+			tasks: [{
+				id: "6699CD80BD5C5D0A"
+				structure: "bloodyhell:vespers_hut"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
 	]
 	title: "Arcane Flesh"
 }

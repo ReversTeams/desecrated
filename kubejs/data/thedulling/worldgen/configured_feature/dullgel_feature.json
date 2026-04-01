@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "thedulling:dullgel"
+    },
+    "rim": {
+      "Name": "thedulling:dullrock"
+    },
+    "size": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 9
+      }
+    },
+    "rim_size": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 0,
+        "max_inclusive": 2
+      }
+    }
+  }
+}

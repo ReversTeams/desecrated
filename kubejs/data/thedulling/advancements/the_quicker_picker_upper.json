@@ -1,0 +1,23 @@
+{
+  "parent": "thedulling:acid_trip",
+  "display": {
+    "icon": { "item": "thedulling:stain_fragment" },
+    "title": { "text": "The Quicker Picker Upper" },
+    "description": { "text": "Use a shard of-⟊⟁ꙮ⧫⸸☌-to remove a Stain's blessing of invulnerability, then destroy it for good." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_stain": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "thedulling:stain" }
+      }
+    }
+  },
+  "requirements": [
+    ["killed_stain"]
+  ]
+}

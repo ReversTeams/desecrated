@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thedulling:devastator_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 96,
+    "separation": 72,
+    "salt": 955850164
+  }
+}
