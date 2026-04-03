@@ -96,6 +96,7 @@
 		}
 		{
 			dependencies: ["160D191AAE9B2104"]
+			icon: "vampirism:vampire_orchid"
 			id: "1FB243F8F7DF54A8"
 			tasks: [{
 				id: "29B26AE695813230"
