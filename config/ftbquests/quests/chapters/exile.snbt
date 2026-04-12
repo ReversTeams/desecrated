@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "exile"
 	group: "3C87A675DA0E75AE"
-	icon: "concatenatedadditionsartefacts:karma_tome"
+	icon: "ftbquests:book"
 	id: "599002CA7AE7B666"
 	order_index: 0
 	quest_links: [ ]
@@ -232,7 +232,7 @@
 				"To whoever finds this book, do know I am the last of a decimated nobility that once served the Blood Queen. Yes, a noble sanguine. By the time you have read this, we may all have fallen into the abyss of history."
 			]
 			hide_dependent_lines: true
-			icon: "concatenatedadditionsartefacts:karma_tome"
+			icon: "ftbquests:book"
 			id: "19AC0B8C0B44FA30"
 			rewards: [{
 				id: "655E292614567488"

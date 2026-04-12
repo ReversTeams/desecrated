@@ -279,9 +279,10 @@
 						value: "butchery:scrappable"
 					}
 				}
-				title: "Any #butchery:scrappable"
+				title: "Any scrappable carcass"
 				type: "item"
 			}]
+			title: "Carcasses"
 			x: -2.0d
 			y: -2.0d
 		}

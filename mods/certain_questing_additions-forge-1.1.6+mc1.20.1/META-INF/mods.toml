@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "*"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+clientSideOnly = true
+
+[[mods]]
+modId = "certain_questing_additions"
+version = "1.1.6"
+displayName = "Certain Questing Additions"
+authors = "HollowHorizon"
+description = '''
+Certain visual improvements in FTB Quests Mod.
+'''
+#logoFile = ""
+
+[[dependencies.certain_questing_additions]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.certain_questing_additions]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.certain_questing_additions]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.certain_questing_additions]]
+modId = "ftbquests"
+mandatory = true
+versionRange = "[2001.4.14,)"
+ordering = "AFTER"
+side = "BOTH"

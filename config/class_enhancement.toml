@@ -105,7 +105,7 @@
 		#Mechanical modifiers.
 		attributes = ["minecraft:generic.attack_damage=20.0"]
 		#Main hand item.
-		main_hand = "asr:ender_giant_sword"
+		main_hand = "concatenatedadditionstools:bloody_living_sword"
 		#Off hand item.
 		off_hand = "minecraft:lantern"
 		#Armor items.

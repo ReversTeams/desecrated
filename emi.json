@@ -1,6 +1,20 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:concatenatedadditionstools:sublime_gold_sword",
+    "item:concatenatedadditionstools:glowing_gold",
+    "item:concatenatedadditionstools:gold_handle",
+    "item:concatenatedadditionstools:gold_stick",
+    "item:concatenatedadditionstools:sublime_gold_pickaxe",
+    "item:concatenatedadditionstools:meteorite_hoe{Damage:0}",
+    "item:concatenatedadditionstools:meteorite_shovel{Damage:0}",
+    "item:concatenatedadditionsartefacts:doom_candy_cane{Damage:0}",
+    "item:concatenatedadditionsartefacts:bloody_living_giant_sword{Damage:0}",
+    "item:concatenatedadditionsartefacts:broken_rift_blade",
+    "item:concatenatedadditionsartefacts:protection_charm{Damage:0}",
+    "item:concatenatedadditionsartefacts:radiation_wand{Damage:0}",
+    "item:concatenatedadditionsartefacts:screwspinner{Damage:0}",
+    "item:concatenatedadditionsartefacts:owl_stick{Damage:0}",
     "item:minecraft:crafting_table",
     "item:hlspells:spell_book{Damage:0}",
     "item:neepmeat:integrator_egg",
@@ -86,7 +100,6 @@
     "item:butchery:metal_butchers_table",
     "item:butchery:pestle_and_mortar",
     "item:butchery:basin",
-    "item:concatenatedadditionsartefacts:bloody_living_giant_sword{Damage:0}",
     "item:perdition:pyrite_ore",
     "item:perdition:silver_ore",
     "item:perdition:marmor_exaltatus",
@@ -181,9 +194,7 @@
     "hlspells:spell_book"
   ],
   "recipe_defaults": {
-    "added": [
-      "toomanyrecipeviewers:/hexalia/kelpweave_blade_from_ritual_table"
-    ],
+    "added": [],
     "tags": {},
     "resolutions": {},
     "disabled": []

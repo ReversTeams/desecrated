@@ -1649,6 +1649,14 @@
       ]
     },
     {
+      "id": "underground_village:underground_village",
+      "displayName": "Underground Village",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "vampiresdelight:lost_carriage",
       "displayName": "Lost Carriage",
       "isVanilla": false,
