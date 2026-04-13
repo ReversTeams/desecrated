@@ -1260,61 +1260,6 @@
 			x: 0.5d
 			y: -7.0d
 		}
-		{
-			id: "12443A5AB3AC5B9B"
-			rewards: [{
-				id: "5CE7117CBB98DB8A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							"Spell 0": "hlspells:sonic_boom"
-							currentSpellCycle: 0
-							spellsSize: 1
-						}
-					}
-					id: "hlspells:spell_book"
-					tag: {
-						Damage: 63
-						castBar: 0.0d
-						currentCastTime: 0.0d
-						spellHolder: {
-							"Spell 0": "hlspells:sonic_boom"
-							currentSpellCycle: 0
-							spellsSize: 1
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1DFC3665CC2D39F9"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							"Spell 0": "hlspells:sonic_boom"
-							currentSpellCycle: 0
-							spellsSize: 1
-						}
-					}
-					id: "hlspells:spell_book"
-					tag: {
-						Damage: 63
-						castBar: 0.0d
-						currentCastTime: 0.0d
-						spellHolder: {
-							"Spell 0": "hlspells:sonic_boom"
-							currentSpellCycle: 0
-							spellsSize: 1
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.5d
-		}
 	]
 	title: "Fallen"
 }

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = concatenation_credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1768631413961
+  last_edited_time = 1776027781977
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:7d150e3c-31db-450d-8d1b-16d548062991-1768631351781] = [groups:][instances:]
+  [loading_requirement_container_meta:735cd44f-4ce3-4a71-a286-d768b783a15c-1776027747888] = [groups:][instances:]
 }
 
 menu_background {
@@ -154,7 +154,7 @@ element {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/concatenationtitle.png
+  source = [source:local]/config/fancymenu/assets/normaleteam.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -171,14 +171,14 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 2562
-  auto_sizing_base_screen_height = 1476
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1480
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -2
-  y = -84
-  width = 142
-  height = 30
+  x = 4
+  y = -80
+  width = 96
+  height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -218,8 +218,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 2562
-  auto_sizing_base_screen_height = 1476
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1480
   sticky_anchor = false
   anchor_point = mid-centered
   x = -113
@@ -249,7 +249,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%Gravitegg - Playtester%n%Skillode - Playtester%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer, Writer%n%Newlumberjack - Pack Developer%n%MysticSquire - Pack Developer%n%Ranger - Pack Developer, Playtester%n%Honeyglazedlady - Artist%n%Sem__lan - Writer%n%Waayzii - Wiki Editor%n%Mimnin - Wiki Editor%n%Bajan - Wiki Editor%n%^^^
+  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%%n%Concatenation Division%n%Sem__lan - Writer%n%^^^
   source_mode = direct
   shadow = true
   scale = 0.75
