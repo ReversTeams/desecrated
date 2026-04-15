@@ -963,8 +963,138 @@
 				structure: "bloodyhell:vespers_hut"
 				type: "structure"
 			}]
-			x: -4.5d
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6BC96AC76C36559E"]
+			id: "5CA8FDF37BD413E4"
+			tasks: [{
+				id: "04CDDF8A415FC01B"
+				item: "bloodyhell:chalice_of_the_dammed"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CA8FDF37BD413E4"]
+			id: "22DDD3C6B3604CD9"
+			tasks: [{
+				id: "530EE4FECFC8D5CE"
+				observe_type: 0
+				timer: 0L
+				to_observe: "bloodyhell:blood_portal"
+				type: "observation"
+			}]
+			x: 11.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["22DDD3C6B3604CD9"]
+			id: "65DF6B6B038F58F7"
+			tasks: [
+				{
+					id: "7F33FDF31A6CFBD1"
+					item: "bloodyhell:sanguinite_ore"
+					type: "item"
+				}
+				{
+					id: "29E1E5129F6DBC29"
+					item: "bloodyhell:sanguinite"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22DDD3C6B3604CD9"]
+			id: "47F30FDF4F349566"
+			tasks: [{
+				id: "0E6AA3830B98DD1B"
+				item: "bloodyhell:blasphemite_ore"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0377023CC9A03552"]
+			id: "2E2EEA142952B774"
+			tasks: [{
+				id: "547C306A5F9914B1"
+				item: "bloodyhell:rhnull"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65DF6B6B038F58F7"]
+			id: "477517C000C5B774"
+			tasks: [
+				{
+					id: "41730A53597E657A"
+					item: "bloodyhell:sanguinite_tank"
+					type: "item"
+				}
+				{
+					id: "0EED7C5CCCEDC541"
+					item: "bloodyhell:sanguinite_pipe"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"65DF6B6B038F58F7"
+				"37CBDB89759D3362"
+				"1B2A57FD9B88551A"
+			]
+			id: "0377023CC9A03552"
+			tasks: [{
+				id: "566453C161A8DFCA"
+				item: "bloodyhell:sanguinite_infusor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["477517C000C5B774"]
+			id: "37CBDB89759D3362"
+			tasks: [{
+				id: "7EE9113234748572"
+				item: "bloodyhell:sanguinite_blood_harvester_item"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37CBDB89759D3362"]
+			id: "1B2A57FD9B88551A"
+			tasks: [{
+				id: "100E180F9A5C5936"
+				item: "bloodyhell:voracious_mushroom_item"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47F30FDF4F349566"]
+			id: "16159AA464679A4C"
+			tasks: [{
+				id: "37A347FAF5987C3D"
+				item: "bloodyhell:blasphemite"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
 		}
 	]
 	title: "Arcane Flesh"

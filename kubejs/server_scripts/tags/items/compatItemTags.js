@@ -16,9 +16,8 @@ ServerEvents.tags('item', event => {
     //     'tarotcards:the_hermit'
     // ]);
 
-    // Purgatorium
-    // add('concatenation:tech_cards', [
-    //     'tarotcards:the_hierophant',
-    //     'tarotcards:the_hermit'
+    // Desecrated
+    // add('curios:amulet', [
+    //     'bloodyhell:great_amulet_of_ancestral_blood'
     // ]);
 });
