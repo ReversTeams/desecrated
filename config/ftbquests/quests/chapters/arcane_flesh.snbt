@@ -957,6 +957,7 @@
 			y: -0.5d
 		}
 		{
+			icon: "supplementaries:candle_holder_purple"
 			id: "6BC96AC76C36559E"
 			tasks: [{
 				id: "6699CD80BD5C5D0A"
@@ -979,6 +980,7 @@
 		}
 		{
 			dependencies: ["5CA8FDF37BD413E4"]
+			icon: "bloodyhell:sanguinite_block"
 			id: "22DDD3C6B3604CD9"
 			tasks: [{
 				id: "530EE4FECFC8D5CE"
