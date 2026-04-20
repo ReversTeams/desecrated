@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-04-12_23-27-37",
+  "config_datetime": "2026-04-19_16-18-47",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -85,7 +85,7 @@
       "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
-        "bloodyhell:sanctum_of_the_unbound": 1
+        "bloodyhell:sanctum_of_the_unbound": 3
       }
     },
     {
@@ -95,7 +95,7 @@
       "is_disabled": false,
       "salt": 1623176464,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
+      "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
         "bloodyhell:vespers_hut": 4
       }

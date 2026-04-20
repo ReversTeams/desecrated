@@ -1047,14 +1047,14 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: 1.0d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"65DF6B6B038F58F7"
-				"37CBDB89759D3362"
 				"1B2A57FD9B88551A"
+				"3D3271F66F0BAE41"
 			]
 			id: "0377023CC9A03552"
 			tasks: [{
@@ -1062,8 +1062,8 @@
 				item: "bloodyhell:sanguinite_infusor"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.0d
+			x: 13.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["477517C000C5B774"]
@@ -1073,8 +1073,8 @@
 				item: "bloodyhell:sanguinite_blood_harvester_item"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 0.5d
+			x: 17.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -1084,8 +1084,8 @@
 				item: "bloodyhell:voracious_mushroom_item"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -1.0d
+			x: 17.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["47F30FDF4F349566"]
@@ -1097,6 +1097,272 @@
 			}]
 			x: 12.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["7650D349B57C739D"]
+			id: "1B25B0B9EE0E67D5"
+			tasks: [
+				{
+					id: "2DC434C4DBA3E83A"
+					item: "bloodyhell:main_blood_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7FC14BCB6B986790"
+					item: { Count: 4, id: "bloodyhell:blood_altar" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2E2EEA142952B774"]
+			id: "7650D349B57C739D"
+			tasks: [
+				{
+					id: "47FD382A8DC458F4"
+					item: "bloodyhell:filled_blood_flask"
+					type: "item"
+				}
+				{
+					id: "439BFF6551148D25"
+					item: "bloodyhell:corrupted_blood_flask"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"16159AA464679A4C"
+				"2E2EEA142952B774"
+			]
+			id: "6C679C18245C1722"
+			tasks: [{
+				id: "261670D7B34A47E8"
+				item: {
+					Count: 1
+					id: "bloodyhell:sacrificial_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["13AB45EA2C99F16B"]
+			id: "0796C66F6BF3B1F5"
+			tasks: [{
+				id: "64D9E6716A1EB943"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 14
+						}
+					}
+					id: "bloodyhell:reliquary"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B25B0B9EE0E67D5"]
+			id: "13AB45EA2C99F16B"
+			tasks: [
+				{
+					id: "2306B2675A52A2ED"
+					item: "bloodyhell:main_blasphemous_blood_altar_item"
+					type: "item"
+				}
+				{
+					id: "39F79B4C7EEB26E6"
+					item: "bloodyhell:blasphemous_blood_altar_item"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B25B0B9EE0E67D5"]
+			id: "47CC4AD3F583A408"
+			tasks: [{
+				id: "22BFBC9C8025A2D3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodyhell:blood_scratch_spellbook"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blood_sphere_spellbook"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blood_nova_spellbook"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blood_daggersrain_spellbook"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"47CC4AD3F583A408"
+				"6341285D27A686D9"
+			]
+			id: "2A34F271C7C99ADA"
+			tasks: [{
+				id: "6D09E15D0D523B10"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodyhell:bloodfire_meteor_spellbook"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:bloodfire_column_spellbook"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:bloodfire_soul_spellbook"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["13AB45EA2C99F16B"]
+			id: "5D3E30A449856590"
+			tasks: [{
+				id: "6CBE11924111E21B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_impalers_spellbook"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_golden_throne_spellbook"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_orb_emitter_spellbook"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_heavy_sword_spellbook"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -8.5d
+		}
+		{
+			id: "6341285D27A686D9"
+			tasks: [{
+				id: "3F7DAFA68ABB1A99"
+				item: "bloodyhell:ritekeeper_heart"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C8C7A0D9F4F3A6"]
+			id: "3D3271F66F0BAE41"
+			tasks: [{
+				id: "2D6F9E16CC5657D2"
+				item: "bloodyhell:ancient_gem"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37CBDB89759D3362"]
+			id: "19C8C7A0D9F4F3A6"
+			tasks: [{
+				id: "53D3C0E71F496C53"
+				item: "bloodyhell:sanguinite_condenser_item"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B25B0B9EE0E67D5"]
+			id: "4F7AC531DCA8EF4C"
+			tasks: [{
+				id: "649AE81C5C28C9A1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodyhell:amulet_of_ancestral_blood"
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:crimson_ward_ring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.5d
 		}
 	]
 	title: "Arcane Flesh"

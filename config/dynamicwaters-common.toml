@@ -1,0 +1,17 @@
+
+["River Flow Speeds"]
+	#Flow speed multiplier for players in the river.
+	#Range: 0.0 ~ 10.0
+	playerSpeed = 0.1
+	#Flow speed multiplier for animals. Note: Animals have strong swimming AI, you may want to decrease this.
+	#Range: 0.0 ~ 10.0
+	animalSpeed = 0.1
+	#Flow speed multiplier for dropped items.
+	#Range: 0.0 ~ 10.0
+	itemSpeed = 0.2
+	#Flow speed multiplier for generic unidentified entities(mostly fishes).
+	#Range: 0.0 ~ 10.0
+	defaultSpeed = 0.1
+	#Custom flow speeds for specific entities. Format: modid:name=speed (Example: minecraft:pig=0.8 or alexmobs:bird=0.0)
+	customEntitySpeeds = ["minecraft:warden=1.0"]
+

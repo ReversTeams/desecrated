@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.19",
-  "config_datetime": "2026-03-24_12-51-54",
+  "config_version": "2.0.22",
+  "config_datetime": "2026-04-12_23-27-37",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -89,15 +89,15 @@
       }
     },
     {
-      "spacing": 26,
-      "separation": 20,
+      "spacing": 20,
+      "separation": 12,
       "name": "bloodyhell:vespers_hut",
       "is_disabled": false,
       "salt": 1623176464,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
+      "override_global_spacing_and_separation_modifier": false,
       "structure_weights": {
-        "bloodyhell:vespers_hut": 8
+        "bloodyhell:vespers_hut": 4
       }
     },
     {

@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.19",
-  "config_datetime": "2026-03-24_12-51-21",
+  "config_version": "2.0.22",
+  "config_datetime": "2026-04-19_16-18-39",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -31,6 +31,17 @@
     }
   ],
   "structures": [
+    {
+      "name": "bloodyhell:vespers_hut",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
     {
       "name": "fracture:flesh_dungeon",
       "is_disabled": false,
@@ -78,15 +89,15 @@
       }
     },
     {
-      "spacing": 26,
-      "separation": 20,
+      "spacing": 20,
+      "separation": 12,
       "name": "bloodyhell:vespers_hut",
       "is_disabled": false,
       "salt": 1623176464,
       "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
-        "bloodyhell:vespers_hut": 8
+        "bloodyhell:vespers_hut": 4
       }
     },
     {
