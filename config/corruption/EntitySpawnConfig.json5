@@ -5722,6 +5722,646 @@
 			],
 			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
 			"maxConcurrentSpawns": 1
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:infection_zombie",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 30,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				3
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				7
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				5
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "{PersistenceRequired:1b}",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				8,
+				32
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 8
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:infection_cow",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 40,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				2
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				7
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				5
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				8,
+				32
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 6
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:infection_sheep",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 40,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				2
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				7
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				5
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				8,
+				32
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 6
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:infection_pig",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 40,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				2
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				7
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				5
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				8,
+				32
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 6
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:infection_bat",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 20,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				2
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "underground",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				5
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				6
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				4,
+				24
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 4
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:infection_skeleton",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 50,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				2
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				7
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				7
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				10,
+				30
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 5
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:long_arm_beast",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 60,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				1
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				10
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				8
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				12,
+				32
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 3
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:shocker",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 70,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				1
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				10
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				9
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				12,
+				32
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 2
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:degenerate_pig",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 60,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				1
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				10
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				10
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				12,
+				32
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 2
+		},
+		{
+			// 生物注册名，例如：minecraft:zombie 或 modid:corrupted_zombie
+			"entityId": "corruption:humus_column",
+			// 每组生成间隔（刻），20刻=1秒
+			"intervalTicks": 600,
+			// 每组生成数量范围 [最小, 最大]
+			"spawnCountRange": [
+				1,
+				1
+			],
+			// 生效群系列表，填写群系注册名，["all"] 代表所有群系
+			"biomes": [
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all",
+				"all"
+			],
+			// 生成位置：surface 地表 / underground 地下
+			"spawnPosition": "surface",
+			// 亮度区间 [最小亮度, 最大亮度]（使用方块光照等级 0-15）
+			"lightLevelRange": [
+				0,
+				10
+			],
+			// 生效维度列表，填写维度注册名，["all"] 代表所有维度
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld",
+				"minecraft:overworld"
+			],
+			// 生效阶段区间 [最小阶段, 最大阶段]（叠加后总阶段）
+			"phaseRange": [
+				0,
+				10
+			],
+			// 是否启用该生成规则
+			"enabled": true,
+			// 额外NBT数据（Json格式），例如 {"PersistenceRequired":1}
+			"extraNbt": "",
+			// 生成点距离玩家的距离范围（XZ平面，方块）[最小距离, 最大距离]
+			"spawnDistanceRange": [
+				16,
+				48
+			],
+			// 该类型生物在世界中最大同时存在数量（-1 表示无限制）
+			"maxConcurrentSpawns": 1
 		}
 	]
 }

@@ -1,571 +1,842 @@
 
-["General Settings"]
-	#Enable vengeful AI (animals/villagers fight back)
+#═══════════════════════════════════════
+#  DIFFICULTY ENHANCEMENT CONFIGURATION
+#═══════════════════════════════════════
+#
+#This mod adds configurable difficulty levels with various
+#mechanics like bleeding, crippling, and vengeful AI.
+[general]
+	#Entity IDs that will NOT be affected by difficulty changes
+	#Format: 'minecraft:entity_name' or 'modid:entity_name'
+	#Examples: 'minecraft:villager', 'minecraft:iron_golem'
+	entityBlacklist = ["minecraft:armor_stand", "minecraft:painting", "minecraft:item_frame", "minecraft:glow_item_frame"]
+	#Apply difficulty modifiers to boss mobs (wither, ender dragon, etc.)
+	applyToBosses = false
+	#Apply difficulty modifiers to players (for multiplayer PvP scenarios)
+	applyToPlayers = false
+	#Number of custom difficulty slots available (0-10)
+	#Range: 0 ~ 10
+	customDifficultySlots = 0
+	#Order of difficulties in the selection menu (first = top)
+	#Use difficulty IDs: cozy, normal, extreme, torture, chaos, or custom IDs
+	difficultyOrder = ["cozy", "normal", "extreme", "torture"]
+	#Enable debug logging for troubleshooting
+	debugMode = false
+
+#Vengeful AI Configuration
+#When enabled, passive mobs will fight back when attacked
+[vengeful_ai]
+	#Master toggle for vengeful AI (can be overridden per-difficulty)
 	enableVengefulAI = true
-	#Movement speed for vengeful mobs
+	#Movement speed multiplier for vengeful mobs
 	#Range: 0.1 ~ 5.0
 	vengefulSpeed = 1.2
+	#Base damage for vengeful mobs without attack damage attribute
+	#Range: 0.5 ~ 100.0
+	vengefulDamage = 2.0
+	#Attack cooldown in ticks (20 ticks = 1 second)
+	#Range: 1 ~ 200
+	vengefulAttackCooldown = 20
+	#Range in blocks for nearby passive mobs to aggro when one is attacked
+	#Range: 1.0 ~ 64.0
+	vengefulAggroRange = 16.0
+	#Whether baby animals can also become vengeful
+	vengefulAffectBabyAnimals = false
+	#Entity IDs that will never become vengeful
+	#Useful for excluding specific animals or villager types
+	vengefulEntityBlacklist = ["minecraft:bat", "minecraft:parrot"]
 
-["Custom Difficulties"]
-	#Number of custom difficulty slots (max 10)
-	#Range: 0 ~ 10
-	customDifficultySlots = 10
-	#Order of difficulties in the menu
-	difficultyOrder = ["cozy", "normal", "extreme", "torture"]
-
-	["Custom Difficulties"."Custom Difficulty 0"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_0 = ""
-		#Display name
-		name_0 = "Custom 0"
-		#Description (use \n for line breaks)
-		description_0 = "Custom difficulty 0"
-		#Recommendation text
-		recommendation_0 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_0 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_0 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_0 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_0 = 1.0
-		#Enable bleeding
-		enableBleeding_0 = false
-		#Enable crippling
-		enableCrippling_0 = false
-		#Enable vengeful AI
-		enableVengefulAi_0 = false
-		#Enable health regeneration
-		enableRegen_0 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_0 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_0 = 0.0
-		#Background color (hex)
-		bgColor_0 = "#07070F"
-		#Accent color (hex)
-		accentColor_0 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_0 = ""
-		#Select sound (resource location)
-		selectSound_0 = ""
-		#Confirm sound (resource location)
-		confirmSound_0 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_0 = []
-
-	["Custom Difficulties"."Custom Difficulty 1"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_1 = ""
-		#Display name
-		name_1 = "Custom 1"
-		#Description (use \n for line breaks)
-		description_1 = "Custom difficulty 1"
-		#Recommendation text
-		recommendation_1 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_1 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_1 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_1 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_1 = 1.0
-		#Enable bleeding
-		enableBleeding_1 = false
-		#Enable crippling
-		enableCrippling_1 = false
-		#Enable vengeful AI
-		enableVengefulAi_1 = false
-		#Enable health regeneration
-		enableRegen_1 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_1 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_1 = 0.0
-		#Background color (hex)
-		bgColor_1 = "#07070F"
-		#Accent color (hex)
-		accentColor_1 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_1 = ""
-		#Select sound (resource location)
-		selectSound_1 = ""
-		#Confirm sound (resource location)
-		confirmSound_1 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_1 = []
-
-	["Custom Difficulties"."Custom Difficulty 2"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_2 = ""
-		#Display name
-		name_2 = "Custom 2"
-		#Description (use \n for line breaks)
-		description_2 = "Custom difficulty 2"
-		#Recommendation text
-		recommendation_2 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_2 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_2 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_2 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_2 = 1.0
-		#Enable bleeding
-		enableBleeding_2 = false
-		#Enable crippling
-		enableCrippling_2 = false
-		#Enable vengeful AI
-		enableVengefulAi_2 = false
-		#Enable health regeneration
-		enableRegen_2 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_2 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_2 = 0.0
-		#Background color (hex)
-		bgColor_2 = "#07070F"
-		#Accent color (hex)
-		accentColor_2 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_2 = ""
-		#Select sound (resource location)
-		selectSound_2 = ""
-		#Confirm sound (resource location)
-		confirmSound_2 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_2 = []
-
-	["Custom Difficulties"."Custom Difficulty 3"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_3 = ""
-		#Display name
-		name_3 = "Custom 3"
-		#Description (use \n for line breaks)
-		description_3 = "Custom difficulty 3"
-		#Recommendation text
-		recommendation_3 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_3 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_3 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_3 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_3 = 1.0
-		#Enable bleeding
-		enableBleeding_3 = false
-		#Enable crippling
-		enableCrippling_3 = false
-		#Enable vengeful AI
-		enableVengefulAi_3 = false
-		#Enable health regeneration
-		enableRegen_3 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_3 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_3 = 0.0
-		#Background color (hex)
-		bgColor_3 = "#07070F"
-		#Accent color (hex)
-		accentColor_3 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_3 = ""
-		#Select sound (resource location)
-		selectSound_3 = ""
-		#Confirm sound (resource location)
-		confirmSound_3 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_3 = []
-
-	["Custom Difficulties"."Custom Difficulty 4"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_4 = ""
-		#Display name
-		name_4 = "Custom 4"
-		#Description (use \n for line breaks)
-		description_4 = "Custom difficulty 4"
-		#Recommendation text
-		recommendation_4 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_4 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_4 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_4 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_4 = 1.0
-		#Enable bleeding
-		enableBleeding_4 = false
-		#Enable crippling
-		enableCrippling_4 = false
-		#Enable vengeful AI
-		enableVengefulAi_4 = false
-		#Enable health regeneration
-		enableRegen_4 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_4 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_4 = 0.0
-		#Background color (hex)
-		bgColor_4 = "#07070F"
-		#Accent color (hex)
-		accentColor_4 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_4 = ""
-		#Select sound (resource location)
-		selectSound_4 = ""
-		#Confirm sound (resource location)
-		confirmSound_4 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_4 = []
-
-	["Custom Difficulties"."Custom Difficulty 5"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_5 = ""
-		#Display name
-		name_5 = "Custom 5"
-		#Description (use \n for line breaks)
-		description_5 = "Custom difficulty 5"
-		#Recommendation text
-		recommendation_5 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_5 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_5 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_5 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_5 = 1.0
-		#Enable bleeding
-		enableBleeding_5 = false
-		#Enable crippling
-		enableCrippling_5 = false
-		#Enable vengeful AI
-		enableVengefulAi_5 = false
-		#Enable health regeneration
-		enableRegen_5 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_5 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_5 = 0.0
-		#Background color (hex)
-		bgColor_5 = "#07070F"
-		#Accent color (hex)
-		accentColor_5 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_5 = ""
-		#Select sound (resource location)
-		selectSound_5 = ""
-		#Confirm sound (resource location)
-		confirmSound_5 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_5 = []
-
-	["Custom Difficulties"."Custom Difficulty 6"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_6 = ""
-		#Display name
-		name_6 = "Custom 6"
-		#Description (use \n for line breaks)
-		description_6 = "Custom difficulty 6"
-		#Recommendation text
-		recommendation_6 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_6 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_6 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_6 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_6 = 1.0
-		#Enable bleeding
-		enableBleeding_6 = false
-		#Enable crippling
-		enableCrippling_6 = false
-		#Enable vengeful AI
-		enableVengefulAi_6 = false
-		#Enable health regeneration
-		enableRegen_6 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_6 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_6 = 0.0
-		#Background color (hex)
-		bgColor_6 = "#07070F"
-		#Accent color (hex)
-		accentColor_6 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_6 = ""
-		#Select sound (resource location)
-		selectSound_6 = ""
-		#Confirm sound (resource location)
-		confirmSound_6 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_6 = []
-
-	["Custom Difficulties"."Custom Difficulty 7"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_7 = ""
-		#Display name
-		name_7 = "Custom 7"
-		#Description (use \n for line breaks)
-		description_7 = "Custom difficulty 7"
-		#Recommendation text
-		recommendation_7 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_7 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_7 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_7 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_7 = 1.0
-		#Enable bleeding
-		enableBleeding_7 = false
-		#Enable crippling
-		enableCrippling_7 = false
-		#Enable vengeful AI
-		enableVengefulAi_7 = false
-		#Enable health regeneration
-		enableRegen_7 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_7 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_7 = 0.0
-		#Background color (hex)
-		bgColor_7 = "#07070F"
-		#Accent color (hex)
-		accentColor_7 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_7 = ""
-		#Select sound (resource location)
-		selectSound_7 = ""
-		#Confirm sound (resource location)
-		confirmSound_7 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_7 = []
-
-	["Custom Difficulties"."Custom Difficulty 8"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_8 = ""
-		#Display name
-		name_8 = "Custom 8"
-		#Description (use \n for line breaks)
-		description_8 = "Custom difficulty 8"
-		#Recommendation text
-		recommendation_8 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_8 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_8 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_8 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_8 = 1.0
-		#Enable bleeding
-		enableBleeding_8 = false
-		#Enable crippling
-		enableCrippling_8 = false
-		#Enable vengeful AI
-		enableVengefulAi_8 = false
-		#Enable health regeneration
-		enableRegen_8 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_8 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_8 = 0.0
-		#Background color (hex)
-		bgColor_8 = "#07070F"
-		#Accent color (hex)
-		accentColor_8 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_8 = ""
-		#Select sound (resource location)
-		selectSound_8 = ""
-		#Confirm sound (resource location)
-		confirmSound_8 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_8 = []
-
-	["Custom Difficulties"."Custom Difficulty 9"]
-		#Unique ID for this difficulty (leave empty to disable)
-		id_9 = ""
-		#Display name
-		name_9 = "Custom 9"
-		#Description (use \n for line breaks)
-		description_9 = "Custom difficulty 9"
-		#Recommendation text
-		recommendation_9 = ""
-		#UI theme (0=green, 1=aqua, 2=gold, 3=red)
-		#Range: 0 ~ 3
-		uiTheme_9 = 0
-		#HP multiplier
-		#Range: 0.1 ~ 10.0
-		hpMultiplier_9 = 1.0
-		#Damage multiplier
-		#Range: 0.1 ~ 10.0
-		dmgMultiplier_9 = 1.0
-		#Fall damage multiplier
-		#Range: 0.1 ~ 10.0
-		fallDmgMultiplier_9 = 1.0
-		#Enable bleeding
-		enableBleeding_9 = false
-		#Enable crippling
-		enableCrippling_9 = false
-		#Enable vengeful AI
-		enableVengefulAi_9 = false
-		#Enable health regeneration
-		enableRegen_9 = false
-		#Lifesteal for hostile mobs
-		#Range: 0.0 ~ 20.0
-		lifestealAmount_9 = 0.0
-		#Exhaustion per hit
-		#Range: 0.0 ~ 10.0
-		exhaustionAmount_9 = 0.0
-		#Background color (hex)
-		bgColor_9 = "#07070F"
-		#Accent color (hex)
-		accentColor_9 = "#D4A843"
-		#Hover sound (resource location)
-		hoverSound_9 = ""
-		#Select sound (resource location)
-		selectSound_9 = ""
-		#Confirm sound (resource location)
-		confirmSound_9 = ""
-		#Commands to execute when selected (use %player% for player name)
-		commands_9 = []
-
-["Normal Difficulty"]
-	#Display name for Normal difficulty
-	normalName = "Normal"
-	#Recommendation text for Normal difficulty
-	normalRecommendation = "Recommended for first-time players"
-	#Background color for Normal (hex)
-	normalBgColor = "#07070F"
-	#Accent color for Normal (hex)
-	normalAccentColor = "#D4A843"
-
-["Extreme Difficulty"]
-	#Display name for Extreme difficulty
-	extremeName = "Hard"
-	#Recommendation text for Extreme difficulty
-	extremeRecommendation = "For experienced players seeking a challenge"
-	#HP multiplier for mobs
-	#Range: 0.1 ~ 10.0
-	extremeHpMultiplier = 2.0
-	#Damage multiplier for mobs
-	#Range: 0.1 ~ 10.0
-	extremeDmgMultiplier = 1.5
-	#Background color for Extreme (hex)
-	extremeBgColor = "#0F0A05"
-	#Accent color for Extreme (hex)
-	extremeAccentColor = "#FF8833"
-
-["Torture Difficulty"]
-	#Display name for Torture difficulty
-	tortureName = "Nightmare"
-	#Recommendation text for Torture difficulty
-	tortureRecommendation = "Only for masochists. You've been warned."
-	#HP multiplier for mobs
-	#Range: 0.1 ~ 10.0
-	tortureHpMultiplier = 3.0
-	#Damage multiplier for mobs
-	#Range: 0.1 ~ 10.0
-	tortureDmgMultiplier = 2.0
-	#Enable bleeding effect
+#Global Mechanic Settings
+#These are the default values used by difficulties that enable these mechanics
+[mechanics]
+	#Master toggle for bleeding mechanic
 	enableBleeding = true
-	#Enable crippling effect
+	#Master toggle for crippling mechanic
 	enableCrippling = true
+	#Default lifesteal amount for difficulties that enable it
+	#Range: 0.0 ~ 20.0
+	lifestealAmount = 1.0
+	#Default exhaustion amount added per hit
+	#Range: 0.0 ~ 40.0
+	exhaustionAmount = 0.5
+	#Chance (0.0-1.0) to apply bleeding when hit
+	#Range: 0.0 ~ 1.0
+	bleedingChance = 0.1
+	#Chance (0.0-1.0) to apply crippling in combat
+	#Range: 0.0 ~ 1.0
+	cripplingChance = 0.2
+	#Duration of bleeding effect in ticks
+	#Range: 20 ~ 1200
+	bleedingDuration = 100
+	#Duration of crippling effect in ticks
+	#Range: 20 ~ 1200
+	cripplingDuration = 200
+
+#Cozy Difficulty Settings
+#A relaxed, easier experience with passive regeneration
+[cozy]
+	#Enable Cozy difficulty in the selection menu
+	enabled = true
+	#Display name for Cozy difficulty
+	name = "Cozy"
+	#Recommendation text shown in the UI
+	recommendation = "For a relaxing, stress-free experience"
+	#Health multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	hpMultiplier = 0.5
+	#Damage multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	dmgMultiplier = 0.5
+	#Fall damage multiplier for players
+	#Range: 0.0 ~ 10.0
+	fallDmgMultiplier = 0.5
+	#Enable passive health regeneration
+	enableRegen = true
+	#Amount of health regenerated per tick
+	#Range: 0.0 ~ 20.0
+	regenAmount = 0.5
+	#Ticks between regeneration (20 = 1 second)
+	#Range: 1 ~ 1200
+	regenSpeed = 40
+	#Slowly restore air while underwater
+	underwaterBreathing = true
+	#Background color (hex)
+	bgColor = "#050F0F"
+	#Accent color (hex)
+	accentColor = "#55FFFF"
+
+#Normal Difficulty Settings
+#The standard balanced Minecraft experience
+[normal]
+	#Enable Normal difficulty in the selection menu
+	enabled = true
+	#Display name for Normal difficulty
+	name = "Normal"
+	#Recommendation text shown in the UI
+	recommendation = "Recommended for first-time players"
+	#Health multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	hpMultiplier = 1.0
+	#Damage multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	dmgMultiplier = 1.0
+	#Fall damage multiplier for players
+	#Range: 0.0 ~ 10.0
+	fallDmgMultiplier = 1.0
+	#Background color (hex)
+	bgColor = "#07070F"
+	#Accent color (hex)
+	accentColor = "#D4A843"
+
+#Extreme Difficulty Settings
+#A challenging experience for experienced players
+[extreme]
+	#Enable Extreme difficulty in the selection menu
+	enabled = true
+	#Display name for Extreme difficulty
+	name = "Extreme"
+	#Recommendation text shown in the UI
+	recommendation = "For experienced players seeking a challenge"
+	#Health multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	hpMultiplier = 2.0
+	#Damage multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	dmgMultiplier = 1.5
+	#Fall damage multiplier for players
+	#Range: 0.0 ~ 10.0
+	fallDmgMultiplier = 2.0
+	#Background color (hex)
+	bgColor = "#0F0A05"
+	#Accent color (hex)
+	accentColor = "#FF8833"
+
+#Torture Difficulty Settings
+#Maximum suffering - bleeding, crippling, and more
+[torture]
+	#Enable Torture difficulty in the selection menu
+	enabled = true
+	#Display name for Torture difficulty
+	name = "Torture"
+	#Recommendation text shown in the UI
+	recommendation = "Only for masochists. You've been warned."
+	#Health multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	hpMultiplier = 3.0
+	#Damage multiplier for mobs
+	#Range: 0.1 ~ 10.0
+	dmgMultiplier = 2.0
+	#Fall damage multiplier for players
+	#Range: 0.0 ~ 10.0
+	fallDmgMultiplier = 3.0
 	#Lifesteal amount for hostile mobs
 	#Range: 0.0 ~ 20.0
 	lifestealAmount = 1.0
 	#Exhaustion added to player on hit
-	#Range: 0.0 ~ 10.0
+	#Range: 0.0 ~ 40.0
 	exhaustionAmount = 0.5
-	#Background color for Torture (hex)
-	tortureBgColor = "#100505"
-	#Accent color for Torture (hex)
-	tortureAccentColor = "#FF3333"
+	#Background color (hex)
+	bgColor = "#100505"
+	#Accent color (hex)
+	accentColor = "#FF3333"
 
-["Cozy Difficulty"]
-	#Display name for Cozy difficulty
-	cozyName = "Easy"
-	#Recommendation text for Cozy difficulty
-	cozyRecommendation = "For a relaxing, stress-free experience"
-	#HP multiplier for mobs
-	#Range: 0.1 ~ 10.0
-	cozyHpMultiplier = 0.5
+#Chaos Difficulty Settings
+#A hidden difficulty unlocked by completing a specific advancement
+[chaos]
+	#Enable Chaos difficulty (requires unlock)
+	enabled = true
+	#Display name for Chaos difficulty
+	name = "Chaos"
+	#Recommendation text shown in the UI
+	recommendation = "Beyond mortal comprehension."
+	#Health multiplier for mobs
+	#Range: 0.1 ~ 100.0
+	hpMultiplier = 5.0
 	#Damage multiplier for mobs
-	#Range: 0.1 ~ 10.0
-	cozyDmgMultiplier = 0.5
-	#Enable passive health regeneration
-	enableCozyRegen = true
-	#Ticks between regeneration (lower = faster)
-	#Range: 1 ~ 1200
-	cozyRegenSpeed = 40
-	#Health restored per regeneration tick
-	#Range: 0.1 ~ 20.0
-	cozyRegenAmount = 0.5
-	#Background color for Cozy (hex)
-	cozyBgColor = "#050F0F"
-	#Accent color for Cozy (hex)
-	cozyAccentColor = "#55FFFF"
+	#Range: 0.1 ~ 100.0
+	dmgMultiplier = 3.0
+	#Fall damage multiplier for players
+	#Range: 0.0 ~ 100.0
+	fallDmgMultiplier = 5.0
+	#Lifesteal amount for hostile mobs
+	#Range: 0.0 ~ 20.0
+	lifestealAmount = 2.0
+	#Exhaustion added to player on hit
+	#Range: 0.0 ~ 40.0
+	exhaustionAmount = 1.0
+	#Background color (hex)
+	bgColor = "#0A0005"
+	#Accent color (hex) - Note: Chaos uses rainbow cycling
+	accentColor = "#FF0000"
+	#Advancement ID required to unlock Chaos difficulty
+	#Format: 'modid:advancement_path'
+	unlockAdvancement = "armageddon_mod:the_shadow_keeper"
+
+#═══════════════════════════════════════
+#  CUSTOM DIFFICULTY SLOTS
+#═══════════════════════════════════════
+#
+#Configure up to 10 custom difficulties below.
+#Set 'id' to a non-empty value to enable a slot.
+[custom_difficulties]
+
+	#Custom Difficulty Slot 0
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_0]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 0"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 1
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_1]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 1"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 2
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_2]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 2"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 3
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_3]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 3"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 4
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_4]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 4"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 5
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_5]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 5"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 6
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_6]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 6"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 7
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_7]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 7"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 8
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_8]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 8"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
+
+	#Custom Difficulty Slot 9
+	#Set 'id' to a unique non-empty value to enable this slot
+	[custom_difficulties.custom_9]
+		#Unique identifier for this difficulty (leave empty to disable)
+		id = ""
+		#Display name shown in the selection menu
+		name = "Custom 9"
+		#Description text (use \n for line breaks)
+		description = "A custom difficulty setting."
+		#Recommendation text shown below description
+		recommendation = ""
+		#UI color theme:
+		#0 = Green (Normal), 1 = Aqua (Cozy), 2 = Gold (Extreme),
+		#3 = Red (Torture), 4 = Rainbow (Chaos)
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Health multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Damage multiplier for mobs (1.0 = normal)
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Fall damage multiplier for players (1.0 = normal)
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		#Enable bleeding effect on player when hit
+		enableBleeding = false
+		#Enable crippling effect from falls and combat
+		enableCrippling = false
+		#Enable vengeful AI (animals/villagers fight back)
+		enableVengefulAi = false
+		#Enable passive health regeneration
+		enableRegen = false
+		#Amount of health regenerated per tick
+		#Range: 0.0 ~ 20.0
+		regenAmount = 0.5
+		#Ticks between regeneration (20 = 1 second)
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Health restored to mobs when they hit the player
+		#Range: 0.0 ~ 20.0
+		lifestealAmount = 0.0
+		#Exhaustion added to player when hit by mobs
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		#Background color in hex format (#RRGGBB)
+		bgColor = "#07070F"
+		#Accent color in hex format (#RRGGBB)
+		accentColor = "#D4A843"
+		#Sound played when hovering (resource location, e.g., 'minecraft:ui.button.click')
+		hoverSound = ""
+		#Sound played when selecting
+		selectSound = ""
+		#Sound played when confirming selection
+		confirmSound = ""
+		#Commands executed when this difficulty is selected
+		#Use %player% as placeholder for player name
+		commands = []
+		#Additional trait descriptions shown in the UI
+		#Each entry is displayed as a separate line
+		traits = []
 
