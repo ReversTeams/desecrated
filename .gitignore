@@ -6,6 +6,7 @@ local
 tacz_backup
 rhino.local.properties
 resourcepacks/*.zip
+.qmenu_opened.marker
 
 # minecraft user files
 saves
