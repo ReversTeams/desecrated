@@ -1481,6 +1481,14 @@
       ]
     },
     {
+      "id": "thedulling:burgeoning_fortress",
+      "displayName": "Burgeoning Fortress",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "thedulling:dark_fortress",
       "displayName": "Dark Fortress",
       "isVanilla": false,
@@ -1525,7 +1533,7 @@
       "displayName": "Dulling Trap",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld"
+        "thedulling:lost_interfold"
       ]
     },
     {
@@ -1629,7 +1637,7 @@
       "displayName": "Storage Room",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld"
+        "thedulling:lost_interfold"
       ]
     },
     {
@@ -1645,7 +1653,7 @@
       "displayName": "Thorium Keep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld"
+        "thedulling:lost_interfold"
       ]
     },
     {

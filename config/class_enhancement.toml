@@ -1,13 +1,20 @@
 
-#General Settings
+#═══════════════════════════════════════
+#  CLASS ENHANCEMENT CONFIGURATION
+#═══════════════════════════════════════
 [general]
-	#If true, disables the built-in classes (Warrior, Ranger, Tank, Civilian) so only custom classes are available.
+	#If true, disables the built-in classes (Warrior, Ranger, Tank, Civilian)
 	disableDefaultClasses = true
 	#Number of custom class slots (1-100). Restart required.
 	#Range: 1 ~ 100
 	customClassSlots = 10
+	#Allow players to change their class after initial selection (OPs can always change)
+	allowClassReselection = false
+	#Delay before opening class selection menu on login (in ticks, 20 = 1 second)
+	#Range: 0 ~ 200
+	menuDelayTicks = 40
 
-#Built-In Class Settings.
+#Built-In Class Settings
 [classes]
 
 	[classes.warrior]
@@ -17,7 +24,7 @@
 		description = "Born to swing a sword."
 		#Cosmetic stat lines.
 		stats = ["&a+2 Damage", "&a+2 Health", "&c-20% Speed"]
-		#Stat modifiers.
+		#Stat modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.attack_damage=2.0", "minecraft:generic.max_health=2.0", "minecraft:generic.movement_speed=-0.20:multiply_base"]
 		#Item to equip in Main Hand. Format: modid:item{nbt}=count
 		main_hand = "minecraft:stone_sword=1"
@@ -29,6 +36,8 @@
 		items = []
 		#Commands to execute when this class is selected. Use %player% for player name.
 		commands = []
+		#Enable this class
+		enabled = true
 
 	[classes.ranger]
 		#Display name shown in GUI.
@@ -37,7 +46,7 @@
 		description = "You are quick with your movements, sharp with your shots."
 		#Cosmetic stat lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Stat modifiers.
+		#Stat modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.movement_speed=0.20:multiply_base", "minecraft:generic.max_health=-2.0"]
 		#Item to equip in Main Hand. Format: modid:item{nbt}=count
 		main_hand = "minecraft:bow=1"
@@ -49,6 +58,8 @@
 		items = ["minecraft:arrow=32"]
 		#Commands to execute when this class is selected. Use %player% for player name.
 		commands = []
+		#Enable this class
+		enabled = true
 
 	[classes.tank]
 		#Display name shown in GUI.
@@ -57,7 +68,7 @@
 		description = "Born slightly larger than average, you are able to take more damage."
 		#Cosmetic stat lines.
 		stats = ["&a+10 Health", "&c-15% Speed"]
-		#Stat modifiers.
+		#Stat modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.max_health=10.0", "minecraft:generic.movement_speed=-0.15:multiply_base", "minecraft:generic.knockback_resistance=0.5"]
 		#Item to equip in Main Hand. Format: modid:item{nbt}=count
 		main_hand = ""
@@ -69,6 +80,8 @@
 		items = []
 		#Commands to execute when this class is selected. Use %player% for player name.
 		commands = []
+		#Enable this class
+		enabled = true
 
 	[classes.none]
 		#Display name shown in GUI.
@@ -77,7 +90,7 @@
 		description = "No stat changes. You were born without any talent at all."
 		#Cosmetic stat lines.
 		stats = ["&7No stat changes."]
-		#Stat modifiers.
+		#Stat modifiers (format: attribute=value:operation).
 		attributes = []
 		#Item to equip in Main Hand. Format: modid:item{nbt}=count
 		main_hand = ""
@@ -89,8 +102,12 @@
 		items = ["minecraft:bread=5"]
 		#Commands to execute when this class is selected. Use %player% for player name.
 		commands = []
+		#Enable this class
+		enabled = true
 
-#Custom Class Slots. Configure your own classes below. Set 'id' to enable a slot. Only the first N slots (set by customClassSlots) will be loaded.
+#Custom Class Slots
+#Configure your own classes below. Set 'id' to enable a slot.
+#Only the first N slots (set by customClassSlots) will be loaded.
 [custom_classes]
 
 	[custom_classes.custom_0]
@@ -102,7 +119,7 @@
 		description = "An exiled noble vampire having escaped the calamities of Red Barar's fall."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Strength"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.attack_damage=20.0"]
 		#Main hand item.
 		main_hand = "concatenatedadditionstools:bloody_living_sword"
@@ -126,7 +143,7 @@
 		description = "A noble vampire studying the arcane blood arts of the past."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Speed"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.movement_speed=10.10:multiply_base"]
 		#Main hand item.
 		main_hand = "bloodyhell:sacrificial_dagger"
@@ -150,7 +167,7 @@
 		description = "A noble vampire engineering new capabilities with flesh and meat."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Armour"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.armor=20.0"]
 		#Main hand item.
 		main_hand = ""
@@ -174,7 +191,7 @@
 		description = "A noble vampire of the Vine Sanguine faction, specializing in nature."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.max_health=20.0"]
 		#Main hand item.
 		main_hand = "hexalia:athame"
@@ -198,7 +215,7 @@
 		description = "A noble vampire of the Iron Sanguine faction, accustomed to the arms."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Knockback Resistance"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.knockback_resistance=10.20:multiply_base"]
 		#Main hand item.
 		main_hand = "asr:iron_giant_sword"
@@ -222,7 +239,7 @@
 		description = "A traveller."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -246,7 +263,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -270,7 +287,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -294,7 +311,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -318,7 +335,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -342,7 +359,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -366,7 +383,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -390,7 +407,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -414,7 +431,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -438,7 +455,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -462,7 +479,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -486,7 +503,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -510,7 +527,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -534,7 +551,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -558,7 +575,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -582,7 +599,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -606,7 +623,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -630,7 +647,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -654,7 +671,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -678,7 +695,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -702,7 +719,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -726,7 +743,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -750,7 +767,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -774,7 +791,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -798,7 +815,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -822,7 +839,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -846,7 +863,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -870,7 +887,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -894,7 +911,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -918,7 +935,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -942,7 +959,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -966,7 +983,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -990,7 +1007,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1014,7 +1031,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1038,7 +1055,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1062,7 +1079,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1086,7 +1103,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1110,7 +1127,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1134,7 +1151,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1158,7 +1175,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1182,7 +1199,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1206,7 +1223,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1230,7 +1247,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1254,7 +1271,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1278,7 +1295,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1302,7 +1319,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1326,7 +1343,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1350,7 +1367,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1374,7 +1391,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1398,7 +1415,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1422,7 +1439,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1446,7 +1463,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1470,7 +1487,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1494,7 +1511,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1518,7 +1535,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1542,7 +1559,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1566,7 +1583,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1590,7 +1607,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1614,7 +1631,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1638,7 +1655,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1662,7 +1679,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1686,7 +1703,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1710,7 +1727,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1734,7 +1751,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1758,7 +1775,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1782,7 +1799,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1806,7 +1823,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1830,7 +1847,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1854,7 +1871,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1878,7 +1895,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1902,7 +1919,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1926,7 +1943,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1950,7 +1967,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1974,7 +1991,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -1998,7 +2015,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2022,7 +2039,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2046,7 +2063,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2070,7 +2087,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2094,7 +2111,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2118,7 +2135,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2142,7 +2159,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2166,7 +2183,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2190,7 +2207,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2214,7 +2231,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2238,7 +2255,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2262,7 +2279,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2286,7 +2303,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2310,7 +2327,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2334,7 +2351,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2358,7 +2375,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2382,7 +2399,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2406,7 +2423,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2430,7 +2447,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2454,7 +2471,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2478,7 +2495,7 @@
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers.
+		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
 		main_hand = ""
@@ -2492,4 +2509,34 @@
 		icon = "minecraft:paper"
 		#Commands to execute when this class is selected. Use %player% for player name.
 		commands = []
+
+#Animation & Visual Settings
+[animations]
+	#Speed of fade-in animations (higher = faster, 0.01-1.0)
+	#Range: 0.01 ~ 1.0
+	fadeInSpeed = 0.09
+	#Speed of fade-out animations (higher = faster, 0.01-1.0)
+	#Range: 0.01 ~ 1.0
+	fadeOutSpeed = 0.12
+	#Smoothness of scrolling (higher = smoother but slower, 0.1-0.5)
+	#Range: 0.1 ~ 0.5
+	scrollSmoothness = 0.3
+	#Speed of button hover animations (0.01-0.5)
+	#Range: 0.01 ~ 0.5
+	buttonHoverSpeed = 0.22
+	#Enable particle effects in the GUI
+	enableParticles = true
+	#Maximum number of particles (0-500)
+	#Range: 0 ~ 500
+	particleCount = 100
+
+#Cross-Mod Integration Settings
+[integration]
+	#Wait for Difficulty Enhancement mod selection before opening (if installed)
+	waitForDifficultySelection = true
+	#Time to blend between difficulty and class selection screens (in seconds)
+	#Range: 0.1 ~ 3.0
+	transitionBlendTime = 0.8
+	#Enable smooth gradient transition between screens
+	smoothGradientTransition = true
 

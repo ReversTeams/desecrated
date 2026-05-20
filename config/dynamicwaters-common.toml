@@ -15,3 +15,12 @@
 	#Custom flow speeds for specific entities. Format: modid:name=speed (Example: minecraft:pig=0.8 or alexmobs:bird=0.0)
 	customEntitySpeeds = ["minecraft:warden=1.0"]
 
+[Visuals]
+	#Enable custom bubble particles in rivers.
+	enableRiverParticles = true
+	#Spawn rate of river particles. Higher = fewer particles (1 in X blocks per tick).
+	#Range: 1 ~ 100
+	riverParticleDensity = 7
+	#Enable visual flowing texture for rivers. If false, water looks stationary but still pushes entities. This idea is to be compatible with Physics Mod. After changing this setting, please click F3+T to reload.
+	enableRiverVisualFlow = true
+

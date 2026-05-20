@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:a8f747a9-0815-4576-8e7f-116c6080c0ac-1755047820262] = [groups:][instances:]
+  [loading_requirement_container_meta:5f7db422-b267-4e2c-88a7-89ef1c2f4f70-1779311758265] = [groups:][instances:]
 }
 
 customization {
@@ -31,6 +31,7 @@ menu_background {
   parallax = true
   parallax_intensity = 0.1
   invert_parallax = false
+  restart_animated_on_menu_load = false
   instance_identifier = 21ec206e-cb64-4c2a-9e30-a22e96721b76-1751923152464
   background_type = image
 }
