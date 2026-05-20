@@ -26,9 +26,10 @@
 	"Low Health Sound Effects" = true
 	"Low Health Screen Overlay" = true
 
-[black_list]
-	"Entity Black List" = [""]
-	"Nether Blood List" = [""]
-	"Red Blood List" = []
-	"End Blood List" = []
+[entity_list]
+	#Uses registry name of the entity
+	"Entity Black List" = [" "]
+	"Nether Blood List" = [" "]
+	"Red Blood List" = [" "]
+	"End Blood List" = [" "]
 
