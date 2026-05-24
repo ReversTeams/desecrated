@@ -2127,13 +2127,13 @@
     "curseForgeHash": 2711624359,
     "modrinthHash": "7eec1e4d46a731c6da0b0135915529e21621a81d"
   },
-  "structures+-1.7-all.jar": {
-    "jarName": "structures+-1.7-all.jar",
+  "structures+-1.8-all.jar": {
+    "jarName": "structures+-1.8-all.jar",
     "modId": "structuresplus",
     "name": "Structures+",
-    "version": "1.7",
-    "curseForgeHash": 946266797,
-    "modrinthHash": "982af89a9f3920298f727500d3bc40cfed214f11"
+    "version": "1.8",
+    "curseForgeHash": 3496618899,
+    "modrinthHash": "56af909fc269077214554e6696da82cbaacd2700"
   },
   "structuresloottweak-1.1.0-universal-1.20.1.jar": {
     "jarName": "structuresloottweak-1.1.0-universal-1.20.1.jar",
@@ -2375,13 +2375,13 @@
     "curseForgeHash": 2890512468,
     "modrinthHash": "0c7f0360fc5324a2c29591a22d827ff5e536cc00"
   },
-  "VampiresDelight-1.20.1-0.1.7e.jar": {
-    "jarName": "VampiresDelight-1.20.1-0.1.7e.jar",
+  "VampiresDelight-1.20.1-0.1.13.jar": {
+    "jarName": "VampiresDelight-1.20.1-0.1.13.jar",
     "modId": "vampiresdelight",
     "name": "Vampire\u0027s Delight",
-    "version": "0.1.7e",
-    "curseForgeHash": 3076082466,
-    "modrinthHash": "45836e5f6a9f3e6ccc3786918c3dccae2e10df8e"
+    "version": "0.1.13",
+    "curseForgeHash": 3184885091,
+    "modrinthHash": "d1849ef081bbf0ebac8342d7a5861422826c3242"
   },
   "VampiresNeedUmbrellas-1.20.1-1.0.1.jar": {
     "jarName": "VampiresNeedUmbrellas-1.20.1-1.0.1.jar",

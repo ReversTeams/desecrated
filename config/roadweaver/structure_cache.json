@@ -1665,14 +1665,6 @@
       ]
     },
     {
-      "id": "vampiresdelight:lost_carriage",
-      "displayName": "Lost Carriage",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
       "id": "vampirism:crypt",
       "displayName": "Crypt",
       "isVanilla": false,
