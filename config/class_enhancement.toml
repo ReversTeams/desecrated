@@ -18,9 +18,9 @@
 [classes]
 
 	[classes.warrior]
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Knight"
-		#Lore text. Supports '&' color codes.
+		#Lore text. (Supports translation keys & color codes).
 		description = "Born to swing a sword."
 		#Cosmetic stat lines.
 		stats = ["&a+2 Damage", "&a+2 Health", "&c-20% Speed"]
@@ -40,9 +40,9 @@
 		enabled = true
 
 	[classes.ranger]
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Ranged"
-		#Lore text. Supports '&' color codes.
+		#Lore text. (Supports translation keys & color codes).
 		description = "You are quick with your movements, sharp with your shots."
 		#Cosmetic stat lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -62,9 +62,9 @@
 		enabled = true
 
 	[classes.tank]
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Tank"
-		#Lore text. Supports '&' color codes.
+		#Lore text. (Supports translation keys & color codes).
 		description = "Born slightly larger than average, you are able to take more damage."
 		#Cosmetic stat lines.
 		stats = ["&a+10 Health", "&c-15% Speed"]
@@ -84,9 +84,9 @@
 		enabled = true
 
 	[classes.none]
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Civilian"
-		#Lore text. Supports '&' color codes.
+		#Lore text. (Supports translation keys & color codes).
 		description = "No stat changes. You were born without any talent at all."
 		#Cosmetic stat lines.
 		stats = ["&7No stat changes."]
@@ -113,9 +113,9 @@
 	[custom_classes.custom_0]
 		#Unique internal ID. Leave empty to disable.
 		id = "exile"
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Noble Exile"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "An exiled noble vampire having escaped the calamities of Red Barar's fall."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Strength"]
@@ -137,9 +137,9 @@
 	[custom_classes.custom_1]
 		#Unique internal ID. Leave empty to disable.
 		id = "yore"
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Scholar of Yore"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire studying the arcane blood arts of the past."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Speed"]
@@ -161,9 +161,9 @@
 	[custom_classes.custom_2]
 		#Unique internal ID. Leave empty to disable.
 		id = "artificer"
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Crimson Artificer"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire engineering new capabilities with flesh and meat."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Armour"]
@@ -185,9 +185,9 @@
 	[custom_classes.custom_3]
 		#Unique internal ID. Leave empty to disable.
 		id = "vine"
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Sanguine of Vine"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire of the Vine Sanguine faction, specializing in nature."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Health"]
@@ -209,9 +209,9 @@
 	[custom_classes.custom_4]
 		#Unique internal ID. Leave empty to disable.
 		id = "iron"
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Sanguine of Iron"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire of the Iron Sanguine faction, accustomed to the arms."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&a+10% Knockback Resistance"]
@@ -233,9 +233,9 @@
 	[custom_classes.custom_5]
 		#Unique internal ID. Leave empty to disable.
 		id = "outcast"
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "Sanguine Outcast"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A traveller."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire"]
@@ -257,9 +257,9 @@
 	[custom_classes.custom_6]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -281,9 +281,9 @@
 	[custom_classes.custom_7]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -305,9 +305,9 @@
 	[custom_classes.custom_8]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -329,9 +329,9 @@
 	[custom_classes.custom_9]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -353,9 +353,9 @@
 	[custom_classes.custom_10]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -377,9 +377,9 @@
 	[custom_classes.custom_11]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -401,9 +401,9 @@
 	[custom_classes.custom_12]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -425,9 +425,9 @@
 	[custom_classes.custom_13]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -449,9 +449,9 @@
 	[custom_classes.custom_14]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -473,9 +473,9 @@
 	[custom_classes.custom_15]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -497,9 +497,9 @@
 	[custom_classes.custom_16]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -521,9 +521,9 @@
 	[custom_classes.custom_17]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -545,9 +545,9 @@
 	[custom_classes.custom_18]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -569,9 +569,9 @@
 	[custom_classes.custom_19]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -593,9 +593,9 @@
 	[custom_classes.custom_20]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -617,9 +617,9 @@
 	[custom_classes.custom_21]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -641,9 +641,9 @@
 	[custom_classes.custom_22]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -665,9 +665,9 @@
 	[custom_classes.custom_23]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -689,9 +689,9 @@
 	[custom_classes.custom_24]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -713,9 +713,9 @@
 	[custom_classes.custom_25]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -737,9 +737,9 @@
 	[custom_classes.custom_26]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -761,9 +761,9 @@
 	[custom_classes.custom_27]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -785,9 +785,9 @@
 	[custom_classes.custom_28]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -809,9 +809,9 @@
 	[custom_classes.custom_29]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -833,9 +833,9 @@
 	[custom_classes.custom_30]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -857,9 +857,9 @@
 	[custom_classes.custom_31]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -881,9 +881,9 @@
 	[custom_classes.custom_32]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -905,9 +905,9 @@
 	[custom_classes.custom_33]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -929,9 +929,9 @@
 	[custom_classes.custom_34]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -953,9 +953,9 @@
 	[custom_classes.custom_35]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -977,9 +977,9 @@
 	[custom_classes.custom_36]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1001,9 +1001,9 @@
 	[custom_classes.custom_37]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1025,9 +1025,9 @@
 	[custom_classes.custom_38]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1049,9 +1049,9 @@
 	[custom_classes.custom_39]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1073,9 +1073,9 @@
 	[custom_classes.custom_40]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1097,9 +1097,9 @@
 	[custom_classes.custom_41]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1121,9 +1121,9 @@
 	[custom_classes.custom_42]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1145,9 +1145,9 @@
 	[custom_classes.custom_43]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1169,9 +1169,9 @@
 	[custom_classes.custom_44]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1193,9 +1193,9 @@
 	[custom_classes.custom_45]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1217,9 +1217,9 @@
 	[custom_classes.custom_46]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1241,9 +1241,9 @@
 	[custom_classes.custom_47]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1265,9 +1265,9 @@
 	[custom_classes.custom_48]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1289,9 +1289,9 @@
 	[custom_classes.custom_49]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1313,9 +1313,9 @@
 	[custom_classes.custom_50]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1337,9 +1337,9 @@
 	[custom_classes.custom_51]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1361,9 +1361,9 @@
 	[custom_classes.custom_52]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1385,9 +1385,9 @@
 	[custom_classes.custom_53]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1409,9 +1409,9 @@
 	[custom_classes.custom_54]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1433,9 +1433,9 @@
 	[custom_classes.custom_55]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1457,9 +1457,9 @@
 	[custom_classes.custom_56]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1481,9 +1481,9 @@
 	[custom_classes.custom_57]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1505,9 +1505,9 @@
 	[custom_classes.custom_58]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1529,9 +1529,9 @@
 	[custom_classes.custom_59]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1553,9 +1553,9 @@
 	[custom_classes.custom_60]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1577,9 +1577,9 @@
 	[custom_classes.custom_61]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1601,9 +1601,9 @@
 	[custom_classes.custom_62]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1625,9 +1625,9 @@
 	[custom_classes.custom_63]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1649,9 +1649,9 @@
 	[custom_classes.custom_64]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1673,9 +1673,9 @@
 	[custom_classes.custom_65]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1697,9 +1697,9 @@
 	[custom_classes.custom_66]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1721,9 +1721,9 @@
 	[custom_classes.custom_67]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1745,9 +1745,9 @@
 	[custom_classes.custom_68]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1769,9 +1769,9 @@
 	[custom_classes.custom_69]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1793,9 +1793,9 @@
 	[custom_classes.custom_70]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1817,9 +1817,9 @@
 	[custom_classes.custom_71]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1841,9 +1841,9 @@
 	[custom_classes.custom_72]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1865,9 +1865,9 @@
 	[custom_classes.custom_73]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1889,9 +1889,9 @@
 	[custom_classes.custom_74]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1913,9 +1913,9 @@
 	[custom_classes.custom_75]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1937,9 +1937,9 @@
 	[custom_classes.custom_76]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1961,9 +1961,9 @@
 	[custom_classes.custom_77]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -1985,9 +1985,9 @@
 	[custom_classes.custom_78]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2009,9 +2009,9 @@
 	[custom_classes.custom_79]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2033,9 +2033,9 @@
 	[custom_classes.custom_80]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2057,9 +2057,9 @@
 	[custom_classes.custom_81]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2081,9 +2081,9 @@
 	[custom_classes.custom_82]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2105,9 +2105,9 @@
 	[custom_classes.custom_83]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2129,9 +2129,9 @@
 	[custom_classes.custom_84]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2153,9 +2153,9 @@
 	[custom_classes.custom_85]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2177,9 +2177,9 @@
 	[custom_classes.custom_86]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2201,9 +2201,9 @@
 	[custom_classes.custom_87]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2225,9 +2225,9 @@
 	[custom_classes.custom_88]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2249,9 +2249,9 @@
 	[custom_classes.custom_89]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2273,9 +2273,9 @@
 	[custom_classes.custom_90]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2297,9 +2297,9 @@
 	[custom_classes.custom_91]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2321,9 +2321,9 @@
 	[custom_classes.custom_92]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2345,9 +2345,9 @@
 	[custom_classes.custom_93]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2369,9 +2369,9 @@
 	[custom_classes.custom_94]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2393,9 +2393,9 @@
 	[custom_classes.custom_95]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2417,9 +2417,9 @@
 	[custom_classes.custom_96]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2441,9 +2441,9 @@
 	[custom_classes.custom_97]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2465,9 +2465,9 @@
 	[custom_classes.custom_98]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
@@ -2489,9 +2489,9 @@
 	[custom_classes.custom_99]
 		#Unique internal ID. Leave empty to disable.
 		id = ""
-		#Display name shown in GUI.
+		#Display name shown in GUI. (Supports translation keys)
 		name = "New Class"
-		#Lore text shown in the panel.
+		#Lore text shown in the panel. (Supports translation keys)
 		description = "A custom path."
 		#Cosmetic stat summary lines.
 		stats = ["&a+20% Speed", "&c-2 Health"]
