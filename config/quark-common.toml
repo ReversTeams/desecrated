@@ -282,13 +282,13 @@
 		"Enable Pillar" = true
 
 [management]
-	"Automatic Tool Restock" = true
-	"Easy Transfering" = true
-	"Expanded Item Interactions" = true
-	"Hotbar Changer" = true
-	"Inventory Sorting" = true
-	"Item Sharing" = true
-	"Quick Armor Swapping" = true
+	"Automatic Tool Restock" = false
+	"Easy Transfering" = false
+	"Expanded Item Interactions" = false
+	"Hotbar Changer" = false
+	"Inventory Sorting" = false
+	"Item Sharing" = false
+	"Quick Armor Swapping" = false
 
 	[management.automatic_tool_restock]
 		#Enchantments deemed important enough to have special priority when finding a replacement
