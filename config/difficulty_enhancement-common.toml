@@ -50,6 +50,7 @@
 	underwaterBreathing = true
 	bgColor = "#050F0F"
 	accentColor = "#55FFFF"
+	allowKeepInventory = true
 
 [normal]
 	enabled = true
@@ -63,6 +64,7 @@
 	fallDmgMultiplier = 1.0
 	bgColor = "#07070F"
 	accentColor = "#D4A843"
+	allowKeepInventory = true
 
 [extreme]
 	enabled = true
@@ -76,6 +78,7 @@
 	fallDmgMultiplier = 2.0
 	bgColor = "#0F0A05"
 	accentColor = "#FF8833"
+	allowKeepInventory = true
 
 [torture]
 	enabled = true
@@ -93,6 +96,7 @@
 	exhaustionAmount = 0.5
 	bgColor = "#100505"
 	accentColor = "#FF3333"
+	allowKeepInventory = true
 
 [chaos]
 	enabled = true
@@ -110,6 +114,7 @@
 	exhaustionAmount = 1.0
 	bgColor = "#0A0005"
 	accentColor = "#FF0000"
+	allowKeepInventory = true
 
 [custom_difficulties]
 	#Range: 1 ~ 100
@@ -147,6 +152,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_1]
 		id = ""
@@ -180,6 +186,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_2]
 		id = ""
@@ -213,6 +220,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_3]
 		id = ""
@@ -246,6 +254,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_4]
 		id = ""
@@ -279,6 +288,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_5]
 		id = ""
@@ -312,6 +322,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_6]
 		id = ""
@@ -345,6 +356,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_7]
 		id = ""
@@ -378,6 +390,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_8]
 		id = ""
@@ -411,6 +424,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_9]
 		id = ""
@@ -444,6 +458,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_10]
 		id = ""
@@ -477,6 +492,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_11]
 		id = ""
@@ -510,6 +526,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_12]
 		id = ""
@@ -543,6 +560,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_13]
 		id = ""
@@ -576,6 +594,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_14]
 		id = ""
@@ -609,6 +628,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_15]
 		id = ""
@@ -642,6 +662,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_16]
 		id = ""
@@ -675,6 +696,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_17]
 		id = ""
@@ -708,6 +730,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_18]
 		id = ""
@@ -741,6 +764,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_19]
 		id = ""
@@ -774,6 +798,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_20]
 		id = ""
@@ -807,6 +832,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_21]
 		id = ""
@@ -840,6 +866,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_22]
 		id = ""
@@ -873,6 +900,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_23]
 		id = ""
@@ -906,6 +934,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_24]
 		id = ""
@@ -939,6 +968,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_25]
 		id = ""
@@ -972,6 +1002,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_26]
 		id = ""
@@ -1005,6 +1036,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_27]
 		id = ""
@@ -1038,6 +1070,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_28]
 		id = ""
@@ -1071,6 +1104,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_29]
 		id = ""
@@ -1104,6 +1138,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_30]
 		id = ""
@@ -1137,6 +1172,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_31]
 		id = ""
@@ -1170,6 +1206,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_32]
 		id = ""
@@ -1203,6 +1240,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_33]
 		id = ""
@@ -1236,6 +1274,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_34]
 		id = ""
@@ -1269,6 +1308,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_35]
 		id = ""
@@ -1302,6 +1342,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_36]
 		id = ""
@@ -1335,6 +1376,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_37]
 		id = ""
@@ -1368,6 +1410,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_38]
 		id = ""
@@ -1401,6 +1444,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_39]
 		id = ""
@@ -1434,6 +1478,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_40]
 		id = ""
@@ -1467,6 +1512,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_41]
 		id = ""
@@ -1500,6 +1546,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_42]
 		id = ""
@@ -1533,6 +1580,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_43]
 		id = ""
@@ -1566,6 +1614,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_44]
 		id = ""
@@ -1599,6 +1648,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_45]
 		id = ""
@@ -1632,6 +1682,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_46]
 		id = ""
@@ -1665,6 +1716,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_47]
 		id = ""
@@ -1698,6 +1750,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_48]
 		id = ""
@@ -1731,6 +1784,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_49]
 		id = ""
@@ -1764,6 +1818,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_50]
 		id = ""
@@ -1797,6 +1852,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_51]
 		id = ""
@@ -1830,6 +1886,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_52]
 		id = ""
@@ -1863,6 +1920,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_53]
 		id = ""
@@ -1896,6 +1954,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_54]
 		id = ""
@@ -1929,6 +1988,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_55]
 		id = ""
@@ -1962,6 +2022,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_56]
 		id = ""
@@ -1995,6 +2056,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_57]
 		id = ""
@@ -2028,6 +2090,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_58]
 		id = ""
@@ -2061,6 +2124,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_59]
 		id = ""
@@ -2094,6 +2158,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_60]
 		id = ""
@@ -2127,6 +2192,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_61]
 		id = ""
@@ -2160,6 +2226,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_62]
 		id = ""
@@ -2193,6 +2260,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_63]
 		id = ""
@@ -2226,6 +2294,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_64]
 		id = ""
@@ -2259,6 +2328,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_65]
 		id = ""
@@ -2292,6 +2362,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_66]
 		id = ""
@@ -2325,6 +2396,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_67]
 		id = ""
@@ -2358,6 +2430,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_68]
 		id = ""
@@ -2391,6 +2464,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_69]
 		id = ""
@@ -2424,6 +2498,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_70]
 		id = ""
@@ -2457,6 +2532,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_71]
 		id = ""
@@ -2490,6 +2566,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_72]
 		id = ""
@@ -2523,6 +2600,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_73]
 		id = ""
@@ -2556,6 +2634,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_74]
 		id = ""
@@ -2589,6 +2668,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_75]
 		id = ""
@@ -2622,6 +2702,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_76]
 		id = ""
@@ -2655,6 +2736,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_77]
 		id = ""
@@ -2688,6 +2770,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_78]
 		id = ""
@@ -2721,6 +2804,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_79]
 		id = ""
@@ -2754,6 +2838,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_80]
 		id = ""
@@ -2787,6 +2872,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_81]
 		id = ""
@@ -2820,6 +2906,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_82]
 		id = ""
@@ -2853,6 +2940,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_83]
 		id = ""
@@ -2886,6 +2974,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_84]
 		id = ""
@@ -2919,6 +3008,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_85]
 		id = ""
@@ -2952,6 +3042,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_86]
 		id = ""
@@ -2985,6 +3076,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_87]
 		id = ""
@@ -3018,6 +3110,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_88]
 		id = ""
@@ -3051,6 +3144,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_89]
 		id = ""
@@ -3084,6 +3178,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_90]
 		id = ""
@@ -3117,6 +3212,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_91]
 		id = ""
@@ -3150,6 +3246,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_92]
 		id = ""
@@ -3183,6 +3280,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_93]
 		id = ""
@@ -3216,6 +3314,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_94]
 		id = ""
@@ -3249,6 +3348,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_95]
 		id = ""
@@ -3282,6 +3382,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_96]
 		id = ""
@@ -3315,6 +3416,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_97]
 		id = ""
@@ -3348,6 +3450,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_98]
 		id = ""
@@ -3381,6 +3484,7 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_99]
 		id = ""
@@ -3414,4 +3518,21 @@
 		confirmSound = ""
 		traits = []
 		commands = []
+		allowKeepInventory = false
+
+["invulnerability stuff"]
+	#Enable invulnerability for players while they're choosing their difficulty
+	enableSetupImmunity = true
+	#Prevent incoming damage during the difficulty selection.
+	preventSetupDamage = true
+	#Regularly extinguish players.
+	clearSetupFire = true
+	#Reset accumulated fall distance.
+	resetSetupFall = true
+	#Regularly max out player oxygen level.
+	maxSetupAir = true
+	#Keep food level maxed out.
+	maxSetupFood = true
+	#Keep player health max.
+	maxSetupHealth = true
 

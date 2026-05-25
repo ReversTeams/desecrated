@@ -1,14 +1,12 @@
 
-#═══════════════════════════════════════
-#  CLASS ENHANCEMENT CONFIGURATION
-#═══════════════════════════════════════
+#CLASS ENHANCEMENT CONFIGURATION
 [general]
 	#If true, disables the built-in classes (Warrior, Ranger, Tank, Civilian)
 	disableDefaultClasses = true
 	#Number of custom class slots (1-100). Restart required.
 	#Range: 1 ~ 100
 	customClassSlots = 10
-	#Allow players to change their class after initial selection (OPs can always change)
+	#Allow players to change their class after they have already selected it. (OPs can always change)
 	allowClassReselection = false
 	#Delay before opening class selection menu on login (in ticks, 20 = 1 second)
 	#Range: 0 ~ 200
@@ -2539,4 +2537,20 @@
 	transitionBlendTime = 0.8
 	#Enable smooth gradient transition between screens
 	smoothGradientTransition = true
+
+["invulnerability stuff"]
+	#Enable invulnerability for players.
+	enableSetupImmunity = true
+	#Prevent incoming damage.
+	preventSetupDamage = true
+	#Regularly extinguish players.
+	clearSetupFire = true
+	#Reset accumulated fall distance.
+	resetSetupFall = true
+	#Regularly max out player oxygen level.
+	maxSetupAir = true
+	#Keep food level maxed out.
+	maxSetupFood = true
+	#Keep player health maxed out.
+	maxSetupHealth = true
 
