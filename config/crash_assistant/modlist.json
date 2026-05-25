@@ -562,14 +562,6 @@
     "curseForgeHash": 314314029,
     "modrinthHash": "3b36538ca8c6cc16982788c8e058cb726357a90c"
   },
-  "corruption-0.2.0-1.20.1-all.jar": {
-    "jarName": "corruption-0.2.0-1.20.1-all.jar",
-    "modId": "corruption",
-    "name": "Rotten Ruins",
-    "version": "0.2.0-1.20.1",
-    "curseForgeHash": 2406390005,
-    "modrinthHash": "654c8a87a0d613fcffa33d9a5e5d338b2f590f5a"
-  },
   "cosmeticarmorreworked-1.20.1-v1a.jar": {
     "jarName": "cosmeticarmorreworked-1.20.1-v1a.jar",
     "modId": "cosmeticarmorreworked",
@@ -2159,14 +2151,6 @@
     "curseForgeHash": 1988549846,
     "modrinthHash": "326d65a29981de28016e3828370d68a8f63e1798"
   },
-  "TACZ Unidict-1.20.1-forge-2.0.1.jar": {
-    "jarName": "TACZ Unidict-1.20.1-forge-2.0.1.jar",
-    "modId": "tacz_unidict",
-    "name": "Tacz: UniDict",
-    "version": "2.0.1",
-    "curseForgeHash": 1096657921,
-    "modrinthHash": "995519382ebd66240fb1a0cd3fe19a43473ed00f"
-  },
   "tacz-1.20.1-1.1.8-release.jar": {
     "jarName": "tacz-1.20.1-1.1.8-release.jar",
     "modId": "tacz",
@@ -2190,14 +2174,6 @@
     "version": "1.0.0-hotfix",
     "curseForgeHash": 711708539,
     "modrinthHash": "847828f864da715d83cbe7c08f56c2646c28899f"
-  },
-  "taczbb-v1.1.0.jar": {
-    "jarName": "taczbb-v1.1.0.jar",
-    "modId": "taczbb",
-    "name": "TaCZ: Bullets Back",
-    "version": "1.0-SNAPSHOT",
-    "curseForgeHash": 2253121541,
-    "modrinthHash": "78adccd589d4051fed8a2d258c7298738da7a3a8"
   },
   "tagfixes-1.0.5-universal-1.20.1.jar": {
     "jarName": "tagfixes-1.0.5-universal-1.20.1.jar",
