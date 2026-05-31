@@ -14,6 +14,22 @@
   ],
   "structures": [
     {
+      "id": "minecraft:airship",
+      "displayName": "Airship",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:airshipwreck",
+      "displayName": "Airshipwreck",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "minecraft:ancient_city",
       "displayName": "Ancient City",
       "isVanilla": true,
@@ -30,8 +46,24 @@
       ]
     },
     {
+      "id": "minecraft:brig",
+      "displayName": "Brig",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "minecraft:buried_treasure",
       "displayName": "Buried Treasure",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:castle",
+      "displayName": "Castle",
       "isVanilla": true,
       "dimensions": [
         "minecraft:overworld"
@@ -78,6 +110,14 @@
       ]
     },
     {
+      "id": "minecraft:living_tree",
+      "displayName": "Living Tree",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "minecraft:mansion",
       "displayName": "Mansion",
       "isVanilla": true,
@@ -110,6 +150,14 @@
       ]
     },
     {
+      "id": "minecraft:nether_city",
+      "displayName": "Nether City",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
       "id": "minecraft:nether_fossil",
       "displayName": "Nether Fossil",
       "isVanilla": true,
@@ -137,6 +185,22 @@
     {
       "id": "minecraft:pillager_outpost",
       "displayName": "Pillager Outpost",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:pirate_fleet",
+      "displayName": "Pirate Fleet",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:pirate_hideout",
+      "displayName": "Pirate Hideout",
       "isVanilla": true,
       "dimensions": [
         "minecraft:overworld"
@@ -273,6 +337,14 @@
     {
       "id": "minecraft:village_taiga",
       "displayName": "Village Taiga",
+      "isVanilla": true,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "displayName": "Volcano Fortress",
       "isVanilla": true,
       "dimensions": [
         "minecraft:overworld"
@@ -831,6 +903,126 @@
       ]
     },
     {
+      "id": "grim_kingdoms:blackridge_watch",
+      "displayName": "Blackridge Watch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:chill_hallmanor",
+      "displayName": "Chill Hallmanor",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:decrown_monolith",
+      "displayName": "Decrown Monolith",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:frostbloom_bastion",
+      "displayName": "Frostbloom Bastion",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:frozen_onion_fort",
+      "displayName": "Frozen Onion Fort",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:glacierfall_keep",
+      "displayName": "Glacierfall Keep",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:glimmervault_fortress",
+      "displayName": "Glimmervault Fortress",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:shardspire_castle",
+      "displayName": "Shardspire Castle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:silentgale_citadel",
+      "displayName": "Silentgale Citadel",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:snowgrave_citadel",
+      "displayName": "Snowgrave Citadel",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:stonyfell_outpost",
+      "displayName": "Stonyfell Outpost",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:travelers_lodge",
+      "displayName": "Travelers Lodge",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:whitewarden_keep",
+      "displayName": "Whitewarden Keep",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:winterhold_citadel",
+      "displayName": "Winterhold Citadel",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "grim_kingdoms:zweiberg",
+      "displayName": "Zweiberg",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "hexalia:herbalist_hut",
       "displayName": "Herbalist Hut",
       "isVanilla": false,
@@ -1044,6 +1236,238 @@
       "isVanilla": false,
       "dimensions": [
         "perdition:purgatory"
+      ]
+    },
+    {
+      "id": "philipsruins:ancient_crypt",
+      "displayName": "Ancient Crypt",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:ancient_dungeon",
+      "displayName": "Ancient Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:ancient_ruins",
+      "displayName": "Ancient Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:ancient_towers",
+      "displayName": "Ancient Towers",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:antiquus_crypta",
+      "displayName": "Antiquus Crypta",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:badlands_start_dungeon",
+      "displayName": "Badlands Start Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:badlands_structures",
+      "displayName": "Badlands Structures",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:bone_dungeon",
+      "displayName": "Bone Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:desert_structures",
+      "displayName": "Desert Structures",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:end_gate_fortress",
+      "displayName": "End Gate Fortress",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "philipsruins:end_ruins",
+      "displayName": "End Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "philipsruins:field_stone_ruins",
+      "displayName": "Field Stone Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:field_stone_ruins_rocks",
+      "displayName": "Field Stone Ruins Rocks",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:level_one_ruins",
+      "displayName": "Level One Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:level_three_ruins",
+      "displayName": "Level Three Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:level_two_ruins",
+      "displayName": "Level Two Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:level_two_ruins_pool",
+      "displayName": "Level Two Ruins Pool",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:lost_soul_city",
+      "displayName": "Lost Soul City",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:lost_soul_dungeon",
+      "displayName": "Lost Soul Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:nether_lava_ruins",
+      "displayName": "Nether Lava Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "philipsruins:ocean_fortress",
+      "displayName": "Ocean Fortress",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:ocean_ruins",
+      "displayName": "Ocean Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:pumpkin_ruins",
+      "displayName": "Pumpkin Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:rare_ruin",
+      "displayName": "Rare Ruin",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:sculk_dungeon",
+      "displayName": "Sculk Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:sealedruinedghaststatue1",
+      "displayName": "Sealedruinedghaststatue1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "philipsruins:start_nether_dungeon",
+      "displayName": "Start Nether Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "philipsruins:start_nether_ruin",
+      "displayName": "Start Nether Ruin",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "philipsruins:underground_structures",
+      "displayName": "Underground Structures",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
       ]
     },
     {
