@@ -1,0 +1,958 @@
+{
+	autofocus_id: "5D7C1741C8D6F8E0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sanguines_of_vine"
+	group: "77396AEB02AB4898"
+	icon: "hexalia:hex_focus"
+	id: "4E87211C732B487C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			id: "5D7C1741C8D6F8E0"
+			rewards: [{
+				id: "2CC3128C6D363178"
+				item: "hexalia:verdant_grimoire"
+				type: "item"
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "1D494837F27F1B91"
+				item: {
+					Count: 1
+					id: "hexalia:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			id: "5FB35D49B42DB136"
+			tasks: [{
+				id: "45329A33A229F751"
+				item: "hexalia:spirit_bloom"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			id: "1E49979CD799AF0E"
+			tasks: [{
+				id: "00D0E9C38F79CA9D"
+				item: "hexalia:dreamshroom"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			id: "098FCAB9E0418241"
+			tasks: [{
+				id: "03F946FD2FE05010"
+				item: "hexalia:siren_kelp"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			id: "0D9E8704CBFB3F6C"
+			tasks: [{
+				id: "34B5B9D35CA9D832"
+				item: "hexalia:ghost_fern"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5FB35D49B42DB136"
+				"1E49979CD799AF0E"
+				"098FCAB9E0418241"
+				"0D9E8704CBFB3F6C"
+				"4283D4B2FCBAA2C2"
+			]
+			id: "3AFEAB8E568538B8"
+			tasks: [{
+				id: "5C2ACED18A154439"
+				item: "hexalia:mortar_and_pestle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["098FCAB9E0418241"]
+			id: "4BF80DB72A72DBAB"
+			tasks: [
+				{
+					id: "00DD5417A7EC5356"
+					item: "hexalia:infused_dirt"
+					type: "item"
+				}
+				{
+					icon: "hexalia:infused_farmland"
+					id: "7E42FA8B9B19725E"
+					observe_type: 0
+					timer: 0L
+					to_observe: "hexalia:infused_farmland"
+					type: "observation"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			id: "4283D4B2FCBAA2C2"
+			tasks: [{
+				id: "6BADB8B60002D45A"
+				item: "hexalia:witchweed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			hide_dependency_lines: true
+			id: "02094B42E4290262"
+			tasks: [
+				{
+					id: "456425231423ABF8"
+					item: "hexalia:mandrake"
+					type: "item"
+				}
+				{
+					id: "677B06784F2ED1CA"
+					item: {
+						Count: 1
+						id: "hexalia:earplugs"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			hide_dependency_lines: true
+			id: "376E7364A9D63333"
+			tasks: [{
+				id: "01969DD2722114C0"
+				item: "hexalia:sunfire_tomato"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			hide_dependency_lines: true
+			id: "70D080A715D3317C"
+			tasks: [{
+				id: "12613DB1CC59D534"
+				item: "hexalia:chillberries"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			hide_dependency_lines: true
+			id: "644522F860A5FA04"
+			tasks: [{
+				id: "429FE0929ACAA656"
+				item: "hexalia:saltsprout"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["367B0F8EC622BF08"]
+			id: "324985E19423593A"
+			tasks: [{
+				id: "2476ADAB70CA42C1"
+				item: "hexalia:galeberries"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["79A14B394FAEBEA1"]
+			id: "5F838290AD659F48"
+			tasks: [
+				{
+					id: "7C2E48F9F2AD7768"
+					item: "hexalia:rabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "670EB82C586B38F6"
+					item: "hexalia:rabbage"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["644522F860A5FA04"]
+			id: "2B6DAF70A2BA1497"
+			tasks: [{
+				id: "01B168D42D314714"
+				item: "hexalia:salt"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C10D594BB28276E"]
+			icon: "hexalia:ritual_table"
+			id: "79A14B394FAEBEA1"
+			tasks: [
+				{
+					id: "47F58C74F5F95E14"
+					item: "hexalia:ritual_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1D5E828D5996CAC8"
+					item: { Count: 4, id: "hexalia:ritual_brazier" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5FB35D49B42DB136"]
+			id: "367B0F8EC622BF08"
+			tasks: [{
+				id: "019A8FC1A339B21B"
+				item: "hexalia:ritual_brazier"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E49979CD799AF0E"]
+			id: "7F5E0F9AA305FCDE"
+			tasks: [
+				{
+					id: "147F2E7EF7FAF58D"
+					item: "hexalia:small_cauldron"
+					type: "item"
+				}
+				{
+					id: "727186C20D549C89"
+					item: "hexalia:rustic_oven"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F5E0F9AA305FCDE"]
+			id: "2E0559FF024B038E"
+			tasks: [{
+				id: "6B19ABED75B66436"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexalia:brew_of_spikeskin"
+							}
+							{
+								Count: 1b
+								id: "hexalia:brew_of_bloodlust"
+							}
+							{
+								Count: 1b
+								id: "hexalia:brew_of_slimewalker"
+							}
+							{
+								Count: 1b
+								id: "hexalia:brew_of_siphon"
+							}
+							{
+								Count: 1b
+								id: "hexalia:brew_of_homestead"
+							}
+							{
+								Count: 1b
+								id: "hexalia:brew_of_daybloom"
+							}
+							{
+								Count: 1b
+								id: "hexalia:brew_of_arachnid_grace"
+							}
+							{
+								Count: 1b
+								id: "hexalia:brew_of_hollow_silence"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["285A0AB8817CC4D7"]
+			id: "3A1D10BB2E2F9A68"
+			tasks: [{
+				id: "671153B3D52B001F"
+				item: {
+					Count: 1
+					id: "hexalia:kelpweave_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["280458A4E77B8B5F"]
+			id: "7686BEC6C823A5C5"
+			tasks: [{
+				id: "1EE5E30AB39C9781"
+				item: {
+					Count: 1
+					id: "hexalia:rootshaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3B07119ABAD8B6F8"]
+			id: "41D1F58401F47296"
+			tasks: [{
+				id: "26D27DA0101E5E5F"
+				item: {
+					Count: 1
+					id: "hexalia:sage_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["280458A4E77B8B5F"]
+			id: "4DEA4059A64C351E"
+			tasks: [{
+				id: "451B87A532A97600"
+				item: {
+					Count: 1
+					id: "hexalia:thornbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["280458A4E77B8B5F"]
+			id: "6C3A9F484812BE20"
+			tasks: [{
+				id: "11254269966F8099"
+				item: {
+					Count: 1
+					id: "hexalia:briar_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["367B0F8EC622BF08"]
+			id: "3B07119ABAD8B6F8"
+			tasks: [{
+				id: "49E26FE3EDDD584A"
+				item: "hexalia:celestial_crystal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7A9745165188D85E"]
+			id: "377E448539CC06F0"
+			tasks: [
+				{
+					id: "55FABD5C2000BB93"
+					item: {
+						Count: 1
+						id: "hexalia:silkweave_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15AF11D1F9F42BA1"
+					item: {
+						Count: 1
+						id: "hexalia:silkweave_mantle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EA8BC758E74EC09"
+					item: {
+						Count: 1
+						id: "hexalia:silkweave_bindings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD6A43A614A7948"
+					item: {
+						Count: 1
+						id: "hexalia:silkweave_footwraps"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"367B0F8EC622BF08"
+				"377E448539CC06F0"
+			]
+			id: "608FE86E7BEE0446"
+			tasks: [
+				{
+					id: "1EFFEDE5CECB5919"
+					item: {
+						Count: 1
+						id: "hexalia:moonweave_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19973BA4C24F3921"
+					item: {
+						Count: 1
+						id: "hexalia:moonweave_mantle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DF0D0C16D9B54FA"
+					item: {
+						Count: 1
+						id: "hexalia:moonweave_bindings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F66E6A472B885E2"
+					item: {
+						Count: 1
+						id: "hexalia:moonweave_footwraps"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"79A14B394FAEBEA1"
+				"280458A4E77B8B5F"
+				"74C0673B71B55D50"
+				"285A0AB8817CC4D7"
+				"114DD2432F86370C"
+			]
+			id: "3409E128DA8E9ED3"
+			tasks: [
+				{
+					id: "29818FBE5E332528"
+					item: {
+						Count: 1
+						id: "hexalia:bloomwrap_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C60D5F3F6AE992E"
+					item: {
+						Count: 1
+						id: "hexalia:bloomwrap_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "657FC9DD61473E83"
+					item: {
+						Count: 1
+						id: "hexalia:bloomwrap_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ED70E76188B8A42"
+					item: {
+						Count: 1
+						id: "hexalia:bloomwrap_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7A9745165188D85E"]
+			id: "65832B921481F5E9"
+			tasks: [{
+				id: "422F092968602FC1"
+				item: {
+					Count: 1
+					id: "hexalia:ghostveil"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["285A0AB8817CC4D7"]
+			id: "3BB39F46D9204742"
+			tasks: [{
+				id: "2F8F5EF73DC7A3E2"
+				item: {
+					Count: 1
+					id: "hexalia:bogshade_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BD16C8208EAAEA6"]
+			id: "7A9745165188D85E"
+			tasks: [{
+				id: "70F147910836BE12"
+				item: "hexalia:silk_fiber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["114DD2432F86370C"]
+			id: "37F8F638DA2FC343"
+			tasks: [{
+				id: "2F467344C312FCC6"
+				item: "hexalia:dreamcatcher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7A9745165188D85E"]
+			id: "7DC4AE81F4FEF5F2"
+			tasks: [{
+				id: "29D39208E04DE34E"
+				item: "hexalia:nesting_block"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3AFEAB8E568538B8"]
+			id: "110391F0AA8822DD"
+			tasks: [{
+				id: "7D5E282672C06A03"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexalia:brambleguard_salve"
+							}
+							{
+								Count: 1b
+								id: "hexalia:menders_salve"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			hide_dependency_lines: true
+			id: "1BD16C8208EAAEA6"
+			tasks: [
+				{
+					icon: "hexalia:silk_moth_spawn_egg"
+					id: "1EF14D006E201F1B"
+					observe_type: 5
+					timer: 0L
+					to_observe: "hexalia:silk_moth"
+					type: "observation"
+				}
+				{
+					id: "4984A3E40CD74944"
+					item: "hexalia:bottled_moth"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["324985E19423593A"]
+			id: "1DB6A169A86470E1"
+			tasks: [
+				{
+					id: "6EB2894941F7392E"
+					item: "hexalia:galeberries_cookie"
+					type: "item"
+				}
+				{
+					icon: "hexalia:cacofey_spawn_egg"
+					id: "0D1C8CB6B17493E3"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					to_observe: "hexalia:cacofey"
+					type: "observation"
+				}
+			]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E49979CD799AF0E"]
+			id: "0DB34BE7C22F723C"
+			tasks: [{
+				id: "7FA388606793247D"
+				item: "hexalia:censer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53F234AF49F2085B"]
+			id: "68D0BEA83BE8DEEE"
+			tasks: [{
+				id: "008F1AFB120478ED"
+				item: "hexalia:morphora"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["53F234AF49F2085B"]
+			id: "238E80BB62FA309F"
+			tasks: [{
+				id: "52F2E19F764C1198"
+				item: "hexalia:grimshade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["53F234AF49F2085B"]
+			id: "2C2A7EC1AE5EC03A"
+			tasks: [{
+				id: "2993E60F288A4D69"
+				item: "hexalia:nautilite"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["53F234AF49F2085B"]
+			id: "12BC778475234325"
+			tasks: [{
+				id: "48126EC10C5AC3A8"
+				item: "hexalia:windsong"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["53F234AF49F2085B"]
+			id: "0153BD0754FF6E0F"
+			tasks: [{
+				id: "414BBA49CF051F1D"
+				item: "hexalia:astrylis"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["53F234AF49F2085B"]
+			id: "47BB013026679371"
+			tasks: [{
+				id: "38A328B6AAFB5C16"
+				item: "hexalia:lourdes"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["53F234AF49F2085B"]
+			id: "7F9FEBDE6A8F8ACE"
+			tasks: [{
+				id: "4F6E8116F334F80E"
+				item: "hexalia:aegiflora"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7A9745165188D85E"]
+			id: "154376889E877CFE"
+			tasks: [{
+				id: "0DE974F8CE256F33"
+				item: "hexalia:silk_idol"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["154376889E877CFE"]
+			id: "5B722878D8AA09BE"
+			tasks: [{
+				id: "23507C6A39930619"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexalia:rainfall_idol"
+							}
+							{
+								Count: 1b
+								id: "hexalia:clarity_idol"
+							}
+							{
+								Count: 1b
+								id: "hexalia:tempest_idol"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["79A14B394FAEBEA1"]
+			id: "280458A4E77B8B5F"
+			tasks: [{
+				id: "32EE29FFA50B8FF2"
+				item: "hexalia:earth_node"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["79A14B394FAEBEA1"]
+			id: "74C0673B71B55D50"
+			tasks: [{
+				id: "6216229DD340558A"
+				item: "hexalia:air_node"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["79A14B394FAEBEA1"]
+			id: "285A0AB8817CC4D7"
+			tasks: [{
+				id: "69543A0969D535D2"
+				item: "hexalia:water_node"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["79A14B394FAEBEA1"]
+			id: "114DD2432F86370C"
+			tasks: [{
+				id: "15C533DF3D2B383A"
+				item: "hexalia:fire_node"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["280458A4E77B8B5F"]
+			id: "53F234AF49F2085B"
+			tasks: [{
+				id: "3023132F6BF49A24"
+				item: "hexalia:ancient_seed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3AFEAB8E568538B8"]
+			id: "1C10D594BB28276E"
+			tasks: [{
+				id: "2EC992632AE754A1"
+				item: "hexalia:hex_focus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0D9E8704CBFB3F6C"]
+			id: "34EA50FDAD627284"
+			tasks: [{
+				id: "107BF48E628B2A14"
+				item: "hexalia:ghost_powder"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			id: "63DD4DFC7E30EEA2"
+			tasks: [{
+				id: "32C1D80FF18EC61F"
+				item: "hexalia:lotus_blossom"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D7C1741C8D6F8E0"]
+			id: "447D63C4C507339D"
+			tasks: [{
+				id: "3DB446BEE2841F18"
+				item: "hexalia:celestial_bloom"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	title: "Sanguines of Vine"
+}

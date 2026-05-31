@@ -9,7 +9,7 @@
 	censerEffectDuration = 7200
 	#Radius in blocks the Dreamcatcher detects and affects phantoms
 	#Range: 1 ~ 64
-	radius = 16
+	radius = 64
 	#Duration in ticks phantoms are set on fire by the Dreamcatcher
 	#Range: 0 ~ 600
 	phantomIgniteDuration = 100

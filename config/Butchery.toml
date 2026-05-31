@@ -18,10 +18,14 @@
 	"Sulfur Ore Generation" = true
 	#Enable salt generation
 	"Salt Generation" = true
-	#Enable blood puddles dropping when no blood grate is below a carcass.
+	#Enables blood puddles dropping when no blood grate is below a carcass.
 	"Blood Puddle" = true
 	#Enable blood spread
 	"Blood Spread" = true
+	#Enable random events caused by breaking magic wishbones.
+	"Magic Wishbone" = true
+	#The chance of receiving a wishbone from a chicken carcass. (Range: 0 - 1)
+	"Wishbone Chance" = 0.25
 
 [Mobs]
 	#Enable Axolotl Carcass

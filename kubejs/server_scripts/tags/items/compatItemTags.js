@@ -17,7 +17,7 @@ ServerEvents.tags('item', event => {
     // ]);
 
     // Desecrated
-    // add('curios:amulet', [
-    //     'bloodyhell:great_amulet_of_ancestral_blood'
-    // ]);
+    add('curios:necklace', [
+        'hexalia:sage_pendant'
+    ]);
 });

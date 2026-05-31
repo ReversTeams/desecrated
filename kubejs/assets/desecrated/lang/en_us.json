@@ -4,5 +4,7 @@
     "biome.perdition.purgatory_plains": "Purgatory Plains",
     "biome.perdition.dis": "Dis",
     "dimension.perdition.dis": "Dis",
-    "dimension.perdition.purgatory": "Purgatory"
+    "dimension.perdition.purgatory": "Purgatory",
+    
+    "message.hexalia.ritual.missing_ingredients": "Missing ingredients."
 }
