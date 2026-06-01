@@ -33,6 +33,17 @@
         "value": 100
       }
     },
+    "tetra:ability_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "irons_spellbooks:nature_magic_resist": {
       "enabled": false,
       "min": {
@@ -759,6 +770,17 @@
         "value": 1000
       }
     },
+    "tetra:draw_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "gstools:disease_effect_wither": {
       "enabled": false,
       "min": {
@@ -836,6 +858,17 @@
         "value": 1024
       }
     },
+    "tetra:draw_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "reach-entity-attributes:attack_range": {
       "enabled": false,
       "min": {
@@ -878,6 +911,17 @@
       "max": {
         "default": 2147483647,
         "value": 2147483647
+      }
+    },
+    "tetra:ability_cooldown": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "irons_spellbooks:ender_spell_power": {

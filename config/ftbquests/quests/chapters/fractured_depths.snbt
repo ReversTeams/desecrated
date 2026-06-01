@@ -6,6 +6,120 @@
 	id: "2A43CF350B1D9F33"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6F71CC7D8969DFA6"]
+			disable_toast: true
+			id: "675440487ADE64B0"
+			tasks: [{
+				icon: "fracture:fleshy_chiseled_darkstone_bricks"
+				id: "4ECDF3BCA781F6CD"
+				structure: "fracture:flesh_dungeon"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["675440487ADE64B0"]
+			disable_toast: true
+			id: "3688E8DA41DFD00D"
+			tasks: [{
+				entity: "fracture:flesh_obelisk"
+				icon: "fracture:flesh_sprayer"
+				id: "771601FE9E332222"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["675440487ADE64B0"]
+			disable_toast: true
+			id: "6306515F9D99DC81"
+			tasks: [{
+				id: "694E8FCC192E486E"
+				item: "fracture:fleshy_bone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6306515F9D99DC81"]
+			disable_toast: true
+			id: "69E8014FFF8B4FE0"
+			tasks: [
+				{
+					id: "3D24BBD833B0C362"
+					item: {
+						Count: 1
+						id: "fracture:parasitic_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "735F96F8068EB392"
+					item: {
+						Count: 1
+						id: "fracture:parasitic_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70010D5B9344AA4B"
+					item: {
+						Count: 1
+						id: "fracture:parasitic_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21994FB7EA9F4B9E"
+					item: {
+						Count: 1
+						id: "fracture:parasitic_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3688E8DA41DFD00D"]
+			id: "2D7D4AEFBB50C92E"
+			tasks: [{
+				id: "526EEB4BDFD0AD08"
+				item: "fracture:boreas_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "7E76C7368365FAD4"
+			tasks: [{
+				id: "5247AA6ACF39DBB0"
+				item: "reverseeon:dimension_portal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+	]
 	title: "Fractured Depths"
 }
