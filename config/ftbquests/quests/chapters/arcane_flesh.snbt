@@ -1,49 +1,75 @@
 {
+	autofocus_id: "445742EA3F278341"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "arcane_flesh"
 	group: "3C87A675DA0E75AE"
+	icon: {
+		Count: 1
+		id: "sons_of_sins:sickle_of_struggle"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "2446C8C43448EC27"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "445742EA3F278341"
-			tasks: [{
-				id: "6311FD92EC14DC35"
-				item: {
-					Count: 1
-					id: "sons_of_sins:sickle_of_struggle"
-					tag: {
-						Damage: 0
-					}
+			icon: {
+				Count: 1
+				id: "sons_of_sins:sickle_of_struggle"
+				tag: {
+					Damage: 0
 				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 3.5d
+			}
+			id: "445742EA3F278341"
+			size: 1.3d
+			tasks: [
+				{
+					id: "6311FD92EC14DC35"
+					item: {
+						Count: 1
+						id: "sons_of_sins:sickle_of_struggle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "sons_of_sins:betrayed_guzzler"
+					icon: "sons_of_sins:flesh_of_demise"
+					id: "69D432C154CFC5B1"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["18228BC1BD391EE8"]
+			dependencies: ["7E09D93FD685B52D"]
 			id: "3142ECB14BD0600D"
 			tasks: [{
 				id: "0E6A8CA43D458267"
 				item: "biomancy:primordial_core"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: 1.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["3142ECB14BD0600D"]
+			dependencies: ["1149E9D781B1E0E6"]
 			id: "681EF488E543DB48"
 			tasks: [{
 				id: "493962C65BE3E642"
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: 1.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["3142ECB14BD0600D"]
@@ -59,30 +85,33 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
+			dependencies: ["6F71CC7D8969DFA6"]
 			id: "5EA463A36036C699"
 			tasks: [{
+				icon: "fracture:fleshy_chiseled_darkstone_bricks"
 				id: "02974B87792F75DA"
 				structure: "fracture:flesh_dungeon"
 				type: "structure"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5EA463A36036C699"]
 			id: "18228BC1BD391EE8"
 			tasks: [{
 				entity: "fracture:flesh_obelisk"
+				icon: "fracture:flesh_sprayer"
 				id: "2354B7337C66B41D"
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: 1.5d
+			y: -8.5d
 		}
 		{
 			icon: "supplementaries:candle_holder_purple"
@@ -92,8 +121,8 @@
 				structure: "bloodyhell:vespers_hut"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 1.5d
+			y: -21.5d
 		}
 		{
 			dependencies: ["6BC96AC76C36559E"]
@@ -103,8 +132,8 @@
 				item: "bloodyhell:chalice_of_the_dammed"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.0d
+			x: 2.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["5CA8FDF37BD413E4"]
@@ -117,8 +146,8 @@
 				to_observe: "bloodyhell:blood_portal"
 				type: "observation"
 			}]
-			x: 11.5d
-			y: 1.5d
+			x: 3.0d
+			y: -24.5d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -135,8 +164,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 0.5d
+			x: 4.5d
+			y: -25.5d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -146,8 +175,8 @@
 				item: "bloodyhell:blasphemite_ore"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -0.5d
+			x: 3.0d
+			y: -26.5d
 		}
 		{
 			dependencies: ["0377023CC9A03552"]
@@ -157,8 +186,8 @@
 				item: "bloodyhell:rhnull"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -3.0d
+			x: 6.0d
+			y: -29.0d
 		}
 		{
 			dependencies: ["65DF6B6B038F58F7"]
@@ -175,8 +204,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 1.5d
+			x: 6.5d
+			y: -24.5d
 		}
 		{
 			dependencies: [
@@ -190,8 +219,8 @@
 				item: "bloodyhell:sanguinite_infusor"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.5d
+			x: 5.0d
+			y: -27.5d
 		}
 		{
 			dependencies: ["477517C000C5B774"]
@@ -201,8 +230,8 @@
 				item: "bloodyhell:sanguinite_blood_harvester_item"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 1.0d
+			x: 9.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -212,8 +241,8 @@
 				item: "bloodyhell:voracious_mushroom_item"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -1.5d
+			x: 9.0d
+			y: -27.5d
 		}
 		{
 			dependencies: ["47F30FDF4F349566"]
@@ -223,8 +252,8 @@
 				item: "bloodyhell:blasphemite"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.5d
+			x: 3.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["7650D349B57C739D"]
@@ -242,8 +271,8 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: -6.0d
+			x: 7.5d
+			y: -32.0d
 		}
 		{
 			dependencies: ["2E2EEA142952B774"]
@@ -260,8 +289,8 @@
 					type: "item"
 				}
 			]
-			x: 15.5d
-			y: -4.5d
+			x: 7.0d
+			y: -30.5d
 		}
 		{
 			dependencies: [
@@ -280,8 +309,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.5d
+			x: 4.5d
+			y: -29.5d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -301,8 +330,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -9.0d
+			x: 8.5d
+			y: -35.0d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -319,8 +348,8 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
-			y: -7.5d
+			x: 8.0d
+			y: -33.5d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -357,8 +386,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -5.5d
+			x: 9.0d
+			y: -31.5d
 		}
 		{
 			dependencies: [
@@ -393,8 +422,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: -5.0d
+			x: 10.5d
+			y: -31.0d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -431,8 +460,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: -8.5d
+			x: 9.5d
+			y: -34.5d
 		}
 		{
 			id: "6341285D27A686D9"
@@ -441,8 +470,8 @@
 				item: "bloodyhell:ritekeeper_heart"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -3.5d
+			x: 10.0d
+			y: -29.5d
 		}
 		{
 			dependencies: ["19C8C7A0D9F4F3A6"]
@@ -452,8 +481,8 @@
 				item: "bloodyhell:ancient_gem"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -0.5d
+			x: 6.5d
+			y: -26.5d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -463,8 +492,8 @@
 				item: "bloodyhell:sanguinite_condenser_item"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.0d
+			x: 8.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -489,8 +518,743 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 9.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["7A82C01F08326C74"]
+			id: "31E9E6BBC04B24F9"
+			tasks: [{
+				id: "73CE011FD7FAC15D"
+				item: "sons_of_sins:ether_ashes"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31E9E6BBC04B24F9"]
+			id: "28C4A4785D935FBE"
+			tasks: [{
+				id: "31B8E32429511C8D"
+				item: "sons_of_sins:soul_steel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4D45D411280B394B"
+				"31E9E6BBC04B24F9"
+			]
+			id: "6F71CC7D8969DFA6"
+			tasks: [{
+				id: "20479500D6A0F789"
+				item: "sons_of_sins:blood_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["445742EA3F278341"]
+			id: "4D45D411280B394B"
+			tasks: [{
+				id: "0302303657EA0172"
+				item: {
+					Count: 1
+					id: "sons_of_sins:bottle_of_blood"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "7A82C01F08326C74"
+			tasks: [{
+				id: "3C3D0E9765666517"
+				item: {
+					Count: 1
+					id: "sons_of_sins:osseous_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F71CC7D8969DFA6"]
+			id: "58B0FD0990E8414E"
+			tasks: [{
+				id: "5EBA68F7B4B9EF9E"
+				item: "sons_of_sins:crystallized_ether"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["445742EA3F278341"]
+			id: "1261468FF3756AEA"
+			tasks: [{
+				id: "7F0892882C927F15"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sons_of_sins:flesh_of_demise"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:ribs"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:muscle"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:heart"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58B0FD0990E8414E"]
+			id: "74AFAE94251EB275"
+			tasks: [
+				{
+					id: "4581E3551AC9D56F"
+					item: {
+						Count: 1
+						id: "sons_of_sins:ether_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62C908FD3F8C91C8"
+					item: {
+						Count: 1
+						id: "sons_of_sins:shape_shifting_tool"
+						tag: {
+							Damage: 0
+							haveUrn: 0.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
 			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5E2CA684B9F558DD"
+				"303D1EA2991A44E0"
+				"23A33A8A1C1D579D"
+				"2F14706C9FB03772"
+				"10F157B6E1B48B5F"
+				"3393B62D2A6BA429"
+				"2CBB7BBE5973D815"
+			]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "2ACEA55675CB3F95"
+			tasks: [
+				{
+					id: "6A66810B877C103B"
+					item: "sons_of_sins:sinful_sword"
+					type: "item"
+				}
+				{
+					id: "38C7D28CCC9768D6"
+					item: "sons_of_sins:sinful_pickaxe"
+					type: "item"
+				}
+				{
+					id: "0F8275DD51FC0CDC"
+					item: "sons_of_sins:sinful_axe"
+					type: "item"
+				}
+				{
+					id: "55D55975B118042B"
+					item: "sons_of_sins:sinful_shovel"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "52F50BB6C9A105B0"
+					item: "sons_of_sins:sinful_hoe"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["28C4A4785D935FBE"]
+			id: "4C910074868C05DC"
+			tasks: [
+				{
+					id: "4671DAABFDFC0556"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46ED1311B8138FFC"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A5D3817FD41B34B"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68868F1BCC343D54"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["28C4A4785D935FBE"]
+			id: "33F207B4C699F6C5"
+			tasks: [{
+				id: "4F839B0CBD50E9B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "sons_of_sins:urn"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1261468FF3756AEA"
+				"69A549C4DACD3F1A"
+				"4D45D411280B394B"
+			]
+			dependency_requirement: "one_completed"
+			id: "7D5169ED2AE67ACB"
+			tasks: [{
+				id: "73ABE930EC7E53A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 11
+						}
+					}
+					id: "sons_of_sins:flesh_carcass"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 11
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["445742EA3F278341"]
+			id: "69A549C4DACD3F1A"
+			tasks: [{
+				id: "39B8716C431A4337"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sons_of_sins:creeper_ribs"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:golem_cuirass"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:slime_rear"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:enderman_muscle"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:strider_muscle"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:ravager_muscle"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:blazing_heart"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:spider_heart"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F71CC7D8969DFA6"]
+			icon: "sons_of_sins:blood_ball"
+			id: "5392DF54A0BDC809"
+			tasks: [{
+				icon: "butchery:villager_head"
+				id: "52D7EBCCB705C359"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			icon: {
+				Count: 1
+				id: "concatenatedadditionstools:bloody_living_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E2CA684B9F558DD"
+			tasks: [{
+				entity: "sons_of_sins:kelvin"
+				id: "5A8E77472103F54F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			icon: {
+				Count: 1
+				id: "concatenatedadditionstools:bloody_living_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3393B62D2A6BA429"
+			tasks: [{
+				entity: "sons_of_sins:walking_bed"
+				id: "2A3F48E43EF56F1B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			icon: {
+				Count: 1
+				id: "concatenatedadditionstools:bloody_living_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F14706C9FB03772"
+			tasks: [{
+				entity: "sons_of_sins:prowler"
+				id: "4105AAD651C41019"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			id: "303D1EA2991A44E0"
+			tasks: [{
+				entity: "sons_of_sins:curse"
+				icon: {
+					Count: 1
+					id: "concatenatedadditionstools:bloody_living_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "712D29B6B53561BC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			id: "10F157B6E1B48B5F"
+			tasks: [{
+				entity: "sons_of_sins:blud"
+				icon: {
+					Count: 1
+					id: "concatenatedadditionstools:bloody_living_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1CA30099BD91C98D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			id: "23A33A8A1C1D579D"
+			tasks: [{
+				entity: "sons_of_sins:butcher"
+				icon: {
+					Count: 1
+					id: "concatenatedadditionstools:bloody_living_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7615DAF95367DF1E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			icon: {
+				Count: 1
+				id: "concatenatedadditionstools:bloody_living_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2CBB7BBE5973D815"
+			tasks: [{
+				entity: "sons_of_sins:wistiver"
+				id: "18F57488B81B53F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2CBB7BBE5973D815"]
+			id: "667889EB98C92FD4"
+			tasks: [{
+				id: "569E2D1AB70BC196"
+				item: {
+					Count: 1
+					id: "sons_of_sins:wistivers_jaws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3393B62D2A6BA429"]
+			id: "0CD8DD913FC68DA4"
+			tasks: [{
+				id: "051E80515490B954"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "sons_of_sins:puppet_of_strife"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2F14706C9FB03772"]
+			id: "4C25EB608642E1FD"
+			tasks: [{
+				id: "23F1A9A85DD0C425"
+				item: "sons_of_sins:hand_of_riot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["10F157B6E1B48B5F"]
+			id: "73421638692594EA"
+			tasks: [{
+				id: "1297A4219365E3DA"
+				item: "sons_of_sins:touch_of_greed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E2CA684B9F558DD"]
+			id: "4CEF240547D1B822"
+			tasks: [{
+				id: "56AEA081E56C4190"
+				item: "sons_of_sins:ether_engine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["23A33A8A1C1D579D"]
+			id: "170AB5D1F8B84557"
+			tasks: [{
+				id: "325C75886B030345"
+				item: {
+					Count: 1
+					id: "sons_of_sins:butcher_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["303D1EA2991A44E0"]
+			id: "26E1F8A2256E6536"
+			tasks: [{
+				id: "04D610FF0670AAAF"
+				item: "sons_of_sins:cursed_head"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA463A36036C699"]
+			id: "175FC1761178719D"
+			tasks: [{
+				id: "192D32EB6E023EE6"
+				item: "fracture:fleshy_bone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["175FC1761178719D"]
+			id: "4F5360BF2C69B6F6"
+			tasks: [
+				{
+					id: "3D7CC0110503F0A7"
+					item: {
+						Count: 1
+						id: "fracture:parasitic_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2595536A56C36BC9"
+					item: {
+						Count: 1
+						id: "fracture:parasitic_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4456046410E59931"
+					item: {
+						Count: 1
+						id: "fracture:parasitic_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5410F3F2F4BDD7F9"
+					item: {
+						Count: 1
+						id: "fracture:parasitic_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["18228BC1BD391EE8"]
+			id: "7E09D93FD685B52D"
+			tasks: [{
+				advancement: "biomancy:biomancy/root"
+				criterion: ""
+				id: "4D21903B1D0F5A90"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"3142ECB14BD0600D"
+				"1B89069CF6F1DCC1"
+			]
+			id: "1149E9D781B1E0E6"
+			tasks: [{
+				advancement: "biomancy:biomancy/predator_killer"
+				criterion: ""
+				id: "5D048C4A6E4B6FE9"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["681EF488E543DB48"]
+			id: "7E6B2DCA9A18DF4A"
+			tasks: [{
+				advancement: "biomancy:biomancy/healing_activator_sacrifice"
+				criterion: ""
+				id: "34552E1E6251D51C"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["69A549C4DACD3F1A"]
+			id: "6AB18A30D5721E61"
+			tasks: [{
+				advancement: "sons_of_sins:slice_all"
+				criterion: ""
+				id: "35CE2A9B813F6A27"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D5169ED2AE67ACB"]
+			id: "7047E5E29683914E"
+			tasks: [{
+				advancement: "sons_of_sins:original_sin"
+				criterion: ""
+				id: "6D4900B87AFB87AF"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7047E5E29683914E"]
+			id: "1520FE230FEDC3EA"
+			tasks: [{
+				advancement: "sons_of_sins:half_blood"
+				criterion: ""
+				id: "7929484B2AEE1858"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -4.5d
 		}
 	]
 	title: "Arcane Flesh"

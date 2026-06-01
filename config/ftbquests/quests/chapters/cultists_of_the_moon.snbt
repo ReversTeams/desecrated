@@ -4,8 +4,13 @@
 	default_quest_shape: ""
 	filename: "cultists_of_the_moon"
 	group: "77396AEB02AB4898"
+	icon: {
+		Count: 1
+		id: "bloodmagic:sacrificialdagger"
+		tag: { }
+	}
 	id: "4468C364798D9A2C"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

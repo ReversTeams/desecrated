@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sanguines_of_iron"
+	group: "77396AEB02AB4898"
+	id: "49AAA9EFC529FB90"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Sanguines of Iron"
+}

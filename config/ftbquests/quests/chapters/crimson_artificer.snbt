@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crimson_artificer"
+	group: "77396AEB02AB4898"
+	id: "537C158F9A214A38"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Crimson Artificer"
+}
