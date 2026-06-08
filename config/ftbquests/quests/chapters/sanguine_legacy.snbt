@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
 			icon: "vampirism:vampire_fang"
 			id: "47A72E03EBA8A7ED"
 			rewards: [{
@@ -35,6 +36,7 @@
 		}
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
+			entity_vis_size: 1.0f
 			id: "36B2420BD0867B95"
 			tasks: [{
 				id: "18ADBA372793F0FD"
@@ -46,6 +48,7 @@
 		}
 		{
 			dependencies: ["36B2420BD0867B95"]
+			entity_vis_size: 1.0f
 			id: "160D191AAE9B2104"
 			tasks: [
 				{
@@ -71,6 +74,7 @@
 		}
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
+			entity_vis_size: 1.0f
 			id: "3FEE19387DC6BD6E"
 			tasks: [{
 				advancement: "vampirism:vampire/resurrect"
@@ -84,6 +88,7 @@
 		}
 		{
 			dependencies: ["36B2420BD0867B95"]
+			entity_vis_size: 1.0f
 			id: "107F33580DA70E8F"
 			tasks: [{
 				advancement: "vampirism:vampire/bat"
@@ -96,9 +101,19 @@
 		}
 		{
 			dependencies: ["160D191AAE9B2104"]
+			entity_vis_size: 1.0f
 			icon: "vampirism:vampire_orchid"
 			id: "1FB243F8F7DF54A8"
 			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "29B26AE695813230"
 				observe_type: 5
 				timer: 0L
@@ -110,6 +125,7 @@
 		}
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "61824DA13E12E5EA"
 			tasks: [{

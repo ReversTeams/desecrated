@@ -4,12 +4,52 @@
 	filename: "fractured_depths"
 	group: "511EB53C58AD34AE"
 	id: "2A43CF350B1D9F33"
+	images: [
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "fracture:flesh_obelisk"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 15.0d
+			image: ""
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_projectile"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
 			disable_toast: true
+			entity_vis_size: 1.0f
 			id: "675440487ADE64B0"
 			tasks: [{
 				icon: "fracture:fleshy_chiseled_darkstone_bricks"
@@ -23,9 +63,20 @@
 		{
 			dependencies: ["675440487ADE64B0"]
 			disable_toast: true
+			entity_vis_size: 1.0f
 			id: "3688E8DA41DFD00D"
 			tasks: [{
 				entity: "fracture:flesh_obelisk"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "fracture:flesh_sprayer"
 				id: "771601FE9E332222"
 				type: "kill"
@@ -37,6 +88,7 @@
 		{
 			dependencies: ["675440487ADE64B0"]
 			disable_toast: true
+			entity_vis_size: 1.0f
 			id: "6306515F9D99DC81"
 			tasks: [{
 				id: "694E8FCC192E486E"
@@ -49,6 +101,7 @@
 		{
 			dependencies: ["6306515F9D99DC81"]
 			disable_toast: true
+			entity_vis_size: 1.0f
 			id: "69E8014FFF8B4FE0"
 			tasks: [
 				{
@@ -101,6 +154,7 @@
 		}
 		{
 			dependencies: ["3688E8DA41DFD00D"]
+			entity_vis_size: 1.0f
 			id: "2D7D4AEFBB50C92E"
 			tasks: [{
 				id: "526EEB4BDFD0AD08"
@@ -111,6 +165,7 @@
 			y: -3.5d
 		}
 		{
+			entity_vis_size: 1.0f
 			id: "7E76C7368365FAD4"
 			tasks: [{
 				id: "5247AA6ACF39DBB0"

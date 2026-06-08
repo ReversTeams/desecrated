@@ -16,6 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "sons_of_sins:sickle_of_struggle"
@@ -39,6 +40,16 @@
 				}
 				{
 					entity: "sons_of_sins:betrayed_guzzler"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "sons_of_sins:flesh_of_demise"
 					id: "69D432C154CFC5B1"
 					optional_task: true
@@ -51,6 +62,7 @@
 		}
 		{
 			dependencies: ["7E09D93FD685B52D"]
+			entity_vis_size: 1.0f
 			id: "3142ECB14BD0600D"
 			tasks: [{
 				id: "0E6A8CA43D458267"
@@ -62,6 +74,7 @@
 		}
 		{
 			dependencies: ["1149E9D781B1E0E6"]
+			entity_vis_size: 1.0f
 			id: "681EF488E543DB48"
 			tasks: [{
 				id: "493962C65BE3E642"
@@ -73,6 +86,7 @@
 		}
 		{
 			dependencies: ["3142ECB14BD0600D"]
+			entity_vis_size: 1.0f
 			id: "1B89069CF6F1DCC1"
 			tasks: [{
 				id: "5166DEFA64452371"
@@ -90,6 +104,7 @@
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
+			entity_vis_size: 1.0f
 			id: "5EA463A36036C699"
 			tasks: [{
 				icon: "fracture:fleshy_chiseled_darkstone_bricks"
@@ -102,9 +117,20 @@
 		}
 		{
 			dependencies: ["5EA463A36036C699"]
+			entity_vis_size: 1.0f
 			id: "18228BC1BD391EE8"
 			tasks: [{
 				entity: "fracture:flesh_obelisk"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "fracture:flesh_sprayer"
 				id: "2354B7337C66B41D"
 				type: "kill"
@@ -114,6 +140,7 @@
 			y: -8.5d
 		}
 		{
+			entity_vis_size: 1.0f
 			icon: "supplementaries:candle_holder_purple"
 			id: "6BC96AC76C36559E"
 			tasks: [{
@@ -126,6 +153,7 @@
 		}
 		{
 			dependencies: ["6BC96AC76C36559E"]
+			entity_vis_size: 1.0f
 			id: "5CA8FDF37BD413E4"
 			tasks: [{
 				id: "04CDDF8A415FC01B"
@@ -137,9 +165,19 @@
 		}
 		{
 			dependencies: ["5CA8FDF37BD413E4"]
+			entity_vis_size: 1.0f
 			icon: "bloodyhell:sanguinite_block"
 			id: "22DDD3C6B3604CD9"
 			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "530EE4FECFC8D5CE"
 				observe_type: 0
 				timer: 0L
@@ -151,6 +189,7 @@
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
+			entity_vis_size: 1.0f
 			id: "65DF6B6B038F58F7"
 			tasks: [
 				{
@@ -169,6 +208,7 @@
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
+			entity_vis_size: 1.0f
 			id: "47F30FDF4F349566"
 			tasks: [{
 				id: "0E6AA3830B98DD1B"
@@ -180,6 +220,7 @@
 		}
 		{
 			dependencies: ["0377023CC9A03552"]
+			entity_vis_size: 1.0f
 			id: "2E2EEA142952B774"
 			tasks: [{
 				id: "547C306A5F9914B1"
@@ -191,6 +232,7 @@
 		}
 		{
 			dependencies: ["65DF6B6B038F58F7"]
+			entity_vis_size: 1.0f
 			id: "477517C000C5B774"
 			tasks: [
 				{
@@ -213,6 +255,7 @@
 				"1B2A57FD9B88551A"
 				"3D3271F66F0BAE41"
 			]
+			entity_vis_size: 1.0f
 			id: "0377023CC9A03552"
 			tasks: [{
 				id: "566453C161A8DFCA"
@@ -224,6 +267,7 @@
 		}
 		{
 			dependencies: ["477517C000C5B774"]
+			entity_vis_size: 1.0f
 			id: "37CBDB89759D3362"
 			tasks: [{
 				id: "7EE9113234748572"
@@ -235,6 +279,7 @@
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
+			entity_vis_size: 1.0f
 			id: "1B2A57FD9B88551A"
 			tasks: [{
 				id: "100E180F9A5C5936"
@@ -246,6 +291,7 @@
 		}
 		{
 			dependencies: ["47F30FDF4F349566"]
+			entity_vis_size: 1.0f
 			id: "16159AA464679A4C"
 			tasks: [{
 				id: "37A347FAF5987C3D"
@@ -257,6 +303,7 @@
 		}
 		{
 			dependencies: ["7650D349B57C739D"]
+			entity_vis_size: 1.0f
 			id: "1B25B0B9EE0E67D5"
 			tasks: [
 				{
@@ -276,6 +323,7 @@
 		}
 		{
 			dependencies: ["2E2EEA142952B774"]
+			entity_vis_size: 1.0f
 			id: "7650D349B57C739D"
 			tasks: [
 				{
@@ -297,6 +345,7 @@
 				"16159AA464679A4C"
 				"2E2EEA142952B774"
 			]
+			entity_vis_size: 1.0f
 			id: "6C679C18245C1722"
 			tasks: [{
 				id: "261670D7B34A47E8"
@@ -314,6 +363,7 @@
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
+			entity_vis_size: 1.0f
 			id: "0796C66F6BF3B1F5"
 			tasks: [{
 				id: "64D9E6716A1EB943"
@@ -335,6 +385,7 @@
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
+			entity_vis_size: 1.0f
 			id: "13AB45EA2C99F16B"
 			tasks: [
 				{
@@ -353,6 +404,7 @@
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
+			entity_vis_size: 1.0f
 			id: "47CC4AD3F583A408"
 			tasks: [{
 				id: "22BFBC9C8025A2D3"
@@ -394,6 +446,7 @@
 				"47CC4AD3F583A408"
 				"6341285D27A686D9"
 			]
+			entity_vis_size: 1.0f
 			id: "2A34F271C7C99ADA"
 			tasks: [{
 				id: "6D09E15D0D523B10"
@@ -427,6 +480,7 @@
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
+			entity_vis_size: 1.0f
 			id: "5D3E30A449856590"
 			tasks: [{
 				id: "6CBE11924111E21B"
@@ -464,6 +518,7 @@
 			y: -34.5d
 		}
 		{
+			entity_vis_size: 1.0f
 			id: "6341285D27A686D9"
 			tasks: [{
 				id: "3F7DAFA68ABB1A99"
@@ -475,6 +530,7 @@
 		}
 		{
 			dependencies: ["19C8C7A0D9F4F3A6"]
+			entity_vis_size: 1.0f
 			id: "3D3271F66F0BAE41"
 			tasks: [{
 				id: "2D6F9E16CC5657D2"
@@ -486,6 +542,7 @@
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
+			entity_vis_size: 1.0f
 			id: "19C8C7A0D9F4F3A6"
 			tasks: [{
 				id: "53D3C0E71F496C53"
@@ -497,6 +554,7 @@
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
+			entity_vis_size: 1.0f
 			id: "4F7AC531DCA8EF4C"
 			tasks: [{
 				id: "649AE81C5C28C9A1"
@@ -523,6 +581,7 @@
 		}
 		{
 			dependencies: ["7A82C01F08326C74"]
+			entity_vis_size: 1.0f
 			id: "31E9E6BBC04B24F9"
 			tasks: [{
 				id: "73CE011FD7FAC15D"
@@ -534,6 +593,7 @@
 		}
 		{
 			dependencies: ["31E9E6BBC04B24F9"]
+			entity_vis_size: 1.0f
 			id: "28C4A4785D935FBE"
 			tasks: [{
 				id: "31B8E32429511C8D"
@@ -548,6 +608,7 @@
 				"4D45D411280B394B"
 				"31E9E6BBC04B24F9"
 			]
+			entity_vis_size: 1.0f
 			id: "6F71CC7D8969DFA6"
 			tasks: [{
 				id: "20479500D6A0F789"
@@ -555,10 +616,11 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["445742EA3F278341"]
+			entity_vis_size: 1.0f
 			id: "4D45D411280B394B"
 			tasks: [{
 				id: "0302303657EA0172"
@@ -573,6 +635,7 @@
 			y: -2.0d
 		}
 		{
+			entity_vis_size: 1.0f
 			id: "7A82C01F08326C74"
 			tasks: [{
 				id: "3C3D0E9765666517"
@@ -590,6 +653,7 @@
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
+			entity_vis_size: 1.0f
 			id: "58B0FD0990E8414E"
 			tasks: [{
 				id: "5EBA68F7B4B9EF9E"
@@ -601,6 +665,7 @@
 		}
 		{
 			dependencies: ["445742EA3F278341"]
+			entity_vis_size: 1.0f
 			id: "1261468FF3756AEA"
 			tasks: [{
 				id: "7F0892882C927F15"
@@ -635,6 +700,7 @@
 		}
 		{
 			dependencies: ["58B0FD0990E8414E"]
+			entity_vis_size: 1.0f
 			id: "74AFAE94251EB275"
 			tasks: [
 				{
@@ -665,16 +731,8 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"5E2CA684B9F558DD"
-				"303D1EA2991A44E0"
-				"23A33A8A1C1D579D"
-				"2F14706C9FB03772"
-				"10F157B6E1B48B5F"
-				"3393B62D2A6BA429"
-				"2CBB7BBE5973D815"
-			]
 			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "2ACEA55675CB3F95"
 			tasks: [
@@ -711,6 +769,7 @@
 		}
 		{
 			dependencies: ["28C4A4785D935FBE"]
+			entity_vis_size: 1.0f
 			id: "4C910074868C05DC"
 			tasks: [
 				{
@@ -763,6 +822,7 @@
 		}
 		{
 			dependencies: ["28C4A4785D935FBE"]
+			entity_vis_size: 1.0f
 			id: "33F207B4C699F6C5"
 			tasks: [{
 				id: "4F839B0CBD50E9B5"
@@ -794,6 +854,7 @@
 				"4D45D411280B394B"
 			]
 			dependency_requirement: "one_completed"
+			entity_vis_size: 1.0f
 			id: "7D5169ED2AE67ACB"
 			tasks: [{
 				id: "73ABE930EC7E53A3"
@@ -820,6 +881,7 @@
 		}
 		{
 			dependencies: ["445742EA3F278341"]
+			entity_vis_size: 1.0f
 			id: "69A549C4DACD3F1A"
 			tasks: [{
 				id: "39B8716C431A4337"
@@ -870,9 +932,19 @@
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
+			entity_vis_size: 1.0f
 			icon: "sons_of_sins:blood_ball"
 			id: "5392DF54A0BDC809"
 			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "butchery:villager_head"
 				id: "52D7EBCCB705C359"
 				observe_type: 5
@@ -884,140 +956,8 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["5392DF54A0BDC809"]
-			icon: {
-				Count: 1
-				id: "concatenatedadditionstools:bloody_living_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "5E2CA684B9F558DD"
-			tasks: [{
-				entity: "sons_of_sins:kelvin"
-				id: "5A8E77472103F54F"
-				type: "kill"
-				value: 1L
-			}]
-			x: 5.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["5392DF54A0BDC809"]
-			icon: {
-				Count: 1
-				id: "concatenatedadditionstools:bloody_living_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "3393B62D2A6BA429"
-			tasks: [{
-				entity: "sons_of_sins:walking_bed"
-				id: "2A3F48E43EF56F1B"
-				type: "kill"
-				value: 1L
-			}]
-			x: 5.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["5392DF54A0BDC809"]
-			icon: {
-				Count: 1
-				id: "concatenatedadditionstools:bloody_living_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "2F14706C9FB03772"
-			tasks: [{
-				entity: "sons_of_sins:prowler"
-				id: "4105AAD651C41019"
-				type: "kill"
-				value: 1L
-			}]
-			x: 8.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["5392DF54A0BDC809"]
-			id: "303D1EA2991A44E0"
-			tasks: [{
-				entity: "sons_of_sins:curse"
-				icon: {
-					Count: 1
-					id: "concatenatedadditionstools:bloody_living_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "712D29B6B53561BC"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["5392DF54A0BDC809"]
-			id: "10F157B6E1B48B5F"
-			tasks: [{
-				entity: "sons_of_sins:blud"
-				icon: {
-					Count: 1
-					id: "concatenatedadditionstools:bloody_living_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "1CA30099BD91C98D"
-				type: "kill"
-				value: 1L
-			}]
-			x: 8.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5392DF54A0BDC809"]
-			id: "23A33A8A1C1D579D"
-			tasks: [{
-				entity: "sons_of_sins:butcher"
-				icon: {
-					Count: 1
-					id: "concatenatedadditionstools:bloody_living_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "7615DAF95367DF1E"
-				type: "kill"
-				value: 1L
-			}]
-			x: 8.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["5392DF54A0BDC809"]
-			icon: {
-				Count: 1
-				id: "concatenatedadditionstools:bloody_living_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "2CBB7BBE5973D815"
-			tasks: [{
-				entity: "sons_of_sins:wistiver"
-				id: "18F57488B81B53F6"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["2CBB7BBE5973D815"]
+			dependencies: ["079ABE7B83F6A6F6"]
+			entity_vis_size: 1.0f
 			id: "667889EB98C92FD4"
 			tasks: [{
 				id: "569E2D1AB70BC196"
@@ -1032,7 +972,8 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["3393B62D2A6BA429"]
+			dependencies: ["0FF481A9738C6A2E"]
+			entity_vis_size: 1.0f
 			id: "0CD8DD913FC68DA4"
 			tasks: [{
 				id: "051E80515490B954"
@@ -1058,7 +999,8 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["2F14706C9FB03772"]
+			dependencies: ["00CCFEBA2BF7D34B"]
+			entity_vis_size: 1.0f
 			id: "4C25EB608642E1FD"
 			tasks: [{
 				id: "23F1A9A85DD0C425"
@@ -1069,18 +1011,20 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["10F157B6E1B48B5F"]
+			dependencies: ["0BDCD3D1B995EDE8"]
+			entity_vis_size: 1.0f
 			id: "73421638692594EA"
 			tasks: [{
 				id: "1297A4219365E3DA"
 				item: "sons_of_sins:touch_of_greed"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -6.5d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["5E2CA684B9F558DD"]
+			dependencies: ["60A547780F1428FA"]
+			entity_vis_size: 1.0f
 			id: "4CEF240547D1B822"
 			tasks: [{
 				id: "56AEA081E56C4190"
@@ -1091,7 +1035,8 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["23A33A8A1C1D579D"]
+			dependencies: ["1EC64182E63D237D"]
+			entity_vis_size: 1.0f
 			id: "170AB5D1F8B84557"
 			tasks: [{
 				id: "325C75886B030345"
@@ -1108,7 +1053,8 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["303D1EA2991A44E0"]
+			dependencies: ["5D88FB716ED71AD6"]
+			entity_vis_size: 1.0f
 			id: "26E1F8A2256E6536"
 			tasks: [{
 				id: "04D610FF0670AAAF"
@@ -1120,6 +1066,7 @@
 		}
 		{
 			dependencies: ["5EA463A36036C699"]
+			entity_vis_size: 1.0f
 			id: "175FC1761178719D"
 			tasks: [{
 				id: "192D32EB6E023EE6"
@@ -1131,6 +1078,7 @@
 		}
 		{
 			dependencies: ["175FC1761178719D"]
+			entity_vis_size: 1.0f
 			id: "4F5360BF2C69B6F6"
 			tasks: [
 				{
@@ -1183,6 +1131,7 @@
 		}
 		{
 			dependencies: ["18228BC1BD391EE8"]
+			entity_vis_size: 1.0f
 			id: "7E09D93FD685B52D"
 			tasks: [{
 				advancement: "biomancy:biomancy/root"
@@ -1198,6 +1147,7 @@
 				"3142ECB14BD0600D"
 				"1B89069CF6F1DCC1"
 			]
+			entity_vis_size: 1.0f
 			id: "1149E9D781B1E0E6"
 			tasks: [{
 				advancement: "biomancy:biomancy/predator_killer"
@@ -1210,6 +1160,7 @@
 		}
 		{
 			dependencies: ["681EF488E543DB48"]
+			entity_vis_size: 1.0f
 			id: "7E6B2DCA9A18DF4A"
 			tasks: [{
 				advancement: "biomancy:biomancy/healing_activator_sacrifice"
@@ -1222,6 +1173,7 @@
 		}
 		{
 			dependencies: ["69A549C4DACD3F1A"]
+			entity_vis_size: 1.0f
 			id: "6AB18A30D5721E61"
 			tasks: [{
 				advancement: "sons_of_sins:slice_all"
@@ -1234,6 +1186,7 @@
 		}
 		{
 			dependencies: ["7D5169ED2AE67ACB"]
+			entity_vis_size: 1.0f
 			id: "7047E5E29683914E"
 			tasks: [{
 				advancement: "sons_of_sins:original_sin"
@@ -1246,6 +1199,7 @@
 		}
 		{
 			dependencies: ["7047E5E29683914E"]
+			entity_vis_size: 1.0f
 			id: "1520FE230FEDC3EA"
 			tasks: [{
 				advancement: "sons_of_sins:half_blood"
@@ -1255,6 +1209,174 @@
 			}]
 			x: -7.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			entity_vis_size: 1.0f
+			id: "60A547780F1428FA"
+			size: 1.15d
+			tasks: [{
+				entity: "sons_of_sins:kelvin"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "3EFDF918A1FBA9D9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			entity_vis_size: 1.0f
+			id: "0FF481A9738C6A2E"
+			size: 1.15d
+			tasks: [{
+				entity: "sons_of_sins:walking_bed"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "75E65E6930C5910E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			entity_vis_size: 1.0f
+			id: "079ABE7B83F6A6F6"
+			size: 1.15d
+			tasks: [{
+				entity: "sons_of_sins:wistiver"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "5E1D415655871691"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			entity_vis_size: 1.0f
+			id: "00CCFEBA2BF7D34B"
+			size: 1.15d
+			tasks: [{
+				entity: "sons_of_sins:prowler"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "62F1F902E1B27032"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			entity_vis_size: 1.0f
+			id: "1EC64182E63D237D"
+			size: 1.15d
+			tasks: [{
+				entity: "sons_of_sins:butcher"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "4CC21AAB6AE67298"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			entity_vis_size: 1.0f
+			id: "0BDCD3D1B995EDE8"
+			size: 1.15d
+			tasks: [{
+				entity: "sons_of_sins:blud"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "70F729B769E7B7E2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5392DF54A0BDC809"]
+			entity_vis_size: 1.0f
+			id: "5D88FB716ED71AD6"
+			size: 1.15d
+			tasks: [{
+				entity: "sons_of_sins:curse"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "3F7E950D8DEFC369"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -6.5d
 		}
 	]
 	title: "Arcane Flesh"

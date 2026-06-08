@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_cosmos"
+	group: "511EB53C58AD34AE"
+	id: "0C3B507892F1E927"
+	images: [
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "thedulling:hypernova_core"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "thedulling:nebula_charge"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "thedulling:divine_void"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Cosmos"
+}

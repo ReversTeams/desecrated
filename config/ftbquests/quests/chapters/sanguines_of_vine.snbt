@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			id: "5D7C1741C8D6F8E0"
 			rewards: [{
@@ -34,6 +35,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			id: "5FB35D49B42DB136"
 			tasks: [{
 				id: "45329A33A229F751"
@@ -45,6 +47,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			id: "1E49979CD799AF0E"
 			tasks: [{
 				id: "00D0E9C38F79CA9D"
@@ -56,6 +59,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			id: "098FCAB9E0418241"
 			tasks: [{
 				id: "03F946FD2FE05010"
@@ -67,6 +71,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			id: "0D9E8704CBFB3F6C"
 			tasks: [{
 				id: "34B5B9D35CA9D832"
@@ -84,6 +89,7 @@
 				"0D9E8704CBFB3F6C"
 				"4283D4B2FCBAA2C2"
 			]
+			entity_vis_size: 1.0f
 			id: "3AFEAB8E568538B8"
 			tasks: [{
 				id: "5C2ACED18A154439"
@@ -95,6 +101,7 @@
 		}
 		{
 			dependencies: ["098FCAB9E0418241"]
+			entity_vis_size: 1.0f
 			id: "4BF80DB72A72DBAB"
 			tasks: [
 				{
@@ -103,6 +110,15 @@
 					type: "item"
 				}
 				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "hexalia:infused_farmland"
 					id: "7E42FA8B9B19725E"
 					observe_type: 0
@@ -116,6 +132,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			id: "4283D4B2FCBAA2C2"
 			tasks: [{
 				id: "6BADB8B60002D45A"
@@ -127,6 +144,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "02094B42E4290262"
 			tasks: [
@@ -153,6 +171,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "376E7364A9D63333"
 			tasks: [{
@@ -165,6 +184,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "70D080A715D3317C"
 			tasks: [{
@@ -177,6 +197,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "644522F860A5FA04"
 			tasks: [{
@@ -189,6 +210,7 @@
 		}
 		{
 			dependencies: ["367B0F8EC622BF08"]
+			entity_vis_size: 1.0f
 			id: "324985E19423593A"
 			tasks: [{
 				id: "2476ADAB70CA42C1"
@@ -200,6 +222,7 @@
 		}
 		{
 			dependencies: ["79A14B394FAEBEA1"]
+			entity_vis_size: 1.0f
 			id: "5F838290AD659F48"
 			tasks: [
 				{
@@ -218,6 +241,7 @@
 		}
 		{
 			dependencies: ["644522F860A5FA04"]
+			entity_vis_size: 1.0f
 			id: "2B6DAF70A2BA1497"
 			tasks: [{
 				id: "01B168D42D314714"
@@ -229,6 +253,7 @@
 		}
 		{
 			dependencies: ["1C10D594BB28276E"]
+			entity_vis_size: 1.0f
 			icon: "hexalia:ritual_table"
 			id: "79A14B394FAEBEA1"
 			tasks: [
@@ -249,6 +274,7 @@
 		}
 		{
 			dependencies: ["5FB35D49B42DB136"]
+			entity_vis_size: 1.0f
 			id: "367B0F8EC622BF08"
 			tasks: [{
 				id: "019A8FC1A339B21B"
@@ -260,6 +286,7 @@
 		}
 		{
 			dependencies: ["1E49979CD799AF0E"]
+			entity_vis_size: 1.0f
 			id: "7F5E0F9AA305FCDE"
 			tasks: [
 				{
@@ -278,6 +305,7 @@
 		}
 		{
 			dependencies: ["7F5E0F9AA305FCDE"]
+			entity_vis_size: 1.0f
 			id: "2E0559FF024B038E"
 			tasks: [{
 				id: "6B19ABED75B66436"
@@ -328,6 +356,7 @@
 		}
 		{
 			dependencies: ["285A0AB8817CC4D7"]
+			entity_vis_size: 1.0f
 			id: "3A1D10BB2E2F9A68"
 			tasks: [{
 				id: "671153B3D52B001F"
@@ -345,6 +374,7 @@
 		}
 		{
 			dependencies: ["280458A4E77B8B5F"]
+			entity_vis_size: 1.0f
 			id: "7686BEC6C823A5C5"
 			tasks: [{
 				id: "1EE5E30AB39C9781"
@@ -362,6 +392,7 @@
 		}
 		{
 			dependencies: ["3B07119ABAD8B6F8"]
+			entity_vis_size: 1.0f
 			id: "41D1F58401F47296"
 			tasks: [{
 				id: "26D27DA0101E5E5F"
@@ -379,6 +410,7 @@
 		}
 		{
 			dependencies: ["280458A4E77B8B5F"]
+			entity_vis_size: 1.0f
 			id: "4DEA4059A64C351E"
 			tasks: [{
 				id: "451B87A532A97600"
@@ -396,6 +428,7 @@
 		}
 		{
 			dependencies: ["280458A4E77B8B5F"]
+			entity_vis_size: 1.0f
 			id: "6C3A9F484812BE20"
 			tasks: [{
 				id: "11254269966F8099"
@@ -413,6 +446,7 @@
 		}
 		{
 			dependencies: ["367B0F8EC622BF08"]
+			entity_vis_size: 1.0f
 			id: "3B07119ABAD8B6F8"
 			tasks: [{
 				id: "49E26FE3EDDD584A"
@@ -424,6 +458,7 @@
 		}
 		{
 			dependencies: ["7A9745165188D85E"]
+			entity_vis_size: 1.0f
 			id: "377E448539CC06F0"
 			tasks: [
 				{
@@ -479,6 +514,7 @@
 				"367B0F8EC622BF08"
 				"377E448539CC06F0"
 			]
+			entity_vis_size: 1.0f
 			id: "608FE86E7BEE0446"
 			tasks: [
 				{
@@ -537,6 +573,7 @@
 				"285A0AB8817CC4D7"
 				"114DD2432F86370C"
 			]
+			entity_vis_size: 1.0f
 			id: "3409E128DA8E9ED3"
 			tasks: [
 				{
@@ -589,6 +626,7 @@
 		}
 		{
 			dependencies: ["7A9745165188D85E"]
+			entity_vis_size: 1.0f
 			id: "65832B921481F5E9"
 			tasks: [{
 				id: "422F092968602FC1"
@@ -606,6 +644,7 @@
 		}
 		{
 			dependencies: ["285A0AB8817CC4D7"]
+			entity_vis_size: 1.0f
 			id: "3BB39F46D9204742"
 			tasks: [{
 				id: "2F8F5EF73DC7A3E2"
@@ -623,6 +662,7 @@
 		}
 		{
 			dependencies: ["1BD16C8208EAAEA6"]
+			entity_vis_size: 1.0f
 			id: "7A9745165188D85E"
 			tasks: [{
 				id: "70F147910836BE12"
@@ -634,6 +674,7 @@
 		}
 		{
 			dependencies: ["114DD2432F86370C"]
+			entity_vis_size: 1.0f
 			id: "37F8F638DA2FC343"
 			tasks: [{
 				id: "2F467344C312FCC6"
@@ -645,6 +686,7 @@
 		}
 		{
 			dependencies: ["7A9745165188D85E"]
+			entity_vis_size: 1.0f
 			id: "7DC4AE81F4FEF5F2"
 			tasks: [{
 				id: "29D39208E04DE34E"
@@ -656,6 +698,7 @@
 		}
 		{
 			dependencies: ["3AFEAB8E568538B8"]
+			entity_vis_size: 1.0f
 			id: "110391F0AA8822DD"
 			tasks: [{
 				id: "7D5E282672C06A03"
@@ -682,10 +725,20 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "1BD16C8208EAAEA6"
 			tasks: [
 				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "hexalia:silk_moth_spawn_egg"
 					id: "1EF14D006E201F1B"
 					observe_type: 5
@@ -705,6 +758,7 @@
 		}
 		{
 			dependencies: ["324985E19423593A"]
+			entity_vis_size: 1.0f
 			id: "1DB6A169A86470E1"
 			tasks: [
 				{
@@ -713,6 +767,15 @@
 					type: "item"
 				}
 				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "hexalia:cacofey_spawn_egg"
 					id: "0D1C8CB6B17493E3"
 					observe_type: 5
@@ -727,6 +790,7 @@
 		}
 		{
 			dependencies: ["1E49979CD799AF0E"]
+			entity_vis_size: 1.0f
 			id: "0DB34BE7C22F723C"
 			tasks: [{
 				id: "7FA388606793247D"
@@ -738,6 +802,7 @@
 		}
 		{
 			dependencies: ["53F234AF49F2085B"]
+			entity_vis_size: 1.0f
 			id: "68D0BEA83BE8DEEE"
 			tasks: [{
 				id: "008F1AFB120478ED"
@@ -749,6 +814,7 @@
 		}
 		{
 			dependencies: ["53F234AF49F2085B"]
+			entity_vis_size: 1.0f
 			id: "238E80BB62FA309F"
 			tasks: [{
 				id: "52F2E19F764C1198"
@@ -760,6 +826,7 @@
 		}
 		{
 			dependencies: ["53F234AF49F2085B"]
+			entity_vis_size: 1.0f
 			id: "2C2A7EC1AE5EC03A"
 			tasks: [{
 				id: "2993E60F288A4D69"
@@ -771,6 +838,7 @@
 		}
 		{
 			dependencies: ["53F234AF49F2085B"]
+			entity_vis_size: 1.0f
 			id: "12BC778475234325"
 			tasks: [{
 				id: "48126EC10C5AC3A8"
@@ -782,6 +850,7 @@
 		}
 		{
 			dependencies: ["53F234AF49F2085B"]
+			entity_vis_size: 1.0f
 			id: "0153BD0754FF6E0F"
 			tasks: [{
 				id: "414BBA49CF051F1D"
@@ -793,6 +862,7 @@
 		}
 		{
 			dependencies: ["53F234AF49F2085B"]
+			entity_vis_size: 1.0f
 			id: "47BB013026679371"
 			tasks: [{
 				id: "38A328B6AAFB5C16"
@@ -804,6 +874,7 @@
 		}
 		{
 			dependencies: ["53F234AF49F2085B"]
+			entity_vis_size: 1.0f
 			id: "7F9FEBDE6A8F8ACE"
 			tasks: [{
 				id: "4F6E8116F334F80E"
@@ -815,6 +886,7 @@
 		}
 		{
 			dependencies: ["7A9745165188D85E"]
+			entity_vis_size: 1.0f
 			id: "154376889E877CFE"
 			tasks: [{
 				id: "0DE974F8CE256F33"
@@ -826,6 +898,7 @@
 		}
 		{
 			dependencies: ["154376889E877CFE"]
+			entity_vis_size: 1.0f
 			id: "5B722878D8AA09BE"
 			tasks: [{
 				id: "23507C6A39930619"
@@ -856,6 +929,7 @@
 		}
 		{
 			dependencies: ["79A14B394FAEBEA1"]
+			entity_vis_size: 1.0f
 			id: "280458A4E77B8B5F"
 			tasks: [{
 				id: "32EE29FFA50B8FF2"
@@ -867,6 +941,7 @@
 		}
 		{
 			dependencies: ["79A14B394FAEBEA1"]
+			entity_vis_size: 1.0f
 			id: "74C0673B71B55D50"
 			tasks: [{
 				id: "6216229DD340558A"
@@ -878,6 +953,7 @@
 		}
 		{
 			dependencies: ["79A14B394FAEBEA1"]
+			entity_vis_size: 1.0f
 			id: "285A0AB8817CC4D7"
 			tasks: [{
 				id: "69543A0969D535D2"
@@ -889,6 +965,7 @@
 		}
 		{
 			dependencies: ["79A14B394FAEBEA1"]
+			entity_vis_size: 1.0f
 			id: "114DD2432F86370C"
 			tasks: [{
 				id: "15C533DF3D2B383A"
@@ -900,6 +977,7 @@
 		}
 		{
 			dependencies: ["280458A4E77B8B5F"]
+			entity_vis_size: 1.0f
 			id: "53F234AF49F2085B"
 			tasks: [{
 				id: "3023132F6BF49A24"
@@ -911,6 +989,7 @@
 		}
 		{
 			dependencies: ["3AFEAB8E568538B8"]
+			entity_vis_size: 1.0f
 			id: "1C10D594BB28276E"
 			tasks: [{
 				id: "2EC992632AE754A1"
@@ -922,6 +1001,7 @@
 		}
 		{
 			dependencies: ["0D9E8704CBFB3F6C"]
+			entity_vis_size: 1.0f
 			id: "34EA50FDAD627284"
 			tasks: [{
 				id: "107BF48E628B2A14"
@@ -933,6 +1013,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			id: "63DD4DFC7E30EEA2"
 			tasks: [{
 				id: "32C1D80FF18EC61F"
@@ -944,6 +1025,7 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			entity_vis_size: 1.0f
 			id: "447D63C4C507339D"
 			tasks: [{
 				id: "3DB446BEE2841F18"
