@@ -14,6 +14,7 @@
 				"7522632161D258AA"
 				"63F1C9A1095AEC1E"
 			]
+			entity_vis_size: 1.0f
 			id: "34B4063F2F210048"
 			tasks: [
 				{
@@ -32,6 +33,7 @@
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
+			entity_vis_size: 1.0f
 			id: "623C14C05294EFCC"
 			tasks: [
 				{
@@ -66,6 +68,7 @@
 			y: -3.0d
 		}
 		{
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "vampiresdelight:blood_wine_bottle"
@@ -93,6 +96,7 @@
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
+			entity_vis_size: 1.0f
 			id: "63F1C9A1095AEC1E"
 			tasks: [{
 				id: "5EA973AFC3ADC54F"
@@ -105,6 +109,7 @@
 		{
 			dependencies: ["623C14C05294EFCC"]
 			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
 			id: "7522632161D258AA"
 			tasks: [{
 				id: "272AFA21F258B742"
@@ -116,6 +121,7 @@
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
+			entity_vis_size: 1.0f
 			id: "5B9F02CB6F9F9342"
 			tasks: [{
 				id: "4419A2EBC4B6B12B"
@@ -127,6 +133,7 @@
 		}
 		{
 			dependencies: ["7522632161D258AA"]
+			entity_vis_size: 1.0f
 			id: "230591732D1998E3"
 			tasks: [{
 				id: "3DF3439A1F8A025E"
@@ -138,6 +145,7 @@
 		}
 		{
 			dependencies: ["7522632161D258AA"]
+			entity_vis_size: 1.0f
 			id: "4C54DFACCDB8E8E0"
 			tasks: [
 				{
@@ -196,6 +204,7 @@
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
+			entity_vis_size: 1.0f
 			id: "1A04E17C449CBCF1"
 			rewards: [{
 				id: "51CEF6F8EE97639F"
@@ -269,6 +278,7 @@
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
+			entity_vis_size: 1.0f
 			id: "4B4FD1712575D3F8"
 			tasks: [{
 				id: "02EB7D5B60635CE8"

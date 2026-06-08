@@ -6,11 +6,158 @@
 	group: "3C87A675DA0E75AE"
 	icon: "ftbquests:book"
 	id: "599002CA7AE7B666"
+	images: [
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "thedulling:umbral_black_hole"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: true
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 0.5d
+			image: ""
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_clot_projectile"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_nova_entity"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 180.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_clot_projectile"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_clot_projectile"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_clot_projectile"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_clot_projectile"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_clot_projectile"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -13.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1850F5DBF7A4D5A5"]
+			entity_vis_size: 1.0f
 			id: "6C09D9DA982FB08C"
 			tasks: [
 				{
@@ -57,11 +204,12 @@
 				}
 			]
 			title: "Weapons of Gold Barar"
-			x: -0.5d
-			y: 2.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["13A9932D7BCD2E2E"]
+			entity_vis_size: 1.0f
 			id: "3962C48843DC92C2"
 			tasks: [
 				{
@@ -119,11 +267,12 @@
 				}
 			]
 			title: "Weapons of Varelia"
-			x: 3.5d
-			y: 2.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1850F5DBF7A4D5A5"]
+			entity_vis_size: 1.0f
 			id: "247C0B91B4A5E838"
 			tasks: [
 				{
@@ -167,11 +316,12 @@
 				}
 			]
 			title: "Weapons of Grania"
-			x: 0.5d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["13A9932D7BCD2E2E"]
+			entity_vis_size: 1.0f
 			id: "65A842A2DFECDFF0"
 			tasks: [
 				{
@@ -201,11 +351,12 @@
 				}
 			]
 			title: "Weapons of the Starlight Order"
-			x: 4.5d
-			y: 2.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0CA41706516F60D1"]
+			entity_vis_size: 1.0f
 			id: "582421ED6048E9FB"
 			tasks: [{
 				id: "32E9DCEC61AFCCB7"
@@ -223,7 +374,7 @@
 			}]
 			title: "Weapons of Red Barar"
 			x: 2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -231,6 +382,7 @@
 				""
 				"To whoever finds this book, do know I am the last of a decimated nobility that once served the Blood Queen. Yes, a noble sanguine. By the time you have read this, we may all have fallen into the abyss of history."
 			]
+			entity_vis_size: 1.0f
 			hide_dependent_lines: true
 			icon: "ftbquests:book"
 			id: "19AC0B8C0B44FA30"
@@ -252,6 +404,7 @@
 			y: -2.0d
 		}
 		{
+			entity_vis_size: 1.0f
 			icon: "minecraft:globe_banner_pattern"
 			id: "6054F9076164BFDE"
 			size: 0.75d
@@ -265,6 +418,7 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
 			id: "416FA3E84EDBA716"
 			size: 1.1d
 			tasks: [{
@@ -275,10 +429,11 @@
 			}]
 			title: "Sanguine Nutrition"
 			x: 2.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["416FA3E84EDBA716"]
+			entity_vis_size: 1.0f
 			id: "3F69B451E4B11129"
 			tasks: [{
 				id: "6E0B93551A338678"
@@ -294,15 +449,26 @@
 				weak_nbt_match: true
 			}]
 			x: 2.0d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
 			icon: "minecraft:skeleton_skull"
 			id: "16AC930FED22DF3D"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:zombie_head"
 					id: "433C418385C0ABCA"
 					title: "Consecration"
@@ -311,6 +477,16 @@
 				}
 				{
 					entity: "minecraft:skeleton"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:skeleton_skull"
 					id: "11B219F29421AB99"
 					type: "kill"
@@ -322,6 +498,7 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
 			icon: "minecraft:lantern"
 			id: "4B67C6BB6CC8905C"
 			tasks: [
@@ -340,6 +517,7 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
 			id: "0CA41706516F60D1"
 			rewards: [{
 				id: "4F019BB734D2BD6B"
@@ -347,6 +525,15 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "63F062C342397FFB"
 				observe_type: 5
 				timer: 0L
@@ -355,10 +542,11 @@
 			}]
 			title: "The Crescent Society"
 			x: 2.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
 			id: "479883AB78B8D2FC"
 			rewards: [{
 				id: "3D54BEC29880CE53"
@@ -366,6 +554,15 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "38723CACB17307B2"
 				observe_type: 5
 				timer: 0L
@@ -373,11 +570,12 @@
 				type: "observation"
 			}]
 			title: "The Starlight Order"
-			x: 4.0d
-			y: 0.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
 			id: "384AD7FA6531C4B9"
 			rewards: [{
 				id: "1558678B3E0ABFA8"
@@ -385,6 +583,15 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "275936E67DB1435B"
 				observe_type: 5
 				timer: 0L
@@ -392,34 +599,56 @@
 				type: "observation"
 			}]
 			title: "The Forces of Gold Barar"
-			x: 0.0d
-			y: 0.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["384AD7FA6531C4B9"]
+			entity_vis_size: 1.0f
 			id: "1850F5DBF7A4D5A5"
 			tasks: [{
 				entity: "simpleenemymod:usunit"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5B38546748E44E75"
 				type: "kill"
 				value: 1L
 			}]
 			title: "The Duchy's Soldiers"
-			x: 0.0d
-			y: 1.5d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["479883AB78B8D2FC"]
+			entity_vis_size: 1.0f
 			id: "13A9932D7BCD2E2E"
 			tasks: [{
 				entity: "simpleenemymod:ruunit"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "418F8CD5E008A36E"
 				type: "kill"
 				value: 1L
 			}]
 			title: "The Order's Hunters"
-			x: 4.0d
-			y: 1.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -427,6 +656,7 @@
 				""
 				"I much rather prefer opting for the more elegant solution of blocking with a sword. While these giant swords are brutish, they shall do for now."
 			]
+			entity_vis_size: 1.0f
 			hide_dependent_lines: true
 			id: "36F8661C6E0C53D8"
 			rewards: [{
@@ -608,7 +838,7 @@
 			]
 			title: "Giant Swords and Shields"
 			x: 2.5d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -616,6 +846,7 @@
 				""
 				"&a(Backpacks can be placed in the back curio slot and opened with a keybind defaulted to B.)"
 			]
+			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0BD5BADADC18CC3D"
@@ -652,11 +883,12 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
 			description: ["The builder's best friend or archenemy. Some architects may say this is cheating, but filling in walls, ceilings, or floors quickly is useful in any building situation."]
+			entity_vis_size: 1.0f
 			id: "4134F85EED507D7B"
 			rewards: [
 				{
@@ -763,6 +995,7 @@
 				"{@pagebreak}"
 				"Compacting drawers can be used for storing ores and ingots, which can be withdrawn in nugget, ingot, or block form."
 			]
+			entity_vis_size: 1.0f
 			id: "47F28365AC7EE987"
 			rewards: [
 				{
@@ -809,6 +1042,7 @@
 				"{@pagebreak}"
 				"Hammocks are the lazy man's greatest dream: perfect for sleeping during the day."
 			]
+			entity_vis_size: 1.0f
 			id: "7C7D065A52F9A7D2"
 			rewards: [{
 				id: "13E5FBA180CF7246"
@@ -1024,6 +1258,7 @@
 				""
 				"&a(This item mimics the /wits command, to display the name of the structure the player is located at.)"
 			]
+			entity_vis_size: 1.0f
 			id: "074421F47A443EC7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1051,6 +1286,7 @@
 				""
 				"&aZip-up tents can be opened and closed with a right-click.)&r"
 			]
+			entity_vis_size: 1.0f
 			id: "4A8D37AE43828409"
 			rewards: [{
 				id: "708FB6090573ED28"
@@ -1101,6 +1337,7 @@
 				""
 				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
 			]
+			entity_vis_size: 1.0f
 			icon: "via_romana:charting_map"
 			id: "5B1114E8AD48A9D4"
 			subtitle: "Fast Travel Anywhere"
@@ -1119,6 +1356,7 @@
 				""
 				"A hat is not enough to shield my body from the light. An umbrella is elegant enough while being as large as me. I should have escaped with my grandfather's relic umbrella. It was infinitely durable and even more stylish. Alas, I must make my own umbrella with a puny iron, gold, or diamond rod."
 			]
+			entity_vis_size: 1.0f
 			id: "7B878C2A6814469E"
 			rewards: [{
 				count: 4
@@ -1247,10 +1485,11 @@
 			}]
 			title: "Sun Umbrellas"
 			x: 3.5d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
 			id: "07E9BD4DB2D5F0FD"
 			tasks: [{
 				id: "2BB63E59D8324EC3"
@@ -1258,7 +1497,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -7.0d
+			y: -7.5d
 		}
 	]
 	title: "Fallen"

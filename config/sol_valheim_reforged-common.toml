@@ -1,7 +1,7 @@
 
 [starting_health]
 	#Number of hearts the player starts with (2 health = 1 heart) (range 2-20, default 6)
-	base_health = 6.0
+	base_health = 3.0
 
 [total_health]
 	#Maximum number of hearts the player can get from food (2 health = 1 heart) (range 20-800, default 40)
@@ -17,7 +17,7 @@
 
 [food_duration]
 	#Time (in seconds) that food should last per saturation level (range 60-600, default 180)
-	food_duration = 180.0
+	food_duration = 120.0
 
 [unstackable_food_duration]
 	#Increased duration for food items that don't stack up to 64 (boolean, default = true)
@@ -29,7 +29,7 @@
 
 [food_depletion_during_sleep]
 	#Sleeping consumes half the duration of current eaten foods (boolean, default = false)
-	sleep_depletion = false
+	sleep_depletion = true
 
 [mod_compatibility]
 	#Disable passive regeneration (not recommended) (boolean, default = false)

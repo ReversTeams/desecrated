@@ -174,7 +174,7 @@
 		#Armor items.
 		armor = []
 		#Starting items.
-		items = ["mininggadgets:mininggadget_simple{energy:480000}", "ultimine_addition:miner_certificate", "concatenatedadditionsfood:spicy_drop=16", "vampiresneedumbrellas:iron_umbrella"]
+		items = ["concatenatedadditionsfood:spicy_drop=16", "vampiresneedumbrellas:iron_umbrella"]
 		#Item ID for the class icon.
 		icon = "minecraft:paper"
 		#Commands to execute when this class is selected. Use %player% for player name.

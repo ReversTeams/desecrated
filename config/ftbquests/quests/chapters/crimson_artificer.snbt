@@ -6,6 +6,1695 @@
 	id: "537C158F9A214A38"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6206A30278772A0E"]
+			entity_vis_size: 1.0f
+			id: "12A2B900686AFA48"
+			tasks: [{
+				id: "202C6534CCC9FF27"
+				item: {
+					Count: 1
+					id: "clockwork:scope_crossbow"
+					tag: {
+						Charged: 0b
+						ChargedProjectiles: [ ]
+						Damage: 0
+						sc_can_load: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6206A30278772A0E"]
+			entity_vis_size: 1.0f
+			id: "049E060A9A98B739"
+			tasks: [{
+				id: "258F47089365B1E2"
+				item: {
+					Count: 1
+					id: "clockwork:barrel_crossbow"
+					tag: {
+						Charged: 0b
+						ChargedProjectiles: [ ]
+						Damage: 0
+						barrel_anim_phase: 0
+						barrel_can_load: 0b
+						barrel_next_action: 31095L
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "6206A30278772A0E"
+			tasks: [{
+				id: "346AA08CBD6A00B6"
+				item: "clockwork:clockwork_arrow"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["169431DCD7DDB357"]
+			entity_vis_size: 1.0f
+			id: "41A234162824E5DD"
+			tasks: [{
+				id: "76C554B5C6BD6829"
+				item: {
+					Count: 1
+					id: "clockwork:clockwork_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 1.0f
+			id: "15A0FF70F62AFAAB"
+			tasks: [{
+				id: "6CE4A35B330C6791"
+				item: {
+					Count: 1
+					id: "clockwork:clockwork_drill"
+					tag: {
+						BlocksMined: 0
+						GearsToRepair: 0
+						Inventory: {
+							Items: [ ]
+						}
+						InventorySize: 4
+						OwnerUUID: [I;
+							-573153110
+							-1599847821
+							-1310124135
+							-1399246705
+						]
+						State: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["169431DCD7DDB357"]
+			entity_vis_size: 1.0f
+			id: "113ED12243106AE7"
+			tasks: [{
+				id: "17754EDB1AED4EB4"
+				item: {
+					Count: 1
+					id: "clockwork:clockwork_flamethrower"
+					tag: {
+						Damage: 0
+						clockwork_spraying: 0b
+						flamethrower_use_ticks: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["169431DCD7DDB357"]
+			entity_vis_size: 1.0f
+			id: "5CA7A447D339CF7C"
+			tasks: [{
+				id: "458D3BBBF494F422"
+				item: "clockwork:clockwork_potion_sprayer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "51B4F0043EFD8726"
+			tasks: [{
+				id: "4F9B827A7CD9714F"
+				item: "clockwork:clockwork_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "169431DCD7DDB357"
+			tasks: [{
+				id: "040A238737E7BD38"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:tuning_fork_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:tuning_fork_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:tuning_fork_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:tuning_fork_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:tuning_fork_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:tuning_fork_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:tuning_fork_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "0640AC4ED27C6122"
+			tasks: [{
+				id: "1A92F84E1811611C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:firebrand_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:firebrand_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:firebrand_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:firebrand_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:firebrand_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:firebrand_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "6FD39AE1113C3DC8"
+			tasks: [{
+				id: "01CD81B2E411D92A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:censer_wood"
+								tag: {
+									Damage: 0
+									StoredEffects: [{
+										Ambient: 0b
+										Amplifier: 0b
+										CurativeItems: [{
+											Count: 1b
+											id: "minecraft:milk_bucket"
+										}]
+										Duration: 60
+										Id: 159
+										ShowIcon: 1b
+										ShowParticles: 1b
+										"forge:id": "artificers_armory:blessing"
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:censer_stone"
+								tag: {
+									Damage: 0
+									StoredEffects: [{
+										Ambient: 0b
+										Amplifier: 0b
+										CurativeItems: [{
+											Count: 1b
+											id: "minecraft:milk_bucket"
+										}]
+										Duration: 80
+										Id: 159
+										ShowIcon: 1b
+										ShowParticles: 1b
+										"forge:id": "artificers_armory:blessing"
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:censer_copper"
+								tag: {
+									Damage: 0
+									StoredEffects: [{
+										Ambient: 0b
+										Amplifier: 0b
+										CurativeItems: [{
+											Count: 1b
+											id: "minecraft:milk_bucket"
+										}]
+										Duration: 100
+										Id: 159
+										ShowIcon: 1b
+										ShowParticles: 1b
+										"forge:id": "artificers_armory:blessing"
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:censer_iron"
+								tag: {
+									Damage: 0
+									StoredEffects: [{
+										Ambient: 0b
+										Amplifier: 1b
+										CurativeItems: [{
+											Count: 1b
+											id: "minecraft:milk_bucket"
+										}]
+										Duration: 100
+										Id: 159
+										ShowIcon: 1b
+										ShowParticles: 1b
+										"forge:id": "artificers_armory:blessing"
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:censer_gold"
+								tag: {
+									Damage: 0
+									StoredEffects: [{
+										Ambient: 0b
+										Amplifier: 1b
+										CurativeItems: [{
+											Count: 1b
+											id: "minecraft:milk_bucket"
+										}]
+										Duration: 140
+										Id: 159
+										ShowIcon: 1b
+										ShowParticles: 1b
+										"forge:id": "artificers_armory:blessing"
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:censer_diamond"
+								tag: {
+									Damage: 0
+									StoredEffects: [{
+										Ambient: 0b
+										Amplifier: 2b
+										CurativeItems: [{
+											Count: 1b
+											id: "minecraft:milk_bucket"
+										}]
+										Duration: 160
+										Id: 159
+										ShowIcon: 1b
+										ShowParticles: 1b
+										"forge:id": "artificers_armory:blessing"
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:censer_netherite"
+								tag: {
+									Damage: 0
+									StoredEffects: [{
+										Ambient: 0b
+										Amplifier: 3b
+										CurativeItems: [{
+											Count: 1b
+											id: "minecraft:milk_bucket"
+										}]
+										Duration: 200
+										Id: 159
+										ShowIcon: 1b
+										ShowParticles: 1b
+										"forge:id": "artificers_armory:blessing"
+									}]
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "706D2725EBD81A09"
+			tasks: [{
+				id: "75580FFC2B41DDAA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:blight_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:blight_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:blight_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:blight_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:blight_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:blight_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:blight_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "5A3B3B1D72398AA8"
+			tasks: [{
+				id: "068AD90802FC1CC2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:spirit_candle_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:spirit_candle_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:spirit_candle_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:spirit_candle_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:spirit_candle_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:spirit_candle_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:spirit_candle_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "038120B0C366CA49"
+			tasks: [{
+				id: "08F34554FB2ED7E2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:chime_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:chime_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:chime_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:chime_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:chime_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:chime_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "494AFCB2DCBC7EBB"
+			tasks: [{
+				id: "7A8766F2104FAE4F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:sprig_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:sprig_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:sprig_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:sprig_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:sprig_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:sprig_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:sprig_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "60B38266F5F4F8F7"
+			tasks: [{
+				id: "2D6D963D865CCADC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:oculus_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:oculus_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:oculus_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:oculus_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:oculus_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:oculus_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:oculus_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			entity_vis_size: 1.0f
+			id: "532DC607CA70E1C1"
+			tasks: [{
+				id: "721BB91092826AE7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:wrench_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:wrench_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:wrench_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:wrench_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:wrench_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:wrench_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:wrench_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 1.0f
+			id: "2C28FAC34AEE5EFC"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "669378201FE571F0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clockwork:dragonfly"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 1.0f
+			id: "44AA12BED1230C44"
+			tasks: [{
+				advancement: "artificers_armory:wrench_use"
+				criterion: ""
+				id: "3A61E6A5374B226F"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 1.0f
+			id: "31D18730B165801D"
+			tasks: [{
+				advancement: "artificers_armory:redstone_laser_summon"
+				criterion: ""
+				id: "62007FC090BCF01F"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 1.0f
+			id: "4571CBA4DC36F277"
+			tasks: [{
+				advancement: "artificers_armory:electro_coil_summon"
+				criterion: ""
+				id: "6697A115D7359E23"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 1.0f
+			id: "6355379C6B018C08"
+			tasks: [{
+				advancement: "artificers_armory:mobile_gear_summon"
+				criterion: ""
+				id: "29F323BE1CF55DFC"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["51B4F0043EFD8726"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&4The Hanged Man Pathway&r delves mainly into relics, crafting and collecting them. To do thus, a substantial amount of monster hunting is required."
+				""
+				"During my time in the City of Sparkon, I met a reliquerer of this Pathway, who had evolved from an archmage, as a couple of mages do."
+				"{@pagebreak}"
+				"His name is &cSantiago&r. He left me a couple of notes, and I've also written down a couple of our dialogues. Although he's a native to Sparkon, he spent more time outside of the city out on monster hunting raids to collect the rarest of ingredients. While he is officially an archmage as well as a reliquerer, he really did the bare minimum to be able to pass as an archmage."
+				"{@pagebreak}"
+				"It is adjacent to &6The Sun Pathway&r, &fThe Star Pathway&r and &4The Moon Pathway&r."
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "4E4E81226BED0E7C"
+			rewards: [{
+				id: "1BF473F4724D7AFF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6B416D7B4B898875"
+				item: "tarotcards:the_hanged_man"
+				type: "item"
+			}]
+			title: "&4The Hanged Man"
+			x: 0.5499999999999987d
+			y: 8.149999999999991d
+		}
+		{
+			dependencies: ["550D01E852BFE592"]
+			description: [
+				"The Tome of Alkahestry is a relic that is a gate to many riches. It was once banned and branded as an unholy relic that attracts greed and disaster. Nowadays, this is still a rare artifact for reliquerers. &cSebastian&r hasn't found one yet. Wait, that's not &chis&r name. What was it again? Does this tome cause memory issues?"
+				""
+				"The Tome is a vessel for transmutation, able to turn redstone into countless imaginable things. We can also harness its power to craft numerous staffs. "
+			]
+			entity_vis_size: 1.0f
+			id: "7D281BDB1C2472F1"
+			rewards: [{
+				count: 5
+				id: "1147A90310FA4F58"
+				item: {
+					Count: 1
+					id: "elementalcraft:pure_ore"
+					tag: {
+						elementalcraft: {
+							ore: "forge:redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.15d
+			tasks: [{
+				id: "69E34EEB7779B8FF"
+				item: {
+					Count: 1
+					id: "reliquary:alkahestry_tome"
+					tag: {
+						Damage: 1001
+					}
+				}
+				type: "item"
+			}]
+			x: 5.324999999999994d
+			y: 12.775000000000002d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			description: [
+				"The Angelheart Vial is a reliquerer's main trick: cheating death a countless number of times. Or at least per the number of vials they have stacked in their pockets."
+				"{@pagebreak}"
+				"Legends say an archmage once defied a god by using this vial. For lightning and divine kill could not bring him down, or at least to death, he was thrown into the void, his corpse never to be found."
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "483A8C4A3EE05C52"
+			rewards: [{
+				count: 9
+				id: "02C8124F0334CFC3"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2310CAC195D888F6"
+				item: "reliquary:angelheart_vial"
+				type: "item"
+			}]
+			x: 6.5500000000000025d
+			y: 8.2d
+		}
+		{
+			dependencies: [
+				"23F4617A86D5F64E"
+				"483A8C4A3EE05C52"
+			]
+			description: [
+				"What a cool name. That's what I think of it at least."
+				""
+				"&c\"That's just the name of the artifact.\"&r"
+				""
+				"Surely there's a deeper meaning? What are phoenixes anyways, haven't seen one of those around. Phoenix Down is created when pouring angelheart onto an angelic feather, yielding a more powerful, but less stackable way of cheating death."
+			]
+			entity_vis_size: 1.0f
+			id: "3BC974F6785A43B3"
+			rewards: [{
+				count: 5
+				id: "2DBCA354DB93BF21"
+				item: "reliquary:angelheart_vial"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31FE2C17AA05CDF8"
+				item: "reliquary:phoenix_down"
+				type: "item"
+			}]
+			x: 6.5500000000000025d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			description: [
+				"\"This seems like a cheap knockoff of the Tower card.\""
+				""
+				"&c\"No, no, no. This is where the effect of the Tower card originates. Ancient engineers once asked an ancient reliquer king to bring this ability to light.\"&r"
+				""
+				"\"An ancient reliquerer who was a king?\""
+				"{@pagebreak}"
+				"&c\"Reliquers were rarer back in the day, you know. They didn't have their massive parties or organized society to collect rare parts as we do.\"&r"
+				""
+				"\"Don't act as if you were old enough to have lived a thousand years ago.\""
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "23F4617A86D5F64E"
+			rewards: [{
+				id: "44A9342C1349C618"
+				item: "minecraft:bat_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50BA59F871D27A44"
+				item: "reliquary:angelic_feather"
+				type: "item"
+			}]
+			x: 5.5500000000000025d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["550D01E852BFE592"]
+			description: [
+				"I then asked this reliquerer if he had a relic that helped him mine. Surely that's something that only Technicians or Engineers have access to."
+				"{@pagebreak}"
+				"&c\"This lil' contraption is a rather simple but effective tool. It essentially acts as a reusable smart stick of dynamite. Just put a bit of gunpowder in it, point it at a patch of ground you don't like, then blam! Instant explosion. It's actually better than an actual explosion in a couple of ways, since it doesn't hurt the user and it doesn't blow up the stuff you actually want, like ores, so that you can harvest them at your own leisure. Though, there is the flaw that it doesn't deal any damage with the explosion itself, which led to me innovating one of my favourite creations to date.\"&r"
+			]
+			entity_vis_size: 1.0f
+			id: "471939DE22B5426B"
+			rewards: [{
+				count: 128
+				id: "1A78708496A8CEF5"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "48BBC7D237937923"
+				item: "reliquary:destruction_catalyst"
+				type: "item"
+			}]
+			x: 2.1999999999999975d
+			y: 11.75d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: [
+				"&c\"Ah, my lucky change. This coin is actually imbued with a decent amount of luck, and that's not just a vague claim! Riches and valuable experience just seem to find me a preferable owner ever since I created this relic. Fortunately, it has a way to deactivate the effect, as I would've pissed off quite a number of powerful people that just happen to have a lot of treasures on display in their chambers, haha.\"&r"
+				"{@pagebreak}"
+				"\"I've seen this coin in the hands of many people though.\""
+				""
+				"&c\"Well... it's not unique, but it's certainly a relic!\"&r"
+				""
+				"\"You don't seem convincing.\""
+			]
+			entity_vis_size: 1.0f
+			id: "0901394AD3A5FDAB"
+			rewards: [{
+				id: "6124B6F0F9E2A86C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "47A1211F79140D97"
+				item: "reliquary:fortune_coin"
+				type: "item"
+			}]
+			x: -0.8499999999999999d
+			y: 10.799999999999997d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			description: [
+				"With the power of the Tome of Alkahestry, I managed to borrow some of the properties of transmutation to create a version of the famed Glacial Staff that doesn't require snowballs. It does require more materials to make than normal, though."
+				""
+				"&cSebastian&r was bewildered at my progress, clutching his own staff and praising it as a bastion of tradition against this strange new magic."
+				"{@pagebreak}"
+				"The Glacial Staff is an interesting weapon, able to fire surprisingly strong mystical snowballs of the ice element, especially effective against fire-type creatures such as blazes. It also freezes enemies momentarily."
+			]
+			entity_vis_size: 1.0f
+			id: "641652D8289A2AF2"
+			rewards: [{
+				id: "09A4993D7B812057"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7F2EF4CFDB194DD8"
+				item: "reliquary:glacial_staff"
+				type: "item"
+			}]
+			x: 4.0500000000000025d
+			y: 14.2d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			description: [
+				"I've found notes of a way older fireball staff used by an ancient civilization. I was able to find the core and a mangled stick, but alas, it did not work anymore. It seems to ressemble the Pyromancer staffs in a more crude form."
+				""
+				"With my usual tinkering, I made a version of the fireball staff that does not consume fire charges, and here's the recipe above."
+			]
+			entity_vis_size: 1.0f
+			id: "728B9DCC6EEF04E2"
+			rewards: [
+				{
+					id: "4C8DC2D214EA8F61"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0799553BDABACDF1"
+					item: "reliquary:infernal_tear"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74C6E160ED0AF054"
+				item: "reliquary:pyromancer_staff"
+				type: "item"
+			}]
+			x: 7.0500000000000025d
+			y: 12.7d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			description: [
+				"&c\"I use this one on a daily basis, so you could probably tell that I'm particularly fond of this relic. The Rending Gale has three modes of function: flight, push, and pull. When in flight mode, the staff will (rather violently) pull you in the direction you're looking at extreme speeds! Incredible for getting anywhere fast, but it can be a bit dizzying the first forty or so uses. When in push mode, it expels a strong gust around you, preventing anything from getting anywhere close! Very good for taking a breather. When in pull mode, it creates a vortex of wind that sucks in everything in a chosen direction towards you. With all of these incredible use cases, I'm honestly more surprised it isn't more popular!\""
+				"{@pagebreak}"
+				"\"Isn't it rather expensive to gather the materials to make it? Obviously it wouldn't be a common commodity if the average person couldn't get it.\""
+				""
+				"&c\"Yeah, but I never see any of my fellow magic users have one either! It's weird. I'd make a business around them if I wasn't so busy adventuring all the time.\"&r"
+			]
+			entity_vis_size: 1.0f
+			id: "439A7FD241E5D5E4"
+			rewards: [{
+				id: "63645AD02ADD8D07"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "21D8996224D0CFE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:feather"
+								}
+							}]
+						}
+					}
+					id: "reliquary:rending_gale"
+				}
+				type: "item"
+			}]
+			x: 7.0500000000000025d
+			y: 14.2d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			description: ["&c\"Now this is one of my most powerful artifacts! One cast of the Serpent Staff can easily turn a dicey combat encounter into a cakewalk. Upon being hit by the Kraken's spit expelled by this weapon, your enemies will find themselves completely unable to attack you for a time! Now, this comes with a couple caveats, those being that the staff is exceptionally fragile and that the pacification isn't foolproof. An enemy with a strong will can fight against it, but nine times out of ten you have a free kill.\"&r"]
+			entity_vis_size: 1.0f
+			id: "1CB0C2CD353BA642"
+			rewards: [{
+				id: "3EEE0193BE713118"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2EC02C31B187FF3F"
+				item: {
+					Count: 1
+					id: "reliquary:serpent_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5500000000000025d
+			y: 14.7d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			description: [
+				"Keeping in line with my newfound rudimentary transmutation knowledge, I managed to craft a more expensive but more useful version of the standard Sojourner Staff reliquerers use! They say relics are unique to their wielders, is this a part of it?"
+				""
+				"The Sojourner Staff is used to place down ethereal torches wherever you go. With my unique model, however, you don't need to keep torches with you!"
+				"{@pagebreak}"
+				"&cSebastian&r tried replicating my recipe and it didn't work for him, unfortunately. A few other reliquerers also tried their hand and failed. I leave the recipe I used as a note, but beware that this may not work to make the transmutation-unique variant of the Sojourner Staff."
+			]
+			entity_vis_size: 1.0f
+			id: "6FE18A64BEAF0A08"
+			rewards: [{
+				count: 64
+				id: "78C6E77E77448199"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09C668F3104EE04D"
+				item: "reliquary:sojourner_staff"
+				type: "item"
+			}]
+			x: 6.5500000000000025d
+			y: 11.2d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: ["&c\"As someone who dabbles in brewing from time to time in order to make specialized ammunition, in the past I had found myself wanting for particular plants that are difficult for me to get more of out in the field. So, I ended up synthesizing this particular relic to help with my supply. It instantaneously grows whatever you're looking at, and if you use it to harvest a crop it simultaneously picks the whole batch as well. Saves me quite a bit of money when I'm looking for more ingredients!\"&r"]
+			entity_vis_size: 1.0f
+			id: "6D9C35A4B03D6421"
+			rewards: [{
+				id: "5A3A2B4BB54E503C"
+				item: "reliquary:fertile_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8DE248E560EF11"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:bone_meal"
+								}
+							}]
+						}
+					}
+					id: "reliquary:harvest_rod"
+				}
+				type: "item"
+			}]
+			x: 3.1500000000000004d
+			y: 7.799999999999997d
+		}
+		{
+			dependencies: ["471939DE22B5426B"]
+			description: [
+				"\"This looks like it could be used like in those firearms of the Judgement Pathway?\""
+				""
+				"&c\"Don't let its appearance fool you, this may look like a common pistol like yours, but this baby is actually a feat of magical engineering. Because of its components, it's able to accept an incredible variety of magically manufactured ammunitions without malfunctioning!\""
+				"{@pagebreak}"
+				"&c\"I've personally created magic bullets that seek enemies, concussive rounds that explode, ammo that delivers potion payloads, and many more! My go-to ranged option as a reliquer. It's joined me on many a monster hunt and I wouldn't be nearly as successful as I am on them without it!\"&r"
+				""
+				"\"Aren't you a reliquerer though, why a gun?\""
+				""
+				"&c\"Reliquer.\"&r"
+				"{@pagebreak}"
+				"&c\"...Why is it shaped like a gun? Well, unlike those stuffy wizards and sorcerers you see all over the place here, I can recognize an ergonomic design when I see one. I don't have to like the techies to understand when they've made a good design choice. Increases the modularity quite a bit too!\"&r"
+				""
+				"\"Do you think you could make it cast spells as well now?\""
+			]
+			entity_vis_size: 1.0f
+			id: "4FB2DA70942ECABD"
+			rewards: [
+				{
+					id: "5DF2AFD74B5E9557"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "791C91D5259B91A0"
+					item: {
+						Count: 1
+						id: "reliquary:magazines/neutral_magazine"
+						tag: {
+							effects: [{
+								duration: 200
+								name: "minecraft:weakness"
+								potency: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12558DDB5323CCDB"
+				item: "reliquary:handgun"
+				type: "item"
+			}]
+			x: 1.6500000000000001d
+			y: 13.299999999999997d
+		}
+		{
+			dependencies: ["4E4E81226BED0E7C"]
+			description: [
+				"I asked &cSantiago&r more about his so-called relics and the starting point of a reliquerer's craft. &c\"Well, if you're interested in fabricating relics of your own, then I'd say the very first thing you should get comfortable with crafting is the Void Tear. It isn't too difficult to scrounge up the materials, only really requiring a Ghast's tear, an Enderman's heart, a Slime's Pearl, and a bit of Lapis, but you should really stock up on the materials for it, since it's used as a base for many more complicated (and useful) relics.\"&r"
+				"{@pagebreak}"
+				"&c\"Not to say that it's completely worthless by itself, it can technically store infinite items! Only one item type at a time though. Regardless, this is absolutely the rookie reliquer's first steps.\"&r"
+			]
+			entity_vis_size: 1.0f
+			id: "081070F7CBF61207"
+			rewards: [{
+				count: 3
+				id: "5A4EAB0B44351A9A"
+				item: "reliquary:nebulous_heart"
+				type: "item"
+			}]
+			tasks: [{
+				id: "290562D519F4C6F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+						}
+					}
+					id: "reliquary:void_tear"
+				}
+				type: "item"
+			}]
+			x: 1.6500000000000001d
+			y: 9.299999999999997d
+		}
+		{
+			dependencies: ["0901394AD3A5FDAB"]
+			description: [
+				"Magicbane is a relic with immense potential: it increases its power with each enchantment. It, however, has very low durability. Fortunately, by combining this with the Magician card, it becomes unbreakable, an all-around upgrade to the giant golden sword even some mages still use up to this point."
+				""
+				"It also has a higher chance of obtaining rare and exotic materials from monsters."
+			]
+			entity_vis_size: 1.0f
+			id: "21E6CA24E283AF68"
+			rewards: [
+				{
+					count: 32
+					id: "395BB7E17E5F9EF0"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "6EF68BA5469C4DFB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4AEE0CC94FA9E76E"
+				item: {
+					Count: 1
+					id: "reliquary:magicbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.3499999999999999d
+			y: 12.299999999999997d
+		}
+		{
+			dependencies: ["21E6CA24E283AF68"]
+			dependency_requirement: "one_started"
+			description: [
+				"Out of all of the weapons I've come across on my travels, up until now, this probably makes the top five. It uses Kestrel as a base, harvests the power of Magicbane using a transformative flower, and when swung, shoots deadly beams with the power of the Rending Gale, summoning lightning strikes on hit."
+				"{@pagebreak}"
+				"I can proudly say I've been the one to create this relic. I invented a relic! The first of a kind the world has never seen before!"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "50F5D21769C1B356"
+			rewards: [{
+				id: "42361E30C508BC7E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.15d
+			tasks: [{
+				id: "1051A989BB0B075A"
+				item: {
+					Count: 1
+					id: "concatenatedadditionstools:kestrel_r"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.2000000000000013d
+			y: 14.674999999999997d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: [
+				"&c\"If you ever thought that ender pearls offered a distinct lack of options in forms of teleportation, this one might be a favourable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has three distinct modes that allow for more controlled self-teleportation. It has a basic mode which launches an ender pearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
+				"{@pagebreak}"
+				"&c\"Additionally, it features a waypoint mode, which instantly sends you to the last Wraith Node you interacted with. Overall a very solid relic.\"&r"
+				""
+				"I've innovated a bit on the concept and, on my first attempt, managed to somehow create a version of this staff that doesn't consume ender pearls! I noted down the recipe above. Sebastian was dumbfounded."
+			]
+			entity_vis_size: 1.0f
+			id: "4556ED8E14FEA0D9"
+			rewards: [{
+				count: 2
+				id: "15FDA056A838D981"
+				item: "reliquary:bat_wing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF268B58CB91994"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:ender_pearl"
+								}
+							}]
+						}
+					}
+					id: "reliquary:ender_staff"
+					tag: {
+						count: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.1500000000000004d
+			y: 7.299999999999997d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: ["&c\"The Infernal Tear is a sort-of-sidegrade sort-of-upgrade of the Void Tear. Instead of storing infinite of one item, the thing accepts all items, but get this! It converts anything placed inside into experience points. Definitely a nice pickup for getting rid of garbage that you pick up on your journeys, but it inherits the Void Tear's applicability in other relics' recipes. That's where I'd say its true value shines.\"&r"]
+			entity_vis_size: 1.0f
+			id: "550D01E852BFE592"
+			rewards: [{
+				count: 3
+				id: "2B1ADDB9B1F426C4"
+				item: "reliquary:witch_hat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "210D062819CD9386"
+				item: "reliquary:infernal_tear"
+				type: "item"
+			}]
+			x: 2.6500000000000004d
+			y: 10.299999999999997d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: [
+				"&c\"The Emperor's Chalice is one of my more tame creations, merely acting as an infinite source of water. Definitely useful, just not too exciting for my tastes. I personally use it for filling my Apothecary Cauldron and sip from it when I'm thirsty. Just make sure you don't leave it upside down. I didn't appreciate the hit my funds got when I almost flooded an entire district...\"&r"
+				"{@pagebreak}"
+				"\"But isn't this the same as carrying two buckets of water?\""
+				""
+				"&c\"What?\"&r"
+				""
+				"\"You know, laws of physics.\""
+			]
+			entity_vis_size: 1.0f
+			id: "4128B0BDF74E7913"
+			rewards: [{
+				id: "394382D1B424C5C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "60A3D710A6915E96"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			x: 0.6500000000000001d
+			y: 11.299999999999997d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: [
+				"&c\"Oh, this meager thing? This was one of the first relics I had ever synthesized, experimenting with the properties of the Void Tear and first figuring out what was possible. It lobs harmful snowballs in the direction you point it, which isn't a terrible effect, but it's sort of outlived its usefulness in my arsenal. Still good against blazes, but not nearly as powerful as its 'older brother', so to speak.\""
+				"{@pagebreak}"
+				"&c\"Why do I still have it then? Well, call it a bit of sentimentality, hoarding, or whatever, but I've become attached to it. Also, you never know when some tricky beastie will just snatch whatever weapon you're using straight out of your hands. Never hurts to have a backup.\"&r"
+				""
+				"\"Isn't this just a handle for more powerful staffs though?\""
+			]
+			entity_vis_size: 1.0f
+			id: "2D16C6149B35A925"
+			rewards: [{
+				id: "445DFD06391020AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+						}
+					}
+					id: "reliquary:void_tear"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60F6F7E6EDDCB90C"
+				item: "reliquary:ice_magus_rod"
+				type: "item"
+			}]
+			x: 3.650000000000004d
+			y: 8.799999999999997d
+		}
+		{
+			dependencies: ["4128B0BDF74E7913"]
+			description: [
+				"&c\"While I was still in training here in the city of Sparkon, I was actually learning the practices of the apothecary. While it didn't end up being the path I had stuck with, I still implement it in my routine since the methods are a little too valuable to just forget about. Instead of haphazardly stuffing ingredients one after another like many other brewers, apothecaries first grind a mix of components into a potion essence. \""
+				"{@pagebreak}"
+				"&c\"Each ingredient can correspond to multiple different effects, but they require at least one shared effect in order to be concentrated into the essence. Then, we put the essence into the cauldron, add any universal reagents as desired, then throw in a bit of Nether Wart. This nets us three potions of significantly increased potency compared to their contemporaries!\"&r"
+			]
+			entity_vis_size: 1.0f
+			id: "30753449F4BD9E2A"
+			rewards: [{
+				id: "6DE2D735DFB6B7C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "0C448BE498DDD1B2"
+					item: "reliquary:apothecary_cauldron"
+					type: "item"
+				}
+				{
+					id: "7E1646F256B3AD04"
+					item: "reliquary:apothecary_mortar"
+					type: "item"
+				}
+			]
+			x: 0.15000000000000013d
+			y: 12.799999999999997d
+		}
+		{
+			dependencies: [
+				"728B9DCC6EEF04E2"
+				"2A6F7A84B94F1B7F"
+			]
+			description: [
+				"&o&7 The handwriting brusquely changes"
+				""
+				"&6&fEleonore's&6 notes abruptly end here. That's odd. I would have thought she'd have reached The Devil. From the legends I've heard, she had acquired the Philosopher's Stone, but it isn't documented in this journal. It seems that &fEleonore &6took particular attention in the Salamander's Eye, but never properly documented it aside from a crude drawing of the eye."
+				""
+				"&6I was able to create one for myself, albeit most likely at a much higher cost than what traditional reliquerers could muster. The artefact does not seem particularly useful on the surface but may have hidden power."
+			]
+			entity_vis_size: 1.0f
+			id: "5AAC92BF084F5CC7"
+			rewards: [{
+				id: "77E5463FB9E4F664"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The Torch Passes"
+			tasks: [{
+				id: "5BC9A7DEF890290A"
+				item: "reliquary:salamander_eye"
+				type: "item"
+			}]
+			x: 8.649999999999997d
+			y: 13.249999999999996d
+		}
+		{
+			dependencies: ["6FE18A64BEAF0A08"]
+			description: ["The Lantern of Paranoia is used to spread torches over a dark area."]
+			entity_vis_size: 1.0f
+			id: "2A6F7A84B94F1B7F"
+			rewards: [{
+				id: "63F4FEE0FBE7BA37"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3AE1B123A7E8BF18"
+				item: "reliquary:lantern_of_paranoia"
+				type: "item"
+			}]
+			x: 8.550000000000002d
+			y: 11.7d
+		}
+		{
+			dependencies: ["2A6F7A84B94F1B7F"]
+			description: ["The Interdiction Torch makes use of mystical fire, burning fragments of a nebulous heart as eternal fuel to repel hostile entities from an area."]
+			entity_vis_size: 1.0f
+			id: "66DB777A17822FE0"
+			rewards: [{
+				count: 64
+				id: "3753D444E55F6C18"
+				item: "reliquary:interdiction_torch"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "16A8899AB02C7516"
+				item: "reliquary:interdiction_torch"
+				type: "item"
+			}]
+			x: 8.550000000000002d
+			y: 10.2d
+		}
+		{
+			dependencies: ["7EA2E0871C6D568C"]
+			description: ["&6I've done it, this variant of the Witherless Rose blooms with bright colours, able to reverse effects of withering. I am getting closer to figuring out all-encompassing transmutation across all matter. I've used quite a lot of anti-withering elixir in my experiments, though. I don't think I'll be in need of those anymore."]
+			entity_vis_size: 1.0f
+			id: "34DB9EBB5C296D71"
+			rewards: [{
+				count: 3
+				id: "5242E9C718036F5D"
+				item: "born_in_chaos_v1:elixirof_wither_resistance"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02DA134DDB14AA28"
+				item: "reliquary:witherless_rose"
+				type: "item"
+			}]
+			x: 11.000000000000005d
+			y: 10.2d
+		}
+		{
+			dependencies: ["5AAC92BF084F5CC7"]
+			description: ["&6The hero's medallion is outclassed in its ability by most earlier methods of experience storage, whether it be the Shrike sword, experience containers or the insightful crystal. I do believe that using the Salamander's Eye, it can be useful as a transmutation medium."]
+			entity_vis_size: 1.0f
+			id: "7EA2E0871C6D568C"
+			rewards: [{
+				id: "78556DFB107D88E6"
+				item: {
+					Count: 1
+					id: "concatenationcore:shrike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6995D2EB47EB369A"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			x: 11.000000000000005d
+			y: 13.7d
+		}
+	]
 	title: "Crimson Artificer"
 }

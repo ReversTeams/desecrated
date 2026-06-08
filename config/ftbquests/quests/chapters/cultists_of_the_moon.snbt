@@ -15,6 +15,7 @@
 	quests: [
 		{
 			description: ["Compel the lifeforce out of your veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."]
+			entity_vis_size: 1.0f
 			id: "068DF533DB041F37"
 			rewards: [
 				{
@@ -66,6 +67,7 @@
 		{
 			dependencies: ["068DF533DB041F37"]
 			description: ["Alchemy is a complex and spiritually charged process. Now its gates open to you, under the guidance of life essence. "]
+			entity_vis_size: 1.0f
 			id: "40EA73BEA023C14A"
 			rewards: [
 				{
@@ -108,6 +110,7 @@
 		{
 			dependencies: ["068DF533DB041F37"]
 			description: ["While the alchemy table works with life essence, the hellfire forge works with demonic will. The world of will manipulation is a relatively complex one, so be prepared if you do decide to embark on it. I, for one, never needed to delve into this art, but you may not have the luxury of alternative technologies."]
+			entity_vis_size: 1.0f
 			id: "6CE0DB1AEB597BCE"
 			rewards: [{
 				count: 16
@@ -134,6 +137,7 @@
 		{
 			dependencies: ["068DF533DB041F37"]
 			description: ["These large runestones can be further inscribed with enchantments to augment the structure of a blood altar. Each tier of altar will require more to be used to allow for more advanced imbuements."]
+			entity_vis_size: 1.0f
 			id: "25A618A3B28B8DEE"
 			rewards: [{
 				id: "68D972FD21185F7D"
@@ -160,6 +164,7 @@
 		{
 			dependencies: ["25A618A3B28B8DEE"]
 			description: ["Tired of bloodletting? If you have a steady source of creatures to kill, this dagger will allow you to efficiently rend the life force from their corporeal form. The world I lived in never lacked hostiles, that's for sure."]
+			entity_vis_size: 1.0f
 			id: "255F91EE26FB166D"
 			rewards: [{
 				id: "4217EE1A26AFFEEA"
@@ -185,6 +190,7 @@
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
 			description: ["These strangely shaped gems can hold and stabilize demonic will within them, acting as portable reservoirs. They also automatically absorb it from kills performed with a sentient sword, which is an added bonus."]
+			entity_vis_size: 1.0f
 			id: "0D2E04D30E54E6C8"
 			tasks: [{
 				id: "44A38A04BF79BC8F"
@@ -209,6 +215,7 @@
 		{
 			dependencies: ["068DF533DB041F37"]
 			description: ["An enchanted barbed snare to bootstrap any aspiring sanguimancer into the extraction of willpower from the souls of animated things. Unfortunately, it doesn't actually impede the movement of creatures that much, so it doesn't have much use afterwards."]
+			entity_vis_size: 1.0f
 			id: "4CD27FD09EF16094"
 			rewards: [{
 				id: "74092527CBEB78C3"
@@ -238,6 +245,7 @@
 				""
 				"I once had a sentient sword. I believe it liked the smell of strawberries..."
 			]
+			entity_vis_size: 1.0f
 			id: "3E73EAD0A0A295F5"
 			rewards: [{
 				id: "26475380E542593C"
@@ -270,6 +278,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["The willpower of animated things. It's more sinister than life essence, and I believe it comes from a place deep beyond this world. While life essence, the impetus, maintains the physical form, will is the elusive, emotional 'soul' of things that guides their purpose."]
+			entity_vis_size: 1.0f
 			id: "346C594E62FFDB7A"
 			rewards: [{
 				id: "5E5F6B9EA8F02186"
@@ -298,6 +307,7 @@
 		{
 			dependencies: ["3E73EAD0A0A295F5"]
 			description: ["All your tools can be made sentient! Though you may hear whispers, worry not, they probably aren't conspiring against you."]
+			entity_vis_size: 1.0f
 			id: "29FA37C27A60B1E0"
 			rewards: [{
 				id: "097DA56D27DE38CB"
@@ -376,6 +386,7 @@
 		{
 			dependencies: ["068DF533DB041F37"]
 			description: ["Life essence can be infused into various items to grant them special abilities. Stone sheets can be imbued to make them conductive to magic, and precious stones like diamonds can be infused to become blood orbs, which allow you to connect a channel to your life network."]
+			entity_vis_size: 1.0f
 			id: "209C0E2550C84C69"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -417,6 +428,7 @@
 		{
 			dependencies: ["40EA73BEA023C14A"]
 			description: ["These ashes can be used to draw out alchemical arrays, a kind of magic circle. These will allow you to perform certain enchantments and cantrips, particularly for sigils or some small rituals."]
+			entity_vis_size: 1.0f
 			id: "2DC6C224BD1881C9"
 			rewards: [{
 				id: "6DD09A24470695AA"
@@ -445,6 +457,7 @@
 		{
 			dependencies: ["2DC6C224BD1881C9"]
 			description: ["This sigil is by far one of the most important in sanguimancy, as it allows you to see the numerical quantity of life essence contained within blood altars or your life network."]
+			entity_vis_size: 1.0f
 			id: "27BBE74203C33C95"
 			rewards: [{
 				id: "2C0EC6E5CC73A918"
@@ -470,6 +483,7 @@
 		{
 			dependencies: ["40EA73BEA023C14A"]
 			description: ["The alchemical reaction chamber, or ARC, is a useful machine for extra ore processing, recycling, or particular extractions such as separating blood shards out of saturated tau fruit."]
+			entity_vis_size: 1.0f
 			id: "51EDC749A53FF0D3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -495,6 +509,7 @@
 		{
 			dependencies: ["51EDC749A53FF0D3"]
 			description: ["The weak blood shard is a product of the demonic tau fruit and can be used in the creation of the penultimate instruments of sanguimancy, as well as to unveil the true secrets of alchemy."]
+			entity_vis_size: 1.0f
 			id: "51CDC5BD509CE535"
 			rewards: [{
 				id: "168D0B5792967ABC"
@@ -523,6 +538,7 @@
 				"Large rituals require ritual stones, and this stone is the core of it all. While you're at it, you should probably fill up your life essence network, you'll need that power for activation."
 				"Rituals are complex things with many variations, so you should read up on them in the Science of Blood."
 			]
+			entity_vis_size: 1.0f
 			id: "6D27277DA055DFBC"
 			rewards: [{
 				id: "3CCAB2F8B0FFA707"
@@ -558,6 +574,7 @@
 				""
 				"At this point, you may want to challenge the gateway to what lies beyond: The Hidden Realm."
 			]
+			entity_vis_size: 1.0f
 			id: "579E8F816742653C"
 			rewards: [{
 				count: 2
@@ -603,6 +620,7 @@
 				""
 				"I never got far within the demon realm. In fact, a lot of the threats and monsters in there are more powerful than the nightmares on the surface world, and the maze-like geometry of their palace makes them hard to avoid."
 			]
+			entity_vis_size: 1.0f
 			id: "29289B6D4610B9D4"
 			rewards: [{
 				id: "32ABBD3833083EF5"
@@ -628,6 +646,7 @@
 		{
 			dependencies: ["6D27277DA055DFBC"]
 			description: ["This funny-looking wrench thing lets you interface with activated rituals, allowing you to control their area of effect and other properties."]
+			entity_vis_size: 1.0f
 			id: "1AE3C9A1202FE409"
 			rewards: [{
 				id: "03C514B0FB510C00"
@@ -653,6 +672,7 @@
 		{
 			dependencies: ["29289B6D4610B9D4"]
 			description: ["This metal native to the demon realm is the highest order material of sanguimancy, and the most permeable to demonic will. Beyond this point, your infrastructure is no longer limited by your knowledge of the art, but rather by how many resources you can dedicate to it."]
+			entity_vis_size: 1.0f
 			id: "639817BED42EBC3A"
 			rewards: [{
 				count: 2
@@ -682,6 +702,7 @@
 				"As a result of performing alchemy using life essence, some items can be imbued with a thimble of sapience, allowing these objects to perform logistical tasks automatically. "
 				"These proved quite useful when I did not have access to other forms of logistics in the wilderness, and they have a certain advantage in that they transmit through the air, regardless of line of sight."
 			]
+			entity_vis_size: 1.0f
 			id: "234F7C53CB615880"
 			rewards: [{
 				id: "6A7B66590F60CFD9"
@@ -810,6 +831,7 @@
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
+			entity_vis_size: 1.0f
 			id: "4FA2BB65ED1D6A03"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -864,6 +886,7 @@
 		{
 			dependencies: ["209C0E2550C84C69"]
 			description: ["A better blood orb. Be careful, though, as a blood orb belonging to you will pull from your own life essence, regardless of who is using it."]
+			entity_vis_size: 1.0f
 			id: "3913EED76917339E"
 			rewards: [{
 				count: 4
