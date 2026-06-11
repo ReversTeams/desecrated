@@ -1,5 +1,5 @@
 {
-	autofocus_id: "445742EA3F278341"
+	autofocus_id: "4D45D411280B394B"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "arcane_flesh"
@@ -73,21 +73,27 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["1149E9D781B1E0E6"]
+			dependencies: [
+				"1149E9D781B1E0E6"
+				"3142ECB14BD0600D"
+			]
+			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "681EF488E543DB48"
+			size: 1.1d
 			tasks: [{
 				id: "493962C65BE3E642"
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
 			x: 1.5d
-			y: -14.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3142ECB14BD0600D"]
 			entity_vis_size: 1.0f
 			id: "1B89069CF6F1DCC1"
+			size: 1.15d
 			tasks: [{
 				id: "5166DEFA64452371"
 				item: {
@@ -100,12 +106,13 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -12.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
 			entity_vis_size: 1.0f
 			id: "5EA463A36036C699"
+			size: 1.15d
 			tasks: [{
 				icon: "fracture:fleshy_chiseled_darkstone_bricks"
 				id: "02974B87792F75DA"
@@ -140,19 +147,7 @@
 			y: -8.5d
 		}
 		{
-			entity_vis_size: 1.0f
-			icon: "supplementaries:candle_holder_purple"
-			id: "6BC96AC76C36559E"
-			tasks: [{
-				id: "6699CD80BD5C5D0A"
-				structure: "bloodyhell:vespers_hut"
-				type: "structure"
-			}]
-			x: 1.5d
-			y: -21.5d
-		}
-		{
-			dependencies: ["6BC96AC76C36559E"]
+			dependencies: ["6A8B34AA9E968EC2"]
 			entity_vis_size: 1.0f
 			id: "5CA8FDF37BD413E4"
 			tasks: [{
@@ -160,8 +155,8 @@
 				item: "bloodyhell:chalice_of_the_dammed"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -23.0d
+			x: 0.5d
+			y: -28.0d
 		}
 		{
 			dependencies: ["5CA8FDF37BD413E4"]
@@ -169,23 +164,12 @@
 			icon: "bloodyhell:sanguinite_block"
 			id: "22DDD3C6B3604CD9"
 			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "530EE4FECFC8D5CE"
-				observe_type: 0
-				timer: 0L
-				to_observe: "bloodyhell:blood_portal"
-				type: "observation"
+				dimension: "bloodyhell:soul_dimension"
+				id: "05E81D8E5585CA1D"
+				type: "dimension"
 			}]
-			x: 3.0d
-			y: -24.5d
+			x: 1.0d
+			y: -29.5d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -203,8 +187,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -25.5d
+			x: 2.5d
+			y: -30.5d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -215,8 +199,8 @@
 				item: "bloodyhell:blasphemite_ore"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -26.5d
+			x: 1.0d
+			y: -31.5d
 		}
 		{
 			dependencies: ["0377023CC9A03552"]
@@ -227,8 +211,8 @@
 				item: "bloodyhell:rhnull"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -29.0d
+			x: 4.0d
+			y: -34.0d
 		}
 		{
 			dependencies: ["65DF6B6B038F58F7"]
@@ -246,8 +230,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: -24.5d
+			x: 4.5d
+			y: -29.5d
 		}
 		{
 			dependencies: [
@@ -262,8 +246,8 @@
 				item: "bloodyhell:sanguinite_infusor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -27.5d
+			x: 3.0d
+			y: -32.5d
 		}
 		{
 			dependencies: ["477517C000C5B774"]
@@ -274,8 +258,8 @@
 				item: "bloodyhell:sanguinite_blood_harvester_item"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -25.0d
+			x: 7.0d
+			y: -30.0d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -286,8 +270,8 @@
 				item: "bloodyhell:voracious_mushroom_item"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -27.5d
+			x: 7.0d
+			y: -32.5d
 		}
 		{
 			dependencies: ["47F30FDF4F349566"]
@@ -298,8 +282,8 @@
 				item: "bloodyhell:blasphemite"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -28.5d
+			x: 1.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["7650D349B57C739D"]
@@ -318,8 +302,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -32.0d
+			x: 5.5d
+			y: -37.0d
 		}
 		{
 			dependencies: ["2E2EEA142952B774"]
@@ -337,8 +321,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -30.5d
+			x: 5.0d
+			y: -35.5d
 		}
 		{
 			dependencies: [
@@ -358,8 +342,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -29.5d
+			x: 2.5d
+			y: -34.5d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -380,8 +364,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -35.0d
+			x: 6.5d
+			y: -40.0d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -399,8 +383,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -33.5d
+			x: 6.0d
+			y: -38.5d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -438,8 +422,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -31.5d
+			x: 7.0d
+			y: -36.5d
 		}
 		{
 			dependencies: [
@@ -475,8 +459,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -31.0d
+			x: 8.5d
+			y: -36.0d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -514,19 +498,21 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -34.5d
+			x: 7.5d
+			y: -39.5d
 		}
 		{
+			dependencies: ["22DDD3C6B3604CD9"]
 			entity_vis_size: 1.0f
+			hide_dependency_lines: true
 			id: "6341285D27A686D9"
 			tasks: [{
 				id: "3F7DAFA68ABB1A99"
 				item: "bloodyhell:ritekeeper_heart"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -29.5d
+			x: 8.0d
+			y: -34.5d
 		}
 		{
 			dependencies: ["19C8C7A0D9F4F3A6"]
@@ -537,8 +523,8 @@
 				item: "bloodyhell:ancient_gem"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -26.5d
+			x: 4.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -549,8 +535,8 @@
 				item: "bloodyhell:sanguinite_condenser_item"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -26.0d
+			x: 6.0d
+			y: -31.0d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -576,8 +562,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -32.5d
+			x: 7.0d
+			y: -37.5d
 		}
 		{
 			dependencies: ["7A82C01F08326C74"]
@@ -661,7 +647,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["445742EA3F278341"]
@@ -727,10 +713,19 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -6.5d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
+			dependencies: [
+				"00CCFEBA2BF7D34B"
+				"079ABE7B83F6A6F6"
+				"0FF481A9738C6A2E"
+				"60A547780F1428FA"
+				"1EC64182E63D237D"
+				"0BDCD3D1B995EDE8"
+				"5D88FB716ED71AD6"
+			]
 			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
@@ -1143,20 +1138,25 @@
 			y: -10.0d
 		}
 		{
-			dependencies: [
-				"3142ECB14BD0600D"
-				"1B89069CF6F1DCC1"
-			]
+			dependencies: ["1B89069CF6F1DCC1"]
 			entity_vis_size: 1.0f
 			id: "1149E9D781B1E0E6"
-			tasks: [{
-				advancement: "biomancy:biomancy/predator_killer"
-				criterion: ""
-				id: "5D048C4A6E4B6FE9"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "biomancy:biomancy/predator_killer"
+					criterion: ""
+					id: "5D048C4A6E4B6FE9"
+					type: "advancement"
+				}
+				{
+					id: "6A46129D48F85C47"
+					item: "biomancy:mob_fang"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 1.5d
-			y: -13.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["681EF488E543DB48"]
@@ -1169,7 +1169,7 @@
 				type: "advancement"
 			}]
 			x: 1.5d
-			y: -16.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["69A549C4DACD3F1A"]
@@ -1188,27 +1188,29 @@
 			dependencies: ["7D5169ED2AE67ACB"]
 			entity_vis_size: 1.0f
 			id: "7047E5E29683914E"
+			size: 1.2d
 			tasks: [{
 				advancement: "sons_of_sins:original_sin"
 				criterion: ""
 				id: "6D4900B87AFB87AF"
 				type: "advancement"
 			}]
-			x: -5.5d
-			y: -3.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7047E5E29683914E"]
 			entity_vis_size: 1.0f
 			id: "1520FE230FEDC3EA"
+			size: 1.1d
 			tasks: [{
 				advancement: "sons_of_sins:half_blood"
 				criterion: ""
 				id: "7929484B2AEE1858"
 				type: "advancement"
 			}]
-			x: -7.0d
-			y: -4.5d
+			x: -8.25d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
@@ -1377,6 +1379,829 @@
 			}]
 			x: 7.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["445742EA3F278341"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			id: "31CBFF467C36F547"
+			rewards: [{
+				id: "0165C907C18BA103"
+				item: {
+					Count: 1
+					id: "sons_of_sins:sickle_of_struggle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				entity: "sons_of_sins:betrayed_guzzler"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "6B433F8562F1759C"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Pity"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7047E5E29683914E"]
+			entity_vis_size: 1.0f
+			id: "3B3852B0A8E6308F"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "43CFCAC7897F806E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "sons_of_sins:gulber"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7047E5E29683914E"]
+			entity_vis_size: 1.0f
+			id: "68B70E5C913E9372"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "3632D64720A94F00"
+				observe_type: 5
+				timer: 0L
+				to_observe: "sons_of_sins:devourer"
+				type: "observation"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7047E5E29683914E"]
+			entity_vis_size: 1.0f
+			id: "2EF135674C688C29"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "7A73762223E35564"
+				observe_type: 5
+				timer: 0L
+				to_observe: "sons_of_sins:grub"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7047E5E29683914E"]
+			entity_vis_size: 1.0f
+			id: "14F1FF385D914C3C"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "33E3DCC6386C3358"
+				observe_type: 5
+				timer: 0L
+				to_observe: "sons_of_sins:guzzler"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7047E5E29683914E"]
+			entity_vis_size: 1.0f
+			id: "0ABA2E062DEBE6A5"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "5FAC41CCFF8D58E8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "sons_of_sins:nibbler"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61740180C335EEB4"]
+			entity_vis_size: 1.0f
+			id: "65A8B04267923FB7"
+			size: 1.2d
+			tasks: [{
+				id: "5C37651CACAC3429"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1B89069CF6F1DCC1"]
+			entity_vis_size: 1.0f
+			id: "14674EB8086DB4BE"
+			tasks: [{
+				id: "4226BC8DD3B38217"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "biomancy:mob_fang"
+							}
+							{
+								Count: 1b
+								id: "biomancy:mob_claw"
+							}
+							{
+								Count: 1b
+								id: "biomancy:mob_sinew"
+							}
+							{
+								Count: 1b
+								id: "biomancy:mob_marrow"
+							}
+							{
+								Count: 1b
+								id: "biomancy:withered_mob_marrow"
+							}
+							{
+								Count: 1b
+								id: "biomancy:mob_gland"
+							}
+							{
+								Count: 1b
+								id: "biomancy:toxin_gland"
+							}
+							{
+								Count: 1b
+								id: "biomancy:flesh_bits"
+							}
+							{
+								Count: 1b
+								id: "biomancy:volatile_gland"
+							}
+							{
+								Count: 1b
+								id: "biomancy:bone_fragments"
+							}
+							{
+								Count: 1b
+								id: "biomancy:tough_fibers"
+							}
+							{
+								Count: 1b
+								id: "biomancy:elastic_fibers"
+							}
+							{
+								Count: 1b
+								id: "biomancy:mineral_fragment"
+							}
+							{
+								Count: 1b
+								id: "biomancy:gem_fragments"
+							}
+							{
+								Count: 1b
+								id: "biomancy:nutrients"
+							}
+							{
+								Count: 1b
+								id: "biomancy:organic_matter"
+							}
+							{
+								Count: 1b
+								id: "biomancy:exotic_dust"
+							}
+							{
+								Count: 1b
+								id: "biomancy:stone_powder"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["65A8B04267923FB7"]
+			entity_vis_size: 1.0f
+			id: "2FC8B5F6807FD5DC"
+			size: 1.15d
+			tasks: [{
+				id: "7E54D367FDA99A4F"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["7E6B2DCA9A18DF4A"]
+			entity_vis_size: 1.0f
+			id: "61740180C335EEB4"
+			tasks: [
+				{
+					entity: "biomancy:flesh_blob"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "7665380E192F0B8A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "25FBE7955C091380"
+					item: "biomancy:living_flesh"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["65A8B04267923FB7"]
+			entity_vis_size: 1.0f
+			id: "54D942F53453202D"
+			tasks: [{
+				id: "1CAE929292A994C3"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["65A8B04267923FB7"]
+			entity_vis_size: 1.0f
+			id: "50A5F2DF44930F15"
+			tasks: [{
+				id: "25A25477E883BCED"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["65A8B04267923FB7"]
+			entity_vis_size: 1.0f
+			id: "241FEED0D5C70D76"
+			tasks: [{
+				id: "643AE62A09DB3064"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "biomancy:tongue"
+							}
+							{
+								Count: 1b
+								id: "biomancy:maw_hopper"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["65A8B04267923FB7"]
+			entity_vis_size: 1.0f
+			id: "0DC21CC4073914AF"
+			tasks: [{
+				id: "29C7A731C150C0B0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "biomancy:fleshkin_chest"
+							}
+							{
+								Count: 1b
+								id: "biomancy:storage_sac"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["50A5F2DF44930F15"]
+			entity_vis_size: 1.0f
+			id: "0B07BB8AC0AA7739"
+			tasks: [
+				{
+					id: "49EC982FFDB55961"
+					item: "biomancy:nutrient_paste"
+					type: "item"
+				}
+				{
+					id: "3F271D4246F2B05A"
+					item: "biomancy:nutrient_bar"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["14674EB8086DB4BE"]
+			entity_vis_size: 1.0f
+			id: "4BB27DC800763EE0"
+			tasks: [{
+				advancement: "biomancy:biomancy/organ_trader"
+				criterion: ""
+				id: "12E29A0363D42BCD"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2ACAFD13FF8FA71F"]
+			entity_vis_size: 1.0f
+			id: "6ED8E2E5F96C70FC"
+			tasks: [{
+				id: "72484DD9EBC57359"
+				item: "biomancy:acid_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["2A8D992F16D4BE46"]
+			entity_vis_size: 1.0f
+			id: "6A8B34AA9E968EC2"
+			size: 1.2d
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "13F15280DF637A0A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bloodyhell:vesper"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["7572614CAD3C843A"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			id: "0D0782320D0DEE82"
+			tasks: [{
+				id: "132F81795B323930"
+				item: {
+					Count: 1
+					id: "biomancy:extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["2FC8B5F6807FD5DC"]
+			entity_vis_size: 1.0f
+			id: "7572614CAD3C843A"
+			size: 1.1d
+			tasks: [
+				{
+					id: "76120F394FAD6A6A"
+					item: "biomancy:mineral_fragment"
+					type: "item"
+				}
+				{
+					id: "473C534B9AF43D21"
+					item: "biomancy:tough_fibers"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0D0782320D0DEE82"]
+			entity_vis_size: 1.0f
+			id: "2A8D992F16D4BE46"
+			tasks: [{
+				id: "4B08E495889C26AC"
+				item: {
+					Count: 1
+					id: "biomancy:essence"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["7572614CAD3C843A"]
+			entity_vis_size: 1.0f
+			id: "4D42C34DA0540090"
+			tasks: [{
+				id: "73663CE5C1D022C3"
+				item: {
+					Count: 1
+					id: "biomancy:ravenous_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["681EF488E543DB48"]
+			entity_vis_size: 1.0f
+			id: "2ACAFD13FF8FA71F"
+			tasks: [{
+				id: "51C1C47064B941B7"
+				item: "biomancy:primal_orifice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"2FC8B5F6807FD5DC"
+				"2ACAFD13FF8FA71F"
+			]
+			entity_vis_size: 1.0f
+			id: "703274901EDEC2AF"
+			tasks: [{
+				id: "2BFBA4932B23F298"
+				item: {
+					Count: 1
+					id: "biomancy:caustic_gunblade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["7572614CAD3C843A"]
+			entity_vis_size: 1.0f
+			id: "082FAF1429E85144"
+			tasks: [
+				{
+					id: "416FAD9D92FCF3EA"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "020BEF06AFC0598C"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6FEB72B06164CD58"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_leggings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "527D2B147AA0887B"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["7572614CAD3C843A"]
+			entity_vis_size: 1.0f
+			id: "31E7ABD79D14926E"
+			tasks: [{
+				id: "5F92BFAB49D0468F"
+				item: {
+					Count: 1
+					id: "biomancy:thorn_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -19.0d
+		}
+		{
+			dependencies: [
+				"58142B18675A7AF0"
+				"7A2791CDDE031519"
+				"7572614CAD3C843A"
+			]
+			entity_vis_size: 1.0f
+			id: "065D3252F4323B64"
+			tasks: [{
+				id: "5DC7C7D35A8BBABB"
+				item: "biomancy:fertilizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["2FC8B5F6807FD5DC"]
+			entity_vis_size: 1.0f
+			id: "58142B18675A7AF0"
+			tasks: [{
+				id: "32F5A1CAF2F14A20"
+				item: "biomancy:organic_matter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -21.5d
+		}
+		{
+			dependencies: [
+				"0B07BB8AC0AA7739"
+				"2FC8B5F6807FD5DC"
+			]
+			entity_vis_size: 1.0f
+			id: "7A2791CDDE031519"
+			tasks: [{
+				id: "2A7D28EAD5D787F7"
+				item: "biomancy:nutrients"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["61740180C335EEB4"]
+			entity_vis_size: 1.0f
+			id: "1C94C6DD9349EBE2"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "03F4391702DBBC29"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomancy:hungry_flesh_blob"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["1C94C6DD9349EBE2"]
+			entity_vis_size: 1.0f
+			id: "120092C5CE8F3245"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "7A87856B322E8FC8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomancy:primordial_flesh_blob"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["54D942F53453202D"]
+			entity_vis_size: 1.0f
+			id: "65CD213C69DD4F67"
+			tasks: [{
+				id: "14D40F3459FF393B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "biomancy:organic_compound"
+							}
+							{
+								Count: 1b
+								id: "biomancy:unstable_compound"
+							}
+							{
+								Count: 1b
+								id: "biomancy:genetic_compound"
+							}
+							{
+								Count: 1b
+								id: "biomancy:exotic_compound"
+							}
+							{
+								Count: 1b
+								id: "biomancy:healing_additive"
+							}
+							{
+								Count: 1b
+								id: "biomancy:decaying_additive"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["65CD213C69DD4F67"]
+			entity_vis_size: 1.0f
+			id: "4ADEEC22740295F1"
+			tasks: [{
+				id: "4419A11CE6FC9292"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "biomancy:rejuvenation_serum"
+							}
+							{
+								Count: 1b
+								id: "biomancy:ageing_serum"
+							}
+							{
+								Count: 1b
+								id: "biomancy:enlargement_serum"
+							}
+							{
+								Count: 1b
+								id: "biomancy:shrinking_serum"
+							}
+							{
+								Count: 1b
+								id: "biomancy:breeding_stimulant"
+							}
+							{
+								Count: 1b
+								id: "biomancy:absorption_boost"
+							}
+							{
+								Count: 1b
+								id: "biomancy:cleansing_serum"
+							}
+							{
+								Count: 1b
+								id: "biomancy:insomnia_cure"
+							}
+							{
+								Count: 1b
+								id: "biomancy:frenzy_serum"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["65A8B04267923FB7"]
+			entity_vis_size: 1.0f
+			id: "1E21748936204C26"
+			tasks: [{
+				id: "3667676CCC35E1BB"
+				item: "biomancy:biometric_membrane"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["120092C5CE8F3245"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "6CA6297CC6007608"
+			tasks: [{
+				id: "0733646C84384538"
+				item: "concatenatedadditionsartefacts:karma_tome"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -16.0d
 		}
 	]
 	title: "Arcane Flesh"

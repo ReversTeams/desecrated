@@ -910,6 +910,59 @@
 			x: -0.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			entity_vis_size: 1.0f
+			id: "4643D70E0ECF32C6"
+			tasks: [
+				{
+					id: "467586B43290BCDB"
+					item: {
+						Count: 1
+						id: "concatenatedadditionstools:cultist_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D0F7FAC35F30F38"
+					item: {
+						Count: 1
+						id: "concatenatedadditionstools:cultist_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1684ADA35018E961"
+					item: {
+						Count: 1
+						id: "concatenatedadditionstools:cultist_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E0AC44772BFADB6"
+					item: {
+						Count: 1
+						id: "concatenatedadditionstools:cultist_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
 	]
 	title: "Cultists of the Moon"
 }

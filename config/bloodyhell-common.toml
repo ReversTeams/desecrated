@@ -6,7 +6,7 @@
 ["Global Spell Scaling"]
 	#Global multiplier applied to ALL spells. (1.0 = Default, 0.5 = Half Damage, 2.0 = Double Damage)
 	#Range: 0.0 ~ 100.0
-	globalDamageMultiplier = 1.0
+	globalDamageMultiplier = 2.0
 
 ["Individual Spell Scaling"]
 	#Multipliers for specific spells. These stack multiplicatively with the Global multiplier.
@@ -43,4 +43,16 @@
 	#Damage multiplier for rhnull orb emitter
 	#Range: 0.0 ~ 100.0
 	rhnull_orb_emitter_damage = 1.0
+
+["Vesper Settings"]
+	#Registry name of the first item Vesper requires (e.g., 'minecraft:bone' or 'bloodyhell:rhnull')
+	vesperQuestItem1_ID = "minecraft:bone"
+	#Amount of the first item Vesper requires.
+	#Range: 1 ~ 64
+	vesperQuestItem1_Count = 10
+	#Registry name of the second item Vesper requires.
+	vesperQuestItem2_ID = "minecraft:ender_pearl"
+	#Amount of the second item Vesper requires.
+	#Range: 1 ~ 64
+	vesperQuestItem2_Count = 1
 
