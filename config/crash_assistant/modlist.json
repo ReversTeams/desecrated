@@ -213,13 +213,13 @@
     "curseForgeHash": 82214287,
     "modrinthHash": "c3966f3dc894f3d1594aa7617cf6dd7be0a204a4"
   },
-  "bloodyhell-0.8.55.jar": {
-    "jarName": "bloodyhell-0.8.55.jar",
+  "bloodyhell-0.8.56.jar": {
+    "jarName": "bloodyhell-0.8.56.jar",
     "modId": "bloodyhell",
     "name": "BloodyHell!",
-    "version": "0.8.55",
-    "curseForgeHash": 4084482352,
-    "modrinthHash": "cdd74832515a47f2da45a414d23104dc2bd5119a"
+    "version": "0.8.56",
+    "curseForgeHash": 2938844630,
+    "modrinthHash": "8e81b18f962f5cf9961ead793b641c62cdaf7337"
   },
   "Bookshelf-Forge-1.20.1-20.2.15.jar": {
     "jarName": "Bookshelf-Forge-1.20.1-20.2.15.jar",
@@ -634,6 +634,14 @@
     "curseForgeHash": 289595968,
     "modrinthHash": "e94c49268c83301ee066dca9501c4b5fa902b33d"
   },
+  "crashexploitfixer-forge-2.0.0+1.20.4-all-srg.jar": {
+    "jarName": "crashexploitfixer-forge-2.0.0+1.20.4-all-srg.jar",
+    "modId": "crashexploitfixer",
+    "name": "CrashExploitFixer",
+    "version": "2.0.0",
+    "curseForgeHash": 3108940712,
+    "modrinthHash": "e13d5c490b438c93a7d7169454fc12821efd6471"
+  },
   "CraterLib-Forge-1.20-3.1.2+hotfix.1.jar": {
     "jarName": "CraterLib-Forge-1.20-3.1.2+hotfix.1.jar",
     "modId": "craterlib",
@@ -786,13 +794,13 @@
     "curseForgeHash": 2877807054,
     "modrinthHash": "bb71fed970ca999f3211ecda3e548c701f935766"
   },
-  "e4mc-forge-6.1.1.jar": {
-    "jarName": "e4mc-forge-6.1.1.jar",
+  "e4mc-forge-6.1.2.jar": {
+    "jarName": "e4mc-forge-6.1.2.jar",
     "modId": "e4mc",
     "name": "e4mc",
-    "version": "6.1.1",
-    "curseForgeHash": 2948995528,
-    "modrinthHash": "d0de8fc8da353b24c620ac9d5991e7b87d983d1a"
+    "version": "6.1.2",
+    "curseForgeHash": 807048360,
+    "modrinthHash": "8090169c2cc8bffd3dc1897af17137f153348870"
   },
   "eat_yourself-1.4.0.jar": {
     "jarName": "eat_yourself-1.4.0.jar",
@@ -1097,6 +1105,14 @@
     "version": "1.2.12",
     "curseForgeHash": 1574254045,
     "modrinthHash": "ec5c8a552493297842543140fed1b0a327c217f4"
+  },
+  "fwa+1.20.1-forge-1.2.31.jar": {
+    "jarName": "fwa+1.20.1-forge-1.2.31.jar",
+    "modId": "fwa",
+    "name": "Fancy World Animations",
+    "version": "1.2.31",
+    "curseForgeHash": 3334001935,
+    "modrinthHash": "01b3dcdb99cb62e7d8e554c4acc5864ce8738c4c"
   },
   "fzzy_config-0.7.6+1.20.1+forge.jar": {
     "jarName": "fzzy_config-0.7.6+1.20.1+forge.jar",
@@ -1559,13 +1575,13 @@
     "curseForgeHash": 3993116548,
     "modrinthHash": "5bdda0781bf9dfb5f992a7aa2bee64d5d3fe0b84"
   },
-  "modernfix-forge-5.27.44+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.27.44+mc1.20.1.jar",
+  "modernfix-forge-5.27.49+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.27.49+mc1.20.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.44+mc1.20.1",
-    "curseForgeHash": 2114467562,
-    "modrinthHash": "52dee1b8283625e8f0dc537e4b4c6b81081bc0df"
+    "version": "5.27.49+mc1.20.1",
+    "curseForgeHash": 1044043013,
+    "modrinthHash": "89486a59b4eaf0fe6177ba84b39bddcafbfd18d9"
   },
   "modernworldcreation_forge_2.0.2_MC_1.20.1.jar": {
     "jarName": "modernworldcreation_forge_2.0.2_MC_1.20.1.jar",
@@ -1943,13 +1959,13 @@
     "curseForgeHash": 2814721559,
     "modrinthHash": "4cc7835ae11ce1bccd16454f3c3fc38c368d0f8f"
   },
-  "reliquary-1.20.1-2.0.58.1473.jar": {
-    "jarName": "reliquary-1.20.1-2.0.58.1473.jar",
+  "reliquary-1.20.1-2.0.61.1507.jar": {
+    "jarName": "reliquary-1.20.1-2.0.61.1507.jar",
     "modId": "reliquary",
     "name": "Reliquary",
-    "version": "2.0.58.1473",
-    "curseForgeHash": 1294755580,
-    "modrinthHash": "8a99bfb88ce0d494e910c3406e261342ba826fde"
+    "version": "2.0.61.1507",
+    "curseForgeHash": 484282679,
+    "modrinthHash": "413abfad0b2971e89ea279beee80cb18ab2fa575"
   },
   "replantingcrops-1.20.1-5.5.jar": {
     "jarName": "replantingcrops-1.20.1-5.5.jar",
@@ -1975,13 +1991,13 @@
     "curseForgeHash": 1924006328,
     "modrinthHash": "fa3d92461bceb63439d33ab634e894d4b342599c"
   },
-  "reverseeon-1.0.8.jar": {
-    "jarName": "reverseeon-1.0.8.jar",
+  "reverseeon-1.0.9.jar": {
+    "jarName": "reverseeon-1.0.9.jar",
     "modId": "reverseeon",
     "name": "Reverse Eon",
     "version": "1.0.0",
-    "curseForgeHash": 3627485085,
-    "modrinthHash": "0de9447eac7cab3dbec9bedcccbd08fc3cbce96d"
+    "curseForgeHash": 2993093806,
+    "modrinthHash": "865d8ae86f25b34800f4cd2edc537089abd9ab0a"
   },
   "rhino-forge-2001.2.3-build.10.jar": {
     "jarName": "rhino-forge-2001.2.3-build.10.jar",
@@ -2247,13 +2263,13 @@
     "curseForgeHash": 1988549846,
     "modrinthHash": "326d65a29981de28016e3828370d68a8f63e1798"
   },
-  "tabs_organizer-1.3.0-forge.jar": {
-    "jarName": "tabs_organizer-1.3.0-forge.jar",
+  "tabs_organizer-1.4.0-forge.jar": {
+    "jarName": "tabs_organizer-1.4.0-forge.jar",
     "modId": "tabs_organizer",
     "name": "Creative Tabs Organizer",
-    "version": "1.3.0",
-    "curseForgeHash": 701169182,
-    "modrinthHash": "b55cf5797f6f85d71f8e1b36be4bb11b1550022f"
+    "version": "1.4.0",
+    "curseForgeHash": 1523657809,
+    "modrinthHash": "9fffa167ca11e5eee76f026ee07ad9e448e0cfd0"
   },
   "TACZ Unidict-1.20.1-forge-2.0.3.jar": {
     "jarName": "TACZ Unidict-1.20.1-forge-2.0.3.jar",
@@ -2318,6 +2334,14 @@
     "version": "3.0.1.10",
     "curseForgeHash": 921691151,
     "modrinthHash": "3bd99fb59e8b06b04e78b5153790c1e08b2be5dc"
+  },
+  "terrablenderfix-forge-1.20.1-0.0.1.jar": {
+    "jarName": "terrablenderfix-forge-1.20.1-0.0.1.jar",
+    "modId": "terrablenderfix",
+    "name": "TerraBlenderFix",
+    "version": "0.0.1",
+    "curseForgeHash": 1174638348,
+    "modrinthHash": "67c34b56a93e10228eac067d54b379e567a251c6"
   },
   "Terralith_1.20.x_v2.5.4.jar": {
     "jarName": "Terralith_1.20.x_v2.5.4.jar",
@@ -2495,13 +2519,13 @@
     "curseForgeHash": 968481917,
     "modrinthHash": "811d26cc1337a0d47bd8949d315495ba3649d44b"
   },
-  "VanillaBackport-forge-1.20.1-1.1.7.8.jar": {
-    "jarName": "VanillaBackport-forge-1.20.1-1.1.7.8.jar",
+  "VanillaBackport-forge-1.20.1-1.1.7.9.jar": {
+    "jarName": "VanillaBackport-forge-1.20.1-1.1.7.9.jar",
     "modId": "vanillabackport",
     "name": "VanillaBackport",
-    "version": "1.1.7.8",
-    "curseForgeHash": 2001922822,
-    "modrinthHash": "c91dc2ef270c09b622b77cb891da72a692bc5e83"
+    "version": "1.1.7.9",
+    "curseForgeHash": 3073595205,
+    "modrinthHash": "8e62e99a4b760be898e652f4295f05cb32809f1b"
   },
   "via_romana-2.2.2+1.20.1-forge.jar": {
     "jarName": "via_romana-2.2.2+1.20.1-forge.jar",
@@ -2510,6 +2534,14 @@
     "version": "2.2.2+1.20.1-forge",
     "curseForgeHash": 662305921,
     "modrinthHash": "2d96968a650213da21cd5bf6e3f74e72ff7b36b4"
+  },
+  "visualhealth-forge-1.20.1-2.0.2.jar": {
+    "jarName": "visualhealth-forge-1.20.1-2.0.2.jar",
+    "modId": "visual_health",
+    "name": "Visual Health",
+    "version": "1.20.1-2.0.2",
+    "curseForgeHash": 4029510573,
+    "modrinthHash": "0019ec1d80ad05225ddb8978d218e69388040621"
   },
   "visuality-forge-2.0.2.jar": {
     "jarName": "visuality-forge-2.0.2.jar",

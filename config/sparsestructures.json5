@@ -17,7 +17,7 @@
   "customSpreadFactors": [
     {
       "structure": "fracture:flesh_dungeon",
-      "factor": 0.5
+      "factor": 0.1
     },
     {
       "structure": "integrated_villages:airship_village",
