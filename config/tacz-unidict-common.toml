@@ -8,7 +8,7 @@
 #Which guns are not affected by this mod.
 "Gun WhiteList" = []
 #Guns that use these types of ammo will not be affected by this mod.
-"Ammo WhiteList" = []
+"Ammo WhiteList" = ["create_armorer:melee_weapon", "ars_armorer:mana"]
 
 ["Compat: Tag Editor"]
 	#Replace TACZ items in loot tables.
