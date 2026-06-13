@@ -163,6 +163,11 @@
 			entity_vis_size: 1.0f
 			icon: "bloodyhell:sanguinite_block"
 			id: "22DDD3C6B3604CD9"
+			rewards: [{
+				id: "6BC0BD395A83F8D5"
+				item: "bloodyhell:unknown_guide_book"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "bloodyhell:soul_dimension"
 				id: "05E81D8E5585CA1D"
@@ -270,7 +275,7 @@
 				item: "bloodyhell:voracious_mushroom_item"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -32.5d
 		}
 		{
@@ -2202,6 +2207,19 @@
 			}]
 			x: 6.5d
 			y: -16.0d
+		}
+		{
+			dependencies: ["22DDD3C6B3604CD9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "13C1C2246FBFAE0E"
+			tasks: [{
+				id: "41F95BAC3DD0A1C1"
+				item: "bloodyhell:soul_log"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -38.0d
 		}
 	]
 	title: "Arcane Flesh"

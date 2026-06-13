@@ -20,7 +20,7 @@
 	"Bloody Screen Mid Range" = 8.0
 	"Bloody Screen Close Range" = 3.0
 	#Control how fast blood dissapears from the screen (Default is -1% opacity per tick)
-	"Bloody Screen Opacity Rate" = 4.0
+	"Bloody Screen Opacity Rate" = 6.0
 
 [low_health_effects]
 	"Low Health Sound Effects" = true
