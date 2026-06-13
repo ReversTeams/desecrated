@@ -1,5 +1,6 @@
 {
   "orderMode": "CUSTOM",
+  "includeVanillaTabs": false,
   "customOrder": [
     "vanillabackport:vanilla_backport",
     "tangiblecommands:tangible_command_tab",
@@ -52,6 +53,7 @@
     "ftbquests:default",
     "thedulling:creature_ilk",
     "thedulling:creative_trinkets",
+    "idas:idas_tab",
     "bloodyhell:first_tab",
     "create:base",
     "biofactory:main",
