@@ -1,0 +1,10 @@
+{
+  "slot": "antiques:attachment/slot/bayonet_spike",
+  "model": "antiques:attachments/bayonet_spike_geo",
+  "texture": "antiques:attachment/uv/bayonet_spike",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "antiques:attachments/fix_spike",
+    "uninstall": "antiques:attachments/detach_spike"
+  }
+}

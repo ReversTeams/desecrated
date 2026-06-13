@@ -1,0 +1,36 @@
+{
+    "model": "antiques:gun/gras_arti_geo",
+    "texture": "antiques:gun/uv/gras_arti",
+    "slot": "antiques:gun/slot/gras_arti",
+    "hud": "antiques:gun/hud/gras_arti",
+    "animation": "antiques:gras_arti",
+
+    "iron_zoom": 1.5,
+    "sounds": {
+        "shoot": "antiques:gras_arti/gras_arti_shoot",
+        "shoot_3p": "antiques:gras_arti/gras_arti_shoot_3p",
+        "draw": "antiques:gras_arti/gras_arti_draw",
+        "reload_empty": "antiques:gras_arti/gras_arti_reload_empty",
+        "reload_tactical": "antiques:gras_arti/gras_arti_reload_tactical",
+        "inspect_empty": "antiques:gras_arti/gras_arti_inspect_empty",
+        "inspect": "antiques:gras_arti/gras_arti_inspect"
+    },      
+    "muzzle_flash": {
+       
+        "texture": "tacz:flash/common_muzzle_flash",
+        
+        "scale": 2
+      },
+    "transform": {
+        "scale": {
+            "thirdperson": [0.5,0.5,0.5],
+            "ground": [0.5,0.5,0.5],
+            "fixed": [1, 1, 1]
+        }
+    },
+	"offhand_show": {
+    "scale": [0.6, 0.6, 0.6]
+    },
+	
+    "third_person_animation": "default"
+}

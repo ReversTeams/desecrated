@@ -1,0 +1,10 @@
+{
+  "slot": "antiques:attachment/slot/bayonet_sg1871",
+  "model": "antiques:attachments/bayonet_sg1871_geo",
+  "texture": "antiques:attachment/uv/bayonet_sg1871",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "antiques:attachments/fix_blade",
+    "uninstall": "antiques:attachments/detach_blade"
+  }
+}

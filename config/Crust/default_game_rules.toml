@@ -100,3 +100,4 @@ config_enabled = false
   misc.reduced_debug_info = false
   misc.spire_growth_speed = 1
   misc.throttled_dulling_speed = true
+  misc.transparentportals = true

@@ -15,22 +15,6 @@
   ],
   "structures": [
     {
-      "id": "minecraft:airship",
-      "displayName": "Airship",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "minecraft:airshipwreck",
-      "displayName": "Airshipwreck",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
       "id": "minecraft:ancient_city",
       "displayName": "Ancient City",
       "isVanilla": true,
@@ -47,24 +31,8 @@
       ]
     },
     {
-      "id": "minecraft:brig",
-      "displayName": "Brig",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
       "id": "minecraft:buried_treasure",
       "displayName": "Buried Treasure",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "minecraft:castle",
-      "displayName": "Castle",
       "isVanilla": true,
       "dimensions": [
         "minecraft:overworld"
@@ -111,14 +79,6 @@
       ]
     },
     {
-      "id": "minecraft:living_tree",
-      "displayName": "Living Tree",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
       "id": "minecraft:mansion",
       "displayName": "Mansion",
       "isVanilla": true,
@@ -151,14 +111,6 @@
       ]
     },
     {
-      "id": "minecraft:nether_city",
-      "displayName": "Nether City",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
       "id": "minecraft:nether_fossil",
       "displayName": "Nether Fossil",
       "isVanilla": true,
@@ -186,22 +138,6 @@
     {
       "id": "minecraft:pillager_outpost",
       "displayName": "Pillager Outpost",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "minecraft:pirate_fleet",
-      "displayName": "Pirate Fleet",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "minecraft:pirate_hideout",
-      "displayName": "Pirate Hideout",
       "isVanilla": true,
       "dimensions": [
         "minecraft:overworld"
@@ -338,14 +274,6 @@
     {
       "id": "minecraft:village_taiga",
       "displayName": "Village Taiga",
-      "isVanilla": true,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "minecraft:volcano_fortress",
-      "displayName": "Volcano Fortress",
       "isVanilla": true,
       "dimensions": [
         "minecraft:overworld"
@@ -1064,6 +992,656 @@
       ]
     },
     {
+      "id": "idas:abandoned_lighthouse",
+      "displayName": "Abandoned Lighthouse",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:abandoned_vineyard",
+      "displayName": "Abandoned Vineyard",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:abandonedhouse",
+      "displayName": "Abandonedhouse",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ancient_mines",
+      "displayName": "Ancient Mines",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ancient_portal/ancient_portal",
+      "displayName": "Ancient Portal/ancient Portal",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ancient_portal/nether_ancient_portal",
+      "displayName": "Ancient Portal/nether Ancient Portal",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "idas:ancient_statue/ancient_statue_desert",
+      "displayName": "Ancient Statue/ancient Statue Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ancient_statue/ancient_statue_jungle",
+      "displayName": "Ancient Statue/ancient Statue Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ancient_statue/ancient_statue_plains",
+      "displayName": "Ancient Statue/ancient Statue Plains",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:animal_den/forest_den",
+      "displayName": "Animal Den/forest Den",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:animal_den/foxhound_den",
+      "displayName": "Animal Den/foxhound Den",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "idas:animal_den/polar_bear_den",
+      "displayName": "Animal Den/polar Bear Den",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:apothecary_abode",
+      "displayName": "Apothecary Abode",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ars_nouveau/archmages_tower",
+      "displayName": "Ars Nouveau/archmages Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:bazaar",
+      "displayName": "Bazaar",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:bearclaw_inn",
+      "displayName": "Bearclaw Inn",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:beekeepers_house",
+      "displayName": "Beekeepers House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:botanist",
+      "displayName": "Botanist",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:brickhouse",
+      "displayName": "Brickhouse",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:castle",
+      "displayName": "Castle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:collectors_museum",
+      "displayName": "Collectors Museum",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:cottage",
+      "displayName": "Cottage",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:desert_camp/desert_camp",
+      "displayName": "Desert Camp/desert Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_bygwindswept",
+      "displayName": "Desert Camp/desert Camp Bygwindswept",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_orange",
+      "displayName": "Desert Camp/desert Camp Orange",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_red",
+      "displayName": "Desert Camp/desert Camp Red",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:desert_market/desert_market",
+      "displayName": "Desert Market/desert Market",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:desert_market/desert_market_orange",
+      "displayName": "Desert Market/desert Market Orange",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "idas:desert_market/desert_market_red",
+      "displayName": "Desert Market/desert Market Red",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:desert_pyramid",
+      "displayName": "Desert Pyramid",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:desert_ruins",
+      "displayName": "Desert Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:dig_site/dig_site",
+      "displayName": "Dig Site/dig Site",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:dig_site/dig_site_desert",
+      "displayName": "Dig Site/dig Site Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:enchantingtower",
+      "displayName": "Enchantingtower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:farmhouse",
+      "displayName": "Farmhouse",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "displayName": "Fishermans Lodge",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:frozen_crypt",
+      "displayName": "Frozen Crypt",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:haunted_manor",
+      "displayName": "Haunted Manor",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:hermits_hollow",
+      "displayName": "Hermits Hollow",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:hunters_cabin",
+      "displayName": "Hunters Cabin",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:iceandfire/dread_citadel",
+      "displayName": "Iceandfire/dread Citadel",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "displayName": "Iceandfire/sirens Cove",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:labyrinth",
+      "displayName": "Labyrinth",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_acacia",
+      "displayName": "Lumber Camp/lumber Camp Acacia",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_birch",
+      "displayName": "Lumber Camp/lumber Camp Birch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "displayName": "Lumber Camp/lumber Camp Bopmahogany",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bopredwood",
+      "displayName": "Lumber Camp/lumber Camp Bopredwood",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "displayName": "Lumber Camp/lumber Camp Bygmahogany",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bygredwood",
+      "displayName": "Lumber Camp/lumber Camp Bygredwood",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_dark_oak",
+      "displayName": "Lumber Camp/lumber Camp Dark Oak",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_jungle",
+      "displayName": "Lumber Camp/lumber Camp Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_oak",
+      "displayName": "Lumber Camp/lumber Camp Oak",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_spruce",
+      "displayName": "Lumber Camp/lumber Camp Spruce",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:mason_house",
+      "displayName": "Mason House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:necromancers_spire",
+      "displayName": "Necromancers Spire",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "idas:nether_pump_camp",
+      "displayName": "Nether Pump Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "idas:nexus",
+      "displayName": "Nexus",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:pillager_camp",
+      "displayName": "Pillager Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:pillager_fortress",
+      "displayName": "Pillager Fortress",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:redhorn_guild",
+      "displayName": "Redhorn Guild",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ruined_church",
+      "displayName": "Ruined Church",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ruined_fort",
+      "displayName": "Ruined Fort",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ruined_well",
+      "displayName": "Ruined Well",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:ruins_of_the_deep",
+      "displayName": "Ruins Of The Deep",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:snifferhenge",
+      "displayName": "Snifferhenge",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:sunken_ship/sunken_ship",
+      "displayName": "Sunken Ship/sunken Ship",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:sunken_ship/sunken_ship_coral",
+      "displayName": "Sunken Ship/sunken Ship Coral",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:sunken_ship/sunken_ship_ruins",
+      "displayName": "Sunken Ship/sunken Ship Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:the_log",
+      "displayName": "The Log",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:tinkers_citadel",
+      "displayName": "Tinkers Citadel",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:tinkers_workshop",
+      "displayName": "Tinkers Workshop",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:train_ruins",
+      "displayName": "Train Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:tree_of_wisdom",
+      "displayName": "Tree Of Wisdom",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:treetop_tavern",
+      "displayName": "Treetop Tavern",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:tudor_pub",
+      "displayName": "Tudor Pub",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:underground_camp/underground_camp",
+      "displayName": "Underground Camp/underground Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:underground_camp/underground_camp_deep",
+      "displayName": "Underground Camp/underground Camp Deep",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:wacky_wares",
+      "displayName": "Wacky Wares",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:washing_camp",
+      "displayName": "Washing Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:windswept_shrine",
+      "displayName": "Windswept Shrine",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:winter_wagon",
+      "displayName": "Winter Wagon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:witches_treestump",
+      "displayName": "Witches Treestump",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "idas:wizard_tower",
+      "displayName": "Wizard Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "integrated_stronghold:stronghold",
       "displayName": "Stronghold",
       "isVanilla": false,
@@ -1253,6 +1831,46 @@
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "netherman:eye_columns",
+      "displayName": "Eye Columns",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "netherman:gast_chamber",
+      "displayName": "Gast Chamber",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "netherman:gehen_statue",
+      "displayName": "Gehen Statue",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "netherman:mansion_nether",
+      "displayName": "Mansion Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "netherman:trap",
+      "displayName": "Trap",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
       ]
     },
     {
@@ -2398,6 +3016,26 @@
       ]
     },
     {
+      "tagId": "idas:adventure_map_destinations",
+      "displayName": "#Adventure Map Destinations",
+      "structureIds": [
+        "idas:ancient_mines",
+        "idas:ars_nouveau/archmages_tower",
+        "idas:bazaar",
+        "idas:collectors_museum",
+        "idas:desert_pyramid",
+        "idas:iceandfire/dread_citadel",
+        "idas:labyrinth",
+        "idas:nexus",
+        "idas:pillager_fortress",
+        "idas:ruins_of_the_deep",
+        "idas:tinkers_citadel",
+        "idas:tinkers_workshop",
+        "idas:tree_of_wisdom",
+        "idas:windswept_shrine"
+      ]
+    },
+    {
       "tagId": "supplementaries:adventure_map_destinations",
       "displayName": "#Adventure Map Destinations",
       "structureIds": [
@@ -2447,11 +3085,77 @@
       ]
     },
     {
+      "tagId": "idas:applies_mining_fatigue",
+      "displayName": "#Applies Mining Fatigue",
+      "structureIds": [
+        "idas:labyrinth"
+      ]
+    },
+    {
       "tagId": "quark:birch_chest_structures",
       "displayName": "#Birch Chest Structures",
       "structureIds": [
         "minecraft:desert_pyramid",
         "minecraft:village_desert"
+      ]
+    },
+    {
+      "tagId": "idas:campsites",
+      "displayName": "#Campsites",
+      "structureIds": [
+        "idas:desert_camp/desert_camp",
+        "idas:desert_camp/desert_camp_bygwindswept",
+        "idas:desert_camp/desert_camp_orange",
+        "idas:desert_camp/desert_camp_red",
+        "idas:lumber_camp/lumber_camp_acacia",
+        "idas:lumber_camp/lumber_camp_birch",
+        "idas:lumber_camp/lumber_camp_bopmahogany",
+        "idas:lumber_camp/lumber_camp_bopredwood",
+        "idas:lumber_camp/lumber_camp_bygmahogany",
+        "idas:lumber_camp/lumber_camp_bygredwood",
+        "idas:lumber_camp/lumber_camp_dark_oak",
+        "idas:lumber_camp/lumber_camp_jungle",
+        "idas:lumber_camp/lumber_camp_oak",
+        "idas:lumber_camp/lumber_camp_spruce",
+        "idas:nether_pump_camp",
+        "idas:pillager_camp",
+        "idas:snifferhenge",
+        "idas:underground_camp/underground_camp",
+        "idas:underground_camp/underground_camp_deep",
+        "idas:washing_camp"
+      ]
+    },
+    {
+      "tagId": "idas:common",
+      "displayName": "#Common",
+      "structureIds": [
+        "idas:abandoned_vineyard",
+        "idas:abandonedhouse",
+        "idas:apothecary_abode",
+        "idas:bearclaw_inn",
+        "idas:beekeepers_house",
+        "idas:botanist",
+        "idas:brickhouse",
+        "idas:castle",
+        "idas:desert_ruins",
+        "idas:dig_site/dig_site",
+        "idas:dig_site/dig_site_desert",
+        "idas:enchantingtower",
+        "idas:farmhouse",
+        "idas:fishermans_lodge",
+        "idas:haunted_manor",
+        "idas:hermits_hollow",
+        "idas:hunters_cabin",
+        "idas:mason_house",
+        "idas:redhorn_guild",
+        "idas:ruined_church",
+        "idas:ruined_fort",
+        "idas:ruined_well",
+        "idas:the_log",
+        "idas:treetop_tavern",
+        "idas:winter_wagon",
+        "idas:witches_treestump",
+        "idas:wizard_tower"
       ]
     },
     {
@@ -2526,6 +3230,83 @@
       "tagId": "integrated_api:larger_locate_search",
       "displayName": "#Larger Locate Search",
       "structureIds": [
+        "idas:abandoned_lighthouse",
+        "idas:abandoned_vineyard",
+        "idas:abandonedhouse",
+        "idas:ancient_mines",
+        "idas:ancient_portal/ancient_portal",
+        "idas:ancient_portal/nether_ancient_portal",
+        "idas:ancient_statue/ancient_statue_desert",
+        "idas:ancient_statue/ancient_statue_jungle",
+        "idas:ancient_statue/ancient_statue_plains",
+        "idas:animal_den/forest_den",
+        "idas:animal_den/foxhound_den",
+        "idas:animal_den/polar_bear_den",
+        "idas:apothecary_abode",
+        "idas:ars_nouveau/archmages_tower",
+        "idas:bazaar",
+        "idas:bearclaw_inn",
+        "idas:beekeepers_house",
+        "idas:botanist",
+        "idas:brickhouse",
+        "idas:castle",
+        "idas:collectors_museum",
+        "idas:cottage",
+        "idas:desert_camp/desert_camp",
+        "idas:desert_camp/desert_camp_bygwindswept",
+        "idas:desert_camp/desert_camp_orange",
+        "idas:desert_camp/desert_camp_red",
+        "idas:desert_market/desert_market",
+        "idas:desert_market/desert_market_orange",
+        "idas:desert_market/desert_market_red",
+        "idas:desert_pyramid",
+        "idas:desert_ruins",
+        "idas:dig_site/dig_site",
+        "idas:dig_site/dig_site_desert",
+        "idas:enchantingtower",
+        "idas:farmhouse",
+        "idas:fishermans_lodge",
+        "idas:haunted_manor",
+        "idas:hermits_hollow",
+        "idas:hunters_cabin",
+        "idas:labyrinth",
+        "idas:lumber_camp/lumber_camp_acacia",
+        "idas:lumber_camp/lumber_camp_birch",
+        "idas:lumber_camp/lumber_camp_bopmahogany",
+        "idas:lumber_camp/lumber_camp_bopredwood",
+        "idas:lumber_camp/lumber_camp_bygmahogany",
+        "idas:lumber_camp/lumber_camp_bygredwood",
+        "idas:lumber_camp/lumber_camp_dark_oak",
+        "idas:lumber_camp/lumber_camp_jungle",
+        "idas:lumber_camp/lumber_camp_oak",
+        "idas:lumber_camp/lumber_camp_spruce",
+        "idas:mason_house",
+        "idas:nexus",
+        "idas:pillager_camp",
+        "idas:pillager_fortress",
+        "idas:redhorn_guild",
+        "idas:ruined_church",
+        "idas:ruined_fort",
+        "idas:ruined_well",
+        "idas:ruins_of_the_deep",
+        "idas:snifferhenge",
+        "idas:sunken_ship/sunken_ship",
+        "idas:sunken_ship/sunken_ship_ruins",
+        "idas:the_log",
+        "idas:tinkers_citadel",
+        "idas:tinkers_workshop",
+        "idas:train_ruins",
+        "idas:tree_of_wisdom",
+        "idas:treetop_tavern",
+        "idas:tudor_pub",
+        "idas:underground_camp/underground_camp",
+        "idas:underground_camp/underground_camp_deep",
+        "idas:wacky_wares",
+        "idas:washing_camp",
+        "idas:windswept_shrine",
+        "idas:winter_wagon",
+        "idas:witches_treestump",
+        "idas:wizard_tower",
         "integrated_stronghold:stronghold",
         "integrated_villages:airship_village",
         "integrated_villages:cabin_village",
@@ -2575,6 +3356,15 @@
       ]
     },
     {
+      "tagId": "idas:ocean",
+      "displayName": "#Ocean",
+      "structureIds": [
+        "idas:iceandfire/sirens_cove",
+        "idas:sunken_ship/sunken_ship",
+        "idas:sunken_ship/sunken_ship_ruins"
+      ]
+    },
+    {
       "tagId": "quark:prismarine_chest_structures",
       "displayName": "#Prismarine Chest Structures",
       "structureIds": [
@@ -2588,6 +3378,26 @@
       "displayName": "#Purpur Chest Structures",
       "structureIds": [
         "minecraft:end_city"
+      ]
+    },
+    {
+      "tagId": "idas:rare",
+      "displayName": "#Rare",
+      "structureIds": [
+        "idas:ancient_mines",
+        "idas:ars_nouveau/archmages_tower",
+        "idas:bazaar",
+        "idas:collectors_museum",
+        "idas:desert_pyramid",
+        "idas:iceandfire/dread_citadel",
+        "idas:labyrinth",
+        "idas:nexus",
+        "idas:pillager_fortress",
+        "idas:ruins_of_the_deep",
+        "idas:tinkers_citadel",
+        "idas:tinkers_workshop",
+        "idas:tree_of_wisdom",
+        "idas:windswept_shrine"
       ]
     },
     {
@@ -2617,6 +3427,45 @@
       ]
     },
     {
+      "tagId": "idas:small",
+      "displayName": "#Small",
+      "structureIds": [
+        "idas:ancient_statue/ancient_statue_desert",
+        "idas:ancient_statue/ancient_statue_jungle",
+        "idas:ancient_statue/ancient_statue_plains",
+        "idas:animal_den/forest_den",
+        "idas:animal_den/foxhound_den",
+        "idas:animal_den/polar_bear_den",
+        "idas:cottage",
+        "idas:desert_camp/desert_camp",
+        "idas:desert_camp/desert_camp_bygwindswept",
+        "idas:desert_camp/desert_camp_orange",
+        "idas:desert_camp/desert_camp_red",
+        "idas:desert_market/desert_market",
+        "idas:desert_market/desert_market_orange",
+        "idas:desert_market/desert_market_red",
+        "idas:frozen_crypt",
+        "idas:lumber_camp/lumber_camp_acacia",
+        "idas:lumber_camp/lumber_camp_birch",
+        "idas:lumber_camp/lumber_camp_bopmahogany",
+        "idas:lumber_camp/lumber_camp_bopredwood",
+        "idas:lumber_camp/lumber_camp_bygmahogany",
+        "idas:lumber_camp/lumber_camp_bygredwood",
+        "idas:lumber_camp/lumber_camp_dark_oak",
+        "idas:lumber_camp/lumber_camp_jungle",
+        "idas:lumber_camp/lumber_camp_oak",
+        "idas:lumber_camp/lumber_camp_spruce",
+        "idas:nether_pump_camp",
+        "idas:pillager_camp",
+        "idas:snifferhenge",
+        "idas:sunken_ship/sunken_ship_ruins",
+        "idas:train_ruins",
+        "idas:underground_camp/underground_camp",
+        "idas:underground_camp/underground_camp_deep",
+        "idas:washing_camp"
+      ]
+    },
+    {
       "tagId": "quark:soul_bead_target",
       "displayName": "#Soul Bead Target",
       "structureIds": [
@@ -2637,6 +3486,16 @@
       "displayName": "#Temple Of Duality",
       "structureIds": [
         "dungeonnowloading:temple_of_duality"
+      ]
+    },
+    {
+      "tagId": "idas:underground",
+      "displayName": "#Underground",
+      "structureIds": [
+        "idas:ancient_portal/ancient_portal",
+        "idas:nexus",
+        "idas:underground_camp/underground_camp",
+        "idas:underground_camp/underground_camp_deep"
       ]
     },
     {
@@ -2685,6 +3544,16 @@
         "minecraft:village_savanna",
         "minecraft:village_snowy",
         "minecraft:village_taiga",
+        "idas:bazaar",
+        "idas:bearclaw_inn",
+        "idas:beekeepers_house",
+        "idas:castle",
+        "idas:desert_market/desert_market",
+        "idas:desert_market/desert_market_orange",
+        "idas:desert_market/desert_market_red",
+        "idas:farmhouse",
+        "idas:fishermans_lodge",
+        "idas:treetop_tavern",
         "integrated_villages:airship_village",
         "integrated_villages:cabin_village",
         "integrated_villages:clockwork_village",
