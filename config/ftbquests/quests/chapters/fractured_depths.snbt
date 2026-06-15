@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "fractured_depths"
 	group: "511EB53C58AD34AE"
+	icon: "fracture:fleshy_chiseled_darkstone_bricks"
 	id: "2A43CF350B1D9F33"
 	images: [{
 		entity_vis_enabled: true

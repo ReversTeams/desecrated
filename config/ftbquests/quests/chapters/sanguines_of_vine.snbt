@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0CAE6439C87989E4"]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			id: "5D7C1741C8D6F8E0"
@@ -1034,6 +1035,17 @@
 			}]
 			x: 1.0d
 			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0CAE6439C87989E4"
+			tasks: [{
+				id: "5D7AE7C3BEA343B9"
+				item: "desecratedcore:vine_key_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: "Sanguines of Vine"

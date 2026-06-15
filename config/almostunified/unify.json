@@ -19,7 +19,9 @@
     "thoriumreactors",
     "common_ore_library",
     "refurbished_furniture",
-    "ars_technica"
+    "ars_technica",
+    "butchery",
+    "philipsruins"
   ],
   "stoneStrata": [
     "stone",
@@ -46,7 +48,8 @@
     "forge:coins/{material}",
     "forge:rubber",
     "forge:plastic",
-    "concatenation:crafting_station"
+    "concatenation:crafting_station",
+    "forge:sculk_bone"
   ],
   "materials": [
     "aeternium",

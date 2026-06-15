@@ -285,13 +285,13 @@
     "curseForgeHash": 4249096595,
     "modrinthHash": "cc8ea7eb1f797a9198077ba6e97fc2db48c30461"
   },
-  "chat_heads-0.15.1-forge-1.20.jar": {
-    "jarName": "chat_heads-0.15.1-forge-1.20.jar",
+  "chat_heads-0.15.2-forge-1.20.jar": {
+    "jarName": "chat_heads-0.15.2-forge-1.20.jar",
     "modId": "chat_heads",
     "name": "Chat Heads",
-    "version": "0.15.1",
-    "curseForgeHash": 1886210089,
-    "modrinthHash": "6eebd1479d11d3ed8fbb18b866ba43b470743e00"
+    "version": "0.15.2",
+    "curseForgeHash": 2721917406,
+    "modrinthHash": "fe49c0f42f21f4c0ea71c3cda7757914cb875ae7"
   },
   "chloride-FORGE-mc1.20.1-v1.7.7.jar": {
     "jarName": "chloride-FORGE-mc1.20.1-v1.7.7.jar",
@@ -682,6 +682,14 @@
     "curseForgeHash": 1548502984,
     "modrinthHash": "88a9ec30e4acb5c80a3ae060ad70b79e945293c6"
   },
+  "cultofazazelforge-1.1.2.jar": {
+    "jarName": "cultofazazelforge-1.1.2.jar",
+    "modId": "netherman",
+    "name": "Cult of Azazel",
+    "version": "1.1.2",
+    "curseForgeHash": 202256166,
+    "modrinthHash": "3364831a005c2bea5c4d60a3eb6d73a6a811c106"
+  },
   "cupboard-1.20.1-3.7.jar": {
     "jarName": "cupboard-1.20.1-3.7.jar",
     "modId": "cupboard",
@@ -1001,6 +1009,14 @@
     "version": "1.2.18",
     "curseForgeHash": 2207094183,
     "modrinthHash": "319af234013d646ef289515efa8bb0c3df2ca34d"
+  },
+  "Fog-forge-1.5.3-1.20.1.jar": {
+    "jarName": "Fog-forge-1.5.3-1.20.1.jar",
+    "modId": "fog",
+    "name": "Fog",
+    "version": "1.5.3-1.20.1",
+    "curseForgeHash": 3307598168,
+    "modrinthHash": "2b874f1086ba8b0db1fe2cead9308decfb331517"
   },
   "fracture-0.3.1.jar": {
     "jarName": "fracture-0.3.1.jar",
@@ -1322,13 +1338,13 @@
     "curseForgeHash": 3667785910,
     "modrinthHash": "55a7f032c59489eca96069a7841601de2ff97590"
   },
-  "Ixeris-4.4.2+1.20.1-forge.jar": {
-    "jarName": "Ixeris-4.4.2+1.20.1-forge.jar",
+  "Ixeris-4.4.5+1.20.1-forge.jar": {
+    "jarName": "Ixeris-4.4.5+1.20.1-forge.jar",
     "modId": "ixeris",
     "name": "Ixeris",
-    "version": "4.4.2+1.20.1-forge",
-    "curseForgeHash": 858976895,
-    "modrinthHash": "5ad6a8b3a32b9846697b18677b5028854958dbf0"
+    "version": "4.4.5+1.20.1-forge",
+    "curseForgeHash": 1135953746,
+    "modrinthHash": "9fcce2c4a94f1744689dd0f45157af4d6b74dffc"
   },
   "Jade-1.20.1-Forge-11.13.2.jar": {
     "jarName": "Jade-1.20.1-Forge-11.13.2.jar",
@@ -1402,13 +1418,13 @@
     "curseForgeHash": 4013230863,
     "modrinthHash": "cb1205a1b6533b3f49d1ddc24b879898907fb9f4"
   },
-  "knightlib-forge-1.20.1-1.5.1.jar": {
-    "jarName": "knightlib-forge-1.20.1-1.5.1.jar",
+  "knightlib-forge-1.20.1-1.5.2.jar": {
+    "jarName": "knightlib-forge-1.20.1-1.5.2.jar",
     "modId": "knightlib",
     "name": "Knight Lib",
-    "version": "1.5.1",
-    "curseForgeHash": 1187865808,
-    "modrinthHash": "9dee38ef2da301e648b66feab8f7a8fa4880c25f"
+    "version": "1.5.2",
+    "curseForgeHash": 1856023794,
+    "modrinthHash": "30687cad4627374286a8bb184ae9ac9b8d9e6478"
   },
   "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar": {
     "jarName": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
@@ -1542,6 +1558,14 @@
     "version": "1.0.2",
     "curseForgeHash": 841420877,
     "modrinthHash": "e0942d396a70c09038e6c2e5e1da6505178249b8"
+  },
+  "MelonShaderCycler-1.3.5.jar": {
+    "jarName": "MelonShaderCycler-1.3.5.jar",
+    "modId": "shadercycler",
+    "name": "Melon Shader Cycler",
+    "version": "1.3.5",
+    "curseForgeHash": 948844490,
+    "modrinthHash": "fd8bee2f49183ac8abb63c9d07564e0f239b4262"
   },
   "midnightlib-forge-1.9.2+1.20.1.jar": {
     "jarName": "midnightlib-forge-1.9.2+1.20.1.jar",
@@ -1718,46 +1742,6 @@
     "version": "1.8.0",
     "curseForgeHash": 516527841,
     "modrinthHash": "984f774e71790deaec674c7587bd24e0711871b2"
-  },
-  "OELib-forge-1.20.1-0.2.4.1.jar": {
-    "jarName": "OELib-forge-1.20.1-0.2.4.1.jar",
-    "modId": "oelib",
-    "name": "OELib",
-    "version": "0.2.4.1",
-    "curseForgeHash": 691495290,
-    "modrinthHash": "f903e07b03b2ea391c106f2d2f02274c9633b316"
-  },
-  "OneEnoughBlock-1.1.3.1-hotfix.jar": {
-    "jarName": "OneEnoughBlock-1.1.3.1-hotfix.jar",
-    "modId": "oneenoughblock",
-    "name": "OneEnoughBlock",
-    "version": "1.1.3.1-hotfix",
-    "curseForgeHash": 2329442058,
-    "modrinthHash": "fb7a17938f72282fad9194a76fa0924e17f00bea"
-  },
-  "OneEnoughEnchantment-1.0.0.jar": {
-    "jarName": "OneEnoughEnchantment-1.0.0.jar",
-    "modId": "oneenoughenchantment",
-    "name": "OneEnoughEnchantment",
-    "version": "1.0.0",
-    "curseForgeHash": 2285543911,
-    "modrinthHash": "40eff69384a352ae4c5e614b63537ee73a6327e5"
-  },
-  "OneEnoughFluid-1.1.1-hotfix.jar": {
-    "jarName": "OneEnoughFluid-1.1.1-hotfix.jar",
-    "modId": "oneenoughfluid",
-    "name": "OneEnoughFluid",
-    "version": "1.1.1-hotfix",
-    "curseForgeHash": 882777496,
-    "modrinthHash": "2dca7406c6bc5acf7cab6f001de36ae9beef754c"
-  },
-  "OneEnoughItem-1.0.8.jar": {
-    "jarName": "OneEnoughItem-1.0.8.jar",
-    "modId": "oneenoughitem",
-    "name": "OneEnoughItem",
-    "version": "1.0.8",
-    "curseForgeHash": 1428581763,
-    "modrinthHash": "cc24a959278990277483fe200286e3307d7f6d7e"
   },
   "open_in_inventory-forge-2.0.2+1.20.1.jar": {
     "jarName": "open_in_inventory-forge-2.0.2+1.20.1.jar",
@@ -1991,6 +1975,14 @@
     "curseForgeHash": 1924006328,
     "modrinthHash": "fa3d92461bceb63439d33ab634e894d4b342599c"
   },
+  "reverseeon-1.1.0.jar": {
+    "jarName": "reverseeon-1.1.0.jar",
+    "modId": "reverseeon",
+    "name": "Reverse Eon",
+    "version": "1.0.0",
+    "curseForgeHash": 3941339895,
+    "modrinthHash": "e04b4fbfd7c779f0b9699f5c93426286d0065242"
+  },
   "rhino-forge-2001.2.3-build.10.jar": {
     "jarName": "rhino-forge-2001.2.3-build.10.jar",
     "modId": "rhino",
@@ -2006,14 +1998,6 @@
     "version": "2.1.1-1.20.1",
     "curseForgeHash": 3481787061,
     "modrinthHash": "348669d3e691a1c513722ccbc83c69539d23f31b"
-  },
-  "safe-cultofazazelforge-1.1.0.jar": {
-    "jarName": "safe-cultofazazelforge-1.1.0.jar",
-    "modId": "netherman",
-    "name": "Cult of Azazel",
-    "version": "1.0.0",
-    "curseForgeHash": 1387859472,
-    "modrinthHash": "72c74677373a68e09200f8c7d9a5d1c0f7aa9325"
   },
   "saveloottables-forge-1.0.1.2.jar": {
     "jarName": "saveloottables-forge-1.0.1.2.jar",
@@ -2350,6 +2334,14 @@
     "version": "1.0.5",
     "curseForgeHash": 1676378463,
     "modrinthHash": "4fe4e9c1b0dbf0accaa18ef7f13995df794a5591"
+  },
+  "thedulling-0.8.9-forge-1.20.1.jar": {
+    "jarName": "thedulling-0.8.9-forge-1.20.1.jar",
+    "modId": "thedulling",
+    "name": "The Dulling",
+    "version": "1.0.0",
+    "curseForgeHash": 3988160322,
+    "modrinthHash": "0a45f93dff852501516f68b1ad40304ea42bd600"
   },
   "tickaccelerate-1.20.1-forge-0.8.0.jar": {
     "jarName": "tickaccelerate-1.20.1-forge-0.8.0.jar",

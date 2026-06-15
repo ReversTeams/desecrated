@@ -3,10 +3,14 @@
     "fracture:boreas_dimension",
     "perdition:dis",
     "bloodmagic:dungeon",
+    "thedulling:heart_of_the_dulling",
+    "reverseeon:island_dim",
+    "thedulling:lost_interfold",
     "minecraft:overworld",
     "perdition:purgatory",
     "bloodyhell:soul_dimension",
-    "minecraft:the_end"
+    "minecraft:the_end",
+    "thedulling:yvxzlight"
   ],
   "structures": [
     {
@@ -105,7 +109,9 @@
       "id": "minecraft:nether_fossil",
       "displayName": "Nether Fossil",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
     },
     {
       "id": "minecraft:ocean_ruin_cold",
@@ -2507,6 +2513,190 @@
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "thedulling:bone_hoarder_arena",
+      "displayName": "Bone Hoarder Arena",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:burgeoning_fortress",
+      "displayName": "Burgeoning Fortress",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "thedulling:dark_fortress",
+      "displayName": "Dark Fortress",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:devastator_arena",
+      "displayName": "Devastator Arena",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:dull_pyramid",
+      "displayName": "Dull Pyramid",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "thedulling:dulling_dungeon",
+      "displayName": "Dulling Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "thedulling:dulling_portal",
+      "displayName": "Dulling Portal",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:dulling_trap",
+      "displayName": "Dulling Trap",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:firstborn_statue",
+      "displayName": "Firstborn Statue",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:gorelick_settlement",
+      "displayName": "Gorelick Settlement",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:incredible_arena",
+      "displayName": "Incredible Arena",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:heart_of_the_dulling"
+      ]
+    },
+    {
+      "id": "thedulling:interfold_dulling_ruin",
+      "displayName": "Interfold Dulling Ruin",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:lost_ruin_1",
+      "displayName": "Lost Ruin 1",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:lost_ruin_2",
+      "displayName": "Lost Ruin 2",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:lost_ruin_3",
+      "displayName": "Lost Ruin 3",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:lost_ruin_4",
+      "displayName": "Lost Ruin 4",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:lost_ruin_5",
+      "displayName": "Lost Ruin 5",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:offering_altar",
+      "displayName": "Offering Altar",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:orb_island",
+      "displayName": "Orb Island",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:powdered_snow_altar",
+      "displayName": "Powdered Snow Altar",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:storage_room",
+      "displayName": "Storage Room",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:strange_ruin",
+      "displayName": "Strange Ruin",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
+      ]
+    },
+    {
+      "id": "thedulling:thorium_keep",
+      "displayName": "Thorium Keep",
+      "isVanilla": false,
+      "dimensions": [
+        "thedulling:lost_interfold"
       ]
     },
     {
