@@ -4,6 +4,13 @@
 	default_quest_shape: ""
 	filename: "crimson_artificer"
 	group: "77396AEB02AB4898"
+	icon: {
+		Count: 1
+		id: "artificers_armory:wrench_iron"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "537C158F9A214A38"
 	order_index: 2
 	quest_links: [ ]
@@ -145,11 +152,13 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["3913E4BF1C7341B8"]
 			entity_vis_size: 1.0f
 			id: "51B4F0043EFD8726"
 			tasks: [{
-				id: "4F9B827A7CD9714F"
-				item: "clockwork:clockwork_gear"
+				icon: "clockwork:clockwork_gear"
+				id: "0230BA1F62FDC93D"
+				item: "desecratedcore:artificer_key_item"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1713,6 +1722,17 @@
 			}]
 			x: 3.5d
 			y: 12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3913E4BF1C7341B8"
+			tasks: [{
+				id: "6E738E2E6645C8E3"
+				item: "desecratedcore:artificer_key_item"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
 		}
 	]
 	title: "Crimson Artificer"

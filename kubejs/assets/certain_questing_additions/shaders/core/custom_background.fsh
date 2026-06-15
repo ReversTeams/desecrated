@@ -39,7 +39,7 @@ void main() {
     // Base dark
     vec3 col = vec3(0.012, 0.0, 0.018);
 
-    // BOTTOM LAYER: Dense, slow-moving FOG
+    // Fog
     vec2 fogUV = vUV * 1.0 + scrollPos * 0.03 + time * 0.015;
     float fog = fbm(fogUV + vec2(time * 0.03, -time * 0.05)) * 0.45 +
                 fbm(fogUV * 1.5 - vec2(0.0, time * 0.08)) * 0.25;
@@ -47,7 +47,7 @@ void main() {
     vec3 fogColor = vec3(0.42, 0.05, 0.08);
     col += fogColor * fog * (1.0 - smoothstep(0.7, 2.2, length(vUV - center)));
 
-    // TOP LAYER: Light, fast-moving MIST
+    // Mist
     vec2 mistUV = vUV * 2.8 + scrollPos * 0.12 + time * 0.11;
     float mist = fbm(mistUV + vec2(time * 0.12, -time * 0.18)) * 0.35 +
                  fbm(mistUV * 3.2 - vec2(0.0, time * 0.22)) * 0.20;

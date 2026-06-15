@@ -20,6 +20,10 @@
       "factor": 0.1
     },
     {
+      "structure": "bloodyhell:vespers_hut",
+      "factor": 1
+    },
+    {
       "structure": "integrated_villages:airship_village",
       "factor": 1
     },

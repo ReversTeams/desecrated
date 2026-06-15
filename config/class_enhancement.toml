@@ -116,9 +116,9 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "An exiled noble vampire having escaped the calamities of Red Barar's fall."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&a+10% Strength"]
+		stats = ["&aVampire", "&aNo Faction", "&a+10% Strength"]
 		#Mechanical modifiers (format: attribute=value:operation).
-		attributes = ["minecraft:generic.attack_damage=2.0"]
+		attributes = []
 		#Main hand item.
 		main_hand = "concatenatedadditionstools:bloody_living_sword"
 		#Off hand item.
@@ -126,7 +126,7 @@
 		#Armor items.
 		armor = ["minecraft:leather_chestplate"]
 		#Starting items.
-		items = ["vampiresneedumbrellas:gold_umbrella"]
+		items = ["desecratedcore:chooser_key_item", "desecratedcore:exile_key_item", "vampiresneedumbrellas:gold_umbrella", "ftbquests:book"]
 		#Item ID for the class icon.
 		icon = "minecraft:paper"
 		#Commands to execute when this class is selected. Use %player% for player name.
@@ -140,7 +140,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire studying the arcane blood arts of the past."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&a+10% Speed"]
+		stats = ["&aVampire", "&aScholar Faction", "&a+10% Speed"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.movement_speed=0.10:multiply_base"]
 		#Main hand item.
@@ -150,7 +150,7 @@
 		#Armor items.
 		armor = []
 		#Starting items.
-		items = []
+		items = ["desecratedcore:yore_key_item", "vampiresneedumbrellas:iron_umbrella", "ftbquests:book"]
 		#Item ID for the class icon.
 		icon = "minecraft:paper"
 		#Commands to execute when this class is selected. Use %player% for player name.
@@ -164,7 +164,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire engineering new capabilities with flesh and meat."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&a+10% Armour"]
+		stats = ["&aVampire", "&aArtificer Faction", "&a+10% Armour"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.armor=2.0"]
 		#Main hand item.
@@ -174,7 +174,7 @@
 		#Armor items.
 		armor = []
 		#Starting items.
-		items = ["concatenatedadditionsfood:spicy_drop=16", "vampiresneedumbrellas:iron_umbrella"]
+		items = ["desecratedcore:artificer_key_item", "concatenatedadditionsfood:spicy_drop=16", "vampiresneedumbrellas:iron_umbrella", "ftbquests:book"]
 		#Item ID for the class icon.
 		icon = "minecraft:paper"
 		#Commands to execute when this class is selected. Use %player% for player name.
@@ -188,7 +188,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire of the Vine Sanguine faction, specializing in nature."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&a+10% Health"]
+		stats = []
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.max_health=2.0"]
 		#Main hand item.
@@ -198,7 +198,7 @@
 		#Armor items.
 		armor = []
 		#Starting items.
-		items = ["hexalia:purifying_sac", "hexalia:foul_sac=6", "hexalia:frost_sac=6"]
+		items = ["desecratedcore:vine_key_item", "hexalia:purifying_sac", "hexalia:foul_sac=6", "hexalia:frost_sac=6", "vampiresneedumbrellas:iron_umbrella", "ftbquests:book"]
 		#Item ID for the class icon.
 		icon = "hexalia:athame"
 		#Commands to execute when this class is selected. Use %player% for player name.
@@ -212,9 +212,9 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire of the Iron Sanguine faction, accustomed to the arms."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&a+10% Knockback Resistance"]
+		stats = ["&aVampire", "&aIron Faction", "&a+10% Knockback Resistance"]
 		#Mechanical modifiers (format: attribute=value:operation).
-		attributes = ["minecraft:generic.knockback_resistance=0.20:multiply_base"]
+		attributes = []
 		#Main hand item.
 		main_hand = "asr:iron_giant_sword"
 		#Off hand item.
@@ -222,7 +222,7 @@
 		#Armor items.
 		armor = ["minecraft:chainmail_chestplate", "minecraft:chainmail_leggings"]
 		#Starting items.
-		items = ["asr_gilded_iron_shield"]
+		items = ["desecratedcore:iron_key_item", "asr_gilded_iron_shield", "ftbquests:book"]
 		#Item ID for the class icon.
 		icon = "minecraft:iron_ingot"
 		#Commands to execute when this class is selected. Use %player% for player name.
@@ -236,7 +236,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A traveller."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire"]
+		stats = ["&aVampire", "&cNo Faction"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
@@ -246,7 +246,7 @@
 		#Armor items.
 		armor = []
 		#Starting items.
-		items = ["vampiresneedumbrellas:gold_umbrella", "usefulbackpacks:backpack_small", "minecraft:beef=18", "simplytents:zip_tent"]
+		items = ["usefulbackpacks:backpack_small", "minecraft:beef=18", "simplytents:zip_tent", "vampiresneedumbrellas:gold_umbrella", "ftbquests:book"]
 		#Item ID for the class icon.
 		icon = "usefulbackpacks:backpack_small"
 		#Commands to execute when this class is selected. Use %player% for player name.

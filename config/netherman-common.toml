@@ -1,0 +1,34 @@
+
+["Azazel Boss Configuration"]
+	#Maximum health of Azazel
+	#Range: 100.0 ~ 10000.0
+	maxHealth = 800.0
+	#Movement speed of Azazel
+	#Range: 0.05 ~ 1.0
+	movementSpeed = 0.2
+	#Knockback resistance (1.0 = completely immune)
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 1.0
+
+["Azazel Attack Damage"]
+	#Damage dealt by the launch explosion attack
+	#Range: 0.0 ~ 100.0
+	launchAttackDamage = 8.0
+	#Damage dealt when pulling players in
+	#Range: 0.0 ~ 100.0
+	pullAttackDamage = 5.0
+	#Damage dealt by the wind knockback attack
+	#Range: 0.0 ~ 100.0
+	windAttackDamage = 5.0
+	#Damage dealt per hit during the wheel dash attack
+	#Range: 0.0 ~ 100.0
+	wheelAttackDamage = 4.0
+
+["Azazel Attack Frequencies"]
+	#Chance (1 in X ticks) for Azazel to perform an active attack. Lower = faster attacks.
+	#Range: 10 ~ 600
+	attackChance = 80
+	#Chance (1 in X ticks) to spawn minions passively while idle.
+	#Range: 100 ~ 2400
+	passiveSummonChance = 600
+

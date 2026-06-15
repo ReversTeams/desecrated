@@ -1,5 +1,5 @@
 //priority: 900
-// Unique Purgatorium Tags
+// Unique Desecrated Tags
 
 ServerEvents.tags('item', event => {
     const add = (tag, items) => items.forEach(item => event.add(tag, item));
@@ -33,4 +33,25 @@ ServerEvents.tags('item', event => {
     //     'tarotcards:the_hierophant',
     //     'tarotcards:the_hermit'
     // ]);
+
+    // Desecrated
+    add('desecrated:mystical_bone', [
+        'fracture:fleshy_bone',
+        'sons_of_sins:bloody_bone',
+        'butchery:sculk_bone'
+    ]);
+
+    add('desecrated:slime_chunk', [
+        'butchery:slime_chunks',
+        'reliquary:slime_pearl',
+        'sons_of_sins:slime_rear'
+    ]);
+
+    // Should be added to core mods
+    add('curios:curio', [
+        "desecratedcore:moon_key_item"
+    ]);
+    add('curios:charm', [
+        "desecratedcore:exile_key_item"
+    ]);
 });

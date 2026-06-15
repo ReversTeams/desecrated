@@ -14,6 +14,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["24F94D88BBD152DF"]
 			description: ["Compel the lifeforce out of your veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."]
 			entity_vis_size: 1.0f
 			id: "068DF533DB041F37"
@@ -962,6 +963,17 @@
 			]
 			x: -3.0d
 			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "24F94D88BBD152DF"
+			tasks: [{
+				id: "18BEA9416C67C713"
+				item: "desecratedcore:moon_key_item"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
 		}
 	]
 	title: "Cultists of the Moon"

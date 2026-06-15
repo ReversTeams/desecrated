@@ -46,12 +46,12 @@
 
 ["Vesper Settings"]
 	#Registry name of the first item Vesper requires (e.g., 'minecraft:bone' or 'bloodyhell:rhnull')
-	vesperQuestItem1_ID = "minecraft:bone"
+	vesperQuestItem1_ID = "biomancy:essence"
 	#Amount of the first item Vesper requires.
 	#Range: 1 ~ 64
-	vesperQuestItem1_Count = 10
+	vesperQuestItem1_Count = 1
 	#Registry name of the second item Vesper requires.
-	vesperQuestItem2_ID = "minecraft:ender_pearl"
+	vesperQuestItem2_ID = "sons_of_sins:bloody_bone"
 	#Amount of the second item Vesper requires.
 	#Range: 1 ~ 64
 	vesperQuestItem2_Count = 1
