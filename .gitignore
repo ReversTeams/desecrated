@@ -46,6 +46,7 @@ patchouli_data.json
 /config/packetfixer.properties
 /config/asyncparticles/*.properties
 /config/durabilitytooltip-common.toml
+/config/inventory-particles/cache/*
 /shaderpacks/*.zip.txt
 Distant_Horizons_server_data
 welcomescreen_cache.json
@@ -64,6 +65,7 @@ oef
 oei
 kubejs/output
 kubejs/probe
+/civil
 
 # explicitly included config
 !config/ProjectE/client.toml
