@@ -2,10 +2,11 @@
   {
     "matchFluid": [
       "neepmeat:blood",
-      "butchery:blood",
-      "bloodyhell:blood",
-      "fracture:blood"
+      "vampirism:blood",
+      "fracture:blood_block",
+      "bloodyhell:blood_source",
+      "butchery:blood"
     ],
-    "resultFluid": "vampirism:blood"
+    "resultFluid": "desecratedcore:blood"
   }
 ]
