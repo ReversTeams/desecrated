@@ -33,17 +33,6 @@
         "value": 100
       }
     },
-    "tetra:ability_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "irons_spellbooks:nature_magic_resist": {
       "enabled": false,
       "min": {
@@ -53,6 +42,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "tetra:ability_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "irons_spellbooks:lightning_magic_resist": {
@@ -71,6 +71,17 @@
       "min": {
         "default": -1024,
         "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "irons_lib:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -165,6 +176,17 @@
         "value": 100
       }
     },
+    "irons_lib:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "gstools:disease_effect_poison": {
       "enabled": false,
       "min": {
@@ -253,17 +275,6 @@
         "value": 10000
       }
     },
-    "thedulling:dull": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "irons_spellbooks:holy_spell_power": {
       "enabled": false,
       "min": {
@@ -273,6 +284,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "thedulling:dull": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "tconstruct:generic.jump_boost": {
@@ -473,6 +495,17 @@
         "value": 100
       }
     },
+    "irons_lib:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "caelus:fall_flying": {
       "enabled": false,
       "min": {
@@ -506,17 +539,6 @@
         "value": 10000
       }
     },
-    "minecraft:friction_modifier": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "irons_spellbooks:spell_resist": {
       "enabled": false,
       "min": {
@@ -526,6 +548,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "minecraft:friction_modifier": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "tconstruct:player.critical_damage": {
@@ -693,6 +726,17 @@
         "value": 20
       }
     },
+    "irons_lib:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "tconstruct:generic.bad_effect_duration_multiplier": {
       "enabled": false,
       "min": {
@@ -757,6 +801,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "irons_lib:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "vampirism:sundamage": {
@@ -869,17 +924,6 @@
         "value": 2048
       }
     },
-    "reach-entity-attributes:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
@@ -900,6 +944,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "vampirism:neonatal_duration": {
@@ -1067,6 +1122,17 @@
         "value": 100
       }
     },
+    "irons_lib:armor_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "gstools:disease_effect_nausea": {
       "enabled": false,
       "min": {
@@ -1142,6 +1208,17 @@
       "max": {
         "default": 0.949999988079071,
         "value": 0.949999988079071
+      }
+    },
+    "irons_lib:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "tconstruct:player.use_item_speed": {

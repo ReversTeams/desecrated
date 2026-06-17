@@ -405,13 +405,13 @@
     "curseForgeHash": 3246400390,
     "modrinthHash": "607bbb82656d28ddfaa5ef2ec6e9c413859f5956"
   },
-  "collective-1.20.1-8.25.jar": {
-    "jarName": "collective-1.20.1-8.25.jar",
+  "collective-1.20.1-8.27.jar": {
+    "jarName": "collective-1.20.1-8.27.jar",
     "modId": "collective",
     "name": "Collective",
-    "version": "8.25",
-    "curseForgeHash": 843137078,
-    "modrinthHash": "5ec26087b60946e24048bce96997b90b55e6369b"
+    "version": "8.27",
+    "curseForgeHash": 2875544701,
+    "modrinthHash": "2639ab1efe48621a380146bc26d8f3783e6e4f8f"
   },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "jarName": "comforts-forge-6.4.0+1.20.1.jar",
@@ -922,13 +922,13 @@
     "curseForgeHash": 3823591384,
     "modrinthHash": "69f2852413f70615a0a62aa9088eeab49ec13b8f"
   },
-  "entityculling-forge-1.10.2-mc1.20.1.jar": {
-    "jarName": "entityculling-forge-1.10.2-mc1.20.1.jar",
+  "entityculling-forge-1.10.3-mc1.20.1.jar": {
+    "jarName": "entityculling-forge-1.10.3-mc1.20.1.jar",
     "modId": "entityculling",
     "name": "EntityCulling",
-    "version": "1.10.2",
-    "curseForgeHash": 726567546,
-    "modrinthHash": "67380b3468d18c137628be9434d51c39fd06d7b4"
+    "version": "1.10.3",
+    "curseForgeHash": 628703159,
+    "modrinthHash": "7bd56a40abfb2a9633e3e145ef79b9851163fe15"
   },
   "experimentalist-2.0.3+1.20.x-forge.jar": {
     "jarName": "experimentalist-2.0.3+1.20.x-forge.jar",
@@ -1146,13 +1146,13 @@
     "curseForgeHash": 4092514766,
     "modrinthHash": "5428765c6c2e2135da6ee01f2f0478fa0db6aee7"
   },
-  "Geophilic v3.5.mod.jar": {
-    "jarName": "Geophilic v3.5.mod.jar",
+  "Geophilic v3.6.mod.jar": {
+    "jarName": "Geophilic v3.6.mod.jar",
     "modId": "geophilic",
     "name": "Geophilic",
-    "version": "3.5",
-    "curseForgeHash": 1169800265,
-    "modrinthHash": "9b191ff2a06d0e5cc3cbbc19a6de463b2cad78dc"
+    "version": "3.6",
+    "curseForgeHash": 2369413622,
+    "modrinthHash": "1eb1700a02ebeab1bf1f3004abd4a02263495d25"
   },
   "GeophilicBackported-v1.3.3 1.20.1.jar": {
     "jarName": "GeophilicBackported-v1.3.3 1.20.1.jar",
@@ -1337,6 +1337,22 @@
     "version": "1.20.1-14.4.4",
     "curseForgeHash": 4008180508,
     "modrinthHash": "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb"
+  },
+  "irons_lib-1.20.1-1.1.0.jar": {
+    "jarName": "irons_lib-1.20.1-1.1.0.jar",
+    "modId": "irons_lib",
+    "name": "Iron\u0027s Lib",
+    "version": "1.20.1-1.1.0",
+    "curseForgeHash": 4018904330,
+    "modrinthHash": "ce4162086eafb043921f81f6af9816fa5ae42282"
+  },
+  "irons_spellbooks-1.20.1-3.16.1.jar": {
+    "jarName": "irons_spellbooks-1.20.1-3.16.1.jar",
+    "modId": "irons_spellbooks",
+    "name": "Iron\u0027s Spells \u0027n Spellbooks",
+    "version": "1.20.1-3.16.1",
+    "curseForgeHash": 3608034068,
+    "modrinthHash": "fcd5dad07391101afc517277be8f49ad990cf0b8"
   },
   "item-filters-forge-2001.1.0-build.59.jar": {
     "jarName": "item-filters-forge-2001.1.0-build.59.jar",
@@ -1639,13 +1655,13 @@
     "curseForgeHash": 1529713272,
     "modrinthHash": "acf246183fece255bcf17dde9001f4abdda6bacc"
   },
-  "moonlight-1.20-2.16.33-forge.jar": {
-    "jarName": "moonlight-1.20-2.16.33-forge.jar",
+  "moonlight-1.20-2.16.34-forge.jar": {
+    "jarName": "moonlight-1.20-2.16.34-forge.jar",
     "modId": "moonlight",
     "name": "Moonlight Library",
-    "version": "1.20-2.16.33",
-    "curseForgeHash": 3574490037,
-    "modrinthHash": "3dcaba6e2595f7ee24deb34c5a32cdacd8196f3b"
+    "version": "1.20-2.16.34",
+    "curseForgeHash": 1757026364,
+    "modrinthHash": "5e20f2f0ce56a534accb32f80853d5a246599a4d"
   },
   "MossyLib-1.4.0+1.20.1+forge.jar": {
     "jarName": "MossyLib-1.4.0+1.20.1+forge.jar",
@@ -1991,13 +2007,13 @@
     "curseForgeHash": 1924006328,
     "modrinthHash": "fa3d92461bceb63439d33ab634e894d4b342599c"
   },
-  "reverseeon-1.1.0.jar": {
-    "jarName": "reverseeon-1.1.0.jar",
+  "reverseeon-1.1.2.jar": {
+    "jarName": "reverseeon-1.1.2.jar",
     "modId": "reverseeon",
     "name": "Reverse Eon",
     "version": "1.0.0",
-    "curseForgeHash": 3941339895,
-    "modrinthHash": "e04b4fbfd7c779f0b9699f5c93426286d0065242"
+    "curseForgeHash": 115548025,
+    "modrinthHash": "9df31bf9357e3164d7b309254a11e1dee530db7f"
   },
   "rhino-forge-2001.2.3-build.10.jar": {
     "jarName": "rhino-forge-2001.2.3-build.10.jar",
@@ -2039,13 +2055,13 @@
     "curseForgeHash": 3900241894,
     "modrinthHash": "35a624915f828bb97f6cbc16ca6360c45749fd57"
   },
-  "scholar-1.20.1-1.2.1-forge.jar": {
-    "jarName": "scholar-1.20.1-1.2.1-forge.jar",
+  "scholar-1.20.1-1.2.2-forge.jar": {
+    "jarName": "scholar-1.20.1-1.2.2-forge.jar",
     "modId": "scholar",
     "name": "Scholar",
-    "version": "1.2.1",
-    "curseForgeHash": 310552148,
-    "modrinthHash": "f5a9d73e3fa5e2ef18ebd9dac54312eb21eed043"
+    "version": "1.2.2",
+    "curseForgeHash": 2926049833,
+    "modrinthHash": "33c49424b27db253547b567a2aa1d94c7e7089ea"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
