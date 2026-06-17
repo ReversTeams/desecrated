@@ -4,21 +4,30 @@
 	order_index: 1
 	rewards: [
 		{
-			item: {
-				Count: 1
-				id: "minecraft:stone_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
 			count: 3
 			item: {
 				Count: 1
 				id: "vampirism:blood_bottle"
 				tag: {
 					Damage: 8
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fracture:parasitic_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "concatenatedadditionstools:condensed_ice_armor_helmet"
+				tag: {
+					Damage: 0
 				}
 			}
 		}

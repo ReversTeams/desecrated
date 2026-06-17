@@ -975,6 +975,42 @@
 			x: -2.5d
 			y: 3.5d
 		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			entity_vis_size: 1.0f
+			id: "7E79862516937EEB"
+			tasks: [{
+				id: "290B8297B43E239D"
+				item: {
+					Count: 1
+					id: "concatenatedadditionstools:bloody_living_giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			entity_vis_size: 1.0f
+			id: "4D4A36C535E4809E"
+			tasks: [{
+				id: "64D81445D68A54E3"
+				item: {
+					Count: 1
+					id: "concatenatedadditionstools:kestrel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
 	]
 	title: "Cultists of the Moon"
 }

@@ -405,7 +405,13 @@
 		}
 		{
 			entity_vis_size: 1.0f
-			icon: "minecraft:globe_banner_pattern"
+			icon: {
+				Count: 1
+				id: "concatenatedadditionstools:bloody_living_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6054F9076164BFDE"
 			size: 0.75d
 			tasks: [{
@@ -420,6 +426,11 @@
 			dependencies: ["19AC0B8C0B44FA30"]
 			entity_vis_size: 1.0f
 			id: "416FA3E84EDBA716"
+			rewards: [{
+				id: "2D42652D4485074D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.1d
 			tasks: [{
 				advancement: "vampirism:vampire/first_blood"
@@ -435,6 +446,11 @@
 			dependencies: ["416FA3E84EDBA716"]
 			entity_vis_size: 1.0f
 			id: "3F69B451E4B11129"
+			rewards: [{
+				id: "0194A26A6FC5EADA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6E0B93551A338678"
 				item: {
@@ -456,6 +472,19 @@
 			entity_vis_size: 1.0f
 			icon: "minecraft:skeleton_skull"
 			id: "16AC930FED22DF3D"
+			rewards: [
+				{
+					count: 5
+					id: "25C603D9540A1E4B"
+					item: "perdition:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "252955F7714DC6CD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -501,17 +530,11 @@
 			entity_vis_size: 1.0f
 			icon: "minecraft:lantern"
 			id: "4B67C6BB6CC8905C"
-			tasks: [
-				{
-					id: "2640750435AEBA8F"
-					item: "minecraft:lantern"
-					type: "item"
-				}
-				{
-					id: "0F1AEAB91EBF13CE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2640750435AEBA8F"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
 			x: -1.0d
 			y: -6.0d
 		}
@@ -1260,12 +1283,19 @@
 			]
 			entity_vis_size: 1.0f
 			id: "074421F47A443EC7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "54B70F6860297209"
-				table_id: 1301202443783474816L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14903D5FFE68780C"
+					table_id: 1301202443783474816L
+					type: "choice"
+				}
+				{
+					id: "761754006BCA6675"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Knowledge of Ruins"
 			tasks: [{
 				id: "3F478074FDC5FF2A"
@@ -1288,11 +1318,18 @@
 			]
 			entity_vis_size: 1.0f
 			id: "4A8D37AE43828409"
-			rewards: [{
-				id: "708FB6090573ED28"
-				item: "ironchest:iron_chest"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "708FB6090573ED28"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+				{
+					id: "73E6F58256D2A1A6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Nomadic Lifestyle"
 			tasks: [
 				{
@@ -1333,9 +1370,9 @@
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
 			description: [
-				"Anyone of any Path can create man-made paths, such as path blocks made through a shovel interaction with dirt, wood, stone, bricks, etc."
+				"Anyone can create man-made paths from materials such as path blocks made through a shovel interaction with dirt, wood, stone, bricks, etc."
 				""
-				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
+				"A charting map with signs can create quick travel points on a path."
 			]
 			entity_vis_size: 1.0f
 			icon: "via_romana:charting_map"
@@ -1358,12 +1395,19 @@
 			]
 			entity_vis_size: 1.0f
 			id: "7B878C2A6814469E"
-			rewards: [{
-				count: 4
-				id: "14614BEA37F94501"
-				item: "minecraft:black_wool"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "14614BEA37F94501"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+				{
+					id: "4916F9024906324C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Taste the Sun"
 			tasks: [{
 				id: "278AB333DE705B93"
@@ -1491,6 +1535,28 @@
 			dependencies: ["19AC0B8C0B44FA30"]
 			entity_vis_size: 1.0f
 			id: "07E9BD4DB2D5F0FD"
+			rewards: [
+				{
+					id: "5A0B3FBA11DEDDB6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3004E3E710776A48"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2BB63E59D8324EC3"
 				item: "vampirism:blood_container"

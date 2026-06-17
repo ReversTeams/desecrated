@@ -4,4 +4,5 @@
 
 ClientEvents.lang('en_us', event => {
   event.renameItem('ftbquests:book', 'Metaphysical Logbook');
+  event.renameItem('sons_of_sins:bloody_bone', 'Sinful Bone');
 })

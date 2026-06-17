@@ -6,5 +6,9 @@ JEIEvents.information(event => {
   event.addItem('sons_of_sins:bottle_of_blood', ['Drops from creatures killed with the Sickle of Struggle.', 'Requires a glass bottle in the hotbar.'])
   event.addItem('sons_of_sins:ether_ashes', ['Drops from creatures killed with the Osseous Sword', 'Common drop chance.'])
 
-  event.addItem('eat_yourself:raw_player_meat', ['Harvested from yourself with a knife.', 'Hurts the player for 1 heart on harvesting.'])
+  //event.addItem('eat_yourself:raw_player_meat', ['Harvested from yourself with a knife.', 'Hurts the player for 1 heart on harvesting.'])
+  
+  event.addItem( 'bloodyhell:chalice_of_the_dammed', ['Find Vesper\'s Hut to complete Vesper\'s quest.', 'Bring 1 essence and 1 sinful bone to Vesper.'])
+
+  event.addItem( 'neepmeat:integrator_egg', ['Obtained by throwing a reanimated heart into lava surrounded by 8 rusted metal.', 'Does not spawn in loot chests.'])
 })

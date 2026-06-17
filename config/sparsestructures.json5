@@ -24,6 +24,10 @@
       "factor": 1
     },
     {
+      "structure": "neepmeat:verrucous_rock",
+      "factor": 0.9
+    },
+    {
       "structure": "integrated_villages:airship_village",
       "factor": 1
     },

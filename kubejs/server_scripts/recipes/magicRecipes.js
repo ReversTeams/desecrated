@@ -6,7 +6,9 @@ ServerEvents.recipes(event => {
         'biomancy:primordial_core',
         'biomancy:despoil_sickle',
         'biomancy:primordial_cradle',
-        'biomancy:bio_forge'
+        'biomancy:bio_forge',
+        'bloodyhell:chalice_of_the_dammed',
+        'bloodyhell:sanguinite_blood_harvester_item'
     ]
 
     const removeCraftingShaped = [
@@ -114,4 +116,21 @@ ServerEvents.recipes(event => {
             B: 'biomancy:living_flesh'
         }
     )
+
+    // Bloody Hell
+
+    event.shaped(
+    Item.of('bloodyhell:sanguinite_blood_harvester_item'),
+    [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        A: 'minecraft:gold_ingot',
+        B: 'bloodyhell:sanguinite',
+        C: 'bloodyhell:rootlet_powder',
+        D: 'bloodyhell:bleeding_block'
+    }
+)
 });
