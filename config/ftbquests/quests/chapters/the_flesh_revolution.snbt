@@ -103,8 +103,8 @@
 				item: "butchery:meat_grinder"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -116,8 +116,8 @@
 				item: "butchery:blood_grate"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -140,8 +140,8 @@
 				item: "butchery:pestle_and_mortar"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -6.5d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7522632161D258AA"]
@@ -199,8 +199,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -5.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -297,7 +297,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3C411C6CC29A7BBB"]
+			dependencies: [
+				"3C411C6CC29A7BBB"
+				"6B0E995FC2B51651"
+			]
+			dependency_requirement: "one_completed"
 			entity_vis_size: 1.0f
 			icon: "neepmeat:integrator_egg"
 			id: "27E206D2AED49A96"
@@ -314,8 +318,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -8.5d
+			x: 0.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["34B4063F2F210048"]
@@ -352,11 +356,10 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.0d
 			y: -7.0d
 		}
 		{
-			dependencies: ["63F1C9A1095AEC1E"]
 			entity_vis_size: 1.0f
 			id: "5C5A1D9906886DF4"
 			tasks: [{
@@ -364,113 +367,106 @@
 				item: "neepmeat:stirling_engine"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
 			entity_vis_size: 1.0f
 			id: "35FEBF6CDC4E4DA9"
-			tasks: [
-				{
-					id: "0B3C17EFE8E53631"
-					item: {
-						Count: 1
-						id: "neepmeat:drill_chassis"
-						tag: {
-							"meatweapons:meatgun": {
-								meatgun_uuid: [I;
-									-1346476563
-									1094535558
-									-1834746033
-									1073781883
+			tasks: [{
+				id: "0B3C17EFE8E53631"
+				item: {
+					Count: 1
+					id: "neepmeat:drill_chassis"
+					tag: {
+						"meatweapons:meatgun": {
+							meatgun_uuid: [I;
+								-1346476563
+								1094535558
+								-1834746033
+								1073781883
+							]
+							root: {
+								amount: 0
+								slots: [
+									{
+										id: "neepmeat:iron_rotary_drill_head"
+										slots: [ ]
+										transform: [I;
+											1065353216
+											0
+											0
+											0
+											0
+											1065353216
+											0
+											0
+											0
+											0
+											1065353216
+											0
+											0
+											0
+											-1081081856
+											1065353216
+										]
+										uuid: [I;
+											-236894964
+											735727216
+											-1609613533
+											648902076
+										]
+									}
+									{
+										id: "meatweapons:default"
+									}
+									{
+										id: "meatweapons:default"
+									}
 								]
-								root: {
-									amount: 0
-									slots: [
-										{
-											id: "neepmeat:iron_rotary_drill_head"
-											slots: [ ]
-											transform: [I;
-												1065353216
-												0
-												0
-												0
-												0
-												1065353216
-												0
-												0
-												0
-												0
-												1065353216
-												0
-												0
-												0
-												-1081081856
-												1065353216
-											]
-											uuid: [I;
-												-236894964
-												735727216
-												-1609613533
-												648902076
-											]
-										}
-										{
-											id: "meatweapons:default"
-										}
-										{
-											id: "meatweapons:default"
-										}
-									]
-									transform: [I;
-										1065353216
-										0
-										0
-										0
-										0
-										1065353216
-										0
-										0
-										0
-										0
-										1065353216
-										0
-										0
-										0
-										0
-										1065353216
-									]
-									uuid: [I;
-										109891388
-										588202644
-										-2009032932
-										-501322887
-									]
-								}
-							}
-							"neepmeat:implant_manager": {
-								implants: [
-									{
-										id: "neepmeat:pneumatic_motor"
-									}
-									{
-										id: "neepmeat:pneumatic_motor"
-									}
+								transform: [I;
+									1065353216
+									0
+									0
+									0
+									0
+									1065353216
+									0
+									0
+									0
+									0
+									1065353216
+									0
+									0
+									0
+									0
+									1065353216
+								]
+								uuid: [I;
+									109891388
+									588202644
+									-2009032932
+									-501322887
 								]
 							}
 						}
+						"neepmeat:implant_manager": {
+							implants: [
+								{
+									id: "neepmeat:pneumatic_motor"
+								}
+								{
+									id: "neepmeat:pneumatic_motor"
+								}
+							]
+						}
 					}
-					type: "item"
 				}
-				{
-					id: "2BD8B8E8D8A71FE2"
-					item: "neepmeat:pneumatic_motor"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -5.5d
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5C5A1D9906886DF4"]
@@ -481,8 +477,8 @@
 				item: "neepmeat:small_compressor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: -9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
@@ -493,8 +489,8 @@
 				item: "neepmeat:small_compressor_minecart"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.5d
+			x: -11.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
@@ -521,11 +517,11 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.5d
+			x: -12.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["35FEBF6CDC4E4DA9"]
+			dependencies: ["720FB6E79AB03072"]
 			entity_vis_size: 1.0f
 			id: "01D544725B5B1137"
 			tasks: [{
@@ -545,8 +541,8 @@
 				to_observe: "neepmeat:verrucous_stone_port"
 				type: "observation"
 			}]
-			x: 7.0d
-			y: -6.5d
+			x: -3.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -560,8 +556,8 @@
 				item: "neepmeat:grinder"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["294DE0759A56CB6A"]
@@ -572,8 +568,8 @@
 				item: "neepmeat:meat_scrap"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.0d
+			x: -5.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["535BD56C924E99EE"]
@@ -584,8 +580,8 @@
 				item: "neepmeat:raw_meat_brick"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.5d
+			x: -4.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
@@ -596,8 +592,8 @@
 				item: "neepmeat:alloy_kiln"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -10.0d
+			x: -4.0d
+			y: -13.5d
 		}
 		{
 			dependencies: [
@@ -611,8 +607,8 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -10.5d
+			x: -2.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["3A286E459CE15CB2"]
@@ -623,8 +619,8 @@
 				item: "neepmeat:refractory_brick"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -8.5d
+			x: -6.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["35FEBF6CDC4E4DA9"]
@@ -635,8 +631,1128 @@
 				item: "neepmeat:asbestos"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"187D75D48A04D454"
+				"27E206D2AED49A96"
+			]
+			entity_vis_size: 1.0f
+			id: "3E79771244634868"
+			tasks: [{
+				id: "658136E5BD54DC8F"
+				item: "neepmeat:charnel_compactor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3E79771244634868"]
+			entity_vis_size: 1.0f
+			id: "7DC39383E7D870D5"
+			tasks: [{
+				id: "3AF7107D50C214B4"
+				item: "neepmeat:pedestal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3BC238D73427F68B"]
+			entity_vis_size: 1.0f
+			id: "76EB939D9E63EC40"
+			size: 1.2d
+			tasks: [{
+				id: "0888C202C4A4650A"
+				item: "neepmeat:plc"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["720FB6E79AB03072"]
+			entity_vis_size: 1.0f
+			id: "6B0E995FC2B51651"
+			tasks: [{
+				id: "473F464CFD1F7FD1"
+				item: "neepmeat:pump"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5C5A1D9906886DF4"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "720FB6E79AB03072"
+			tasks: [
+				{
+					id: "2EA6CE909452721D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "neepmeat:basic_tank"
+								}
+								{
+									Count: 1b
+									id: "neepmeat:basic_glass_tank"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "002D155206BD013E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "neepmeat:fluid_pipes"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7FA3BBF85B8DC373"]
+			entity_vis_size: 1.0f
+			id: "13F215BB3664621C"
+			tasks: [{
+				id: "3E2980B321BFE4D8"
+				item: "neepmeat:mixer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["7DC39383E7D870D5"]
+			entity_vis_size: 1.0f
+			id: "3BC238D73427F68B"
+			tasks: [{
+				id: "75D44C4C573692CE"
+				item: "neepmeat:integration_charge_crude"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"51C98BEF06A70185"
+				"7ACE16042C8B562F"
+			]
+			entity_vis_size: 1.0f
+			id: "7FA3BBF85B8DC373"
+			tasks: [{
+				id: "661AD5E517491F94"
+				item: "neepmeat:whisper_brass_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7DC39383E7D870D5"]
+			entity_vis_size: 1.0f
+			id: "7ACE16042C8B562F"
+			tasks: [{
+				id: "3AF3E231B1AFA3A6"
+				item: "neepmeat:whisper_wheat_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7FA3BBF85B8DC373"]
+			entity_vis_size: 1.0f
+			id: "0740A62EA79185DE"
+			tasks: [
+				{
+					id: "234279D77774E45E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "neepmeat:item_pipe"
+								}
+								{
+									Count: 1b
+									id: "neepmeat:opaque_item_pipe"
+								}
+							]
+						}
+					}
+					title: "Any Main Pipe"
+					type: "item"
+				}
+				{
+					id: "39B7F494BDCF4C4F"
+					item: "neepmeat:filter_item_pipe"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35EF60410DB081D2"
+					item: "neepmeat:speed_item_pipe"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2669277F13E19360"
+					item: "neepmeat:merge_item_pipe"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27294D9DEE5563EE"
+					item: "neepmeat:encased_item_pipe"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0740A62EA79185DE"]
+			entity_vis_size: 1.0f
+			id: "76184AF5B662D149"
+			tasks: [
+				{
+					id: "59A9BECCDDEA6688"
+					item: "neepmeat:ejector"
+					type: "item"
+				}
+				{
+					id: "51140485FB48AB10"
+					item: "neepmeat:item_pump"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["0740A62EA79185DE"]
+			entity_vis_size: 1.0f
+			id: "383F0CE846800B66"
+			tasks: [
+				{
+					id: "63523F431054CA42"
+					item: "neepmeat:router"
+					type: "item"
+				}
+				{
+					id: "312B7A293874DD9C"
+					item: "neepmeat:advanced_router"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["0740A62EA79185DE"]
+			entity_vis_size: 1.0f
+			id: "32DD1410B6D0D9DF"
+			tasks: [{
+				id: "52F77A7D7467DA2C"
+				item: "neepmeat:dumper"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["3A286E459CE15CB2"]
+			entity_vis_size: 1.0f
+			id: "31108DE09C27216B"
+			tasks: [{
+				id: "1BF0A47E15B9B4FD"
+				item: "neepmeat:asbestos_fabric"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["31108DE09C27216B"]
+			entity_vis_size: 1.0f
+			id: "4183E4899388A8BC"
+			tasks: [
+				{
+					id: "7FD3A5FA8D612405"
+					item: {
+						Count: 1
+						id: "desecratedcore:asbestos_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DD5893A09DB7A6B"
+					item: {
+						Count: 1
+						id: "desecratedcore:asbestos_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A207F1AA6CE2703"
+					item: {
+						Count: 1
+						id: "desecratedcore:asbestos_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D5789A2C8664432"
+					item: {
+						Count: 1
+						id: "desecratedcore:asbestos_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7B5907164F7959A4"]
+			entity_vis_size: 1.0f
+			id: "3B0305E4481DF5EB"
+			tasks: [{
+				id: "0DB156CF23B8E726"
+				item: "neepmeat:crucible"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7B5907164F7959A4"]
+			entity_vis_size: 1.0f
+			id: "0CDD735F5019B57F"
+			tasks: [{
+				id: "7642817928EC4826"
+				item: "neepmeat:casting_basin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7DC39383E7D870D5"]
+			entity_vis_size: 1.0f
+			id: "538E3136ADC8067A"
+			tasks: [{
+				id: "1441547E59FAB921"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "neepmeat:internal_components"
+							}
+							{
+								Count: 1b
+								id: "clanginghowl:chunk_of_technoflesh"
+							}
+						]
+					}
+				}
+				title: "Any Flesh Circuit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7FA3BBF85B8DC373"]
+			entity_vis_size: 1.0f
+			id: "5463C9816BB2B2AF"
+			tasks: [{
+				id: "1611533488E93C2F"
+				item: "neepmeat:fabricator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["2ED8C90203220E71"]
+			entity_vis_size: 1.0f
+			id: "448AA4CC0FADE7BB"
+			tasks: [{
+				id: "143FEF09ED73350E"
+				item: "neepmeat:item_mincer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["76EB939D9E63EC40"]
+			entity_vis_size: 1.0f
+			id: "6316E079115AB0BC"
+			tasks: [
+				{
+					id: "68D7842531D30CBE"
+					item: "neepmeat:upgrade_manager"
+					type: "item"
+				}
+				{
+					id: "7D6F59FE0F85E087"
+					item: "neepmeat:surgery_platform"
+					type: "item"
+				}
+				{
+					id: "3A7987AE391E76F8"
+					item: "neepmeat:implanter"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["187D75D48A04D454"]
+			entity_vis_size: 1.0f
+			id: "649C05E136899115"
+			tasks: [
+				{
+					id: "3125618B52B48C35"
+					item: "neepmeat:advanced_tank"
+					type: "item"
+				}
+				{
+					id: "2F58086EEB713084"
+					item: "neepmeat:advanced_flex_tank"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["76EB939D9E63EC40"]
+			entity_vis_size: 1.0f
+			id: "5711D5111A0391DF"
+			tasks: [{
+				id: "2359EF480E317334"
+				item: "neepmeat:tree_vacuum"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["187D75D48A04D454"]
+			entity_vis_size: 1.0f
+			id: "7B80019ED864FE05"
+			tasks: [{
+				id: "67737691F911BDFE"
+				item: "neepmeat:large_compressor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["76EB939D9E63EC40"]
+			entity_vis_size: 1.0f
+			id: "65DC84966035E4A3"
+			tasks: [{
+				id: "53216D7A413BE3AC"
+				item: "neepmeat:extractor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -22.0d
+		}
+		{
+			dependencies: [
+				"187D75D48A04D454"
+				"7FA3BBF85B8DC373"
+			]
+			entity_vis_size: 1.0f
+			id: "55797E03F03413CB"
+			tasks: [{
+				id: "6D70ADFA7E1FC10E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "neepmeat:meat_steel_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "neepmeat:meat_steel_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "neepmeat:meat_steel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "neepmeat:meat_steel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Meat Steel Tool"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["538E3136ADC8067A"]
+			entity_vis_size: 1.0f
+			id: "2AFF8D698827E4C9"
+			tasks: [{
+				id: "626452F81C6CE55F"
+				item: "meatweapons:tinker_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["76EB939D9E63EC40"]
+			description: ["{entity:meatweapons:airtruck ent_size:1.0 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"]
+			entity_vis_size: 1.0f
+			id: "0DB89267B6D66DE7"
+			tasks: [{
+				id: "3C4A4BC8AC53FF93"
+				item: "meatweapons:airtruck"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["2AFF8D698827E4C9"]
+			entity_vis_size: 1.0f
+			id: "7ABE344C6FDCD215"
+			tasks: [
+				{
+					id: "440E67915C2855FD"
+					item: {
+						Count: 1
+						id: "meatweapons:meatgun_staff"
+						tag: {
+							"meatweapons:meatgun": {
+								meatgun_uuid: [I;
+									-1351411275
+									-182694852
+									-1264025658
+									-921614651
+								]
+								root: {
+									amount: 0
+									slots: [
+										{
+											id: "meatweapons:default"
+										}
+										{
+											id: "meatweapons:default"
+										}
+									]
+									transform: [I;
+										1065353216
+										0
+										0
+										0
+										0
+										1065353216
+										0
+										0
+										0
+										0
+										1065353216
+										0
+										0
+										0
+										0
+										1065353216
+									]
+									uuid: [I;
+										995523292
+										-925413814
+										-1634317307
+										-107400452
+									]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44B27181B0BD6D28"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "meatweapons:halberd"
+								}
+								{
+									Count: 1b
+									id: "meatweapons:shock_staff"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["056E6367718CA24E"]
+			entity_vis_size: 1.0f
+			id: "557215ED76C0BB67"
+			tasks: [{
+				id: "6454DDCF2F8545F8"
+				item: {
+					Count: 1
+					id: "meatweapons:basic_pistol"
+					tag: {
+						"meatweapons:meatgun": {
+							meatgun_uuid: [I;
+								327853284
+								1228228037
+								-1086938011
+								1153592047
+							]
+							root: {
+								amount: 0
+								slots: [
+									{
+										id: "meatweapons:pistol"
+										slots: [
+											{
+												id: "meatweapons:default"
+											}
+											{
+												id: "meatweapons:default"
+											}
+										]
+										stored: 0
+										transform: [I;
+											1065353216
+											0
+											0
+											0
+											0
+											1065353216
+											0
+											0
+											0
+											0
+											1065353216
+											0
+											0
+											0
+											0
+											1065353216
+										]
+										uuid: [I;
+											-721600340
+											-1220195305
+											-1790043405
+											1680377375
+										]
+									}
+									{
+										id: "meatweapons:default"
+									}
+								]
+								transform: [I;
+									1065353216
+									0
+									0
+									0
+									0
+									1065353216
+									0
+									0
+									0
+									0
+									1065353216
+									0
+									0
+									0
+									0
+									1065353216
+								]
+								uuid: [I;
+									839258957
+									-1598928038
+									-1503776970
+									1592242075
+								]
+							}
+						}
+						"neepmeat:implant_manager": {
+							implants: [
+								{
+									id: "meatweapons:ammunition_generator"
+								}
+								{
+									id: "meatweapons:ammunition_generator"
+								}
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2AFF8D698827E4C9"]
+			entity_vis_size: 1.0f
+			id: "2BCABB8D4AB8F275"
+			tasks: [{
+				id: "182AD3B6B397B090"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "meatweapons:meatgun_pistol"
+								tag: {
+									"meatweapons:meatgun": {
+										meatgun_uuid: [I;
+											252078226
+											-1717222989
+											-1372100512
+											1244640927
+										]
+										root: {
+											amount: 0
+											slots: [
+												{
+													id: "meatweapons:default"
+												}
+												{
+													id: "meatweapons:default"
+												}
+											]
+											transform: [I;
+												1065353216
+												0
+												0
+												0
+												0
+												1065353216
+												0
+												0
+												0
+												0
+												1065353216
+												0
+												0
+												0
+												0
+												1065353216
+											]
+											uuid: [I;
+												-433957058
+												1183794380
+												-1539696860
+												2007798915
+											]
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "meatweapons:long_gun"
+								tag: {
+									"meatweapons:meatgun": {
+										meatgun_uuid: [I;
+											1574760522
+											925648221
+											-1107802862
+											1471982642
+										]
+										root: {
+											amount: 0
+											slots: [
+												{
+													id: "meatweapons:default"
+												}
+												{
+													id: "meatweapons:default"
+												}
+												{
+													id: "meatweapons:default"
+												}
+												{
+													id: "meatweapons:default"
+												}
+											]
+											transform: [I;
+												1065353216
+												0
+												0
+												0
+												0
+												1065353216
+												0
+												0
+												0
+												0
+												1065353216
+												0
+												0
+												0
+												0
+												1065353216
+											]
+											uuid: [I;
+												265564226
+												-1511636779
+												-1488595410
+												1149721142
+											]
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2BCABB8D4AB8F275"]
+			entity_vis_size: 1.0f
+			id: "7396E6E0E4CD2397"
+			tasks: [{
+				id: "2027CF072D2EEB48"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "meatweapons:pistol"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:bosher"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:chugger"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:long_boi"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:grenade_launcher"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:short_phage_ray"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2AFF8D698827E4C9"]
+			entity_vis_size: 1.0f
+			id: "284AA21204626971"
+			tasks: [{
+				id: "0450D77E5B6D3E97"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "meatweapons:triple_carousel"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:battery"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:homing_brain"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:bone_stealer"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["284AA21204626971"]
+			entity_vis_size: 1.0f
+			id: "129FCC67646EA887"
+			tasks: [{
+				id: "36135A0DB3434FA6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "meatweapons:slow_barrel"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:basic_stock"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:x2_firing_mechanism"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:x8_firing_mechanism"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["284AA21204626971"]
+			entity_vis_size: 1.0f
+			id: "2A6D6B86EC28F5B2"
+			tasks: [{
+				id: "04B0B0CB5EB1B295"
+				item: "meatweapons:phage_ray_speed_modifier"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2AFF8D698827E4C9"]
+			entity_vis_size: 1.0f
+			id: "2E15DAFC18F296F9"
+			tasks: [{
+				id: "629BC1652BA7D98B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "meatweapons:blood_bullet_provider"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:magazine_organ"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:ammunition_generator"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["538E3136ADC8067A"]
+			entity_vis_size: 1.0f
+			id: "5EAEE969037829A4"
+			tasks: [{
+				id: "5902F3D7B9C0F070"
+				item: "neepmeat:divine_organ"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["5EAEE969037829A4"]
+			entity_vis_size: 1.0f
+			id: "7F638D83710A4BFD"
+			tasks: [{
+				id: "5BF0AE9951126261"
+				item: "neepmeat:phage_ray"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["7DC39383E7D870D5"]
+			entity_vis_size: 1.0f
+			id: "2ED8C90203220E71"
+			tasks: [{
+				id: "3CCFB4096D275134"
+				item: "neepmeat:flesh_potato"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["720FB6E79AB03072"]
+			entity_vis_size: 1.0f
+			id: "73DB815B7413BC62"
+			tasks: [{
+				id: "222F0F0DBBE67147"
+				item: "neepmeat:fluid_drain"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"538E3136ADC8067A"
+				"3BC238D73427F68B"
+			]
+			entity_vis_size: 1.0f
+			id: "2C7E9493B5246AF6"
+			tasks: [{
+				id: "213C9848EF8C24B2"
+				item: "neepmeat:vascular_conduit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7FA3BBF85B8DC373"]
+			entity_vis_size: 1.0f
+			id: "0EF999DF08503DD3"
+			tasks: [{
+				id: "1BDE01CBA92F6258"
+				item: "neepmeat:hydraulic_press"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["538E3136ADC8067A"]
+			entity_vis_size: 1.0f
+			id: "46F6D38B82B45363"
+			tasks: [{
+				id: "34056298A76281AE"
+				item: "neepmeat:transducer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7DC39383E7D870D5"]
+			entity_vis_size: 1.0f
+			id: "15C64A76D9BDAF58"
+			tasks: [{
+				id: "71617DDF6591774E"
+				item: "neepmeat:blood_bubble_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["15C64A76D9BDAF58"]
+			entity_vis_size: 1.0f
+			id: "56C3A5105479F0AF"
+			tasks: [{
+				id: "4ED1C1F425CBCE3B"
+				item: "neepmeat:blood_bubble"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.5d
 		}
 	]
 	title: "Flesh Industries"

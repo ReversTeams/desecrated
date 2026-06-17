@@ -20,7 +20,14 @@
     "common_ore_library",
     "refurbished_furniture",
     "ars_technica",
+    "desecratedcore",
+    "vampirism",
+    "bloodyhell",
+    "reliquary",
     "butchery",
+    "neepmeat",
+    "sons_of_sins",
+    "fracture",
     "philipsruins"
   ],
   "stoneStrata": [
@@ -49,7 +56,9 @@
     "forge:rubber",
     "forge:plastic",
     "concatenation:crafting_station",
-    "forge:sculk_bone"
+    "forge:sculk_bone",
+    "forge:zombie_heart",
+    "forge:blood_bucket"
   ],
   "materials": [
     "aeternium",

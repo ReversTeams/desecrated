@@ -26,6 +26,35 @@ ServerEvents.tags('item', event => {
         'fracture:flesh_block'
     ]);
 
+    add('forge:heart', [
+        'butchery:heart',
+        'sons_of_sins:heart',
+    ]);
+
+    add('forge:hearts', [
+        'butchery:heart',
+        'sons_of_sins:heart',
+        'reliquary:zombie_heart',
+        'neepmeat:animal_heart',
+        'butchery:rotten_heart',
+        'clanginghowl:techno_heart'
+    ]);
+
+    add('forge:zombie_heart', [
+        'reliquary:zombie_heart',
+        'neepmeat:animal_heart',
+        'butchery:rotten_heart'
+    ]);
+
+    add('forge:blood_bucket', [
+        'fracture:blood_bucket',
+        'desecratedcore:blood_bucket',
+        'butchery:blood_bucket',
+        'neepmeat:blood_bucket',
+        'bloodyhell:blood_bucket',
+        'vampirism:blood_bucket'
+    ]);
+
     add('biomancy:raw_meats', [
         [
             "butchery:raw_donkey_steak",

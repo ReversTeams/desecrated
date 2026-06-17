@@ -47,6 +47,11 @@ ServerEvents.tags('item', event => {
         'sons_of_sins:slime_rear'
     ]);
 
+    add('desecrated:flesh_circuit', [
+        'neepmeat:internal_components',
+        'clanginghowl:chunk_of_technoflesh'
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"

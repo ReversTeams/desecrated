@@ -13,6 +13,12 @@ ServerEvents.recipes(event => {
     // Butchery
 
     // Neepmeat
+    event.replaceInput(
+        { input: 'neepmeat:internal_components' },
+        'neepmeat:internal_components',
+        '#desecrated:flesh_circuit'
+    )
+
     event.shaped(
         Item.of('neepmeat:sacrificial_dagger'),
         [
