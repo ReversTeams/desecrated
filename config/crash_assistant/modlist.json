@@ -1338,22 +1338,6 @@
     "curseForgeHash": 4008180508,
     "modrinthHash": "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb"
   },
-  "irons_lib-1.20.1-1.1.0.jar": {
-    "jarName": "irons_lib-1.20.1-1.1.0.jar",
-    "modId": "irons_lib",
-    "name": "Iron\u0027s Lib",
-    "version": "1.20.1-1.1.0",
-    "curseForgeHash": 4018904330,
-    "modrinthHash": "ce4162086eafb043921f81f6af9816fa5ae42282"
-  },
-  "irons_spellbooks-1.20.1-3.16.1.jar": {
-    "jarName": "irons_spellbooks-1.20.1-3.16.1.jar",
-    "modId": "irons_spellbooks",
-    "name": "Iron\u0027s Spells \u0027n Spellbooks",
-    "version": "1.20.1-3.16.1",
-    "curseForgeHash": 3608034068,
-    "modrinthHash": "fcd5dad07391101afc517277be8f49ad990cf0b8"
-  },
   "item-filters-forge-2001.1.0-build.59.jar": {
     "jarName": "item-filters-forge-2001.1.0-build.59.jar",
     "modId": "itemfilters",
@@ -1774,6 +1758,38 @@
     "version": "1.8.0",
     "curseForgeHash": 516527841,
     "modrinthHash": "984f774e71790deaec674c7587bd24e0711871b2"
+  },
+  "OELib-forge-1.20.1-0.2.4.1.jar": {
+    "jarName": "OELib-forge-1.20.1-0.2.4.1.jar",
+    "modId": "oelib",
+    "name": "OELib",
+    "version": "0.2.4.1",
+    "curseForgeHash": 691495290,
+    "modrinthHash": "f903e07b03b2ea391c106f2d2f02274c9633b316"
+  },
+  "OneEnoughBlock-1.1.3.1-hotfix.jar": {
+    "jarName": "OneEnoughBlock-1.1.3.1-hotfix.jar",
+    "modId": "oneenoughblock",
+    "name": "OneEnoughBlock",
+    "version": "1.1.3.1-hotfix",
+    "curseForgeHash": 2329442058,
+    "modrinthHash": "fb7a17938f72282fad9194a76fa0924e17f00bea"
+  },
+  "OneEnoughFluid-1.1.1-hotfix.jar": {
+    "jarName": "OneEnoughFluid-1.1.1-hotfix.jar",
+    "modId": "oneenoughfluid",
+    "name": "OneEnoughFluid",
+    "version": "1.1.1-hotfix",
+    "curseForgeHash": 882777496,
+    "modrinthHash": "2dca7406c6bc5acf7cab6f001de36ae9beef754c"
+  },
+  "OneEnoughItem-1.0.8.jar": {
+    "jarName": "OneEnoughItem-1.0.8.jar",
+    "modId": "oneenoughitem",
+    "name": "OneEnoughItem",
+    "version": "1.0.8",
+    "curseForgeHash": 1428581763,
+    "modrinthHash": "cc24a959278990277483fe200286e3307d7f6d7e"
   },
   "open_in_inventory-forge-2.0.2+1.20.1.jar": {
     "jarName": "open_in_inventory-forge-2.0.2+1.20.1.jar",
