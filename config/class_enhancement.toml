@@ -114,9 +114,9 @@
 		#Display name shown in GUI. (Supports translation keys)
 		name = "Noble Exile"
 		#Lore text shown in the panel. (Supports translation keys)
-		description = "An exiled noble vampire having escaped the calamities of Red Barar's fall."
+		description = "An exiled noble vampire having escaped the fall of Red Barar."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&aNo Faction", "&a+10% Strength"]
+		stats = ["&aVampire", "&cNo Faction", "&a+10% Strength"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
@@ -126,7 +126,7 @@
 		#Armor items.
 		armor = ["minecraft:leather_chestplate"]
 		#Starting items.
-		items = ["desecratedcore:chooser_key_item", "desecratedcore:exile_key_item", "vampiresneedumbrellas:gold_umbrella", "ftbquests:book"]
+		items = ["desecratedcore:exile_key_item", "vampiresneedumbrellas:gold_umbrella", "ftbquests:book"]
 		#Item ID for the class icon.
 		icon = "minecraft:paper"
 		#Commands to execute when this class is selected. Use %player% for player name.
@@ -142,7 +142,7 @@
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&aScholar Faction", "&a+10% Speed"]
 		#Mechanical modifiers (format: attribute=value:operation).
-		attributes = ["minecraft:generic.movement_speed=0.10:multiply_base"]
+		attributes = []
 		#Main hand item.
 		main_hand = "bloodyhell:sacrificial_dagger"
 		#Off hand item.
@@ -166,7 +166,7 @@
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&aArtificer Faction", "&a+10% Armour"]
 		#Mechanical modifiers (format: attribute=value:operation).
-		attributes = ["minecraft:generic.armor=2.0"]
+		attributes = []
 		#Main hand item.
 		main_hand = ""
 		#Off hand item.
@@ -188,9 +188,9 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire of the Vine Sanguine faction, specializing in nature."
 		#Cosmetic stat summary lines.
-		stats = []
+		stats = ["&aVampire", "&aVine Faction", "&a+10% Health"]
 		#Mechanical modifiers (format: attribute=value:operation).
-		attributes = ["minecraft:generic.max_health=2.0"]
+		attributes = []
 		#Main hand item.
 		main_hand = "hexalia:athame"
 		#Off hand item.
@@ -238,7 +238,7 @@
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&cNo Faction"]
 		#Mechanical modifiers (format: attribute=value:operation).
-		attributes = []
+		attributes = ["minecraft:generic.luck=2.0"]
 		#Main hand item.
 		main_hand = ""
 		#Off hand item.

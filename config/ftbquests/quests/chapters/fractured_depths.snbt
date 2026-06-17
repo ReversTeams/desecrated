@@ -223,6 +223,24 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["31E181386233E8D5"]
+			entity_vis_size: 1.0f
+			id: "318621433E782C80"
+			tasks: [{
+				id: "57F434EE192B833D"
+				item: {
+					Count: 1
+					id: "fracture:infected_core"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
 	]
 	title: "Fractured Depths"
 }

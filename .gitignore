@@ -60,7 +60,7 @@ wiki
 server.dat
 lightspeed-cache
 oeb
-oef
+/oef
 oei
 kubejs/output
 kubejs/probe
@@ -87,3 +87,8 @@ kubejs/probe
 !config/emixx/emixx-client.toml
 !resourcepacks/antiques_gunpack_v0.2.2.zip
 !config/supplementaries-client.toml
+!config/class_enhancement_client.toml
+!config/bloodyhell-client.toml
+!config/difficulty_enhancement-client.toml
+!config/sol_valheim_reforged-client.toml
+!config/shadercycler-client.toml

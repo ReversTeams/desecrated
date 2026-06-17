@@ -9,7 +9,7 @@
 # Whether this config file is enabled.
 #  * Requires a GAME restart to take full effect *
 # <Boolean> Valid Values: { true, false }, Default: false
-config_enabled = false
+config_enabled = true
 
 
 # Category: player

@@ -213,13 +213,13 @@
     "curseForgeHash": 82214287,
     "modrinthHash": "c3966f3dc894f3d1594aa7617cf6dd7be0a204a4"
   },
-  "bloodyhell-0.8.56.jar": {
-    "jarName": "bloodyhell-0.8.56.jar",
+  "bloodyhell-0.8.55.jar": {
+    "jarName": "bloodyhell-0.8.55.jar",
     "modId": "bloodyhell",
     "name": "BloodyHell!",
-    "version": "0.8.56",
-    "curseForgeHash": 2938844630,
-    "modrinthHash": "8e81b18f962f5cf9961ead793b641c62cdaf7337"
+    "version": "0.8.55",
+    "curseForgeHash": 4084482352,
+    "modrinthHash": "cdd74832515a47f2da45a414d23104dc2bd5119a"
   },
   "Bookshelf-Forge-1.20.1-20.2.15.jar": {
     "jarName": "Bookshelf-Forge-1.20.1-20.2.15.jar",
@@ -730,6 +730,14 @@
     "curseForgeHash": 3843138404,
     "modrinthHash": "37ef64d3ae7fda292c882ee949a0280bf6c7f033"
   },
+  "desecratedcompat.jar": {
+    "jarName": "desecratedcompat.jar",
+    "modId": "desecratedcompat",
+    "name": "Desecrated Compat",
+    "version": "1.0.0",
+    "curseForgeHash": 454122960,
+    "modrinthHash": "fe304ce142bd72d3f149ee6fff369c6a9d9dff2a"
+  },
   "desecratedcore-1.0.0-forge-1.20.1.jar": {
     "jarName": "desecratedcore-1.0.0-forge-1.20.1.jar",
     "modId": "desecratedcore",
@@ -842,13 +850,13 @@
     "curseForgeHash": 170738210,
     "modrinthHash": "e3f6289abd4de8ebbbb0ffc162b35346c3acd54f"
   },
-  "emi_ores-1.2+1.20.1+forge.jar": {
-    "jarName": "emi_ores-1.2+1.20.1+forge.jar",
+  "emi_ores-1.3+1.20.1+forge.jar": {
+    "jarName": "emi_ores-1.3+1.20.1+forge.jar",
     "modId": "emi_ores",
     "name": "EMI Ores",
-    "version": "1.2+1.20.1+forge",
-    "curseForgeHash": 1182642266,
-    "modrinthHash": "c821f26e4a00c14fb453bfdb7628aec59fd2acf1"
+    "version": "1.3+1.20.1+forge",
+    "curseForgeHash": 3081688599,
+    "modrinthHash": "28ba16619a1fbcbf46f9ed327e8dc7ae339439ac"
   },
   "emiffect-forge-1.1.2+mc1.20.1.jar": {
     "jarName": "emiffect-forge-1.1.2+mc1.20.1.jar",
@@ -1066,13 +1074,13 @@
     "curseForgeHash": 3807919150,
     "modrinthHash": "7f36ec4af42ad1d69872c58022e93a9d1b9c82b7"
   },
-  "ftb-quests-entity-vis-1.3.1-1.20.1.jar": {
-    "jarName": "ftb-quests-entity-vis-1.3.1-1.20.1.jar",
+  "ftb-quests-entity-vis-1.4.0-1.20.1.jar": {
+    "jarName": "ftb-quests-entity-vis-1.4.0-1.20.1.jar",
     "modId": "ftbquestsentityvis",
     "name": "FTB Quests Entity Visualization",
-    "version": "1.3.1-1.20.1",
-    "curseForgeHash": 65167713,
-    "modrinthHash": "4aba3881f16bce604e6ff1a1e7f07daf5ba070a4"
+    "version": "1.4.0-1.20.1",
+    "curseForgeHash": 2010997342,
+    "modrinthHash": "3271d98236d91aab25b84e1d0b4e7bc581fa3016"
   },
   "ftb-quests-forge-2001.4.22.jar": {
     "jarName": "ftb-quests-forge-2001.4.22.jar",
@@ -1519,6 +1527,14 @@
     "curseForgeHash": 1036440574,
     "modrinthHash": "1ec77a7df8adbf3290a296bf25b8f99f37a60020"
   },
+  "lunarshaders-forge-1.20.1-2.1.0.jar": {
+    "jarName": "lunarshaders-forge-1.20.1-2.1.0.jar",
+    "modId": "lunarshaders",
+    "name": "Enhanced Celestials Shader Support",
+    "version": "2.1.0",
+    "curseForgeHash": 1402546644,
+    "modrinthHash": "130d0d537df8fa4bb51c575d5a984e476afed0e8"
+  },
   "Lychee-1.20.1-Forge-5.2.1.jar": {
     "jarName": "Lychee-1.20.1-Forge-5.2.1.jar",
     "modId": "lychee",
@@ -1599,13 +1615,13 @@
     "curseForgeHash": 3993116548,
     "modrinthHash": "5bdda0781bf9dfb5f992a7aa2bee64d5d3fe0b84"
   },
-  "modernfix-forge-5.27.50+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.27.50+mc1.20.1.jar",
+  "modernfix-forge-5.27.51+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.27.51+mc1.20.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.50+mc1.20.1",
-    "curseForgeHash": 1415260921,
-    "modrinthHash": "f2314a9cd75774c1f0166e85e21fa0e38a90ce71"
+    "version": "5.27.51+mc1.20.1",
+    "curseForgeHash": 1242774527,
+    "modrinthHash": "1f69aa3406e24c645d4b9df25c35a6e4deb66527"
   },
   "modernworldcreation_forge_2.0.2_MC_1.20.1.jar": {
     "jarName": "modernworldcreation_forge_2.0.2_MC_1.20.1.jar",
@@ -1671,13 +1687,13 @@
     "curseForgeHash": 2911560819,
     "modrinthHash": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf"
   },
-  "neepmeat-0.25.2-beta+1.20.1.jar": {
-    "jarName": "neepmeat-0.25.2-beta+1.20.1.jar",
+  "neepmeat-0.28.1-beta+1.20.1.jar": {
+    "jarName": "neepmeat-0.28.1-beta+1.20.1.jar",
     "modId": "neepmeat",
     "name": "NEEPMeat",
-    "version": "0.25.2-beta+1.20.1",
-    "curseForgeHash": 3045579600,
-    "modrinthHash": "8d4e6a0c9be48c02ca15e6c7a7d89d6e880bd2dd"
+    "version": "0.28.1-beta+1.20.1",
+    "curseForgeHash": 93215170,
+    "modrinthHash": "f49f2ce6cd41ff4bf8de5ed8ae4c80cb0956a11c"
   },
   "Neruina-2.1.2-forge+1.20.1.jar": {
     "jarName": "Neruina-2.1.2-forge+1.20.1.jar",
@@ -2023,6 +2039,14 @@
     "curseForgeHash": 3900241894,
     "modrinthHash": "35a624915f828bb97f6cbc16ca6360c45749fd57"
   },
+  "scholar-1.20.1-1.2.1-forge.jar": {
+    "jarName": "scholar-1.20.1-1.2.1-forge.jar",
+    "modId": "scholar",
+    "name": "Scholar",
+    "version": "1.2.1",
+    "curseForgeHash": 310552148,
+    "modrinthHash": "f5a9d73e3fa5e2ef18ebd9dac54312eb21eed043"
+  },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
     "modId": "searchables",
@@ -2367,13 +2391,13 @@
     "curseForgeHash": 2041389298,
     "modrinthHash": "033d62395ecf7939f82e5a69ef53cf62ad1afb7f"
   },
-  "toomanyrecipeviewers-0.7.3+mc.20.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.7.3+mc.20.1.jar",
+  "toomanyrecipeviewers-0.8.1+mc.20.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.8.1+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
     "name": "TooManyRecipeViewers",
-    "version": "0.7.3+mc.20.1",
-    "curseForgeHash": 3433677938,
-    "modrinthHash": "cc1ac372530f74548e081f3814d7991f4f6fe329"
+    "version": "0.8.1+mc.20.1",
+    "curseForgeHash": 2729210785,
+    "modrinthHash": "c83ea731d2977c178ac98502a79013bdbba916be"
   },
   "torch-hit-forge-1.20.1-7.0.0.jar": {
     "jarName": "torch-hit-forge-1.20.1-7.0.0.jar",

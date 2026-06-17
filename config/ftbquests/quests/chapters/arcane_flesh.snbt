@@ -6,7 +6,7 @@
 	group: "3C87A675DA0E75AE"
 	icon: {
 		Count: 1
-		id: "sons_of_sins:sickle_of_struggle"
+		id: "biomancy:despoil_sickle"
 		tag: {
 			Damage: 0
 		}
@@ -26,9 +26,9 @@
 			}
 			id: "445742EA3F278341"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "23FFA7D0C4176D2C"
 				table_id: 6565141144447489233L
+				title: "Flesh Extravaganza"
 				type: "random"
 			}]
 			size: 1.3d
@@ -168,13 +168,13 @@
 				item: "bloodyhell:chalice_of_the_dammed"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -28.5d
+			x: 13.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["5CA8FDF37BD413E4"]
 			entity_vis_size: 1.0f
-			icon: "bloodyhell:sanguinite_block"
+			icon: "bloodyhell:materialized_soul"
 			id: "22DDD3C6B3604CD9"
 			rewards: [{
 				id: "6BC0BD395A83F8D5"
@@ -183,11 +183,12 @@
 			}]
 			tasks: [{
 				dimension: "bloodyhell:soul_dimension"
+				icon: "bloodyhell:materialized_soul"
 				id: "05E81D8E5585CA1D"
 				type: "dimension"
 			}]
-			x: 1.0d
-			y: -30.0d
+			x: 14.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -206,8 +207,8 @@
 					type: "item"
 				}
 			]
-			x: 2.8749999999999996d
-			y: -31.049999999999997d
+			x: 16.375d
+			y: -21.049999999999997d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -219,8 +220,8 @@
 				item: "bloodyhell:blasphemite_ore"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -43.5d
+			x: 19.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["0377023CC9A03552"]
@@ -231,11 +232,14 @@
 				item: "bloodyhell:rhnull"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -35.0d
+			x: 18.0d
+			y: -25.0d
 		}
 		{
-			dependencies: ["65DF6B6B038F58F7"]
+			dependencies: [
+				"65DF6B6B038F58F7"
+				"3488DDCE529DD3F8"
+			]
 			entity_vis_size: 1.0f
 			id: "477517C000C5B774"
 			tasks: [
@@ -250,8 +254,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -30.0d
+			x: 18.5d
+			y: -20.0d
 		}
 		{
 			dependencies: [
@@ -266,8 +270,8 @@
 				item: "bloodyhell:sanguinite_infusor"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -33.0d
+			x: 17.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["477517C000C5B774"]
@@ -278,8 +282,8 @@
 				item: "bloodyhell:sanguinite_blood_harvester_item"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -30.0d
+			x: 21.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -290,8 +294,8 @@
 				item: "bloodyhell:voracious_mushroom_item"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -32.5d
+			x: 20.5d
+			y: -22.5d
 		}
 		{
 			dependencies: [
@@ -305,8 +309,8 @@
 				item: "bloodyhell:blasphemite"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -44.0d
+			x: 21.5d
+			y: -34.0d
 		}
 		{
 			dependencies: [
@@ -328,8 +332,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -38.0d
+			x: 19.5d
+			y: -28.0d
 		}
 		{
 			dependencies: ["2E2EEA142952B774"]
@@ -347,8 +351,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -36.5d
+			x: 19.0d
+			y: -26.5d
 		}
 		{
 			dependencies: ["2E2EEA142952B774"]
@@ -365,8 +369,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -35.5d
+			x: 16.5d
+			y: -25.5d
 		}
 		{
 			dependencies: ["100F51F50BB44B53"]
@@ -387,8 +391,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -48.5d
+			x: 22.0d
+			y: -38.5d
 		}
 		{
 			dependencies: ["16159AA464679A4C"]
@@ -406,8 +410,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -45.5d
+			x: 22.0d
+			y: -35.5d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -446,8 +450,8 @@
 				title: "Any Novice Blood Spell"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -37.5d
+			x: 21.0d
+			y: -27.5d
 		}
 		{
 			dependencies: [
@@ -484,8 +488,8 @@
 				title: "Any Intermediate Blood Spell"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -37.0d
+			x: 22.5d
+			y: -27.0d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -524,8 +528,8 @@
 				title: "Any Blasphemous Spell"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -46.0d
+			x: 20.5d
+			y: -36.0d
 		}
 		{
 			dependencies: ["503F8332E07D41A2"]
@@ -536,8 +540,8 @@
 				item: "bloodyhell:ritekeeper_heart"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -35.5d
+			x: 22.0d
+			y: -25.5d
 		}
 		{
 			dependencies: ["19C8C7A0D9F4F3A6"]
@@ -548,8 +552,8 @@
 				item: "bloodyhell:ancient_gem"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -31.5d
+			x: 18.5d
+			y: -21.5d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -560,8 +564,8 @@
 				item: "bloodyhell:sanguinite_condenser_item"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -31.0d
+			x: 20.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -587,8 +591,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -38.5d
+			x: 21.0d
+			y: -28.5d
 		}
 		{
 			dependencies: ["7A82C01F08326C74"]
@@ -633,6 +637,21 @@
 			dependencies: ["445742EA3F278341"]
 			entity_vis_size: 1.0f
 			id: "4D45D411280B394B"
+			rewards: [{
+				id: "4F02BAA767D2C1D6"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0302303657EA0172"
 				item: {
@@ -678,6 +697,11 @@
 			dependencies: ["445742EA3F278341"]
 			entity_vis_size: 1.0f
 			id: "1261468FF3756AEA"
+			rewards: [{
+				id: "6AE6606D999A7EF1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7F0892882C927F15"
 				item: {
@@ -758,39 +782,11 @@
 			id: "2ACEA55675CB3F95"
 			tasks: [{
 				id: "62398181B04422EA"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "sons_of_sins:sinful_sword"
-							}
-							{
-								Count: 1b
-								id: "sons_of_sins:sinful_pickaxe"
-							}
-							{
-								Count: 1b
-								id: "sons_of_sins:sinful_axe"
-							}
-							{
-								Count: 1b
-								id: "sons_of_sins:sinful_shovel"
-							}
-							{
-								Count: 1b
-								id: "sons_of_sins:sinful_hoe"
-							}
-						]
-					}
-				}
-				title: "Any Sinful Tool"
+				item: "sons_of_sins:bloody_bone"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -12.5d
+			x: 11.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["28C4A4785D935FBE"]
@@ -978,8 +974,8 @@
 				to_observe: "minecraft:villager"
 				type: "observation"
 			}]
-			x: 6.5d
-			y: -8.0d
+			x: 7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["079ABE7B83F6A6F6"]
@@ -994,8 +990,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -11.5d
+			x: 8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["0FF481A9738C6A2E"]
@@ -1021,8 +1017,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -11.5d
+			x: 5.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["00CCFEBA2BF7D34B"]
@@ -1033,8 +1029,8 @@
 				item: "sons_of_sins:hand_of_riot"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -11.0d
+			x: 10.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0BDCD3D1B995EDE8"]
@@ -1045,8 +1041,8 @@
 				item: "sons_of_sins:touch_of_greed"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["60A547780F1428FA"]
@@ -1057,8 +1053,8 @@
 				item: "sons_of_sins:ether_engine"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -9.0d
+			x: 4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["1EC64182E63D237D"]
@@ -1075,8 +1071,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -9.0d
+			x: 10.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5D88FB716ED71AD6"]
@@ -1087,8 +1083,8 @@
 				item: "sons_of_sins:cursed_head"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -5.0d
+			x: 8.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5EA463A36036C699"]
@@ -1233,6 +1229,17 @@
 			dependencies: ["7047E5E29683914E"]
 			entity_vis_size: 1.0f
 			id: "1520FE230FEDC3EA"
+			rewards: [{
+				id: "5F27080DD8AEC600"
+				item: {
+					Count: 1
+					id: "tangiblecommands:back_item"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			size: 1.1d
 			tasks: [{
 				advancement: "sons_of_sins:half_blood"
@@ -1264,8 +1271,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: -8.5d
+			x: 5.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
@@ -1288,8 +1295,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
-			y: -10.0d
+			x: 6.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
@@ -1312,8 +1319,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: -10.0d
+			x: 7.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
@@ -1336,8 +1343,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.5d
-			y: -10.0d
+			x: 9.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
@@ -1360,8 +1367,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.5d
-			y: -8.5d
+			x: 9.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
@@ -1384,8 +1391,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.5d
-			y: -7.0d
+			x: 9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
@@ -1408,8 +1415,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: -6.5d
+			x: 7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["445742EA3F278341"]
@@ -1642,8 +1649,8 @@
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -20.5d
+			x: 2.8749999999999996d
+			y: -20.7d
 		}
 		{
 			dependencies: ["7E6B2DCA9A18DF4A"]
@@ -1680,13 +1687,14 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "54D942F53453202D"
+			size: 1.15d
 			tasks: [{
 				id: "1CAE929292A994C3"
 				item: "biomancy:bio_lab"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -20.5d
+			x: 0.0d
+			y: -20.7d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
@@ -1725,7 +1733,7 @@
 				title: "Any Flesh Automation Part"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: -19.0d
 		}
 		{
@@ -1754,7 +1762,7 @@
 				title: "Any Flesh Storage"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: -19.0d
 		}
 		{
@@ -1799,32 +1807,42 @@
 				item: "biomancy:acid_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -15.0d
+			x: 5.5d
+			y: -15.5d
 		}
 		{
-			dependencies: ["2A8D992F16D4BE46"]
+			dependencies: [
+				"2A8D992F16D4BE46"
+				"2ACEA55675CB3F95"
+			]
 			entity_vis_size: 1.0f
 			id: "6A8B34AA9E968EC2"
 			size: 1.2d
-			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "13F15280DF637A0A"
-				observe_type: 5
-				timer: 0L
-				to_observe: "bloodyhell:vesper"
-				type: "observation"
-			}]
-			x: -0.6d
-			y: -27.0d
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: true
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "13F15280DF637A0A"
+					observe_type: 5
+					timer: 0L
+					to_observe: "bloodyhell:vesper"
+					type: "observation"
+				}
+				{
+					id: "290B2D37ACEA6F1D"
+					structure: "bloodyhell:vespers_hut"
+					type: "structure"
+				}
+			]
+			x: 12.0d
+			y: -17.4d
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
@@ -1842,8 +1860,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -22.5d
+			x: 7.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["2FC8B5F6807FD5DC"]
@@ -1862,8 +1880,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -20.5d
+			x: 6.05d
+			y: -20.900000000000002d
 		}
 		{
 			dependencies: ["0D0782320D0DEE82"]
@@ -1878,8 +1896,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -25.0d
+			x: 9.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
@@ -1894,8 +1912,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -21.5d
+			x: 7.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["681EF488E543DB48"]
@@ -1906,7 +1924,7 @@
 				item: "biomancy:primal_orifice"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 3.5d
 			y: -15.5d
 		}
 		{
@@ -1925,7 +1943,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: 6.0d
 			y: -18.0d
 		}
 		{
@@ -1970,8 +1988,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -20.0d
+			x: 8.0d
+			y: -21.5d
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
@@ -1986,8 +2004,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -19.0d
+			x: 6.5d
+			y: -23.0d
 		}
 		{
 			dependencies: [
@@ -2002,8 +2020,8 @@
 				item: "biomancy:fertilizer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -23.0d
+			x: 4.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["2FC8B5F6807FD5DC"]
@@ -2014,8 +2032,8 @@
 				item: "biomancy:organic_matter"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -21.5d
+			x: 4.0d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -2029,8 +2047,8 @@
 				item: "biomancy:nutrients"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -22.0d
+			x: 3.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["61740180C335EEB4"]
@@ -2052,7 +2070,7 @@
 				to_observe: "biomancy:hungry_flesh_blob"
 				type: "observation"
 			}]
-			x: 3.5d
+			x: -0.5d
 			y: -17.0d
 		}
 		{
@@ -2075,8 +2093,8 @@
 				to_observe: "biomancy:primordial_flesh_blob"
 				type: "observation"
 			}]
-			x: 5.0d
-			y: -16.0d
+			x: -2.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["54D942F53453202D"]
@@ -2116,10 +2134,11 @@
 						]
 					}
 				}
+				title: "Any Compound or Additive"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -21.5d
+			x: -1.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["65CD213C69DD4F67"]
@@ -2171,10 +2190,11 @@
 						]
 					}
 				}
+				title: "Any Serum"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -23.0d
+			x: -3.0d
+			y: -21.5d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
@@ -2185,7 +2205,7 @@
 				item: "biomancy:biometric_membrane"
 				type: "item"
 			}]
-			x: 4.5d
+			x: -1.5d
 			y: -18.5d
 		}
 		{
@@ -2198,7 +2218,7 @@
 				item: "concatenatedadditionsartefacts:karma_tome"
 				type: "item"
 			}]
-			x: 6.5d
+			x: -4.0d
 			y: -16.0d
 		}
 		{
@@ -2211,8 +2231,8 @@
 				item: "bloodyhell:soul_log"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -38.5d
+			x: 18.0d
+			y: -28.5d
 		}
 		{
 			dependencies: ["65DF6B6B038F58F7"]
@@ -2236,8 +2256,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.0d
-			y: -34.5d
+			x: 23.5d
+			y: -24.5d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -2261,8 +2281,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
-			y: -39.5d
+			x: 20.0d
+			y: -29.5d
 		}
 		{
 			dependencies: ["5BCBF128A6DC1902"]
@@ -2273,8 +2293,8 @@
 				item: "bloodyhell:forbidden_bookshelf_block"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -41.0d
+			x: 20.5d
+			y: -31.0d
 		}
 		{
 			dependencies: ["6F3A5BBFC72E0DBF"]
@@ -2285,8 +2305,8 @@
 				item: "bloodyhell:unknown_portal_item"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -42.5d
+			x: 21.0d
+			y: -32.5d
 		}
 		{
 			dependencies: ["0796C66F6BF3B1F5"]
@@ -2297,8 +2317,8 @@
 				item: "bloodyhell:rune_of_the_ravenous_gaze"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -49.5d
+			x: 21.0d
+			y: -39.5d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -2309,8 +2329,8 @@
 				item: "bloodyhell:blood_gem_sprout_seed"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -45.0d
+			x: 24.0d
+			y: -35.0d
 		}
 		{
 			dependencies: ["65DF6B6B038F58F7"]
@@ -2362,8 +2382,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -31.5d
+			x: 14.5d
+			y: -21.5d
 		}
 		{
 			dependencies: ["65DF6B6B038F58F7"]
@@ -2430,9 +2450,15 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "49D6DBC73A0D8CC5"
+					item: "bloodyhell:blood_arrow"
+					optional_task: true
+					type: "item"
+				}
 			]
-			x: 1.5d
-			y: -32.5d
+			x: 15.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["100F51F50BB44B53"]
@@ -2443,8 +2469,8 @@
 				item: "bloodyhell:nameless_whisper"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -48.5d
+			x: 25.0d
+			y: -38.5d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -2455,8 +2481,8 @@
 				item: "bloodyhell:blasphemous_eye"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -47.0d
+			x: 23.0d
+			y: -37.0d
 		}
 		{
 			dependencies: ["4EF6DB4E4BE0875F"]
@@ -2467,8 +2493,98 @@
 				item: "bloodyhell:gaze_of_the_unknown"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -48.5d
+			x: 23.5d
+			y: -38.5d
+		}
+		{
+			dependencies: ["2ACEA55675CB3F95"]
+			entity_vis_size: 1.0f
+			id: "3B716EC50B1F94E9"
+			size: 1.15d
+			tasks: [{
+				id: "77FA5BBCBE349751"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sons_of_sins:sinful_sword"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:sinful_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:sinful_axe"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:sinful_shovel"
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:sinful_hoe"
+							}
+						]
+					}
+				}
+				title: "Any Sinful Tool"
+				type: "item"
+			}]
+			x: 12.649999999999999d
+			y: -13.799999999999999d
+		}
+		{
+			dependencies: ["31E9E6BBC04B24F9"]
+			entity_vis_size: 1.0f
+			id: "38A5FCCF71245CF2"
+			tasks: [{
+				id: "1CF8C8D13C80F011"
+				item: {
+					Count: 1
+					id: "concatenatedadditionsartefacts:protection_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38A5FCCF71245CF2"]
+			entity_vis_size: 1.0f
+			id: "593A3C9D80DA6026"
+			tasks: [{
+				id: "77BEEE7D8A5FBC48"
+				item: "concatenatedadditionsartefacts:stalker_ward"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22DDD3C6B3604CD9"]
+			entity_vis_size: 1.0f
+			id: "3488DDCE529DD3F8"
+			tasks: [
+				{
+					id: "735757DD5C64C79A"
+					item: "bloodyhell:blood_flower"
+					type: "item"
+				}
+				{
+					id: "5A5B2C40F895CCC4"
+					item: "bloodyhell:blood_petals"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -19.5d
 		}
 	]
 	title: "Arcane Flesh"

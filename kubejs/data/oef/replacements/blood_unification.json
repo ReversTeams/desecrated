@@ -1,0 +1,11 @@
+[
+  {
+    "matchFluid": [
+      "neepmeat:blood",
+      "butchery:blood",
+      "bloodyhell:blood",
+      "fracture:blood"
+    ],
+    "resultFluid": "vampirism:blood"
+  }
+]
