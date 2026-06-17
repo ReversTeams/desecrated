@@ -275,17 +275,6 @@
         "value": 10000
       }
     },
-    "irons_spellbooks:holy_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "thedulling:dull": {
       "enabled": false,
       "min": {
@@ -295,6 +284,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "irons_spellbooks:holy_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "tconstruct:generic.jump_boost": {
@@ -539,17 +539,6 @@
         "value": 10000
       }
     },
-    "irons_spellbooks:spell_resist": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "minecraft:friction_modifier": {
       "enabled": true,
       "min": {
@@ -559,6 +548,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "irons_spellbooks:spell_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "tconstruct:player.critical_damage": {
@@ -924,6 +924,17 @@
         "value": 2048
       }
     },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
@@ -944,17 +955,6 @@
       "max": {
         "default": 100,
         "value": 100
-      }
-    },
-    "reach-entity-attributes:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "vampirism:neonatal_duration": {
