@@ -46,5 +46,37 @@
       "perplayer": true
     },
     "result": "deny"
+  },
+  {
+    "dimension": "reverseeon:island_dim",
+    "result": "deny"
+  },
+  {
+    "dimension": "reverseeon:island_dim",
+    "mod": "vampirism",
+    "result": "deny"
+  },
+  {
+    "dimension": "reverseeon:island_dim",
+    "mod": "thedulling",
+    "result": "deny"
+  },
+  {
+    "mod": "vampirism",
+    "mincount": {
+      "amount": 12,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "enemyexpansion",
+    "mincount": {
+      "amount": 12,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
   }
 ]
