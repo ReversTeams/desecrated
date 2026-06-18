@@ -1831,13 +1831,13 @@
     "curseForgeHash": 424014291,
     "modrinthHash": "b26b77048f496e53174562aaee9d1ad1cd5a145b"
   },
-  "particular-1.20.1-Forge-1.2.7.jar": {
-    "jarName": "particular-1.20.1-Forge-1.2.7.jar",
+  "particular-1.20.1-Forge-1.5.4.jar": {
+    "jarName": "particular-1.20.1-Forge-1.5.4.jar",
     "modId": "particular",
-    "name": "Particular",
-    "version": "1.2.7",
-    "curseForgeHash": 547177644,
-    "modrinthHash": "db04a6b14b7fb219701c50907986384bca363298"
+    "name": "Particular Reforged",
+    "version": "1.5.4",
+    "curseForgeHash": 2016091420,
+    "modrinthHash": "480202bd8b42fed36c754d415b0e6a3204cea4f6"
   },
   "Patchouli-1.20.1-85-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-85-FORGE.jar",

@@ -11,7 +11,7 @@ out vec4 fragColor;
 void main() {
 	float dist = distance(gl_FragCoord.xy, LightPos);
 
-	float rt_brighten = 0.32;
+	float rt_brighten = 0.5;
 	float rt_expand = 96.0;
 	float rt_expandOuter = rt_expand + 32.0;
 

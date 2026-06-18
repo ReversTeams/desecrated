@@ -60,9 +60,9 @@ ESM
 wiki
 server.dat
 lightspeed-cache
-oeb
+/oeb
 /oef
-oei
+/oei
 kubejs/output
 kubejs/probe
 /civil
@@ -94,3 +94,4 @@ kubejs/probe
 !config/difficulty_enhancement-client.toml
 !config/sol_valheim_reforged-client.toml
 !config/shadercycler-client.toml
+!config/tabs_organizer-client.toml

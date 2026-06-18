@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	autofocus_id: "068DF533DB041F37"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -965,6 +966,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["7947672BF3364758"]
 			entity_vis_size: 1.0f
 			id: "24F94D88BBD152DF"
 			tasks: [{

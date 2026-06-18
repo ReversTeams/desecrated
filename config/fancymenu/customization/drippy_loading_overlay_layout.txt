@@ -2,27 +2,333 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = drippy_loading_overlay
-  render_custom_elements_behind_vanilla = false
-  last_edited_time = 1776028184502
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1781812711837
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:acad5921-7125-4745-bfd4-19e142b0608f-1776028109554] = [groups:][instances:]
+  [loading_requirement_container_meta:4d6d9c01-5f9b-4cbd-8aa1-ee7813b7c8b6-1781812691248] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/mist.png
-  slide = false
-  repeat_texture = false
-  fallback_path = [source:local]/config/fancymenu/assets/gehennabackground.png
-  parallax = true
-  parallax_intensity = 0.1
-  invert_parallax = false
-  restart_animated_on_menu_load = false
+  instance_identifier = 992f5568-82bf-407f-a727-b62e25197041-1781810693544
+  background_type = color_fancymenu
+  show_background = false
+  color = #FFC800FF
+}
+
+menu_background {
+  instance_identifier = b85d3fb0-3ebd-4d27-9392-c2f94492e96e-1781810693544
+  background_type = panorama
+  show_background = false
+}
+
+menu_background {
   instance_identifier = 1732c374-11c3-4928-98ab-080d1afbaddc-1752351817453
   background_type = image
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/mist.png
+  fallback_path = [source:local]/config/fancymenu/assets/gehennabackground.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity_x = 0.1
+  parallax_intensity_y = 0.1
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+}
+
+menu_background {
+  instance_identifier = a0236d2d-63dc-4922-8b69-2d7ba7a30c7d-1781810693544
+  background_type = slideshow
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = 136f6c94-198e-4d2a-8903-d0ada228b631-1781810693544
+  background_type = video
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  play_in_editor = true
+}
+
+menu_background {
+  instance_identifier = ff1fb889-ec17-435f-b71b-7b15142d0f80-1781810693544
+  background_type = video_mcef
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+}
+
+menu_background {
+  instance_identifier = 5fd11a41-dca7-4e73-9a1a-91fac88911bb-1781810693545
+  background_type = browser
+  show_background = false
+  url = https://docs.fancymenu.net
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+menu_background {
+  instance_identifier = e203c488-f64b-4cf9-a7f8-dcaac6c71940-1781810693545
+  background_type = glsl
+  show_background = false
+  inline_shader_source = float hash(vec2 p) { return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453); }%%!serialized_property_newline!%%float noise(vec2 p) {%%!serialized_property_newline!%%    vec2 i = floor(p), f = fract(p);%%!serialized_property_newline!%%    f = f * f * (3.0 - 2.0 * f);%%!serialized_property_newline!%%    return mix(mix(hash(i), hash(i + vec2(1.0, 0.0)), f.x),%%!serialized_property_newline!%%               mix(hash(i + vec2(0.0, 1.0)), hash(i + vec2(1.0, 1.0)), f.x), f.y);%%!serialized_property_newline!%%}%%!serialized_property_newline!%%float fbm(vec2 p) {%%!serialized_property_newline!%%    float v = 0.0, a = 0.5;%%!serialized_property_newline!%%    for(int i = 0; i < 5; i++) { v += a * noise(p); p *= 2.0; a *= 0.5; }%%!serialized_property_newline!%%    return v;%%!serialized_property_newline!%%}%%!serialized_property_newline!%%%%!serialized_property_newline!%%void mainImage( out vec4 fragColor, in vec2 fragCoord )%%!serialized_property_newline!%%{%%!serialized_property_newline!%%    // Map Shadertoy variables to your original variables%%!serialized_property_newline!%%    vec2 size = iResolution.xy;%%!serialized_property_newline!%%    float time = iTime;%%!serialized_property_newline!%%    vec2 uv = fragCoord / iResolution.xy;%%!serialized_property_newline!%%    %%!serialized_property_newline!%%    // Shadertoy doesn't have scroll/zoom uniforms by default, using placeholders%%!serialized_property_newline!%%    vec2 scrollOffset = vec2(0.0);%%!serialized_property_newline!%%    vec2 scrollSize = vec2(0.0);%%!serialized_property_newline!%%    float zoom = 16.0;%%!serialized_property_newline!%%%%!serialized_property_newline!%%    vec2 aspect = vec2(size.x / size.y, 1.0);%%!serialized_property_newline!%%    vec2 uvAspect = uv * aspect;%%!serialized_property_newline!%%    vec2 center = aspect / 2.0;%%!serialized_property_newline!%%%%!serialized_property_newline!%%    vec2 scrollPos = vec2(0.0);%%!serialized_property_newline!%%    if(scrollSize.x > 0.0) scrollPos.x = scrollOffset.x / scrollSize.x;%%!serialized_property_newline!%%    if(scrollSize.y > 0.0) scrollPos.y = scrollOffset.y / scrollSize.y;%%!serialized_property_newline!%%    float zoomF = zoom / 16.0;%%!serialized_property_newline!%%    vec2 vUV = (uvAspect - center) / zoomF + center;%%!serialized_property_newline!%%%%!serialized_property_newline!%%    // Base dark%%!serialized_property_newline!%%    vec3 col = vec3(0.012, 0.0, 0.018);%%!serialized_property_newline!%%%%!serialized_property_newline!%%    // Fog%%!serialized_property_newline!%%    vec2 fogUV = vUV * 1.0 + scrollPos * 0.03 + time * 0.015;%%!serialized_property_newline!%%    float fog = fbm(fogUV + vec2(time * 0.03, -time * 0.05)) * 0.45 +%%!serialized_property_newline!%%                fbm(fogUV * 1.5 - vec2(0.0, time * 0.08)) * 0.25;%%!serialized_property_newline!%%    fog *= 0.75;%%!serialized_property_newline!%%    vec3 fogColor = vec3(0.42, 0.05, 0.08);%%!serialized_property_newline!%%    col += fogColor * fog * (1.0 - smoothstep(0.7, 2.2, length(vUV - center)));%%!serialized_property_newline!%%%%!serialized_property_newline!%%    // Mist%%!serialized_property_newline!%%    vec2 mistUV = vUV * 2.8 + scrollPos * 0.12 + time * 0.11;%%!serialized_property_newline!%%    float mist = fbm(mistUV + vec2(time * 0.12, -time * 0.18)) * 0.35 +%%!serialized_property_newline!%%                 fbm(mistUV * 3.2 - vec2(0.0, time * 0.22)) * 0.20;%%!serialized_property_newline!%%    mist *= 0.55;%%!serialized_property_newline!%%    vec3 mistColor = vec3(0.68, 0.12, 0.18);%%!serialized_property_newline!%%    col += mistColor * mist * (1.0 - smoothstep(0.4, 1.4, length(vUV - center)));%%!serialized_property_newline!%%%%!serialized_property_newline!%%    // Vignette%%!serialized_property_newline!%%    float vignette = smoothstep(0.5, 1.6, length(vUV - center));%%!serialized_property_newline!%%    col *= 1.0 - vignette * 0.60;%%!serialized_property_newline!%%    %%!serialized_property_newline!%%    // Subtle grain%%!serialized_property_newline!%%    float grain = noise(uv * size * 0.01 + time) * 0.012;%%!serialized_property_newline!%%    col += vec3(grain);%%!serialized_property_newline!%%%%!serialized_property_newline!%%    fragColor = vec4(col, 1.0);%%!serialized_property_newline!%%}
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+menu_background {
+  instance_identifier = 6a5e2da4-3a1b-4a97-b8ff-138f5daf68b4-1781810693545
+  background_type = drippy_color_background
+  show_background = false
+  color = #FD5757FF
+}
+
+decoration_overlay {
+  overlay_type = browser
+  instance_identifier = e3dcf7f1-240d-4fd4-9225-4bdad605ed43-1781810693545
+  show_decoration_overlay = false
+  url = https://docs.fancymenu.net
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+decoration_overlay {
+  overlay_type = glsl
+  instance_identifier = 8d60ad1c-61a4-462d-95be-0201f26d8370-1781810693545
+  show_decoration_overlay = false
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+decoration_overlay {
+  overlay_type = buddy
+  instance_identifier = bde36dae-3ec6-4466-9411-8109381555bc-1781810693545
+  show_decoration_overlay = false
+  buddy_hunger_decay_per_tick = 0.005
+  buddy_happiness_decay_per_tick = 0.003
+  buddy_fun_decay_per_tick = 0.002
+  buddy_energy_decay_per_tick = 0.002
+  buddy_energy_sleep_regen_per_tick = 0.03
+  buddy_play_energy_drain_per_tick = 0.03
+  buddy_play_fun_gain_per_tick = 0.05
+  buddy_play_happiness_gain_per_tick = 0.01
+  buddy_play_hunger_drain_per_tick = 0.01
+  buddy_chase_energy_drain_per_tick = 0.024
+  buddy_chase_hunger_drain_per_tick = 0.005
+  buddy_hop_energy_drain_per_tick = 0.005
+  buddy_hop_hunger_drain_per_tick = 0.002
+  buddy_excited_energy_drain_per_tick = 0.01
+  buddy_excited_happiness_gain_per_tick = 0.01
+  buddy_excited_hunger_drain_per_tick = 0.003
+  buddy_running_energy_drain_per_tick = 0.01
+  buddy_running_hunger_drain_per_tick = 0.005
+  buddy_food_hunger_gain = 20.0
+  buddy_food_happiness_gain = 5.0
+  buddy_pet_happiness_gain = 15.0
+  buddy_wakeup_happiness_penalty = 2.5
+  buddy_max_poops_cap = 10
+  buddy_can_die = true
+}
+
+decoration_overlay {
+  overlay_type = string_lights
+  instance_identifier = 6ae6dd6f-ffa0-457a-9bc1-d60cb943567f-1781810693545
+  show_decoration_overlay = false
+  string_lights_scale = 1.0
+  string_lights_wind_strength = 1.0
+  string_lights_flicker_speed = 1.0
+  string_lights_left_center_to_top_center = true
+  string_lights_right_center_to_top_center = true
+  string_lights_bottom_left_to_top_center = false
+  string_lights_bottom_right_to_top_center = false
+  string_lights_top_left_to_top_right = true
+  string_lights_bottom_left_to_bottom_right = false
+  string_lights_loose_left_top = false
+  string_lights_loose_right_top = false
+  string_lights_left_center_to_top_center_christmas_mode = false
+  string_lights_right_center_to_top_center_christmas_mode = false
+  string_lights_bottom_left_to_top_center_christmas_mode = false
+  string_lights_bottom_right_to_top_center_christmas_mode = false
+  string_lights_top_left_to_top_right_christmas_mode = false
+  string_lights_bottom_left_to_bottom_right_christmas_mode = false
+  string_lights_loose_left_top_christmas_mode = false
+  string_lights_loose_right_top_christmas_mode = false
+  string_lights_left_center_to_top_center_color_hex = #FFD27A
+  string_lights_right_center_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_left_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_right_to_top_center_color_hex = #FFD27A
+  string_lights_top_left_to_top_right_color_hex = #FFD27A
+  string_lights_bottom_left_to_bottom_right_color_hex = #FFD27A
+  string_lights_loose_left_top_color_hex = #FFD27A
+  string_lights_loose_right_top_color_hex = #FFD27A
+}
+
+decoration_overlay {
+  overlay_type = fireworks
+  instance_identifier = c58f5e6c-0c97-48f8-85c0-3981dc80a34d-1781810693545
+  show_decoration_overlay = false
+  fireworks_scale = 1.0
+  fireworks_explosion_size = 1.0
+  fireworks_amount = 1.0
+  fireworks_show_rockets = true
+}
+
+decoration_overlay {
+  overlay_type = snowfall
+  instance_identifier = b3176eaa-479b-4aaf-93b5-634f899bbee0-1781810693545
+  show_decoration_overlay = false
+  snow_intensity = 1.0
+  snow_scale = 1.0
+  snow_speed = 1.0
+  snow_accumulation = true
+  snow_color_hex = #FFFFFF
+}
+
+decoration_overlay {
+  overlay_type = rainfall
+  instance_identifier = c4fc55a6-dff3-446e-9ee7-58499c921f94-1781810693545
+  show_decoration_overlay = false
+  rain_intensity = 1.0
+  rain_scale = 1.0
+  rain_thunder_brightness = 1.0
+  rain_puddles = true
+  rain_drips = true
+  rain_thunder = false
+  rain_color_hex = #CFE7FF
+}
+
+decoration_overlay {
+  overlay_type = fireflies
+  instance_identifier = e783b9aa-1a09-4a4c-a778-6564f5d33ee9-1781810693545
+  show_decoration_overlay = false
+  firefly_group_density = 1.0
+  firefly_group_amount = 1.0
+  firefly_group_size = 1.0
+  firefly_scale = 1.0
+  firefly_follow_mouse = true
+  firefly_landing = true
+  firefly_color_hex = #FFE08A
+}
+
+decoration_overlay {
+  overlay_type = leaves
+  instance_identifier = 3d88c5e3-a109-4735-84d8-6d7bd5930651-1781810693545
+  show_decoration_overlay = false
+  leaves_density = 1.0
+  leaves_wind_intensity = 1.0
+  leaves_wind_blows = true
+  leaves_fall_speed = 1.0
+  leaves_scale = 1.0
+  leaves_color_start_hex = #7BA84F
+  leaves_color_end_hex = #D58A3B
+}
+
+decoration_overlay {
+  overlay_type = confetti
+  instance_identifier = 4813a646-8f11-417c-a539-f7da4a37a9a2-1781810693545
+  show_decoration_overlay = false
+  confetti_scale = 1.0
+  confetti_fall_speed = 1.0
+  confetti_burst_density = 1.0
+  confetti_burst_amount = 1.0
+  confetti_particle_cap = 500
+  confetti_color_mix_mode = true
+  confetti_mouse_click_mode = false
+  confetti_color_hex = #FFFFFF
 }
 
 customization {
@@ -45,22 +351,97 @@ layout_action_executable_blocks {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/desecrated_title.png
-  repeat_texture = false
-  nine_slice_texture = false
-  nine_slice_texture_border_x = 5
-  nine_slice_texture_border_y = 5
-  image_tint = #FFFFFF
-  restart_animated_on_menu_load = false
+  element_type = glsl_shader
+  instance_identifier = 74a1e588-9827-4430-9afe-e44c2ebfc51f-1781811447932
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1480
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -136
+  y = -31
+  width = 320
+  height = 180
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = f46a9cfc-3840-4014-a0e1-dc65076ad5cc-1781811447932
+  [loading_requirement_container_meta:f46a9cfc-3840-4014-a0e1-dc65076ad5cc-1781811447932] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = {"placeholder":"guiwidth"}
+  advanced_height = {"placeholder":"guiheight"}
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  inline_shader_source = float hash(vec2 p) { return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453); }%%!serialized_property_newline!%%float noise(vec2 p) {%%!serialized_property_newline!%%    vec2 i = floor(p), f = fract(p);%%!serialized_property_newline!%%    f = f * f * (3.0 - 2.0 * f);%%!serialized_property_newline!%%    return mix(mix(hash(i), hash(i + vec2(1.0, 0.0)), f.x),%%!serialized_property_newline!%%               mix(hash(i + vec2(0.0, 1.0)), hash(i + vec2(1.0, 1.0)), f.x), f.y);%%!serialized_property_newline!%%}%%!serialized_property_newline!%%float fbm(vec2 p) {%%!serialized_property_newline!%%    float v = 0.0, a = 0.5;%%!serialized_property_newline!%%    for(int i = 0; i < 5; i++) { v += a * noise(p); p *= 2.0; a *= 0.5; }%%!serialized_property_newline!%%    return v;%%!serialized_property_newline!%%}%%!serialized_property_newline!%%%%!serialized_property_newline!%%void mainImage( out vec4 fragColor, in vec2 fragCoord )%%!serialized_property_newline!%%{%%!serialized_property_newline!%%    // Map Shadertoy variables to your original variables%%!serialized_property_newline!%%    vec2 size = iResolution.xy;%%!serialized_property_newline!%%    float time = iTime;%%!serialized_property_newline!%%    vec2 uv = fragCoord / iResolution.xy;%%!serialized_property_newline!%%    %%!serialized_property_newline!%%    // Shadertoy doesn't have scroll/zoom uniforms by default, using placeholders%%!serialized_property_newline!%%    vec2 scrollOffset = vec2(0.0);%%!serialized_property_newline!%%    vec2 scrollSize = vec2(0.0);%%!serialized_property_newline!%%    float zoom = 16.0;%%!serialized_property_newline!%%%%!serialized_property_newline!%%    vec2 aspect = vec2(size.x / size.y, 1.0);%%!serialized_property_newline!%%    vec2 uvAspect = uv * aspect;%%!serialized_property_newline!%%    vec2 center = aspect / 2.0;%%!serialized_property_newline!%%%%!serialized_property_newline!%%    vec2 scrollPos = vec2(0.0);%%!serialized_property_newline!%%    if(scrollSize.x > 0.0) scrollPos.x = scrollOffset.x / scrollSize.x;%%!serialized_property_newline!%%    if(scrollSize.y > 0.0) scrollPos.y = scrollOffset.y / scrollSize.y;%%!serialized_property_newline!%%    float zoomF = zoom / 16.0;%%!serialized_property_newline!%%    vec2 vUV = (uvAspect - center) / zoomF + center;%%!serialized_property_newline!%%%%!serialized_property_newline!%%    // Base dark%%!serialized_property_newline!%%    vec3 col = vec3(0.012, 0.0, 0.018);%%!serialized_property_newline!%%%%!serialized_property_newline!%%    // Fog%%!serialized_property_newline!%%    vec2 fogUV = vUV * 1.0 + scrollPos * 0.03 + time * 0.015;%%!serialized_property_newline!%%    float fog = fbm(fogUV + vec2(time * 0.03, -time * 0.05)) * 0.45 +%%!serialized_property_newline!%%                fbm(fogUV * 1.5 - vec2(0.0, time * 0.08)) * 0.25;%%!serialized_property_newline!%%    fog *= 0.75;%%!serialized_property_newline!%%    vec3 fogColor = vec3(0.42, 0.05, 0.08);%%!serialized_property_newline!%%    col += fogColor * fog * (1.0 - smoothstep(0.7, 2.2, length(vUV - center)));%%!serialized_property_newline!%%%%!serialized_property_newline!%%    // Mist%%!serialized_property_newline!%%    vec2 mistUV = vUV * 2.8 + scrollPos * 0.12 + time * 0.11;%%!serialized_property_newline!%%    float mist = fbm(mistUV + vec2(time * 0.12, -time * 0.18)) * 0.35 +%%!serialized_property_newline!%%                 fbm(mistUV * 3.2 - vec2(0.0, time * 0.22)) * 0.20;%%!serialized_property_newline!%%    mist *= 0.55;%%!serialized_property_newline!%%    vec3 mistColor = vec3(0.68, 0.12, 0.18);%%!serialized_property_newline!%%    col += mistColor * mist * (1.0 - smoothstep(0.4, 1.4, length(vUV - center)));%%!serialized_property_newline!%%%%!serialized_property_newline!%%    // Vignette%%!serialized_property_newline!%%    float vignette = smoothstep(0.5, 1.6, length(vUV - center));%%!serialized_property_newline!%%    col *= 1.0 - vignette * 0.60;%%!serialized_property_newline!%%    %%!serialized_property_newline!%%    // Subtle grain%%!serialized_property_newline!%%    float grain = noise(uv * size * 0.01 + time) * 0.012;%%!serialized_property_newline!%%    col += vec3(grain);%%!serialized_property_newline!%%%%!serialized_property_newline!%%    fragColor = vec4(col, 1.0);%%!serialized_property_newline!%%}
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+element {
   element_type = image
   instance_identifier = 1f2118a3-d408-4b05-84ce-22a4d5afc90a-1776028128567
   appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
+  disappearance_delay = no_delay
   fade_in_v2 = no_fading
-  fade_in_speed = 1.0
   fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1480
@@ -70,34 +451,59 @@ element {
   y = -72
   width = 180
   height = 100
-  stretch_x = false
-  stretch_y = false
   stay_on_screen = true
   element_loading_requirement_container_identifier = 2825d0be-83bf-4fcd-a6bb-0afe336643c7-1776028128567
   [loading_requirement_container_meta:2825d0be-83bf-4fcd-a6bb-0afe336643c7-1776028128567] = [groups:][instances:]
   enable_parallax = false
-  parallax_intensity_v2 = 0.5
   invert_parallax = false
   animated_offset_x = 0
   animated_offset_y = 0
   load_once_per_session = false
-  in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
   advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
   advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  source = [source:local]/config/fancymenu/assets/desecrated_title.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
+  rounding_radius_top_left = 0.0
+  rounding_radius_top_right = 0.0
+  rounding_radius_bottom_right = 0.0
+  rounding_radius_bottom_left = 0.0
 }
 
 vanilla_button {
   button_element_executable_block_identifier = 449b148c-6cca-4f4f-ab91-3203b0962a50-1752351809716
   [executable_block:449b148c-6cca-4f4f-ab91-3203b0962a50-1752351809716][type:generic] = [executables:]
+  underline_label_on_hover = false
+  transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
   navigatable = true
   widget_active_state_requirement_container_identifier = f4063f5c-394a-45ea-966f-bf94c36d46f6-1752351809716
   [loading_requirement_container_meta:f4063f5c-394a-45ea-966f-bf94c36d46f6-1752351809716] = [groups:][instances:]
@@ -111,17 +517,12 @@ vanilla_button {
   template_apply_label = false
   template_share_with = buttons
   nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
   element_type = vanilla_button
   instance_identifier = mojang_logo
   appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
+  disappearance_delay = no_delay
   fade_in_v2 = no_fading
-  fade_in_speed = 1.0
   fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 2562
   auto_sizing_base_screen_height = 1476
@@ -131,36 +532,56 @@ vanilla_button {
   y = 111
   width = 296
   height = 74
-  stretch_x = false
-  stretch_y = false
   stay_on_screen = true
   element_loading_requirement_container_identifier = af344acf-a35c-4638-a160-c34f153fabf9-1752351809716
   [loading_requirement_container_meta:af344acf-a35c-4638-a160-c34f153fabf9-1752351809716] = [groups:][instances:]
   enable_parallax = false
-  parallax_intensity_v2 = 0.5
   invert_parallax = false
   animated_offset_x = 0
   animated_offset_y = 0
   load_once_per_session = false
-  in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
   advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
   advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
-  is_hidden = true
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
+  is_hidden = true
 }
 
 vanilla_button {
   button_element_executable_block_identifier = 37076b2c-8c9a-4caf-b2b5-9fc8885459a2-1752351809716
   [executable_block:37076b2c-8c9a-4caf-b2b5-9fc8885459a2-1752351809716][type:generic] = [executables:]
+  underline_label_on_hover = false
+  transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
   navigatable = true
   widget_active_state_requirement_container_identifier = 19253131-0051-408b-b1d3-9160412b8664-1752351809716
   [loading_requirement_container_meta:19253131-0051-408b-b1d3-9160412b8664-1752351809716] = [groups:][instances:]
@@ -174,17 +595,12 @@ vanilla_button {
   template_apply_label = false
   template_share_with = buttons
   nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
   element_type = vanilla_button
   instance_identifier = progress_bar
   appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
+  disappearance_delay = no_delay
   fade_in_v2 = no_fading
-  fade_in_speed = 1.0
   fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1480
@@ -194,26 +610,46 @@ vanilla_button {
   y = 241
   width = 296
   height = 10
-  stretch_x = false
-  stretch_y = false
   stay_on_screen = true
   element_loading_requirement_container_identifier = ef31f282-93fb-4c2b-b525-a1955740affa-1752351809716
   [loading_requirement_container_meta:ef31f282-93fb-4c2b-b525-a1955740affa-1752351809716] = [groups:][instances:]
   enable_parallax = false
-  parallax_intensity_v2 = 0.5
   invert_parallax = false
   animated_offset_x = 0
   animated_offset_y = 0
   load_once_per_session = false
-  in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
   advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
   advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
-  is_hidden = false
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
+  is_hidden = false
 }
 

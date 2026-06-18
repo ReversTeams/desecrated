@@ -29,5 +29,5 @@
 	endShader = "Mellow Shader v1.5.5a.zip"
 	#List of dimension=shader mappings. Example: minecraft:overworld=None
 	#Use 'None' to indicate no shader for that dimension.
-	dimensionShaderList = ["bloodmagic:dungeon=Mellow Shader v3.1.zip", "bloodyhell:soul_dimension=Disable Shaders", "perdition:dis=Mellow Shader v3.1.zip", "minecraft:overworld=None", "thedulling:lost_interfold=None", "thedulling:heart_of_the_dulling=None", "reverseeon:island_dim=None", "fracture:boreas_dimension=None", "perdition:purgatory=None", "thedulling:yvxzlight=None", "minecraft:the_end=None"]
+	dimensionShaderList = ["bloodmagic:dungeon=Mellow Shader v3.1.zip", "bloodyhell:soul_dimension=Disable Shaders", "perdition:dis=Mellow Shader v3.1.zip", "minecraft:overworld=None", "fracture:boreas_dimension=None", "reverseeon:island_dim=None", "minecraft:the_end=None", "thedulling:yvxzlight=None", "perdition:purgatory=None", "thedulling:heart_of_the_dulling=None", "thedulling:lost_interfold=None"]
 

@@ -296,7 +296,7 @@
 		#Range: 0.0 ~ 100.0
 		vampireSwordBloodUsageFactor = 0.5
 		#Whether creepers should ignore vampires
-		creeperIgnoreVampire = true
+		creeperIgnoreVampire = false
 		#Whether special crossbow arrows (e.g. spitfire) can be used with infinity enchantment
 		allowInfiniteSpecialArrows = false
 		#Delay in seconds before a newly placed garlic diffuser becomes active. *0.25 in Singleplayer
