@@ -5,7 +5,7 @@ overridden_screens {
 
 custom_gui {
   identifier = concatenation_credits
-  title = Concatenation Credits
+  title = Desecrated Credits
   allow_esc = true
   transparent_world_background = false
   transparent_world_background_overlay = false

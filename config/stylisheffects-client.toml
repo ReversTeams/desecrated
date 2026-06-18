@@ -3,7 +3,7 @@
 
 	[renderers.inventory_renderer]
 		#Prevent status effects with infinite duration from showing.
-		hide_infinite_effects = false
+		hide_infinite_effects = true
 		#Show a tooltip when hovering over an effect widget.
 		hovering_tooltip = true
 		#Minimum screen border distance for effect widgets.
