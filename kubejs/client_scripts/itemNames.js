@@ -7,4 +7,8 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('sons_of_sins:bloody_bone', 'Sinful Bone');
   event.renameItem('butchery:bottle_of_blood', 'Bottle of Raw Blood');
   event.renameItem('sons_of_sins:heart', 'Fleshy Heart');
+  event.renameItem('butchery:iron_skinning_knife', 'Iron Knife');
+  event.renameItem('butchery:gold_skinning_knife', 'Gold Knife');
+  event.renameItem('butchery:diamond_skinning_knife', 'Diamond Knife');
+  event.renameItem('butchery:netherite_skinning_knife', 'Netherite Knife');
 })

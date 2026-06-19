@@ -9,15 +9,15 @@ TBD
 
 ## Technical Requirements  
 - Minecraft version: **1.20.1**
-- Mod loader: **Forge**
+- Mod loader: **Forge 47.4.10**
 - Recommended RAM allocation: **4-12 GB** (depending on system specs). On lower-spec computers you may want to lower graphical settings or disable shaders.
 
 ## Installation  
 1. Ensure you have Minecraft 1.20.1 installed.  
-2. Using the CurseForge launcher, Technic launcher or another mod-pack compatible launcher, install “Concatenation”.  
+2. Using the CurseForge launcher, Technic launcher or another mod-pack compatible launcher, install Desecrated.  
 3. Allocate sufficient RAM (4-12 GB recommended).  
 4. (Optional) For server installation — use the server pack version: *concatenation-server-1.2.2.zip*.
-5. Launch the game and select your starting pathway.  
+5. Launch the game.
 
 ## Community & Support  
 - Join the community Discord: [https://discord.com/invite/TJKZgr6UDg](https://discord.com/invite/TJKZgr6UDg)

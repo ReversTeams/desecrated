@@ -4,8 +4,9 @@
   "default_packs": [
     "file/Stay_True_1.20.zip",
     "file/staytrue1.20.1.zip",
-    "file/GEO - ST - v1.4.0.zip",
-    "file/Stay_True_Amendment.zip"
+    "file/Stay_True_Amendment.zip",
+    "file/Fresh Vampirism Pack V1.4.zip",
+    "file/Better_hunters_2.zip"
   ],
   "default_overrides": {
     "force_compatible": true

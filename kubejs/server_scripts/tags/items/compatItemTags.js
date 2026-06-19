@@ -49,10 +49,51 @@ ServerEvents.tags('item', event => {
     add('forge:blood_bucket', [
         'fracture:blood_bucket',
         'desecratedcore:blood_bucket',
-        'butchery:blood_bucket',
+        //'butchery:blood_bucket',
         'neepmeat:blood_bucket',
         'bloodyhell:blood_bucket',
         'vampirism:blood_bucket'
+    ]);
+
+    add('forge:furnaces', [
+        'minecraft:furnace',
+        'quark:blackstone_furnace',
+        'quark:deepslate_furnace'
+    ]);
+
+    add('forge:knives/iron', [
+        'butchery:iron_skinning_knife',
+        'farmersdelight:iron_knife'
+    ]);
+
+    add('forge:knives/gold', [
+        'butchery:gold_skinning_knife',
+        'farmersdelight:gold_knife'
+    ]);
+
+    add('forge:knives/diamond', [
+        'butchery:diamond_skinning_knife',
+        'farmersdelight:diamond_knife'
+    ]);
+
+    add('forge:knives/netherite', [
+        'butchery:netherite_skinning_knife',
+        'farmersdelight:netherite_knife'
+    ]);
+
+    add('forge:dragon_scale', [
+        'quark:dragon_scale',
+        'butchery:dragon_scale'
+    ]);
+
+    add('lychee:lightning_immune', [
+        'desecratedcore:forbidden_knowledge',
+        'bloodyhell:forbidden_bookshelf_block'
+    ]);
+
+    add('lychee:fire_immune', [
+        'desecratedcore:forbidden_knowledge',
+        'bloodyhell:forbidden_bookshelf_block'
     ]);
 
     add('biomancy:raw_meats', [

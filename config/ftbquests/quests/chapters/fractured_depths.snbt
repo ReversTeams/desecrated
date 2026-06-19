@@ -121,17 +121,6 @@
 			y: -4.0d
 		}
 		{
-			entity_vis_size: 1.0f
-			id: "7E76C7368365FAD4"
-			tasks: [{
-				id: "5247AA6ACF39DBB0"
-				item: "reverseeon:dimension_portal"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["675440487ADE64B0"]
 			entity_vis_size: 1.0f
 			id: "53261D133D9CC741"
@@ -240,6 +229,18 @@
 			}]
 			x: 3.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["31E181386233E8D5"]
+			entity_vis_size: 1.0f
+			id: "2EA28FC0B670E695"
+			tasks: [{
+				id: "7DD44508CEDF00BD"
+				item: "fracture:parasitic_ring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
 		}
 	]
 	title: "Fractured Depths"
