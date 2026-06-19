@@ -3,11 +3,11 @@
 [general]
 	#The CurseForge project ID for the modpack
 	#Range: > 0
-	modpackProjectID = 982024
+	modpackProjectID = 1489886
 	#The name of the modpack
-	modpackName = "Concatenation"
+	modpackName = "Desecrated"
 	#The version of the modpack
-	modpackVersion = "1.4.4"
+	modpackVersion = "0.0.1"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

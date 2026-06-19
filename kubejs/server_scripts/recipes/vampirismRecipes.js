@@ -1,3 +1,6 @@
+//priority: 200
+// Recipes
+
 ServerEvents.recipes(event => {
 
         const remove = [

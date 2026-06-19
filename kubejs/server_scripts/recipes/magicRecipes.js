@@ -1,3 +1,6 @@
+//priority: 200
+// Recipes
+
 ServerEvents.recipes(event => {
 
     const remove = [
@@ -8,7 +11,11 @@ ServerEvents.recipes(event => {
         'biomancy:primordial_cradle',
         'biomancy:bio_forge',
         'bloodyhell:chalice_of_the_dammed',
-        'bloodyhell:sanguinite_blood_harvester_item'
+        'bloodyhell:sanguinite_blood_harvester_item',
+        'concatenatedadditionsartefacts:protection_charm',
+        'bloodyhell:main_blood_altar',
+        'bloodyhell:unknown_portal_item',
+        'bloodyhell:blasphemite'
     ]
 
     const removeCraftingShaped = [
@@ -29,6 +36,18 @@ ServerEvents.recipes(event => {
     // removeCraftingShapeless.forEach(item => {
     //     event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
     // })
+
+    // General
+
+    event.shapeless(
+        Item.of('concatenatedadditionsartefacts:protection_charm'),
+        [
+            'minecraft:paper',
+            'sons_of_sins:ether_ashes',
+            'minecraft:ink_sac',
+            'minecraft:red_dye'
+        ]
+    )
 
     // Sons of Sin
 
@@ -120,17 +139,63 @@ ServerEvents.recipes(event => {
     // Bloody Hell
 
     event.shaped(
-    Item.of('bloodyhell:sanguinite_blood_harvester_item'),
-    [
-        'ABA',
-        'CDC',
-        'ABA'
-    ],
-    {
-        A: 'minecraft:gold_ingot',
-        B: 'bloodyhell:sanguinite',
-        C: 'bloodyhell:rootlet_powder',
-        D: 'bloodyhell:bleeding_block'
-    }
-)
+        Item.of('bloodyhell:sanguinite_blood_harvester_item'),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'bloodyhell:sanguinite',
+            C: 'bloodyhell:rootlet_powder',
+            D: 'bloodyhell:bleeding_block'
+        }
+    )
+
+    event.shaped(
+        Item.of('bloodyhell:main_blood_altar'),
+        [
+            'ABA',
+            'CDC',
+            'EFE'
+        ],
+        {
+            E: 'bloodyhell:stripped_soul_log',
+            D: 'bloodyhell:corrupted_blood_flask',
+            A: 'concatenatedadditionstools:glowing_gold',
+            C: 'bloodyhell:sanguinite_block',
+            F: 'bloodyhell:rhnull_block',
+            B: 'bloodyhell:great_ancient_rhnull_gem'
+        }
+    )
+
+    event.shaped(
+        Item.of('bloodyhell:unknown_portal_item'),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            D: 'desecratedcore:forbidden_knowledge',
+            C: 'bloodyhell:unknown_entity_finger',
+            A: 'bloodyhell:rhnull_block',
+            B: 'bloodyhell:rhnull_tank'
+        }
+    )
+
+    event.custom({
+        type: "bloodyhell:condensing",
+        fluid_input: {
+            "amount": 1000,
+            "fluid": "bloodyhell:viscous_blasphemy_source"
+        },
+        item_input: {
+            "item": "bloodyhell:raw_blasphemite"
+        },
+        output: {
+            "item": "bloodyhell:blasphemite"
+        }
+    });
 });

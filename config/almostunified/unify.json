@@ -24,10 +24,13 @@
     "vampirism",
     "bloodyhell",
     "reliquary",
+    "hexalia",
     "butchery",
+    "farmersdelight",
     "neepmeat",
     "sons_of_sins",
     "fracture",
+    "quark",
     "philipsruins"
   ],
   "stoneStrata": [
@@ -58,7 +61,13 @@
     "concatenation:crafting_station",
     "forge:sculk_bone",
     "forge:zombie_heart",
-    "forge:blood_bucket"
+    "forge:blood_bucket",
+    "forge:knives/iron",
+    "forge:knives/gold",
+    "forge:knives/diamond",
+    "forge:knives/netherite",
+    "forge:dragon_scale",
+    "forge:salt"
   ],
   "materials": [
     "aeternium",

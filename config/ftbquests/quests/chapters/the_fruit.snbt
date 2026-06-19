@@ -1,11 +1,126 @@
 {
+	autofocus_id: "7E76C7368365FAD4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_fruit"
 	group: "511EB53C58AD34AE"
+	icon: "desecratedcore:knowledge_fruit"
 	id: "24EF1187AC6BC831"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "7E76C7368365FAD4"
+			invisible: true
+			tasks: [{
+				id: "5247AA6ACF39DBB0"
+				item: "reverseeon:dimension_portal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E76C7368365FAD4"]
+			entity_vis_size: 1.0f
+			id: "0AA4D0CCC184FAB7"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4B00001676E06534"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0AA4D0CCC184FAB7"]
+			entity_vis_size: 1.0f
+			id: "6C5E0B16261EB864"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "60EB9ECB9F8A88EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C5E0B16261EB864"]
+			entity_vis_size: 1.0f
+			id: "5B090F8DAAB074FE"
+			tasks: [{
+				id: "3765B173FE21E2A9"
+				item: "butchery:dragon_scale"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B090F8DAAB074FE"]
+			entity_vis_size: 1.0f
+			id: "3FD17D2E25CAEF02"
+			tasks: [
+				{
+					id: "4D4B88DD6A9C08B8"
+					item: {
+						Count: 1
+						id: "butchery:dragon_scale_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "734DC7AC54FBD9C1"
+					item: {
+						Count: 1
+						id: "butchery:dragon_scale_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C05E7F89B989A04"
+					item: {
+						Count: 1
+						id: "butchery:dragon_scale_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19412B1FB77C4E3D"
+					item: {
+						Count: 1
+						id: "butchery:dragon_scale_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+	]
 	title: "The Fruit"
 }

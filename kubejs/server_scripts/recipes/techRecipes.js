@@ -1,18 +1,36 @@
+//priority: 200
+// Recipes
+
 ServerEvents.recipes(event => {
 
     const remove = [
         'neepmeat:sacrificial_dagger',
         'neepmeat:projector',
         'neepmeat:asbestos',
-        'neepmeat:grinders',
+        'neepmeat:grinder',
         'neepmeat:stirling_engine',
         'neepmeat:fluid_buffer',
         'neepmeat:small_compressor',
-        'neepmeat:drill_chassis'
+        'neepmeat:drill_chassis',
+        'meatweapons:basic_pistol'
+    ]
+
+    const removeCraftingShaped = [
+        'neepmeat:refractory_brick'
+    ]
+
+    const removeCraftingShapeless = [
+        'neepmeat:refractory_brick'
     ]
 
     remove.forEach(item => {
         event.remove({ output: item })
+    })
+    removeCraftingShaped.forEach(item => {
+        event.remove({ output: item, type: 'minecraft:crafting_shaped' })
+    })
+    removeCraftingShapeless.forEach(item => {
+        event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
     })
 
     // Butchery
@@ -89,7 +107,7 @@ ServerEvents.recipes(event => {
             'BBB'
         ],
         {
-            C: 'minecraft:glass',
+            C: '#forge:glass',
             A: 'minecraft:iron_ingot',
             B: 'minecraft:copper_ingot'
         }
@@ -161,6 +179,23 @@ ServerEvents.recipes(event => {
         {
             B: 'minecraft:clay_ball',
             A: 'neepmeat:asbestos'
+        }
+    )
+    event.shaped(
+        Item.of('meatweapons:basic_pistol'),
+        [
+            'ABA',
+            'CDE',
+            'FG '
+        ],
+        {
+            E: 'meatweapons:iron_barrel',
+            D: 'butchery:lungs',
+            B: 'butchery:heart',
+            A: 'neepmeat:raw_meat_brick',
+            C: 'butchery:stomach',
+            F: 'butchery:wishbone',
+            G: 'butchery:intestines'
         }
     )
 

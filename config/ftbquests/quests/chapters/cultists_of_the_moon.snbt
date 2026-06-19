@@ -1,6 +1,5 @@
 {
-	always_invisible: true
-	autofocus_id: "068DF533DB041F37"
+	autofocus_id: "5D06B3DA89CB0B2E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cultists_of_the_moon"
@@ -15,9 +14,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["24F94D88BBD152DF"]
+			dependencies: ["585D9482FF0C3669"]
 			description: ["Compel the lifeforce out of your veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."]
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "068DF533DB041F37"
 			rewards: [
 				{
@@ -966,7 +966,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7947672BF3364758"]
 			entity_vis_size: 1.0f
 			id: "24F94D88BBD152DF"
 			tasks: [{
@@ -974,8 +973,8 @@
 				item: "desecratedcore:moon_key_item"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -992,7 +991,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -1010,8 +1009,112 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24F94D88BBD152DF"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "31D128CA9B959085"
+			tasks: [
+				{
+					id: "14827DF920182D05"
+					item: "perdition:marmor_elevated"
+					type: "item"
+				}
+				{
+					id: "65C6CEC5A128D02B"
+					item: {
+						Count: 1
+						id: "perdition:dis"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2F27E02457BCBE92"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0D9BE8A704ED8BB4"
+			tasks: [
+				{
+					id: "2903B1CE5D382518"
+					item: "perdition:dis_gem"
+					type: "item"
+				}
+				{
+					id: "3A06CBFD90A74158"
+					item: "perdition:cut_dis_gem"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0D9BE8A704ED8BB4"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "5D06B3DA89CB0B2E"
+			tasks: [{
+				id: "004A83AA325509BC"
+				item: {
+					Count: 1
+					id: "perdition:halcyon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["19CD7CA150532811"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "585D9482FF0C3669"
+			tasks: [{
+				id: "408228206A22A454"
+				item: "perdition:pyrite"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D06B3DA89CB0B2E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "19CD7CA150532811"
+			tasks: [{
+				dimension: "perdition:purgatory"
+				id: "50B8E170985B1E51"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31D128CA9B959085"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "2F27E02457BCBE92"
+			tasks: [{
+				dimension: "perdition:dis"
+				id: "543BA042D0B534A5"
+				type: "dimension"
+			}]
+			x: -7.0d
+			y: 7.5d
 		}
 	]
 	title: "Cultists of the Moon"

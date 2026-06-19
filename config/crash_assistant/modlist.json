@@ -325,13 +325,13 @@
     "curseForgeHash": 4160167965,
     "modrinthHash": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50"
   },
-  "civilis_magic-1.0.0-universal-1.20.1.jar": {
-    "jarName": "civilis_magic-1.0.0-universal-1.20.1.jar",
+  "civilis_magic-1.0.1-universal-1.20.1.jar": {
+    "jarName": "civilis_magic-1.0.1-universal-1.20.1.jar",
     "modId": "civilis_magic",
     "name": "Civilis Magic",
-    "version": "1.0.0",
-    "curseForgeHash": 1716123814,
-    "modrinthHash": "5eb1fe904e68034e90ca19d4bdc73b08b1f573ad"
+    "version": "1.0.1",
+    "curseForgeHash": 1505066646,
+    "modrinthHash": "2b42f5b6f52dbd176719dee906bdcd1857bd843d"
   },
   "civillis-forge-2.0.0-release+mc1.20.1.jar": {
     "jarName": "civillis-forge-2.0.0-release+mc1.20.1.jar",
@@ -405,13 +405,13 @@
     "curseForgeHash": 3246400390,
     "modrinthHash": "607bbb82656d28ddfaa5ef2ec6e9c413859f5956"
   },
-  "collective-1.20.1-8.27.jar": {
-    "jarName": "collective-1.20.1-8.27.jar",
+  "collective-1.20.1-8.29.jar": {
+    "jarName": "collective-1.20.1-8.29.jar",
     "modId": "collective",
     "name": "Collective",
-    "version": "8.27",
-    "curseForgeHash": 2875544701,
-    "modrinthHash": "2639ab1efe48621a380146bc26d8f3783e6e4f8f"
+    "version": "8.29",
+    "curseForgeHash": 229901968,
+    "modrinthHash": "eb3efd187a9b1ad4c8d52000e4794e5c7b7ff6ea"
   },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "jarName": "comforts-forge-6.4.0+1.20.1.jar",
@@ -802,13 +802,13 @@
     "curseForgeHash": 3918164268,
     "modrinthHash": "43b3e0766a9e7a30651cc01756476657b865b7a2"
   },
-  "dynamicwaters-9.0.0.jar": {
-    "jarName": "dynamicwaters-9.0.0.jar",
+  "dynamicwaters-9.1.0.jar": {
+    "jarName": "dynamicwaters-9.1.0.jar",
     "modId": "dynamicwaters",
     "name": "Dynamic Waters",
-    "version": "9.0.0",
-    "curseForgeHash": 1954990459,
-    "modrinthHash": "221221db7ff08f420e9dd1ae0f9f4dc1e2b9bb5a"
+    "version": "9.1.0",
+    "curseForgeHash": 2746034782,
+    "modrinthHash": "7c5b6cd9ead00f6339cc675bdfe295ad07be61fd"
   },
   "e4mc-forge-6.1.2.jar": {
     "jarName": "e4mc-forge-6.1.2.jar",
@@ -922,13 +922,13 @@
     "curseForgeHash": 3823591384,
     "modrinthHash": "69f2852413f70615a0a62aa9088eeab49ec13b8f"
   },
-  "entityculling-forge-1.10.3-mc1.20.1.jar": {
-    "jarName": "entityculling-forge-1.10.3-mc1.20.1.jar",
+  "entityculling-forge-1.10.4-mc1.20.1.jar": {
+    "jarName": "entityculling-forge-1.10.4-mc1.20.1.jar",
     "modId": "entityculling",
     "name": "EntityCulling",
-    "version": "1.10.3",
-    "curseForgeHash": 628703159,
-    "modrinthHash": "7bd56a40abfb2a9633e3e145ef79b9851163fe15"
+    "version": "1.10.4",
+    "curseForgeHash": 949433711,
+    "modrinthHash": "18dc9205922f820c265b96076bd417837715d73e"
   },
   "experimentalist-2.0.3+1.20.x-forge.jar": {
     "jarName": "experimentalist-2.0.3+1.20.x-forge.jar",
@@ -1026,13 +1026,13 @@
     "curseForgeHash": 3307598168,
     "modrinthHash": "2b874f1086ba8b0db1fe2cead9308decfb331517"
   },
-  "fracture-0.3.1.jar": {
-    "jarName": "fracture-0.3.1.jar",
+  "fracture-0.3.3.jar": {
+    "jarName": "fracture-0.3.3.jar",
     "modId": "fracture",
     "name": "Fracture",
-    "version": "0.3.1",
-    "curseForgeHash": 3494366249,
-    "modrinthHash": "2d7da05e9a9af3867052e049b3016dba208fc1c2"
+    "version": "0.3.3",
+    "curseForgeHash": 1312715743,
+    "modrinthHash": "48944a54593b137c2aae8e581a1c9971abfc5493"
   },
   "framework-forge-1.20.1-0.8.0.jar": {
     "jarName": "framework-forge-1.20.1-0.8.0.jar",
@@ -1671,6 +1671,14 @@
     "curseForgeHash": 2891672819,
     "modrinthHash": "c92d6d7cf2ffa333d64752edcde2b3c5a3e6edab"
   },
+  "naturalsizes-1.1-forge-1.20.1.jar": {
+    "jarName": "naturalsizes-1.1-forge-1.20.1.jar",
+    "modId": "naturalsizes",
+    "name": "NaturalSizes",
+    "version": "1.1",
+    "curseForgeHash": 1355497651,
+    "modrinthHash": "be27161cce2cf44be5fa765fe030cff863e69b6f"
+  },
   "NaturesCompass-1.20.1-1.12.0-forge.jar": {
     "jarName": "NaturesCompass-1.20.1-1.12.0-forge.jar",
     "modId": "naturescompass",
@@ -1727,13 +1735,13 @@
     "curseForgeHash": 1367373369,
     "modrinthHash": "c0806369f4257149664904db44efc60bd1785c17"
   },
-  "notenoughanimations-forge-1.12.3-mc1.20.1.jar": {
-    "jarName": "notenoughanimations-forge-1.12.3-mc1.20.1.jar",
+  "notenoughanimations-forge-1.12.4-mc1.20.1.jar": {
+    "jarName": "notenoughanimations-forge-1.12.4-mc1.20.1.jar",
     "modId": "notenoughanimations",
     "name": "NotEnoughAnimations",
-    "version": "1.12.3",
-    "curseForgeHash": 512822048,
-    "modrinthHash": "95ee4f40cd30147ec1cd7f598f4635aa3f76bd2d"
+    "version": "1.12.4",
+    "curseForgeHash": 4178741651,
+    "modrinthHash": "71484079011f71a37d913b491828412992fd8314"
   },
   "notenoughcrashes-4.4.9+1.20.1-forge.jar": {
     "jarName": "notenoughcrashes-4.4.9+1.20.1-forge.jar",
@@ -1831,13 +1839,13 @@
     "curseForgeHash": 424014291,
     "modrinthHash": "b26b77048f496e53174562aaee9d1ad1cd5a145b"
   },
-  "particular-1.20.1-Forge-1.5.4.jar": {
-    "jarName": "particular-1.20.1-Forge-1.5.4.jar",
+  "particular-1.20.1-Forge-1.5.5.jar": {
+    "jarName": "particular-1.20.1-Forge-1.5.5.jar",
     "modId": "particular",
     "name": "Particular Reforged",
-    "version": "1.5.4",
-    "curseForgeHash": 2016091420,
-    "modrinthHash": "480202bd8b42fed36c754d415b0e6a3204cea4f6"
+    "version": "1.5.5",
+    "curseForgeHash": 2366778636,
+    "modrinthHash": "e3017bc0fda90f90cf55c96fa020b52420d8c80e"
   },
   "Patchouli-1.20.1-85-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-85-FORGE.jar",
@@ -2127,13 +2135,13 @@
     "curseForgeHash": 296624925,
     "modrinthHash": "38b3537868d9ca5f4c19a2297169e92b66b0bb14"
   },
-  "skinlayers3d-forge-1.11.1-mc1.20.1.jar": {
-    "jarName": "skinlayers3d-forge-1.11.1-mc1.20.1.jar",
+  "skinlayers3d-forge-1.11.2-mc1.20.1.jar": {
+    "jarName": "skinlayers3d-forge-1.11.2-mc1.20.1.jar",
     "modId": "skinlayers3d",
     "name": "3d-Skin-Layers",
-    "version": "1.11.1",
-    "curseForgeHash": 1562058472,
-    "modrinthHash": "b64ccb25ebe4cb7b09d1dd4561dbc519d5f02382"
+    "version": "1.11.2",
+    "curseForgeHash": 714373265,
+    "modrinthHash": "473b49e775f4c9dd746929f20c33f8132b86f235"
   },
   "SmartBrainLib-forge-1.20.1-1.15.jar": {
     "jarName": "SmartBrainLib-forge-1.20.1-1.15.jar",

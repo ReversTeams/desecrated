@@ -27,9 +27,15 @@
 					item: "vampirism:blood_grinder"
 					type: "item"
 				}
+				{
+					id: "3E6F0A7018D2E6B4"
+					item: "vampirism:blood_container"
+					optional_task: true
+					type: "item"
+				}
 			]
-			x: -2.0d
-			y: -5.5d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -64,8 +70,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -3.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -103,8 +109,8 @@
 				item: "butchery:meat_grinder"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.5d
+			x: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -116,8 +122,8 @@
 				item: "butchery:blood_grate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: -2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -128,8 +134,8 @@
 				item: "butchery:skin_rack"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7522632161D258AA"]
@@ -140,8 +146,8 @@
 				item: "butchery:pestle_and_mortar"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7522632161D258AA"]
@@ -199,8 +205,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -3.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -273,8 +279,8 @@
 				type: "item"
 			}]
 			title: "Cleaver"
-			x: -1.0d
-			y: -1.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
@@ -293,8 +299,8 @@
 				type: "item"
 			}]
 			title: "Carcasses"
-			x: -2.0d
-			y: -2.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -318,8 +324,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -10.5d
+			x: -1.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["34B4063F2F210048"]
@@ -356,8 +362,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -7.0d
+			x: -2.0d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -367,8 +373,8 @@
 				item: "neepmeat:stirling_engine"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -7.0d
+			x: -9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
@@ -465,8 +471,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: -10.5d
+			x: -9.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["5C5A1D9906886DF4"]
@@ -477,8 +483,8 @@
 				item: "neepmeat:small_compressor"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.5d
+			x: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
@@ -489,8 +495,8 @@
 				item: "neepmeat:small_compressor_minecart"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -8.5d
+			x: -12.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
@@ -517,8 +523,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: -8.5d
+			x: -13.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
@@ -541,8 +547,8 @@
 				to_observe: "neepmeat:verrucous_stone_port"
 				type: "observation"
 			}]
-			x: -3.0d
-			y: -10.5d
+			x: -4.0d
+			y: -12.5d
 		}
 		{
 			dependencies: [
@@ -556,8 +562,8 @@
 				item: "neepmeat:grinder"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -7.0d
+			x: -6.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["294DE0759A56CB6A"]
@@ -568,8 +574,8 @@
 				item: "neepmeat:meat_scrap"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -9.5d
+			x: -6.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["535BD56C924E99EE"]
@@ -580,8 +586,8 @@
 				item: "neepmeat:raw_meat_brick"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -11.0d
+			x: -5.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
@@ -592,8 +598,8 @@
 				item: "neepmeat:alloy_kiln"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -13.5d
+			x: -5.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
@@ -607,8 +613,8 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -13.0d
+			x: -3.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3A286E459CE15CB2"]
@@ -619,8 +625,8 @@
 				item: "neepmeat:refractory_brick"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -13.0d
+			x: -7.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["35FEBF6CDC4E4DA9"]
@@ -631,8 +637,8 @@
 				item: "neepmeat:asbestos"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -11.5d
+			x: -8.0d
+			y: -13.5d
 		}
 		{
 			dependencies: [
@@ -646,8 +652,8 @@
 				item: "neepmeat:charnel_compactor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -12.5d
+			x: 0.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["3E79771244634868"]
@@ -658,8 +664,8 @@
 				item: "neepmeat:pedestal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -14.5d
+			x: 0.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["3BC238D73427F68B"]
@@ -671,8 +677,8 @@
 				item: "neepmeat:plc"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -19.5d
+			x: 1.5d
+			y: -21.5d
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
@@ -683,8 +689,8 @@
 				item: "neepmeat:pump"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -10.0d
+			x: -3.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5C5A1D9906886DF4"]
@@ -724,8 +730,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -8.0d
+			x: -4.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
@@ -736,8 +742,8 @@
 				item: "neepmeat:mixer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -18.5d
+			x: -4.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -748,8 +754,8 @@
 				item: "neepmeat:integration_charge_crude"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -17.5d
+			x: 1.0d
+			y: -19.5d
 		}
 		{
 			dependencies: [
@@ -763,8 +769,8 @@
 				item: "neepmeat:whisper_brass_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -17.0d
+			x: -5.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -775,8 +781,8 @@
 				item: "neepmeat:whisper_wheat_seeds"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -16.0d
+			x: -1.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
@@ -829,8 +835,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -20.5d
+			x: -5.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
@@ -848,8 +854,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -22.0d
+			x: -5.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
@@ -868,8 +874,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -21.5d
+			x: -6.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
@@ -880,8 +886,8 @@
 				item: "neepmeat:dumper"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -21.5d
+			x: -3.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["3A286E459CE15CB2"]
@@ -892,8 +898,8 @@
 				item: "neepmeat:asbestos_fabric"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -13.0d
+			x: -9.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["31108DE09C27216B"]
@@ -945,8 +951,8 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
-			y: -14.0d
+			x: -11.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
@@ -957,8 +963,8 @@
 				item: "neepmeat:crucible"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -14.5d
+			x: -8.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
@@ -969,8 +975,8 @@
 				item: "neepmeat:casting_basin"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -14.5d
+			x: -6.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -997,8 +1003,8 @@
 				title: "Any Flesh Circuit"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -16.0d
+			x: 4.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
@@ -1009,8 +1015,8 @@
 				item: "neepmeat:fabricator"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -18.5d
+			x: -6.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["2ED8C90203220E71"]
@@ -1021,8 +1027,8 @@
 				item: "neepmeat:item_mincer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -18.5d
+			x: -1.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
@@ -1045,8 +1051,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -21.0d
+			x: 2.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["187D75D48A04D454"]
@@ -1064,8 +1070,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -11.5d
+			x: -3.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
@@ -1076,8 +1082,8 @@
 				item: "neepmeat:tree_vacuum"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -20.5d
+			x: 0.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["187D75D48A04D454"]
@@ -1088,8 +1094,8 @@
 				item: "neepmeat:large_compressor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -12.0d
+			x: -2.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
@@ -1100,8 +1106,8 @@
 				item: "neepmeat:extractor"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -22.0d
+			x: 0.5d
+			y: -24.0d
 		}
 		{
 			dependencies: [
@@ -1151,8 +1157,8 @@
 				title: "Any Meat Steel Tool"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -15.0d
+			x: -3.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
@@ -1163,8 +1169,8 @@
 				item: "meatweapons:tinker_table"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -14.5d
+			x: 7.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
@@ -1176,8 +1182,8 @@
 				item: "meatweapons:airtruck"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -19.5d
+			x: 3.0d
+			y: -21.5d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -1258,8 +1264,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -12.5d
+			x: 7.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["056E6367718CA24E"]
@@ -1361,8 +1367,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -12.0d
+			x: -6.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -1484,8 +1490,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -14.0d
+			x: 8.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2BCABB8D4AB8F275"]
@@ -1527,8 +1533,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -13.5d
+			x: 10.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -1562,8 +1568,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -15.5d
+			x: 8.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["284AA21204626971"]
@@ -1597,8 +1603,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -17.0d
+			x: 9.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["284AA21204626971"]
@@ -1609,8 +1615,8 @@
 				item: "meatweapons:phage_ray_speed_modifier"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -15.5d
+			x: 10.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -1640,8 +1646,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -17.0d
+			x: 11.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
@@ -1652,8 +1658,8 @@
 				item: "neepmeat:divine_organ"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -19.0d
+			x: 5.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["5EAEE969037829A4"]
@@ -1664,8 +1670,8 @@
 				item: "neepmeat:phage_ray"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -20.5d
+			x: 6.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -1676,8 +1682,8 @@
 				item: "neepmeat:flesh_potato"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -17.5d
+			x: -1.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
@@ -1688,8 +1694,8 @@
 				item: "neepmeat:fluid_drain"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -9.0d
+			x: -5.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -1703,8 +1709,8 @@
 				item: "neepmeat:vascular_conduit"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -17.0d
+			x: 2.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
@@ -1715,8 +1721,8 @@
 				item: "neepmeat:hydraulic_press"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -16.5d
+			x: -6.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
@@ -1727,8 +1733,8 @@
 				item: "neepmeat:transducer"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -17.0d
+			x: 6.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -1739,8 +1745,8 @@
 				item: "neepmeat:blood_bubble_sapling"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -13.5d
+			x: 2.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["15C64A76D9BDAF58"]
@@ -1751,8 +1757,230 @@
 				item: "neepmeat:blood_bubble"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -12.5d
+			x: 4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7522632161D258AA"]
+			entity_vis_size: 1.0f
+			id: "1B42894DCECA7C66"
+			tasks: [{
+				id: "341468F7AD302BCF"
+				item: "desecratedcore:blood_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1A04E17C449CBCF1"]
+			entity_vis_size: 1.0f
+			id: "1891D96CF64826F6"
+			rewards: [{
+				id: "5F42F45F4F01EC20"
+				item: {
+					Count: 1
+					id: "butchery:sponge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "076E0C7384E724A3"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butchery:bone_skinning_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:copper_skinning_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:iron_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:gold_skinning_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:diamond_skinning_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:netherite_skinning_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Skinning Knife"
+					type: "item"
+				}
+				{
+					id: "1CBB7F3CD5199DDE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butchery:bone_hacksaw"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:copper_hacksaw"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:iron_hacksaw"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:gold_hacksaw"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:diamond_hacksaw"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:netherite_hacksaw"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Hacksaw"
+					type: "item"
+				}
+				{
+					id: "7386E878F5BAC5E1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butchery:bone_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:copper_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:iron_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:gold_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:diamond_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "butchery:netherite_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Hammer"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["623C14C05294EFCC"]
+			entity_vis_size: 1.0f
+			id: "20D1A7AA42AEAE60"
+			tasks: [{
+				id: "2C255BEEF887EC2D"
+				item: "butchery:basin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["63F1C9A1095AEC1E"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "23E9BE6DF9CD5AA7"
+			tasks: [{
+				id: "0E87D465A57CEDA7"
+				item: "butchery:magic_wishbone"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
 		}
 	]
 	title: "Flesh Industries"

@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:12
+renderDistance:16
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:5
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","tacz_resources","mod_resources","Moonlight Mods Dynamic Assets","fabric","resources/ConcatenationTips.zip","file/Better_Enderdragon.zip","file/Icon Journey 1.1.zip","resources/Stay_True_1.20.zip","resources/Stay_True_Amendment.zip"]
-incompatibleResourcePacks:["resources/ConcatenationTips.zip"]
+resourcePacks:["vanilla","tacz_resources","mod_resources","fabric","Moonlight Mods Dynamic Assets","file/Stay_True_1.20.zip","file/staytrue1.20.1.zip","file/Stay_True_Amendment3.zip","file/Better_Enderdragon.zip","file/Icon Journey 1.1.zip","file/LowOnFire_1.20.1.zip","file/Old+Iron+Chest.zip","file/cubic-sun-moon-v1.8.5.zip","file/elysiapresents_lootr.zip","file/Fresh Vampirism Pack V1.4.zip","file/Better_hunters_2.zip"]
+incompatibleResourcePacks:["file/Icon Journey 1.1.zip","file/Old+Iron+Chest.zip","file/elysiapresents_lootr.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -72,10 +72,10 @@ tutorialStep:movement
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -84,7 +84,7 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:1.0
+soundCategory_master:0.5079470198675496
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
