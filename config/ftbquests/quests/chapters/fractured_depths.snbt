@@ -28,7 +28,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6F71CC7D8969DFA6"]
+			dependencies: [
+				"6F71CC7D8969DFA6"
+				"7F0C5BD591C3EA2A"
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "675440487ADE64B0"
@@ -241,6 +244,17 @@
 			}]
 			x: 3.0d
 			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7F0C5BD591C3EA2A"
+			tasks: [{
+				id: "6F408247D8576CB7"
+				structure: "fracture:pillager_tower"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "Fractured Depths"

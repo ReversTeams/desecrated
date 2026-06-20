@@ -325,6 +325,14 @@
     "curseForgeHash": 4160167965,
     "modrinthHash": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50"
   },
+  "cinematic_respawn-1.20.1-forge-1.0.0.jar": {
+    "jarName": "cinematic_respawn-1.20.1-forge-1.0.0.jar",
+    "modId": "cinematic_respawn",
+    "name": "Cinematic Respawn",
+    "version": "1.0.0",
+    "curseForgeHash": 3045865412,
+    "modrinthHash": "daf115865d6978c2505223e563ebcbe13ba0e471"
+  },
   "civilis_magic-1.0.1-universal-1.20.1.jar": {
     "jarName": "civilis_magic-1.0.1-universal-1.20.1.jar",
     "modId": "civilis_magic",
@@ -1010,6 +1018,14 @@
     "curseForgeHash": 2683111440,
     "modrinthHash": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
   },
+  "fishermens_trap-2.1.4.jar": {
+    "jarName": "fishermens_trap-2.1.4.jar",
+    "modId": "fishermens_trap",
+    "name": "Fishermens Trap",
+    "version": "2.1.4",
+    "curseForgeHash": 941094379,
+    "modrinthHash": "f3a4cf1ff9f320c85900f8acf0f17629ed795dc6"
+  },
   "flerovium-forge-1.20.1-1.2.18-all.jar": {
     "jarName": "flerovium-forge-1.20.1-1.2.18-all.jar",
     "modId": "flerovium",
@@ -1671,13 +1687,13 @@
     "curseForgeHash": 2891672819,
     "modrinthHash": "c92d6d7cf2ffa333d64752edcde2b3c5a3e6edab"
   },
-  "naturalsizes-1.1-forge-1.20.1.jar": {
-    "jarName": "naturalsizes-1.1-forge-1.20.1.jar",
+  "naturalsizes-1.2-forge-1.20.1.jar": {
+    "jarName": "naturalsizes-1.2-forge-1.20.1.jar",
     "modId": "naturalsizes",
     "name": "NaturalSizes",
-    "version": "1.1",
-    "curseForgeHash": 1355497651,
-    "modrinthHash": "be27161cce2cf44be5fa765fe030cff863e69b6f"
+    "version": "1.2",
+    "curseForgeHash": 1707169981,
+    "modrinthHash": "9567ef92b28312049a4f657d2842d9d9b6ec165f"
   },
   "NaturesCompass-1.20.1-1.12.0-forge.jar": {
     "jarName": "NaturesCompass-1.20.1-1.12.0-forge.jar",

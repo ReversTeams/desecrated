@@ -168,7 +168,7 @@
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
-		main_hand = ""
+		main_hand = "artificers_armory:tuning_fork_gold"
 		#Off hand item.
 		off_hand = "minecraft:lantern"
 		#Armor items.
@@ -220,7 +220,7 @@
 		#Off hand item.
 		off_hand = "minecraft:lantern"
 		#Armor items.
-		armor = ["minecraft:chainmail_chestplate", "minecraft:chainmail_leggings"]
+		armor = ["minecraft:iron_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots"]
 		#Starting items.
 		items = ["desecratedcore:iron_key_item", "asr_gilded_iron_shield", "ftbquests:book"]
 		#Item ID for the class icon.

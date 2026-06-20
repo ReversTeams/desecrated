@@ -28,6 +28,10 @@
       "factor": 0.9
     },
     {
+      "structure": "vampirism:hunter_camp",
+      "factor": 1.4
+    },
+    {
       "structure": "integrated_villages:airship_village",
       "factor": 1
     },

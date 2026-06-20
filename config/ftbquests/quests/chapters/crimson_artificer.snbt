@@ -159,7 +159,7 @@
 			tasks: [{
 				icon: "clockwork:clockwork_gear"
 				id: "0230BA1F62FDC93D"
-				item: "desecratedcore:artificer_key_item"
+				item: "clockwork:clockwork_gear"
 				type: "item"
 			}]
 			x: 0.0d

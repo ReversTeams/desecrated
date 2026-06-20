@@ -1982,6 +1982,42 @@
 			x: -7.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["5D4499D4254102B7"]
+			entity_vis_size: 1.0f
+			id: "0CCBECA8C3CD1504"
+			tasks: [{
+				id: "67405B2B1CC2A2E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Open: 0b
+							SelectedSlot: 0b
+							Size: 6
+						}
+					}
+					id: "supplementaries:lunch_basket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["623C14C05294EFCC"]
+			entity_vis_size: 1.0f
+			id: "5002D4D86529E236"
+			tasks: [{
+				id: "1D4722689FD0C6D4"
+				item: "fishermens_trap:fishtrap"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
 	]
 	title: "Flesh Industries"
 }

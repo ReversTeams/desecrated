@@ -34,6 +34,31 @@ ServerEvents.recipes(event => {
     })
 
     // Butchery
+    event.shaped(
+        Item.of('butchery:copper_skinning_knife'),
+        [
+            ' A ',
+            ' B ',
+            '   '
+        ],
+        {
+            B: 'minecraft:stick',
+            A: 'minecraft:copper_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('butchery:bone_skinning_knife'),
+        [
+            ' A ',
+            ' B ',
+            '   '
+        ],
+        {
+            A: 'minecraft:bone',
+            B: 'minecraft:stick'
+        }
+    )
 
     // Neepmeat
     event.replaceInput(
