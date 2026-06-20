@@ -5,7 +5,8 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'create' })
 
     const remove = [
-        'fracture:infected_core'
+        'fracture:infected_core',
+        'fishermens_trap:fishtrap'
     ]
 
     remove.forEach(item => {
@@ -37,6 +38,33 @@ ServerEvents.recipes(event => {
             '#forge:raw_meat',
             '#forge:raw_meat'
         ]
+    )
+
+    event.shaped(
+        Item.of('fishermens_trap:fishtrap'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            C: 'butchery:hook',
+            B: 'farmersdelight:canvas',
+            A: 'minecraft:stick'
+        }
+    )
+
+    event.shaped(
+        Item.of('supplementaries:lunch_basket'),
+        [
+            ' A ',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'farmersdelight:canvas',
+            B: '#minecraft:wool_carpets'
+        }
     )
 
     event.shapeless(

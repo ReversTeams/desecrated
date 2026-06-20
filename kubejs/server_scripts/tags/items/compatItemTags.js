@@ -61,6 +61,15 @@ ServerEvents.tags('item', event => {
         'quark:deepslate_furnace'
     ]);
 
+    add('forge:knives', [
+        'butchery:bone_skinning_knife',
+        'butchery:copper_skinning_knife',
+        'butchery:iron_skinning_knife',
+        'butchery:gold_skinning_knife',
+        'butchery:diamond_skinning_knife',
+        'butchery:netherite_skinning_knife'
+    ]);
+
     add('forge:knives/iron', [
         'butchery:iron_skinning_knife',
         'farmersdelight:iron_knife'
@@ -68,7 +77,7 @@ ServerEvents.tags('item', event => {
 
     add('forge:knives/gold', [
         'butchery:gold_skinning_knife',
-        'farmersdelight:gold_knife'
+        'farmersdelight:golden_knife'
     ]);
 
     add('forge:knives/diamond', [

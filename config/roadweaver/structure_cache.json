@@ -11,6 +11,7 @@
     "perdition:purgatory",
     "bloodyhell:soul_dimension",
     "minecraft:the_end",
+    "minecraft:the_nether",
     "thedulling:yvxzlight"
   ],
   "structures": [
@@ -27,7 +28,9 @@
       "id": "minecraft:bastion_remnant",
       "displayName": "Bastion Remnant",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "minecraft:buried_treasure",
@@ -59,7 +62,9 @@
       "id": "minecraft:fortress",
       "displayName": "Fortress",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "minecraft:igloo",
@@ -120,7 +125,8 @@
       "displayName": "Nether Fossil",
       "isVanilla": true,
       "dimensions": [
-        "thedulling:lost_interfold"
+        "thedulling:lost_interfold",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -190,7 +196,9 @@
       "id": "minecraft:ruined_portal_nether",
       "displayName": "Ruined Portal Nether",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "minecraft:ruined_portal_ocean",
@@ -1146,7 +1154,9 @@
       "id": "idas:ancient_portal/nether_ancient_portal",
       "displayName": "Ancient Portal/nether Ancient Portal",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "idas:ancient_statue/ancient_statue_desert",
@@ -1188,7 +1198,9 @@
       "id": "idas:animal_den/foxhound_den",
       "displayName": "Animal Den/foxhound Den",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "idas:animal_den/polar_bear_den",
@@ -1560,13 +1572,17 @@
       "id": "idas:necromancers_spire",
       "displayName": "Necromancers Spire",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "idas:nether_pump_camp",
       "displayName": "Nether Pump Camp",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "idas:nexus",
@@ -2031,31 +2047,41 @@
       "id": "netherman:eye_columns",
       "displayName": "Eye Columns",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "netherman:gast_chamber",
       "displayName": "Gast Chamber",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "netherman:gehen_statue",
       "displayName": "Gehen Statue",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "netherman:mansion_nether",
       "displayName": "Mansion Nether",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "netherman:trap",
       "displayName": "Trap",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "perdition:scintillating_gateway",
@@ -2246,7 +2272,9 @@
       "id": "philipsruins:nether_lava_ruins",
       "displayName": "Nether Lava Ruins",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "philipsruins:ocean_fortress",
@@ -2297,13 +2325,17 @@
       "id": "philipsruins:sealedruinedghaststatue1",
       "displayName": "Sealedruinedghaststatue1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "philipsruins:start_nether_dungeon",
       "displayName": "Start Nether Dungeon",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "philipsruins:start_nether_ruin",
