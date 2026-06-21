@@ -56,3 +56,9 @@
 	#Range: 1 ~ 64
 	vesperQuestItem2_Count = 1
 
+["Machine Settings"]
+	#Registry name of the default fluid produced by the Sanguinite Blood Harvester. Useful for unifying blood fluids in modpacks.
+	harvesterDefaultBloodFluid = "desecratedcore:blood"
+	#Registry name of the explicit fluid required by the Blood Gem Sprout. If empty or invalid, defaults to 'bloodyhell:blood'.
+	bloodGemSproutRequiredFluid = "desecratedcore:blood"
+

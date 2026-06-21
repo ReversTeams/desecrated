@@ -5,7 +5,9 @@ ServerEvents.recipes(event => {
 
     const remove = [
         'hexalia:ritual_table',
-        'hexalia:athame'
+        'hexalia:athame',
+        'hexalia:censer',
+        'hexalia:small_cauldron'
     ]
 
     remove.forEach(item => {
@@ -46,5 +48,36 @@ ServerEvents.recipes(event => {
             B: 'desecratedcore:vine_key_item'
         }
     ).keepIngredient('desecratedcore:vine_key_item')
+
+    event.shaped(
+        Item.of('hexalia:censer'),
+        [
+            ' A ',
+            'ABA',
+            'CDC'
+        ],
+        {
+            A: 'minecraft:bricks',
+            C: '#minecraft:logs',
+            D: 'minecraft:campfire',
+            B: 'hexalia:dreamshroom'
+        }
+    )
+
+    event.shaped(
+        Item.of('hexalia:small_cauldron'),
+        [
+            'ABA',
+            'ACA',
+            'DED'
+        ],
+        {
+            D: '#minecraft:logs',
+            B: '#minecraft:coals',
+            A: 'minecraft:cobbled_deepslate',
+            E: 'minecraft:cauldron',
+            C: 'hexalia:dreamshroom'
+        }
+    )
 
 })
