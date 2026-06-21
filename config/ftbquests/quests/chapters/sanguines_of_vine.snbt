@@ -350,6 +350,7 @@
 						]
 					}
 				}
+				title: "Any Brew"
 				type: "item"
 			}]
 			x: -5.0d
