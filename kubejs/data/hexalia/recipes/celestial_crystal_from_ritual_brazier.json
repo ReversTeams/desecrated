@@ -1,0 +1,9 @@
+{
+  "type": "hexalia:ritual_brazier",
+  "input": {
+    "item": "desecratedcore:mundane_crystal"
+  },
+  "output": {
+    "item": "hexalia:celestial_crystal"
+  }
+}

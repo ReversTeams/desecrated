@@ -13,4 +13,12 @@ JEIEvents.information(event => {
   event.addItem( 'neepmeat:integrator_egg', ['Obtained by throwing a reanimated heart into lava surrounded by 8 rusted metal.', 'Does not spawn in loot chests.'])
 
   event.addItem( 'vampirism:blood_bottle', ['Obtained by drinking a creature\'s blood with a glass bottle.', 'You can right click any tank with 1000mb of blood to create a bottle of blood.'])
+
+  event.addItem( 'hexalia:spirit_bloom', ['Generates naturally in the world.'])
+  event.addItem( 'hexalia:dreamshroom', ['Generates naturally in the world.'])
+  event.addItem( 'hexalia:siren_kelp', ['Generates naturally in the world.'])
+  event.addItem( 'hexalia:ghost_fern', ['Generates naturally in the world.'])
+  event.addItem( 'hexalia:celestial_bloom', ['Generates naturally in the world.'])
+  event.addItem( 'hexalia:witchweed', ['Generates naturally in the world.'])  
+  event.addItem( 'hexalia:bottled_moth', ['Obtained by right clicking a moth with a bottle.']) 
 })
