@@ -95,6 +95,11 @@ ServerEvents.tags('item', event => {
         'butchery:dragon_scale'
     ]);
 
+    add('forge:resin', [
+        'hexalia:tree_resin',
+        'minecraft:resin_clump'
+    ]);
+
     add('lychee:lightning_immune', [
         'desecratedcore:forbidden_knowledge',
         'bloodyhell:forbidden_bookshelf_block'

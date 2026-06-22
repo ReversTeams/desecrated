@@ -90,6 +90,7 @@
 				"0D9E8704CBFB3F6C"
 				"4283D4B2FCBAA2C2"
 			]
+			dependency_requirement: "one_completed"
 			entity_vis_size: 1.0f
 			id: "3AFEAB8E568538B8"
 			tasks: [{
@@ -219,7 +220,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["79A14B394FAEBEA1"]
@@ -238,7 +239,7 @@
 				}
 			]
 			x: 1.5d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["644522F860A5FA04"]
@@ -298,6 +299,7 @@
 				{
 					id: "727186C20D549C89"
 					item: "hexalia:rustic_oven"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -407,8 +409,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["280458A4E77B8B5F"]
@@ -455,8 +457,8 @@
 				item: "hexalia:celestial_crystal"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.5d
+			x: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7A9745165188D85E"]
@@ -508,8 +510,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -6.5d
+			x: -7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -518,6 +520,7 @@
 			]
 			entity_vis_size: 1.0f
 			id: "608FE86E7BEE0446"
+			size: 1.1d
 			tasks: [
 				{
 					id: "1EFFEDE5CECB5919"
@@ -564,8 +567,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -5.0d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -641,8 +644,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -8.5d
+			x: -8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["285A0AB8817CC4D7"]
@@ -671,8 +674,8 @@
 				item: "hexalia:silk_fiber"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -7.0d
+			x: -9.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["114DD2432F86370C"]
@@ -695,8 +698,8 @@
 				item: "hexalia:nesting_block"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -9.0d
+			x: -10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3AFEAB8E568538B8"]
@@ -720,10 +723,11 @@
 						]
 					}
 				}
+				title: "Any Salve"
 				type: "item"
 			}]
 			x: 1.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
@@ -739,27 +743,27 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
+					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
-					icon: "hexalia:silk_moth_spawn_egg"
-					id: "1EF14D006E201F1B"
+					id: "1BA8DBC7A4A48014"
 					observe_type: 5
 					timer: 0L
 					to_observe: "hexalia:silk_moth"
 					type: "observation"
 				}
 				{
-					id: "4984A3E40CD74944"
+					id: "0421D2600C8BA8D4"
 					item: "hexalia:bottled_moth"
 					optional_task: true
 					type: "item"
 				}
 			]
 			x: -8.0d
-			y: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["324985E19423593A"]
+			description: ["{entity:hexalia:cacofey ent_size:1.0 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"]
 			entity_vis_size: 1.0f
 			id: "1DB6A169A86470E1"
 			tasks: [
@@ -776,19 +780,17 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
+					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
-					icon: "hexalia:cacofey_spawn_egg"
-					id: "0D1C8CB6B17493E3"
+					id: "655360A8BEC68064"
 					observe_type: 5
-					optional_task: true
 					timer: 0L
 					to_observe: "hexalia:cacofey"
 					type: "observation"
 				}
 			]
 			x: -6.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1E49979CD799AF0E"]
@@ -895,8 +897,8 @@
 				item: "hexalia:silk_idol"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -7.5d
+			x: -11.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["154376889E877CFE"]
@@ -926,8 +928,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -8.0d
+			x: -13.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["79A14B394FAEBEA1"]
@@ -990,7 +992,7 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["3AFEAB8E568538B8"]
+			dependencies: ["1FD01CDA1731655D"]
 			entity_vis_size: 1.0f
 			id: "1C10D594BB28276E"
 			tasks: [{
@@ -999,7 +1001,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0D9E8704CBFB3F6C"]
@@ -1047,6 +1049,18 @@
 			}]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["3AFEAB8E568538B8"]
+			entity_vis_size: 1.0f
+			id: "1FD01CDA1731655D"
+			tasks: [{
+				id: "3737D18DDD42AB4A"
+				item: "hexalia:mutavis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
 		}
 	]
 	title: "Sanguines of Vine"
