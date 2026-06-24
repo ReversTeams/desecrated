@@ -1,6 +1,7 @@
 {
   "dimensions": [
     "fracture:boreas_dimension",
+    "spectrum:deeper_down",
     "perdition:dis",
     "bloodmagic:dungeon",
     "fracture:flesh_dimension",
@@ -2503,6 +2504,97 @@
       ]
     },
     {
+      "id": "spectrum:city_below",
+      "displayName": "City Below",
+      "isVanilla": false,
+      "dimensions": [
+        "spectrum:deeper_down"
+      ]
+    },
+    {
+      "id": "spectrum:excavation_site",
+      "displayName": "Excavation Site",
+      "isVanilla": false,
+      "dimensions": [
+        "spectrum:deeper_down"
+      ]
+    },
+    {
+      "id": "spectrum:forsaken_cathedral",
+      "displayName": "Forsaken Cathedral",
+      "isVanilla": false,
+      "dimensions": [
+        "spectrum:deeper_down"
+      ]
+    },
+    {
+      "id": "spectrum:lizard_den/basal_marble",
+      "displayName": "Lizard Den/basal Marble",
+      "isVanilla": false,
+      "dimensions": [
+        "spectrum:deeper_down"
+      ]
+    },
+    {
+      "id": "spectrum:lizard_den/blackslag",
+      "displayName": "Lizard Den/blackslag",
+      "isVanilla": false,
+      "dimensions": [
+        "spectrum:deeper_down"
+      ]
+    },
+    {
+      "id": "spectrum:lizard_den/dripstone",
+      "displayName": "Lizard Den/dripstone",
+      "isVanilla": false,
+      "dimensions": [
+        "spectrum:deeper_down"
+      ]
+    },
+    {
+      "id": "spectrum:lizard_den/shalerite",
+      "displayName": "Lizard Den/shalerite",
+      "isVanilla": false,
+      "dimensions": [
+        "spectrum:deeper_down"
+      ]
+    },
+    {
+      "id": "spectrum:pedestal_ruins_deepslate",
+      "displayName": "Pedestal Ruins Deepslate",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "spectrum:pedestal_ruins_stone",
+      "displayName": "Pedestal Ruins Stone",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "spectrum:preservation_ruins",
+      "displayName": "Preservation Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "spectrum:undergrowth_manor",
+      "displayName": "Undergrowth Manor",
+      "isVanilla": false,
+      "dimensions": [
+        "spectrum:deeper_down"
+      ]
+    },
+    {
       "id": "structuresplus:baby_villager_statue",
       "displayName": "Baby Villager Statue",
       "isVanilla": false,
@@ -3607,6 +3699,16 @@
       ]
     },
     {
+      "tagId": "spectrum:lizard_dens",
+      "displayName": "#Lizard Dens",
+      "structureIds": [
+        "spectrum:lizard_den/basal_marble",
+        "spectrum:lizard_den/blackslag",
+        "spectrum:lizard_den/dripstone",
+        "spectrum:lizard_den/shalerite"
+      ]
+    },
+    {
       "tagId": "terralith:mage_towers",
       "displayName": "#Mage Towers",
       "structureIds": [
@@ -3619,8 +3721,22 @@
       ]
     },
     {
+      "tagId": "spectrum:mysterious_compass_located",
+      "displayName": "#Mysterious Compass Located",
+      "structureIds": [
+        "spectrum:forsaken_cathedral"
+      ]
+    },
+    {
       "tagId": "quark:nether_brick_chest_structures",
       "displayName": "#Nether Brick Chest Structures",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
+      "tagId": "celestisynth:nether_monolith_spawn",
+      "displayName": "#Nether Monolith Spawn",
       "structureIds": [
         "minecraft:fortress"
       ]
@@ -3631,6 +3747,17 @@
       "structureIds": [
         "dungeonnowloading:labyrinth",
         "dungeonnowloading:temple_of_duality"
+      ]
+    },
+    {
+      "tagId": "spectrum:no_wall_features",
+      "displayName": "#No Wall Features",
+      "structureIds": [
+        "spectrum:lizard_den/basal_marble",
+        "spectrum:lizard_den/blackslag",
+        "spectrum:lizard_den/dripstone",
+        "spectrum:lizard_den/shalerite",
+        "spectrum:undergrowth_manor"
       ]
     },
     {
@@ -3648,6 +3775,14 @@
         "idas:iceandfire/sirens_cove",
         "idas:sunken_ship/sunken_ship",
         "idas:sunken_ship/sunken_ship_ruins"
+      ]
+    },
+    {
+      "tagId": "spectrum:pedestal_ruins",
+      "displayName": "#Pedestal Ruins",
+      "structureIds": [
+        "spectrum:pedestal_ruins_deepslate",
+        "spectrum:pedestal_ruins_stone"
       ]
     },
     {
@@ -3794,6 +3929,14 @@
         "terralith:underground/oak_cabin",
         "terralith:underground/old_refinery",
         "terralith:underground/sunken_tower"
+      ]
+    },
+    {
+      "tagId": "spectrum:unlocatable",
+      "displayName": "#Unlocatable",
+      "structureIds": [
+        "minecraft:buried_treasure",
+        "spectrum:forsaken_cathedral"
       ]
     },
     {
