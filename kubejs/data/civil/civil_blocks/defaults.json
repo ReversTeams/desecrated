@@ -60,7 +60,6 @@
     { "block": "minecraft:furnace",          "weight": 0.3 },
     { "block": "minecraft:chest",            "weight": 0.3 },
     { "block": "minecraft:barrel",           "weight": 0.3 },
-    { "block": "minecraft:farmland",         "weight": 0.3 },
     { "block": "minecraft:composter",        "weight": 0.3 },
     { "block": "minecraft:beehive",          "weight": 0.3 },
     { "block": "minecraft:decorated_pot",    "weight": 0.3 },

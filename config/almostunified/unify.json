@@ -18,7 +18,6 @@
     "mcore",
     "thoriumreactors",
     "common_ore_library",
-    "refurbished_furniture",
     "ars_technica",
     "desecratedcore",
     "vampirism",
@@ -31,6 +30,7 @@
     "sons_of_sins",
     "fracture",
     "quark",
+    "refurbished_furniture",
     "philipsruins"
   ],
   "stoneStrata": [
