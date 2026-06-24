@@ -1,0 +1,117 @@
+
+[storm]
+	#Base chance for The Storm to spawn on its once-per-day dusk roll (0.0 - 1.0).
+	#Range: 0.0 ~ 1.0
+	dailyChance = 0.0
+	#Extra daily chance added when Vertin is on the island.
+	#Range: 0.0 ~ 1.0
+	vertinBonus = 0.05
+	#How long The Storm lasts, in ticks (20 ticks = 1 second). Default 3600 = 3 min.
+	#Range: 20 ~ 720000
+	durationTicks = 3600
+	#HP damage per hit at the START of the storm (before armor reduction).
+	#Range: 0.0 ~ 100.0
+	damageMin = 0.5
+	#HP damage per hit at the END of the storm (scales up over time).
+	#Range: 0.0 ~ 100.0
+	damageMax = 3.0
+	#Tick at which the storm enters Phase 2.
+	#Range: 0 ~ 720000
+	phase2Tick = 1200
+	#Tick at which the storm enters Phase 3.
+	#Range: 0 ~ 720000
+	phase3Tick = 2400
+	#Storm-damage reduction per Arcanist armor piece worn (0.20 = 20%, capped at 80%).
+	#Range: 0.0 ~ 0.25
+	armorReductionPerPiece = 0.2
+
+[arcanist]
+	#Maximum Arcanist level.
+	#Range: 1 ~ 10000
+	maxLevel = 100
+	#EXP required per level.
+	#Range: 1 ~ 1000000
+	expPerLevel = 100
+	#Iron's Spellbooks spell power granted per level while aura is active (0.0125 = +1.25%/lvl).
+	#Range: 0.0 ~ 1.0
+	spellPowerPerLevel = 0.0125
+	#Spell-power cap as a fraction (1.25 = +125%).
+	#Range: 0.0 ~ 100.0
+	spellPowerCap = 1.25
+	#Mana-regen bonus per level (0.0025 = +0.25%/lvl).
+	#Range: 0.0 ~ 1.0
+	manaRegenPerLevel = 0.0025
+	#Mana-regen cap as a fraction (0.35 = +35%).
+	#Range: 0.0 ~ 100.0
+	manaRegenCap = 0.35
+
+	[arcanist.exp_sources]
+		#EXP gained each time the Storm hits you.
+		#Range: 0 ~ 10000
+		stormHitExp = 1
+		#Multiply Storm-hit EXP by the storm phase (1/2/3) while aura is active.
+		stormPhaseScalesExp = true
+		#Storm-EXP multiplier when a Vertin Hat is worn nearby (does not stack).
+		#Range: 0.0 ~ 100.0
+		vertinHatExpMultiplier = 2.0
+		#Extra Storm-EXP fraction while a Gold aura is active (0.25 = +25%).
+		#Range: 0.0 ~ 100.0
+		goldAuraExpBonus = 0.25
+		#EXP per 1 mana spent casting Iron's Spellbooks spells. 0 = disabled.
+		#Range: 0.0 ~ 100.0
+		spellCastExpPerMana = 0.0
+		#EXP for killing a mob while your aura is active. 0 = disabled.
+		#Range: 0 ~ 10000
+		auraMobKillExp = 0
+		#EXP for killing a Storm-spawned mob. 0 = disabled.
+		#Range: 0 ~ 10000
+		stormMobKillExp = 0
+		#Bonus EXP awarded when you survive a Storm to its end. 0 = disabled.
+		#Range: 0 ~ 100000
+		stormSurviveExp = 0
+
+[aura]
+	#Level at which the aura unlocks (also needs attunement at Sonetto).
+	#Range: 1 ~ 10000
+	unlockLevel = 50
+	#Aura duration (ticks) at the unlock level.
+	#Range: 20 ~ 720000
+	durationLv50 = 2400
+	#Aura duration (ticks) at Lv.75+.
+	#Range: 20 ~ 720000
+	durationLv75 = 3600
+	#Aura duration (ticks) at max level.
+	#Range: 20 ~ 720000
+	durationLv100 = 4300
+	#Base aura cooldown in ticks (8400 = 7 min).
+	#Range: 20 ~ 720000
+	cooldownBaseTicks = 8400
+	#Max cooldown reduction in SECONDS from levels (1s per level).
+	#Range: 0 ~ 100000
+	cooldownReductionCapSeconds = 90
+	#Extra cooldown reduction in seconds while Vertin is on the island.
+	#Range: 0 ~ 100000
+	vertinCooldownReductionSeconds = 5
+	#Extra cooldown reduction in seconds while Druvis is on the island.
+	#Range: 0 ~ 100000
+	druvisCooldownReductionSeconds = 10
+	#Movement-speed bonus while aura active (0.25 = +25%).
+	#Range: 0.0 ~ 10.0
+	moveSpeedBonus = 0.25
+	#HP-regen multiplier while aura active.
+	#Range: 1 ~ 100
+	hpRegenMultiplier = 2
+	#Range (blocks) the Verdant aura shares its x2 regen with allies.
+	#Range: 0.0 ~ 256.0
+	verdantRange = 10.0
+	#Chance to roll a special aura colour (0.10 = 10%).
+	#Range: 0.0 ~ 1.0
+	specialRollChance = 0.1
+	#Added special-roll chance while Matilda is on the island.
+	#Range: 0.0 ~ 1.0
+	matildaRollBonus = 0.05
+	#Aura spell power ramps up the longer it stays active, up to this extra fraction
+	#(0.20 = up to +20% at the end of the aura). 0 = disabled (no ramp).
+	#Range: 0.0 ~ 10.0
+	spellPowerRampMax = 0.0
+
