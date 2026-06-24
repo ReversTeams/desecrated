@@ -7,12 +7,41 @@ ServerEvents.recipes(event => {
         'hexalia:ritual_table',
         'hexalia:athame',
         'hexalia:censer',
-        'hexalia:small_cauldron'
+        'hexalia:small_cauldron',
+        'hexalia:mortar_and_pestle',
+        'hexalia:hex_focus'
+    ]
+
+    const removeCraftingShaped = [
+        'neepmeat:refractory_brick'
+    ]
+
+    const removeCraftingShapeless = [
+        'hexalia:mutavis',
+        'hexalia:ghost_powder',
+        'hexalia:dream_paste',
+        'hexalia:siren_paste',
+        'hexalia:spirit_powder',
+        'hexalia:brambleguard_salve',
+        'hexalia:menders_salve',
+        'hexalia:fragant_nectar'
     ]
 
     remove.forEach(item => {
         event.remove({ output: item })
     })
+    removeCraftingShaped.forEach(item => {
+        event.remove({ output: item, type: 'minecraft:crafting_shaped' })
+    })
+    removeCraftingShapeless.forEach(item => {
+        event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
+    })
+
+    event.replaceInput(
+        { input: 'hexalia:tree_resin' },
+        'hexalia:tree_resin',
+        '#forge:resin'
+    )
 
     // Hexalia Recipes
     event.shaped(
@@ -77,6 +106,50 @@ ServerEvents.recipes(event => {
             A: 'minecraft:cobbled_deepslate',
             E: 'minecraft:cauldron',
             C: 'hexalia:dreamshroom'
+        }
+    )
+
+    event.shaped(
+        Item.of('hexalia:rustic_oven'),
+        [
+            'ABA',
+            'ACA',
+            'ADA'
+        ],
+        {
+            B: 'minecraft:iron_ingot',
+            A: 'minecraft:cobbled_deepslate',
+            C: '#forge:furnaces',
+            D: 'quark:grate'
+        }
+    )
+
+    event.shaped(
+        Item.of('hexalia:mortar_and_pestle'),
+        [
+            'AB ',
+            'C  ',
+            '   '
+        ],
+        {
+            A: 'minecraft:stone',
+            B: 'minecraft:bowl',
+            C: 'hexalia:athame'
+        }
+    )
+
+    event.shaped(
+        Item.of('hexalia:hex_focus'),
+        [
+            ' AB',
+            'ACA',
+            'DA '
+        ],
+        {
+            C: 'hexalia:mutavis',
+            B: 'minecraft:amethyst_shard',
+            A: 'minecraft:oak_leaves',
+            D: 'minecraft:stick'
         }
     )
 
