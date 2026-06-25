@@ -147,10 +147,18 @@ ServerEvents.recipes(event => {
         ],
         {
             C: 'hexalia:mutavis',
-            B: 'minecraft:amethyst_shard',
+            B: 'desecratedcore:mundane_shard',
             A: 'minecraft:oak_leaves',
             D: 'minecraft:stick'
         }
+    )
+
+    event.shapeless(
+        Item.of('desecratedcore:mundane_shard'),
+        [
+            'hexalia:spirit_bloom',
+            'minecraft:amethyst_shard'
+        ]
     )
 
 })

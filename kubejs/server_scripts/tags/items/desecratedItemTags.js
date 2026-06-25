@@ -52,6 +52,15 @@ ServerEvents.tags('item', event => {
         'clanginghowl:chunk_of_technoflesh'
     ]);
 
+    add('desecrated:advanced_wrench', [
+        'artificers_armory:wrench_copper',
+        'artificers_armory:wrench_iron',
+        'artificers_armory:wrench_gold',
+        'artificers_armory:wrench_diamond',
+        'artificers_armory:wrench_netherite',
+        'clanginghowl:industrial_adjustable_wrench'
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"
