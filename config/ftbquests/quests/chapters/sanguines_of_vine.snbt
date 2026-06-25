@@ -580,52 +580,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "3409E128DA8E9ED3"
-			tasks: [
-				{
-					id: "29818FBE5E332528"
-					item: {
-						Count: 1
-						id: "hexalia:bloomwrap_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1C60D5F3F6AE992E"
-					item: {
-						Count: 1
-						id: "hexalia:bloomwrap_robes"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "657FC9DD61473E83"
-					item: {
-						Count: 1
-						id: "hexalia:bloomwrap_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6ED70E76188B8A42"
-					item: {
-						Count: 1
-						id: "hexalia:bloomwrap_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6612A92B1836765F"
+				item: "desecratedcore:all_node"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -13.5d
 		}
@@ -1061,6 +1020,59 @@
 			}]
 			x: 0.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["3409E128DA8E9ED3"]
+			entity_vis_size: 1.0f
+			id: "55F5FBB4ED5DFDD5"
+			tasks: [
+				{
+					id: "2EA8A8F077F9F875"
+					item: {
+						Count: 1
+						id: "hexalia:bloomwrap_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46211FC27D41C504"
+					item: {
+						Count: 1
+						id: "hexalia:bloomwrap_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AE80BDE104C6D31"
+					item: {
+						Count: 1
+						id: "hexalia:bloomwrap_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37766EB38DCEA3CA"
+					item: {
+						Count: 1
+						id: "hexalia:bloomwrap_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -15.0d
 		}
 	]
 	title: "Sanguines of Vine"
