@@ -59,4 +59,9 @@ ServerEvents.tags('item', event => {
     add('curios:charm', [
         "desecratedcore:exile_key_item"
     ]);
+
+    // Is in core mods but doesn't work
+    add('concatenation:raw_meteorite', [
+        "clanginghowl:extraterrestrial_stone"
+    ]);
 });

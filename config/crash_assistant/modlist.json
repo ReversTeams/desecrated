@@ -477,6 +477,14 @@
     "curseForgeHash": 4088591132,
     "modrinthHash": "b18ced3ac25436f8bd52ddeb1b87c843f8050d2e"
   },
+  "concatenatedadditionsmachines-1.4.0-forge-1.20.1.jar": {
+    "jarName": "concatenatedadditionsmachines-1.4.0-forge-1.20.1.jar",
+    "modId": "concatenatedadditionsmachines",
+    "name": "Concatenated Additions",
+    "version": "1.4.0",
+    "curseForgeHash": 2441999035,
+    "modrinthHash": "0fd547f7614334ff6ebe7163fd5f766c74a19acf"
+  },
   "concatenatedadditionstools-1.4.0-forge-1.20.1.jar": {
     "jarName": "concatenatedadditionstools-1.4.0-forge-1.20.1.jar",
     "modId": "concatenatedadditionstools",
@@ -1154,13 +1162,13 @@
     "curseForgeHash": 3034467947,
     "modrinthHash": "f025cc4528288871ff5dd13c5ac0b0900c1a1ae0"
   },
-  "fusion-1.3.2a-forge-mc1.20.1.jar": {
-    "jarName": "fusion-1.3.2a-forge-mc1.20.1.jar",
+  "fusion-1.3.3-forge-mc1.20.1.jar": {
+    "jarName": "fusion-1.3.3-forge-mc1.20.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.2+a",
-    "curseForgeHash": 1606516516,
-    "modrinthHash": "afe6a66fa7fed784edc5f3b25b5cddc272e89e5f"
+    "version": "1.3.3",
+    "curseForgeHash": 2088231900,
+    "modrinthHash": "efc69d175e04f57657206e88d90c42fa9a415936"
   },
   "fwa+1.20.1-forge-1.2.31.jar": {
     "jarName": "fwa+1.20.1-forge-1.2.31.jar",
@@ -1217,6 +1225,14 @@
     "version": "1.20.1-1.8",
     "curseForgeHash": 686879422,
     "modrinthHash": "54301c2db5467e0f9f5c504887436f358335331f"
+  },
+  "gpushift-universal-1.20.1-1.2.1.jar": {
+    "jarName": "gpushift-universal-1.20.1-1.2.1.jar",
+    "modId": "gpushift",
+    "name": "GpuShift",
+    "version": "1.2.1",
+    "curseForgeHash": 1443422474,
+    "modrinthHash": "a424f2c6498561cb03ba413757fd2c69b1385125"
   },
   "GPUTape-1.18x-1.21x-1.0.5.1-forge.jar": {
     "jarName": "GPUTape-1.18x-1.21x-1.0.5.1-forge.jar",
@@ -1631,13 +1647,13 @@
     "curseForgeHash": 3315618055,
     "modrinthHash": "ff01aa718b71249012c41d9926d3fd2982809fdb"
   },
-  "midnightthoughts-1.4.1+forge.1.20.1.jar": {
-    "jarName": "midnightthoughts-1.4.1+forge.1.20.1.jar",
+  "midnightthoughts-1.4.2+forge.1.20.1.jar": {
+    "jarName": "midnightthoughts-1.4.2+forge.1.20.1.jar",
     "modId": "midnightthoughts",
     "name": "Midnight Thoughts",
-    "version": "1.4.1",
-    "curseForgeHash": 3466771116,
-    "modrinthHash": "bfbb8496abb70bbe68ce2c3037a8387a026fdb5e"
+    "version": "1.4.2",
+    "curseForgeHash": 15346458,
+    "modrinthHash": "f8048d44c1d661b5c32beb14f9cfb76d372448a5"
   },
   "mobtimizations-forge-1.20.1-1.0.1.jar": {
     "jarName": "mobtimizations-forge-1.20.1-1.0.1.jar",
@@ -2327,13 +2343,13 @@
     "curseForgeHash": 2711624359,
     "modrinthHash": "7eec1e4d46a731c6da0b0135915529e21621a81d"
   },
-  "structures+-2.0-all.jar": {
-    "jarName": "structures+-2.0-all.jar",
+  "structures+-2.1-all.jar": {
+    "jarName": "structures+-2.1-all.jar",
     "modId": "structuresplus",
     "name": "Structures+",
-    "version": "2.0",
-    "curseForgeHash": 2461577738,
-    "modrinthHash": "ebb3f7d1b8bea969279ab4931a455ae7498e1fc5"
+    "version": "2.1",
+    "curseForgeHash": 1632474415,
+    "modrinthHash": "d3919030f767550d1e0c337cea066567fb05391f"
   },
   "StylishEffects-v8.0.2-1.20.1-Forge.jar": {
     "jarName": "StylishEffects-v8.0.2-1.20.1-Forge.jar",
