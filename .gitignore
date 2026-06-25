@@ -66,6 +66,7 @@ lightspeed-cache
 kubejs/output
 kubejs/probe
 /civil
+/config/gpushift/benchmarks
 
 # explicitly included config
 !config/ProjectE/client.toml

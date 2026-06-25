@@ -17,4 +17,6 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('sons_of_sins:heart', 'Fleshy Heart');
 
   event.renameItem('hexalia:small_cauldron', 'Brewing Cauldron');
+
+  event.renameItem('supplementaries:wrench', 'Basic Wrench');
 })
