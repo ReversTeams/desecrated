@@ -32,6 +32,7 @@
     "fracture",
     "quark",
     "refurbished_furniture",
+    "mahoutsukai",
     "philipsruins"
   ],
   "stoneStrata": [
@@ -68,7 +69,10 @@
     "forge:knives/diamond",
     "forge:knives/netherite",
     "forge:dragon_scale",
-    "forge:salt"
+    "forge:salt",
+    "desecrated:hammer",
+    "desecrated:crushed_iron",
+    "desecrated:crushed_gold"
   ],
   "materials": [
     "aeternium",

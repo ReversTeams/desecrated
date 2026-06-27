@@ -1,0 +1,16 @@
+{
+  "traverser": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 10,
+      "operation": "BASE"
+    }
+  ],
+  "star_monolith": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 25,
+      "operation": "BASE"
+    }
+  ]
+}

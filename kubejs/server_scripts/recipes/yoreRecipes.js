@@ -3,6 +3,16 @@
 
 ServerEvents.recipes(event => {
 
+    const remove = [
+        'mahoutsukai:pestle',
+        'mahoutsukai:mortar',
+        'mahoutsukai:dagger'
+    ]
+
+    remove.forEach(item => {
+        event.remove({ output: item })
+    })
+
     // Mahou Tsoukai Recipes
     event.shaped(
         Item.of('desecratedcore:yore_key_item'),
@@ -30,6 +40,47 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:blue_ice',
             B: 'reliquary:frozen_core'
+        }
+    )
+
+    event.shaped(
+        Item.of('mahoutsukai:pestle'),
+        [
+            ' AB',
+            'ACA',
+            'BA '
+        ],
+        {
+            B: 'mahoutsukai:powdered_quartz',
+            A: '#desecrated:celestial_crystals',
+            C: 'mahoutsukai:attuned_diamond'
+        }
+    )
+    event.shaped(
+        Item.of('mahoutsukai:mortar'),
+        [
+            'A A',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'mahoutsukai:powdered_quartz',
+            A: '#desecrated:celestial_crystals',
+            C: 'mahoutsukai:attuned_diamond'
+        }
+    )
+    event.shaped(
+        Item.of('mahoutsukai:dagger'),
+        [
+            'A B',
+            'CB ',
+            'DC '
+        ],
+        {
+            A: 'desecratedcore:yore_key_item',
+            C: 'minecraft:blaze_rod',
+            D: 'concatenatedadditionstools:glowing_gold',
+            B: 'minecraft:crying_obsidian'
         }
     )
 

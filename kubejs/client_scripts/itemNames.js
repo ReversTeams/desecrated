@@ -19,4 +19,8 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('hexalia:small_cauldron', 'Brewing Cauldron');
 
   event.renameItem('supplementaries:wrench', 'Basic Wrench');
+
+  event.renameItem('mahoutsukai:mortar_and_pestle', 'Celestial Mortar and Pestle');
+  event.renameItem('mahoutsukai:pestle', 'Celestial Mortar');
+  event.renameItem('mahoutsukai:mortar', 'Celestial Pestle');
 })

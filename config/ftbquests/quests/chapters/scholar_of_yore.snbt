@@ -3,9 +3,158 @@
 	default_quest_shape: ""
 	filename: "scholar_of_yore"
 	group: "77396AEB02AB4898"
+	icon: "mahoutsukai:guidebook"
 	id: "44C5CEC6045FB44B"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "31E341E4AA4A011B"
+			tasks: [{
+				id: "0ED8588D2E268786"
+				item: "desecratedcore:yore_key_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E341E4AA4A011B"]
+			entity_vis_size: 1.0f
+			id: "7A488EE346E022EE"
+			tasks: [{
+				id: "5FE3D39EA08193A7"
+				item: "mahoutsukai:dagger"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["578A5561970CCBCF"]
+			entity_vis_size: 1.0f
+			id: "31B184499BFCCBEF"
+			tasks: [{
+				id: "01C00362824A29FA"
+				item: "mahoutsukai:mortar_and_pestle"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["45EF31A93841A366"]
+			entity_vis_size: 1.0f
+			id: "578A5561970CCBCF"
+			tasks: [
+				{
+					id: "7970C20646466978"
+					item: "mahoutsukai:attuner"
+					type: "item"
+				}
+				{
+					id: "05A68BF5CF30F593"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											MAHOUTSUKAI_GEM_STORED_MANA: 0
+										}
+									}
+									id: "mahoutsukai:attuned_diamond"
+									tag: {
+										MAHOUTSUKAI_GEM_STORED_MANA: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											MAHOUTSUKAI_GEM_STORED_MANA: 0
+										}
+									}
+									id: "mahoutsukai:attuned_emerald"
+									tag: {
+										MAHOUTSUKAI_GEM_STORED_MANA: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31E341E4AA4A011B"]
+			entity_vis_size: 1.0f
+			id: "7B2F1C1148140796"
+			tasks: [{
+				id: "50AD9B2D45A2AEFB"
+				item: {
+					Count: 1
+					id: "concatenatedadditionscore:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B2F1C1148140796"]
+			entity_vis_size: 1.0f
+			id: "45EF31A93841A366"
+			tasks: [{
+				id: "0CB1A4C3F2538C2B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenatedadditionsmachines:crushed_iron"
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionsmachines:crushed_gold"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:powdered_diamond"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:powdered_emerald"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:powdered_ender"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:powdered_eye"
+							}
+						]
+					}
+				}
+				title: "Any Powdered Ingredient"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
 	title: "Scholar of Yore"
 }

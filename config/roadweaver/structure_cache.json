@@ -10,6 +10,7 @@
     "thedulling:lost_interfold",
     "minecraft:overworld",
     "perdition:purgatory",
+    "mahoutsukai:reality_marble",
     "bloodyhell:soul_dimension",
     "minecraft:the_end",
     "minecraft:the_nether",
@@ -2913,6 +2914,24 @@
       ]
     },
     {
+      "id": "tetra:extractor_ruin",
+      "displayName": "Extractor Ruin",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "tetra:regular_ruin",
+      "displayName": "Regular Ruin",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "thedulling:bone_hoarder_arena",
       "displayName": "Bone Hoarder Arena",
       "isVanilla": false,
@@ -3563,6 +3582,14 @@
       "displayName": "#Flesh Dungeon",
       "structureIds": [
         "fracture:flesh_dungeon"
+      ]
+    },
+    {
+      "tagId": "tetra:forged_ruins",
+      "displayName": "#Forged Ruins",
+      "structureIds": [
+        "tetra:extractor_ruin",
+        "tetra:regular_ruin"
       ]
     },
     {

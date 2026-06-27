@@ -61,6 +61,27 @@ ServerEvents.tags('item', event => {
         'clanginghowl:industrial_adjustable_wrench'
     ]);
 
+    add('desecrated:hammer', [
+        'concatenatedadditionscore:hammer',
+        'mahoutsukai:hammer'
+    ]);
+
+    add('desecrated:crushed_iron', [
+        'concatenatedadditionsmachines:crushed_iron',
+        'mahoutsukai:powdered_iron'
+    ]);
+
+    add('desecrated:crushed_gold', [
+        'concatenatedadditionsmachines:crushed_gold',
+        'mahoutsukai:powdered_gold'
+    ]);
+
+    add('desecrated:celestial_crystals', [
+        'celestisynth:lunar_scrap',
+        'perdition:scintillating_marble_block',
+        'perdition:marmor_exaltatus'
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"

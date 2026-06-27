@@ -5,7 +5,6 @@ journeymap/data
 local
 tacz_backup
 rhino.local.properties
-resourcepacks/*.zip
 .qmenu_opened.marker
 .vscode
 
@@ -47,7 +46,6 @@ patchouli_data.json
 /config/asyncparticles/*.properties
 /config/durabilitytooltip-common.toml
 # do not put this line back or else you lag out people even more
-/shaderpacks/*.zip.txt
 Distant_Horizons_server_data
 welcomescreen_cache.json
 .mixin.out

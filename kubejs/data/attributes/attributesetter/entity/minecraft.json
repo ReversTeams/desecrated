@@ -1,0 +1,31 @@
+{
+  "wither": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 200,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "ender_dragon": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "operation": "ADDITION"
+    }
+  ]
+}
