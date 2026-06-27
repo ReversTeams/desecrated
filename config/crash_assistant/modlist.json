@@ -77,6 +77,14 @@
     "curseForgeHash": 98480002,
     "modrinthHash": "a52918a500ff421180a1cbd1a0cabee712134ec4"
   },
+  "art_of_forging-1.8.5-1.20.1.jar": {
+    "jarName": "art_of_forging-1.8.5-1.20.1.jar",
+    "modId": "art_of_forging",
+    "name": "Art Of Forging",
+    "version": "1.8.5-1.20.1",
+    "curseForgeHash": 2235299077,
+    "modrinthHash": "790c3403f3fc9c986f7c9848570a8b9f20611a07"
+  },
   "artificers_armory-beta-0.4.1-1.20.1-forge-neoforge.jar": {
     "jarName": "artificers_armory-beta-0.4.1-1.20.1-forge-neoforge.jar",
     "modId": "artificers_armory",
@@ -100,6 +108,14 @@
     "version": "1.0.1",
     "curseForgeHash": 2749174248,
     "modrinthHash": "26855373c222ccb5e5ac8ff76746df0d0b617500"
+  },
+  "asynclogger-2.0.0+1.20.1-forge.jar": {
+    "jarName": "asynclogger-2.0.0+1.20.1-forge.jar",
+    "modId": "asynclogger",
+    "name": "Async Logger",
+    "version": "2.0.0+1.20.1-forge",
+    "curseForgeHash": 4023399638,
+    "modrinthHash": "3f743d8b26f9fd8064c56d35f4139aea121dc9ac"
   },
   "ATi Structures V1.4.3 (1.20+).jar": {
     "jarName": "ATi Structures V1.4.3 (1.20+).jar",
@@ -148,14 +164,6 @@
     "version": "7.3.38",
     "curseForgeHash": 3717034118,
     "modrinthHash": "515905f87268f1eb5af2a9878a84914517efe552"
-  },
-  "BandwidthOptimizer-2.9.18.55-forge-1.20.1.jar": {
-    "jarName": "BandwidthOptimizer-2.9.18.55-forge-1.20.1.jar",
-    "modId": "bandwidthoptimizer",
-    "name": "BandwidthOptimizer",
-    "version": "2.9.18.55",
-    "curseForgeHash": 1418370560,
-    "modrinthHash": "dd2ceaaf58cb3fc238ca965c56adf5428f0d4b9e"
   },
   "BetterBurning-Forge-1.20.1-9.0.3.jar": {
     "jarName": "BetterBurning-Forge-1.20.1-9.0.3.jar",
@@ -1026,6 +1034,14 @@
     "curseForgeHash": 2239282096,
     "modrinthHash": "397763ae36dc2e0f526e0338c875850437580157"
   },
+  "fastasyncworldsave-1.20.1-2.6.jar": {
+    "jarName": "fastasyncworldsave-1.20.1-2.6.jar",
+    "modId": "fastasyncworldsave",
+    "name": "fastasyncworldsave mod",
+    "version": "1.20.1-2.6",
+    "curseForgeHash": 1473382339,
+    "modrinthHash": "3a3180f5fc9d1209ca0ad69084afe8ee42ba44d6"
+  },
   "fastboot-1.20.x-1.2.jar": {
     "jarName": "fastboot-1.20.x-1.2.jar",
     "modId": "fastboot",
@@ -1370,22 +1386,6 @@
     "curseForgeHash": 592164022,
     "modrinthHash": "d0b70444bb5312b1251a55756e9c21549419f9dd"
   },
-  "InventoryInteractions-1.2.0+1.20.1+forge.jar": {
-    "jarName": "InventoryInteractions-1.2.0+1.20.1+forge.jar",
-    "modId": "inventory_interactions",
-    "name": "Inventory Interactions",
-    "version": "1.2.0+1.20.1+forge",
-    "curseForgeHash": 1375889163,
-    "modrinthHash": "b7bff9efaf97a98e3fd8f0c015bd5fad3904c792"
-  },
-  "InventoryParticles-2.4.0+1.20.1+forge.jar": {
-    "jarName": "InventoryParticles-2.4.0+1.20.1+forge.jar",
-    "modId": "inventory_particles",
-    "name": "Inventory Particles",
-    "version": "2.4.0+1.20.1+forge",
-    "curseForgeHash": 4082688231,
-    "modrinthHash": "1222a96bab54f6e70a9d12cfd4954738e5b3ed73"
-  },
   "InventoryProfilesNext-forge-1.20-1.10.20.jar": {
     "jarName": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
     "modId": "inventoryprofilesnext",
@@ -1607,6 +1607,14 @@
     "curseForgeHash": 592634454,
     "modrinthHash": "7843a1d6fcb1fd5cb10e2e4296bea595cc8ffe8a"
   },
+  "mahoutsukai-1.20.1-v1.34.81.jar": {
+    "jarName": "mahoutsukai-1.20.1-v1.34.81.jar",
+    "modId": "mahoutsukai",
+    "name": "Mahou Tsukai",
+    "version": "1.20.1-v1.34.81",
+    "curseForgeHash": 1125133656,
+    "modrinthHash": "4ab9ae0e4b73b13ce7f93a8e26896d22558289d7"
+  },
   "MaxHealthFix-Forge-1.20.1-12.0.4.jar": {
     "jarName": "MaxHealthFix-Forge-1.20.1-12.0.4.jar",
     "modId": "maxhealthfix",
@@ -1743,6 +1751,14 @@
     "curseForgeHash": 2891672819,
     "modrinthHash": "c92d6d7cf2ffa333d64752edcde2b3c5a3e6edab"
   },
+  "mutil-1.20.1-6.3.0.jar": {
+    "jarName": "mutil-1.20.1-6.3.0.jar",
+    "modId": "mutil",
+    "name": "mutil",
+    "version": "6.3.0",
+    "curseForgeHash": 2618264134,
+    "modrinthHash": "29a233bbe5b156f16bfe67e402681a490c843062"
+  },
   "naturalsizes-1.2-forge-1.20.1.jar": {
     "jarName": "naturalsizes-1.2-forge-1.20.1.jar",
     "modId": "naturalsizes",
@@ -1862,6 +1878,14 @@
     "version": "1.1.3.1-hotfix",
     "curseForgeHash": 2329442058,
     "modrinthHash": "fb7a17938f72282fad9194a76fa0924e17f00bea"
+  },
+  "OneEnoughEnchantment-1.0.0.jar": {
+    "jarName": "OneEnoughEnchantment-1.0.0.jar",
+    "modId": "oneenoughenchantment",
+    "name": "OneEnoughEnchantment",
+    "version": "1.0.0",
+    "curseForgeHash": 2285543911,
+    "modrinthHash": "40eff69384a352ae4c5e614b63537ee73a6327e5"
   },
   "OneEnoughFluid-1.1.1-hotfix.jar": {
     "jarName": "OneEnoughFluid-1.1.1-hotfix.jar",
@@ -2494,6 +2518,22 @@
     "version": "2.5.4",
     "curseForgeHash": 1222598727,
     "modrinthHash": "79e1409b8db4ce86df9d6d6730f09c4bd8860a30"
+  },
+  "Tetra View-6.9.0-1.0.2.jar": {
+    "jarName": "Tetra View-6.9.0-1.0.2.jar",
+    "modId": "tetra_view",
+    "name": "Tetra View",
+    "version": "6.9.0-1.0.2",
+    "curseForgeHash": 3838583658,
+    "modrinthHash": "98fac11beb9b278f882e5e0bade0caaa430bb5ca"
+  },
+  "tetra-1.20.1-6.14.2.jar": {
+    "jarName": "tetra-1.20.1-6.14.2.jar",
+    "modId": "tetra",
+    "name": "tetra",
+    "version": "6.14.2",
+    "curseForgeHash": 3500018303,
+    "modrinthHash": "7b651a94ef0aa7f3b486061e1339962736b82ffa"
   },
   "the_abyssal_leviathan-1.0.6-forge-1.20.1.jar": {
     "jarName": "the_abyssal_leviathan-1.0.6-forge-1.20.1.jar",
