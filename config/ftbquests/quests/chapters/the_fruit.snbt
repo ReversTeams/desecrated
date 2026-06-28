@@ -6,7 +6,7 @@
 	group: "511EB53C58AD34AE"
 	icon: "desecratedcore:knowledge_fruit"
 	id: "24EF1187AC6BC831"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

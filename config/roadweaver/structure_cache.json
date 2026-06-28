@@ -1,5 +1,6 @@
 {
   "dimensions": [
+    "blood_arsenal_reawakened:black_void",
     "fracture:boreas_dimension",
     "spectrum:deeper_down",
     "perdition:dis",
@@ -14,6 +15,7 @@
     "bloodyhell:soul_dimension",
     "minecraft:the_end",
     "minecraft:the_nether",
+    "blood_arsenal_reawakened:white_day",
     "thedulling:yvxzlight"
   ],
   "structures": [
@@ -803,6 +805,102 @@
       "dimensions": [
         "minecraft:overworld",
         "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:angel_arena",
+      "displayName": "Angel Arena",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:white_day"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:dark_bone_hole",
+      "displayName": "Dark Bone Hole",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:black_void"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:dark_camp",
+      "displayName": "Dark Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:black_void"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:dark_ruine",
+      "displayName": "Dark Ruine",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:black_void"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:dark_schmiede",
+      "displayName": "Dark Schmiede",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:black_void"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:dark_tower",
+      "displayName": "Dark Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:black_void"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:devil_arena",
+      "displayName": "Devil Arena",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:black_void"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:light_bone_hole",
+      "displayName": "Light Bone Hole",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:white_day"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:light_camp",
+      "displayName": "Light Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:white_day"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:light_ruine",
+      "displayName": "Light Ruine",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:white_day"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:light_schmiede",
+      "displayName": "Light Schmiede",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:white_day"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:light_tower",
+      "displayName": "Light Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:white_day"
       ]
     },
     {

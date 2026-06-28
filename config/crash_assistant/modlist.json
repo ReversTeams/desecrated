@@ -109,13 +109,13 @@
     "curseForgeHash": 2749174248,
     "modrinthHash": "26855373c222ccb5e5ac8ff76746df0d0b617500"
   },
-  "asynclogger-2.0.0+1.20.1-forge.jar": {
-    "jarName": "asynclogger-2.0.0+1.20.1-forge.jar",
+  "asynclogger-2.0.1+1.20.1-forge.jar": {
+    "jarName": "asynclogger-2.0.1+1.20.1-forge.jar",
     "modId": "asynclogger",
     "name": "Async Logger",
-    "version": "2.0.0+1.20.1-forge",
-    "curseForgeHash": 4023399638,
-    "modrinthHash": "3f743d8b26f9fd8064c56d35f4139aea121dc9ac"
+    "version": "2.0.1+1.20.1-forge",
+    "curseForgeHash": 2200916609,
+    "modrinthHash": "c732e166903c88a2fa45fcea2dd0cf7349ea6f97"
   },
   "ATi Structures V1.4.3 (1.20+).jar": {
     "jarName": "ATi Structures V1.4.3 (1.20+).jar",
@@ -220,6 +220,14 @@
     "version": "1.0.0",
     "curseForgeHash": 4082165372,
     "modrinthHash": "2635eec283a2cb9edbcfc9880ef7a663e5bb7a92"
+  },
+  "BloodArsenalReawakened-1.0.1+mc1.20.1-b1.jar": {
+    "jarName": "BloodArsenalReawakened-1.0.1+mc1.20.1-b1.jar",
+    "modId": "blood_arsenal_reawakened",
+    "name": "BloodArsenalReawakened",
+    "version": "1.0.1+mc1.20.1-b1",
+    "curseForgeHash": 1072340249,
+    "modrinthHash": "e54ba97c5b35e31799895f3bbdc10d94f54f5b8e"
   },
   "bloodbits-2.1.3-forge-1.20.1.jar": {
     "jarName": "bloodbits-2.1.3-forge-1.20.1.jar",
@@ -453,13 +461,13 @@
     "curseForgeHash": 3246400390,
     "modrinthHash": "607bbb82656d28ddfaa5ef2ec6e9c413859f5956"
   },
-  "collective-1.20.1-8.29.jar": {
-    "jarName": "collective-1.20.1-8.29.jar",
+  "collective-1.20.1-8.32.jar": {
+    "jarName": "collective-1.20.1-8.32.jar",
     "modId": "collective",
     "name": "Collective",
-    "version": "8.29",
-    "curseForgeHash": 229901968,
-    "modrinthHash": "eb3efd187a9b1ad4c8d52000e4794e5c7b7ff6ea"
+    "version": "8.32",
+    "curseForgeHash": 3212654973,
+    "modrinthHash": "d9aa547fb2894900d2a13c294a5728fca4ad14c4"
   },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "jarName": "comforts-forge-6.4.0+1.20.1.jar",
@@ -1018,13 +1026,13 @@
     "curseForgeHash": 4200970324,
     "modrinthHash": "285c22b2567b9fdf98ef9808eceb5557de9611d3"
   },
-  "fancymenu_forge_3.9.3_MC_1.20.1.jar": {
-    "jarName": "fancymenu_forge_3.9.3_MC_1.20.1.jar",
+  "fancymenu_forge_3.9.6_MC_1.20.1.jar": {
+    "jarName": "fancymenu_forge_3.9.6_MC_1.20.1.jar",
     "modId": "fancymenu",
     "name": "FancyMenu",
-    "version": "3.9.3",
-    "curseForgeHash": 1523227670,
-    "modrinthHash": "22b779ac73923b39a02625adb108e7ee17a5502b"
+    "version": "3.9.6",
+    "curseForgeHash": 3148138651,
+    "modrinthHash": "c537ecb702bf08e46ee17ec3fd2c96199e72ce43"
   },
   "FarmersDelight-1.20.1-1.3.2.jar": {
     "jarName": "FarmersDelight-1.20.1-1.3.2.jar",
@@ -1186,13 +1194,13 @@
     "curseForgeHash": 3034467947,
     "modrinthHash": "f025cc4528288871ff5dd13c5ac0b0900c1a1ae0"
   },
-  "fusion-1.3.3-forge-mc1.20.1.jar": {
-    "jarName": "fusion-1.3.3-forge-mc1.20.1.jar",
+  "fusion-1.3.4-forge-mc1.20.1.jar": {
+    "jarName": "fusion-1.3.4-forge-mc1.20.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.3",
-    "curseForgeHash": 2088231900,
-    "modrinthHash": "efc69d175e04f57657206e88d90c42fa9a415936"
+    "version": "1.3.4",
+    "curseForgeHash": 3078386771,
+    "modrinthHash": "7e394c5e85397b08586b49084aed514c0af7b781"
   },
   "fwa+1.20.1-forge-1.2.31.jar": {
     "jarName": "fwa+1.20.1-forge-1.2.31.jar",
@@ -1473,6 +1481,14 @@
     "version": "6.1.1+1.20.1",
     "curseForgeHash": 1481151549,
     "modrinthHash": "48cdc22a0f6698c9059f437538e5546f74900541"
+  },
+  "KeybindHider-Forge-1.20.1-1.3.jar": {
+    "jarName": "KeybindHider-Forge-1.20.1-1.3.jar",
+    "modId": "keybindhider",
+    "name": "KeybindHider",
+    "version": "1.3",
+    "curseForgeHash": 211290064,
+    "modrinthHash": "5c8121fb578d316377ca91416104b50bda4f1dae"
   },
   "killingwaves-1.20.1-1.1.0.jar": {
     "jarName": "killingwaves-1.20.1-1.1.0.jar",
@@ -1783,13 +1799,13 @@
     "curseForgeHash": 2911560819,
     "modrinthHash": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf"
   },
-  "neepmeat-0.28.1-beta+1.20.1.jar": {
-    "jarName": "neepmeat-0.28.1-beta+1.20.1.jar",
+  "neepmeat-0.29.2-beta+1.20.1.jar": {
+    "jarName": "neepmeat-0.29.2-beta+1.20.1.jar",
     "modId": "neepmeat",
     "name": "NEEPMeat",
-    "version": "0.28.1-beta+1.20.1",
-    "curseForgeHash": 93215170,
-    "modrinthHash": "f49f2ce6cd41ff4bf8de5ed8ae4c80cb0956a11c"
+    "version": "0.29.2-beta+1.20.1",
+    "curseForgeHash": 1856196655,
+    "modrinthHash": "dbe1c5eeabc95591fa548a9d02685d0449e12c15"
   },
   "Neruina-2.1.2-forge+1.20.1.jar": {
     "jarName": "Neruina-2.1.2-forge+1.20.1.jar",

@@ -1,0 +1,75 @@
+
+[weapons]
+	#Bonus attack damage of the Blood-Bound Executioner (on top of the Netherite base)
+	#Range: 0 ~ 2048
+	blood_bound_executioner_damage = 7
+	#Range: -4.0 ~ 4.0
+	blood_bound_executioner_speed = -2.4
+	#Bonus attack damage of the Sanguine Scythe (on top of the Diamond base)
+	#Range: 0 ~ 2048
+	sanguine_scythe_damage = 6
+	#Range: -4.0 ~ 4.0
+	sanguine_scythe_speed = -2.4
+
+[sigils]
+	#Range: > 0
+	divinity_activation_lp = 1000000
+	#Range: > 0
+	divinity_upkeep_per_tick = 3500
+	#Range: > 0
+	flight_lp_per_tick = 20
+	#Actual cost scales as base x level^2
+	#Range: > 0
+	lightning_base_cost = 500
+	#Range: > 0
+	bloodmoon_time_change = 5000
+	#Range: > 0
+	decayed_blood_save = 5000
+	#Range: > 0
+	decayed_blood_teleport = 5000
+	#Range: > 0
+	ender_teleport = 250
+	#Range: > 0
+	ender_chest = 100
+	#Range: > 0
+	bloodlust_activation = 30000
+
+[hearts]
+	#Health (HP) granted per heart consumed; 2.0 = one heart
+	#Range: 0.0 ~ 100.0
+	health_per_heart = 2.0
+	#Range: 0 ~ 1000
+	max_uses_per_type = 10
+
+[bosses]
+	#Range: 1.0 ~ 100000.0
+	risen_devil_health = 600.0
+	#Range: 0.0 ~ 10000.0
+	risen_devil_damage = 16.0
+	#Range: 1.0 ~ 100000.0
+	fallen_angel_health = 550.0
+	#Range: 0.0 ~ 10000.0
+	fallen_angel_damage = 14.0
+
+[drops]
+	#Range: 0 ~ 64
+	boss_essence_count = 1
+	drop_resurrection_fruit = true
+
+[armor]
+	#Effect levels: 0 = disabled, 1 = I, 2 = II, 3 = III ...
+	helmet_night_vision = true
+	#Range: 0 ~ 10
+	chestplate_haste_level = 2
+	#Range: 0 ~ 10
+	leggings_speed_level = 2
+	#Range: 0 ~ 10
+	full_set_strength_level = 2
+	#Range: 0 ~ 10
+	full_set_regeneration_level = 3
+	#Range: 0 ~ 10
+	full_set_resistance_level = 3
+	full_set_fire_resistance = true
+	full_set_saturation = true
+	full_set_water_breathing = true
+
