@@ -2587,6 +2587,140 @@
 			x: 16.5d
 			y: -19.5d
 		}
+		{
+			entity_vis_size: 1.0f
+			id: "7A488EE346E022EE"
+			tasks: [{
+				id: "5FE3D39EA08193A7"
+				item: "mahoutsukai:dagger"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["578A5561970CCBCF"]
+			entity_vis_size: 1.0f
+			id: "31B184499BFCCBEF"
+			tasks: [{
+				id: "01C00362824A29FA"
+				item: "mahoutsukai:mortar_and_pestle"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["45EF31A93841A366"]
+			entity_vis_size: 1.0f
+			id: "578A5561970CCBCF"
+			tasks: [
+				{
+					id: "7970C20646466978"
+					item: "mahoutsukai:attuner"
+					type: "item"
+				}
+				{
+					id: "05A68BF5CF30F593"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											MAHOUTSUKAI_GEM_STORED_MANA: 0
+										}
+									}
+									id: "mahoutsukai:attuned_diamond"
+									tag: {
+										MAHOUTSUKAI_GEM_STORED_MANA: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											MAHOUTSUKAI_GEM_STORED_MANA: 0
+										}
+									}
+									id: "mahoutsukai:attuned_emerald"
+									tag: {
+										MAHOUTSUKAI_GEM_STORED_MANA: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: -32.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7B2F1C1148140796"
+			tasks: [{
+				id: "50AD9B2D45A2AEFB"
+				item: {
+					Count: 1
+					id: "concatenatedadditionscore:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 28.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["7B2F1C1148140796"]
+			entity_vis_size: 1.0f
+			id: "45EF31A93841A366"
+			tasks: [{
+				id: "0CB1A4C3F2538C2B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenatedadditionsmachines:crushed_iron"
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionsmachines:crushed_gold"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:powdered_diamond"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:powdered_emerald"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:powdered_ender"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:powdered_eye"
+							}
+						]
+					}
+				}
+				title: "Any Powdered Ingredient"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -30.5d
+		}
 	]
 	title: "Arcane Flesh"
 }
