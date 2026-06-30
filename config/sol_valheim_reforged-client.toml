@@ -11,3 +11,9 @@
 	#Scale of food slots on the HUD (default = 0.9)
 	hud_scale = 0.9
 
+[empty_slot_warning]
+	#Display a message when a food slot becomes empty (boolean, default = false)
+	empty_slot_message = false
+	#Play a sound when a food slot becomes empty (boolean, default = false)
+	empty_slot_sound = false
+

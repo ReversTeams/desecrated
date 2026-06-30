@@ -1,0 +1,26 @@
+# Don't change this! Version used to track needed updates.
+version = 6
+# Dynamic mappings - runtime effect conversion (reloadable)
+dynamicMappings = [  ]
+
+[debug]
+# Logging level: NONE, ERRORS, WARNINGS, ALL
+logLevel = "ERRORS"
+
+# Static mappings - registry aliasing at startup (requires restart)
+
+[[staticMappings]]
+# Source effect pattern: *:bleeding, *:bleeding*, modid:effect*, *:bleeding* !*:immunity
+sourceEffect = "hexalia:bleed, mahoutsukai:bleeding, tetra:bleeding, thedulling:bleeding"
+# Target effect (comma-separated for fallback): primary:effect, fallback:effect
+targetEffect = "biomancy:bleed"
+# Amplifier multiplier
+amplifierMultiplier = 1.0
+# Visual change only (no amplifier conversion)
+onlyVisualChange = false
+# Unidirectional (prevents source mod handlers)
+unidirectional = false
+# Extra effects to call applyUpdateEffect() (comma-separated)
+extraApplyEffectTick = ""
+# Effects to block applyUpdateEffect() (comma-separated, supports wildcards)
+discardEffectTick = ""

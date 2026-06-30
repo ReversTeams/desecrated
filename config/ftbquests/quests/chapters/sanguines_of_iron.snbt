@@ -3,9 +3,61 @@
 	default_quest_shape: ""
 	filename: "sanguines_of_iron"
 	group: "77396AEB02AB4898"
+	icon: {
+		Count: 1
+		id: "tetra:modular_double"
+		tag: {
+			Damage: 0
+			"double/basic_hammer_left_material": "basic_hammer/iron"
+			"double/basic_hammer_right_material": "basic_hammer/iron"
+			"double/basic_handle_material": "basic_handle/spruce"
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_hammer_left"
+			"double/head_right": "double/basic_hammer_right"
+			id: "8b92ea8a-932d-4c81-83e3-03fd7171cd14"
+		}
+	}
 	id: "49AAA9EFC529FB90"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "20DC2110D654C2D8"
+			tasks: [{
+				id: "3046CFCEC4204858"
+				item: "desecratedcore:iron_key_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20DC2110D654C2D8"]
+			entity_vis_size: 1.0f
+			id: "67E46BEEC08F8EA1"
+			tasks: [{
+				advancement: "tetra:upgrades/root"
+				criterion: ""
+				id: "6A27E688CFCF6E94"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67E46BEEC08F8EA1"]
+			entity_vis_size: 1.0f
+			id: "1CE2E59DF8AB13AF"
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				id: "78C8DAF3FACB8ABC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
 	title: "Sanguines of Iron"
 }

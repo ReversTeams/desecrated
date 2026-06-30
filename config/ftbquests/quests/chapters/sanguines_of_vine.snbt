@@ -1074,6 +1074,23 @@
 			x: 0.0d
 			y: -15.0d
 		}
+		{
+			dependencies: ["3409E128DA8E9ED3"]
+			entity_vis_size: 1.0f
+			icon: "desecratedcore:chooser_key_item"
+			id: "512B726C7BF16BC2"
+			rewards: [{
+				id: "7F305FE1EF567A7A"
+				item: "desecratedcore:chooser_key_item"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6397184BACC479CB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -16.5d
+		}
 	]
 	title: "Sanguines of Vine"
 }

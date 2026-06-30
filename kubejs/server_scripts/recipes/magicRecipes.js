@@ -15,11 +15,21 @@ ServerEvents.recipes(event => {
         'concatenatedadditionsartefacts:protection_charm',
         'bloodyhell:main_blood_altar',
         'bloodyhell:unknown_portal_item',
-        'bloodyhell:blasphemite'
+        'bloodyhell:blasphemite',
+        'mahoutsukai:pestle',
+        'mahoutsukai:mortar',
+        'mahoutsukai:dagger',
+        'bloodyhell:sacrificial_dagger',
+        'mahoutsukai:attuner',
+        'bloodyhell:blood_flask'
     ]
 
     const removeCraftingShaped = [
-        'biomancy:decomposer'
+        'biomancy:decomposer',
+        'bloodyhell:amulet_of_ancestral_blood',
+        'bloodyhell:great_amulet_of_ancestral_blood',
+        'bloodyhell:crimson_ward_ring',
+        'bloodyhell:blasphemous_ring'
     ]
 
     // const removeCraftingShapeless = [
@@ -185,6 +195,20 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('bloodyhell:sacrificial_dagger'),
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'bloodyhell:sanguinite',
+            B: 'bloodyhell:rhnull',
+            C: 'bloodyhell:aureal_revenant_dagger'
+        }
+    )
+
     event.custom({
         type: "bloodyhell:condensing",
         fluid_input: {
@@ -198,4 +222,86 @@ ServerEvents.recipes(event => {
             "item": "bloodyhell:blasphemite"
         }
     });
+
+    // Mahou Tsoukai Recipes
+    event.shaped(
+        Item.of('concatenatedadditionstools:ice_shard'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:blue_ice',
+            B: 'reliquary:frozen_core'
+        }
+    )
+
+    event.shaped(
+        Item.of('mahoutsukai:pestle'),
+        [
+            ' AB',
+            'ACA',
+            'BA '
+        ],
+        {
+            B: 'mahoutsukai:powdered_quartz',
+            A: '#desecrated:celestial_crystals',
+            C: 'mahoutsukai:attuned_diamond'
+        }
+    )
+    event.shaped(
+        Item.of('mahoutsukai:mortar'),
+        [
+            'A A',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'mahoutsukai:powdered_quartz',
+            A: '#desecrated:celestial_crystals',
+            C: 'mahoutsukai:attuned_diamond'
+        }
+    )
+    event.shaped(
+        Item.of('mahoutsukai:dagger'),
+        [
+            '  A',
+            'BC ',
+            'DB '
+        ],
+        {
+            D: 'bloodyhell:rhnull',
+            C: 'desecratedcore:forbidden_knowledge',
+            B: 'concatenatedadditionstools:glowing_gold',
+            A: 'minecraft:crying_obsidian'
+        }
+    )
+    event.shaped(
+        Item.of('mahoutsukai:attuner'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'bloodyhell:rhnull',
+            C: 'bloodyhell:aventurine_blood_gem',
+            A: 'concatenatedadditionstools:glowing_gold'
+        }
+    )
+    event.shaped(
+        Item.of('bloodyhell:blood_flask'),
+        [
+            ' A ',
+            'BCB',
+            ' D '
+        ],
+        {
+            B: 'minecraft:gold_ingot',
+            C: '#forge:glass',
+            D: 'bloodyhell:rhnull',
+            A: '#minecraft:buttons'
+        }
+    )
 });
