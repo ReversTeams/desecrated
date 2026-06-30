@@ -1621,27 +1621,14 @@
 			dependencies: ["71FEEA1CF45FCE10"]
 			disable_toast: true
 			entity_vis_size: 1.0f
-			id: "001B5DAA6083EEA7"
-			tasks: [{
-				id: "5549CF8A2DBCF540"
-				item: "desecratedcore:yore_key_item"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["71FEEA1CF45FCE10"]
-			disable_toast: true
-			entity_vis_size: 1.0f
 			id: "3B6BAB7182971A38"
 			tasks: [{
 				id: "40A1B80F22D3CCCF"
 				item: "desecratedcore:moon_key_item"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.5d
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 	title: "Fallen"

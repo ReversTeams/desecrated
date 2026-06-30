@@ -134,7 +134,7 @@
 
 	[custom_classes.custom_1]
 		#Unique internal ID. Leave empty to disable.
-		id = "yore"
+		id = ""
 		#Display name shown in GUI. (Supports translation keys)
 		name = "Scholar of Yore"
 		#Lore text shown in the panel. (Supports translation keys)

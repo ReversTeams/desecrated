@@ -51,6 +51,8 @@
 	bgColor = "#050F0F"
 	accentColor = "#55FFFF"
 	allowKeepInventory = true
+	#Commands to execute when Cozy difficulty is selected.
+	commands = []
 
 [normal]
 	enabled = true
@@ -65,6 +67,8 @@
 	bgColor = "#07070F"
 	accentColor = "#D4A843"
 	allowKeepInventory = true
+	#Commands to execute when Normal difficulty is selected.
+	commands = []
 
 [extreme]
 	enabled = true
@@ -79,6 +83,8 @@
 	bgColor = "#0F0A05"
 	accentColor = "#FF8833"
 	allowKeepInventory = true
+	#Commands to execute when Extreme difficulty is selected.
+	commands = []
 
 [torture]
 	enabled = true
@@ -97,6 +103,8 @@
 	bgColor = "#100505"
 	accentColor = "#FF3333"
 	allowKeepInventory = true
+	#Commands to execute when Torture difficulty is selected.
+	commands = []
 
 [chaos]
 	enabled = true
@@ -115,6 +123,8 @@
 	bgColor = "#0A0005"
 	accentColor = "#FF0000"
 	allowKeepInventory = true
+	#Commands to execute when Chaos difficulty is selected.
+	commands = []
 
 [custom_difficulties]
 	#Range: 1 ~ 100

@@ -2588,6 +2588,7 @@
 			y: -19.5d
 		}
 		{
+			dependencies: ["6F3A5BBFC72E0DBF"]
 			entity_vis_size: 1.0f
 			id: "7A488EE346E022EE"
 			tasks: [{
@@ -2595,8 +2596,8 @@
 				item: "mahoutsukai:dagger"
 				type: "item"
 			}]
-			x: 26.5d
-			y: -29.0d
+			x: 23.0d
+			y: -31.0d
 		}
 		{
 			dependencies: ["578A5561970CCBCF"]
@@ -2607,8 +2608,8 @@
 				item: "mahoutsukai:mortar_and_pestle"
 				type: "item"
 			}]
-			x: 32.0d
-			y: -32.0d
+			x: 28.0d
+			y: -34.0d
 		}
 		{
 			dependencies: ["45EF31A93841A366"]
@@ -2657,28 +2658,11 @@
 					type: "item"
 				}
 			]
-			x: 30.0d
-			y: -32.0d
+			x: 26.5d
+			y: -33.0d
 		}
 		{
-			entity_vis_size: 1.0f
-			id: "7B2F1C1148140796"
-			tasks: [{
-				id: "50AD9B2D45A2AEFB"
-				item: {
-					Count: 1
-					id: "concatenatedadditionscore:hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 28.5d
-			y: -29.0d
-		}
-		{
-			dependencies: ["7B2F1C1148140796"]
+			dependencies: ["7A488EE346E022EE"]
 			entity_vis_size: 1.0f
 			id: "45EF31A93841A366"
 			tasks: [{
@@ -2718,8 +2702,8 @@
 				title: "Any Powdered Ingredient"
 				type: "item"
 			}]
-			x: 29.0d
-			y: -30.5d
+			x: 25.0d
+			y: -31.5d
 		}
 	]
 	title: "Arcane Flesh"

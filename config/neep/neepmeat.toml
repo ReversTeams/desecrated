@@ -83,9 +83,9 @@ drillChassisMaxComplexity = 16
 	bloodPerMob = 20250
 	# Fluid to produce when a mob is killed
 	# default: neepmeat:blood
-	fluidId = "neepmeat:blood"
+	fluidId = "desecratedcore:blood"
 
 [loot_tables]
 	# If true, Integrator eggs will be injected into key loot tables
 	# default: true
-	injectIntegratorEggs = true
+	injectIntegratorEggs = false

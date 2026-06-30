@@ -1232,7 +1232,7 @@
 
 [other]
 	#Bleeding only occurs when using dagger
-	BLEEDING_FROM_DAGGER_ONLY = false
+	BLEEDING_FROM_DAGGER_ONLY = true
 	#The block range value for any spells which use the player's line of sight
 	#Range: 0 ~ 100000000
 	GLOBAL_LOOK_RANGE = 100
