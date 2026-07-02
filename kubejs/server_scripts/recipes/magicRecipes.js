@@ -18,10 +18,13 @@ ServerEvents.recipes(event => {
         'bloodyhell:blasphemite',
         'mahoutsukai:pestle',
         'mahoutsukai:mortar',
+        'mahoutsukai:hammer',
         'mahoutsukai:dagger',
         'bloodyhell:sacrificial_dagger',
         'mahoutsukai:attuner',
-        'bloodyhell:blood_flask'
+        'bloodyhell:blood_flask',
+        'mahoutsukai:mystic_code_first_sorcery',
+        'mahoutsukai:mystic_code'
     ]
 
     const removeCraftingShaped = [
@@ -208,6 +211,20 @@ ServerEvents.recipes(event => {
             C: 'bloodyhell:aureal_revenant_dagger'
         }
     )
+    event.shaped(
+        Item.of('bloodyhell:blood_flask'),
+        [
+            ' A ',
+            'BCB',
+            ' D '
+        ],
+        {
+            B: 'minecraft:gold_ingot',
+            C: '#forge:glass',
+            D: 'bloodyhell:rhnull',
+            A: '#minecraft:buttons'
+        }
+    )
 
     event.custom({
         type: "bloodyhell:condensing",
@@ -291,17 +308,33 @@ ServerEvents.recipes(event => {
         }
     )
     event.shaped(
-        Item.of('bloodyhell:blood_flask'),
+        Item.of('mahoutsukai:mystic_code'),
         [
-            ' A ',
-            'BCB',
-            ' D '
+            'ABA',
+            'CDC',
+            'ABA'
         ],
         {
-            B: 'minecraft:gold_ingot',
-            C: '#forge:glass',
-            D: 'bloodyhell:rhnull',
-            A: '#minecraft:buttons'
+            A: 'mahoutsukai:spell_cloth',
+            C: 'mahoutsukai:powdered_diamond',
+            B: 'concatenatedadditionstools:glowing_gold',
+            D: 'bloodyhell:pure_blood_gem'
+        }
+    )
+
+    event.shaped(
+        Item.of('mahoutsukai:mystic_code_first_sorcery'),
+        [
+            'ABA',
+            'CDC',
+            'EBE'
+        ],
+        {
+            E: 'bloodyhell:blood_echo_shard',
+            A: 'bloodyhell:nameless_echo_shard',
+            B: 'bloodyhell:blasphemite',
+            C: 'mahoutsukai:fae_essence',
+            D: 'mahoutsukai:mystic_code'
         }
     )
 });

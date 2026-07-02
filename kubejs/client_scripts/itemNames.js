@@ -23,4 +23,5 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('mahoutsukai:mortar_and_pestle', 'Celestial Mortar and Pestle');
   event.renameItem('mahoutsukai:pestle', 'Celestial Mortar');
   event.renameItem('mahoutsukai:mortar', 'Celestial Pestle');
+  event.renameItem('mahoutsukai:guidebook', 'Mahou Shomotsu');
 })
