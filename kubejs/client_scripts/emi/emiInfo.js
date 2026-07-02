@@ -10,7 +10,7 @@ JEIEvents.information(event => {
   
   event.addItem( 'bloodyhell:chalice_of_the_dammed', ['Find Vesper\'s Hut to complete Vesper\'s quest.', 'Bring 1 essence and 1 sinful bone to Vesper.'])
 
-  event.addItem( 'neepmeat:integrator_egg', ['Obtained by throwing a reanimated heart into lava surrounded by 8 rusted metal.', 'Does not spawn in loot chests.'])
+  event.addItem( 'neepmeat:integrator_egg', ['Obtained by throwing a reanimated heart into lava surrounded by 8 rusted metal.'])
 
   event.addItem( 'vampirism:blood_bottle', ['Obtained by drinking a creature\'s blood with a glass bottle.', 'You can right click any tank with 1000mb of blood to create a bottle of blood.'])
 

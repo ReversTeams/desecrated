@@ -501,7 +501,7 @@
 		POWER_CONSOLIDATION_DURABILITY = 1000
 		#Highest damage possible for Caliburn
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_ATTACK_CAP = 60
+		POWER_CONSOLIDATION_ATTACK_CAP = 40
 		#This is the range for smiting undead mobs with Caliburn
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_SMITE_RADIUS = 10
@@ -1185,7 +1185,7 @@
 	MANA_UP_COUNTER = 200
 	#Percentage of max mana players get back by sleeping
 	#Range: 0.0 ~ 1.0E8
-	MANA_RECOVERY_SLEEP = 0.4
+	MANA_RECOVERY_SLEEP = 0.5
 	#How much mana players regen per tick
 	#Range: 0 ~ 100000000
 	MANA_REGEN_PER_TICK = 1
@@ -1242,7 +1242,7 @@
 	GAMESTAGES_ENABLED = false
 	#If damage is flat, this value is dealt to player's health. If not flat, this value is multiplied by mana used and rounded up.
 	#Range: 0.0 ~ 1.0E8
-	MAGIC_DAMAGE_VALUE = 1.0
+	MAGIC_DAMAGE_VALUE = 2.0
 	#If Magic damages the player, should it be flat damage or based on mana used
 	MAGIC_DAMAGE_FLAT = true
 	#What type of damage magic damage inflicts.

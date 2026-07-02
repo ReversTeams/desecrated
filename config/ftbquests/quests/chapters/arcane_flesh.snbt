@@ -2591,6 +2591,12 @@
 			dependencies: ["6F3A5BBFC72E0DBF"]
 			entity_vis_size: 1.0f
 			id: "7A488EE346E022EE"
+			rewards: [{
+				id: "7EA45E715EECDE2B"
+				item: "mahoutsukai:guidebook"
+				type: "item"
+			}]
+			size: 1.15d
 			tasks: [{
 				id: "5FE3D39EA08193A7"
 				item: "mahoutsukai:dagger"
@@ -2609,10 +2615,13 @@
 				type: "item"
 			}]
 			x: 28.0d
-			y: -34.0d
+			y: -35.0d
 		}
 		{
-			dependencies: ["45EF31A93841A366"]
+			dependencies: [
+				"45EF31A93841A366"
+				"70DF4751FC01E992"
+			]
 			entity_vis_size: 1.0f
 			id: "578A5561970CCBCF"
 			tasks: [
@@ -2658,8 +2667,8 @@
 					type: "item"
 				}
 			]
-			x: 26.5d
-			y: -33.0d
+			x: 26.0d
+			y: -34.0d
 		}
 		{
 			dependencies: ["7A488EE346E022EE"]
@@ -2703,7 +2712,130 @@
 				type: "item"
 			}]
 			x: 25.0d
-			y: -31.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["0F17782DE678C1AD"]
+			entity_vis_size: 1.0f
+			id: "06656D0213B43EC4"
+			size: 1.15d
+			tasks: [{
+				id: "4AF30A27908690A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "mahoutsukai:mystic_code"
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["06656D0213B43EC4"]
+			entity_vis_size: 1.0f
+			id: "02D261BF2033ED7D"
+			size: 1.25d
+			tasks: [{
+				id: "5BE390B1BD8721BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "mahoutsukai:mystic_code_first_sorcery"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["7A488EE346E022EE"]
+			entity_vis_size: 1.0f
+			id: "0F17782DE678C1AD"
+			tasks: [{
+				id: "711E7E87CDDA70DF"
+				item: "mahoutsukai:spell_cloth"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["578A5561970CCBCF"]
+			entity_vis_size: 1.0f
+			id: "4BA7FF15EEE8FD2C"
+			tasks: [{
+				id: "1A9B75594360CF77"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mahoutsukai:mana_circuit"
+							}
+							{
+								Count: 1b
+								id: "mahoutsukai:mana_circuit_magitech"
+							}
+						]
+					}
+				}
+				title: "Any Mana Circuit"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["0F17782DE678C1AD"]
+			entity_vis_size: 1.0f
+			id: "59EB9A04C8048113"
+			tasks: [{
+				id: "0EABB876123B45C2"
+				item: "mahoutsukai:fog_projector"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["0F17782DE678C1AD"]
+			entity_vis_size: 1.0f
+			id: "3365AE7B6D509B8D"
+			tasks: [{
+				id: "60E8097A61A331F1"
+				item: "mahoutsukai:mahoujin_projector"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["7A488EE346E022EE"]
+			entity_vis_size: 1.0f
+			id: "57060C6DB836D71C"
+			tasks: [{
+				id: "6A43125F09841178"
+				item: "mahoutsukai:fae_essence"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -31.0d
 		}
 	]
 	title: "Arcane Flesh"

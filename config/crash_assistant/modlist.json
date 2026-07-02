@@ -61,6 +61,14 @@
     "curseForgeHash": 101227267,
     "modrinthHash": "5d5a1d7d2d2dd37c578fdea2495757baaa624092"
   },
+  "animus-1.20.1-3.0.27.jar": {
+    "jarName": "animus-1.20.1-3.0.27.jar",
+    "modId": "animus",
+    "name": "Animus",
+    "version": "3.0.27",
+    "curseForgeHash": 3554525465,
+    "modrinthHash": "f722b176fcc0bf5d75b076abcd887d158fb84ad8"
+  },
   "ARC Fix 1.10.jar": {
     "jarName": "ARC Fix 1.10.jar",
     "modId": "arcfix",
@@ -109,13 +117,13 @@
     "curseForgeHash": 2749174248,
     "modrinthHash": "26855373c222ccb5e5ac8ff76746df0d0b617500"
   },
-  "asynclogger-2.1.0+1.20.1-forge.jar": {
-    "jarName": "asynclogger-2.1.0+1.20.1-forge.jar",
+  "asynclogger-2.1.1+1.20.1-forge.jar": {
+    "jarName": "asynclogger-2.1.1+1.20.1-forge.jar",
     "modId": "asynclogger",
     "name": "Async Logger",
-    "version": "2.1.0+1.20.1-forge",
-    "curseForgeHash": 2901734478,
-    "modrinthHash": "1e0a5385456d3f091ff37981e3f2681b59c0f765"
+    "version": "2.1.1+1.20.1-forge",
+    "curseForgeHash": 2415117034,
+    "modrinthHash": "a54d9ac7cc7e921972885dd6d16f00e8f6e7c62c"
   },
   "ATi Structures V1.4.3 (1.20+).jar": {
     "jarName": "ATi Structures V1.4.3 (1.20+).jar",
@@ -794,6 +802,14 @@
     "curseForgeHash": 4092597210,
     "modrinthHash": "dddab6a5ff092b4535e9fdfb01e1e011afb90e57"
   },
+  "desecratedcompat-1.0.0.jar": {
+    "jarName": "desecratedcompat-1.0.0.jar",
+    "modId": "desecratedcompat",
+    "name": "Desecrated Compat",
+    "version": "1.0.0",
+    "curseForgeHash": 3999177566,
+    "modrinthHash": "32dc6c9223e227a44f754e30c2e3bfeeb22256b4"
+  },
   "desecratedcompat.jar": {
     "jarName": "desecratedcompat.jar",
     "modId": "desecratedcompat",
@@ -1154,13 +1170,13 @@
     "curseForgeHash": 777644732,
     "modrinthHash": "a5427d5ff07eb044144ed0b54308370d88bce17e"
   },
-  "ftb-quests-entity-vis-1.4.0-1.20.1.jar": {
-    "jarName": "ftb-quests-entity-vis-1.4.0-1.20.1.jar",
+  "ftb-quests-entity-vis-1.5.0-1.20.1.jar": {
+    "jarName": "ftb-quests-entity-vis-1.5.0-1.20.1.jar",
     "modId": "ftbquestsentityvis",
     "name": "FTB Quests Entity Visualization",
-    "version": "1.4.0-1.20.1",
-    "curseForgeHash": 2010997342,
-    "modrinthHash": "3271d98236d91aab25b84e1d0b4e7bc581fa3016"
+    "version": "1.5.0-1.20.1",
+    "curseForgeHash": 691040267,
+    "modrinthHash": "4423b954147050fc3857223aba077ca9f51cc9c4"
   },
   "ftb-quests-forge-2001.4.22.jar": {
     "jarName": "ftb-quests-forge-2001.4.22.jar",
@@ -1258,13 +1274,13 @@
     "curseForgeHash": 686879422,
     "modrinthHash": "54301c2db5467e0f9f5c504887436f358335331f"
   },
-  "gpushift-universal-1.20.1-1.2.1.jar": {
-    "jarName": "gpushift-universal-1.20.1-1.2.1.jar",
+  "gpushift-universal-1.20.1-1.2.2.jar": {
+    "jarName": "gpushift-universal-1.20.1-1.2.2.jar",
     "modId": "gpushift",
     "name": "GpuShift",
-    "version": "1.2.1",
-    "curseForgeHash": 1443422474,
-    "modrinthHash": "a424f2c6498561cb03ba413757fd2c69b1385125"
+    "version": "1.2.2",
+    "curseForgeHash": 2120112801,
+    "modrinthHash": "27a871b43a2275da02fcfe7c1ee78880069d21fa"
   },
   "GPUTape-1.18x-1.21x-1.0.5.1-forge.jar": {
     "jarName": "GPUTape-1.18x-1.21x-1.0.5.1-forge.jar",
@@ -1330,13 +1346,13 @@
     "curseForgeHash": 454894994,
     "modrinthHash": "84386b55c1729e8fb62f91211d046fb6d7ef23d2"
   },
-  "ImmediatelyFast-Forge-1.5.4+1.20.4.jar": {
-    "jarName": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+  "ImmediatelyFast-Forge-1.5.5+1.20.4.jar": {
+    "jarName": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
     "modId": "immediatelyfast",
     "name": "ImmediatelyFast",
-    "version": "1.5.4+1.20.4",
-    "curseForgeHash": 4234781540,
-    "modrinthHash": "e2e60485a0c3efa72f1948c952b095150e3ba4fc"
+    "version": "1.5.5+1.20.4",
+    "curseForgeHash": 220541488,
+    "modrinthHash": "9eacd407b7dea636d375dc47335d92f616484ea2"
   },
   "immersive_optimization-forge-1.20.1-0.1.6.jar": {
     "jarName": "immersive_optimization-forge-1.20.1-0.1.6.jar",
@@ -2191,13 +2207,13 @@
     "curseForgeHash": 860757365,
     "modrinthHash": "8f0c3aed7c1d47da3b807a7ade5e8a5d3f506bd9"
   },
-  "sawmill-1.20-1.4.10.jar": {
-    "jarName": "sawmill-1.20-1.4.10.jar",
+  "sawmill-1.20-1.4.11.jar": {
+    "jarName": "sawmill-1.20-1.4.11.jar",
     "modId": "sawmill",
     "name": "Universal Sawmill",
-    "version": "1.20-1.4.10",
-    "curseForgeHash": 2056995272,
-    "modrinthHash": "a22d7c1e3f6142d061f4f52447489628ebcf3e43"
+    "version": "1.20-1.4.11",
+    "curseForgeHash": 3653131389,
+    "modrinthHash": "7d597a52617e775b6e8ae1a371af7e22e4f8bc31"
   },
   "SBM-BoneTorch-1.20.1-1.0.0.jar": {
     "jarName": "SBM-BoneTorch-1.20.1-1.0.0.jar",
@@ -2206,14 +2222,6 @@
     "version": "1.0.0",
     "curseForgeHash": 3900241894,
     "modrinthHash": "35a624915f828bb97f6cbc16ca6360c45749fd57"
-  },
-  "scholar-1.20.1-1.2.2-forge.jar": {
-    "jarName": "scholar-1.20.1-1.2.2-forge.jar",
-    "modId": "scholar",
-    "name": "Scholar",
-    "version": "1.2.2",
-    "curseForgeHash": 2926049833,
-    "modrinthHash": "33c49424b27db253547b567a2aa1d94c7e7089ea"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
@@ -2471,13 +2479,13 @@
     "curseForgeHash": 969230376,
     "modrinthHash": "bddafeea4c9c1132ed720c30fbaedfe5ab25e846"
   },
-  "taczadditions-1.20.1-1.0.4.jar": {
-    "jarName": "taczadditions-1.20.1-1.0.4.jar",
+  "taczadditions-1.20.1-1.0.5-hotfix2.jar": {
+    "jarName": "taczadditions-1.20.1-1.0.5-hotfix2.jar",
     "modId": "taczadditions",
     "name": "TaCZ: Additions",
-    "version": "1.0.4",
-    "curseForgeHash": 2075394132,
-    "modrinthHash": "a1ca5cdf1f3191b5522d36046a6894ec7ec83c23"
+    "version": "1.0.5-hotfix2",
+    "curseForgeHash": 2243188188,
+    "modrinthHash": "7a8c782e441c79fa89a52f6b4fc4a6e2c92d1cb8"
   },
   "taczbb-v1.1.0.jar": {
     "jarName": "taczbb-v1.1.0.jar",
@@ -2551,6 +2559,14 @@
     "curseForgeHash": 3500018303,
     "modrinthHash": "7b651a94ef0aa7f3b486061e1339962736b82ffa"
   },
+  "tetracelium-1.20.1-1.3.2.jar": {
+    "jarName": "tetracelium-1.20.1-1.3.2.jar",
+    "modId": "tetracelium",
+    "name": "tetracelium",
+    "version": "1.3.2",
+    "curseForgeHash": 306312555,
+    "modrinthHash": "32f24f9ac23884bb68a276e5c608e27788b7ed68"
+  },
   "the_abyssal_leviathan-1.0.6-forge-1.20.1.jar": {
     "jarName": "the_abyssal_leviathan-1.0.6-forge-1.20.1.jar",
     "modId": "the_abyssal_leviathan",
@@ -2559,13 +2575,13 @@
     "curseForgeHash": 1676378463,
     "modrinthHash": "4fe4e9c1b0dbf0accaa18ef7f13995df794a5591"
   },
-  "thedulling-0.8.9-forge-1.20.1.jar": {
-    "jarName": "thedulling-0.8.9-forge-1.20.1.jar",
+  "thedulling-encore-1.1.1-1.0.5-forge-1.20.1.jar": {
+    "jarName": "thedulling-encore-1.1.1-1.0.5-forge-1.20.1.jar",
     "modId": "thedulling",
     "name": "The Dulling",
-    "version": "1.0.0",
-    "curseForgeHash": 3988160322,
-    "modrinthHash": "0a45f93dff852501516f68b1ad40304ea42bd600"
+    "version": "1.1.0",
+    "curseForgeHash": 2966281698,
+    "modrinthHash": "084b07838b9c525e33321f09267e256e176eccb5"
   },
   "tickaccelerate-1.20.1-forge-0.8.0.jar": {
     "jarName": "tickaccelerate-1.20.1-forge-0.8.0.jar",

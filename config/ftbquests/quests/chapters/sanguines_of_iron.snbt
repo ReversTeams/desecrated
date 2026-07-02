@@ -58,6 +58,31 @@
 			x: 0.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["20DC2110D654C2D8"]
+			entity_vis_size: 1.0f
+			id: "27080CDFCD7A0AC9"
+			tasks: [{
+				id: "2E7E444F286DE0EB"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27080CDFCD7A0AC9"]
+			entity_vis_size: 1.0f
+			id: "11BBC69CCB822E78"
+			tasks: [{
+				advancement: "tetra:spelunking/geode_open"
+				criterion: ""
+				id: "6038A97743354D67"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
 	]
 	title: "Sanguines of Iron"
 }
