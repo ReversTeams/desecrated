@@ -12,6 +12,16 @@
 		}
 	}
 	id: "537C158F9A214A38"
+	images: [{
+		alpha: 180
+		color: 16211721
+		height: 2.5d
+		image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
+		rotation: 0.0d
+		width: 2.5d
+		x: 0.0d
+		y: -5.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -865,11 +875,11 @@
 				title: "Any Wrench"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -8.0d
+			x: 0.0d
+			y: -8.25d
 		}
 		{
-			dependencies: ["532DC607CA70E1C1"]
+			dependencies: ["59DD181B2F00F756"]
 			entity_vis_size: 1.0f
 			id: "2C28FAC34AEE5EFC"
 			tasks: [{
@@ -888,90 +898,8 @@
 				to_observe: "clockwork:dragonfly"
 				type: "observation"
 			}]
-			x: -0.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["532DC607CA70E1C1"]
-			entity_vis_size: 1.0f
-			id: "44AA12BED1230C44"
-			tasks: [{
-				advancement: "artificers_armory:wrench_use"
-				criterion: ""
-				id: "3A61E6A5374B226F"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["532DC607CA70E1C1"]
-			entity_vis_size: 1.0f
-			id: "31D18730B165801D"
-			tasks: [{
-				advancement: "artificers_armory:redstone_laser_summon"
-				criterion: ""
-				id: "62007FC090BCF01F"
-				type: "advancement"
-			}]
-			x: 2.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["532DC607CA70E1C1"]
-			entity_vis_size: 1.0f
-			id: "4571CBA4DC36F277"
-			tasks: [{
-				advancement: "artificers_armory:electro_coil_summon"
-				criterion: ""
-				id: "6697A115D7359E23"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["532DC607CA70E1C1"]
-			entity_vis_size: 1.0f
-			id: "6355379C6B018C08"
-			tasks: [{
-				advancement: "artificers_armory:mobile_gear_summon"
-				criterion: ""
-				id: "29F323BE1CF55DFC"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["7947672BF3364758"]
-			dependency_requirement: "one_completed"
-			description: [
-				"&4The Hanged Man Pathway&r delves mainly into relics, crafting and collecting them. To do thus, a substantial amount of monster hunting is required."
-				""
-				"During my time in the City of Sparkon, I met a reliquerer of this Pathway, who had evolved from an archmage, as a couple of mages do."
-				"{@pagebreak}"
-				"His name is &cSantiago&r. He left me a couple of notes, and I've also written down a couple of our dialogues. Although he's a native to Sparkon, he spent more time outside of the city out on monster hunting raids to collect the rarest of ingredients. While he is officially an archmage as well as a reliquerer, he really did the bare minimum to be able to pass as an archmage."
-				"{@pagebreak}"
-				"It is adjacent to &6The Sun Pathway&r, &fThe Star Pathway&r and &4The Moon Pathway&r."
-			]
-			entity_vis_size: 1.0f
-			hide_dependency_lines: true
-			id: "4E4E81226BED0E7C"
-			rewards: [{
-				id: "1BF473F4724D7AFF"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "6B416D7B4B898875"
-				item: "tarotcards:the_hanged_man"
-				type: "item"
-			}]
-			title: "&4The Hanged Man"
-			x: -2.1500000000000012d
-			y: 4.0999999999999925d
+			x: -1.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -1012,7 +940,6 @@
 			y: 8.725000000000003d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
 			description: [
 				"The Angelheart Vial is a reliquerer's main trick: cheating death a countless number of times. Or at least per the number of vials they have stacked in their pockets."
 				"{@pagebreak}"
@@ -1064,7 +991,6 @@
 			y: 3.15d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
 			description: [
 				"\"This seems like a cheap knockoff of the Tower card.\""
 				""
@@ -1365,7 +1291,6 @@
 			y: 9.249999999999998d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
 			description: [
 				"I asked &cSantiago&r more about his so-called relics and the starting point of a reliquerer's craft. &c\"Well, if you're interested in fabricating relics of your own, then I'd say the very first thing you should get comfortable with crafting is the Void Tear. It isn't too difficult to scrounge up the materials, only really requiring a Ghast's tear, an Enderman's heart, a Slime's Pearl, and a bit of Lapis, but you should really stock up on the materials for it, since it's used as a base for many more complicated (and useful) relics.\"&r"
 				"{@pagebreak}"
@@ -1817,6 +1742,422 @@
 			}]
 			x: -1.0d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"550D01E852BFE592"
+				"00731415D259609E"
+			]
+			entity_vis_size: 1.0f
+			id: "319D42BD34E291D2"
+			tasks: [{
+				id: "36605F11C7F2CEF1"
+				item: "celestisynth:starlit_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3913E4BF1C7341B8"]
+			entity_vis_size: 1.0f
+			id: "5BE485A94600E5E5"
+			tasks: [{
+				id: "5106330C1B898D80"
+				item: "celestisynth:celestial_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BE485A94600E5E5"]
+			entity_vis_size: 1.0f
+			id: "00731415D259609E"
+			tasks: [{
+				id: "7B1BBF422C2080E3"
+				item: "celestisynth:celestial_netherite_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5AAC92BF084F5CC7"]
+			entity_vis_size: 1.0f
+			id: "105B8DA1342C50C4"
+			tasks: [{
+				id: "42FA00DDD1653F0E"
+				item: "celestisynth:solar_crystal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["105B8DA1342C50C4"]
+			entity_vis_size: 1.0f
+			id: "46A3166EA9CCED6B"
+			tasks: [
+				{
+					id: "0D9DFEEB8C40B016"
+					item: {
+						Count: 1
+						id: "celestisynth:solar_crystal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A114E4E9D6984A9"
+					item: {
+						Count: 1
+						id: "celestisynth:solar_crystal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "067F22AE21D2B3E2"
+					item: {
+						Count: 1
+						id: "celestisynth:solar_crystal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D1DFE8703EE403B"
+					item: {
+						Count: 1
+						id: "celestisynth:solar_crystal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["319D42BD34E291D2"]
+			entity_vis_size: 1.0f
+			id: "002C2A18085BB48C"
+			tasks: [{
+				id: "7CF74697C3FD46F0"
+				item: {
+					Count: 1
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: {
+							cs.pull: 0.0f
+							cs.pulling: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["319D42BD34E291D2"]
+			entity_vis_size: 1.0f
+			id: "743AC11BF26A585C"
+			tasks: [{
+				id: "67F52F88480F36EF"
+				item: {
+					Count: 1
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["319D42BD34E291D2"]
+			entity_vis_size: 1.0f
+			id: "762DDDE2556568C9"
+			tasks: [{
+				id: "57CCF59AF7F2F4A4"
+				item: {
+					Count: 1
+					id: "celestisynth:keres"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.keresStack: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["319D42BD34E291D2"]
+			entity_vis_size: 1.0f
+			id: "26F908C8998B86FA"
+			tasks: [{
+				id: "04AB2EF926869672"
+				item: {
+					Count: 1
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["319D42BD34E291D2"]
+			entity_vis_size: 1.0f
+			id: "5E0353B7A2A30EAC"
+			tasks: [{
+				id: "47D0F15B634B598B"
+				item: {
+					Count: 1
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["319D42BD34E291D2"]
+			entity_vis_size: 1.0f
+			id: "67F8001A728730CF"
+			tasks: [{
+				id: "07BE30721E6C523C"
+				item: {
+					Count: 1
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+							cs.poltergeistSmashHeight: 0
+						}
+						csExtras: {
+							cs.isImpactLarge: 0b
+							cs.queueComboLarge: 0b
+							cs.smashCountForPassive: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 1.0f
+			id: "59DD181B2F00F756"
+			tasks: [{
+				id: "0876A1435CC8D670"
+				item: {
+					Count: 1
+					id: "desecratedcore:brass_whistle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6FD39AE1113C3DC8"]
+			entity_vis_size: 1.0f
+			id: "4CD7F1C4CD5C0156"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "4E55A5E372DC4F3B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artificers_armory:censer_golem"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BC2C1130D1E5E8F"]
+			entity_vis_size: 1.5f
+			id: "6BA6230D4F3C9831"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.25f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "354AC829FD3E7924"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artificers_armory:electro_coil"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["038120B0C366CA49"]
+			entity_vis_size: 1.0f
+			id: "3B0FC63D7D06868D"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "75F344A04C8D6F59"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artificers_armory:familiar"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 0.3f
+			id: "01B436C6CCBACCB5"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 0.2f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "726C44433AF3D2CE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artificers_armory:hover_sentry"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["01B436C6CCBACCB5"]
+			entity_vis_size: 2.0f
+			id: "6C4A78F50D548909"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.4f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "726D31B00B7D6D8C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artificers_armory:mobile_gear"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5BC2C1130D1E5E8F"]
+			entity_vis_size: 2.0f
+			id: "64F5BB899B266603"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.25f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "042BB13228149603"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artificers_armory:redstone_laser"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 2.0f
+			id: "5BC2C1130D1E5E8F"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.25f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "57DC6BF3211143D1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artificers_armory:sentry"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -8.5d
 		}
 	]
 	title: "Crimson Artificer"

@@ -55,9 +55,9 @@
 		slimes_spawn_everywhere = "DEFAULT"
 		#Per-category spawn multipliers. Format: "CATEGORY:value"
 		mob_category_multipliers = ["MONSTER:2.25"]
-		#Mobs to add during this event. Format: "entity_id;weight;min;max".
+		#Mobs to add during this event. Format: "target;weight;min;max". target = entity id, #entity_tag, or @modid (all of a mod's mobs).
 		spawn_additions = []
-		#Entity ids to block from spawning during this event.
+		#Entities blocked from spawning during this event. Each entry = entity id, #entity_tag, or @modid.
 		spawn_removals = []
 		#Dimensions to add this event to. Format: "namespace:dimension_id". Uses overworld settings as template.
 		added_dimensions = []
@@ -106,6 +106,26 @@
 		start_message = "&cThe \"Blood Moon\" rises... Distant sounds of the undead can be heard..."
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&cThe \"Blood Moon\" sets... The undead begin to burn..."
+		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		valid_moon_phases = []
+		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
+		#Range: -1.0 ~ 10000.0
+		mob_cap_multiplier = 1.0
+		#Force weather while this event is active. DEFAULT keeps vanilla weather.
+		#Allowed Values: DEFAULT, CLEAR, RAIN, THUNDER
+		weather_override = "DEFAULT"
+		#Allow vanilla weather to return after the event ends.
+		restore_weather_after_event = true
+		#Only mobs spawned by the event are affected by rare_drop_multiplier.
+		rare_drop_only_event_mobs = true
+		#Multiplier on experience dropped by mobs killed during this event.
+		#Range: 0.0 ~ 1000.0
+		xp_drop_multiplier = 1.0
+		#Only mobs spawned by the event are affected by xp_drop_multiplier.
+		xp_only_event_mobs = true
+		#Multiplier on the moon's rendered size during this event. 1.0 = default.
+		#Range: 0.01 ~ 100.0
+		moon_size_multiplier = 1.0
 
 	[events.super_blood_moon]
 		#Multiplier on the event's spawn chance. 0 disables it.
@@ -131,9 +151,9 @@
 		slimes_spawn_everywhere = "DEFAULT"
 		#Per-category spawn multipliers. Format: "CATEGORY:value"
 		mob_category_multipliers = ["MONSTER:4.5"]
-		#Mobs to add during this event. Format: "entity_id;weight;min;max".
+		#Mobs to add during this event. Format: "target;weight;min;max". target = entity id, #entity_tag, or @modid (all of a mod's mobs).
 		spawn_additions = []
-		#Entity ids to block from spawning during this event.
+		#Entities blocked from spawning during this event. Each entry = entity id, #entity_tag, or @modid.
 		spawn_removals = []
 		#Dimensions to add this event to. Format: "namespace:dimension_id". Uses overworld settings as template.
 		added_dimensions = []
@@ -182,6 +202,26 @@
 		start_message = "&c&lThe \"Super Blood Moon\" rises... Distant sounds of the undead can be heard..."
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&cThe \"Super Blood Moon\" sets... The undead begin to burn..."
+		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		valid_moon_phases = []
+		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
+		#Range: -1.0 ~ 10000.0
+		mob_cap_multiplier = 1.0
+		#Force weather while this event is active. DEFAULT keeps vanilla weather.
+		#Allowed Values: DEFAULT, CLEAR, RAIN, THUNDER
+		weather_override = "DEFAULT"
+		#Allow vanilla weather to return after the event ends.
+		restore_weather_after_event = true
+		#Only mobs spawned by the event are affected by rare_drop_multiplier.
+		rare_drop_only_event_mobs = true
+		#Multiplier on experience dropped by mobs killed during this event.
+		#Range: 0.0 ~ 1000.0
+		xp_drop_multiplier = 1.0
+		#Only mobs spawned by the event are affected by xp_drop_multiplier.
+		xp_only_event_mobs = true
+		#Multiplier on the moon's rendered size during this event. 1.0 = default.
+		#Range: 0.01 ~ 100.0
+		moon_size_multiplier = 1.0
 
 	[events.harvest_moon]
 		#Multiplier on the event's spawn chance. 0 disables it.
@@ -207,9 +247,9 @@
 		slimes_spawn_everywhere = "DEFAULT"
 		#Per-category spawn multipliers. Format: "CATEGORY:value"
 		mob_category_multipliers = []
-		#Mobs to add during this event. Format: "entity_id;weight;min;max".
+		#Mobs to add during this event. Format: "target;weight;min;max". target = entity id, #entity_tag, or @modid (all of a mod's mobs).
 		spawn_additions = []
-		#Entity ids to block from spawning during this event.
+		#Entities blocked from spawning during this event. Each entry = entity id, #entity_tag, or @modid.
 		spawn_removals = []
 		#Dimensions to add this event to. Format: "namespace:dimension_id". Uses overworld settings as template.
 		added_dimensions = []
@@ -262,6 +302,26 @@
 		enable_crop_drop_boost = true
 		#Item tags to multiply drops for. Format: "tag_id;multiplier".
 		crop_drop_tags = ["enhancedcelestials:harvest_moon_crops;2.0"]
+		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		valid_moon_phases = []
+		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
+		#Range: -1.0 ~ 10000.0
+		mob_cap_multiplier = 1.0
+		#Force weather while this event is active. DEFAULT keeps vanilla weather.
+		#Allowed Values: DEFAULT, CLEAR, RAIN, THUNDER
+		weather_override = "DEFAULT"
+		#Allow vanilla weather to return after the event ends.
+		restore_weather_after_event = true
+		#Only mobs spawned by the event are affected by rare_drop_multiplier.
+		rare_drop_only_event_mobs = true
+		#Multiplier on experience dropped by mobs killed during this event.
+		#Range: 0.0 ~ 1000.0
+		xp_drop_multiplier = 1.0
+		#Only mobs spawned by the event are affected by xp_drop_multiplier.
+		xp_only_event_mobs = true
+		#Multiplier on the moon's rendered size during this event. 1.0 = default.
+		#Range: 0.01 ~ 100.0
+		moon_size_multiplier = 1.0
 
 	[events.super_harvest_moon]
 		#Multiplier on the event's spawn chance. 0 disables it.
@@ -287,9 +347,9 @@
 		slimes_spawn_everywhere = "DEFAULT"
 		#Per-category spawn multipliers. Format: "CATEGORY:value"
 		mob_category_multipliers = []
-		#Mobs to add during this event. Format: "entity_id;weight;min;max".
+		#Mobs to add during this event. Format: "target;weight;min;max". target = entity id, #entity_tag, or @modid (all of a mod's mobs).
 		spawn_additions = []
-		#Entity ids to block from spawning during this event.
+		#Entities blocked from spawning during this event. Each entry = entity id, #entity_tag, or @modid.
 		spawn_removals = []
 		#Dimensions to add this event to. Format: "namespace:dimension_id". Uses overworld settings as template.
 		added_dimensions = []
@@ -342,6 +402,26 @@
 		enable_crop_drop_boost = true
 		#Item tags to multiply drops for. Format: "tag_id;multiplier".
 		crop_drop_tags = ["enhancedcelestials:harvest_moon_crops;4.0"]
+		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		valid_moon_phases = []
+		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
+		#Range: -1.0 ~ 10000.0
+		mob_cap_multiplier = 1.0
+		#Force weather while this event is active. DEFAULT keeps vanilla weather.
+		#Allowed Values: DEFAULT, CLEAR, RAIN, THUNDER
+		weather_override = "DEFAULT"
+		#Allow vanilla weather to return after the event ends.
+		restore_weather_after_event = true
+		#Only mobs spawned by the event are affected by rare_drop_multiplier.
+		rare_drop_only_event_mobs = true
+		#Multiplier on experience dropped by mobs killed during this event.
+		#Range: 0.0 ~ 1000.0
+		xp_drop_multiplier = 1.0
+		#Only mobs spawned by the event are affected by xp_drop_multiplier.
+		xp_only_event_mobs = true
+		#Multiplier on the moon's rendered size during this event. 1.0 = default.
+		#Range: 0.01 ~ 100.0
+		moon_size_multiplier = 1.0
 
 	[events.blue_moon]
 		#Multiplier on the event's spawn chance. 0 disables it.
@@ -367,9 +447,9 @@
 		slimes_spawn_everywhere = "DEFAULT"
 		#Per-category spawn multipliers. Format: "CATEGORY:value"
 		mob_category_multipliers = []
-		#Mobs to add during this event. Format: "entity_id;weight;min;max".
+		#Mobs to add during this event. Format: "target;weight;min;max". target = entity id, #entity_tag, or @modid (all of a mod's mobs).
 		spawn_additions = []
-		#Entity ids to block from spawning during this event.
+		#Entities blocked from spawning during this event. Each entry = entity id, #entity_tag, or @modid.
 		spawn_removals = []
 		#Dimensions to add this event to. Format: "namespace:dimension_id". Uses overworld settings as template.
 		added_dimensions = []
@@ -418,6 +498,26 @@
 		start_message = "&bThe \"Blue Moon\" rises... You feel lucky!"
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&bThe \"Blue Moon\" sets... You don't feel lucky anymore..."
+		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		valid_moon_phases = []
+		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
+		#Range: -1.0 ~ 10000.0
+		mob_cap_multiplier = 1.0
+		#Force weather while this event is active. DEFAULT keeps vanilla weather.
+		#Allowed Values: DEFAULT, CLEAR, RAIN, THUNDER
+		weather_override = "DEFAULT"
+		#Allow vanilla weather to return after the event ends.
+		restore_weather_after_event = true
+		#Only mobs spawned by the event are affected by rare_drop_multiplier.
+		rare_drop_only_event_mobs = true
+		#Multiplier on experience dropped by mobs killed during this event.
+		#Range: 0.0 ~ 1000.0
+		xp_drop_multiplier = 1.0
+		#Only mobs spawned by the event are affected by xp_drop_multiplier.
+		xp_only_event_mobs = true
+		#Multiplier on the moon's rendered size during this event. 1.0 = default.
+		#Range: 0.01 ~ 100.0
+		moon_size_multiplier = 1.0
 
 	[events.super_blue_moon]
 		#Multiplier on the event's spawn chance. 0 disables it.
@@ -443,9 +543,9 @@
 		slimes_spawn_everywhere = "DEFAULT"
 		#Per-category spawn multipliers. Format: "CATEGORY:value"
 		mob_category_multipliers = []
-		#Mobs to add during this event. Format: "entity_id;weight;min;max".
+		#Mobs to add during this event. Format: "target;weight;min;max". target = entity id, #entity_tag, or @modid (all of a mod's mobs).
 		spawn_additions = []
-		#Entity ids to block from spawning during this event.
+		#Entities blocked from spawning during this event. Each entry = entity id, #entity_tag, or @modid.
 		spawn_removals = []
 		#Dimensions to add this event to. Format: "namespace:dimension_id". Uses overworld settings as template.
 		added_dimensions = []
@@ -494,6 +594,26 @@
 		start_message = "&bThe \"Super Blue Moon\" rises... You feel very lucky!"
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&bThe \"Super Blue Moon\" sets... You don't feel very lucky anymore..."
+		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		valid_moon_phases = []
+		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
+		#Range: -1.0 ~ 10000.0
+		mob_cap_multiplier = 1.0
+		#Force weather while this event is active. DEFAULT keeps vanilla weather.
+		#Allowed Values: DEFAULT, CLEAR, RAIN, THUNDER
+		weather_override = "DEFAULT"
+		#Allow vanilla weather to return after the event ends.
+		restore_weather_after_event = true
+		#Only mobs spawned by the event are affected by rare_drop_multiplier.
+		rare_drop_only_event_mobs = true
+		#Multiplier on experience dropped by mobs killed during this event.
+		#Range: 0.0 ~ 1000.0
+		xp_drop_multiplier = 1.0
+		#Only mobs spawned by the event are affected by xp_drop_multiplier.
+		xp_only_event_mobs = true
+		#Multiplier on the moon's rendered size during this event. 1.0 = default.
+		#Range: 0.01 ~ 100.0
+		moon_size_multiplier = 1.0
 
 	[events.super_moon]
 		#Multiplier on the event's spawn chance. 0 disables it.
@@ -519,9 +639,9 @@
 		slimes_spawn_everywhere = "DEFAULT"
 		#Per-category spawn multipliers. Format: "CATEGORY:value"
 		mob_category_multipliers = []
-		#Mobs to add during this event. Format: "entity_id;weight;min;max".
+		#Mobs to add during this event. Format: "target;weight;min;max". target = entity id, #entity_tag, or @modid (all of a mod's mobs).
 		spawn_additions = []
-		#Entity ids to block from spawning during this event.
+		#Entities blocked from spawning during this event. Each entry = entity id, #entity_tag, or @modid.
 		spawn_removals = []
 		#Dimensions to add this event to. Format: "namespace:dimension_id". Uses overworld settings as template.
 		added_dimensions = []
@@ -570,4 +690,24 @@
 		start_message = "&dThe \"Super Moon\" rises... Slimes begin to spawn nearby."
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&dThe \"Super Moon\" sets..."
+		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		valid_moon_phases = []
+		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
+		#Range: -1.0 ~ 10000.0
+		mob_cap_multiplier = 1.0
+		#Force weather while this event is active. DEFAULT keeps vanilla weather.
+		#Allowed Values: DEFAULT, CLEAR, RAIN, THUNDER
+		weather_override = "DEFAULT"
+		#Allow vanilla weather to return after the event ends.
+		restore_weather_after_event = true
+		#Only mobs spawned by the event are affected by rare_drop_multiplier.
+		rare_drop_only_event_mobs = true
+		#Multiplier on experience dropped by mobs killed during this event.
+		#Range: 0.0 ~ 1000.0
+		xp_drop_multiplier = 1.0
+		#Only mobs spawned by the event are affected by xp_drop_multiplier.
+		xp_only_event_mobs = true
+		#Multiplier on the moon's rendered size during this event. 1.0 = default.
+		#Range: 0.01 ~ 100.0
+		moon_size_multiplier = 1.0
 

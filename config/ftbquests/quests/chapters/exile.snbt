@@ -131,7 +131,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			entity_vis_enabled: true
@@ -150,6 +150,25 @@
 			width: 1.0d
 			x: 4.0d
 			y: -13.0d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "clanginghowl:textures/particle/blood_splash5.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			alpha: 180
+			color: 16714301
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: 7.0d
 		}
 	]
 	order_index: 0
@@ -205,7 +224,7 @@
 			]
 			title: "Weapons of Gold Barar"
 			x: -1.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["13A9932D7BCD2E2E"]
@@ -268,7 +287,7 @@
 			]
 			title: "Weapons of Varelia"
 			x: 4.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1850F5DBF7A4D5A5"]
@@ -317,7 +336,7 @@
 			]
 			title: "Weapons of Grania"
 			x: 0.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["13A9932D7BCD2E2E"]
@@ -352,7 +371,7 @@
 			]
 			title: "Weapons of the Starlight Order"
 			x: 5.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0CA41706516F60D1"]
@@ -374,7 +393,7 @@
 			}]
 			title: "Weapons of Red Barar"
 			x: 2.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -540,7 +559,7 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "0CA41706516F60D1"
 			rewards: [{
 				id: "4F019BB734D2BD6B"
@@ -565,11 +584,11 @@
 			}]
 			title: "The Crescent Society"
 			x: 2.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "479883AB78B8D2FC"
 			rewards: [{
 				id: "3D54BEC29880CE53"
@@ -598,7 +617,7 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "384AD7FA6531C4B9"
 			rewards: [{
 				id: "1558678B3E0ABFA8"
@@ -627,7 +646,7 @@
 		}
 		{
 			dependencies: ["384AD7FA6531C4B9"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "1850F5DBF7A4D5A5"
 			tasks: [{
 				entity: "simpleenemymod:usunit"
@@ -647,11 +666,11 @@
 			}]
 			title: "The Duchy's Soldiers"
 			x: -0.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["479883AB78B8D2FC"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "13A9932D7BCD2E2E"
 			tasks: [{
 				entity: "simpleenemymod:ruunit"
@@ -671,7 +690,7 @@
 			}]
 			title: "The Order's Hunters"
 			x: 4.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -1576,7 +1595,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
@@ -1589,7 +1608,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
@@ -1602,7 +1621,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
@@ -1615,7 +1634,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
@@ -1628,7 +1647,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 7.5d
 		}
 	]
 	title: "Fallen"

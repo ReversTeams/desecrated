@@ -10,11 +10,35 @@
 		tag: { }
 	}
 	id: "4468C364798D9A2C"
+	images: [
+		{
+			color: 16714507
+			dependency: "068DF533DB041F37"
+			height: 3.0d
+			image: "bloodmagic:models/alchemyarrays/moonarray"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			color: 16712980
+			height: 2.0d
+			image: "bloodmagic:models/alchemyarrays/skeletonturret1"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.0d
+			y: 9.5d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["585D9482FF0C3669"]
+			dependencies: [
+				"585D9482FF0C3669"
+				"4317E4672B9BDFF5"
+			]
 			description: ["Compel the lifeforce out of your veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
@@ -1087,8 +1111,8 @@
 				item: "perdition:pyrite"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5D06B3DA89CB0B2E"]
@@ -1115,6 +1139,24 @@
 			}]
 			x: -7.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["19CD7CA150532811"]
+			entity_vis_size: 1.0f
+			id: "4317E4672B9BDFF5"
+			tasks: [{
+				id: "6F19B47AEAF096F7"
+				item: {
+					Count: 1
+					id: "concatenatedadditionstools:shrike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
 		}
 	]
 	title: "Cultists of the Moon"
