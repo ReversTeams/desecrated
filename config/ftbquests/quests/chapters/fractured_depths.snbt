@@ -32,6 +32,7 @@
 				"6F71CC7D8969DFA6"
 				"7F0C5BD591C3EA2A"
 			]
+			dependency_requirement: "one_started"
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "675440487ADE64B0"

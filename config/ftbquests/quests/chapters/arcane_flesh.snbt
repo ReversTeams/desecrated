@@ -12,6 +12,71 @@
 		}
 	}
 	id: "2446C8C43448EC27"
+	images: [
+		{
+			alpha: 180
+			height: 3.0d
+			image: "mahoutsukai:block/mahoujin"
+			rotation: 0.0d
+			width: 3.0d
+			x: 23.0d
+			y: -31.0d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "bloodyhell:block/blood_fire"
+			rotation: 0.0d
+			width: 1.5d
+			x: 21.5d
+			y: -26.0d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "bloodyhell:textures/particle/blood_sigil_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: -17.5d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "biomancy:textures/gui/ornate_corner_br.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "meatweapons:textures/particle/blood_muzzle_flash_4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "clanginghowl:textures/particle/blood_splash9.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "bloodyhell:textures/particle/blasphemous_magic_ring.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.0d
+			y: -29.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -64,7 +129,7 @@
 				}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: 0.65d
 		}
 		{
 			dependencies: ["7E09D93FD685B52D"]
@@ -540,8 +605,8 @@
 				item: "bloodyhell:ritekeeper_heart"
 				type: "item"
 			}]
-			x: 22.0d
-			y: -25.5d
+			x: 21.5d
+			y: -25.0d
 		}
 		{
 			dependencies: ["19C8C7A0D9F4F3A6"]
@@ -786,8 +851,8 @@
 				item: "sons_of_sins:bloody_bone"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -13.0d
+			x: 12.0d
+			y: -13.200000000000001d
 		}
 		{
 			dependencies: ["28C4A4785D935FBE"]
@@ -992,7 +1057,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -12.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["0FF481A9738C6A2E"]
@@ -1019,7 +1084,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -12.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["00CCFEBA2BF7D34B"]
@@ -1030,8 +1095,8 @@
 				item: "sons_of_sins:hand_of_riot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -11.5d
+			x: 10.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["0BDCD3D1B995EDE8"]
@@ -1042,8 +1107,8 @@
 				item: "sons_of_sins:touch_of_greed"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: 11.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["60A547780F1428FA"]
@@ -1054,7 +1119,7 @@
 				item: "sons_of_sins:ether_engine"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -9.5d
 		}
 		{
@@ -1072,7 +1137,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -9.5d
 		}
 		{
@@ -1084,8 +1149,8 @@
 				item: "sons_of_sins:cursed_head"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -5.5d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5EA463A36036C699"]
@@ -1253,7 +1318,7 @@
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 2.0f
 			id: "60A547780F1428FA"
 			size: 1.15d
 			tasks: [{
@@ -1272,12 +1337,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 2.0f
 			id: "0FF481A9738C6A2E"
 			size: 1.15d
 			tasks: [{
@@ -1297,11 +1362,11 @@
 				value: 1L
 			}]
 			x: 6.0d
-			y: -10.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 2.0f
 			id: "079ABE7B83F6A6F6"
 			size: 1.15d
 			tasks: [{
@@ -1321,7 +1386,7 @@
 				value: 1L
 			}]
 			x: 7.5d
-			y: -10.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
@@ -1344,12 +1409,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -10.5d
+			x: 9.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 2.0f
 			id: "1EC64182E63D237D"
 			size: 1.15d
 			tasks: [{
@@ -1368,12 +1433,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -9.0d
+			x: 9.774999999999999d
+			y: -9.2d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "0BDCD3D1B995EDE8"
 			size: 1.15d
 			tasks: [{
@@ -1392,12 +1457,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["5392DF54A0BDC809"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 2.0f
 			id: "5D88FB716ED71AD6"
 			size: 1.15d
 			tasks: [{
@@ -1416,8 +1481,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: -7.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["445742EA3F278341"]
@@ -1458,7 +1523,7 @@
 		}
 		{
 			dependencies: ["7047E5E29683914E"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "3B3852B0A8E6308F"
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
@@ -1481,7 +1546,7 @@
 		}
 		{
 			dependencies: ["7047E5E29683914E"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.25f
 			id: "68B70E5C913E9372"
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
@@ -1527,7 +1592,7 @@
 		}
 		{
 			dependencies: ["7047E5E29683914E"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 2.0f
 			id: "14F1FF385D914C3C"
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
@@ -1550,7 +1615,7 @@
 		}
 		{
 			dependencies: ["7047E5E29683914E"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "0ABA2E062DEBE6A5"
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
@@ -2258,11 +2323,11 @@
 				value: 1L
 			}]
 			x: 23.5d
-			y: -24.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.75f
 			id: "5BCBF128A6DC1902"
 			size: 1.25d
 			tasks: [{
@@ -2277,8 +2342,7 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				icon: "bloodyhell:seliora_essence"
-				id: "6DA07CA303D8791E"
+				id: "7ECD894936E48A4D"
 				type: "kill"
 				value: 1L
 			}]
@@ -2535,8 +2599,8 @@
 				title: "Any Sinful Tool"
 				type: "item"
 			}]
-			x: 12.649999999999999d
-			y: -13.799999999999999d
+			x: 13.149999999999999d
+			y: -14.0d
 		}
 		{
 			dependencies: ["31E9E6BBC04B24F9"]

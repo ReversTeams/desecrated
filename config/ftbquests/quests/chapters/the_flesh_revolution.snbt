@@ -6,6 +6,50 @@
 	group: "3C87A675DA0E75AE"
 	icon: "butchery:meat_grinder"
 	id: "2184A92FC4DCEBD9"
+	images: [
+		{
+			height: 1.0d
+			image: "clanginghowl:block/active_nerve_endings"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -26.0d
+		}
+		{
+			height: 1.0d
+			image: "neepmeat:block/advanced_integrator/danglies_1"
+			rotation: -180.0d
+			width: 1.0d
+			x: 0.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "neepmeat:block/machine_block/open_machine_block_danglers"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			height: 2.75d
+			image: "butchery:block/blood_splatter_8"
+			rotation: 0.0d
+			width: 2.75d
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "clanginghowl:textures/particle/blood_splash8.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -1769,8 +1813,8 @@
 				item: "desecratedcore:blood_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.5d
+			x: -1.1d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
@@ -2017,6 +2061,643 @@
 			}]
 			x: -4.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["7F638D83710A4BFD"]
+			entity_vis_size: 1.0f
+			id: "1CFC91B3E529DCE8"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: "clanginghowl:extraterrestrial_stone"
+				id: "7BD49ABB24F2328C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "clanginghowl:extraterrestrial_stone"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["1CFC91B3E529DCE8"]
+			entity_vis_size: 1.0f
+			id: "08648DDF8C6F0A20"
+			tasks: [{
+				id: "3E09AE1FF1194097"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:meteorite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:meteorite_longsword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:meteorite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:meteorite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:meteorite_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:meteorite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:meteorite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Meteorite Tool"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["1CFC91B3E529DCE8"]
+			entity_vis_size: 1.0f
+			id: "4D2F18ACAB325F21"
+			tasks: [{
+				id: "01546538BF4FA32C"
+				item: "clanginghowl:extraterrestrial_steel_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -26.5d
+		}
+		{
+			dependencies: ["1CFC91B3E529DCE8"]
+			entity_vis_size: 1.0f
+			id: "76268D2BD1283EF4"
+			tasks: [{
+				id: "11E9FE6E70EA1E9D"
+				item: "clanginghowl:extraterrestrial_energy_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["4D2F18ACAB325F21"]
+			entity_vis_size: 1.0f
+			id: "37649F8E3041B2FB"
+			tasks: [{
+				id: "55CF70C33724A6B5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "clanginghowl:extraterrestrial_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "clanginghowl:extraterrestrial_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "clanginghowl:extraterrestrial_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "clanginghowl:extraterrestrial_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "clanginghowl:extraterrestrial_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Extraterrestrial Steel Tool"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["4D2F18ACAB325F21"]
+			entity_vis_size: 1.0f
+			id: "3F82A1635119FC83"
+			tasks: [{
+				id: "218D85507EC69959"
+				item: {
+					Count: 1
+					id: "clanginghowl:extraterrestrial_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -29.0d
+		}
+		{
+			dependencies: [
+				"76268D2BD1283EF4"
+				"173599F954578016"
+			]
+			entity_vis_size: 1.0f
+			id: "47271D8E8C2CAA7C"
+			tasks: [{
+				id: "1A8BF5DCEDD1A85B"
+				item: {
+					Count: 1
+					id: "clanginghowl:energy_battery"
+					tag: {
+						Energy: 2000
+						"Max Energy": 2000
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["47271D8E8C2CAA7C"]
+			entity_vis_size: 1.0f
+			id: "47734465F52F456E"
+			tasks: [{
+				id: "24B58B191AD93FDB"
+				item: {
+					Count: 1
+					id: "clanginghowl:energy_intensive_battery"
+					tag: {
+						Energy: 7000
+						"Max Energy": 7000
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["47734465F52F456E"]
+			entity_vis_size: 1.0f
+			id: "488C8DEE3EC51CBB"
+			tasks: [{
+				id: "67E807B05C126AA9"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_energy_battery"
+					tag: {
+						Energy: 0
+						"Max Energy": 12000
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -32.0d
+		}
+		{
+			dependencies: [
+				"47271D8E8C2CAA7C"
+				"3F82A1635119FC83"
+			]
+			entity_vis_size: 1.0f
+			id: "0D308BF48937BBF8"
+			tasks: [{
+				id: "0892CBBB950DAB6D"
+				item: "clanginghowl:battery_panel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -31.0d
+		}
+		{
+			dependencies: ["0D308BF48937BBF8"]
+			entity_vis_size: 1.0f
+			id: "1AEF73000108E3E5"
+			tasks: [{
+				id: "0FC72F2BCD1F256F"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_hand_drill"
+					tag: {
+						Energy: 0
+						"Max Energy": 3000
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["0D308BF48937BBF8"]
+			entity_vis_size: 1.0f
+			id: "0CE83C23609A09E2"
+			tasks: [{
+				id: "1B287BEE67C800E7"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_chainsaw"
+					tag: {
+						Energy: 0
+						"Max Energy": 3000
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["0D308BF48937BBF8"]
+			entity_vis_size: 1.0f
+			id: "64C219A4211647B9"
+			tasks: [{
+				id: "2783F182448648F9"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_chainsword"
+					tag: {
+						Energy: 0
+						"Max Energy": 1500
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["0D308BF48937BBF8"]
+			entity_vis_size: 1.0f
+			id: "38DA790662C020EA"
+			tasks: [{
+				id: "3E96B1CAC92D8E79"
+				item: {
+					Count: 1
+					id: "clanginghowl:flamethrower"
+					tag: {
+						Fuel: 0
+						"Max Fuel": 1600
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["19BA5E36EDE9AD6D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			id: "660249C3AB705141"
+			tasks: [{
+				id: "0AFC336F81309627"
+				item: "clanginghowl:techno_optics"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["1CFC91B3E529DCE8"]
+			entity_vis_size: 1.0f
+			id: "19BA5E36EDE9AD6D"
+			tasks: [
+				{
+					id: "3169D4530F6B8C0E"
+					structure: "clanginghowl:extraterrestrial_nest"
+					type: "structure"
+				}
+				{
+					id: "1BD4A60300482EA9"
+					structure: "clanginghowl:large_extraterrestrial_nest"
+					type: "structure"
+				}
+				{
+					id: "6D7B09B707A56609"
+					structure: "clanginghowl:medium_extraterrestrial_object"
+					type: "structure"
+				}
+				{
+					id: "45516E93E07F2336"
+					structure: "clanginghowl:medium_extraterrestrial_object"
+					type: "structure"
+				}
+				{
+					id: "09338FA0DD0939E4"
+					structure: "clanginghowl:large_extraterrestrial_object"
+					type: "structure"
+				}
+			]
+			x: 11.0d
+			y: -25.5d
+		}
+		{
+			dependencies: [
+				"660249C3AB705141"
+				"0B85F0A2B253BCB5"
+			]
+			entity_vis_size: 1.0f
+			id: "36149D05010F93AB"
+			tasks: [{
+				id: "574E431672B5BC0F"
+				item: {
+					Count: 1
+					id: "clanginghowl:x_ray_goggles"
+					tag: {
+						Energy: 0
+						"Max Energy": 2000
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["19BA5E36EDE9AD6D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			id: "0B85F0A2B253BCB5"
+			tasks: [{
+				id: "029AD2C0F6CE95FA"
+				item: "clanginghowl:advanced_electronics"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["0B85F0A2B253BCB5"]
+			entity_vis_size: 1.0f
+			id: "2328EE4A22B1374F"
+			tasks: [{
+				id: "4CDEAA05D36B76E7"
+				item: {
+					Count: 1
+					id: "clanginghowl:energy_barrier_generator"
+					tag: {
+						Energy: 0
+						"Max Energy": 1500
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["0B85F0A2B253BCB5"]
+			entity_vis_size: 1.0f
+			id: "5B216B524D6EDED6"
+			tasks: [{
+				id: "440C6325422E0614"
+				item: {
+					Count: 1
+					id: "clanginghowl:tendon_strengthener"
+					tag: {
+						Energy: 0
+						"Max Energy": 2000
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["0B85F0A2B253BCB5"]
+			entity_vis_size: 1.0f
+			id: "13B0A98B475E3C71"
+			tasks: [{
+				id: "107069E9A975844C"
+				item: {
+					Count: 1
+					id: "clanginghowl:energy_glove"
+					tag: {
+						Energy: 0
+						"Max Energy": 1500
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["0B85F0A2B253BCB5"]
+			entity_vis_size: 1.0f
+			id: "6BB92DD61A8FCD89"
+			tasks: [{
+				id: "3090EC3184B60B21"
+				item: {
+					Count: 1
+					id: "clanginghowl:jet_boots"
+					tag: {
+						Fuel: 0
+						"Max Fuel": 1500
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0B85F0A2B253BCB5"]
+			entity_vis_size: 1.0f
+			id: "3A6648F49C71051C"
+			tasks: [{
+				id: "32BEEE3F00B66D36"
+				item: "clanginghowl:bloody_battery"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["19BA5E36EDE9AD6D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			id: "46863F1BC67DECF2"
+			tasks: [{
+				id: "50C7F6581C5026C9"
+				item: "clanginghowl:techno_heart"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["0B85F0A2B253BCB5"]
+			entity_vis_size: 1.0f
+			id: "410D6A799429D167"
+			tasks: [{
+				id: "14B751828375002E"
+				item: {
+					Count: 1
+					id: "clanginghowl:reanimator"
+					tag: {
+						Energy: 0
+						"Max Energy": 1000
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0D308BF48937BBF8"]
+			entity_vis_size: 1.0f
+			id: "5A06AC5C47936D19"
+			tasks: [{
+				id: "6DC6439295DDA8BB"
+				item: {
+					Count: 1
+					id: "clanginghowl:industrial_adjustable_wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["47271D8E8C2CAA7C"]
+			entity_vis_size: 1.0f
+			id: "308EB4268D43D98C"
+			tasks: [{
+				id: "2F92C3A7D1CB487E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 6
+						}
+					}
+					id: "clanginghowl:portable_charger"
+					tag: {
+						HasBatteries: 0b
+						cap: {
+							Items: [ ]
+							Size: 6
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["0D308BF48937BBF8"]
+			entity_vis_size: 1.0f
+			id: "1565749CF7EB22DE"
+			tasks: [{
+				id: "5A4CED090DD1A57E"
+				item: "clanginghowl:stationary_charging_station"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["173599F954578016"]
+			entity_vis_size: 1.0f
+			id: "5AA74C527B4105F6"
+			tasks: [{
+				id: "1650E11EA0A59F31"
+				item: "clanginghowl:crystal_former"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["3F82A1635119FC83"]
+			entity_vis_size: 1.0f
+			id: "173599F954578016"
+			tasks: [{
+				id: "6EACCDCAF4849AF4"
+				item: "clanginghowl:extraterrestrial_steel_plate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["0D308BF48937BBF8"]
+			entity_vis_size: 1.0f
+			id: "45463FBBEA44EC81"
+			tasks: [{
+				id: "5FD71C81D7BD32ED"
+				item: "clanginghowl:barrier_of_extraterrestrial_activity"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -31.5d
 		}
 	]
 	title: "Flesh Industries"

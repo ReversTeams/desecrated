@@ -52,7 +52,7 @@ ServerEvents.tags('item', event => {
         'clanginghowl:chunk_of_technoflesh'
     ]);
 
-    add('desecrated:advanced_wrench', [
+    add('desecrated:advanced_wrenches', [
         'artificers_armory:wrench_copper',
         'artificers_armory:wrench_iron',
         'artificers_armory:wrench_gold',
@@ -80,6 +80,15 @@ ServerEvents.tags('item', event => {
         'celestisynth:lunar_scrap',
         'perdition:scintillating_marble_block',
         'perdition:marmor_exaltatus'
+    ]);
+
+    add('desecrated:advanced_tuning_forks', [
+        'artificers_armory:tuning_fork_copper',
+        'artificers_armory:tuning_fork_iron',
+        'artificers_armory:tuning_fork_gold',
+        'artificers_armory:tuning_fork_diamond',
+        'artificers_armory:tuning_fork_netherite',
+        'clanginghowl:industrial_adjustable_wrench'
     ]);
 
     // Should be added to core mods

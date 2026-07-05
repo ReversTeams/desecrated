@@ -18,6 +18,28 @@
 		}
 	}
 	id: "49AAA9EFC529FB90"
+	images: [
+		{
+			alpha: 180
+			color: 16718090
+			height: 2.5d
+			image: "tetra_view:textures/slot1.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			color: 16712970
+			height: 3.0d
+			image: "tetra:item/module/artifact/casing/machination/metal"
+			rotation: 45.0d
+			width: 3.0d
+			x: 0.1d
+			y: 0.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -34,6 +56,7 @@
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
+			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "67E46BEEC08F8EA1"
 			tasks: [{
@@ -47,6 +70,7 @@
 		}
 		{
 			dependencies: ["67E46BEEC08F8EA1"]
+			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "1CE2E59DF8AB13AF"
 			tasks: [{
@@ -60,6 +84,7 @@
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
+			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "27080CDFCD7A0AC9"
 			tasks: [{
@@ -72,6 +97,7 @@
 		}
 		{
 			dependencies: ["27080CDFCD7A0AC9"]
+			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "11BBC69CCB822E78"
 			tasks: [{
@@ -82,6 +108,156 @@
 			}]
 			x: 3.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["20DC2110D654C2D8"]
+			disable_toast: true
+			entity_vis_size: 1.0f
+			id: "0FDC63AE98A6BC06"
+			tasks: [{
+				id: "5772ACC8DBA56320"
+				item: {
+					Count: 1
+					id: "tetra:modular_toolbelt"
+					tag: {
+						id: "f3280657-fec2-4003-aa26-d6f5f5a3f7cd"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CE2E59DF8AB13AF"]
+			disable_toast: true
+			entity_vis_size: 1.0f
+			id: "2F231685847D74F5"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+				id: "4E99896113E28D29"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CE2E59DF8AB13AF"]
+			disable_toast: true
+			entity_vis_size: 1.0f
+			id: "5DEADC68E94F930F"
+			tasks: [{
+				advancement: "tetra:upgrades/shield_upgrade"
+				criterion: ""
+				id: "0EE74D85B656CFC8"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CE2E59DF8AB13AF"]
+			disable_toast: true
+			entity_vis_size: 1.0f
+			id: "6FFE6F897CC8BC2A"
+			tasks: [{
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+				id: "0B6405B87722160E"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CE2E59DF8AB13AF"]
+			disable_toast: true
+			entity_vis_size: 1.0f
+			id: "142CEAE28CC979B5"
+			tasks: [{
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+				id: "7BBA8CD4284F75A1"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CE2E59DF8AB13AF"]
+			disable_toast: true
+			entity_vis_size: 1.0f
+			id: "6832804944E6968C"
+			tasks: [{
+				id: "74DFA1EBCF889EF0"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CE2E59DF8AB13AF"]
+			disable_toast: true
+			entity_vis_size: 1.0f
+			id: "5CA75CA01A803357"
+			tasks: [
+				{
+					advancement: "tetra:upgrades/hammer_2"
+					criterion: ""
+					id: "06771856E69305A9"
+					type: "advancement"
+				}
+				{
+					advancement: "tetra:upgrades/hammer_3"
+					criterion: ""
+					disable_toast: true
+					id: "6AC97CE9892845D1"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "tetra:upgrades/hammer_4"
+					criterion: ""
+					disable_toast: true
+					id: "3FF11FA39B372923"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CE2E59DF8AB13AF"]
+			entity_vis_size: 1.0f
+			id: "58A84DDA66A0816D"
+			tasks: [{
+				advancement: "tetra:upgrades/enchant_item"
+				criterion: ""
+				id: "21578304A4C91B69"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58A84DDA66A0816D"]
+			entity_vis_size: 1.0f
+			id: "231627414397C6D6"
+			tasks: [{
+				advancement: "tetra:upgrades/unstable_power"
+				criterion: ""
+				id: "403CECD8A6BBBC03"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -7.5d
 		}
 	]
 	title: "Sanguines of Iron"

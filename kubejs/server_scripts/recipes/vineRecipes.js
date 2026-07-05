@@ -9,7 +9,8 @@ ServerEvents.recipes(event => {
         'hexalia:censer',
         'hexalia:small_cauldron',
         'hexalia:mortar_and_pestle',
-        'hexalia:hex_focus'
+        'hexalia:hex_focus',
+        'celestisynth:lunar_scrap'
     ]
 
     const removeCraftingShaped = [
@@ -36,6 +37,10 @@ ServerEvents.recipes(event => {
     removeCraftingShapeless.forEach(item => {
         event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
     })
+
+    event.remove({ output: 'celestisynth:lunar_scrap', type: 'minecraft:smelting' })
+    event.remove({ output: 'celestisynth:lunar_scrap', type: 'minecraft:blasting' })
+    event.remove({ output: 'celestisynth:starstruck_scrap', type: 'minecraft:brewing' })
 
     event.replaceInput(
         { input: 'hexalia:tree_resin' },
@@ -159,6 +164,34 @@ ServerEvents.recipes(event => {
             'hexalia:spirit_bloom',
             'minecraft:amethyst_shard'
         ]
+    )
+
+    event.shaped(
+        Item.of('celestisynth:lunar_scrap'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'celestisynth:lunar_stone',
+            A: 'hexalia:celestial_crystal',
+            C: 'hexalia:mutavis'
+        }
+    )
+
+    event.shaped(
+        Item.of('desecratedcore:celestial_stone'),
+        [
+            ' A ',
+            'BCB',
+            ' A '
+        ],
+        {
+            B: 'celestisynth:lunar_stone',
+            C: 'hexalia:celestial_bloom',
+            A: 'hexalia:spirit_powder'
+        }
     )
 
 })
