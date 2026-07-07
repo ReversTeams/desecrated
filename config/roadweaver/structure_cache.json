@@ -2145,6 +2145,15 @@
       ]
     },
     {
+      "id": "netherman:believer_house",
+      "displayName": "Believer House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "netherman:eye_columns",
       "displayName": "Eye Columns",
       "isVanilla": false,
@@ -2169,11 +2178,56 @@
       ]
     },
     {
+      "id": "netherman:head_altar",
+      "displayName": "Head Altar",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "netherman:mansion_nether",
       "displayName": "Mansion Nether",
       "isVanilla": false,
       "dimensions": [
         "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "netherman:maze",
+      "displayName": "Maze",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "netherman:monument",
+      "displayName": "Monument",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "netherman:nether_geyser",
+      "displayName": "Nether Geyser",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "netherman:pipes",
+      "displayName": "Pipes",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
       ]
     },
     {

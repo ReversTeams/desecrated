@@ -59,12 +59,34 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "67E46BEEC08F8EA1"
-			tasks: [{
-				advancement: "tetra:upgrades/root"
-				criterion: ""
-				id: "6A27E688CFCF6E94"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "tetra:upgrades/root"
+					criterion: ""
+					id: "6A27E688CFCF6E94"
+					type: "advancement"
+				}
+				{
+					id: "3FFB3BB81F86F83D"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "ff7e5ac9-9c1a-4f9f-acaa-cdea0a0ab236"
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
