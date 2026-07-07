@@ -61,13 +61,13 @@
     "curseForgeHash": 101227267,
     "modrinthHash": "5d5a1d7d2d2dd37c578fdea2495757baaa624092"
   },
-  "animus-1.20.1-3.0.27.jar": {
-    "jarName": "animus-1.20.1-3.0.27.jar",
+  "animus-1.20.1-3.0.29.jar": {
+    "jarName": "animus-1.20.1-3.0.29.jar",
     "modId": "animus",
     "name": "Animus",
-    "version": "3.0.27",
-    "curseForgeHash": 3554525465,
-    "modrinthHash": "f722b176fcc0bf5d75b076abcd887d158fb84ad8"
+    "version": "3.0.29",
+    "curseForgeHash": 957922385,
+    "modrinthHash": "e72f0f10e0a450caff63f286c51323520fabb5e4"
   },
   "ARC Fix 1.10.jar": {
     "jarName": "ARC Fix 1.10.jar",
@@ -125,13 +125,13 @@
     "curseForgeHash": 291506619,
     "modrinthHash": "6775113274c19f6cc9f6fdf819aaf02dedf668f7"
   },
-  "ATi Structures V1.4.3 (1.20+).jar": {
-    "jarName": "ATi Structures V1.4.3 (1.20+).jar",
+  "ATi Structures V1.4.5.jar": {
+    "jarName": "ATi Structures V1.4.5.jar",
     "modId": "atistructures",
     "name": "Structory",
     "version": "1.4.0",
-    "curseForgeHash": 30546691,
-    "modrinthHash": "bd318a7ad0efe7a639301ee8ea17821caa32ddf0"
+    "curseForgeHash": 959608235,
+    "modrinthHash": "a87557ca8337cb0112ddbf6f3527d47f5340819c"
   },
   "AttributeFix-Forge-1.20.1-21.0.5.jar": {
     "jarName": "AttributeFix-Forge-1.20.1-21.0.5.jar",
@@ -341,13 +341,13 @@
     "curseForgeHash": 3798241293,
     "modrinthHash": "4fda004986d58562ac62e8d61b60c7d66be4115c"
   },
-  "chatplus-forge-2.8.1.jar": {
-    "jarName": "chatplus-forge-2.8.1.jar",
-    "modId": "chatplus",
-    "name": "ChatPlus",
-    "version": "2.8.1",
-    "curseForgeHash": 3667697148,
-    "modrinthHash": "3c08f233d5796544cf25fdaa754a5774220ff5bf"
+  "chat_heads-0.15.2-forge-1.20.jar": {
+    "jarName": "chat_heads-0.15.2-forge-1.20.jar",
+    "modId": "chat_heads",
+    "name": "Chat Heads",
+    "version": "0.15.2",
+    "curseForgeHash": 2721917406,
+    "modrinthHash": "fe49c0f42f21f4c0ea71c3cda7757914cb875ae7"
   },
   "chloride-FORGE-mc1.20.1-v1.7.7.jar": {
     "jarName": "chloride-FORGE-mc1.20.1-v1.7.7.jar",
@@ -754,13 +754,13 @@
     "curseForgeHash": 1548502984,
     "modrinthHash": "88a9ec30e4acb5c80a3ae060ad70b79e945293c6"
   },
-  "cultofazazelforge-1.1.3.jar": {
-    "jarName": "cultofazazelforge-1.1.3.jar",
+  "cultofazazelforge-1.1.4.3.1.jar": {
+    "jarName": "cultofazazelforge-1.1.4.3.1.jar",
     "modId": "netherman",
     "name": "Cult of Azazel",
-    "version": "1.1.3",
-    "curseForgeHash": 836827539,
-    "modrinthHash": "d5cc11689a86dfe253fc82ce6b2346f8579a0eac"
+    "version": "1.1.4.3",
+    "curseForgeHash": 2309498580,
+    "modrinthHash": "9c96712f27eac92409cccde94ef8d4a4ea0e4aea"
   },
   "cupboard-1.20.1-3.7.jar": {
     "jarName": "cupboard-1.20.1-3.7.jar",
@@ -2111,13 +2111,13 @@
     "curseForgeHash": 2067768782,
     "modrinthHash": "ffb68135b88bdbb25224378c76daf922c3f4c322"
   },
-  "reliable_recipes-forge-1.20.1-1.13.2.jar": {
-    "jarName": "reliable_recipes-forge-1.20.1-1.13.2.jar",
+  "reliable_recipes-forge-1.20.1-2.2.0.jar": {
+    "jarName": "reliable_recipes-forge-1.20.1-2.2.0.jar",
     "modId": "reliable_recipes",
     "name": "Reliable Recipes",
-    "version": "1.13.2",
-    "curseForgeHash": 2044914055,
-    "modrinthHash": "53ec9d467c81962ce35cc031179b269859b1b76f"
+    "version": "2.2.0",
+    "curseForgeHash": 3938096522,
+    "modrinthHash": "065344ae6223ed67233f09ba5d87c641b7bfde47"
   },
   "reliable_remover-forge-1.20.1-2.4.1.jar": {
     "jarName": "reliable_remover-forge-1.20.1-2.4.1.jar",
@@ -2343,14 +2343,6 @@
     "curseForgeHash": 1515254383,
     "modrinthHash": "231fb325368c0660954f47bfb03493f5246fa4d1"
   },
-  "sparsestructures-forge-1.20.1-3.0.jar": {
-    "jarName": "sparsestructures-forge-1.20.1-3.0.jar",
-    "modId": "sparsestructures",
-    "name": "SparseStructures",
-    "version": "3.0",
-    "curseForgeHash": 3386940382,
-    "modrinthHash": "3a14160106a66c54ce47c5e26d8a20c70b44d4c1"
-  },
   "spawn-animations-compats-16.0.jar": {
     "jarName": "spawn-animations-compats-16.0.jar",
     "modId": "mr_spawn_animationscompats",
@@ -2406,6 +2398,14 @@
     "version": "2.1",
     "curseForgeHash": 1632474415,
     "modrinthHash": "d3919030f767550d1e0c337cea066567fb05391f"
+  },
+  "structurify-forge-2.0.28+mc1.20.1.jar": {
+    "jarName": "structurify-forge-2.0.28+mc1.20.1.jar",
+    "modId": "structurify",
+    "name": "Structurify",
+    "version": "2.0.28",
+    "curseForgeHash": 1500504520,
+    "modrinthHash": "134d36f6cbee1ddabe2c3340a82630ad56c6d0fd"
   },
   "StylishEffects-v8.0.3-1.20.1-Forge.jar": {
     "jarName": "StylishEffects-v8.0.3-1.20.1-Forge.jar",
