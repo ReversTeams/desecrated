@@ -23,3 +23,6 @@ Custom items and blocks are not added via KubeJS or Multiblocked2, but via custo
 
 ## Support
 Most discussions about Desecrated happen in [ReversTeam's Discord server](https://discord.com/invite/TJKZgr6UDg), where the developer team can also be asked questions.
+
+## Environment Setup
+Local git filters are added by the `.gitconfig` file. Run `setup.sh` to automatically add it to your local git config (`.git/config`)
