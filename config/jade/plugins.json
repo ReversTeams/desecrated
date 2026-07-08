@@ -105,6 +105,9 @@
   "corpse": {
     "corpse": true
   },
+  "beer": {
+    "beer": true
+  },
   "balm": {
     "jade": true
   },
