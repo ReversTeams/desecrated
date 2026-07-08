@@ -12,16 +12,79 @@
 		}
 	}
 	id: "537C158F9A214A38"
-	images: [{
-		alpha: 180
-		color: 16211721
-		height: 2.5d
-		image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
-		rotation: 0.0d
-		width: 2.5d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			alpha: 180
+			color: 16211721
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			alpha: 180
+			color: 11004927
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_dash_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			color: 16729372
+			height: 4.0d
+			image: "ars_armorer:textures/misc/flash.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.1999999999999993d
+			y: 17.25d
+		}
+		{
+			alpha: 180
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/aquaflora_pierce_start/aquaflora_pierce_start2.png"
+			rotation: 45.0d
+			width: 2.5d
+			x: 0.8000000000000007d
+			y: 7.25d
+		}
+		{
+			height: 0.75d
+			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 0.75d
+			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
+			rotation: 90.0d
+			width: 0.75d
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
+			rotation: 180.0d
+			width: 0.75d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
+			rotation: -90.0d
+			width: 0.75d
+			x: -0.5d
+			y: 2.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -43,8 +106,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -9.0d
+			x: -4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6206A30278772A0E"]
@@ -66,8 +129,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -9.0d
+			x: -5.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["51B4F0043EFD8726"]
@@ -78,8 +141,8 @@
 				item: "clockwork:clockwork_arrow"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: -3.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["169431DCD7DDB357"]
@@ -97,7 +160,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["532DC607CA70E1C1"]
@@ -127,7 +190,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -10.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["169431DCD7DDB357"]
@@ -147,7 +210,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["169431DCD7DDB357"]
@@ -159,7 +222,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -176,7 +239,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["51B4F0043EFD8726"]
@@ -246,7 +309,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3529407D1A72FFCB"]
@@ -308,7 +371,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["422F8B4E485EE7B3"]
@@ -468,7 +531,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["422F8B4E485EE7B3"]
@@ -537,7 +600,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3529407D1A72FFCB"]
@@ -606,7 +669,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["422F8B4E485EE7B3"]
@@ -668,7 +731,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3529407D1A72FFCB"]
@@ -737,7 +800,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3529407D1A72FFCB"]
@@ -806,7 +869,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51B4F0043EFD8726"]
@@ -876,7 +939,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -8.25d
+			y: -9.25d
 		}
 		{
 			dependencies: ["59DD181B2F00F756"]
@@ -899,7 +962,7 @@
 				type: "observation"
 			}]
 			x: -1.0d
-			y: -11.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -924,7 +987,7 @@
 				}
 				type: "item"
 			}]
-			size: 1.15d
+			size: 1.2d
 			tasks: [{
 				id: "69E34EEB7779B8FF"
 				item: {
@@ -936,17 +999,17 @@
 				}
 				type: "item"
 			}]
-			x: 2.624999999999994d
-			y: 8.725000000000003d
+			x: 7.074999999999999d
+			y: 14.299999999999999d
 		}
 		{
+			dependencies: ["34DB9EBB5C296D71"]
 			description: [
 				"The Angelheart Vial is a reliquerer's main trick: cheating death a countless number of times. Or at least per the number of vials they have stacked in their pockets."
 				"{@pagebreak}"
 				"Legends say an archmage once defied a god by using this vial. For lightning and divine kill could not bring him down, or at least to death, he was thrown into the void, his corpse never to be found."
 			]
 			entity_vis_size: 1.0f
-			hide_dependency_lines: true
 			id: "483A8C4A3EE05C52"
 			rewards: [{
 				count: 9
@@ -959,8 +1022,8 @@
 				item: "reliquary:angelheart_vial"
 				type: "item"
 			}]
-			x: 3.8500000000000023d
-			y: 4.15d
+			x: 14.05d
+			y: 8.1d
 		}
 		{
 			dependencies: [
@@ -987,10 +1050,11 @@
 				item: "reliquary:phoenix_down"
 				type: "item"
 			}]
-			x: 3.8500000000000023d
-			y: 3.15d
+			x: 14.3d
+			y: 6.75d
 		}
 		{
+			dependencies: ["34DB9EBB5C296D71"]
 			description: [
 				"\"This seems like a cheap knockoff of the Tower card.\""
 				""
@@ -1003,7 +1067,6 @@
 				"\"Don't act as if you were old enough to have lived a thousand years ago.\""
 			]
 			entity_vis_size: 1.0f
-			hide_dependency_lines: true
 			id: "23F4617A86D5F64E"
 			rewards: [{
 				id: "44A9342C1349C618"
@@ -1015,8 +1078,8 @@
 				item: "reliquary:angelic_feather"
 				type: "item"
 			}]
-			x: 2.8500000000000023d
-			y: 3.15d
+			x: 13.05d
+			y: 7.1d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -1039,8 +1102,8 @@
 				item: "reliquary:destruction_catalyst"
 				type: "item"
 			}]
-			x: -0.5000000000000027d
-			y: 7.700000000000001d
+			x: 1.950000000000001d
+			y: 14.249999999999998d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1065,8 +1128,8 @@
 				item: "reliquary:fortune_coin"
 				type: "item"
 			}]
-			x: -3.55d
-			y: 6.749999999999998d
+			x: 4.050000000000001d
+			y: 11.6d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1089,8 +1152,8 @@
 				item: "reliquary:glacial_staff"
 				type: "item"
 			}]
-			x: 1.3500000000000023d
-			y: 10.15d
+			x: 6.550000000000001d
+			y: 16.1d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1118,8 +1181,8 @@
 				item: "reliquary:pyromancer_staff"
 				type: "item"
 			}]
-			x: 4.350000000000002d
-			y: 8.65d
+			x: 8.55d
+			y: 13.6d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1156,8 +1219,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.350000000000002d
-			y: 10.15d
+			x: 9.05d
+			y: 15.1d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1180,8 +1243,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.8500000000000023d
-			y: 10.65d
+			x: 8.05d
+			y: 16.1d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1205,8 +1268,8 @@
 				item: "reliquary:sojourner_staff"
 				type: "item"
 			}]
-			x: 3.8500000000000023d
-			y: 7.15d
+			x: 7.550000000000001d
+			y: 12.6d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1237,8 +1300,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.4500000000000002d
-			y: 3.749999999999998d
+			x: 1.0500000000000007d
+			y: 11.1d
 		}
 		{
 			dependencies: ["471939DE22B5426B"]
@@ -1287,10 +1350,11 @@
 				item: "reliquary:handgun"
 				type: "item"
 			}]
-			x: -1.0499999999999998d
-			y: 9.249999999999998d
+			x: 2.0500000000000007d
+			y: 16.1d
 		}
 		{
+			dependencies: ["3220B67522BB5C0D"]
 			description: [
 				"I asked &cSantiago&r more about his so-called relics and the starting point of a reliquerer's craft. &c\"Well, if you're interested in fabricating relics of your own, then I'd say the very first thing you should get comfortable with crafting is the Void Tear. It isn't too difficult to scrounge up the materials, only really requiring a Ghast's tear, an Enderman's heart, a Slime's Pearl, and a bit of Lapis, but you should really stock up on the materials for it, since it's used as a base for many more complicated (and useful) relics.\"&r"
 				"{@pagebreak}"
@@ -1304,6 +1368,7 @@
 				item: "reliquary:nebulous_heart"
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "290562D519F4C6F2"
 				item: {
@@ -1317,8 +1382,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0499999999999998d
-			y: 5.249999999999998d
+			x: 2.5500000000000007d
+			y: 9.6d
 		}
 		{
 			dependencies: ["0901394AD3A5FDAB"]
@@ -1353,11 +1418,15 @@
 				}
 				type: "item"
 			}]
-			x: -4.05d
-			y: 8.249999999999998d
+			x: 5.300000000000001d
+			y: 12.25d
 		}
 		{
-			dependencies: ["21E6CA24E283AF68"]
+			dependencies: [
+				"21E6CA24E283AF68"
+				"7D281BDB1C2472F1"
+				"471939DE22B5426B"
+			]
 			dependency_requirement: "one_started"
 			description: [
 				"Out of all of the weapons I've come across on my travels, up until now, this probably makes the top five. It uses Kestrel as a base, harvests the power of Magicbane using a transformative flower, and when swung, shoots deadly beams with the power of the Rending Gale, summoning lightning strikes on hit."
@@ -1384,8 +1453,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.9000000000000012d
-			y: 10.624999999999998d
+			x: 4.324999999999999d
+			y: 18.5d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1426,8 +1495,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5499999999999998d
-			y: 3.249999999999998d
+			x: 5.050000000000001d
+			y: 7.6d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1440,13 +1509,14 @@
 				item: "reliquary:witch_hat"
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "210D062819CD9386"
 				item: "reliquary:infernal_tear"
 				type: "item"
 			}]
-			x: -0.04999999999999982d
-			y: 6.249999999999998d
+			x: 2.1000000000000014d
+			y: 12.899999999999999d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1471,8 +1541,8 @@
 				item: "reliquary:emperor_chalice"
 				type: "item"
 			}]
-			x: -2.05d
-			y: 7.249999999999998d
+			x: 4.550000000000001d
+			y: 10.1d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1503,8 +1573,8 @@
 				item: "reliquary:ice_magus_rod"
 				type: "item"
 			}]
-			x: 0.9500000000000037d
-			y: 4.749999999999998d
+			x: 5.550000000000001d
+			y: 8.6d
 		}
 		{
 			dependencies: ["4128B0BDF74E7913"]
@@ -1532,8 +1602,8 @@
 					type: "item"
 				}
 			]
-			x: -2.55d
-			y: 8.749999999999998d
+			x: 6.050000000000001d
+			y: 10.6d
 		}
 		{
 			dependencies: [
@@ -1560,8 +1630,8 @@
 				item: "reliquary:salamander_eye"
 				type: "item"
 			}]
-			x: 5.949999999999997d
-			y: 9.199999999999998d
+			x: 9.8d
+			y: 11.25d
 		}
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
@@ -1579,8 +1649,8 @@
 				item: "reliquary:lantern_of_paranoia"
 				type: "item"
 			}]
-			x: 5.850000000000002d
-			y: 7.65d
+			x: 8.3d
+			y: 11.25d
 		}
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
@@ -1599,8 +1669,8 @@
 				item: "reliquary:interdiction_torch"
 				type: "item"
 			}]
-			x: 5.850000000000002d
-			y: 6.15d
+			x: 8.8d
+			y: 8.75d
 		}
 		{
 			dependencies: ["7EA2E0871C6D568C"]
@@ -1618,8 +1688,8 @@
 				item: "reliquary:witherless_rose"
 				type: "item"
 			}]
-			x: 8.300000000000004d
-			y: 6.15d
+			x: 12.55d
+			y: 8.6d
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
@@ -1642,13 +1712,17 @@
 				item: "reliquary:hero_medallion"
 				type: "item"
 			}]
-			x: 8.300000000000004d
-			y: 9.65d
+			x: 11.55d
+			y: 9.6d
 		}
 		{
-			dependencies: ["471939DE22B5426B"]
+			dependencies: [
+				"05870A6D75B162C2"
+				"471939DE22B5426B"
+			]
 			entity_vis_size: 1.0f
 			id: "0D425B8B6302FEF8"
+			size: 1.15d
 			tasks: [{
 				id: "3F849199845726D4"
 				item: {
@@ -1660,13 +1734,13 @@
 				}
 				type: "item"
 			}]
-			x: 0.7999999999999998d
-			y: 8.450000000000001d
+			x: 0.05000000000000071d
+			y: 15.6d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "3913E4BF1C7341B8"
-			size: 1.15d
+			size: 1.25d
 			tasks: [{
 				id: "6E738E2E6645C8E3"
 				item: "desecratedcore:artificer_key_item"
@@ -1691,7 +1765,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3DD1F3BB424F9A9F"]
@@ -1703,7 +1777,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["43A95B77D0DCE884"]
@@ -1715,7 +1789,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3913E4BF1C7341B8"]
@@ -1741,13 +1815,10 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: [
-				"550D01E852BFE592"
-				"00731415D259609E"
-			]
+			dependencies: ["00731415D259609E"]
 			entity_vis_size: 1.0f
 			id: "319D42BD34E291D2"
 			tasks: [{
@@ -1755,11 +1826,11 @@
 				item: "celestisynth:starlit_factory"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.5d
+			x: -5.199999999999999d
+			y: 13.25d
 		}
 		{
-			dependencies: ["3913E4BF1C7341B8"]
+			dependencies: ["3220B67522BB5C0D"]
 			entity_vis_size: 1.0f
 			id: "5BE485A94600E5E5"
 			tasks: [{
@@ -1767,8 +1838,8 @@
 				item: "celestisynth:celestial_core"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 0.05000000000000071d
+			y: 9.6d
 		}
 		{
 			dependencies: ["5BE485A94600E5E5"]
@@ -1779,8 +1850,8 @@
 				item: "celestisynth:celestial_netherite_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: -2.6999999999999993d
+			y: 11.75d
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
@@ -1791,8 +1862,8 @@
 				item: "celestisynth:solar_crystal"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 11.0d
+			x: 11.3d
+			y: 11.75d
 		}
 		{
 			dependencies: ["105B8DA1342C50C4"]
@@ -1844,8 +1915,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 12.5d
+			x: 12.8d
+			y: 12.75d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1866,8 +1937,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: -7.199999999999999d
+			y: 13.75d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1885,8 +1956,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: -6.699999999999999d
+			y: 12.25d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1906,8 +1977,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: -6.199999999999999d
+			y: 14.75d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1925,8 +1996,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: -4.199999999999999d
+			y: 14.75d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1948,8 +2019,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
+			x: -3.1999999999999993d
+			y: 13.75d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1977,8 +2048,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: -5.199999999999999d
+			y: 11.25d
 		}
 		{
 			dependencies: ["532DC607CA70E1C1"]
@@ -1996,7 +2067,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -10.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["6FD39AE1113C3DC8"]
@@ -2019,7 +2090,7 @@
 				type: "observation"
 			}]
 			x: -4.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5BC2C1130D1E5E8F"]
@@ -2041,8 +2112,8 @@
 				to_observe: "artificers_armory:electro_coil"
 				type: "observation"
 			}]
-			x: 3.5d
-			y: -10.0d
+			x: 4.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["038120B0C366CA49"]
@@ -2065,7 +2136,7 @@
 				type: "observation"
 			}]
 			x: -4.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["532DC607CA70E1C1"]
@@ -2087,8 +2158,8 @@
 				to_observe: "artificers_armory:hover_sentry"
 				type: "observation"
 			}]
-			x: 1.5d
-			y: -10.0d
+			x: 2.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["01B436C6CCBACCB5"]
@@ -2110,8 +2181,8 @@
 				to_observe: "artificers_armory:mobile_gear"
 				type: "observation"
 			}]
-			x: 3.0d
-			y: -11.5d
+			x: 3.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["5BC2C1130D1E5E8F"]
@@ -2133,8 +2204,8 @@
 				to_observe: "artificers_armory:redstone_laser"
 				type: "observation"
 			}]
-			x: 3.5d
-			y: -8.5d
+			x: 4.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["532DC607CA70E1C1"]
@@ -2156,8 +2227,2819 @@
 				to_observe: "artificers_armory:sentry"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: -8.5d
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["76593EA6852DE6C8"]
+			entity_vis_size: 1.0f
+			id: "67DADCC34E9A8A63"
+			size: 1.1d
+			tasks: [{
+				id: "72300C07FA6BFA07"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 1.1d
+			y: 4.95d
+		}
+		{
+			dependencies: ["3913E4BF1C7341B8"]
+			entity_vis_size: 1.0f
+			id: "76593EA6852DE6C8"
+			tasks: [{
+				id: "53382D6D603DB8C4"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:restorine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76593EA6852DE6C8"]
+			entity_vis_size: 1.0f
+			id: "74A4B93E1FA1AE91"
+			size: 1.1d
+			tasks: [{
+				id: "5D7ED13C8DD8DC76"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:infusion_smithing_template"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.1d
+			y: 4.95d
+		}
+		{
+			dependencies: ["74A4B93E1FA1AE91"]
+			entity_vis_size: 1.0f
+			id: "7C847B91B459352C"
+			tasks: [{
+				id: "77E8742A32F5454E"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:relic"
+					tag: {
+						RelicStrength: 1
+						RelicType: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74A4B93E1FA1AE91"]
+			entity_vis_size: 1.0f
+			id: "61CFC4196BD26D74"
+			tasks: [{
+				id: "2F0A95D0C0220537"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:relic"
+					tag: {
+						RelicStrength: 1
+						RelicType: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74A4B93E1FA1AE91"]
+			entity_vis_size: 1.0f
+			id: "3ED4E6F497BA6CC1"
+			tasks: [{
+				id: "12D1D8DD6D563EDD"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:relic"
+					tag: {
+						RelicStrength: 1
+						RelicType: 2
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["74A4B93E1FA1AE91"]
+			entity_vis_size: 1.0f
+			id: "3BD3801B1CEDA237"
+			tasks: [{
+				id: "7E6C92808B67344E"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:relic"
+					tag: {
+						RelicStrength: 1
+						RelicType: 3
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["74A4B93E1FA1AE91"]
+			entity_vis_size: 1.0f
+			id: "3220B67522BB5C0D"
+			size: 1.1d
+			tasks: [{
+				id: "6682007B4FCEE9BF"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:relic"
+					tag: {
+						RelicStrength: 1
+						RelicType: 4
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.8000000000000007d
+			y: 7.25d
+		}
+		{
+			dependencies: ["67DADCC34E9A8A63"]
+			entity_vis_size: 1.0f
+			id: "2126408CBE5F90FA"
+			tasks: [{
+				id: "193645E9AF202AF2"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:enchanted_scrap"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67DADCC34E9A8A63"]
+			entity_vis_size: 1.0f
+			id: "1101E3B8A9748513"
+			tasks: [{
+				id: "2A26C9C233249916"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "fracture:bloody_bookshelf"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:forbidden_bookshelf_block"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any Higher Bookshelves"
+				type: "item"
+			}]
+			x: 2.8000000000000007d
+			y: 5.75d
+		}
+		{
+			dependencies: ["7C847B91B459352C"]
+			entity_vis_size: 1.0f
+			id: "4A3D5AEA66462A4C"
+			tasks: [
+				{
+					id: "0AF4785F2EF579A4"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 2
+							RelicType: 0
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "24E046A326F2AB30"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 3
+							RelicType: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69A6B0D4BAF403ED"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 4
+							RelicType: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61CFC4196BD26D74"]
+			entity_vis_size: 1.0f
+			id: "38E8B04CC93418D0"
+			tasks: [
+				{
+					id: "1C447FE256BF6165"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 2
+							RelicType: 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "66C4D504D100D30F"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 3
+							RelicType: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19227EAAF403B4F3"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 4
+							RelicType: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3ED4E6F497BA6CC1"]
+			entity_vis_size: 1.0f
+			id: "0A9875B69476B17E"
+			tasks: [
+				{
+					id: "3AB4EFD492DA6A9F"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 2
+							RelicType: 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "74C6AA3AC3CA7A30"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 3
+							RelicType: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "538DAC48F6628A78"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 4
+							RelicType: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3BD3801B1CEDA237"]
+			entity_vis_size: 1.0f
+			id: "472AC0BDE711A6D6"
+			tasks: [
+				{
+					id: "335CB14099F322FE"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 2
+							RelicType: 3
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "60736A4813CBC259"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 3
+							RelicType: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ED65AE61DE662C9"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 4
+							RelicType: 3
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.4d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3220B67522BB5C0D"
+				"081070F7CBF61207"
+			]
+			entity_vis_size: 1.0f
+			id: "53E9711CA82825AC"
+			tasks: [{
+				id: "4F9E67F801CCE1DD"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:relic"
+					tag: {
+						RelicStrength: 2
+						RelicType: 4
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.0500000000000007d
+			y: 8.1d
+		}
+		{
+			dependencies: ["550D01E852BFE592"]
+			entity_vis_size: 1.0f
+			id: "05870A6D75B162C2"
+			tasks: [{
+				id: "0AC91A6D716D1E3A"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:relic"
+					tag: {
+						RelicStrength: 3
+						RelicType: 4
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5500000000000007d
+			y: 13.6d
+		}
+		{
+			dependencies: ["7D281BDB1C2472F1"]
+			entity_vis_size: 1.0f
+			id: "6A01E5CE4B0B7F69"
+			tasks: [{
+				id: "19E9644D63800F5E"
+				item: {
+					Count: 1
+					id: "ascendant_arcana:relic"
+					tag: {
+						RelicStrength: 4
+						RelicType: 4
+					}
+				}
+				type: "item"
+			}]
+			x: 10.55d
+			y: 15.6d
+		}
+		{
+			dependencies: [
+				"4A3D5AEA66462A4C"
+				"38E8B04CC93418D0"
+				"472AC0BDE711A6D6"
+				"0A9875B69476B17E"
+			]
+			entity_vis_size: 1.0f
+			id: "3CC4DCE997F0234A"
+			tasks: [{
+				id: "7F02081772818870"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ascendant_arcana:relic"
+								tag: {
+									RelicStrength: 5
+									RelicType: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ascendant_arcana:relic"
+								tag: {
+									RelicStrength: 5
+									RelicType: 1
+								}
+							}
+							{
+								Count: 1b
+								id: "ascendant_arcana:relic"
+								tag: {
+									RelicStrength: 5
+									RelicType: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ascendant_arcana:relic"
+								tag: {
+									RelicStrength: 4
+									RelicType: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "ascendant_arcana:relic"
+								tag: {
+									RelicStrength: 5
+									RelicType: 4
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D425B8B6302FEF8"]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 200
+					GunFireMode: "SEMI"
+					GunId: "ars_armorer:pistol_source_ejector"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "257E0F645B9B307D"
+			size: 1.1d
+			tasks: [
+				{
+					id: "238C4C1346C79F38"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 200
+							GunFireMode: "SEMI"
+							GunId: "ars_armorer:pistol_source_ejector"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "14A0FE2A3361E878"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_high_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_slow_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_reckless_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_sniper_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_close_range_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_double_fire"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Trigger Glyphs"
+					type: "item"
+				}
+				{
+					id: "6684FBEE72E3E68F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_rapid_regeneration"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_conflux_accelerator"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_proficient_utilization"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_high_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_instant_renewal"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_consume"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_damage"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Mod Glyphs"
+					type: "item"
+				}
+				{
+					id: "07778B5B77E0782A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode_p"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Spell Glyphs"
+					type: "item"
+				}
+			]
+			x: -1.1999999999999993d
+			y: 17.25d
+		}
+		{
+			dependencies: ["257E0F645B9B307D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 280
+					GunFireMode: "SEMI"
+					GunId: "ars_armorer:sniper_distance_ejector"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "4E32DB4DC2F6A6FD"
+			tasks: [
+				{
+					id: "39B3E5B80DDB54DC"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 280
+							GunFireMode: "SEMI"
+							GunId: "ars_armorer:sniper_distance_ejector"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3480F0831E0C5529"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_high_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_slow_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_reckless_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_sniper_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_close_range_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_double_fire"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Trigger Glyphs"
+					type: "item"
+				}
+				{
+					id: "25B257F1E42FE477"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_rapid_regeneration"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_conflux_accelerator"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_proficient_utilization"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_high_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_instant_renewal"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_consume"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_damage"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Mod Glyphs"
+					type: "item"
+				}
+				{
+					id: "0FF8E26C1C28CD61"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode_p"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Spell Glyphs"
+					type: "item"
+				}
+			]
+			x: -3.1999999999999993d
+			y: 17.75d
+		}
+		{
+			dependencies: ["257E0F645B9B307D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 400
+					GunFireMode: "AUTO"
+					GunId: "ars_armorer:auto_rifle_stream_ejector"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "1CEDA7615EEBFB3D"
+			tasks: [
+				{
+					id: "105BA2B361C29C5E"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 400
+							GunFireMode: "AUTO"
+							GunId: "ars_armorer:auto_rifle_stream_ejector"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6F75071596C8C41B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_high_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_slow_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_reckless_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_sniper_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_close_range_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_double_fire"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Trigger Glyphs"
+					type: "item"
+				}
+				{
+					id: "1713A83ED97672AE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_rapid_regeneration"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_conflux_accelerator"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_proficient_utilization"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_high_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_instant_renewal"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_consume"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_damage"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Mod Glyphs"
+					type: "item"
+				}
+				{
+					id: "586DBE8E9B28735A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode_p"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Spell Glyphs"
+					type: "item"
+				}
+			]
+			x: -2.1999999999999993d
+			y: 19.25d
+		}
+		{
+			dependencies: ["257E0F645B9B307D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 250
+					GunFireMode: "SEMI"
+					GunId: "ars_armorer:shotgun_splash_ejector"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "75BF1EB1F7C20C0D"
+			tasks: [
+				{
+					id: "48B850A2F74CFB9B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											GunCurrentAmmoCount: 250
+											GunFireMode: "SEMI"
+											GunId: "ars_armorer:shotgun_splash_ejector"
+											HasBulletInBarrel: 1b
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											GunCurrentAmmoCount: 350
+											GunFireMode: "AUTO"
+											GunId: "ars_armorer:shotgun_jet_ejector"
+											HasBulletInBarrel: 1b
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "Any Shotgun Spellrifle"
+					type: "item"
+				}
+				{
+					id: "529F410F9F281D45"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_high_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_slow_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_horizontal_spread"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_vertical_spread"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_reckless_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_sniper_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_close_range_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_double_fire"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Trigger Glyphs"
+					type: "item"
+				}
+				{
+					id: "21882C5D08144A16"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_rapid_regeneration"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_conflux_accelerator"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_proficient_utilization"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_high_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_instant_renewal"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_consume"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_damage"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Mod Glyphs"
+					type: "item"
+				}
+				{
+					id: "45EADC3F56BFC251"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_pp"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Spell Glyphs"
+					type: "item"
+				}
+			]
+			x: -0.1999999999999993d
+			y: 19.25d
+		}
+		{
+			dependencies: ["257E0F645B9B307D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			id: "1B9371249D53554E"
+			tasks: [{
+				id: "547F2FFFB9DF923C"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 200
+						GunFireMode: "BURST"
+						GunId: "ars_armorer:special_miner_drill"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.199999999999999d
+			y: 19.25d
+		}
+		{
+			dependencies: ["257E0F645B9B307D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 400
+					GunFireMode: "SEMI"
+					GunId: "ars_armorer:mortar_source_thrower"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "7418FE756430119C"
+			tasks: [
+				{
+					id: "4B7D77C10842708C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 400
+							GunFireMode: "SEMI"
+							GunId: "ars_armorer:mortar_source_thrower"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "379615438EA623BE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_rapid_regeneration"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_conflux_accelerator"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_proficient_utilization"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_high_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_instant_renewal"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_consume"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_damage"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Mod Glyphs"
+					type: "item"
+				}
+			]
+			x: -1.1999999999999993d
+			y: 20.75d
+		}
+		{
+			dependencies: ["257E0F645B9B307D"]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 6
+					GunFireMode: "SEMI"
+					GunId: "ars_armorer:special_source_flying_blade"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "5C0131E81CC2C16E"
+			size: 1.15d
+			tasks: [
+				{
+					id: "536C65A0CA2D61C1"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 6
+							GunFireMode: "SEMI"
+							GunId: "ars_armorer:special_source_flying_blade"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "371A94639CC0EA97"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_high_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_slow_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_reckless_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_sniper_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_close_range_rounds"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Trigger Glyphs"
+					type: "item"
+				}
+				{
+					id: "4FC563E125A8CFEA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_rapid_regeneration"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_conflux_accelerator"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_proficient_utilization"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_high_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_instant_renewal"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_consume"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_damage"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Mod Glyphs"
+					type: "item"
+				}
+				{
+					id: "051B94B295B03FD0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode_p"
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Eligible Spell Glyphs"
+					type: "item"
+				}
+			]
+			x: -3.1499999999999986d
+			y: 20.799999999999997d
+		}
+		{
+			dependencies: ["257E0F645B9B307D"]
+			entity_vis_size: 1.0f
+			id: "26E82A8CFE4649FF"
+			tasks: [
+				{
+					id: "09A62FC4D5F2FC3B"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "ars_armorer:mana_mag_1"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D890574F3D920F8"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "ars_armorer:mana_mag_2"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DBCA1334F075F99"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "ars_armorer:mana_mag_3"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.8000000000000007d
+			y: 17.75d
+		}
+		{
+			dependencies: ["257E0F645B9B307D"]
+			entity_vis_size: 1.0f
+			id: "52BE4771B955E80F"
+			tasks: [
+				{
+					id: "4A80828B6D5767F9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_high_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_slow_speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_horizontal_spread"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_vertical_spread"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_reckless_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_sniper_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_close_range_rounds"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:trigger_double_fire"
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "Any Trigger Glyph"
+					type: "item"
+				}
+				{
+					id: "0F2AF3D960449713"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_rapid_regeneration"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_conflux_accelerator"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_proficient_utilization"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_high_damage"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_instant_renewal"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_consume"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:mod_low_damage"
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "Any Modifier Glyph"
+					type: "item"
+				}
+				{
+					id: "34C57D87855332FA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_damage_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_suppression_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_crit_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_explode_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_p"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_penetrate_incendiary_pp"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											AttachmentId: "ars_armorer:spell_ignite_p"
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "Any Spell Glyph"
+					type: "item"
+				}
+			]
+			title: "Glyphs"
+			x: -2.6999999999999993d
+			y: 16.25d
 		}
 	]
 	title: "Crimson Artificer"

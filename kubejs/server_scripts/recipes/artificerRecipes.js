@@ -20,7 +20,9 @@ ServerEvents.recipes(event => {
         'artificers_armory:tuning_fork_copper',
         'artificers_armory:tuning_fork_iron',
         'artificers_armory:tuning_fork_gold',
-        'artificers_armory:tuning_fork_diamond'
+        'artificers_armory:tuning_fork_diamond',
+        'reliquary:void_tear',
+        'reliquary:infernal_tear'
     ]
 
     remove.forEach(item => {
@@ -350,5 +352,65 @@ ServerEvents.recipes(event => {
             B: 'clockwork:clockwork_gear'
         }
     )
+
+    // Ascendant Arcana
+
+    // Reliquary
+
+    event.shapeless(
+        Item.of('reliquary:void_tear'),
+        [
+            'minecraft:ghast_tear',
+            'reliquary:slime_pearl',
+            'reliquary:nebulous_heart',
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:4}').strongNBT()
+        ]
+    )
+
+    event.shapeless(
+        Item.of('reliquary:infernal_tear'),
+        [
+            'reliquary:witch_hat',
+            'reliquary:molten_core',
+            'reliquary:infernal_claw',
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:4}').strongNBT()
+        ]
+    )
+
+    // Ars Armorer
+
+    // All Ars Armorer Attachment NBT
+    // {AttachmentId:"ars_armorer:trigger_high_speed"}
+    // {AttachmentId:"ars_armorer:trigger_slow_speed"}
+    // {AttachmentId:"ars_armorer:trigger_horizontal_spread"}
+    // {AttachmentId:"ars_armorer:trigger_vertical_spread"}
+    // {AttachmentId:"ars_armorer:trigger_reckless_rounds"}
+    // {AttachmentId:"ars_armorer:trigger_sniper_rounds"}
+    // {AttachmentId:"ars_armorer:trigger_close_range_rounds"}
+    // {AttachmentId:"ars_armorer:trigger_double_fire"}
+    // {AttachmentId:"ars_armorer:mod_rapid_regeneration"}
+    // {AttachmentId:"ars_armorer:mod_conflux_accelerator"}
+    // {AttachmentId:"ars_armorer:mod_proficient_utilization"}
+    // {AttachmentId:"ars_armorer:mod_high_damage"}
+    // {AttachmentId:"ars_armorer:mod_instant_renewal"}
+    // {AttachmentId:"ars_armorer:mod_low_consume"}
+    // {AttachmentId:"ars_armorer:mod_low_damage"}
+    // {AttachmentId:"ars_armorer:spell_damage"}
+    // {AttachmentId:"ars_armorer:spell_damage_p"}
+    // {AttachmentId:"ars_armorer:spell_damage_pp"}
+    // {AttachmentId:"ars_armorer:spell_suppression"}
+    // {AttachmentId:"ars_armorer:spell_suppression_p"}
+    // {AttachmentId:"ars_armorer:spell_crit"}
+    // {AttachmentId:"ars_armorer:spell_crit_p"}
+    // {AttachmentId:"ars_armorer:spell_crit_pp"}
+    // {AttachmentId:"ars_armorer:spell_ignite"}
+    // {AttachmentId:"ars_armorer:spell_explode"}
+    // {AttachmentId:"ars_armorer:spell_explode_p"}
+    // {AttachmentId:"ars_armorer:spell_penetrate"}
+    // {AttachmentId:"ars_armorer:spell_penetrate_p"}
+    // {AttachmentId:"ars_armorer:spell_penetrate_pp"}
+    // {AttachmentId:"ars_armorer:spell_penetrate_incendiary"}
+    // {AttachmentId:"ars_armorer:spell_penetrate_incendiary_p"}
+    // {AttachmentId:"ars_armorer:spell_penetrate_incendiary_pp"}
 
 })

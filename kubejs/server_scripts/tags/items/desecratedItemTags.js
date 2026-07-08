@@ -91,6 +91,11 @@ ServerEvents.tags('item', event => {
         'clanginghowl:industrial_adjustable_wrench'
     ]);
 
+    add('desecrated:enderman_heart', [
+        'reliquary:nebulous_heart',
+        'butchery:enderman_heart'
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"

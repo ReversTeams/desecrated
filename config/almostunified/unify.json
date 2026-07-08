@@ -73,7 +73,8 @@
     "forge:salt",
     "desecrated:hammer",
     "desecrated:crushed_iron",
-    "desecrated:crushed_gold"
+    "desecrated:crushed_gold",
+    "desecrated:enderman_heart"
   ],
   "materials": [
     "aeternium",
