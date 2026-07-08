@@ -181,6 +181,14 @@
     "curseForgeHash": 1291647419,
     "modrinthHash": "8746afe54616cad01514e6f1c6a16dc0839ea5c4"
   },
+  "beer-1.4.2.jar": {
+    "jarName": "beer-1.4.2.jar",
+    "modId": "beer",
+    "name": "beer",
+    "version": "1.4.2",
+    "curseForgeHash": 781978560,
+    "modrinthHash": "72ee6c91507335716dfc8a4107e76df266f8ecba"
+  },
   "BetterBurning-Forge-1.20.1-9.0.3.jar": {
     "jarName": "BetterBurning-Forge-1.20.1-9.0.3.jar",
     "modId": "betterburning",
@@ -953,6 +961,14 @@
     "version": "1.2.1+mc1.20.1",
     "curseForgeHash": 53908515,
     "modrinthHash": "ea86eceb04978bc366fe022bbab5dd5ea0bd3ab4"
+  },
+  "enchanter_fix-1.8+mc1.20-1.21.11.jar": {
+    "jarName": "enchanter_fix-1.8+mc1.20-1.21.11.jar",
+    "modId": "enchanter_fix",
+    "name": "Enchanter Fix",
+    "version": "1.8",
+    "curseForgeHash": 1740977674,
+    "modrinthHash": "72f05f07a4c027025967b7d1bf10c862ca9c515c"
   },
   "EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar": {
     "jarName": "EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",

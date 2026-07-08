@@ -973,20 +973,6 @@
 			]
 			entity_vis_size: 1.0f
 			id: "7D281BDB1C2472F1"
-			rewards: [{
-				count: 5
-				id: "1147A90310FA4F58"
-				item: {
-					Count: 1
-					id: "elementalcraft:pure_ore"
-					tag: {
-						elementalcraft: {
-							ore: "forge:redstone"
-						}
-					}
-				}
-				type: "item"
-			}]
 			size: 1.2d
 			tasks: [{
 				id: "69E34EEB7779B8FF"
@@ -1677,12 +1663,6 @@
 			description: ["&6I've done it, this variant of the Witherless Rose blooms with bright colours, able to reverse effects of withering. I am getting closer to figuring out all-encompassing transmutation across all matter. I've used quite a lot of anti-withering elixir in my experiments, though. I don't think I'll be in need of those anymore."]
 			entity_vis_size: 1.0f
 			id: "34DB9EBB5C296D71"
-			rewards: [{
-				count: 3
-				id: "5242E9C718036F5D"
-				item: "born_in_chaos_v1:elixirof_wither_resistance"
-				type: "item"
-			}]
 			tasks: [{
 				id: "02DA134DDB14AA28"
 				item: "reliquary:witherless_rose"
@@ -1696,17 +1676,6 @@
 			description: ["&6The hero's medallion is outclassed in its ability by most earlier methods of experience storage, whether it be the Shrike sword, experience containers or the insightful crystal. I do believe that using the Salamander's Eye, it can be useful as a transmutation medium."]
 			entity_vis_size: 1.0f
 			id: "7EA2E0871C6D568C"
-			rewards: [{
-				id: "78556DFB107D88E6"
-				item: {
-					Count: 1
-					id: "concatenationcore:shrike"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6995D2EB47EB369A"
 				item: "reliquary:hero_medallion"
@@ -2679,7 +2648,7 @@
 			entity_vis_size: 1.0f
 			id: "3CC4DCE997F0234A"
 			tasks: [{
-				id: "7F02081772818870"
+				id: "1F70C42018DD4504"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -2687,47 +2656,58 @@
 						items: [
 							{
 								Count: 1b
-								id: "ascendant_arcana:relic"
+								id: "itemfilters:strong_nbt"
 								tag: {
-									RelicStrength: 5
-									RelicType: 0
+									value: {
+										RelicStrength: 5
+										RelicType: 0
+									}
 								}
 							}
 							{
 								Count: 1b
-								id: "ascendant_arcana:relic"
+								id: "itemfilters:strong_nbt"
 								tag: {
-									RelicStrength: 5
-									RelicType: 1
+									value: {
+										RelicStrength: 5
+										RelicType: 1
+									}
 								}
 							}
 							{
 								Count: 1b
-								id: "ascendant_arcana:relic"
+								id: "itemfilters:strong_nbt"
 								tag: {
-									RelicStrength: 5
-									RelicType: 2
+									value: {
+										RelicStrength: 5
+										RelicType: 2
+									}
 								}
 							}
 							{
 								Count: 1b
-								id: "ascendant_arcana:relic"
+								id: "itemfilters:strong_nbt"
 								tag: {
-									RelicStrength: 4
-									RelicType: 3
+									value: {
+										RelicStrength: 5
+										RelicType: 3
+									}
 								}
 							}
 							{
 								Count: 1b
-								id: "ascendant_arcana:relic"
+								id: "itemfilters:strong_nbt"
 								tag: {
-									RelicStrength: 5
-									RelicType: 4
+									value: {
+										RelicStrength: 5
+										RelicType: 4
+									}
 								}
 							}
 						]
 					}
 				}
+				title: "Any Ascendant Relic"
 				type: "item"
 			}]
 			x: -7.5d

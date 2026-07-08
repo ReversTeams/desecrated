@@ -22,7 +22,10 @@ ServerEvents.recipes(event => {
         'artificers_armory:tuning_fork_gold',
         'artificers_armory:tuning_fork_diamond',
         'reliquary:void_tear',
-        'reliquary:infernal_tear'
+        'reliquary:infernal_tear',
+        'minecraft:enchanting_table',
+        'ascendant_arcana:copper_enchanting_table',
+        'celestisynth:celestial_core'
     ]
 
     remove.forEach(item => {
@@ -355,6 +358,64 @@ ServerEvents.recipes(event => {
 
     // Ascendant Arcana
 
+    event.shaped(
+        Item.of('minecraft:enchanting_table'),
+        [
+            'AB ',
+            'CDC',
+            'DDD'
+        ],
+        {
+            A: 'desecratedcore:artificer_key_item',
+            B: 'minecraft:book',
+            C: 'ascendant_arcana:restorine',
+            D: 'minecraft:obsidian'
+        }
+    ).keepIngredient('desecratedcore:artificer_key_item')
+
+    event.shaped(
+        Item.of('ascendant_arcana:copper_enchanting_table'),
+        [
+            ' A ',
+            'BCB',
+            'CCC'
+        ],
+        {
+            C: 'minecraft:cut_copper',
+            B: 'minecraft:diamond',
+            A: 'minecraft:book'
+        }
+    )
+
+    event.shaped(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:4}'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'concatenatedadditionstools:experience_orb',
+            B: 'minecraft:amethyst_shard',
+            C: 'reliquary:infernal_tear'
+        }
+    )
+
+    // Celestisynth
+
+    event.shaped(
+        Item.of('celestisynth:celestial_core'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:4}').strongNBT(),
+            A: 'minecraft:amethyst_shard'
+        }
+    )
+
     // Reliquary
 
     event.shapeless(
@@ -378,6 +439,22 @@ ServerEvents.recipes(event => {
     )
 
     // Ars Armorer
+
+    event.shaped(
+        Item.of('tacz:workbench_b', '{BlockId:"ars_armorer:ars_workbench"}'),
+        [
+            'ABC',
+            'DED',
+            ' D '
+        ],
+        {
+            C: 'reliquary:destruction_catalyst',
+            B: Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:4}').strongNBT(),
+            E: 'concatenatedadditionstools:glowing_gold_block',
+            A: 'tacz:ammo',
+            D: 'minecraft:stone_bricks'
+        }
+    )
 
     // All Ars Armorer Attachment NBT
     // {AttachmentId:"ars_armorer:trigger_high_speed"}
