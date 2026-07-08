@@ -74,11 +74,24 @@ ServerEvents.recipes(event => {
         ]
     )
 
-    // //This is stupid
-    // event.shapeless(
-    //     Item.of('create:wrench'),
-    //     [
-    //         Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:1,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}')
-    //     ]
-    // )
+    event.shapeless(
+        Item.of('butchery:witches_clothes_helmet'),
+        [
+            'reliquary:witch_hat'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('reliquary:witch_hat'),
+        [
+            'butchery:witches_clothes_helmet'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('create:wrench'),
+        [
+            Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:1,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}').strongNBT()
+        ]
+    )
 });

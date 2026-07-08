@@ -16,7 +16,6 @@ config_enabled = true
 # Default game rule settings for the 'player' category.
 
   player.adapticonviolence = false
-  player.allow_player_cutting = false
   player.disable_elytra_movement_check = false
   player.do_immediate_respawn = false
   player.do_limited_crafting = false

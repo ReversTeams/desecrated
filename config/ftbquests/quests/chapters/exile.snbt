@@ -546,19 +546,6 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
-			entity_vis_size: 1.0f
-			icon: "minecraft:lantern"
-			id: "4B67C6BB6CC8905C"
-			tasks: [{
-				id: "2640750435AEBA8F"
-				item: "minecraft:lantern"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["19AC0B8C0B44FA30"]
 			entity_vis_size: 1.5f
 			id: "0CA41706516F60D1"
 			rewards: [{
@@ -1648,6 +1635,17 @@
 			}]
 			x: 4.0d
 			y: 7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2769096977DA8528"
+			tasks: [{
+				id: "4E70D56F2EFC6421"
+				item: "ascendant_arcana:copper_enchanting_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
 		}
 	]
 	title: "Fallen"

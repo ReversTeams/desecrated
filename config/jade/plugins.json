@@ -1,7 +1,4 @@
 {
-  "som": {
-    "variant_name": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
