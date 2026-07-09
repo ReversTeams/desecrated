@@ -1,0 +1,19 @@
+
+["Common Config"]
+
+	#Triggers
+	["Common Config".triggers]
+		#Banner for lighting up campfires
+		campfire_lit = true
+		#Banner for fallen entities (entities must be chosen through datapacks).
+		#By default, its all bosses tagged with forge:bosses.
+		#Special banners are given to the Wither and Ender Dragon.
+		entity_felled = true
+
+		#Compatibility
+		["Common Config".triggers.compatibility]
+			#Banner for activating bonfires [Bonfires Mod]
+			bonfire_lit = true
+			#Banner for activating waystones [Waystones Mod]
+			waystones_activate = true
+

@@ -36,6 +36,7 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "675440487ADE64B0"
+			size: 1.15d
 			tasks: [{
 				icon: "fracture:fleshy_chiseled_darkstone_bricks"
 				id: "4ECDF3BCA781F6CD"
@@ -122,7 +123,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["675440487ADE64B0"]
@@ -144,8 +145,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["675440487ADE64B0"]
@@ -167,8 +168,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["675440487ADE64B0"]
@@ -190,13 +191,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["675440487ADE64B0"]
 			entity_vis_size: 1.0f
 			id: "765F8AFD24ECD267"
+			size: 1.1d
 			tasks: [{
 				entity: "fracture:flesh_obelisk"
 				entity_use_tag: false
@@ -231,8 +233,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["31E181386233E8D5"]
@@ -243,19 +245,195 @@
 				item: "fracture:parasitic_ring"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "7F0C5BD591C3EA2A"
 			tasks: [{
+				icon: "butchery:pillager_corpse"
 				id: "6F408247D8576CB7"
 				structure: "fracture:pillager_tower"
 				type: "structure"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"765F8AFD24ECD267"
+				"3C411C6CC29A7BBB"
+			]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			id: "404C4A07177D5369"
+			tasks: [{
+				biome: "incision:eroded_yard"
+				icon: "incision:carrion"
+				id: "4C281D25C537958E"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["404C4A07177D5369"]
+			entity_vis_size: 1.0f
+			id: "070B4F68C93EA2C1"
+			tasks: [
+				{
+					id: "4F8A1A03E6691119"
+					item: {
+						Count: 1
+						id: "incision:eyebulb"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "077B22D5C4375695"
+					item: {
+						Count: 1
+						id: "incision:lens_glass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "146A1F37F9503B1F"
+					item: {
+						Count: 1
+						id: "incision:conductor_nerve"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57FD36BEA9511482"]
+			entity_vis_size: 1.0f
+			id: "5681A00017550057"
+			tasks: [{
+				id: "65644E6B8359B5C0"
+				item: {
+					Count: 1
+					id: "incision:burial_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["404C4A07177D5369"]
+			entity_vis_size: 1.0f
+			id: "57FD36BEA9511482"
+			tasks: [{
+				entity: "incision:seer"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "743046D37600A14F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["404C4A07177D5369"]
+			entity_vis_size: 1.5f
+			id: "2696746882728AB7"
+			tasks: [{
+				entity: "incision:purger"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "665FCE4AE3C74E1A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["765F8AFD24ECD267"]
+			entity_vis_size: 0.5f
+			id: "2BDC1C9802E15AF8"
+			tasks: [{
+				entity: "fdse:abyssal_leviathan"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 0.2f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "7FC7B6A859FA5891"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["404C4A07177D5369"]
+			entity_vis_size: 1.0f
+			id: "3EFEC14B36C83F77"
+			tasks: [{
+				id: "67A67BF0924C9F84"
+				structure: "netherman:mansion_nether"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3EFEC14B36C83F77"]
+			entity_vis_size: 1.0f
+			id: "784AF15C4238D0F4"
+			tasks: [{
+				entity: "netherman:azazel"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "606834364558B4C5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -8.0d
 		}
 	]
 	title: "Fractured Depths"

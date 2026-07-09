@@ -76,6 +76,33 @@
 			x: 20.0d
 			y: -29.5d
 		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "macabre:textures/particle/red_macabre_roar_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: -30.0d
+		}
+		{
+			height: 1.0d
+			image: "macabre:textures/screens/oczy2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -32.0d
+		}
+		{
+			alpha: 180
+			color: 16715797
+			height: 3.0d
+			image: "bloodmagic:models/alchemyarrays/mobsacrifice"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.0d
+			y: -27.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -2900,6 +2927,42 @@
 			}]
 			x: 25.5d
 			y: -31.0d
+		}
+		{
+			dependencies: [
+				"65A8B04267923FB7"
+				"4EBF32AEC732A6CA"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "7A6F70D9D16B0066"
+			size: 1.5d
+			tasks: [{
+				id: "7FFFB874658CF291"
+				item: "macabre:sac_dir_4"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["7A6F70D9D16B0066"]
+			entity_vis_size: 1.0f
+			id: "6102E1444E84E6B0"
+			tasks: [{
+				dimension: "macabre:the_pit"
+				icon: {
+					Count: 1
+					id: "macabre:crystalized_blood"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4FE9E7D18C3C9CA0"
+				type: "dimension"
+			}]
+			x: 10.0d
+			y: -30.0d
 		}
 	]
 	title: "Arcane Flesh"

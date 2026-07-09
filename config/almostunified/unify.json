@@ -34,6 +34,8 @@
     "quark",
     "refurbished_furniture",
     "mahoutsukai",
+    "macabre",
+    "incision",
     "philipsruins"
   ],
   "stoneStrata": [
@@ -74,7 +76,10 @@
     "desecrated:hammer",
     "desecrated:crushed_iron",
     "desecrated:crushed_gold",
-    "desecrated:enderman_heart"
+    "desecrated:enderman_heart",
+    "forge:stomach",
+    "forge:intestines",
+    "forge:broken_bone"
   ],
   "materials": [
     "aeternium",

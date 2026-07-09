@@ -1,9 +1,9 @@
 {
-  "fmlloader-1.20.1-47.4.10.jar (modloader)": {
-    "jarName": "fmlloader-1.20.1-47.4.10.jar (modloader)",
+  "fmlloader-1.20.1-47.4.20.jar (modloader)": {
+    "jarName": "fmlloader-1.20.1-47.4.20.jar (modloader)",
     "modId": "forge",
     "name": "forge",
-    "version": "fmlloader-1.20.1-47.4.10.jar"
+    "version": "fmlloader-1.20.1-47.4.20.jar"
   },
   "accessories-neoforge-1.0.0-beta.48+1.20.1.jar": {
     "jarName": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
@@ -101,13 +101,13 @@
     "curseForgeHash": 2066776658,
     "modrinthHash": "c6ededadafb2a56af24b794da91268476e29da58"
   },
-  "ascendant_arcana-forge-0.11.jar": {
-    "jarName": "ascendant_arcana-forge-0.11.jar",
+  "ascendant_arcana-forge-0.11.1.jar": {
+    "jarName": "ascendant_arcana-forge-0.11.1.jar",
     "modId": "ascendant_arcana",
     "name": "Ascendant Arcana",
-    "version": "0.11",
-    "curseForgeHash": 1252572430,
-    "modrinthHash": "a467fba705e4e0a2746447f0c78d06a6f31137a7"
+    "version": "0.11.1",
+    "curseForgeHash": 3757651977,
+    "modrinthHash": "f6e93fd36669eba3674acd809073d8ee2873feb2"
   },
   "AsgardShieldReloaded-1.20.1-0.2.jar": {
     "jarName": "AsgardShieldReloaded-1.20.1-0.2.jar",
@@ -586,13 +586,13 @@
     "curseForgeHash": 1817683668,
     "modrinthHash": "80bd5223cd8984dc1038cb9f2d1cb6b97f31998a"
   },
-  "Continents_26.1_v1.1.13.jar": {
-    "jarName": "Continents_26.1_v1.1.13.jar",
+  "Continents_26.2_v1.1.14.jar": {
+    "jarName": "Continents_26.2_v1.1.14.jar",
     "modId": "continents",
     "name": "Continents",
-    "version": "1.1.13",
-    "curseForgeHash": 270169283,
-    "modrinthHash": "9279e2175d1b3a1032ea0ccf090bb5fb6cbccdf4"
+    "version": "1.1.14",
+    "curseForgeHash": 1480209711,
+    "modrinthHash": "8c2f1a5483b453b5cdb341da3aa36670d402336d"
   },
   "continuity-3.0.0+1.20.1.forge.jar": {
     "jarName": "continuity-3.0.0+1.20.1.forge.jar",
@@ -690,13 +690,13 @@
     "curseForgeHash": 3407618717,
     "modrinthHash": "68ea28d819d01251c38a9e36a4ce7487cf7b8723"
   },
-  "cosycritters-0.3.2+1.20.1-forge.jar": {
-    "jarName": "cosycritters-0.3.2+1.20.1-forge.jar",
+  "cosycritters-0.3.3+1.20.1-forge.jar": {
+    "jarName": "cosycritters-0.3.3+1.20.1-forge.jar",
     "modId": "cosycritters",
     "name": "Cosy Critters \u0026 Creepy Crawlies",
-    "version": "0.3.2",
-    "curseForgeHash": 792318888,
-    "modrinthHash": "ea2c53b109f9181282b9897e9c5c8a3beac76576"
+    "version": "0.3.3",
+    "curseForgeHash": 2064459127,
+    "modrinthHash": "26db309a19862fd1923288392973f3a893afe1b3"
   },
   "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
     "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
@@ -778,13 +778,13 @@
     "curseForgeHash": 1548502984,
     "modrinthHash": "88a9ec30e4acb5c80a3ae060ad70b79e945293c6"
   },
-  "cultofazazelforge-1.1.4.5a.jar": {
-    "jarName": "cultofazazelforge-1.1.4.5a.jar",
+  "cultofazazelforge-1.1.4.7a.jar": {
+    "jarName": "cultofazazelforge-1.1.4.7a.jar",
     "modId": "netherman",
     "name": "Cult of Azazel",
-    "version": "1.1.4.5",
-    "curseForgeHash": 731119419,
-    "modrinthHash": "7afcdba9d8f5137fb0e4f9cb73636c1674e30ac8"
+    "version": "1.1.4.7a",
+    "curseForgeHash": 3920319753,
+    "modrinthHash": "d599606d6d629cd59380d8a491438546d63d26c6"
   },
   "cupboard-1.20.1-3.9.jar": {
     "jarName": "cupboard-1.20.1-3.9.jar",
@@ -1394,6 +1394,14 @@
     "curseForgeHash": 558359038,
     "modrinthHash": "9d24f9e23742f962864aefc96d817f12b6382a5e"
   },
+  "incision-1.0.10-forge-1.20.1.jar": {
+    "jarName": "incision-1.0.10-forge-1.20.1.jar",
+    "modId": "incision",
+    "name": "incision",
+    "version": "1.0.9",
+    "curseForgeHash": 3171185026,
+    "modrinthHash": "5bf3cc7bceaa0e08f1c4323fbda706ed671db34c"
+  },
   "incontrol-1.20-9.4.6.jar": {
     "jarName": "incontrol-1.20-9.4.6.jar",
     "modId": "incontrol",
@@ -1654,6 +1662,22 @@
     "version": "5.2.1+forge",
     "curseForgeHash": 592634454,
     "modrinthHash": "7843a1d6fcb1fd5cb10e2e4296bea595cc8ffe8a"
+  },
+  "macabre-0.9.2-forge-1.20.1.jar": {
+    "jarName": "macabre-0.9.2-forge-1.20.1.jar",
+    "modId": "macabre",
+    "name": "macabre",
+    "version": "0.9.1",
+    "curseForgeHash": 118207298,
+    "modrinthHash": "99c45ff983a75dd54b988a1457fb78ee8d9e0f07"
+  },
+  "macabrefix-1.1.jar": {
+    "jarName": "macabrefix-1.1.jar",
+    "modId": "macabrefix",
+    "name": "Macabrefix",
+    "version": "1.1",
+    "curseForgeHash": 2194220363,
+    "modrinthHash": "85eb373c2aee3162bdc8c04a7e96f2e91804caee"
   },
   "mahoutsukai-1.20.1-v1.34.81.jar": {
     "jarName": "mahoutsukai-1.20.1-v1.34.81.jar",
@@ -2199,13 +2223,13 @@
     "curseForgeHash": 3994611328,
     "modrinthHash": "ce225c1264115a9cc5d6772180b6dcdaf56080ca"
   },
-  "reverseeon-1.1.4.jar": {
-    "jarName": "reverseeon-1.1.4.jar",
+  "reverseeon-1.1.5.jar": {
+    "jarName": "reverseeon-1.1.5.jar",
     "modId": "reverseeon",
     "name": "Reverse Eon",
-    "version": "1.0.0",
-    "curseForgeHash": 3011947114,
-    "modrinthHash": "045f0bac6f3e82ef221b13bf1948ecbc178313fb"
+    "version": "1.1.5",
+    "curseForgeHash": 341648359,
+    "modrinthHash": "7bfb8c371cd40a220064ed31ebfd933bfd2e4d55"
   },
   "rhino-forge-2001.2.3-build.10.jar": {
     "jarName": "rhino-forge-2001.2.3-build.10.jar",
@@ -2359,6 +2383,14 @@
     "curseForgeHash": 916215751,
     "modrinthHash": "d5073a142e0b5caf024cfbc812fe08bc14e9570b"
   },
+  "souls_message_banners-1.0.3.jar": {
+    "jarName": "souls_message_banners-1.0.3.jar",
+    "modId": "souls_message_banners",
+    "name": "Souls Message Banners",
+    "version": "1.0.3",
+    "curseForgeHash": 1464163293,
+    "modrinthHash": "9748cb588a509bb9afedbfe80dde779592bcf7eb"
+  },
   "spark-1.10.53-forge.jar": {
     "jarName": "spark-1.10.53-forge.jar",
     "modId": "spark",
@@ -2415,13 +2447,13 @@
     "curseForgeHash": 2711624359,
     "modrinthHash": "7eec1e4d46a731c6da0b0135915529e21621a81d"
   },
-  "structures+2.2-all-.jar": {
-    "jarName": "structures+2.2-all-.jar",
+  "structures+-2.3-all.jar": {
+    "jarName": "structures+-2.3-all.jar",
     "modId": "structuresplus",
     "name": "Structures+",
-    "version": "2.2",
-    "curseForgeHash": 1288098991,
-    "modrinthHash": "e85ac6f32d5501bc85ad9a9ea064e100e3dcbc42"
+    "version": "2.3",
+    "curseForgeHash": 467018796,
+    "modrinthHash": "c7c9b907215d9bc61d258650cb26ec2bc4c82010"
   },
   "structurify-forge-2.0.28+mc1.20.1.jar": {
     "jarName": "structurify-forge-2.0.28+mc1.20.1.jar",

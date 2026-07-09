@@ -115,3 +115,52 @@
 	#Range: 0.0 ~ 10.0
 	spellPowerRampMax = 0.0
 
+[onboarding]
+	#Give the Tome of the Eon (and show its welcome chat message) on a player's first join.
+	#Disable for packs where Reverse Eon isn't the starting point and the Tome is meant
+	#to be crafted later — the auto-gift would feel out of place there.
+	giveTomeOnJoin = false
+
+[affinity]
+	#Maximum affinity per NPC, per player.
+	#Range: 1 ~ 1000000
+	maxPoints = 1000
+	#Affinity gained when talking to an NPC.
+	#Range: 0 ~ 100000
+	talkAmount = 1
+	#Cooldown between talk affinity gains, in seconds.
+	#Range: 0 ~ 86400
+	talkCooldownSeconds = 60
+	#Affinity gained when gifting a flower.
+	#Range: 0 ~ 100000
+	flowerAmount = 10
+	#Cooldown between flower gifts, in seconds.
+	#Range: 0 ~ 86400
+	flowerCooldownSeconds = 120
+	#Affinity LOST when gifting a Wither Rose (positive number).
+	#Range: 0 ~ 100000
+	witherAmount = 10
+	#Arcanist EXP granted per point of affinity gained.
+	#Range: 0 ~ 100000
+	expPerPoint = 5
+
+[suitcase]
+	#Starting number of boxes a Suitcase Tablet network can link.
+	#Range: 1 ~ 100000
+	defaultBoxCap = 50
+	#Maximum box cap reachable via Master Card upgrades.
+	#Range: 1 ~ 100000
+	maxBoxCap = 1000
+	#Box cap added per Master Card inserted into an unlocked Computer Suitcase.
+	#Range: 1 ~ 100000
+	capPerCard = 50
+	#Real minutes to install a Suitcase Tablet from a Computer (0 = instant).
+	#Range: 0 ~ 1440
+	installMinutes = 10
+	#Seconds of install progress added per press of the tablet's Add Time button.
+	#Range: 1 ~ 86400
+	addTimeSeconds = 60
+	#Cooldown, in seconds, between NPC summons from the tablet (0 = no cooldown).
+	#Range: 0 ~ 86400
+	summonCooldownSeconds = 30
+

@@ -40,8 +40,8 @@
 			image: "ars_armorer:textures/misc/flash.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: -1.1999999999999993d
-			y: 17.25d
+			x: -1.3499999999999988d
+			y: 18.4d
 		}
 		{
 			alpha: 180
@@ -49,8 +49,8 @@
 			image: "celestisynth:textures/entity/visuals/aquaflora_pierce_start/aquaflora_pierce_start2.png"
 			rotation: 45.0d
 			width: 2.5d
-			x: 0.8000000000000007d
-			y: 7.25d
+			x: 0.6500000000000012d
+			y: 8.4d
 		}
 		{
 			height: 0.75d
@@ -58,7 +58,7 @@
 			rotation: 0.0d
 			width: 0.75d
 			x: 0.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			height: 0.75d
@@ -66,7 +66,7 @@
 			rotation: 90.0d
 			width: 0.75d
 			x: 0.5d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			height: 0.75d
@@ -74,7 +74,7 @@
 			rotation: 180.0d
 			width: 0.75d
 			x: -0.5d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			height: 0.75d
@@ -82,7 +82,7 @@
 			rotation: -90.0d
 			width: 0.75d
 			x: -0.5d
-			y: 2.0d
+			y: 4.0d
 		}
 	]
 	order_index: 2
@@ -985,8 +985,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.074999999999999d
-			y: 14.299999999999999d
+			x: 6.925d
+			y: 15.45d
 		}
 		{
 			dependencies: ["34DB9EBB5C296D71"]
@@ -1008,8 +1008,8 @@
 				item: "reliquary:angelheart_vial"
 				type: "item"
 			}]
-			x: 14.05d
-			y: 8.1d
+			x: 13.900000000000002d
+			y: 9.25d
 		}
 		{
 			dependencies: [
@@ -1036,8 +1036,8 @@
 				item: "reliquary:phoenix_down"
 				type: "item"
 			}]
-			x: 14.3d
-			y: 6.75d
+			x: 14.150000000000002d
+			y: 7.9d
 		}
 		{
 			dependencies: ["34DB9EBB5C296D71"]
@@ -1064,8 +1064,8 @@
 				item: "reliquary:angelic_feather"
 				type: "item"
 			}]
-			x: 13.05d
-			y: 7.1d
+			x: 12.900000000000002d
+			y: 8.25d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -1088,8 +1088,8 @@
 				item: "reliquary:destruction_catalyst"
 				type: "item"
 			}]
-			x: 1.950000000000001d
-			y: 14.249999999999998d
+			x: 1.8000000000000016d
+			y: 15.399999999999999d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1114,8 +1114,8 @@
 				item: "reliquary:fortune_coin"
 				type: "item"
 			}]
-			x: 4.050000000000001d
-			y: 11.6d
+			x: 3.9000000000000012d
+			y: 12.75d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1138,8 +1138,8 @@
 				item: "reliquary:glacial_staff"
 				type: "item"
 			}]
-			x: 6.550000000000001d
-			y: 16.1d
+			x: 6.400000000000001d
+			y: 17.25d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1167,8 +1167,8 @@
 				item: "reliquary:pyromancer_staff"
 				type: "item"
 			}]
-			x: 8.55d
-			y: 13.6d
+			x: 8.400000000000002d
+			y: 14.75d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1205,8 +1205,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.05d
-			y: 15.1d
+			x: 8.900000000000002d
+			y: 16.25d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1229,8 +1229,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.05d
-			y: 16.1d
+			x: 7.900000000000001d
+			y: 17.25d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1254,8 +1254,8 @@
 				item: "reliquary:sojourner_staff"
 				type: "item"
 			}]
-			x: 7.550000000000001d
-			y: 12.6d
+			x: 7.400000000000001d
+			y: 13.75d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1286,8 +1286,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0500000000000007d
-			y: 11.1d
+			x: 0.9000000000000012d
+			y: 12.25d
 		}
 		{
 			dependencies: ["471939DE22B5426B"]
@@ -1336,8 +1336,8 @@
 				item: "reliquary:handgun"
 				type: "item"
 			}]
-			x: 2.0500000000000007d
-			y: 16.1d
+			x: 1.9000000000000012d
+			y: 17.25d
 		}
 		{
 			dependencies: ["3220B67522BB5C0D"]
@@ -1368,8 +1368,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5500000000000007d
-			y: 9.6d
+			x: 2.4000000000000012d
+			y: 10.75d
 		}
 		{
 			dependencies: ["0901394AD3A5FDAB"]
@@ -1404,8 +1404,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.300000000000001d
-			y: 12.25d
+			x: 5.150000000000001d
+			y: 13.4d
 		}
 		{
 			dependencies: [
@@ -1439,8 +1439,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.324999999999999d
-			y: 18.5d
+			x: 4.175d
+			y: 19.65d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1481,8 +1481,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.050000000000001d
-			y: 7.6d
+			x: 4.900000000000001d
+			y: 8.75d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1501,8 +1501,8 @@
 				item: "reliquary:infernal_tear"
 				type: "item"
 			}]
-			x: 2.1000000000000014d
-			y: 12.899999999999999d
+			x: 1.950000000000002d
+			y: 14.049999999999999d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1527,8 +1527,8 @@
 				item: "reliquary:emperor_chalice"
 				type: "item"
 			}]
-			x: 4.550000000000001d
-			y: 10.1d
+			x: 4.400000000000001d
+			y: 11.25d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1559,8 +1559,8 @@
 				item: "reliquary:ice_magus_rod"
 				type: "item"
 			}]
-			x: 5.550000000000001d
-			y: 8.6d
+			x: 5.400000000000001d
+			y: 9.75d
 		}
 		{
 			dependencies: ["4128B0BDF74E7913"]
@@ -1588,8 +1588,8 @@
 					type: "item"
 				}
 			]
-			x: 6.050000000000001d
-			y: 10.6d
+			x: 5.900000000000001d
+			y: 11.75d
 		}
 		{
 			dependencies: [
@@ -1616,8 +1616,8 @@
 				item: "reliquary:salamander_eye"
 				type: "item"
 			}]
-			x: 9.8d
-			y: 11.25d
+			x: 9.650000000000002d
+			y: 12.4d
 		}
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
@@ -1635,8 +1635,8 @@
 				item: "reliquary:lantern_of_paranoia"
 				type: "item"
 			}]
-			x: 8.3d
-			y: 11.25d
+			x: 8.150000000000002d
+			y: 12.4d
 		}
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
@@ -1655,8 +1655,8 @@
 				item: "reliquary:interdiction_torch"
 				type: "item"
 			}]
-			x: 8.8d
-			y: 8.75d
+			x: 8.650000000000002d
+			y: 9.9d
 		}
 		{
 			dependencies: ["7EA2E0871C6D568C"]
@@ -1668,8 +1668,8 @@
 				item: "reliquary:witherless_rose"
 				type: "item"
 			}]
-			x: 12.55d
-			y: 8.6d
+			x: 12.400000000000002d
+			y: 9.75d
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
@@ -1681,8 +1681,8 @@
 				item: "reliquary:hero_medallion"
 				type: "item"
 			}]
-			x: 11.55d
-			y: 9.6d
+			x: 11.400000000000002d
+			y: 10.75d
 		}
 		{
 			dependencies: [
@@ -1703,8 +1703,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.05000000000000071d
-			y: 15.6d
+			x: -0.09999999999999876d
+			y: 16.75d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1795,8 +1795,8 @@
 				item: "celestisynth:starlit_factory"
 				type: "item"
 			}]
-			x: -5.199999999999999d
-			y: 13.25d
+			x: -5.349999999999999d
+			y: 14.4d
 		}
 		{
 			dependencies: ["3220B67522BB5C0D"]
@@ -1807,8 +1807,8 @@
 				item: "celestisynth:celestial_core"
 				type: "item"
 			}]
-			x: 0.05000000000000071d
-			y: 9.6d
+			x: -0.09999999999999876d
+			y: 10.75d
 		}
 		{
 			dependencies: ["5BE485A94600E5E5"]
@@ -1819,8 +1819,8 @@
 				item: "celestisynth:celestial_netherite_ingot"
 				type: "item"
 			}]
-			x: -2.6999999999999993d
-			y: 11.75d
+			x: -2.8499999999999988d
+			y: 12.9d
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
@@ -1831,8 +1831,8 @@
 				item: "celestisynth:solar_crystal"
 				type: "item"
 			}]
-			x: 11.3d
-			y: 11.75d
+			x: 11.150000000000002d
+			y: 12.9d
 		}
 		{
 			dependencies: ["105B8DA1342C50C4"]
@@ -1884,8 +1884,8 @@
 					type: "item"
 				}
 			]
-			x: 12.8d
-			y: 12.75d
+			x: 12.650000000000002d
+			y: 13.9d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1906,8 +1906,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.199999999999999d
-			y: 13.75d
+			x: -7.349999999999999d
+			y: 14.9d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1925,8 +1925,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.699999999999999d
-			y: 12.25d
+			x: -6.849999999999999d
+			y: 13.4d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1946,8 +1946,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.199999999999999d
-			y: 14.75d
+			x: -6.349999999999999d
+			y: 15.9d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1965,8 +1965,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.199999999999999d
-			y: 14.75d
+			x: -4.349999999999999d
+			y: 15.9d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1988,8 +1988,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.1999999999999993d
-			y: 13.75d
+			x: -3.3499999999999988d
+			y: 14.9d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -2017,8 +2017,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.199999999999999d
-			y: 11.25d
+			x: -5.349999999999999d
+			y: 12.4d
 		}
 		{
 			dependencies: ["532DC607CA70E1C1"]
@@ -2209,24 +2209,34 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 1.1d
-			y: 4.95d
+			x: 0.9500000000000002d
+			y: 6.1d
 		}
 		{
-			dependencies: ["3913E4BF1C7341B8"]
 			entity_vis_size: 1.0f
 			id: "76593EA6852DE6C8"
-			tasks: [{
-				id: "53382D6D603DB8C4"
-				item: {
-					Count: 1
-					id: "ascendant_arcana:restorine"
-					tag: { }
+			tasks: [
+				{
+					id: "53382D6D603DB8C4"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:restorine"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "05473B3882C749BC"
+					item: {
+						Count: 1
+						id: "desecratedcore:pure_restorine"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["76593EA6852DE6C8"]
@@ -2242,8 +2252,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.1d
-			y: 4.95d
+			x: -1.2499999999999991d
+			y: 6.1d
 		}
 		{
 			dependencies: ["74A4B93E1FA1AE91"]
@@ -2262,8 +2272,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: -3.1499999999999995d
+			y: 4.65d
 		}
 		{
 			dependencies: ["74A4B93E1FA1AE91"]
@@ -2282,8 +2292,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -4.6499999999999995d
+			y: 5.65d
 		}
 		{
 			dependencies: ["74A4B93E1FA1AE91"]
@@ -2302,8 +2312,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -3.1499999999999995d
+			y: 8.15d
 		}
 		{
 			dependencies: ["74A4B93E1FA1AE91"]
@@ -2322,8 +2332,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.0d
+			x: -4.6499999999999995d
+			y: 7.15d
 		}
 		{
 			dependencies: ["74A4B93E1FA1AE91"]
@@ -2343,8 +2353,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.8000000000000007d
-			y: 7.25d
+			x: 0.6500000000000012d
+			y: 8.4d
 		}
 		{
 			dependencies: ["67DADCC34E9A8A63"]
@@ -2359,8 +2369,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 2.3500000000000005d
+			y: 5.15d
 		}
 		{
 			dependencies: ["67DADCC34E9A8A63"]
@@ -2389,8 +2399,8 @@
 				title: "Any Higher Bookshelves"
 				type: "item"
 			}]
-			x: 2.8000000000000007d
-			y: 5.75d
+			x: 2.6500000000000012d
+			y: 6.9d
 		}
 		{
 			dependencies: ["7C847B91B459352C"]
@@ -2435,8 +2445,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 2.0d
+			x: -4.6499999999999995d
+			y: 3.15d
 		}
 		{
 			dependencies: ["61CFC4196BD26D74"]
@@ -2481,8 +2491,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 4.0d
+			x: -6.1499999999999995d
+			y: 5.15d
 		}
 		{
 			dependencies: ["3ED4E6F497BA6CC1"]
@@ -2527,8 +2537,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 8.5d
+			x: -4.1499999999999995d
+			y: 9.65d
 		}
 		{
 			dependencies: ["3BD3801B1CEDA237"]
@@ -2573,8 +2583,8 @@
 					type: "item"
 				}
 			]
-			x: -5.4d
-			y: 7.5d
+			x: -5.55d
+			y: 8.65d
 		}
 		{
 			dependencies: [
@@ -2596,8 +2606,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.0500000000000007d
-			y: 8.1d
+			x: 2.9000000000000012d
+			y: 9.25d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -2616,8 +2626,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.5500000000000007d
-			y: 13.6d
+			x: 0.40000000000000124d
+			y: 14.75d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -2635,8 +2645,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.55d
-			y: 15.6d
+			x: 10.400000000000002d
+			y: 16.75d
 		}
 		{
 			dependencies: [
@@ -2710,8 +2720,8 @@
 				title: "Any Ascendant Relic"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 6.0d
+			x: -7.6499999999999995d
+			y: 7.15d
 		}
 		{
 			dependencies: ["0D425B8B6302FEF8"]
@@ -3066,8 +3076,8 @@
 					type: "item"
 				}
 			]
-			x: -1.1999999999999993d
-			y: 17.25d
+			x: -1.3499999999999988d
+			y: 18.4d
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
@@ -3422,8 +3432,8 @@
 					type: "item"
 				}
 			]
-			x: -3.1999999999999993d
-			y: 17.75d
+			x: -3.3499999999999988d
+			y: 18.9d
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
@@ -3778,8 +3788,8 @@
 					type: "item"
 				}
 			]
-			x: -2.1999999999999993d
-			y: 19.25d
+			x: -2.3499999999999988d
+			y: 20.4d
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
@@ -4156,8 +4166,8 @@
 					type: "item"
 				}
 			]
-			x: -0.1999999999999993d
-			y: 19.25d
+			x: -0.34999999999999876d
+			y: 20.4d
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
@@ -4179,8 +4189,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.199999999999999d
-			y: 19.25d
+			x: -4.349999999999999d
+			y: 20.4d
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
@@ -4291,8 +4301,8 @@
 					type: "item"
 				}
 			]
-			x: -1.1999999999999993d
-			y: 20.75d
+			x: -1.3499999999999988d
+			y: 21.9d
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
@@ -4639,8 +4649,8 @@
 					type: "item"
 				}
 			]
-			x: -3.1499999999999986d
-			y: 20.799999999999997d
+			x: -3.299999999999998d
+			y: 21.949999999999996d
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
@@ -4681,8 +4691,8 @@
 					type: "item"
 				}
 			]
-			x: 0.8000000000000007d
-			y: 17.75d
+			x: 0.6500000000000012d
+			y: 18.9d
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
@@ -5018,8 +5028,29 @@
 				}
 			]
 			title: "Glyphs"
-			x: -2.6999999999999993d
-			y: 16.25d
+			x: -2.8499999999999988d
+			y: 17.4d
+		}
+		{
+			dependencies: [
+				"76593EA6852DE6C8"
+				"3913E4BF1C7341B8"
+			]
+			entity_vis_size: 1.0f
+			id: "4875801A20501BE7"
+			tasks: [{
+				id: "357637AB5AA58BE4"
+				item: {
+					Count: 1
+					id: "desecratedcore:amethyst_harvesting_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: "Crimson Artificer"
