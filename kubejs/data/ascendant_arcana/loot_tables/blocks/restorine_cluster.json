@@ -2,7 +2,18 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "desecratedcore:amethyst_harvesting_wand"
+            ]
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -24,59 +35,36 @@
                   }
                 }
               ],
-              "name": "ascendant_arcana:restorine_cluster"
+              "name": "ascendant_arcana:massive_restorine_cluster"
             },
             {
-              "type": "minecraft:alternatives",
-              "children": [
+              "type": "minecraft:item",
+              "functions": [
                 {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "tag": "minecraft:cluster_max_harvestables"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "add": false,
-                      "count": 2.0,
-                      "function": "minecraft:set_count"
-                    },
-                    {
-                      "enchantment": "minecraft:fortune",
-                      "formula": "minecraft:ore_drops",
-                      "function": "minecraft:apply_bonus"
-                    }
-                  ],
-                  "name": "ascendant_arcana:restorine"
+                  "function": "minecraft:set_count",
+                  "count": 4.0,
+                  "add": false
                 },
                 {
-                  "type": "minecraft:item",
-                  "functions": [
-                    {
-                      "add": false,
-                      "count": {
-                        "type": "minecraft:uniform",
-                        "max": 2.0,
-                        "min": 1.0
-                      },
-                      "function": "minecraft:set_count"
-                    },
-                    {
-                      "function": "minecraft:explosion_decay"
-                    }
-                  ],
-                  "name": "ascendant_arcana:restorine"
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1.0,
+                  "add": true
+                },
+                {
+                  "function": "minecraft:explosion_decay"
                 }
-              ]
+              ],
+              "name": "ascendant_arcana:restorine"
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ]
+  ],
+  "random_sequence": "ascendant_arcana:blocks/restorine_cluster"
 }

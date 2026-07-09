@@ -25,7 +25,8 @@ ServerEvents.recipes(event => {
         'reliquary:infernal_tear',
         'minecraft:enchanting_table',
         'ascendant_arcana:copper_enchanting_table',
-        'celestisynth:celestial_core'
+        'celestisynth:celestial_core',
+        'ascendant_arcana:infusion_smithing_template'
     ]
 
     remove.forEach(item => {
@@ -359,19 +360,59 @@ ServerEvents.recipes(event => {
     // Ascendant Arcana
 
     event.shaped(
-        Item.of('minecraft:enchanting_table'),
+        Item.of('desecratedcore:amethyst_harvesting_wand'),
         [
-            'AB ',
-            'CDC',
-            'DDD'
+            ' AB',
+            ' CA',
+            'C  '
         ],
         {
-            A: 'desecratedcore:artificer_key_item',
-            B: 'minecraft:book',
-            C: 'ascendant_arcana:restorine',
-            D: 'minecraft:obsidian'
+            C: 'minecraft:iron_ingot',
+            A: 'minecraft:amethyst_shard',
+            B: 'desecratedcore:amethyst_reinforced_iron_ingot'
         }
-    ).keepIngredient('desecratedcore:artificer_key_item')
+    )
+
+    event.shaped(
+        Item.of('desecratedcore:amethyst_infusion_smithing_template'),
+        [
+            ' A ',
+            'BBB',
+            'AAA'
+        ],
+        {
+            B: 'minecraft:amethyst_shard',
+            A: 'minecraft:calcite'
+        }
+    )
+
+    event.shaped(
+        Item.of('minecraft:enchanting_table'),
+        [
+            ' A ',
+            'BCB',
+            'CCC'
+        ],
+        {
+            A: 'minecraft:book',
+            C: 'minecraft:obsidian',
+            B: 'desecratedcore:pure_restorine'
+        }
+    )
+
+    event.shaped(
+        Item.of('ascendant_arcana:infusion_smithing_template'),
+        [
+            ' A ',
+            'BCB',
+            'AAA'
+        ],
+        {
+            B: 'ascendant_arcana:restorine',
+            C: 'desecratedcore:pure_restorine',
+            A: 'minecraft:calcite'
+        }
+    )
 
     event.shaped(
         Item.of('ascendant_arcana:copper_enchanting_table'),

@@ -7,8 +7,8 @@
 	"disable_xp": false,
 	// This can sometimes cause issues with mods that modify the HUD.
 	"hide_xp_bar": false,
-	// Levels are linear if enabled. This adjusts the XP required to level up each time.
-	"xp_per_level": 30,
+	// Levels are linear if enabled. This adjusts the XP required to level up each time. Setting this to 0 disables it.
+	"xp_per_level": 0,
 	// Some vanilla mobs drop relics on death, like Witches, Wither Skeletons, and bosses. Recommended.
 	"add_relics_to_entities": true,
 	// Relics are automatically added to ANY chest loot table containing an enchanted book. Recommended.
@@ -62,11 +62,14 @@
 	"base_relic_capacity_overrides": {
 		"minecraft:crossbow": 1
 	},
-	// Items which have their base enchantment capacity overwritten
+	/* Items which have their base enchantment capacity overwritten. The default enchantment capacity of an item
+	   is determined by the vanilla enchantability stat of the item's material. For example, Diamond is 10 and
+	   Netherite is 15. Items with an enchantability of 1 have their capacity increased to 10 by default.
+	*/
 	"base_enchantment_capacity_overrides": {
 		"minecraft:shield": 15,
-		"minecraft:crossbow": 20,
 		"minecraft:enchanted_book": 12,
+		"minecraft:crossbow": 20,
 		"minecraft:bow": 20,
 		"minecraft:trident": 15
 	},
@@ -75,14 +78,74 @@
 		"minecraft:knockback": 1,
 		"minecraft:sweeping": 2,
 		"minecraft:thorns": 2,
-		"minecraft:flame": 2,
 		"minecraft:looting": 4,
+		"minecraft:flame": 2,
 		"minecraft:lure": 1,
-		"minecraft:respiration": 2,
 		"minecraft:fire_aspect": 2,
+		"minecraft:respiration": 2,
 		"minecraft:frost_walker": 2,
 		"minecraft:infinity": 3,
-		"minecraft:punch": 1,
-		"minecraft:fortune": 4
+		"minecraft:fortune": 4,
+		"minecraft:punch": 1
+	},
+	/* Damage Relics apply to thrown Tridents, melee weapons, as well as arrows and rockets fired from bows and
+	   crossbows.
+	   Percentages are written as decimal values. For example, a 10% damage increase is written as 0.10 here.
+	*/
+	"damage_relic_strengths": {
+		"1": 0.1,
+		"2": 0.16,
+		"3": 0.22,
+		"4": 0.26,
+		"5": 0.3
+	},
+	/* Durability Relics can apply to any item with a durability value. For all vanilla items, the default
+	   values are better than Unbreaking 3.
+	   Because durability is stored as an integer in-game, durability relics cannot contain decimal values.
+	*/
+	"durability_relic_strengths": {
+		"1": 600,
+		"2": 1200,
+		"3": 1800,
+		"4": 2400,
+		"5": 3000
+	},
+	/* Protection Relics reduce the damage taken from most sources. Generally, this is any instance of damage
+	   that the original Protection enchantment would protect you from. The default values here are slightly
+	   weaker than the original benefits of protection by 1% per level, meaning Protection 4 is 16% DR and
+	   an Ascendant Protection Relic is 15%.
+	   Percentages are written as decimal values. For example, a 3% damage resistance is written as 0.03 here.
+	*/
+	"protection_relic_strengths": {
+		"1": 0.03,
+		"2": 0.06,
+		"3": 0.09,
+		"4": 0.12,
+		"5": 0.15
+	},
+	/* Haste Relics behave in a way that is technically not accurate. On weapons, Haste relics apply half of
+	   their benefit (like other Haste effects in Minecraft). But for mining, Haste relics act as a level
+	   of Efficiency. That level is obtained by multiplying the value of the haste relic by 10 and rounding down.
+	   For example, a value of 0.10 (a 10% relic) becomes 1 level of Efficiency.
+	   This behavior is likely to be changed in the future.
+	   Percentages are written as decimal values. For example, a 10% haste increase is written as 0.10 here.
+	*/
+	"haste_relic_strengths": {
+		"1": 0.1,
+		"2": 0.2,
+		"3": 0.3,
+		"4": 0.4,
+		"5": 0.5
+	},
+	/* Enchantment Capacity Relics are used to expand your item's capability to hold powerful enchantments.
+	   These relics are additive.
+	   Because Enchantment Capacity is an integer, you cannot add a decimal value here.
+	*/
+	"enchantment_capacity_relic_strengths": {
+		"1": 10,
+		"2": 15,
+		"3": 20,
+		"4": 25,
+		"5": 30
 	}
 }

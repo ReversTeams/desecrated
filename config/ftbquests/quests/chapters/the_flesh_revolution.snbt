@@ -1706,7 +1706,10 @@
 			y: -21.0d
 		}
 		{
-			dependencies: ["5EAEE969037829A4"]
+			dependencies: [
+				"5EAEE969037829A4"
+				"3460CBDF9DA51D73"
+			]
 			entity_vis_size: 1.0f
 			id: "7F638D83710A4BFD"
 			tasks: [{
@@ -2698,6 +2701,53 @@
 			}]
 			x: 6.0d
 			y: -31.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5CBF6B358D34087C"
+			tasks: [{
+				id: "6EFD06D5C579AAE9"
+				item: {
+					Count: 1
+					id: "incision:eyebulb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5CBF6B358D34087C"]
+			entity_vis_size: 1.0f
+			id: "5005BB124AA555F8"
+			tasks: [{
+				id: "23C7A825B7DC2590"
+				item: {
+					Count: 1
+					id: "incision:lens_glass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["5CBF6B358D34087C"]
+			entity_vis_size: 1.0f
+			id: "3460CBDF9DA51D73"
+			tasks: [{
+				id: "354782AC58745134"
+				item: {
+					Count: 1
+					id: "incision:conductor_nerve"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -21.0d
 		}
 	]
 	title: "Flesh Industries"

@@ -31,6 +31,23 @@ ServerEvents.tags('item', event => {
         'sons_of_sins:heart',
     ]);
 
+    add('forge:stomach', [
+        'butchery:stomach',
+        'macabre:stomach',
+        'incision:stomach'
+    ]);
+
+    add('forge:intestines', [
+        'butchery:intestines',
+        'macabre:intestine',
+        'incision:intestines'
+    ]);
+
+    add('forge:broken_bone', [
+        'macabre:bone',
+        'philipsruins:broken_bone'
+    ]);
+
     add('forge:hearts', [
         'butchery:heart',
         'sons_of_sins:heart',

@@ -1639,11 +1639,22 @@
 		{
 			entity_vis_size: 1.0f
 			id: "2769096977DA8528"
-			tasks: [{
-				id: "4E70D56F2EFC6421"
-				item: "ascendant_arcana:copper_enchanting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4E70D56F2EFC6421"
+					item: "ascendant_arcana:copper_enchanting_table"
+					type: "item"
+				}
+				{
+					id: "56C3B34B27D575AF"
+					item: {
+						Count: 1
+						id: "desecratedcore:amethyst_infusion_smithing_template"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -6.0d
 		}

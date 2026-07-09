@@ -186,3 +186,9 @@
 	#Range: 0 ~ 1200
 	humanProjectileSpikeWitherDuration = 100
 
+["NPC Doctor Config"]
+	#true = the Doctor will only give potions with effects from vanilla.false = it gives random effects from ANY installed mod
+	doctorVanillaPotionsOnly = false
+	#A list of mod IDs (namespaces) allowed to be given as potions by the Doctor if doctorVanillaPotionsOnly is true.
+	doctorAllowedModNamespaces = ["minecraft"]
+
