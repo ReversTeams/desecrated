@@ -6,7 +6,7 @@
     ],
     "spec": 1,
     "profile": "forge",
-    "version": "1.20.1-forge-47.4.10",
+    "version": "1.20.1-forge-47.4.20",
     "path": null,
     "minecraft": "1.20.1",
     "serverJarPath": "{LIBRARY_DIR}/net/minecraft/server/{MINECRAFT_VERSION}/server-{MINECRAFT_VERSION}.jar",
@@ -52,12 +52,12 @@
             "server": "[net.minecraft:server:1.20.1-20230612.114412:srg]"
         },
         "PATCHED": {
-            "client": "[net.minecraftforge:forge:1.20.1-47.4.0:client]",
-            "server": "[net.minecraftforge:forge:1.20.1-47.4.0:server]"
+            "client": "[net.minecraftforge:forge:1.20.1-47.4.20:client]",
+            "server": "[net.minecraftforge:forge:1.20.1-47.4.20:server]"
         },
         "PATCHED_SHA": {
-            "client": "'b268fd6fb2c4829a72e8d0d6c75b7fefbec8479c'",
-            "server": "'62f6102e4b5d61a10281410cf5957a876a127e6b'"
+            "client": "'d8e1d9169ab0f6f3ff0ad41eccb3496f202d5484'",
+            "server": "'f048c6699603581f1d7b77769a83299118846cd3'"
         },
         "MCP_VERSION": {
             "client": "'20230612.114412'",
@@ -103,11 +103,11 @@
                 "--from",
                 "data/win_args.txt",
                 "--to",
-                "{ROOT}/libraries/net/minecraftforge/forge/1.20.1-47.4.0/win_args.txt",
+                "{ROOT}/libraries/net/minecraftforge/forge/1.20.1-47.4.20/win_args.txt",
                 "--from",
                 "data/unix_args.txt",
                 "--to",
-                "{ROOT}/libraries/net/minecraftforge/forge/1.20.1-47.4.0/unix_args.txt"
+                "{ROOT}/libraries/net/minecraftforge/forge/1.20.1-47.4.20/unix_args.txt"
             ]
         },
         {
@@ -456,46 +456,46 @@
             }
         },
         {
-            "name": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+            "name": "net.minecraftforge:fmlcore:1.20.1-47.4.20",
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar",
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar",
-                    "sha1": "235975dafa4309945b59c56b53f31dc5b65a6051",
-                    "size": 118914
+                    "path": "net/minecraftforge/fmlcore/1.20.1-47.4.20/fmlcore-1.20.1-47.4.20.jar",
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.1-47.4.20/fmlcore-1.20.1-47.4.20.jar",
+                    "sha1": "e8cc697c69f3911e76caa2f005d9486597cd7448",
+                    "size": 118909
                 }
             }
         },
         {
-            "name": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+            "name": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.20",
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar",
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar",
-                    "sha1": "5a0c2d1a65a422bd0e64548e58b70f4d011ef788",
-                    "size": 170517
+                    "path": "net/minecraftforge/fmlearlydisplay/1.20.1-47.4.20/fmlearlydisplay-1.20.1-47.4.20.jar",
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.20/fmlearlydisplay-1.20.1-47.4.20.jar",
+                    "sha1": "4dcdfb740aff35b40a3471708ca8a5f1e22a9504",
+                    "size": 170513
                 }
             }
         },
         {
-            "name": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+            "name": "net.minecraftforge:fmlloader:1.20.1-47.4.20",
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar",
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar",
-                    "sha1": "350292a3c597f65d130e48b6e419a2b21cba2ac1",
-                    "size": 267079
+                    "path": "net/minecraftforge/fmlloader/1.20.1-47.4.20/fmlloader-1.20.1-47.4.20.jar",
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.20/fmlloader-1.20.1-47.4.20.jar",
+                    "sha1": "8798bdd148d476c7ec54d8156f88de5e243c2dfb",
+                    "size": 270672
                 }
             }
         },
         {
-            "name": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+            "name": "net.minecraftforge:forge:1.20.1-47.4.20:universal",
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar",
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar",
-                    "sha1": "45e8b14d52cc0cb555c6340dcd631ef1edf68596",
-                    "size": 2776081
+                    "path": "net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-universal.jar",
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-universal.jar",
+                    "sha1": "3257f939fee3e7f605b39ada3821728e7592f0da",
+                    "size": 2507935
                 }
             }
         },
@@ -522,35 +522,35 @@
             }
         },
         {
-            "name": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+            "name": "net.minecraftforge:javafmllanguage:1.20.1-47.4.20",
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar",
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar",
-                    "sha1": "0f0c0b352173d0a378cbdcec9cfc4ba65899a721",
-                    "size": 16855
+                    "path": "net/minecraftforge/javafmllanguage/1.20.1-47.4.20/javafmllanguage-1.20.1-47.4.20.jar",
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.1-47.4.20/javafmllanguage-1.20.1-47.4.20.jar",
+                    "sha1": "c354b21002937b393c4f86163a98dccdf1d51e72",
+                    "size": 16851
                 }
             }
         },
         {
-            "name": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+            "name": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.20",
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar",
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar",
-                    "sha1": "e862740d8c84d08dbfedea412bef88fe42e727c5",
-                    "size": 7399
+                    "path": "net/minecraftforge/lowcodelanguage/1.20.1-47.4.20/lowcodelanguage-1.20.1-47.4.20.jar",
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.20/lowcodelanguage-1.20.1-47.4.20.jar",
+                    "sha1": "865d75f8c18329ddb31db5856701ab86609108b5",
+                    "size": 7394
                 }
             }
         },
         {
-            "name": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+            "name": "net.minecraftforge:mclanguage:1.20.1-47.4.20",
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar",
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar",
-                    "sha1": "5719b3a297a33f877ed5dde4cb4bd75c859096af",
-                    "size": 4998
+                    "path": "net/minecraftforge/mclanguage/1.20.1-47.4.20/mclanguage-1.20.1-47.4.20.jar",
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.1-47.4.20/mclanguage-1.20.1-47.4.20.jar",
+                    "sha1": "0af599930362212ae937e392709f49047e6abbbf",
+                    "size": 4994
                 }
             }
         },
