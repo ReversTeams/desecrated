@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.28",
-  "config_datetime": "2026-07-09_11-03-46",
+  "config_datetime": "2026-07-09_11-02-12",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -116,7 +116,7 @@
       "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
-        "fracture:flesh_dungeon": 10
+        "fracture:flesh_dungeon": 30
       }
     },
     {

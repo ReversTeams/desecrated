@@ -1,5 +1,5 @@
 {
-	autofocus_id: "3529407D1A72FFCB"
+	autofocus_id: "3913E4BF1C7341B8"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "crimson_artificer"
@@ -83,6 +83,15 @@
 			width: 0.75d
 			x: -0.5d
 			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 13.3d
+			y: 18.22d
 		}
 	]
 	order_index: 2
@@ -877,6 +886,19 @@
 			id: "532DC607CA70E1C1"
 			size: 1.1d
 			tasks: [{
+				ftbquestsentityvis_icon: {
+					enabled: 0b
+					entity: "minecraft:pig"
+					idle_mode: "USE_GLOBAL"
+					offset_x: 0.0f
+					offset_y: 0.0f
+					rotation: 0.0f
+					silhouette_mode: "NONE"
+					size: 1.0f
+					spin_mode: "USE_GLOBAL"
+					use_as_quest_icon: 1b
+					walk_mode: "USE_GLOBAL"
+				}
 				id: "721BB91092826AE7"
 				item: {
 					Count: 1
@@ -938,6 +960,7 @@
 				title: "Any Wrench"
 				type: "item"
 			}]
+			title: "Wrench"
 			x: 0.0d
 			y: -9.25d
 		}
@@ -1114,8 +1137,8 @@
 				item: "reliquary:fortune_coin"
 				type: "item"
 			}]
-			x: 3.9000000000000012d
-			y: 12.75d
+			x: 3.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -1286,8 +1309,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.9000000000000012d
-			y: 12.25d
+			x: 5.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["471939DE22B5426B"]
@@ -1404,8 +1427,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.150000000000001d
-			y: 13.4d
+			x: 4.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1481,8 +1504,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.900000000000001d
-			y: 8.75d
+			x: 4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -1559,8 +1582,8 @@
 				item: "reliquary:ice_magus_rod"
 				type: "item"
 			}]
-			x: 5.400000000000001d
-			y: 9.75d
+			x: 5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4128B0BDF74E7913"]
@@ -1721,6 +1744,13 @@
 		{
 			dependencies: ["3913E4BF1C7341B8"]
 			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "desecratedcore:amethyst_tuning_wand"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3DD1F3BB424F9A9F"
 			tasks: [{
 				id: "75265CB11C675751"
@@ -1795,8 +1825,8 @@
 				item: "celestisynth:starlit_factory"
 				type: "item"
 			}]
-			x: -5.349999999999999d
-			y: 14.4d
+			x: -7.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3220B67522BB5C0D"]
@@ -1807,8 +1837,8 @@
 				item: "celestisynth:celestial_core"
 				type: "item"
 			}]
-			x: -0.09999999999999876d
-			y: 10.75d
+			x: -2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5BE485A94600E5E5"]
@@ -1819,8 +1849,8 @@
 				item: "celestisynth:celestial_netherite_ingot"
 				type: "item"
 			}]
-			x: -2.8499999999999988d
-			y: 12.9d
+			x: -4.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
@@ -1906,8 +1936,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.349999999999999d
-			y: 14.9d
+			x: -9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1925,8 +1955,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.849999999999999d
-			y: 13.4d
+			x: -8.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1946,8 +1976,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.349999999999999d
-			y: 15.9d
+			x: -8.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1965,8 +1995,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.349999999999999d
-			y: 15.9d
+			x: -6.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -1988,8 +2018,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.3499999999999988d
-			y: 14.9d
+			x: -5.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["319D42BD34E291D2"]
@@ -2017,8 +2047,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.349999999999999d
-			y: 12.4d
+			x: -7.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["532DC607CA70E1C1"]
@@ -2040,24 +2070,33 @@
 		}
 		{
 			dependencies: ["6FD39AE1113C3DC8"]
+			description: ["Censer Golems can be found naturally generating in villages, alongside Iron Golems. Alternatively, you can create one yourself by using a Censer on a Carved Pumpkin, consuming both in the process. Censer Golems will follow other golems, villagers, players, and their pets around, applying blessing to them, or regeneration if they're in need of health. Censer Golems will also help out during raids, moving with increased urgency and providing an additional level of support. If they come across monsters or raiders, Censer Golems will waft clouds of negative potion effects at them. While most monsters aren't intelligent enough to recognize Censer Golems as potential nuisances, Raiders will target them if a Censer Golem applies a negative effect to them. Rarely, you might find a silver or rose-gold variant of the Censer Golem."]
 			entity_vis_size: 1.0f
 			id: "4CD7F1C4CD5C0156"
-			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "4E55A5E372DC4F3B"
-				observe_type: 5
-				timer: 0L
-				to_observe: "artificers_armory:censer_golem"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: true
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "4E55A5E372DC4F3B"
+					observe_type: 5
+					timer: 0L
+					to_observe: "artificers_armory:censer_golem"
+					type: "observation"
+				}
+				{
+					id: "13BB4EB218989A44"
+					item: "minecraft:carved_pumpkin"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -2.0d
 		}
@@ -2065,22 +2104,36 @@
 			dependencies: ["5BC2C1130D1E5E8F"]
 			entity_vis_size: 1.5f
 			id: "6BA6230D4F3C9831"
-			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.25f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "354AC829FD3E7924"
-				observe_type: 5
-				timer: 0L
-				to_observe: "artificers_armory:electro_coil"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.25f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: true
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "354AC829FD3E7924"
+					observe_type: 5
+					timer: 0L
+					to_observe: "artificers_armory:electro_coil"
+					type: "observation"
+				}
+				{
+					id: "38C52ABEB01D0E07"
+					item: "minecraft:lightning_rod"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08CC6429D008E3A6"
+					item: "minecraft:iron_bars"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -12.0d
 		}
@@ -2157,22 +2210,36 @@
 			dependencies: ["5BC2C1130D1E5E8F"]
 			entity_vis_size: 2.0f
 			id: "64F5BB899B266603"
-			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.25f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "042BB13228149603"
-				observe_type: 5
-				timer: 0L
-				to_observe: "artificers_armory:redstone_laser"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.25f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: true
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "042BB13228149603"
+					observe_type: 5
+					timer: 0L
+					to_observe: "artificers_armory:redstone_laser"
+					type: "observation"
+				}
+				{
+					id: "7A8D041FEB8A3F9E"
+					item: "minecraft:redstone_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "772E330D4CE37068"
+					item: "minecraft:iron_bars"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -10.5d
 		}
@@ -2180,22 +2247,36 @@
 			dependencies: ["532DC607CA70E1C1"]
 			entity_vis_size: 2.0f
 			id: "5BC2C1130D1E5E8F"
-			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.25f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "57DC6BF3211143D1"
-				observe_type: 5
-				timer: 0L
-				to_observe: "artificers_armory:sentry"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.25f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: true
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "57DC6BF3211143D1"
+					observe_type: 5
+					timer: 0L
+					to_observe: "artificers_armory:sentry"
+					type: "observation"
+				}
+				{
+					id: "3EBC452FAAB79ADA"
+					item: "minecraft:dispenser"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1384C4544DC02922"
+					item: "minecraft:iron_bars"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -10.5d
 		}
@@ -2606,8 +2687,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 2.9000000000000012d
-			y: 9.25d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -5051,6 +5132,85 @@
 			}]
 			x: 0.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["6A01E5CE4B0B7F69"]
+			entity_vis_size: 1.0f
+			icon: "desecratedcore:chooser_key_item"
+			id: "5DC274933162F9A6"
+			rewards: [{
+				id: "0C8FD7ED66DDE4BA"
+				item: "desecratedcore:chooser_key_item"
+				type: "item"
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "4896E6E049AFB65A"
+				type: "checkmark"
+			}]
+			x: 13.299999999999999d
+			y: 18.2d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			entity_vis_size: 1.0f
+			id: "0B2BA3FBE2C97AF0"
+			tasks: [{
+				id: "7BE5EF3E203F4414"
+				item: "reliquary:midas_touchstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0B2BA3FBE2C97AF0"]
+			entity_vis_size: 1.0f
+			id: "78515C08338A9EE8"
+			tasks: [{
+				id: "5592D5E952A3431B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:sublime_gold_sword"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:sublime_gold_giant_sword"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:sublime_gold_pickaxe"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:sublime_gold_axe"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:sublime_gold_shovel"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "concatenatedadditionstools:sublime_gold_hoe"
+							}
+						]
+					}
+				}
+				title: "Any Sublime Gold Tool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
 		}
 	]
 	title: "Crimson Artificer"

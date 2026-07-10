@@ -39,6 +39,15 @@
 			x: 0.1d
 			y: 0.0d
 		}
+		{
+			alpha: 180
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -9.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -280,6 +289,24 @@
 			}]
 			x: 5.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["231627414397C6D6"]
+			entity_vis_size: 1.0f
+			icon: "desecratedcore:chooser_key_item"
+			id: "718E019861370CB7"
+			rewards: [{
+				id: "17F1BD724B7F73FD"
+				item: "desecratedcore:chooser_key_item"
+				type: "item"
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "29D24D9C1F7D1B4B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.5d
 		}
 	]
 	title: "Sanguines of Iron"

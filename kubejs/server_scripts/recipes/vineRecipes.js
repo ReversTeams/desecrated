@@ -10,7 +10,10 @@ ServerEvents.recipes(event => {
         'hexalia:small_cauldron',
         'hexalia:mortar_and_pestle',
         'hexalia:hex_focus',
-        'celestisynth:lunar_scrap'
+        'celestisynth:lunar_scrap',
+        'spectrum:pedestal_basic_amethyst',
+        'spectrum:pedestal_basic_citrine',
+        'spectrum:pedestal_basic_topaz'
     ]
 
     const removeCraftingShaped = [
@@ -158,6 +161,20 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('hexalia:searing_sac', 3),
+        [
+            ' A ',
+            'BCB',
+            ' B '
+        ],
+        {
+            C: 'hexalia:sunfire_tomato',
+            A: 'minecraft:fire_charge',
+            B: 'minecraft:leather'
+        }
+    )
+
     event.shapeless(
         Item.of('desecratedcore:mundane_shard'),
         [
@@ -165,6 +182,8 @@ ServerEvents.recipes(event => {
             'minecraft:amethyst_shard'
         ]
     )
+
+    // Celestisynth
 
     event.shaped(
         Item.of('celestisynth:lunar_scrap'),
@@ -191,6 +210,56 @@ ServerEvents.recipes(event => {
             B: 'celestisynth:lunar_stone',
             C: 'hexalia:celestial_bloom',
             A: 'hexalia:spirit_powder'
+        }
+    )
+
+    // Spectrum
+
+    event.shaped(
+        Item.of('spectrum:pedestal_basic_citrine'),
+        [
+            'AAA',
+            'BCB',
+            'DED'
+        ],
+        {
+            C: 'hexalia:ritual_table',
+            E: 'desecratedcore:all_node',
+            D: 'spectrum:polished_basalt',
+            B: 'spectrum:planed_calcite',
+            A: 'spectrum:citrine_shard'
+        }
+    )
+
+    event.shaped(
+        Item.of('spectrum:pedestal_basic_topaz'),
+        [
+            'AAA',
+            'BCB',
+            'DED'
+        ],
+        {
+            C: 'hexalia:ritual_table',
+            E: 'desecratedcore:all_node',
+            A: 'spectrum:topaz_shard',
+            D: 'spectrum:polished_basalt',
+            B: 'spectrum:planed_calcite'
+        }
+    )
+
+    event.shaped(
+        Item.of('spectrum:pedestal_basic_amethyst'),
+        [
+            'AAA',
+            'BCB',
+            'DED'
+        ],
+        {
+            C: 'hexalia:ritual_table',
+            E: 'desecratedcore:all_node',
+            A: 'minecraft:amethyst_shard',
+            D: 'spectrum:polished_basalt',
+            B: 'spectrum:planed_calcite'
         }
     )
 

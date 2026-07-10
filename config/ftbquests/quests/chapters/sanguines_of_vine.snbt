@@ -43,6 +43,24 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			alpha: 180
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_wheel_impact/breezebreaker_wheel_impact4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -21.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -1126,12 +1144,13 @@
 				item: "desecratedcore:chooser_key_item"
 				type: "item"
 			}]
+			size: 1.4d
 			tasks: [{
 				id: "6397184BACC479CB"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -16.5d
+			y: -17.5d
 		}
 		{
 			dependencies: [
@@ -1280,6 +1299,106 @@
 			}]
 			x: -2.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["2B6DAF70A2BA1497"]
+			entity_vis_size: 1.0f
+			id: "4ED85381F55A588B"
+			tasks: [{
+				id: "7ABDC913B904818B"
+				item: {
+					Count: 1
+					id: "hexalia:purifying_sac"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["70D080A715D3317C"]
+			entity_vis_size: 1.0f
+			id: "754E10ED740ED760"
+			tasks: [{
+				id: "09E9AC5C1FA84378"
+				item: {
+					Count: 1
+					id: "hexalia:frost_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["376E7364A9D63333"]
+			entity_vis_size: 1.0f
+			id: "59EDE401A6A9D927"
+			tasks: [{
+				id: "6CD1241D4D95DD1F"
+				item: {
+					Count: 1
+					id: "hexalia:searing_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4283D4B2FCBAA2C2"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "3C7B2D8A2C73930B"
+			tasks: [{
+				id: "1581E502F0C46B79"
+				item: {
+					Count: 1
+					id: "hexalia:foul_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55F5FBB4ED5DFDD5"]
+			entity_vis_size: 1.0f
+			id: "7AC3623634395471"
+			size: 1.15d
+			tasks: [{
+				id: "0BC442EC01229C7A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spectrum:pedestal_basic_topaz"
+							}
+							{
+								Count: 1b
+								id: "spectrum:pedestal_basic_amethyst"
+							}
+							{
+								Count: 1b
+								id: "spectrum:pedestal_basic_citrine"
+							}
+						]
+					}
+				}
+				title: "Any Pigment Pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -21.0d
 		}
 	]
 	title: "Sanguines of Vine"

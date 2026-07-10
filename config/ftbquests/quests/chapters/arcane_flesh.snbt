@@ -2633,6 +2633,7 @@
 			dependencies: ["31E9E6BBC04B24F9"]
 			entity_vis_size: 1.0f
 			id: "38A5FCCF71245CF2"
+			invisible: true
 			tasks: [{
 				id: "1CF8C8D13C80F011"
 				item: {
