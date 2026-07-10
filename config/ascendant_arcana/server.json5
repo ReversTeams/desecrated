@@ -10,9 +10,9 @@
 	// Levels are linear if enabled. This adjusts the XP required to level up each time. Setting this to 0 disables it.
 	"xp_per_level": 0,
 	// Some vanilla mobs drop relics on death, like Witches, Wither Skeletons, and bosses. Recommended.
-	"add_relics_to_entities": true,
+	"add_relics_to_entities": false,
 	// Relics are automatically added to ANY chest loot table containing an enchanted book. Recommended.
-	"add_relics_to_chests": true,
+	"add_relics_to_chests": false,
 	// Add restorine to any chests containing amethyst shards or diamonds
 	"add_restorine_to_chests": true,
 	// Add unique boss drops, like the Warden Heart. Disabling this will make some enchantments unobtainable.
@@ -78,8 +78,8 @@
 		"minecraft:knockback": 1,
 		"minecraft:sweeping": 2,
 		"minecraft:thorns": 2,
-		"minecraft:looting": 4,
 		"minecraft:flame": 2,
+		"minecraft:looting": 4,
 		"minecraft:lure": 1,
 		"minecraft:fire_aspect": 2,
 		"minecraft:respiration": 2,
@@ -104,11 +104,11 @@
 	   Because durability is stored as an integer in-game, durability relics cannot contain decimal values.
 	*/
 	"durability_relic_strengths": {
-		"1": 600,
-		"2": 1200,
-		"3": 1800,
-		"4": 2400,
-		"5": 3000
+		"1": 300,
+		"2": 600,
+		"3": 900,
+		"4": 1200,
+		"5": 1600
 	},
 	/* Protection Relics reduce the damage taken from most sources. Generally, this is any instance of damage
 	   that the original Protection enchantment would protect you from. The default values here are slightly
@@ -142,10 +142,10 @@
 	   Because Enchantment Capacity is an integer, you cannot add a decimal value here.
 	*/
 	"enchantment_capacity_relic_strengths": {
-		"1": 10,
-		"2": 15,
-		"3": 20,
-		"4": 25,
-		"5": 30
+		"1": 15,
+		"2": 20,
+		"3": 25,
+		"4": 30,
+		"5": 35
 	}
 }

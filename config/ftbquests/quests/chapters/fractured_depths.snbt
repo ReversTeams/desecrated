@@ -117,13 +117,14 @@
 			dependencies: ["765F8AFD24ECD267"]
 			entity_vis_size: 1.0f
 			id: "2D7D4AEFBB50C92E"
+			size: 1.15d
 			tasks: [{
 				id: "526EEB4BDFD0AD08"
 				item: "fracture:boreas_key"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["675440487ADE64B0"]
@@ -216,7 +217,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["31E181386233E8D5"]
@@ -274,8 +275,8 @@
 				id: "4C281D25C537958E"
 				type: "biome"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["404C4A07177D5369"]
@@ -310,8 +311,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -5.5d
+			x: 4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["57FD36BEA9511482"]
@@ -328,8 +329,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["404C4A07177D5369"]
@@ -351,13 +352,18 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["404C4A07177D5369"]
 			entity_vis_size: 1.5f
 			id: "2696746882728AB7"
+			rewards: [{
+				id: "0CEABE4F3B94F744"
+				item: "netherman:azazel_guide_book"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "incision:purger"
 				entity_use_tag: false
@@ -374,13 +380,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["765F8AFD24ECD267"]
+			dependencies: ["58D94019EC311AD3"]
 			entity_vis_size: 0.5f
 			id: "2BDC1C9802E15AF8"
+			size: 1.15d
 			tasks: [{
 				entity: "fdse:abyssal_leviathan"
 				entity_use_tag: false
@@ -397,25 +404,27 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["404C4A07177D5369"]
 			entity_vis_size: 1.0f
 			id: "3EFEC14B36C83F77"
 			tasks: [{
+				icon: "netherman:grand_door"
 				id: "67A67BF0924C9F84"
 				structure: "netherman:mansion_nether"
 				type: "structure"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: 6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3EFEC14B36C83F77"]
 			entity_vis_size: 1.0f
 			id: "784AF15C4238D0F4"
+			size: 1.15d
 			tasks: [{
 				entity: "netherman:azazel"
 				entity_use_tag: false
@@ -432,8 +441,90 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: -8.0d
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["58D94019EC311AD3"]
+			entity_vis_size: 2.0f
+			id: "20ACC3476774534F"
+			tasks: [{
+				entity: "fdse:angler_fish"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: -0.2f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "4D75CB2B344C5CD3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58D94019EC311AD3"]
+			entity_vis_size: 3.0f
+			id: "0402FBA0EBBF8ED6"
+			tasks: [{
+				entity: "fdse:bathyal"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "53E1B684ACAD58C3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58D94019EC311AD3"]
+			entity_vis_size: 1.0f
+			id: "036684B91776187C"
+			tasks: [{
+				entity: "fdse:deep_sea_moray"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "3A5A80BE78FC5B0A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["765F8AFD24ECD267"]
+			entity_vis_size: 1.0f
+			id: "58D94019EC311AD3"
+			tasks: [{
+				biome: "#minecraft:is_ocean"
+				icon: "subwild:water_puddle"
+				id: "557641224DA64857"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: -4.5d
 		}
 	]
 	title: "Fractured Depths"

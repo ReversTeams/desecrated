@@ -101,13 +101,13 @@
     "curseForgeHash": 2066776658,
     "modrinthHash": "c6ededadafb2a56af24b794da91268476e29da58"
   },
-  "ascendant_arcana-forge-0.11.1.jar": {
-    "jarName": "ascendant_arcana-forge-0.11.1.jar",
+  "ascendant_arcana-forge-0.11.2.jar": {
+    "jarName": "ascendant_arcana-forge-0.11.2.jar",
     "modId": "ascendant_arcana",
     "name": "Ascendant Arcana",
-    "version": "0.11.1",
-    "curseForgeHash": 3757651977,
-    "modrinthHash": "f6e93fd36669eba3674acd809073d8ee2873feb2"
+    "version": "0.11.2",
+    "curseForgeHash": 2210524535,
+    "modrinthHash": "04492f11f767d7de7d1fa12d04545108747ac49f"
   },
   "AsgardShieldReloaded-1.20.1-0.2.jar": {
     "jarName": "AsgardShieldReloaded-1.20.1-0.2.jar",
@@ -501,14 +501,6 @@
     "curseForgeHash": 940613798,
     "modrinthHash": "e7b9fe89566bb1ee013e33745f22f309f679536e"
   },
-  "concatenatedadditionsartefacts-1.4.0-forge-1.20.1.jar": {
-    "jarName": "concatenatedadditionsartefacts-1.4.0-forge-1.20.1.jar",
-    "modId": "concatenatedadditionsartefacts",
-    "name": "Concatenated Additions",
-    "version": "1.4.0",
-    "curseForgeHash": 4288327569,
-    "modrinthHash": "dada64eb136f83497116949637cf0fda27cb5b53"
-  },
   "concatenatedadditionscore-1.4.0-forge-1.20.1.jar": {
     "jarName": "concatenatedadditionscore-1.4.0-forge-1.20.1.jar",
     "modId": "concatenatedadditionscore",
@@ -516,14 +508,6 @@
     "version": "1.4.0",
     "curseForgeHash": 1434163792,
     "modrinthHash": "d3988f531b7341e2a96f5e63a90d3cecdf9f57db"
-  },
-  "concatenatedadditionsfood-1.4.0-forge-1.20.1.jar": {
-    "jarName": "concatenatedadditionsfood-1.4.0-forge-1.20.1.jar",
-    "modId": "concatenatedadditionsfood",
-    "name": "Concatenated Additions",
-    "version": "1.4.0",
-    "curseForgeHash": 4088591132,
-    "modrinthHash": "b18ced3ac25436f8bd52ddeb1b87c843f8050d2e"
   },
   "concatenatedadditionsmachines-1.4.0-forge-1.20.1.jar": {
     "jarName": "concatenatedadditionsmachines-1.4.0-forge-1.20.1.jar",
@@ -626,13 +610,13 @@
     "curseForgeHash": 2181470175,
     "modrinthHash": "8e800c3953158c49782f43ca51c84fb92a2a9a5e"
   },
-  "coolcatlib-forge-1.20.1-2001.1.0.0.jar": {
-    "jarName": "coolcatlib-forge-1.20.1-2001.1.0.0.jar",
+  "coolcatlib-forge-1.20.1-2001.1.0.1.jar": {
+    "jarName": "coolcatlib-forge-1.20.1-2001.1.0.1.jar",
     "modId": "coolcatlib",
     "name": "CoolCatLib",
-    "version": "2001.1.0.0",
-    "curseForgeHash": 4163635941,
-    "modrinthHash": "5d48928caed744a25f042f5edf38180064975635"
+    "version": "2001.1.0.1",
+    "curseForgeHash": 3684485425,
+    "modrinthHash": "cd7472111644760b12e07b38980e92812193bec7"
   },
   "Corgilib-Forge-1.20.1-4.0.3.4.jar": {
     "jarName": "Corgilib-Forge-1.20.1-4.0.3.4.jar",
@@ -778,13 +762,13 @@
     "curseForgeHash": 1548502984,
     "modrinthHash": "88a9ec30e4acb5c80a3ae060ad70b79e945293c6"
   },
-  "cultofazazelforge-1.1.4.7a.jar": {
-    "jarName": "cultofazazelforge-1.1.4.7a.jar",
+  "cultofazazelforge-1.1.4.9.jar": {
+    "jarName": "cultofazazelforge-1.1.4.9.jar",
     "modId": "netherman",
     "name": "Cult of Azazel",
-    "version": "1.1.4.7a",
-    "curseForgeHash": 3920319753,
-    "modrinthHash": "d599606d6d629cd59380d8a491438546d63d26c6"
+    "version": "1.1.4.9",
+    "curseForgeHash": 239577345,
+    "modrinthHash": "c6f2661eaec73e7ba2953aad2e4e7ed823bb18f4"
   },
   "cupboard-1.20.1-3.9.jar": {
     "jarName": "cupboard-1.20.1-3.9.jar",
@@ -826,13 +810,13 @@
     "curseForgeHash": 4092597210,
     "modrinthHash": "dddab6a5ff092b4535e9fdfb01e1e011afb90e57"
   },
-  "desecratedcompat.jar": {
-    "jarName": "desecratedcompat.jar",
+  "desecratedcompat-1.0.0-forge-1.20.1.jar": {
+    "jarName": "desecratedcompat-1.0.0-forge-1.20.1.jar",
     "modId": "desecratedcompat",
     "name": "Desecrated Compat",
     "version": "1.0.0",
-    "curseForgeHash": 454122960,
-    "modrinthHash": "fe304ce142bd72d3f149ee6fff369c6a9d9dff2a"
+    "curseForgeHash": 1136399413,
+    "modrinthHash": "4650ef170acc8134da1d6dba4c4d33fab165300e"
   },
   "desecratedcore-1.0.0-forge-1.20.1.jar": {
     "jarName": "desecratedcore-1.0.0-forge-1.20.1.jar",
@@ -1522,14 +1506,6 @@
     "curseForgeHash": 1481151549,
     "modrinthHash": "48cdc22a0f6698c9059f437538e5546f74900541"
   },
-  "KeybindHider-Forge-1.20.1-1.3.jar": {
-    "jarName": "KeybindHider-Forge-1.20.1-1.3.jar",
-    "modId": "keybindhider",
-    "name": "KeybindHider",
-    "version": "1.3",
-    "curseForgeHash": 211290064,
-    "modrinthHash": "5c8121fb578d316377ca91416104b50bda4f1dae"
-  },
   "killingwaves-1.20.1-1.1.0.jar": {
     "jarName": "killingwaves-1.20.1-1.1.0.jar",
     "modId": "killingwaves",
@@ -1546,13 +1522,13 @@
     "curseForgeHash": 4013230863,
     "modrinthHash": "cb1205a1b6533b3f49d1ddc24b879898907fb9f4"
   },
-  "knightlib-forge-1.20.1-1.5.3.jar": {
-    "jarName": "knightlib-forge-1.20.1-1.5.3.jar",
+  "knightlib-forge-1.20.1-1.6.0.jar": {
+    "jarName": "knightlib-forge-1.20.1-1.6.0.jar",
     "modId": "knightlib",
     "name": "Knight Lib",
-    "version": "1.5.3",
-    "curseForgeHash": 1762250936,
-    "modrinthHash": "41ba3dbf46ade6acbd4c2f4b9f566623ca762051"
+    "version": "1.6.0",
+    "curseForgeHash": 1514612477,
+    "modrinthHash": "9ad2ab45898e958fd68fd3dc961fd8533f49359b"
   },
   "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar": {
     "jarName": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
@@ -2183,13 +2159,13 @@
     "curseForgeHash": 2814721559,
     "modrinthHash": "4cc7835ae11ce1bccd16454f3c3fc38c368d0f8f"
   },
-  "reliquary-1.20.1-2.0.61.1507.jar": {
-    "jarName": "reliquary-1.20.1-2.0.61.1507.jar",
+  "reliquary-1.20.1-2.0.62.1532.jar": {
+    "jarName": "reliquary-1.20.1-2.0.62.1532.jar",
     "modId": "reliquary",
     "name": "Reliquary",
-    "version": "2.0.61.1507",
-    "curseForgeHash": 484282679,
-    "modrinthHash": "413abfad0b2971e89ea279beee80cb18ab2fa575"
+    "version": "2.0.62.1532",
+    "curseForgeHash": 3423985497,
+    "modrinthHash": "2f09dff7064c01152a729fff324218a588622bef"
   },
   "replantingcrops-1.20.1-5.5.jar": {
     "jarName": "replantingcrops-1.20.1-5.5.jar",
@@ -2383,13 +2359,13 @@
     "curseForgeHash": 916215751,
     "modrinthHash": "d5073a142e0b5caf024cfbc812fe08bc14e9570b"
   },
-  "souls_message_banners-1.0.3.jar": {
-    "jarName": "souls_message_banners-1.0.3.jar",
+  "souls_message_banners-1.0.4.jar": {
+    "jarName": "souls_message_banners-1.0.4.jar",
     "modId": "souls_message_banners",
     "name": "Souls Message Banners",
-    "version": "1.0.3",
-    "curseForgeHash": 1464163293,
-    "modrinthHash": "9748cb588a509bb9afedbfe80dde779592bcf7eb"
+    "version": "1.0.4",
+    "curseForgeHash": 2241670283,
+    "modrinthHash": "8d3917ce966b790a22aa1c327fb0aa31f6e32308"
   },
   "spark-1.10.53-forge.jar": {
     "jarName": "spark-1.10.53-forge.jar",
@@ -2863,12 +2839,12 @@
     "curseForgeHash": 2553435270,
     "modrinthHash": "8c4a8ef0444b53ff408d5b89126285031081d92f"
   },
-  "zfastnoise-1.0.11+1.20+forge.jar": {
-    "jarName": "zfastnoise-1.0.11+1.20+forge.jar",
+  "zfastnoise-1.0.13+1.20+forge.jar": {
+    "jarName": "zfastnoise-1.0.13+1.20+forge.jar",
     "modId": "zfastnoise",
     "name": "Fast Noise Mod",
-    "version": "1.0.11",
-    "curseForgeHash": 1967169450,
-    "modrinthHash": "ae965714803aad1b5b03739f0cb27f88d0a561db"
+    "version": "1.0.13",
+    "curseForgeHash": 832023903,
+    "modrinthHash": "94461ab36f5bfec54f10b13f5fde40c7586a2a0e"
   }
 }

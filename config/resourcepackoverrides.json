@@ -5,9 +5,9 @@
     "file/Stay_True_1.20.zip",
     "file/staytrue1.20.1.zip",
     "file/Stay_True_Amendment.zip",
+    "file/Mahou Tsukai Better Textures.zip",
     "file/Fresh Vampirism Pack V1.4.zip",
-    "file/Better_hunters_2.zip",
-    "file/Mahou Tsukai Better Textures.zip"
+    "file/Better_hunters_2.zip"
   ],
   "default_overrides": {
     "force_compatible": true
@@ -43,6 +43,15 @@
       "hidden": true,
       "required": true,
       "default_position": "BOTTOM"
+    },
+        "3": [
+      "file/desecratedtextures-1.0.zip",
+    "file/desecrated-ftbquests-theme-1.0.zip"
+    ],
+    "$$3": {
+      "hidden": false,
+      "required": true,
+      "default_position": "TOP"
     }
   }
 }

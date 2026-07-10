@@ -170,6 +170,25 @@
 			x: 2.0d
 			y: 7.0d
 		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_nova_entity"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			order: 100
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.5d
+			y: -2.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -1638,6 +1657,7 @@
 		}
 		{
 			entity_vis_size: 1.0f
+			icon: "ascendant_arcana:copper_enchanting_table"
 			id: "2769096977DA8528"
 			tasks: [
 				{

@@ -1158,6 +1158,37 @@
 			x: -3.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["1C6C9B0F105380FC"]
+			entity_vis_size: 1.0f
+			icon: "desecratedcore:chooser_key_item"
+			id: "23F0394594209AF9"
+			rewards: [{
+				id: "432C5099CCADD8DC"
+				item: "desecratedcore:chooser_key_item"
+				type: "item"
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "5B5D1A9D90E91760"
+				type: "checkmark"
+			}]
+			x: 5.6d
+			y: -4.2d
+		}
+		{
+			dependencies: ["068DF533DB041F37"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "1C6C9B0F105380FC"
+			tasks: [{
+				id: "30F0F1F0AB311DA8"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
 	]
 	title: "Cultists of the Moon"
 }

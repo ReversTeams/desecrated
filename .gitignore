@@ -65,6 +65,7 @@ kubejs/output
 kubejs/probe
 /civil
 /config/gpushift/benchmarks
+/particular_cache
 
 # explicitly included config
 !config/ProjectE/client.toml
