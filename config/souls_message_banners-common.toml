@@ -9,6 +9,8 @@
 		#By default, its all bosses tagged with forge:bosses.
 		#Special banners are given to the Wither and Ender Dragon.
 		entity_felled = true
+		#Banner for either raid victory or loss
+		raid_status = true
 
 		#Compatibility
 		["Common Config".triggers.compatibility]

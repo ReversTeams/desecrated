@@ -96,3 +96,5 @@ kubejs/probe
 !config/shadercycler-client.toml
 !config/tabs_organizer-client.toml
 !config/gpushift-client.toml
+
+/mods - Copy

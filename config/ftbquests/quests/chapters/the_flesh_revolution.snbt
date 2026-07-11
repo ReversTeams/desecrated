@@ -118,6 +118,13 @@
 			y: -4.5d
 		}
 		{
+			description: [
+				"This sorry killing must end at once! I waste so much of an animal's meat because I don't know what to do with its carcass!"
+				""
+				"&4It sounds like you must become your own butcher, then. You will be able to make so much more out of an animal's meat and even extract blood efficiently."
+				""
+				"Without my servants, I guess that is what I must do. Where do we start?"
+			]
 			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
@@ -2031,8 +2038,19 @@
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
+			description: [
+				"Carrying all sorts of food in my pocket is quite cumbersome. I should make some sort of basket to store my food in. This may, I can regain my strength with various kinds of food without taking up much space."
+				""
+				"&a(Use the left mouse button with the basket in hand to switch modes. In open mode, the basket functions like a bundle with 5 slots for food. In closed mode, you can select what food to eat. You must set it back to open mode to eat the food you selected. The basket then behaves as a normal food item, eating with right click.)"
+			]
 			entity_vis_size: 1.0f
 			id: "0CCBECA8C3CD1504"
+			rewards: [{
+				id: "2D2F1E751358685B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Carry Many Foods"
 			tasks: [{
 				id: "67405B2B1CC2A2E9"
 				item: {

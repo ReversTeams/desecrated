@@ -12,7 +12,9 @@ ServerEvents.recipes(event => {
         'neepmeat:fluid_buffer',
         'neepmeat:small_compressor',
         'neepmeat:drill_chassis',
-        'meatweapons:basic_pistol'
+        'meatweapons:basic_pistol',
+        'butchery:blood_grate',
+        'butchery:meat_grinder'
     ]
 
     const removeCraftingShaped = [
@@ -57,6 +59,37 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:bone',
             B: 'minecraft:stick'
+        }
+    )
+
+    event.shaped(
+        Item.of('butchery:blood_grate'),
+        [
+            'ABA',
+            'CDC',
+            'CCC'
+        ],
+        {
+            A: 'butchery:hook',
+            B: 'minecraft:iron_trapdoor',
+            C: 'minecraft:iron_ingot',
+            D: 'minecraft:barrel'
+        }
+    )
+
+    event.shaped(
+        Item.of('butchery:meat_grinder'),
+        [
+            'ABC',
+            'DEE',
+            ' E '
+        ],
+        {
+            A: 'butchery:hook',
+            D: 'minecraft:iron_trapdoor',
+            E: 'minecraft:iron_ingot',
+            B: 'minecraft:cauldron',
+            C: 'minecraft:stick'
         }
     )
 

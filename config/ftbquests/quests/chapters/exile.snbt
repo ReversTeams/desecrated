@@ -416,9 +416,21 @@
 		}
 		{
 			description: [
-				"Two months after the fall of the Queendom of Red Barar. I was lucky to escape the calamity unscathed, albeit my power still remains low and hunters roam the land. They are on my trail. I may not have much longer to write these words."
+				"Two months after the fall of the Queendom of Red Barar. I was lucky to escape the calamity unscathed. My power still remains low and hunters roam the land. They are on my trail. I may not have much longer to write these words."
 				""
-				"To whoever finds this book, do know I am the last of a decimated nobility that once served the Blood Queen. Yes, a noble sanguine. By the time you have read this, we may all have fallen into the abyss of history."
+				"To whoever finds this book, know I am the last of a decimated nobility that once served the Blood Queen. Yes, a noble sanguine. By the time you have read this, we may all have fallen into the abyss of history."
+				"{@pagebreak}"
+				"I managed to escape the carnage alone, but I do not have much left with me. To keep my sanity intact, I will keep records in this ancient grimoire I found."
+				""
+				"&4I have a name."
+				""
+				"You can answer me through the pages? I did not know this was a sentient book."
+				""
+				"&4My name is Wise Grisha. Your handwriting is familiar to me. It's not as tidy as your grandfather's."
+				"{@pagebreak}"
+				"Looks like &4Wise Grisha&r will be my only companion for now. An artefact worthy of a noble sanguine such as myself! The only other artefact I was able to retrieve was this mighty bloody living sword. I do not believe it's sentient. "
+				""
+				"My first priority should be to find a defenceless creature for its blood."
 			]
 			entity_vis_size: 1.0f
 			hide_dependent_lines: true
@@ -442,6 +454,15 @@
 			y: -2.0d
 		}
 		{
+			description: [
+				"&aHere is a useful burst of starting information:"
+				""
+				"&aYou start as a vampire. Vampires are weak to the sun and fire but undead are not hostile to them. You must drink blood to survive. "
+				""
+				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
+				"{@pagebreak}"
+				"&aDesecrated is still in the development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, The Dulling, Reverse Eon."
+			]
 			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
@@ -462,6 +483,11 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"I have not fed on man for days! I hunger for warm blood... Alas, human settlements are defended too heavily by these invaders... For now I must feed on small animals. With a few glass bottles, I should be able to stock up on blood for some time."
+				""
+				"&a(Press V by default on animals or villagers to drink their blood when you see the icon. Keep glass bottles in your hotbar to fill them with blood instead when you drink blood. Blood production can be automated in the &oFlesh Industries &r&aquest chapter.)"
+			]
 			entity_vis_size: 1.0f
 			id: "416FA3E84EDBA716"
 			rewards: [{
@@ -470,25 +496,58 @@
 				xp_levels: 1
 			}]
 			size: 1.1d
-			tasks: [{
-				advancement: "vampirism:vampire/first_blood"
-				criterion: ""
-				id: "3D33A033E9874AEF"
-				type: "advancement"
-			}]
+			subtitle: "Crimson Drink"
+			tasks: [
+				{
+					advancement: "vampirism:vampire/first_blood"
+					criterion: ""
+					id: "3D33A033E9874AEF"
+					type: "advancement"
+				}
+				{
+					id: "74B8D8DA35A5EE73"
+					item: "minecraft:glass_bottle"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Sanguine Nutrition"
 			x: 2.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["416FA3E84EDBA716"]
+			description: [
+				"Letting the blood drip from my fangs into the glass bottle, I managed to harvest raw blood. This is undignified! I must find a better solution."
+				""
+				"&4Little Sanguine, what about a blood sieve? It is able to control the quality of the blood and can automate the process. Any sanguine estate would have high grade sieves."
+				""
+				"This would be nice.. but I'm ashamed that I don't quite know how to do that."
+				""
+				"&4I can teach you later."
+			]
 			entity_vis_size: 1.0f
 			id: "3F69B451E4B11129"
-			rewards: [{
-				id: "0194A26A6FC5EADA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "6B7BA00231B7748F"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0194A26A6FC5EADA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Portable Sustenance"
 			tasks: [{
 				id: "6E0B93551A338678"
 				item: {
@@ -507,6 +566,11 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"The undead have always been a friendly force to converse with, but to blend in with humans and to obscure my trail, I may need to slay a few of these neutral foes. Their flesh and bones can prove useful after all..."
+				""
+				"As an undead myself, I am painfully aware of our weaknesses. The sun is a deadly laser. We are vulnerable to fire and holy materials such as silver or gold. However, we are also much more resistant to physical blows than humans are. These zombies and skeletons are the same, although they aren't as grand as a noble sanguine!"
+			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:skeleton_skull"
 			id: "16AC930FED22DF3D"
@@ -523,6 +587,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Weaknesses of the Undead"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -630,6 +695,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Opportunists"
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -654,6 +720,7 @@
 			dependencies: ["384AD7FA6531C4B9"]
 			entity_vis_size: 1.5f
 			id: "1850F5DBF7A4D5A5"
+			subtitle: "Occupiers"
 			tasks: [{
 				entity: "simpleenemymod:usunit"
 				entity_use_tag: false
@@ -700,7 +767,7 @@
 		}
 		{
 			description: [
-				"As I am still wounded and lack a significant fraction of my original vitality. While my skin is still as though as armour, I am in need of better temporary protection. A crude shield will do nicely."
+				"As I am still wounded and lack a significant fraction of my original vitality. While my skin is still as tough as armour, I am in need of better temporary protection. A crude shield will do nicely."
 				""
 				"I much rather prefer opting for the more elegant solution of blocking with a sword. While these giant swords are brutish, they shall do for now."
 			]
@@ -935,7 +1002,11 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
-			description: ["The builder's best friend or archenemy. Some architects may say this is cheating, but filling in walls, ceilings, or floors quickly is useful in any building situation."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome I"
+				""
+				"&fThe builder's best friend or archenemy. Some architects may say this is cheating, but filling in walls, ceilings, or floors quickly is useful in any building situation."
+			]
 			entity_vis_size: 1.0f
 			id: "4134F85EED507D7B"
 			rewards: [
@@ -1037,9 +1108,11 @@
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
 			description: [
-				"Iron chests and their other material-upgraded versions can store many more items than regular chests."
+				"&o&7Notes from Eleonore's Travels, Tome I"
 				""
-				"On the other hand, drawers can hold a large quantity of a single item. They can also be upgraded or connected with a drawer controller."
+				"&fIron chests and their other material-upgraded versions can store many more items than regular chests."
+				""
+				"&fOn the other hand, drawers can hold a large quantity of a single item. They can also be upgraded or connected with a drawer controller."
 				"{@pagebreak}"
 				"Compacting drawers can be used for storing ores and ingots, which can be withdrawn in nugget, ingot, or block form."
 			]
@@ -1084,11 +1157,9 @@
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
 			description: [
-				"Many travelers and hunters bring sleeping bags with them, letting them sleep on the go more conveniently. Personally, it's a must for my travels."
+				"The sun is a terror in the skies above. If I do not set out with an umbrella, I will slowly shrivel up and decay. I should seek to avoid the day as much as possible. "
 				""
-				"&a(The sleeping bag does not set your spawn, letting you respawn at your main bed in your home.)&r"
-				"{@pagebreak}"
-				"Hammocks are the lazy man's greatest dream: perfect for sleeping during the day."
+				"Making a new coffin to pass the day should do. That way, my nocturnal self can sleep during the day. These puny humans aren't nocturnal after all, I can avoid them at night."
 			]
 			entity_vis_size: 1.0f
 			id: "7C7D065A52F9A7D2"
@@ -1098,6 +1169,7 @@
 				xp_levels: 1
 			}]
 			size: 1.0d
+			subtitle: "Fear the Day"
 			tasks: [
 				{
 					id: "291F2E8A7E1F8C5C"
@@ -1302,7 +1374,13 @@
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
 			description: [
-				"The Architectural Encyclopedia is a most interesting tome and a very popular one at that. It contains a vast array of knowledge about the architecture of the various civilizations of this world. For one who sees multiple ruins throughout their travels, this is quite useful to know the real names of these locations. Or at least, the attributed name."
+				"&4Grisha&r, what's that book?"
+				""
+				"&4How am I supposed to know? Do you believe all books are my brethren? Ah, the Architectural Encyclopedia of Knowledge. While its authors weren't familiar with sanguine architecture, it should possess the knowledge needed to identify most of the ruins and even the new settlements you will come across."
+				""
+				"Does it magically know everything?"
+				""
+				"&4It's a regular tome, nothing more. This edition is quite recent, a nice find!"
 				""
 				"&a(This item mimics the /wits command, to display the name of the structure the player is located at.)"
 			]
@@ -1333,9 +1411,11 @@
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
 			description: [
-				"As one who travels a lot, it's often annoying to either have to setup somewhere and then pack up everything in the morning, or to sleep without shelter. Well, what about simply folding everything into a tent and packing it up?"
+				"&o&7Notes from Eleonore's Travels, Tome I"
 				""
-				"These tent designs are frequently used by adventurers to serve as a semi-mobile base that is easy to pack and unpack. They can contain a lot more than mere sleeping bags. You can store whole beds, furnaces, even ample storage. They are quite heavy, but still a sufficient lazy solution."
+				"&fAs one who travels a lot, it's often annoying to either have to setup somewhere and then pack up everything in the morning, or to sleep without shelter. Well, what about simply folding everything into a tent and packing it up?"
+				""
+				"&fThese tent designs are frequently used by adventurers to serve as a semi-mobile base that is easy to pack and unpack. They can contain a lot more than mere sleeping bags. You can store whole beds, furnaces, even ample storage. They are quite heavy, but still a sufficient lazy solution."
 				"{@pagebreak}"
 				"&a(Shift-right click the tent to pick it up and its content in one go. "
 				""
@@ -1395,9 +1475,11 @@
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
 			description: [
-				"Anyone can create man-made paths from materials such as path blocks made through a shovel interaction with dirt, wood, stone, bricks, etc."
+				"&o&7Notes from Eleonore's Travels, Tome I"
 				""
-				"A charting map with signs can create quick travel points on a path."
+				"&fAnyone can create man-made paths from materials such as path blocks made through a shovel interaction with dirt, wood, stone, bricks, etc."
+				""
+				"&fA charting map with signs can create quick travel points on a path."
 			]
 			entity_vis_size: 1.0f
 			icon: "via_romana:charting_map"
@@ -1558,6 +1640,7 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			description: ["Making use of some glass, iron and planks, I can store a greater quantity of blood in one place and even transport it with me! This way, I can fill bottles much more easily."]
 			entity_vis_size: 1.0f
 			id: "07E9BD4DB2D5F0FD"
 			rewards: [
@@ -1656,9 +1739,46 @@
 			y: 7.5d
 		}
 		{
+			description: [
+				"I have heard from my former Crimson Artificer friends about enchanting. It is a most powerful way of enhancing tools, weapons and armour. Unfortunately, my knowledge may be lacking, I can only make use of some weaker enchantments."
+				""
+				"&a(Enchanting is overhauled and you cannot enchant normally anymore. Enchantments require specific recipes instead of luck and absurd amounts of experience. Crimson Artificers can make the most out of enchanting. Relics replace the usual Unbreaking, Protection and Efficiency."
+				"{@pagebreak}"
+				""
+				"&4You should find a Crimson Artificer's library and feed it to me."
+				""
+				"You eat books? Well, I'll see if I can satiate you one day."
+				""
+				"&4Sanguine enchanting methods differ from the humans in the north. You should still be able to find plenty of enchanted relics in ruins around the country. You do know about relics, yes?"
+				""
+				"Yes, they can infuse tools with superior durability, effiency or power."
+			]
 			entity_vis_size: 1.0f
 			icon: "ascendant_arcana:copper_enchanting_table"
 			id: "2769096977DA8528"
+			rewards: [
+				{
+					id: "03DCD0AB5EF88A8C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B85FBE1DF1C3BDB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "The Enchanter"
 			tasks: [
 				{
 					id: "4E70D56F2EFC6421"
@@ -1672,6 +1792,7 @@
 						id: "desecratedcore:amethyst_infusion_smithing_template"
 						tag: { }
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
