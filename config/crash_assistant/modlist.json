@@ -493,6 +493,14 @@
     "curseForgeHash": 2974885765,
     "modrinthHash": "4622cf120fd3eb82972dc6634d6a5910d04e3c91"
   },
+  "colorwheel-forge-1.2.9+mc1.20.1.jar": {
+    "jarName": "colorwheel-forge-1.2.9+mc1.20.1.jar",
+    "modId": "colorwheel",
+    "name": "Colorwheel",
+    "version": "1.2.9+mc1.20.1",
+    "curseForgeHash": 1778224379,
+    "modrinthHash": "a179a98c4515742848159a81dd3e183ab7d0a2c7"
+  },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "jarName": "comforts-forge-6.4.0+1.20.1.jar",
     "modId": "comforts",
@@ -501,6 +509,14 @@
     "curseForgeHash": 940613798,
     "modrinthHash": "e7b9fe89566bb1ee013e33745f22f309f679536e"
   },
+  "concatenatedadditionsartefacts-1.4.0-forge-1.20.1.jar": {
+    "jarName": "concatenatedadditionsartefacts-1.4.0-forge-1.20.1.jar",
+    "modId": "concatenatedadditionsartefacts",
+    "name": "Concatenated Additions",
+    "version": "1.4.0",
+    "curseForgeHash": 4288327569,
+    "modrinthHash": "dada64eb136f83497116949637cf0fda27cb5b53"
+  },
   "concatenatedadditionscore-1.4.0-forge-1.20.1.jar": {
     "jarName": "concatenatedadditionscore-1.4.0-forge-1.20.1.jar",
     "modId": "concatenatedadditionscore",
@@ -508,6 +524,14 @@
     "version": "1.4.0",
     "curseForgeHash": 1434163792,
     "modrinthHash": "d3988f531b7341e2a96f5e63a90d3cecdf9f57db"
+  },
+  "concatenatedadditionsfood-1.4.0-forge-1.20.1.jar": {
+    "jarName": "concatenatedadditionsfood-1.4.0-forge-1.20.1.jar",
+    "modId": "concatenatedadditionsfood",
+    "name": "Concatenated Additions",
+    "version": "1.4.0",
+    "curseForgeHash": 4088591132,
+    "modrinthHash": "b18ced3ac25436f8bd52ddeb1b87c843f8050d2e"
   },
   "concatenatedadditionsmachines-1.4.0-forge-1.20.1.jar": {
     "jarName": "concatenatedadditionsmachines-1.4.0-forge-1.20.1.jar",
@@ -1695,13 +1719,13 @@
     "curseForgeHash": 2073541217,
     "modrinthHash": "3a60262ac52bd49ea607ad8a9fd49d80d8267e4c"
   },
-  "meatmilk-2.2.0.jar": {
-    "jarName": "meatmilk-2.2.0.jar",
+  "meatmilk-2.3.0.jar": {
+    "jarName": "meatmilk-2.3.0.jar",
     "modId": "meatmilk",
     "name": "MeatMilk",
-    "version": "2.2.0",
-    "curseForgeHash": 3489391036,
-    "modrinthHash": "3604c6400435a0084aa2fc771b511e93999d6d56"
+    "version": "2.3.0",
+    "curseForgeHash": 476060946,
+    "modrinthHash": "9bb76af8a17ea2d7824d0b9348239d54bf5b1149"
   },
   "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar": {
     "jarName": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
