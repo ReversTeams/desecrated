@@ -44,9 +44,9 @@
       "required": true,
       "default_position": "BOTTOM"
     },
-        "3": [
+    "3": [
       "file/desecratedtextures-1.0.zip",
-    "file/desecrated-ftbquests-theme-1.0.zip"
+      "file/desecrated-ftbquests-theme-1.0.zip"
     ],
     "$$3": {
       "hidden": false,

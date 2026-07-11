@@ -124,9 +124,9 @@ farmersdelight:cabbage	inventory_particles:cabbage/piece/food/piece_2.png	976	0	
 farmersdelight:cabbage_crate	inventory_particles:cabbage_crate/piece/food/piece_0.png	984	0	8	8
 farmersdelight:cabbage_crate	inventory_particles:cabbage_crate/piece/food/piece_1.png	992	0	8	8
 farmersdelight:cabbage_crate	inventory_particles:cabbage_crate/piece/food/piece_2.png	1000	0	8	8
-farmersdelight:cabbage_leaf	inventory_particles:cabbage_leaf/piece/food/piece_0.png	1008	0	8	8
-farmersdelight:cabbage_leaf	inventory_particles:cabbage_leaf/piece/food/piece_1.png	1016	0	8	8
-farmersdelight:cabbage_leaf	inventory_particles:cabbage_leaf/piece/food/piece_2.png	0	8	8	8
+farmersdelight:cabbage_leaf	inventory_particles:cabbage_leaf/leaves/leaves_0.png	1008	0	8	8
+farmersdelight:cabbage_leaf	inventory_particles:cabbage_leaf/leaves/leaves_1.png	1016	0	8	8
+farmersdelight:cabbage_leaf	inventory_particles:cabbage_leaf/leaves/leaves_2.png	0	8	8	8
 farmersdelight:cabbage_rolls	inventory_particles:cabbage_rolls/piece/food/piece_0.png	8	8	8	8
 farmersdelight:cabbage_rolls	inventory_particles:cabbage_rolls/piece/food/piece_1.png	16	8	8	8
 farmersdelight:cabbage_rolls	inventory_particles:cabbage_rolls/piece/food/piece_2.png	24	8	8	8

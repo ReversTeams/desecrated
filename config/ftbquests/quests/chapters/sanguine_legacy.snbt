@@ -30,6 +30,15 @@
 	quests: [
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
+			description: [
+				"&4Grisha&r, you know a lot about sanguines, right?"
+				""
+				"&4While I've been collecting dust on a shelf for years, I did serve your grandfather and your mother when she was a child."
+				""
+				"You know them more than I do... How am I supposed to raise my sanguine power? I don't want to let those artificial vampires running about teach me false information."
+				""
+				"&4Well, let's see what I can spit out here."
+			]
 			entity_vis_size: 1.0f
 			icon: "vampirism:vampire_fang"
 			id: "47A72E03EBA8A7ED"
@@ -94,8 +103,20 @@
 		}
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
+			description: [
+				"&4You, young sanguine, have the uncanny ability of simply not dying. Most humans call it ressurection. It isn't quite true resurrection, as your body falls and gradually mends itself over time. Most creatures will believe you are truly dead and leave you alone in this state."
+				""
+				"Then I can always come back, forever?"
+				""
+				"&4No, no, no. Once you have revived, you will be in a vulnerable state where it is easier for you to die permanently. Then, humans have various methods of causing holy damage to your body, whether it be stakes, silver, fire, or even garlic... Then, you will not be able to come back."
+			]
 			entity_vis_size: 1.0f
 			id: "3FEE19387DC6BD6E"
+			rewards: [{
+				id: "4A7EAB1BAE6E0CA9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "vampirism:vampire/resurrect"
 				criterion: ""
@@ -140,6 +161,7 @@
 				to_observe: "vampirism:task_master_vampire"
 				type: "observation"
 			}]
+			title: "The Taskmaster"
 			x: 0.0d
 			y: -4.5d
 		}

@@ -397,13 +397,13 @@
     "curseForgeHash": 4160167965,
     "modrinthHash": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50"
   },
-  "cinematic_respawn-1.20.1-forge-1.0.1.jar": {
-    "jarName": "cinematic_respawn-1.20.1-forge-1.0.1.jar",
+  "cinematic_respawn-1.20.1-forge-1.1.0.jar": {
+    "jarName": "cinematic_respawn-1.20.1-forge-1.1.0.jar",
     "modId": "cinematic_respawn",
     "name": "Cinematic Respawn",
-    "version": "1.0.1",
-    "curseForgeHash": 767085962,
-    "modrinthHash": "97df5964fdc2ff29809f0fd3a7727662421318af"
+    "version": "1.1.0",
+    "curseForgeHash": 1749411784,
+    "modrinthHash": "b70269c9ec1d0656fa21e64694eda7a79778f48d"
   },
   "civilis_magic-1.0.1-universal-1.20.1.jar": {
     "jarName": "civilis_magic-1.0.1-universal-1.20.1.jar",
@@ -762,13 +762,13 @@
     "curseForgeHash": 1548502984,
     "modrinthHash": "88a9ec30e4acb5c80a3ae060ad70b79e945293c6"
   },
-  "cultofazazelforge-1.1.4.9.jar": {
-    "jarName": "cultofazazelforge-1.1.4.9.jar",
+  "cultofazazelforge-1.1.4.9a.jar": {
+    "jarName": "cultofazazelforge-1.1.4.9a.jar",
     "modId": "netherman",
     "name": "Cult of Azazel",
-    "version": "1.1.4.9",
-    "curseForgeHash": 239577345,
-    "modrinthHash": "c6f2661eaec73e7ba2953aad2e4e7ed823bb18f4"
+    "version": "1.1.4.9a",
+    "curseForgeHash": 888807499,
+    "modrinthHash": "a2dd786a44ef231286d51b94a02b4766a4b77846"
   },
   "cupboard-1.20.1-3.9.jar": {
     "jarName": "cupboard-1.20.1-3.9.jar",
@@ -1847,13 +1847,13 @@
     "curseForgeHash": 2911560819,
     "modrinthHash": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf"
   },
-  "neepmeat-0.30.0-beta+1.20.1.jar": {
-    "jarName": "neepmeat-0.30.0-beta+1.20.1.jar",
+  "neepmeat-0.30.1-beta+1.20.1-pre3.jar": {
+    "jarName": "neepmeat-0.30.1-beta+1.20.1-pre3.jar",
     "modId": "neepmeat",
     "name": "NEEPMeat",
-    "version": "0.30.0-beta+1.20.1",
-    "curseForgeHash": 3907671104,
-    "modrinthHash": "5b594816a58071fd15938d529037c5eb0f20229d"
+    "version": "0.30.1-beta+1.20.1-pre3",
+    "curseForgeHash": 3510048204,
+    "modrinthHash": "479ab239966f6bd81b9b49722ce300d709851d71"
   },
   "Neruina-2.1.2-forge+1.20.1.jar": {
     "jarName": "Neruina-2.1.2-forge+1.20.1.jar",
@@ -2359,13 +2359,13 @@
     "curseForgeHash": 916215751,
     "modrinthHash": "d5073a142e0b5caf024cfbc812fe08bc14e9570b"
   },
-  "souls_message_banners-1.0.4.jar": {
-    "jarName": "souls_message_banners-1.0.4.jar",
+  "souls_message_banners-forge-1.0.6.jar": {
+    "jarName": "souls_message_banners-forge-1.0.6.jar",
     "modId": "souls_message_banners",
     "name": "Souls Message Banners",
-    "version": "1.0.4",
-    "curseForgeHash": 2241670283,
-    "modrinthHash": "8d3917ce966b790a22aa1c327fb0aa31f6e32308"
+    "version": "1.0.6",
+    "curseForgeHash": 4158128229,
+    "modrinthHash": "418a55f267eb561f80090ca16d160da309205c58"
   },
   "spark-1.10.53-forge.jar": {
     "jarName": "spark-1.10.53-forge.jar",
