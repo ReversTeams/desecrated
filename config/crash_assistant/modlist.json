@@ -714,14 +714,6 @@
     "curseForgeHash": 2064459127,
     "modrinthHash": "26db309a19862fd1923288392973f3a893afe1b3"
   },
-  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
-    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
-    "modId": "craftingrecipeexporter",
-    "name": "Crafting Recipe Exporter",
-    "version": "1.0.2",
-    "curseForgeHash": 3177483119,
-    "modrinthHash": "bf979246d3f2d81749f6246e06a9675e06476dba"
-  },
   "craftingstation-1.20.1-1.4.0.jar": {
     "jarName": "craftingstation-1.20.1-1.4.0.jar",
     "modId": "craftingstation",
