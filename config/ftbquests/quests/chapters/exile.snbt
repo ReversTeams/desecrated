@@ -560,7 +560,7 @@
 				"{@pagebreak}"
 				"&aDesecrated is still in development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, The Dulling, Reverse Eon."
 				""
-				"&aThere may also be some quests missing descriptions. Make sure to update the modpack regularly to stay up to date!"
+				"&aThere may also be some quests missing descriptions. Make sure to update the modpack regularly to stay up to date! Most of the quest descriptions should be released within 2 days. The progression is still there despite the quest not having description!"
 			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:knowledge_book"

@@ -1935,6 +1935,14 @@
     "curseForgeHash": 3930406358,
     "modrinthHash": "b110e4590177475dcde70dd9dafd5257116ad9f8"
   },
+  "nospawnchunks-1.0.0.jar": {
+    "jarName": "nospawnchunks-1.0.0.jar",
+    "modId": "nospawnchunks",
+    "name": "No Spawn Chunks",
+    "version": "1.0.0",
+    "curseForgeHash": 3611168802,
+    "modrinthHash": "c9c11338fb08129ee47f310d9e247a3a663e13c9"
+  },
   "nostartupmessages-1.0.1.jar": {
     "jarName": "nostartupmessages-1.0.1.jar",
     "modId": "nostartupmessages",

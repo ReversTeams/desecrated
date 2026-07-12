@@ -26,6 +26,13 @@ ItemEvents.modification(event => {
 		["sons_of_sins:sinful_axe", 15],
 		["sons_of_sins:sinful_sword", 12],
 		["sons_of_sins:sinful_hoe", 8],
+
+		120,
+		["sons_of_sins:flesh_pickaxe", 2],
+		["sons_of_sins:flesh_shovel", 1.5],
+		["sons_of_sins:flesh_axe", 8],
+		["sons_of_sins:flesh_sword", 6],
+		["sons_of_sins:flesh_hoe", 4],
 		
 		/////////////
 		//  Armor  //
