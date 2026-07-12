@@ -87,6 +87,15 @@ ServerEvents.tags('item', event => {
         'butchery:netherite_skinning_knife'
     ]);
 
+    add('forge:tools/knives', [
+        'butchery:bone_skinning_knife',
+        'butchery:copper_skinning_knife',
+        'butchery:iron_skinning_knife',
+        'butchery:gold_skinning_knife',
+        'butchery:diamond_skinning_knife',
+        'butchery:netherite_skinning_knife'
+    ]);
+
     add('forge:knives/iron', [
         'butchery:iron_skinning_knife',
         'farmersdelight:iron_knife'

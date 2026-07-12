@@ -68,8 +68,8 @@
 	*/
 	"base_enchantment_capacity_overrides": {
 		"minecraft:shield": 15,
-		"minecraft:crossbow": 20,
 		"minecraft:enchanted_book": 12,
+		"minecraft:crossbow": 20,
 		"minecraft:bow": 20,
 		"minecraft:trident": 15
 	},

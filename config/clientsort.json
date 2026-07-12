@@ -43,8 +43,8 @@
     "thirdButtonOp": "MATCH_TRANSFER",
     "fourthButtonOp": "TRANSFER",
     "layoutOffset": {
-      "x": -27,
-      "y": -2
+      "x": -4,
+      "y": 0
     },
     "classPolicies": {
       "com.progwml6.ironchest.common.inventory.IronChestMenu": {

@@ -52,15 +52,15 @@ ServerEvents.recipes(event => {
 
     // General
 
-    // event.shapeless(
-    //     Item.of('concatenatedadditionsartefacts:protection_charm'),
-    //     [
-    //         'minecraft:paper',
-    //         'sons_of_sins:ether_ashes',
-    //         'minecraft:ink_sac',
-    //         'minecraft:red_dye'
-    //     ]
-    // )
+    event.shapeless(
+        Item.of('concatenatedadditionsartefacts:protection_charm'),
+        [
+            'minecraft:paper',
+            'sons_of_sins:ether_ashes',
+            'minecraft:ink_sac',
+            'minecraft:red_dye'
+        ]
+    )
 
     // Sons of Sin
 

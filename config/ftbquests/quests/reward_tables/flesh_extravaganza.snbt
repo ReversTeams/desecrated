@@ -11,7 +11,6 @@
 		{ count: 16, item: "minecraft:cod" }
 		{ count: 16, item: "minecraft:salmon" }
 		{ count: 16, item: "quark:crab_leg" }
-		{ count: 16, item: "eat_yourself:raw_player_meat" }
 		{ count: 16, item: "butchery:raw_ham" }
 		{ count: 16, item: "butchery:raw_pork_belly" }
 		{ count: 16, item: "butchery:raw_pork_leg" }

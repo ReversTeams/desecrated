@@ -96,6 +96,42 @@
     "result": "deny"
   },
   {
+    "mod": "simpleenemymod",
+    "mincount": {
+      "amount": 12,
+      "hostile": true,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "simpleenemymod:pmcunit",
+    "mincount": {
+      "amount": 4,
+      "hostile": true,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "simpleenemymod:ruunit",
+    "mincount": {
+      "amount": 4,
+      "hostile": true,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "simpleenemymod:usunit",
+    "mincount": {
+      "amount": 4,
+      "hostile": true,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+  {
     "mod": "enemyexpansion",
     "mincount": {
       "amount": 12,
