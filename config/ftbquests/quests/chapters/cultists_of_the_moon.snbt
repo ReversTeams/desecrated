@@ -50,6 +50,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "24A141221B6CE643"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			size: 1.0d
 			tasks: [
@@ -112,6 +117,11 @@
 					item: "bloodmagic:reinforcedslate"
 					type: "item"
 				}
+				{
+					id: "20E46FB7386117CB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			tasks: [{
 				id: "4AB8BFEBE390B269"
@@ -134,12 +144,19 @@
 			description: ["While the alchemy table works with life essence, the hellfire forge works with demonic will. The world of will manipulation is a relatively complex one, so be prepared if you do decide to embark on it. I, for one, never needed to delve into this art, but you may not have the luxury of alternative technologies."]
 			entity_vis_size: 1.0f
 			id: "6CE0DB1AEB597BCE"
-			rewards: [{
-				count: 16
-				id: "1594491139CA6E71"
-				item: "minecraft:lapis_lazuli"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "1594491139CA6E71"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "02D771B081257395"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2D0885007F6B27D1"
 				item: {
@@ -161,11 +178,18 @@
 			description: ["These large runestones can be further inscribed with enchantments to augment the structure of a blood altar. Each tier of altar will require more to be used to allow for more advanced imbuements."]
 			entity_vis_size: 1.0f
 			id: "25A618A3B28B8DEE"
-			rewards: [{
-				id: "68D972FD21185F7D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "68D972FD21185F7D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7FEEC0E5F80ED6BF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				count: 9L
 				id: "5C720E576BBEE187"
@@ -188,11 +212,18 @@
 			description: ["Tired of bloodletting? If you have a steady source of creatures to kill, this dagger will allow you to efficiently rend the life force from their corporeal form. The world I lived in never lacked hostiles, that's for sure."]
 			entity_vis_size: 1.0f
 			id: "255F91EE26FB166D"
-			rewards: [{
-				id: "4217EE1A26AFFEEA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4217EE1A26AFFEEA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "38C78AD8E1075321"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "37EA8119BA50E3C4"
 				item: {
@@ -214,6 +245,11 @@
 			description: ["These strangely shaped gems can hold and stabilize demonic will within them, acting as portable reservoirs. They also automatically absorb it from kills performed with a sentient sword, which is an added bonus."]
 			entity_vis_size: 1.0f
 			id: "0D2E04D30E54E6C8"
+			rewards: [{
+				id: "32B63B3401F36792"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "44A38A04BF79BC8F"
 				item: {
@@ -239,11 +275,18 @@
 			description: ["An enchanted barbed snare to bootstrap any aspiring sanguimancer into the extraction of willpower from the souls of animated things. Unfortunately, it doesn't actually impede the movement of creatures that much, so it doesn't have much use afterwards."]
 			entity_vis_size: 1.0f
 			id: "4CD27FD09EF16094"
-			rewards: [{
-				id: "74092527CBEB78C3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "74092527CBEB78C3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "168FC8319BA08C7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0EE8BA404B791B13"
 				item: {
@@ -269,11 +312,18 @@
 			]
 			entity_vis_size: 1.0f
 			id: "3E73EAD0A0A295F5"
-			rewards: [{
-				id: "26475380E542593C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "26475380E542593C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0D726BCB0D5AFE1A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6554577A8F60DB12"
 				item: {
@@ -302,11 +352,18 @@
 			description: ["The willpower of animated things. It's more sinister than life essence, and I believe it comes from a place deep beyond this world. While life essence, the impetus, maintains the physical form, will is the elusive, emotional 'soul' of things that guides their purpose."]
 			entity_vis_size: 1.0f
 			id: "346C594E62FFDB7A"
-			rewards: [{
-				id: "5E5F6B9EA8F02186"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5E5F6B9EA8F02186"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "03CAD758B8CA4F2B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "4ABDAE32F6BC60EC"
 				item: {
@@ -331,11 +388,18 @@
 			description: ["All your tools can be made sentient! Though you may hear whispers, worry not, they probably aren't conspiring against you."]
 			entity_vis_size: 1.0f
 			id: "29FA37C27A60B1E0"
-			rewards: [{
-				id: "097DA56D27DE38CB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "097DA56D27DE38CB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "036B87CE9105A603"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "6769201CBAE0F607"
@@ -410,11 +474,18 @@
 			description: ["Life essence can be infused into various items to grant them special abilities. Stone sheets can be imbued to make them conductive to magic, and precious stones like diamonds can be infused to become blood orbs, which allow you to connect a channel to your life network."]
 			entity_vis_size: 1.0f
 			id: "209C0E2550C84C69"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D5B70BC50A43075"
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D5B70BC50A43075"
+					type: "random"
+				}
+				{
+					id: "7E827F5DAEEB01BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "535EC0649F7AE316"
@@ -452,11 +523,18 @@
 			description: ["These ashes can be used to draw out alchemical arrays, a kind of magic circle. These will allow you to perform certain enchantments and cantrips, particularly for sigils or some small rituals."]
 			entity_vis_size: 1.0f
 			id: "2DC6C224BD1881C9"
-			rewards: [{
-				id: "6DD09A24470695AA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6DD09A24470695AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5FBDB28EF1FBED87"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "025C057BEBF75AFB"
 				item: {
@@ -481,11 +559,18 @@
 			description: ["This sigil is by far one of the most important in sanguimancy, as it allows you to see the numerical quantity of life essence contained within blood altars or your life network."]
 			entity_vis_size: 1.0f
 			id: "27BBE74203C33C95"
-			rewards: [{
-				id: "2C0EC6E5CC73A918"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2C0EC6E5CC73A918"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0F821BAA52737ABA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "07D024FC495ECDE4"
 				item: {
@@ -507,11 +592,18 @@
 			description: ["The alchemical reaction chamber, or ARC, is a useful machine for extra ore processing, recycling, or particular extractions such as separating blood shards out of saturated tau fruit."]
 			entity_vis_size: 1.0f
 			id: "51EDC749A53FF0D3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0D0525D709CA556A"
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D0525D709CA556A"
+					type: "random"
+				}
+				{
+					id: "6CA99A17A0CDC123"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "56E0404A51517B1C"
 				item: {
@@ -533,11 +625,18 @@
 			description: ["The weak blood shard is a product of the demonic tau fruit and can be used in the creation of the penultimate instruments of sanguimancy, as well as to unveil the true secrets of alchemy."]
 			entity_vis_size: 1.0f
 			id: "51CDC5BD509CE535"
-			rewards: [{
-				id: "168D0B5792967ABC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "168D0B5792967ABC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "70CF2F1B4BF6E55F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3D92F93FDD37245F"
 				item: {
@@ -562,17 +661,24 @@
 			]
 			entity_vis_size: 1.0f
 			id: "6D27277DA055DFBC"
-			rewards: [{
-				id: "3CCAB2F8B0FFA707"
-				item: {
-					Count: 1
-					id: "hexerei:lava_bottle"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "3CCAB2F8B0FFA707"
+					item: {
+						Count: 1
+						id: "hexerei:lava_bottle"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "750AC1A9331408BC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0247DD7DDC3F8084"
 				item: {
@@ -598,12 +704,19 @@
 			]
 			entity_vis_size: 1.0f
 			id: "579E8F816742653C"
-			rewards: [{
-				count: 2
-				id: "37AFD735AF8B53C1"
-				item: "bloodmagic:infusedslate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "37AFD735AF8B53C1"
+					item: "bloodmagic:infusedslate"
+					type: "item"
+				}
+				{
+					id: "2B090217E0A6A2CF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "4D024789FABAD882"
@@ -644,11 +757,18 @@
 			]
 			entity_vis_size: 1.0f
 			id: "29289B6D4610B9D4"
-			rewards: [{
-				id: "32ABBD3833083EF5"
-				item: "bloodmagic:bleedingedge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "32ABBD3833083EF5"
+					item: "bloodmagic:bleedingedge"
+					type: "item"
+				}
+				{
+					id: "4F54675773600D69"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7F1FEAB4ACA7A230"
 				item: {
@@ -670,11 +790,18 @@
 			description: ["This funny-looking wrench thing lets you interface with activated rituals, allowing you to control their area of effect and other properties."]
 			entity_vis_size: 1.0f
 			id: "1AE3C9A1202FE409"
-			rewards: [{
-				id: "03C514B0FB510C00"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "03C514B0FB510C00"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "02D68520F16AA2E0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "18C1ABBFAC17202C"
 				item: {
@@ -696,12 +823,19 @@
 			description: ["This metal native to the demon realm is the highest order material of sanguimancy, and the most permeable to demonic will. Beyond this point, your infrastructure is no longer limited by your knowledge of the art, but rather by how many resources you can dedicate to it."]
 			entity_vis_size: 1.0f
 			id: "639817BED42EBC3A"
-			rewards: [{
-				count: 2
-				id: "2992DF020D4CC712"
-				item: "bloodmagic:infusedslate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "2992DF020D4CC712"
+					item: "bloodmagic:infusedslate"
+					type: "item"
+				}
+				{
+					id: "2FBD847E0D0ED7BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5556AD35B00359B8"
 				item: {
@@ -726,11 +860,18 @@
 			]
 			entity_vis_size: 1.0f
 			id: "234F7C53CB615880"
-			rewards: [{
-				id: "6A7B66590F60CFD9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6A7B66590F60CFD9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "74C2A80F34C0A54C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "469A0DB3F684F4F5"
@@ -855,11 +996,18 @@
 			dependencies: ["6CE0DB1AEB597BCE"]
 			entity_vis_size: 1.0f
 			id: "4FA2BB65ED1D6A03"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "446E856F612B8915"
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "446E856F612B8915"
+					type: "choice"
+				}
+				{
+					id: "44AC12A078DF1546"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "59DA2354D9E99CAE"
@@ -910,12 +1058,19 @@
 			description: ["A better blood orb. Be careful, though, as a blood orb belonging to you will pull from your own life essence, regardless of who is using it."]
 			entity_vis_size: 1.0f
 			id: "3913EED76917339E"
-			rewards: [{
-				count: 4
-				id: "42EA347D9A07D7D8"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "42EA347D9A07D7D8"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "1C8A3B57353E9C46"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "01731E058A1CDC1F"
 				item: {
@@ -936,6 +1091,11 @@
 			dependencies: ["068DF533DB041F37"]
 			entity_vis_size: 1.0f
 			id: "4643D70E0ECF32C6"
+			rewards: [{
+				id: "0C8A3F18298D2E10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "467586B43290BCDB"
@@ -1018,6 +1178,11 @@
 			dependencies: ["068DF533DB041F37"]
 			entity_vis_size: 1.0f
 			id: "7E79862516937EEB"
+			rewards: [{
+				id: "60611577EF9C1F20"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "290B8297B43E239D"
 				item: {
@@ -1036,6 +1201,11 @@
 			dependencies: ["068DF533DB041F37"]
 			entity_vis_size: 1.0f
 			id: "4D4A36C535E4809E"
+			rewards: [{
+				id: "13CD196B63B20AC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "64D81445D68A54E3"
 				item: {
@@ -1055,6 +1225,11 @@
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "31D128CA9B959085"
+			rewards: [{
+				id: "4F42D70E5078D10B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "14827DF920182D05"
@@ -1081,6 +1256,11 @@
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "0D9BE8A704ED8BB4"
+			rewards: [{
+				id: "4C144F6BD80BF2AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "2903B1CE5D382518"
@@ -1101,6 +1281,11 @@
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "5D06B3DA89CB0B2E"
+			rewards: [{
+				id: "597ACEAFFBB55A91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "004A83AA325509BC"
 				item: {
@@ -1120,6 +1305,11 @@
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "585D9482FF0C3669"
+			rewards: [{
+				id: "77BC42B3AE71E6A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "408228206A22A454"
 				item: "perdition:pyrite"
@@ -1133,6 +1323,11 @@
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "19CD7CA150532811"
+			rewards: [{
+				id: "38CA7A27C0E80D2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				dimension: "perdition:purgatory"
 				id: "50B8E170985B1E51"
@@ -1146,6 +1341,11 @@
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "2F27E02457BCBE92"
+			rewards: [{
+				id: "6D11E49B43144F14"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				dimension: "perdition:dis"
 				id: "543BA042D0B534A5"
@@ -1158,6 +1358,11 @@
 			dependencies: ["19CD7CA150532811"]
 			entity_vis_size: 1.0f
 			id: "4317E4672B9BDFF5"
+			rewards: [{
+				id: "65A37894524295F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6F19B47AEAF096F7"
 				item: {
@@ -1177,11 +1382,18 @@
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:chooser_key_item"
 			id: "23F0394594209AF9"
-			rewards: [{
-				id: "432C5099CCADD8DC"
-				item: "desecratedcore:chooser_key_item"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "432C5099CCADD8DC"
+					item: "desecratedcore:chooser_key_item"
+					type: "item"
+				}
+				{
+					id: "172984F3D3889836"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.4d
 			tasks: [{
 				id: "5B5D1A9D90E91760"
@@ -1195,6 +1407,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "1C6C9B0F105380FC"
+			rewards: [{
+				id: "2866C5C9983AAD6D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "30F0F1F0AB311DA8"
 				item: "bloodmagic:etherealslate"

@@ -98,5 +98,6 @@ kubejs/probe
 !config/gpushift-client.toml
 !config/colorwheel-client.toml
 !config/tab_organizer-client.toml
+!config/overflowingbars-client.toml
 
 /mods - Copy

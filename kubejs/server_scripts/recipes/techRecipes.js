@@ -15,7 +15,9 @@ ServerEvents.recipes(event => {
         'meatweapons:basic_pistol',
         'butchery:blood_grate',
         'butchery:meat_grinder',
-        'neepmeat:charnel_compactor'
+        'neepmeat:charnel_compactor',
+        'neepmeat:pedestal',
+        'neepmeat:hungry_heterostructure'
     ]
 
     const removeCraftingShaped = [
@@ -36,6 +38,8 @@ ServerEvents.recipes(event => {
     removeCraftingShapeless.forEach(item => {
         event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
     })
+
+    event.remove({ output: 'clanginghowl:extraterrestrial_steel_ingot', type: 'minecraft:blasting' })
 
     // Butchery
     event.shaped(
@@ -296,6 +300,50 @@ ServerEvents.recipes(event => {
         {
             A: 'neepmeat:polished_metal',
             B: 'neepmeat:packed_browne'
+        }
+    )
+
+    event.shaped(
+        Item.of('neepmeat:pedestal'),
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'neepmeat:item_buffer',
+            C: 'minecraft:diamond',
+            E: 'neepmeat:integration_charge_crude',
+            D: 'neepmeat:data_cable'
+        }
+    )
+
+    event.shaped(
+        Item.of('neepmeat:vascular_conduit', 4),
+        [
+            'AAA',
+            'BCB',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:iron_nugget',
+            B: 'incision:conductor_nerve',
+            C: 'neepmeat:integration_charge_crude'
+        }
+    )
+
+    event.shaped(
+        Item.of('neepmeat:hungry_heterostructure'),
+        [
+            'AAA',
+            'BCB',
+            'AAA'
+        ],
+        {
+            C: 'incision:conductor_nerve',
+            B: 'minecraft:diamond',
+            A: '#desecrated:flesh_circuit'
         }
     )
 

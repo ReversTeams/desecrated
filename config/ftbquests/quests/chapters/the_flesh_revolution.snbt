@@ -67,6 +67,11 @@
 				"7522632161D258AA"
 				"63F1C9A1095AEC1E"
 			]
+			description: [
+				"Pressing blood into drinkable blood! Fully automatic! Mostly automatic.. "
+				""
+				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat, the blood is not fully pure, but it's drinkable."
+			]
 			entity_vis_size: 1.0f
 			id: "34B4063F2F210048"
 			rewards: [
@@ -77,11 +82,12 @@
 					type: "choice"
 				}
 				{
-					id: "250F7D82C8C846AC"
+					id: "541616DC5C5D20A9"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 			]
+			subtitle: "Automated Blood"
 			tasks: [
 				{
 					id: "16CC4292384CCDAE"
@@ -105,6 +111,7 @@
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
+			description: ["These carcasses are quite cumbersome. I should hang them up. Cutting them open right there will just cause a mess on the floor. I should prepare something."]
 			entity_vis_size: 1.0f
 			id: "623C14C05294EFCC"
 			rewards: [{
@@ -141,6 +148,7 @@
 					type: "item"
 				}
 			]
+			title: "Hanging"
 			x: -4.5d
 			y: -4.5d
 		}
@@ -161,12 +169,19 @@
 				}
 			}
 			id: "5D4499D4254102B7"
-			rewards: [{
-				count: 3
-				id: "23E162B7C1D9BAC6"
-				item: "vampiresdelight:blood_wine_glass"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "23E162B7C1D9BAC6"
+					item: "vampiresdelight:blood_wine_glass"
+					type: "item"
+				}
+				{
+					id: "589CAFD6342335BF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "50A384161E70ECA3"
 				stat: "minecraft:mob_kills"
@@ -182,18 +197,25 @@
 			dependencies: ["623C14C05294EFCC"]
 			entity_vis_size: 1.0f
 			id: "63F1C9A1095AEC1E"
-			rewards: [{
-				id: "0801F70AF615422F"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					id: "0801F70AF615422F"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 2
+					type: "item"
 				}
-				random_bonus: 2
-				type: "item"
-			}]
+				{
+					id: "4D7B0BA91BDCA1A1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5EA973AFC3ADC54F"
 				item: "butchery:meat_grinder"
@@ -205,20 +227,43 @@
 		{
 			dependencies: ["623C14C05294EFCC"]
 			dependency_requirement: "one_started"
+			description: [
+				"By placing a grate below the hanging carcass, I can collect the drained blood. The grate will also purify the blood, no longer is it raw! Well, mostly. I should try not to mix raw and purified blood."
+				""
+				"&a(With butcher's papers, you can switch the type of blood in the grate. Beware, you cannot put back blood in a grate.)"
+			]
 			entity_vis_size: 1.0f
 			id: "7522632161D258AA"
-			rewards: [{
-				id: "461D75840C9DC4A7"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					id: "461D75840C9DC4A7"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 2
+					type: "item"
 				}
-				random_bonus: 2
-				type: "item"
-			}]
+				{
+					id: "3441A67742CBD3FA"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "butchery:butchers_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29F8F16BD3579370"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "272AFA21F258B742"
 				item: "butchery:blood_grate"
@@ -231,6 +276,11 @@
 			dependencies: ["623C14C05294EFCC"]
 			entity_vis_size: 1.0f
 			id: "5B9F02CB6F9F9342"
+			rewards: [{
+				id: "7587A1A0B6C462C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4419A2EBC4B6B12B"
 				item: "butchery:skin_rack"
@@ -243,6 +293,11 @@
 			dependencies: ["7522632161D258AA"]
 			entity_vis_size: 1.0f
 			id: "230591732D1998E3"
+			rewards: [{
+				id: "710D8124520E3FAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3DF3439A1F8A025E"
 				item: "butchery:pestle_and_mortar"
@@ -255,6 +310,11 @@
 			dependencies: ["7522632161D258AA"]
 			entity_vis_size: 1.0f
 			id: "4C54DFACCDB8E8E0"
+			rewards: [{
+				id: "7C61851980E6C718"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "0B0269E12AE0EF89"
@@ -313,6 +373,7 @@
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
+			description: ["A Cleaver is a useful butcher's tool. When dealing the final blow, it can preserve the carcass of an animal for it to be processed later. It can also be used as a knife in a cutting board."]
 			entity_vis_size: 1.0f
 			id: "1A04E17C449CBCF1"
 			rewards: [
@@ -328,7 +389,7 @@
 					type: "item"
 				}
 				{
-					id: "630E30E7EB1E74B7"
+					id: "62732A352C608EA1"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -394,10 +455,11 @@
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
+			description: ["Landing the final blow with a cleaver will preserve most of the carcass for processing."]
 			entity_vis_size: 1.0f
 			id: "4B4FD1712575D3F8"
 			rewards: [{
-				id: "6191EBA879A857AA"
+				id: "1FCA18ECE61E4A22"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -426,6 +488,11 @@
 			entity_vis_size: 1.0f
 			icon: "neepmeat:integrator_egg"
 			id: "27E206D2AED49A96"
+			rewards: [{
+				id: "04C81061B519666A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -457,12 +524,19 @@
 				}
 			}
 			id: "3C411C6CC29A7BBB"
-			rewards: [{
-				id: "07EC06E464B31C5A"
-				item: "neepmeat:projector"
-				team_reward: false
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "07EC06E464B31C5A"
+					item: "neepmeat:projector"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "186CB4AC1B1A2072"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "190C7EEFC3D4965C"
@@ -482,12 +556,17 @@
 				}
 			]
 			x: -2.0d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
 			entity_vis_size: 1.0f
 			id: "5C5A1D9906886DF4"
+			rewards: [{
+				id: "24C2C1133E4031C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "08310D2B943B756E"
 				item: "neepmeat:stirling_engine"
@@ -500,6 +579,11 @@
 			dependencies: ["3C6FEBFA33F092E5"]
 			entity_vis_size: 1.0f
 			id: "35FEBF6CDC4E4DA9"
+			rewards: [{
+				id: "3B1B26BA0181C77E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0B3C17EFE8E53631"
 				item: {
@@ -591,13 +675,18 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: -12.5d
 		}
 		{
 			dependencies: ["5C5A1D9906886DF4"]
 			entity_vis_size: 1.0f
 			id: "3C6FEBFA33F092E5"
+			rewards: [{
+				id: "5345CEB6A78907DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7282A83B6CF0233F"
 				item: "neepmeat:small_compressor"
@@ -610,6 +699,11 @@
 			dependencies: ["3C6FEBFA33F092E5"]
 			entity_vis_size: 1.0f
 			id: "2DDB3AC02DE76B0A"
+			rewards: [{
+				id: "6831632A4C3A85BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2E0727F1549C42FA"
 				item: "neepmeat:small_compressor_minecart"
@@ -622,6 +716,11 @@
 			dependencies: ["3C6FEBFA33F092E5"]
 			entity_vis_size: 1.0f
 			id: "24CE50C2833FEFB8"
+			rewards: [{
+				id: "06306B446964A019"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4BDB608D64FCC708"
 				item: {
@@ -650,6 +749,11 @@
 			dependencies: ["720FB6E79AB03072"]
 			entity_vis_size: 1.0f
 			id: "01D544725B5B1137"
+			rewards: [{
+				id: "151BC175125ECE14"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -664,9 +768,11 @@
 				id: "3623651783FC4C3A"
 				observe_type: 0
 				timer: 0L
+				title: "Witness a Verrucous Stone Port"
 				to_observe: "neepmeat:verrucous_stone_port"
 				type: "observation"
 			}]
+			title: "Verrucous Stone Port"
 			x: -4.0d
 			y: -12.5d
 		}
@@ -678,6 +784,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "294DE0759A56CB6A"
+			rewards: [{
+				id: "00C15E73348AC57F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0B29D57C85AEB96E"
 				item: "neepmeat:grinder"
@@ -690,49 +801,66 @@
 			dependencies: ["294DE0759A56CB6A"]
 			entity_vis_size: 1.0f
 			id: "535BD56C924E99EE"
-			rewards: [{
-				id: "5AB28767FE534323"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					id: "5AB28767FE534323"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 2
+					type: "item"
 				}
-				random_bonus: 2
-				type: "item"
-			}]
+				{
+					id: "5156F79524ABFE70"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1DDE6647470E7D88"
 				item: "neepmeat:meat_scrap"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -11.5d
+			x: -7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["535BD56C924E99EE"]
 			entity_vis_size: 1.0f
 			id: "056E6367718CA24E"
+			rewards: [{
+				id: "237BBAF7E16EDAC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5F2CDFB0F491D863"
 				item: "neepmeat:raw_meat_brick"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -13.0d
+			x: -5.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
 			entity_vis_size: 1.0f
 			id: "51C98BEF06A70185"
+			rewards: [{
+				id: "724A16E83344470B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "298087857735C2AD"
 				item: "neepmeat:alloy_kiln"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -15.5d
+			x: -5.5d
+			y: -16.5d
 		}
 		{
 			dependencies: [
@@ -741,6 +869,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "187D75D48A04D454"
+			rewards: [{
+				id: "0EEC1B484176CDA7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6769F689E851790B"
 				item: "neepmeat:meat_steel_ingot"
@@ -753,25 +886,35 @@
 			dependencies: ["3A286E459CE15CB2"]
 			entity_vis_size: 1.0f
 			id: "7B5907164F7959A4"
+			rewards: [{
+				id: "48FD99472BB4D4C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7AE7F469B6EB1E3C"
 				item: "neepmeat:refractory_brick"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -15.0d
+			x: -8.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["35FEBF6CDC4E4DA9"]
 			entity_vis_size: 1.0f
 			id: "3A286E459CE15CB2"
+			rewards: [{
+				id: "51CC84AD6FDD84B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "02FCEAC752DB0136"
 				item: "neepmeat:asbestos"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -13.5d
+			x: -9.5d
+			y: -14.5d
 		}
 		{
 			dependencies: [
@@ -780,6 +923,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "3E79771244634868"
+			rewards: [{
+				id: "455DB61C1B05CAD7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "658136E5BD54DC8F"
 				item: "neepmeat:charnel_compactor"
@@ -792,6 +940,11 @@
 			dependencies: ["3BC238D73427F68B"]
 			entity_vis_size: 1.0f
 			id: "7DC39383E7D870D5"
+			rewards: [{
+				id: "064B0D9C80D05DB0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3AF7107D50C214B4"
 				item: "neepmeat:pedestal"
@@ -804,6 +957,11 @@
 			dependencies: ["7DC39383E7D870D5"]
 			entity_vis_size: 1.0f
 			id: "76EB939D9E63EC40"
+			rewards: [{
+				id: "7A4C104A99F7E1F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "0888C202C4A4650A"
@@ -817,19 +975,29 @@
 			dependencies: ["720FB6E79AB03072"]
 			entity_vis_size: 1.0f
 			id: "6B0E995FC2B51651"
+			rewards: [{
+				id: "4D0EB6D1E5C075B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "473F464CFD1F7FD1"
 				item: "neepmeat:pump"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -12.0d
+			x: -2.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["5C5A1D9906886DF4"]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "720FB6E79AB03072"
+			rewards: [{
+				id: "04F3EEF81C4917A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Fluid Management"
 			tasks: [
 				{
@@ -874,18 +1042,28 @@
 			dependencies: ["7FA3BBF85B8DC373"]
 			entity_vis_size: 1.0f
 			id: "13F215BB3664621C"
+			rewards: [{
+				id: "5E854C0539026D3E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3E2980B321BFE4D8"
 				item: "neepmeat:mixer"
 				type: "item"
 			}]
 			x: -4.0d
-			y: -20.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["3E79771244634868"]
 			entity_vis_size: 1.0f
 			id: "3BC238D73427F68B"
+			rewards: [{
+				id: "7CB51591B7B8CEE0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "75D44C4C573692CE"
 				item: "neepmeat:integration_charge_crude"
@@ -901,18 +1079,28 @@
 			]
 			entity_vis_size: 1.0f
 			id: "7FA3BBF85B8DC373"
+			rewards: [{
+				id: "16BDB62712831952"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "661AD5E517491F94"
 				item: "neepmeat:whisper_brass_ingot"
 				type: "item"
 			}]
 			x: -5.0d
-			y: -19.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
 			entity_vis_size: 1.0f
 			id: "7ACE16042C8B562F"
+			rewards: [{
+				id: "281D88BE2404049A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3AF3E231B1AFA3A6"
 				item: "neepmeat:whisper_wheat_seeds"
@@ -925,6 +1113,11 @@
 			dependencies: ["7FA3BBF85B8DC373"]
 			entity_vis_size: 1.0f
 			id: "0740A62EA79185DE"
+			rewards: [{
+				id: "246757EA8F72B6C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "234279D77774E45E"
@@ -973,12 +1166,17 @@
 				}
 			]
 			x: -5.0d
-			y: -22.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
 			entity_vis_size: 1.0f
 			id: "76184AF5B662D149"
+			rewards: [{
+				id: "0C74DC87B58D4E6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "59A9BECCDDEA6688"
@@ -992,12 +1190,17 @@
 				}
 			]
 			x: -5.0d
-			y: -24.0d
+			y: -24.5d
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
 			entity_vis_size: 1.0f
 			id: "383F0CE846800B66"
+			rewards: [{
+				id: "5290A3A825DCAE82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "63523F431054CA42"
@@ -1012,36 +1215,51 @@
 				}
 			]
 			x: -6.5d
-			y: -23.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
 			entity_vis_size: 1.0f
 			id: "32DD1410B6D0D9DF"
+			rewards: [{
+				id: "66D3AA09A88D8BFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "52F77A7D7467DA2C"
 				item: "neepmeat:dumper"
 				type: "item"
 			}]
 			x: -3.5d
-			y: -23.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["3A286E459CE15CB2"]
 			entity_vis_size: 1.0f
 			id: "31108DE09C27216B"
+			rewards: [{
+				id: "24FB814EAF2C4CB5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1BF0A47E15B9B4FD"
 				item: "neepmeat:asbestos_fabric"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -15.0d
+			x: -11.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["31108DE09C27216B"]
 			entity_vis_size: 1.0f
 			id: "4183E4899388A8BC"
+			rewards: [{
+				id: "5104B0DAA1A3B0DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7FD3A5FA8D612405"
@@ -1089,37 +1307,52 @@
 				}
 			]
 			title: "Asbestos Suit"
-			x: -11.0d
-			y: -16.0d
+			x: -12.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
 			entity_vis_size: 1.0f
 			id: "3B0305E4481DF5EB"
+			rewards: [{
+				id: "1DD51C66334AFF03"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0DB156CF23B8E726"
 				item: "neepmeat:crucible"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -16.5d
+			x: -9.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
 			entity_vis_size: 1.0f
 			id: "0CDD735F5019B57F"
+			rewards: [{
+				id: "01E9E6BA3657BC08"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7642817928EC4826"
 				item: "neepmeat:casting_basin"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -16.5d
+			x: -7.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
 			entity_vis_size: 1.0f
 			id: "538E3136ADC8067A"
+			rewards: [{
+				id: "6BA9A3B27E7450FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1441547E59FAB921"
 				item: {
@@ -1149,18 +1382,28 @@
 			dependencies: ["7FA3BBF85B8DC373"]
 			entity_vis_size: 1.0f
 			id: "5463C9816BB2B2AF"
+			rewards: [{
+				id: "63FD4CF70F0C94D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1611533488E93C2F"
 				item: "neepmeat:fabricator"
 				type: "item"
 			}]
 			x: -6.0d
-			y: -20.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["2ED8C90203220E71"]
 			entity_vis_size: 1.0f
 			id: "448AA4CC0FADE7BB"
+			rewards: [{
+				id: "4162625EF8A32EB1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "143FEF09ED73350E"
 				item: "neepmeat:item_mincer"
@@ -1173,6 +1416,11 @@
 			dependencies: ["76EB939D9E63EC40"]
 			entity_vis_size: 1.0f
 			id: "6316E079115AB0BC"
+			rewards: [{
+				id: "0C577D560BA0811C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "68D7842531D30CBE"
@@ -1197,6 +1445,11 @@
 			dependencies: ["187D75D48A04D454"]
 			entity_vis_size: 1.0f
 			id: "649C05E136899115"
+			rewards: [{
+				id: "63CC2F8032E02DF9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "3125618B52B48C35"
@@ -1216,6 +1469,11 @@
 			dependencies: ["76EB939D9E63EC40"]
 			entity_vis_size: 1.0f
 			id: "5711D5111A0391DF"
+			rewards: [{
+				id: "737C60471EF8D604"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2359EF480E317334"
 				item: "neepmeat:tree_vacuum"
@@ -1228,6 +1486,11 @@
 			dependencies: ["187D75D48A04D454"]
 			entity_vis_size: 1.0f
 			id: "7B80019ED864FE05"
+			rewards: [{
+				id: "200E38F478CB0640"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "67737691F911BDFE"
 				item: "neepmeat:large_compressor"
@@ -1240,6 +1503,11 @@
 			dependencies: ["76EB939D9E63EC40"]
 			entity_vis_size: 1.0f
 			id: "65DC84966035E4A3"
+			rewards: [{
+				id: "07964EE4CF8C22AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "53216D7A413BE3AC"
 				item: "neepmeat:extractor"
@@ -1255,6 +1523,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "55797E03F03413CB"
+			rewards: [{
+				id: "18F9DE8E3CC0C431"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6D70ADFA7E1FC10E"
 				item: {
@@ -1304,6 +1577,11 @@
 			dependencies: ["538E3136ADC8067A"]
 			entity_vis_size: 1.0f
 			id: "2AFF8D698827E4C9"
+			rewards: [{
+				id: "712995AB4FC41D25"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "626452F81C6CE55F"
 				item: "meatweapons:tinker_table"
@@ -1317,6 +1595,11 @@
 			description: ["{entity:meatweapons:airtruck ent_size:1.0 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"]
 			entity_vis_size: 1.0f
 			id: "0DB89267B6D66DE7"
+			rewards: [{
+				id: "6032F97712462824"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3C4A4BC8AC53FF93"
 				item: "meatweapons:airtruck"
@@ -1329,6 +1612,11 @@
 			dependencies: ["2AFF8D698827E4C9"]
 			entity_vis_size: 1.0f
 			id: "7ABE344C6FDCD215"
+			rewards: [{
+				id: "6E96FA01268B9D89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "440E67915C2855FD"
@@ -1411,6 +1699,11 @@
 			dependencies: ["056E6367718CA24E"]
 			entity_vis_size: 1.0f
 			id: "557215ED76C0BB67"
+			rewards: [{
+				id: "5507ED7B11AD3517"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6454DDCF2F8545F8"
 				item: {
@@ -1507,13 +1800,18 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -14.0d
+			x: -6.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
 			entity_vis_size: 1.0f
 			id: "2BCABB8D4AB8F275"
+			rewards: [{
+				id: "603C01EF36B3901F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "182AD3B6B397B090"
 				item: {
@@ -1637,6 +1935,11 @@
 			dependencies: ["2BCABB8D4AB8F275"]
 			entity_vis_size: 1.0f
 			id: "7396E6E0E4CD2397"
+			rewards: [{
+				id: "71311AA8E090CA4F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2027CF072D2EEB48"
 				item: {
@@ -1680,6 +1983,11 @@
 			dependencies: ["2AFF8D698827E4C9"]
 			entity_vis_size: 1.0f
 			id: "284AA21204626971"
+			rewards: [{
+				id: "0A3A9180CCC8B09E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0450D77E5B6D3E97"
 				item: {
@@ -1715,6 +2023,11 @@
 			dependencies: ["284AA21204626971"]
 			entity_vis_size: 1.0f
 			id: "129FCC67646EA887"
+			rewards: [{
+				id: "195CB2C5FDA660AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "36135A0DB3434FA6"
 				item: {
@@ -1750,6 +2063,11 @@
 			dependencies: ["284AA21204626971"]
 			entity_vis_size: 1.0f
 			id: "2A6D6B86EC28F5B2"
+			rewards: [{
+				id: "65974566877B58E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "04B0B0CB5EB1B295"
 				item: "meatweapons:phage_ray_speed_modifier"
@@ -1762,6 +2080,11 @@
 			dependencies: ["2AFF8D698827E4C9"]
 			entity_vis_size: 1.0f
 			id: "2E15DAFC18F296F9"
+			rewards: [{
+				id: "2F292CFB93808DCE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "629BC1652BA7D98B"
 				item: {
@@ -1793,6 +2116,11 @@
 			dependencies: ["538E3136ADC8067A"]
 			entity_vis_size: 1.0f
 			id: "5EAEE969037829A4"
+			rewards: [{
+				id: "0BB9FAEC86C67760"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5902F3D7B9C0F070"
 				item: "neepmeat:divine_organ"
@@ -1808,6 +2136,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "7F638D83710A4BFD"
+			rewards: [{
+				id: "1B46B686123FAF3F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5BF0AE9951126261"
 				item: "neepmeat:phage_ray"
@@ -1820,6 +2153,11 @@
 			dependencies: ["7DC39383E7D870D5"]
 			entity_vis_size: 1.0f
 			id: "2ED8C90203220E71"
+			rewards: [{
+				id: "4F3C4A169D0BFFEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3CCFB4096D275134"
 				item: "neepmeat:flesh_potato"
@@ -1832,6 +2170,11 @@
 			dependencies: ["720FB6E79AB03072"]
 			entity_vis_size: 1.0f
 			id: "73DB815B7413BC62"
+			rewards: [{
+				id: "55964DEC48B24286"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "222F0F0DBBE67147"
 				item: "neepmeat:fluid_drain"
@@ -1847,30 +2190,45 @@
 			]
 			entity_vis_size: 1.0f
 			id: "2C7E9493B5246AF6"
+			rewards: [{
+				id: "04F4E2B8125C29C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "213C9848EF8C24B2"
 				item: "neepmeat:vascular_conduit"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -15.0d
+			x: 2.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
 			entity_vis_size: 1.0f
 			id: "0EF999DF08503DD3"
+			rewards: [{
+				id: "02D086F00F8C88EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1BDE01CBA92F6258"
 				item: "neepmeat:hydraulic_press"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -18.5d
+			x: -7.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
 			entity_vis_size: 1.0f
 			id: "46F6D38B82B45363"
+			rewards: [{
+				id: "606E339FC3BCA19A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "34056298A76281AE"
 				item: "neepmeat:transducer"
@@ -1883,18 +2241,25 @@
 			dependencies: ["7DC39383E7D870D5"]
 			entity_vis_size: 1.0f
 			id: "15C64A76D9BDAF58"
-			rewards: [{
-				id: "7C2BB1ED03FA5136"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					id: "7C2BB1ED03FA5136"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 2
+					type: "item"
 				}
-				random_bonus: 2
-				type: "item"
-			}]
+				{
+					id: "6C84C1EBD847BD55"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "71617DDF6591774E"
 				item: "neepmeat:blood_bubble_sapling"
@@ -1907,6 +2272,11 @@
 			dependencies: ["15C64A76D9BDAF58"]
 			entity_vis_size: 1.0f
 			id: "56C3A5105479F0AF"
+			rewards: [{
+				id: "2DB063130111219E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4ED1C1F425CBCE3B"
 				item: "neepmeat:blood_bubble"
@@ -1917,8 +2287,14 @@
 		}
 		{
 			dependencies: ["7522632161D258AA"]
+			description: ["I can now collect blood in a bucket. To maximize the blood of an animal, I should drink most of its surface blood first or spit it into a glass bottle myself first. Then I should land the final blow with a cleaver, drain the carcass and process the meat into blood."]
 			entity_vis_size: 1.0f
 			id: "1B42894DCECA7C66"
+			rewards: [{
+				id: "120AA4DC9A0E2B3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "341468F7AD302BCF"
 				item: "desecratedcore:blood_bucket"
@@ -1929,6 +2305,7 @@
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
+			description: ["To process an animal, I will need tools to skin it, cut and crack through bone and skulls."]
 			entity_vis_size: 1.0f
 			id: "1891D96CF64826F6"
 			rewards: [
@@ -1944,7 +2321,7 @@
 					type: "item"
 				}
 				{
-					id: "5AC51D6DF8D9BF00"
+					id: "05E98115BD2AFA85"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -2116,6 +2493,7 @@
 					type: "item"
 				}
 			]
+			title: "Butchering Tools"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -2123,6 +2501,11 @@
 			dependencies: ["623C14C05294EFCC"]
 			entity_vis_size: 1.0f
 			id: "20D1A7AA42AEAE60"
+			rewards: [{
+				id: "0F1F7A8BB2D966EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2C255BEEF887EC2D"
 				item: "butchery:basin"
@@ -2136,6 +2519,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "23E9BE6DF9CD5AA7"
+			rewards: [{
+				id: "51CFB301ECD9312C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0E87D465A57CEDA7"
 				item: "butchery:magic_wishbone"
@@ -2154,7 +2542,7 @@
 			entity_vis_size: 1.0f
 			id: "0CCBECA8C3CD1504"
 			rewards: [{
-				id: "2D2F1E751358685B"
+				id: "0901D475878844CD"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -2182,6 +2570,11 @@
 			dependencies: ["623C14C05294EFCC"]
 			entity_vis_size: 1.0f
 			id: "5002D4D86529E236"
+			rewards: [{
+				id: "168B238869815F8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1D4722689FD0C6D4"
 				item: "fishermens_trap:fishtrap"
@@ -2194,6 +2587,11 @@
 			dependencies: ["7F638D83710A4BFD"]
 			entity_vis_size: 1.0f
 			id: "1CFC91B3E529DCE8"
+			rewards: [{
+				id: "2EFDE446F205799C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -2218,6 +2616,11 @@
 			dependencies: ["1CFC91B3E529DCE8"]
 			entity_vis_size: 1.0f
 			id: "08648DDF8C6F0A20"
+			rewards: [{
+				id: "73E43F5F5054F498"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3E09AE1FF1194097"
 				item: {
@@ -2287,6 +2690,11 @@
 			dependencies: ["1CFC91B3E529DCE8"]
 			entity_vis_size: 1.0f
 			id: "4D2F18ACAB325F21"
+			rewards: [{
+				id: "5F4BBBE97315D536"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "01546538BF4FA32C"
 				item: "clanginghowl:extraterrestrial_steel_ingot"
@@ -2299,6 +2707,11 @@
 			dependencies: ["1CFC91B3E529DCE8"]
 			entity_vis_size: 1.0f
 			id: "76268D2BD1283EF4"
+			rewards: [{
+				id: "434DBD3FBB20B59E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "11E9FE6E70EA1E9D"
 				item: "clanginghowl:extraterrestrial_energy_crystal"
@@ -2311,6 +2724,11 @@
 			dependencies: ["4D2F18ACAB325F21"]
 			entity_vis_size: 1.0f
 			id: "37649F8E3041B2FB"
+			rewards: [{
+				id: "2DD5EEA51B226BDE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "55CF70C33724A6B5"
 				item: {
@@ -2366,6 +2784,11 @@
 			dependencies: ["4D2F18ACAB325F21"]
 			entity_vis_size: 1.0f
 			id: "3F82A1635119FC83"
+			rewards: [{
+				id: "0BD9F55D23C2CA4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "218D85507EC69959"
 				item: {
@@ -2387,6 +2810,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "47271D8E8C2CAA7C"
+			rewards: [{
+				id: "64332D2D933B3614"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1A8BF5DCEDD1A85B"
 				item: {
@@ -2399,13 +2827,18 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -27.0d
 		}
 		{
 			dependencies: ["47271D8E8C2CAA7C"]
 			entity_vis_size: 1.0f
 			id: "47734465F52F456E"
+			rewards: [{
+				id: "5FF98B3A9C524A90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "24B58B191AD93FDB"
 				item: {
@@ -2418,13 +2851,18 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: -29.0d
 		}
 		{
 			dependencies: ["47734465F52F456E"]
 			entity_vis_size: 1.0f
 			id: "488C8DEE3EC51CBB"
+			rewards: [{
+				id: "573E7148C872B48C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "67E807B05C126AA9"
 				item: {
@@ -2447,6 +2885,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "0D308BF48937BBF8"
+			rewards: [{
+				id: "3648AEC44DCE2A18"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0892CBBB950DAB6D"
 				item: "clanginghowl:battery_panel"
@@ -2459,6 +2902,11 @@
 			dependencies: ["0D308BF48937BBF8"]
 			entity_vis_size: 1.0f
 			id: "1AEF73000108E3E5"
+			rewards: [{
+				id: "2BC80A6A2EDB7849"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0FC72F2BCD1F256F"
 				item: {
@@ -2478,6 +2926,11 @@
 			dependencies: ["0D308BF48937BBF8"]
 			entity_vis_size: 1.0f
 			id: "0CE83C23609A09E2"
+			rewards: [{
+				id: "387838F881FDD0A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1B287BEE67C800E7"
 				item: {
@@ -2497,6 +2950,11 @@
 			dependencies: ["0D308BF48937BBF8"]
 			entity_vis_size: 1.0f
 			id: "64C219A4211647B9"
+			rewards: [{
+				id: "1DAFB856BD87DA65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2783F182448648F9"
 				item: {
@@ -2516,6 +2974,11 @@
 			dependencies: ["0D308BF48937BBF8"]
 			entity_vis_size: 1.0f
 			id: "38DA790662C020EA"
+			rewards: [{
+				id: "791E32D031AACEF5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3E96B1CAC92D8E79"
 				item: {
@@ -2536,6 +2999,11 @@
 			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "660249C3AB705141"
+			rewards: [{
+				id: "5221F155AF8356EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0AFC336F81309627"
 				item: "clanginghowl:techno_optics"
@@ -2548,6 +3016,11 @@
 			dependencies: ["1CFC91B3E529DCE8"]
 			entity_vis_size: 1.0f
 			id: "19BA5E36EDE9AD6D"
+			rewards: [{
+				id: "694AC34CF861D1B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "3169D4530F6B8C0E"
@@ -2585,6 +3058,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "36149D05010F93AB"
+			rewards: [{
+				id: "62A734D740E3118E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "574E431672B5BC0F"
 				item: {
@@ -2605,6 +3083,11 @@
 			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "0B85F0A2B253BCB5"
+			rewards: [{
+				id: "73800E49A5405638"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "029AD2C0F6CE95FA"
 				item: "clanginghowl:advanced_electronics"
@@ -2617,6 +3100,11 @@
 			dependencies: ["0B85F0A2B253BCB5"]
 			entity_vis_size: 1.0f
 			id: "2328EE4A22B1374F"
+			rewards: [{
+				id: "05B5AB79BD82CEAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4CDEAA05D36B76E7"
 				item: {
@@ -2636,6 +3124,11 @@
 			dependencies: ["0B85F0A2B253BCB5"]
 			entity_vis_size: 1.0f
 			id: "5B216B524D6EDED6"
+			rewards: [{
+				id: "14A4092ED26B49A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "440C6325422E0614"
 				item: {
@@ -2655,6 +3148,11 @@
 			dependencies: ["0B85F0A2B253BCB5"]
 			entity_vis_size: 1.0f
 			id: "13B0A98B475E3C71"
+			rewards: [{
+				id: "241E3631777FD3DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "107069E9A975844C"
 				item: {
@@ -2674,6 +3172,11 @@
 			dependencies: ["0B85F0A2B253BCB5"]
 			entity_vis_size: 1.0f
 			id: "6BB92DD61A8FCD89"
+			rewards: [{
+				id: "5100CFC51E3063A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3090EC3184B60B21"
 				item: {
@@ -2693,6 +3196,11 @@
 			dependencies: ["0B85F0A2B253BCB5"]
 			entity_vis_size: 1.0f
 			id: "3A6648F49C71051C"
+			rewards: [{
+				id: "0FDF475783C0AB45"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "32BEEE3F00B66D36"
 				item: "clanginghowl:bloody_battery"
@@ -2706,6 +3214,11 @@
 			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "46863F1BC67DECF2"
+			rewards: [{
+				id: "63E07C9FD7C2AB07"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "50C7F6581C5026C9"
 				item: "clanginghowl:techno_heart"
@@ -2718,6 +3231,11 @@
 			dependencies: ["0B85F0A2B253BCB5"]
 			entity_vis_size: 1.0f
 			id: "410D6A799429D167"
+			rewards: [{
+				id: "26DF8E825294A9A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "14B751828375002E"
 				item: {
@@ -2737,6 +3255,11 @@
 			dependencies: ["0D308BF48937BBF8"]
 			entity_vis_size: 1.0f
 			id: "5A06AC5C47936D19"
+			rewards: [{
+				id: "6EC28094FFDA725E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6DC6439295DDA8BB"
 				item: {
@@ -2755,6 +3278,11 @@
 			dependencies: ["47271D8E8C2CAA7C"]
 			entity_vis_size: 1.0f
 			id: "308EB4268D43D98C"
+			rewards: [{
+				id: "787F4F5BCA1379BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2F92C3A7D1CB487E"
 				item: {
@@ -2776,13 +3304,18 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -27.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
 			entity_vis_size: 1.0f
 			id: "1565749CF7EB22DE"
+			rewards: [{
+				id: "56DD71ED25904F9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5A4CED090DD1A57E"
 				item: "clanginghowl:stationary_charging_station"
@@ -2795,6 +3328,11 @@
 			dependencies: ["173599F954578016"]
 			entity_vis_size: 1.0f
 			id: "5AA74C527B4105F6"
+			rewards: [{
+				id: "43DCD09D02D44707"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1650E11EA0A59F31"
 				item: "clanginghowl:crystal_former"
@@ -2807,6 +3345,11 @@
 			dependencies: ["3F82A1635119FC83"]
 			entity_vis_size: 1.0f
 			id: "173599F954578016"
+			rewards: [{
+				id: "5CF9A15BB2A6235B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6EACCDCAF4849AF4"
 				item: "clanginghowl:extraterrestrial_steel_plate"
@@ -2819,6 +3362,11 @@
 			dependencies: ["0D308BF48937BBF8"]
 			entity_vis_size: 1.0f
 			id: "45463FBBEA44EC81"
+			rewards: [{
+				id: "46C18C2AB010008A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5FD71C81D7BD32ED"
 				item: "clanginghowl:barrier_of_extraterrestrial_activity"
@@ -2830,6 +3378,11 @@
 		{
 			entity_vis_size: 1.0f
 			id: "5CBF6B358D34087C"
+			rewards: [{
+				id: "40AC74E5A3A63D10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6EFD06D5C579AAE9"
 				item: "incision:eyebulb"
@@ -2842,6 +3395,11 @@
 			dependencies: ["5CBF6B358D34087C"]
 			entity_vis_size: 1.0f
 			id: "5005BB124AA555F8"
+			rewards: [{
+				id: "012CEDD43C4F94EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "23C7A825B7DC2590"
 				item: "incision:lens_glass"
@@ -2854,6 +3412,11 @@
 			dependencies: ["5CBF6B358D34087C"]
 			entity_vis_size: 1.0f
 			id: "3460CBDF9DA51D73"
+			rewards: [{
+				id: "2D9F67011BFA53AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "354782AC58745134"
 				item: "incision:conductor_nerve"
@@ -2865,6 +3428,11 @@
 		{
 			entity_vis_size: 1.0f
 			id: "02ECCCD98242956B"
+			rewards: [{
+				id: "3CF85AD4B1D869D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "13A46D3024FD4104"
@@ -2889,6 +3457,11 @@
 		{
 			entity_vis_size: 1.0f
 			id: "3A5B721A7E614679"
+			rewards: [{
+				id: "7272728BCA495D7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2DC699AF1510ECA4"
 				item: "concatenatedadditionsmachines:boiler"
@@ -2901,6 +3474,11 @@
 			dependencies: ["3A5B721A7E614679"]
 			entity_vis_size: 1.0f
 			id: "5DC0FCAE66BF00E8"
+			rewards: [{
+				id: "7FC30420BC8DAB74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4C6591E3F784116A"
 				item: "concatenatedadditionsmachines:hydraulic_tree_feller"
@@ -2913,6 +3491,11 @@
 			dependencies: ["3A5B721A7E614679"]
 			entity_vis_size: 1.0f
 			id: "00A7C3C7A6E8A59D"
+			rewards: [{
+				id: "736FB4B3D6DBB1F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "296FF6FE0366906B"
 				item: "concatenatedadditionsmachines:hydraulic_crusher"
