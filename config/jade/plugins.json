@@ -51,9 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -63,18 +60,6 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
-  },
-  "jadeaddons.lootr": {
-    "info": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -102,14 +87,32 @@
     "pedestal_charging": true,
     "altar_of_inspiration": true
   },
+  "balm": {
+    "jade": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "waystones": {
+    "waystone": true
+  },
   "corpse": {
     "corpse": true
   },
   "beer": {
     "beer": true
-  },
-  "balm": {
-    "jade": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

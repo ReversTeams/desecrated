@@ -479,7 +479,6 @@
 						}
 					}
 					id: "bloodyhell:reliquary"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -691,6 +690,18 @@
 			dependencies: ["7A82C01F08326C74"]
 			entity_vis_size: 1.0f
 			id: "31E9E6BBC04B24F9"
+			rewards: [{
+				count: 3
+				id: "124F432CC34B5CC8"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73CE011FD7FAC15D"
 				item: "sons_of_sins:ether_ashes"
@@ -718,6 +729,18 @@
 			]
 			entity_vis_size: 1.0f
 			id: "6F71CC7D8969DFA6"
+			rewards: [{
+				count: 3
+				id: "6C98908E3F273544"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "20479500D6A0F789"
 				item: "sons_of_sins:blood_bucket"
@@ -747,11 +770,7 @@
 			}]
 			tasks: [{
 				id: "0302303657EA0172"
-				item: {
-					Count: 1
-					id: "sons_of_sins:bottle_of_blood"
-					tag: { }
-				}
+				item: "sons_of_sins:bottle_of_blood"
 				type: "item"
 			}]
 			x: 0.0d
@@ -970,6 +989,18 @@
 			dependency_requirement: "one_completed"
 			entity_vis_size: 1.0f
 			id: "7D5169ED2AE67ACB"
+			rewards: [{
+				count: 3
+				id: "48632DE241C3E86B"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73ABE930EC7E53A3"
 				item: {
@@ -1076,11 +1107,7 @@
 			id: "667889EB98C92FD4"
 			tasks: [{
 				id: "569E2D1AB70BC196"
-				item: {
-					Count: 1
-					id: "sons_of_sins:wistivers_jaws"
-					tag: { }
-				}
+				item: "sons_of_sins:wistivers_jaws"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1982,11 +2009,7 @@
 			id: "2A8D992F16D4BE46"
 			tasks: [{
 				id: "4B08E495889C26AC"
-				item: {
-					Count: 1
-					id: "biomancy:essence"
-					tag: { }
-				}
+				item: "biomancy:essence"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1998,11 +2021,7 @@
 			id: "4D42C34DA0540090"
 			tasks: [{
 				id: "73663CE5C1D022C3"
-				item: {
-					Count: 1
-					id: "biomancy:ravenous_claws"
-					tag: { }
-				}
+				item: "biomancy:ravenous_claws"
 				type: "item"
 			}]
 			x: 7.5d
@@ -2029,11 +2048,7 @@
 			id: "703274901EDEC2AF"
 			tasks: [{
 				id: "2BFBA4932B23F298"
-				item: {
-					Count: 1
-					id: "biomancy:caustic_gunblade"
-					tag: { }
-				}
+				item: "biomancy:caustic_gunblade"
 				type: "item"
 			}]
 			x: 6.0d
@@ -2090,11 +2105,7 @@
 			id: "31E7ABD79D14926E"
 			tasks: [{
 				id: "5F92BFAB49D0468F"
-				item: {
-					Count: 1
-					id: "biomancy:thorn_shield"
-					tag: { }
-				}
+				item: "biomancy:thorn_shield"
 				type: "item"
 			}]
 			x: 6.5d

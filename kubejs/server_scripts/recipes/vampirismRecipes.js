@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
                         B: '#minecraft:planks',
                         C: 'butchery:meat_grinder',
                         D: 'minecraft:iron_block',
-                        A: 'farmersdelight:diamond_knife'
+                        A: 'butchery:diamond_skinning_knife'
                 }
         )
 });

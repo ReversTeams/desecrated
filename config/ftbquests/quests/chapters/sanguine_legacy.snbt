@@ -67,6 +67,18 @@
 			dependencies: ["47A72E03EBA8A7ED"]
 			entity_vis_size: 1.0f
 			id: "36B2420BD0867B95"
+			rewards: [{
+				count: 3
+				id: "0F9C05E9D4B10AB6"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18ADBA372793F0FD"
 				item: "vampirism:altar_inspiration"
@@ -112,11 +124,25 @@
 			]
 			entity_vis_size: 1.0f
 			id: "3FEE19387DC6BD6E"
-			rewards: [{
-				id: "4A7EAB1BAE6E0CA9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "09425D9AAC69899C"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A7EAB1BAE6E0CA9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "vampirism:vampire/resurrect"
 				criterion: ""

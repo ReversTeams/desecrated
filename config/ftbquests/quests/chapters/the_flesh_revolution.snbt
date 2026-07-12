@@ -12,8 +12,8 @@
 			image: "clanginghowl:block/active_nerve_endings"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.0d
-			y: -26.0d
+			x: 12.5d
+			y: -24.5d
 		}
 		{
 			height: 1.0d
@@ -21,7 +21,7 @@
 			rotation: -180.0d
 			width: 1.0d
 			x: 0.5d
-			y: -16.0d
+			y: -17.0d
 		}
 		{
 			height: 1.0d
@@ -49,6 +49,15 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			alpha: 120
+			height: 1.6d
+			image: "celestisynth:textures/particle/pulsation4.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: -11.0d
+			y: -7.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -60,6 +69,19 @@
 			]
 			entity_vis_size: 1.0f
 			id: "34B4063F2F210048"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74C0A494E926E148"
+					table_id: 7709551234697759041L
+					type: "choice"
+				}
+				{
+					id: "250F7D82C8C846AC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "16CC4292384CCDAE"
@@ -85,6 +107,11 @@
 			dependencies: ["5D4499D4254102B7"]
 			entity_vis_size: 1.0f
 			id: "623C14C05294EFCC"
+			rewards: [{
+				id: "230DCDAECAF7F5D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "5A75F1E5A4383EA7"
@@ -155,6 +182,18 @@
 			dependencies: ["623C14C05294EFCC"]
 			entity_vis_size: 1.0f
 			id: "63F1C9A1095AEC1E"
+			rewards: [{
+				id: "0801F70AF615422F"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EA973AFC3ADC54F"
 				item: "butchery:meat_grinder"
@@ -168,6 +207,18 @@
 			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "7522632161D258AA"
+			rewards: [{
+				id: "461D75840C9DC4A7"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "272AFA21F258B742"
 				item: "butchery:blood_grate"
@@ -256,6 +307,7 @@
 					type: "item"
 				}
 			]
+			title: "Butcher's Table"
 			x: -1.0d
 			y: -4.0d
 		}
@@ -263,17 +315,24 @@
 			dependencies: ["5D4499D4254102B7"]
 			entity_vis_size: 1.0f
 			id: "1A04E17C449CBCF1"
-			rewards: [{
-				id: "51CEF6F8EE97639F"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "butchery:butchers_guide"
+			rewards: [
+				{
+					id: "51CEF6F8EE97639F"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "butchery:butchers_guide"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "630E30E7EB1E74B7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1E1FEC769AB14559"
 				item: {
@@ -337,6 +396,11 @@
 			dependencies: ["1A04E17C449CBCF1"]
 			entity_vis_size: 1.0f
 			id: "4B4FD1712575D3F8"
+			rewards: [{
+				id: "6191EBA879A857AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "02EB7D5B60635CE8"
 				item: {
@@ -375,11 +439,15 @@
 					type: "item"
 				}
 			]
+			title: "The Integrator Egg"
 			x: -1.0d
 			y: -12.5d
 		}
 		{
-			dependencies: ["34B4063F2F210048"]
+			dependencies: [
+				"34B4063F2F210048"
+				"02ECCCD98242956B"
+			]
 			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
@@ -417,6 +485,7 @@
 			y: -9.5d
 		}
 		{
+			dependencies: ["3A5B721A7E614679"]
 			entity_vis_size: 1.0f
 			id: "5C5A1D9906886DF4"
 			tasks: [{
@@ -605,6 +674,7 @@
 			dependencies: [
 				"5C5A1D9906886DF4"
 				"63F1C9A1095AEC1E"
+				"02ECCCD98242956B"
 			]
 			entity_vis_size: 1.0f
 			id: "294DE0759A56CB6A"
@@ -613,13 +683,25 @@
 				item: "neepmeat:grinder"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -9.0d
+			x: -7.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["294DE0759A56CB6A"]
 			entity_vis_size: 1.0f
 			id: "535BD56C924E99EE"
+			rewards: [{
+				id: "5AB28767FE534323"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DDE6647470E7D88"
 				item: "neepmeat:meat_scrap"
@@ -707,7 +789,7 @@
 			y: -14.5d
 		}
 		{
-			dependencies: ["3E79771244634868"]
+			dependencies: ["3BC238D73427F68B"]
 			entity_vis_size: 1.0f
 			id: "7DC39383E7D870D5"
 			tasks: [{
@@ -716,10 +798,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -16.5d
+			y: -17.5d
 		}
 		{
-			dependencies: ["3BC238D73427F68B"]
+			dependencies: ["7DC39383E7D870D5"]
 			entity_vis_size: 1.0f
 			id: "76EB939D9E63EC40"
 			size: 1.2d
@@ -748,6 +830,7 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "720FB6E79AB03072"
+			subtitle: "Fluid Management"
 			tasks: [
 				{
 					id: "2EA6CE909452721D"
@@ -767,6 +850,7 @@
 							]
 						}
 					}
+					title: "Any Tank"
 					type: "item"
 				}
 				{
@@ -778,9 +862,11 @@
 							value: "neepmeat:fluid_pipes"
 						}
 					}
+					title: "Any Fluid Pipe"
 					type: "item"
 				}
 			]
+			title: "Tanks \\& Pipes"
 			x: -4.0d
 			y: -10.0d
 		}
@@ -797,7 +883,7 @@
 			y: -20.5d
 		}
 		{
-			dependencies: ["7DC39383E7D870D5"]
+			dependencies: ["3E79771244634868"]
 			entity_vis_size: 1.0f
 			id: "3BC238D73427F68B"
 			tasks: [{
@@ -805,8 +891,8 @@
 				item: "neepmeat:integration_charge_crude"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -19.5d
+			x: 0.5d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -1002,6 +1088,7 @@
 					type: "item"
 				}
 			]
+			title: "Asbestos Suit"
 			x: -11.0d
 			y: -16.0d
 		}
@@ -1054,8 +1141,9 @@
 				title: "Any Flesh Circuit"
 				type: "item"
 			}]
+			title: "Flesh Circuits"
 			x: 4.0d
-			y: -18.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
@@ -1079,7 +1167,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -20.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
@@ -1208,6 +1296,7 @@
 				title: "Any Meat Steel Tool"
 				type: "item"
 			}]
+			title: "Meat Steel Tools"
 			x: -3.0d
 			y: -17.0d
 		}
@@ -1220,8 +1309,8 @@
 				item: "meatweapons:tinker_table"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -16.5d
+			x: 6.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
@@ -1315,8 +1404,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -14.5d
+			x: 6.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["056E6367718CA24E"]
@@ -1541,8 +1630,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -16.0d
+			x: 7.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2BCABB8D4AB8F275"]
@@ -1584,8 +1673,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -15.5d
+			x: 9.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -1619,8 +1708,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -17.5d
+			x: 7.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["284AA21204626971"]
@@ -1654,8 +1743,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -19.0d
+			x: 8.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["284AA21204626971"]
@@ -1666,8 +1755,8 @@
 				item: "meatweapons:phage_ray_speed_modifier"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -17.5d
+			x: 9.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -1697,8 +1786,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -19.0d
+			x: 10.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
@@ -1709,8 +1798,8 @@
 				item: "neepmeat:divine_organ"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -21.0d
+			x: 5.5d
+			y: -19.0d
 		}
 		{
 			dependencies: [
@@ -1724,8 +1813,8 @@
 				item: "neepmeat:phage_ray"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -22.5d
+			x: 7.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -1737,7 +1826,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -19.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
@@ -1763,8 +1852,8 @@
 				item: "neepmeat:vascular_conduit"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -19.0d
+			x: 3.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
@@ -1788,19 +1877,31 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -19.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
 			entity_vis_size: 1.0f
 			id: "15C64A76D9BDAF58"
+			rewards: [{
+				id: "7C2BB1ED03FA5136"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "71617DDF6591774E"
 				item: "neepmeat:blood_bubble_sapling"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -15.5d
+			x: 2.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["15C64A76D9BDAF58"]
@@ -1811,8 +1912,8 @@
 				item: "neepmeat:blood_bubble"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -14.5d
+			x: 3.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["7522632161D258AA"]
@@ -1830,17 +1931,24 @@
 			dependencies: ["1A04E17C449CBCF1"]
 			entity_vis_size: 1.0f
 			id: "1891D96CF64826F6"
-			rewards: [{
-				id: "5F42F45F4F01EC20"
-				item: {
-					Count: 1
-					id: "butchery:sponge"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "5F42F45F4F01EC20"
+					item: {
+						Count: 1
+						id: "butchery:sponge"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5AC51D6DF8D9BF00"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "076E0C7384E724A3"
@@ -2064,7 +2172,6 @@
 						}
 					}
 					id: "supplementaries:lunch_basket"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -2104,8 +2211,8 @@
 				to_observe: "clanginghowl:extraterrestrial_stone"
 				type: "observation"
 			}]
-			x: 7.0d
-			y: -25.0d
+			x: 8.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["1CFC91B3E529DCE8"]
@@ -2173,8 +2280,8 @@
 				title: "Any Meteorite Tool"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -24.0d
+			x: 10.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["1CFC91B3E529DCE8"]
@@ -2185,8 +2292,8 @@
 				item: "clanginghowl:extraterrestrial_steel_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -26.5d
+			x: 10.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["1CFC91B3E529DCE8"]
@@ -2197,8 +2304,8 @@
 				item: "clanginghowl:extraterrestrial_energy_crystal"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -26.5d
+			x: 7.5d
+			y: -25.0d
 		}
 		{
 			dependencies: ["4D2F18ACAB325F21"]
@@ -2252,8 +2359,8 @@
 				title: "Any Extraterrestrial Steel Tool"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -27.5d
+			x: 11.5d
+			y: -26.0d
 		}
 		{
 			dependencies: ["4D2F18ACAB325F21"]
@@ -2270,8 +2377,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -29.0d
+			x: 10.0d
+			y: -27.5d
 		}
 		{
 			dependencies: [
@@ -2292,8 +2399,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -28.5d
+			x: 7.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["47271D8E8C2CAA7C"]
@@ -2311,8 +2418,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -30.5d
+			x: 6.5d
+			y: -29.0d
 		}
 		{
 			dependencies: ["47734465F52F456E"]
@@ -2330,8 +2437,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -32.0d
+			x: 6.0d
+			y: -30.5d
 		}
 		{
 			dependencies: [
@@ -2345,8 +2452,8 @@
 				item: "clanginghowl:battery_panel"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -31.0d
+			x: 9.0d
+			y: -29.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2364,8 +2471,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -33.0d
+			x: 8.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2383,8 +2490,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -33.0d
+			x: 11.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2402,8 +2509,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -31.5d
+			x: 11.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2421,8 +2528,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -33.5d
+			x: 10.0d
+			y: -32.0d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -2434,8 +2541,8 @@
 				item: "clanginghowl:techno_optics"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -28.0d
+			x: 14.5d
+			y: -26.5d
 		}
 		{
 			dependencies: ["1CFC91B3E529DCE8"]
@@ -2468,8 +2575,8 @@
 					type: "structure"
 				}
 			]
-			x: 11.0d
-			y: -25.5d
+			x: 12.5d
+			y: -24.0d
 		}
 		{
 			dependencies: [
@@ -2490,8 +2597,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: -29.5d
+			x: 16.0d
+			y: -28.0d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -2503,8 +2610,8 @@
 				item: "clanginghowl:advanced_electronics"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -27.0d
+			x: 16.0d
+			y: -25.5d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -2522,8 +2629,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: -29.0d
+			x: 17.5d
+			y: -27.5d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -2541,8 +2648,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -27.5d
+			x: 18.5d
+			y: -26.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -2560,8 +2667,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -26.0d
+			x: 18.5d
+			y: -24.5d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -2579,8 +2686,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: -25.0d
+			x: 17.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -2591,8 +2698,8 @@
 				item: "clanginghowl:bloody_battery"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -25.0d
+			x: 16.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -2604,8 +2711,8 @@
 				item: "clanginghowl:techno_heart"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -28.0d
+			x: 13.0d
+			y: -26.5d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -2623,8 +2730,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -25.0d
+			x: 14.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2641,8 +2748,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -30.5d
+			x: 11.0d
+			y: -29.0d
 		}
 		{
 			dependencies: ["47271D8E8C2CAA7C"]
@@ -2669,8 +2776,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -29.0d
+			x: 5.0d
+			y: -27.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2681,8 +2788,8 @@
 				item: "clanginghowl:stationary_charging_station"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -30.5d
+			x: 7.5d
+			y: -29.0d
 		}
 		{
 			dependencies: ["173599F954578016"]
@@ -2693,8 +2800,8 @@
 				item: "clanginghowl:crystal_former"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -27.5d
+			x: 8.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["3F82A1635119FC83"]
@@ -2705,8 +2812,8 @@
 				item: "clanginghowl:extraterrestrial_steel_plate"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -29.0d
+			x: 8.5d
+			y: -27.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2717,23 +2824,19 @@
 				item: "clanginghowl:barrier_of_extraterrestrial_activity"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -31.5d
+			x: 7.5d
+			y: -30.0d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "5CBF6B358D34087C"
 			tasks: [{
 				id: "6EFD06D5C579AAE9"
-				item: {
-					Count: 1
-					id: "incision:eyebulb"
-					tag: { }
-				}
+				item: "incision:eyebulb"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -20.0d
+			x: 10.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["5CBF6B358D34087C"]
@@ -2741,15 +2844,11 @@
 			id: "5005BB124AA555F8"
 			tasks: [{
 				id: "23C7A825B7DC2590"
-				item: {
-					Count: 1
-					id: "incision:lens_glass"
-					tag: { }
-				}
+				item: "incision:lens_glass"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -21.0d
+			x: 11.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["5CBF6B358D34087C"]
@@ -2757,15 +2856,70 @@
 			id: "3460CBDF9DA51D73"
 			tasks: [{
 				id: "354782AC58745134"
-				item: {
-					Count: 1
-					id: "incision:conductor_nerve"
-					tag: { }
-				}
+				item: "incision:conductor_nerve"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -21.0d
+			x: 9.5d
+			y: -20.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "02ECCCD98242956B"
+			tasks: [
+				{
+					id: "13A46D3024FD4104"
+					item: "neepmeat:crushed_browne_ore"
+					type: "item"
+				}
+				{
+					id: "2BAD3A6C1BE4BA02"
+					item: "neepmeat:packed_browne"
+					type: "item"
+				}
+				{
+					id: "44F8CF0212B940C4"
+					item: "neepmeat:browne_ingot"
+					type: "item"
+				}
+			]
+			title: "Browne"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3A5B721A7E614679"
+			tasks: [{
+				id: "2DC699AF1510ECA4"
+				item: "concatenatedadditionsmachines:boiler"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A5B721A7E614679"]
+			entity_vis_size: 1.0f
+			id: "5DC0FCAE66BF00E8"
+			tasks: [{
+				id: "4C6591E3F784116A"
+				item: "concatenatedadditionsmachines:hydraulic_tree_feller"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3A5B721A7E614679"]
+			entity_vis_size: 1.0f
+			id: "00A7C3C7A6E8A59D"
+			tasks: [{
+				id: "296FF6FE0366906B"
+				item: "concatenatedadditionsmachines:hydraulic_crusher"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
 		}
 	]
 	title: "Flesh Industries"

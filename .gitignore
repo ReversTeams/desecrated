@@ -96,5 +96,7 @@ kubejs/probe
 !config/shadercycler-client.toml
 !config/tabs_organizer-client.toml
 !config/gpushift-client.toml
+!config/colorwheel-client.toml
+!config/tab_organizer-client.toml
 
 /mods - Copy
