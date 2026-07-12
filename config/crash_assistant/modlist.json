@@ -730,14 +730,6 @@
     "curseForgeHash": 2064459127,
     "modrinthHash": "26db309a19862fd1923288392973f3a893afe1b3"
   },
-  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
-    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
-    "modId": "craftingrecipeexporter",
-    "name": "Crafting Recipe Exporter",
-    "version": "1.0.2",
-    "curseForgeHash": 3177483119,
-    "modrinthHash": "bf979246d3f2d81749f6246e06a9675e06476dba"
-  },
   "craftingstation-1.20.1-1.4.0.jar": {
     "jarName": "craftingstation-1.20.1-1.4.0.jar",
     "modId": "craftingstation",
@@ -897,6 +889,14 @@
     "version": "1.1.4",
     "curseForgeHash": 377597525,
     "modrinthHash": "3149313d2d5d101ac70be5ddc7ddb2afcf54c3c0"
+  },
+  "DoubleJump-v4.3_MOD.jar": {
+    "jarName": "DoubleJump-v4.3_MOD.jar",
+    "modId": "doublejump",
+    "name": "Double Jump",
+    "version": "4.3",
+    "curseForgeHash": 3529118840,
+    "modrinthHash": "4b9415f9bcc674eda3b65eb9718413df1654a103"
   },
   "drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar": {
     "jarName": "drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar",
@@ -1193,6 +1193,14 @@
     "version": "1.5.3-1.20.1",
     "curseForgeHash": 3307598168,
     "modrinthHash": "2b874f1086ba8b0db1fe2cead9308decfb331517"
+  },
+  "FokusAPI-v4.5_MOD.jar": {
+    "jarName": "FokusAPI-v4.5_MOD.jar",
+    "modId": "fokusapi",
+    "name": "FokusAPI",
+    "version": "4.5",
+    "curseForgeHash": 214823998,
+    "modrinthHash": "f7e24e508f1d2c388a2686db3dc941a091996236"
   },
   "fracture-0.3.3.jar": {
     "jarName": "fracture-0.3.3.jar",
@@ -1513,6 +1521,14 @@
     "version": "2001.1.0-build.59",
     "curseForgeHash": 3667785910,
     "modrinthHash": "55a7f032c59489eca96069a7841601de2ff97590"
+  },
+  "item_split_bug_fix-1.20.1-1.4.jar": {
+    "jarName": "item_split_bug_fix-1.20.1-1.4.jar",
+    "modId": "item_split_bug_fix",
+    "name": "Item Split Bug Fix",
+    "version": "1.20.1-1.4",
+    "curseForgeHash": 1465015914,
+    "modrinthHash": "200682cd4b74d9fd873cdb718a747616f3f79497"
   },
   "Ixeris-4.5.2+1.20.1-forge.jar": {
     "jarName": "Ixeris-4.5.2+1.20.1-forge.jar",
@@ -1919,13 +1935,13 @@
     "curseForgeHash": 2911560819,
     "modrinthHash": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf"
   },
-  "neepmeat-0.30.1-beta+1.20.1-pre3.jar": {
-    "jarName": "neepmeat-0.30.1-beta+1.20.1-pre3.jar",
+  "neepmeat-0.30.2-beta+1.20.1.jar": {
+    "jarName": "neepmeat-0.30.2-beta+1.20.1.jar",
     "modId": "neepmeat",
     "name": "NEEPMeat",
-    "version": "0.30.1-beta+1.20.1-pre3",
-    "curseForgeHash": 3510048204,
-    "modrinthHash": "479ab239966f6bd81b9b49722ce300d709851d71"
+    "version": "0.30.2-beta+1.20.1",
+    "curseForgeHash": 4189221433,
+    "modrinthHash": "59b51f65558430e0fe2ebb5070cbf6423c40593b"
   },
   "Neruina-2.1.2-forge+1.20.1.jar": {
     "jarName": "Neruina-2.1.2-forge+1.20.1.jar",
@@ -1942,6 +1958,14 @@
     "version": "13.0.1",
     "curseForgeHash": 3930406358,
     "modrinthHash": "b110e4590177475dcde70dd9dafd5257116ad9f8"
+  },
+  "nospawnchunks-1.0.0.jar": {
+    "jarName": "nospawnchunks-1.0.0.jar",
+    "modId": "nospawnchunks",
+    "name": "No Spawn Chunks",
+    "version": "1.0.0",
+    "curseForgeHash": 3611168802,
+    "modrinthHash": "c9c11338fb08129ee47f310d9e247a3a663e13c9"
   },
   "nostartupmessages-1.0.1.jar": {
     "jarName": "nostartupmessages-1.0.1.jar",
@@ -2295,13 +2319,13 @@
     "curseForgeHash": 1432081092,
     "modrinthHash": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1"
   },
-  "roadweaver-forge-2.1.1-1.20.1.jar": {
-    "jarName": "roadweaver-forge-2.1.1-1.20.1.jar",
-    "modId": "roadweaver",
-    "name": "RoadWeaver",
-    "version": "2.1.1-1.20.1",
-    "curseForgeHash": 3481787061,
-    "modrinthHash": "348669d3e691a1c513722ccbc83c69539d23f31b"
+  "saturn-mc1.20.1-0.1.3.jar": {
+    "jarName": "saturn-mc1.20.1-0.1.3.jar",
+    "modId": "saturn",
+    "name": "Saturn",
+    "version": "0.1.3",
+    "curseForgeHash": 1313951597,
+    "modrinthHash": "ad93f99d46714c46aaa6a4409aeca506e9fcac99"
   },
   "saveloottables-forge-1.0.1.2.jar": {
     "jarName": "saveloottables-forge-1.0.1.2.jar",
@@ -2735,13 +2759,13 @@
     "curseForgeHash": 2041389298,
     "modrinthHash": "033d62395ecf7939f82e5a69ef53cf62ad1afb7f"
   },
-  "toomanyrecipeviewers-0.9.0+mc.20.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.9.0+mc.20.1.jar",
+  "toomanyrecipeviewers-0.8.1+mc.20.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.8.1+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
     "name": "TooManyRecipeViewers",
-    "version": "0.9.0+mc.20.1",
-    "curseForgeHash": 625854406,
-    "modrinthHash": "68b17e577526582ac22611d412433022647fc674"
+    "version": "0.8.1+mc.20.1",
+    "curseForgeHash": 2729210785,
+    "modrinthHash": "c83ea731d2977c178ac98502a79013bdbba916be"
   },
   "torch-hit-forge-1.20.1-7.0.0.jar": {
     "jarName": "torch-hit-forge-1.20.1-7.0.0.jar",

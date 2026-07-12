@@ -162,9 +162,9 @@
 		#Display name shown in GUI. (Supports translation keys)
 		name = "Crimson Artificer"
 		#Lore text shown in the panel. (Supports translation keys)
-		description = "A noble vampire engineering new capabilities with flesh and meat."
+		description = "A noble vampire tinkering gadgets, studying enchanting and searching for powerful relics."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&aArtificer Faction", "&a+10% Armour"]
+		stats = ["&aVampire", "&aArtificer Faction", "&a+10% Speed"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
@@ -186,7 +186,7 @@
 		#Display name shown in GUI. (Supports translation keys)
 		name = "Sanguine of Vine"
 		#Lore text shown in the panel. (Supports translation keys)
-		description = "A noble vampire of the Vine Sanguine faction, specializing in nature."
+		description = "A noble vampire, friend of the vine, specializing in natural magic, astral rituals and harnessing the power of colours."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&aVine Faction", "&a+10% Health"]
 		#Mechanical modifiers (format: attribute=value:operation).
@@ -210,7 +210,7 @@
 		#Display name shown in GUI. (Supports translation keys)
 		name = "Sanguine of Iron"
 		#Lore text shown in the panel. (Supports translation keys)
-		description = "A noble vampire of the Iron Sanguine faction, accustomed to the arms."
+		description = "A noble vampire of the Iron Sanguine faction, forging new tools and arms."
 		#Cosmetic stat summary lines.
 		stats = ["&aVampire", "&aIron Faction", "&a+10% Knockback Resistance"]
 		#Mechanical modifiers (format: attribute=value:operation).

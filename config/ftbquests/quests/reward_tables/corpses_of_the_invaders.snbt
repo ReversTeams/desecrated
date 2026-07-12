@@ -1,0 +1,28 @@
+{
+	id: "652A8714CBE065C2"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz_unidict:pistol"
+				}
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz_unidict:rifle"
+				}
+			}
+		}
+	]
+	title: "Corpses of the Invaders"
+}

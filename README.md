@@ -1,22 +1,21 @@
 # Desecrated
 
-TBD
+You are one of the last noble vampires, hunted for your blood by the invaders of your homeland. There are only seven days left until they catch your trail. You must evolve, grow in strength and fight back through the power of flesh, blood and bone.
+
+There is only one way to go forward: to grow stronger and obtain the Fruit of All Knowledge! Whether you are a powerless traveller, a noble exile, a crimson artificer, a friend of the vine or an iron knight, the hunters will fall to your newfound strength.
 
 If you wish to contribute to the modpack, please follow the contribution guidelines in the [CONTRIBUTING](./CONTRIBUTING.md) file. Additionally, ReversTeam accepts staff applications
 
-## Features  
-TBD
-
 ## Technical Requirements  
 - Minecraft version: **1.20.1**
-- Mod loader: **Forge 47.4.10**
+- Mod loader: **Forge 47.4.20**
 - Recommended RAM allocation: **4-12 GB** (depending on system specs). On lower-spec computers you may want to lower graphical settings or disable shaders.
 
 ## Installation  
 1. Ensure you have Minecraft 1.20.1 installed.  
 2. Using the CurseForge launcher, Technic launcher or another mod-pack compatible launcher, install Desecrated.  
 3. Allocate sufficient RAM (4-12 GB recommended).  
-4. (Optional) For server installation — use the server pack version: *concatenation-server-1.2.2.zip*.
+4. (Optional) For server installation — use the server pack versions.
 5. Launch the game.
 
 ## Community & Support  
@@ -32,6 +31,8 @@ TBD
 
 - Gravitegg - Playtester
 - Skillode - Playtester
+- Forever - Playtester
+- Vauldrus - Playtester
 
 #### Concatenation Division
 - SporiumCorium - Pack Developer
@@ -46,3 +47,9 @@ TBD
 
 #### Contributors
 - Ink Disorder
+
+#### Special Thanks for Collaboration
+AgusDropOut - Bloody Hell Developer
+Meatwheeze - NEEPMeat Developer
+Noodlegamer - Fracture Developer
+anti - Ascendant Arcana Developer

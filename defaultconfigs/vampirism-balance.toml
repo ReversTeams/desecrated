@@ -84,7 +84,7 @@
 		naturalArmorBaseValue = 4
 		#Base duration of neonatal effect after resurrection. In sec.
 		#Range: > 1
-		neonatalDuration = 120
+		neonatalDuration = 240
 		#The amount of natural armor a max level vampire has in addition to the base value
 		#Range: 0 ~ 100
 		naturalArmorIncrease = 10
@@ -114,7 +114,7 @@
 		sundamage = 7.0
 		#Base cooldown before a downed vampire can resurrect. In sec.
 		#Range: 1 ~ 1000
-		dbnoDuration = 60
+		dbnoDuration = 12
 		#Average duration of the Sanguinare Vampiris Effect. The final duration is random between 0.5 x avgDuration - 1.5 x avgDuration. In Seconds.
 		#Range: 1 ~ 10000
 		sanguinareAverageDuration = 900

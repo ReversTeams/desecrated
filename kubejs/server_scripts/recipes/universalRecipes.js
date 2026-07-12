@@ -6,7 +6,8 @@ ServerEvents.recipes(event => {
 
     const remove = [
         'fracture:infected_core',
-        'fishermens_trap:fishtrap'
+        'fishermens_trap:fishtrap',
+        'mahoutsukai:hammer'
     ]
 
     remove.forEach(item => {

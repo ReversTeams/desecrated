@@ -1,0 +1,21 @@
+{
+	id: "4A444AF8352367C8"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "neepmeat:blood_bubble_sapling" }
+		{ item: "neepmeat:blood_bubble", random_bonus: 3 }
+		{ item: "desecratedcore:blood_bucket" }
+		{ item: "fracture:blood_slime_ball" }
+		{
+			item: {
+				Count: 1
+				id: "concatenatedadditionstools:bloody_living_giant_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Flesh in the Slime"
+}

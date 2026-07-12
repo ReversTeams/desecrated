@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
             B: 'minecraft:bowl',
             C: 'hexalia:athame'
         }
-    )
+    ).damageIngredient("hexalia:athame");
 
     event.shaped(
         Item.of('hexalia:hex_focus'),
