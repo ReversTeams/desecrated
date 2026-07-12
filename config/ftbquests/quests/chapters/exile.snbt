@@ -558,9 +558,9 @@
 				""
 				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
 				"{@pagebreak}"
-				"&aDesecrated is still in development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, The Dulling, Reverse Eon."
+				"&aDesecrated is still in development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, The Dulling, Reverse Eon. The modpack is about 70% complete as of now."
 				""
-				"&aThere may also be some quests missing descriptions. Make sure to update the modpack regularly to stay up to date! Most of the quest descriptions should be released within 2 days. The progression is still there despite the quest not having description!"
+				"&aMost quest descriptions are missing, but the progression is still repesented through the quests. Refer to the mods' guidebooks for now. Make sure to update the pack as all quest descriptions will come in the next update."
 			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:knowledge_book"

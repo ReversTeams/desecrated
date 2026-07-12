@@ -485,6 +485,7 @@
 				"6B0E995FC2B51651"
 			]
 			dependency_requirement: "one_completed"
+			description: ["The integrator egg can be obtained by throwing a reanimated heart into lava surrounded by 8 rusty metal blocks."]
 			entity_vis_size: 1.0f
 			icon: "neepmeat:integrator_egg"
 			id: "27E206D2AED49A96"
@@ -560,13 +561,21 @@
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
+			description: ["The Stirling Engine is a more sophisticated version of the boiler, burning fuel to create power."]
 			entity_vis_size: 1.0f
 			id: "5C5A1D9906886DF4"
-			rewards: [{
-				id: "24C2C1133E4031C9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5AF9EC71B36882E2"
+					item: "neepmeat:projector"
+					type: "item"
+				}
+				{
+					id: "24C2C1133E4031C9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "08310D2B943B756E"
 				item: "neepmeat:stirling_engine"
@@ -577,6 +586,11 @@
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
+			description: [
+				"The Drill, with the use of compressed air, can be an efficient mining tool. "
+				""
+				"It is uniquely able to mine asbestos without the particles dissolving too much to be unusable."
+			]
 			entity_vis_size: 1.0f
 			id: "35FEBF6CDC4E4DA9"
 			rewards: [{
@@ -680,6 +694,7 @@
 		}
 		{
 			dependencies: ["5C5A1D9906886DF4"]
+			description: ["The portable compressor burns fuel to compress air in an area. This compressed air can be useful for drills."]
 			entity_vis_size: 1.0f
 			id: "3C6FEBFA33F092E5"
 			rewards: [{
@@ -901,6 +916,7 @@
 		}
 		{
 			dependencies: ["35FEBF6CDC4E4DA9"]
+			description: ["Asbestos can be mined with a drill."]
 			entity_vis_size: 1.0f
 			id: "3A286E459CE15CB2"
 			rewards: [{
@@ -3426,6 +3442,7 @@
 			y: -20.5d
 		}
 		{
+			description: ["Browne can be found in caves."]
 			entity_vis_size: 1.0f
 			id: "02ECCCD98242956B"
 			rewards: [{
@@ -3455,6 +3472,7 @@
 			y: -8.5d
 		}
 		{
+			description: ["The Boiler is a simple piece of machinery. When provided with fuel, it will power nearby steam-powered machines."]
 			entity_vis_size: 1.0f
 			id: "3A5B721A7E614679"
 			rewards: [{
@@ -3472,6 +3490,7 @@
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
+			description: ["When powered by a nearby boiler, it will cut down trees as they grow from saplings. It is also able to replant saplings."]
 			entity_vis_size: 1.0f
 			id: "5DC0FCAE66BF00E8"
 			rewards: [{
@@ -3489,6 +3508,7 @@
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
+			description: ["When powered by a nearby boiler, it will crush ingots into powder."]
 			entity_vis_size: 1.0f
 			id: "00A7C3C7A6E8A59D"
 			rewards: [{

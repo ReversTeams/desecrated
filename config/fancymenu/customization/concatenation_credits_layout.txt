@@ -615,7 +615,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%%n%### Contributors%n%Ink Disorder%n%%n%### Special Thanks for Collaboration%n%AgusDropOut - Bloody Hell Developer%n%MeatWheeze - NEEPMeat Developer%n%Noodlegamer - Fracture Developer%n%Anti - Ascendant Arcana Developer%n%^^^
+  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%%n%### Contributors%n%Ink Disorder%n%%n%### Special Thanks for Collaboration%n%AgusDropOut - Bloody Hell Developer%n%MeatWheeze - NEEPMeat Developer%n%Noodlegamer - Fracture Developer%n%anti - Ascendant Arcana Developer%n%^^^
   source_mode = direct
   shadow = true
   enable_scrolling = true

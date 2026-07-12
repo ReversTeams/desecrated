@@ -52,4 +52,4 @@ If you wish to contribute to the modpack, please follow the contribution guideli
 AgusDropOut - Bloody Hell Developer
 Meatwheeze - NEEPMeat Developer
 Noodlegamer - Fracture Developer
-Anti - Ascendant Arcana Developer
+anti - Ascendant Arcana Developer
