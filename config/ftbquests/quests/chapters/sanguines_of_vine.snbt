@@ -94,6 +94,25 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "5FB35D49B42DB136"
+			rewards: [
+				{
+					id: "5157EAC5B4AF8124"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2460115E2E71C208"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "45329A33A229F751"
 				item: "hexalia:spirit_bloom"
@@ -106,6 +125,25 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "1E49979CD799AF0E"
+			rewards: [
+				{
+					id: "398B430B6A17A4E6"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "69F765711CFC6DCE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "00D0E9C38F79CA9D"
 				item: "hexalia:dreamshroom"
@@ -118,6 +156,25 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "098FCAB9E0418241"
+			rewards: [
+				{
+					id: "49EAD4A4FC12F414"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "000A60275E2265D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "03F946FD2FE05010"
 				item: "hexalia:siren_kelp"
@@ -130,6 +187,25 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "0D9E8704CBFB3F6C"
+			rewards: [
+				{
+					id: "69F036C3818E2768"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4163476F84811673"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "34B5B9D35CA9D832"
 				item: "hexalia:ghost_fern"
@@ -161,6 +237,18 @@
 			dependencies: ["098FCAB9E0418241"]
 			entity_vis_size: 1.0f
 			id: "4BF80DB72A72DBAB"
+			rewards: [{
+				count: 3
+				id: "181F4F7864E40428"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "00DD5417A7EC5356"
@@ -192,6 +280,25 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "4283D4B2FCBAA2C2"
+			rewards: [
+				{
+					id: "4A63DDB5EFF68E0F"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2C72B2B2554365AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6BADB8B60002D45A"
 				item: "hexalia:witchweed"
@@ -1038,6 +1145,11 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "63DD4DFC7E30EEA2"
+			rewards: [{
+				id: "57CDB472570ECCDE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "32C1D80FF18EC61F"
 				item: "hexalia:lotus_blossom"
@@ -1050,6 +1162,11 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "447D63C4C507339D"
+			rewards: [{
+				id: "788F30D1229D3308"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3DB446BEE2841F18"
 				item: "hexalia:celestial_bloom"
@@ -1059,8 +1176,18 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"The Sanguines of Vine are friends of nature, They harness elemental powers, especially of earth, grow various mystical herbs and commit themselves to astral rituals. I've heard of some powerful natural weapons they are able to uniquely produce. "
+				""
+				"Higher ranked members even begin to delve into harnessing the power of the colours throughout the world, hidden to most."
+			]
 			entity_vis_size: 1.0f
 			id: "0CAE6439C87989E4"
+			rewards: [{
+				id: "792B8B234B570BB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5D7AE7C3BEA343B9"
 				item: "desecratedcore:vine_key_item"
@@ -1324,11 +1451,7 @@
 			id: "754E10ED740ED760"
 			tasks: [{
 				id: "09E9AC5C1FA84378"
-				item: {
-					Count: 1
-					id: "hexalia:frost_sac"
-					tag: { }
-				}
+				item: "hexalia:frost_sac"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1340,11 +1463,7 @@
 			id: "59EDE401A6A9D927"
 			tasks: [{
 				id: "6CD1241D4D95DD1F"
-				item: {
-					Count: 1
-					id: "hexalia:searing_sac"
-					tag: { }
-				}
+				item: "hexalia:searing_sac"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1357,11 +1476,7 @@
 			id: "3C7B2D8A2C73930B"
 			tasks: [{
 				id: "1581E502F0C46B79"
-				item: {
-					Count: 1
-					id: "hexalia:foul_sac"
-					tag: { }
-				}
+				item: "hexalia:foul_sac"
 				type: "item"
 			}]
 			x: 6.5d

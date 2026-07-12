@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1781811895405
+  last_edited_time = 1783857502301
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:b91ad26a-a06e-4d21-a393-a85d93a976db-1781811839610] = [groups:][instances:]
+  [loading_requirement_container_meta:26f7013c-ba98-46e3-9b48-29645fe22800-1783857300377] = [groups:][instances:]
 }
 
 menu_background {
@@ -944,7 +944,7 @@ element {
 
 element {
   interactable = true
-  source = Sorting and Sorties: Hermit and Temperance have gotten more quests to smoothen their progressions. The Deep Void has been updated along with the Error Pathway.%n%%n%EMI has been cleaned up with other 400 tabs of items and 15k+ redundant recipes hidden.
+  source = Release version.
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -1030,7 +1030,7 @@ element {
 
 element {
   interactable = true
-  source = N/A
+  source = 07/12/2026 - 0.1.0%n%07/10/2026 - 0.07%n%07/08/2026 - 0.06%n%06/25/2026 - 0.0.5%n%06/20/2026 - 0.0.4%n%06/18/2026 - 0.0.3
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -1116,7 +1116,7 @@ element {
 
 element {
   interactable = true
-  source = N/A
+  source = No current active event.
   source_mode = direct
   shadow = true
   enable_scrolling = true

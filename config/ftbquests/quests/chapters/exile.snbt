@@ -130,8 +130,8 @@
 			image: ""
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: 8.5d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			entity_vis_enabled: true
@@ -168,7 +168,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 2.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			entity_vis_enabled: true
@@ -189,14 +189,43 @@
 			x: 31.5d
 			y: -2.0d
 		}
+		{
+			alpha: 180
+			color: 11141120
+			dependency: "512D4EF547F94803"
+			height: 1.5d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot7.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 1.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1850F5DBF7A4D5A5"]
+			description: [
+				"Gold Barar has weapon manufacturing capabilities of their own, producing single shot powerful small arms. These weapons have slow reload times but devastating firepower."
+				""
+				"As I do not have the knowledge to manufacture firearms, I should loot firearms that are still working whenever I am able to. Ammunition may be an issue, as I must also loot it off dead soldiers' corpses. I may be able to recover some bullets from the corpses of slain enemies."
+			]
 			entity_vis_size: 1.0f
 			id: "6C09D9DA982FB08C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3759F029E45D65A0"
+					table_id: 7289787470242145730L
+					type: "choice"
+				}
+				{
+					id: "75073DD0806085E8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "7A5A4E031E4BF18D"
@@ -243,12 +272,30 @@
 			]
 			title: "Weapons of Gold Barar"
 			x: -1.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["13A9932D7BCD2E2E"]
+			description: [
+				"The Order mostly purchases most of their weapons from the Kingdom of Varelia, famous in weapon production, both in firearms and in mystical arms. These weapons have higher ammunition capabilities and can fire multiple rounds before having to reload. Their reload times are much longer and each shot is less powerful."
+				""
+				"As I do not have the knowledge to manufacture firearms, I should loot firearms that are still working whenever I am able to. Ammunition may be an issue, as I must also loot it off dead soldiers' corpses. I may be able to recover some bullets from the corpses of slain enemies."
+			]
 			entity_vis_size: 1.0f
 			id: "3962C48843DC92C2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76FD994BF7B7FFA2"
+					table_id: 7289787470242145730L
+					type: "choice"
+				}
+				{
+					id: "4680DFD2EEE47CEE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "3913FC2E5424BC67"
@@ -306,12 +353,30 @@
 			]
 			title: "Weapons of Varelia"
 			x: 4.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1850F5DBF7A4D5A5"]
+			description: [
+				"Gold Barar also imports weapons from abroad. The far away Grania supplies them via the sea route with arms which are more sophisticated, but are still one shot powerful weapons."
+				""
+				"As I do not have the knowledge to manufacture firearms, I should loot firearms that are still working whenever I am able to. Ammunition may be an issue, as I must also loot it off dead soldiers' corpses. I may be able to recover some bullets from the corpses of slain enemies."
+			]
 			entity_vis_size: 1.0f
 			id: "247C0B91B4A5E838"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4460869D58FA5ED3"
+					table_id: 7289787470242145730L
+					type: "choice"
+				}
+				{
+					id: "148C8B8FEA90298F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "759C5558DA06C3FD"
@@ -355,12 +420,30 @@
 			]
 			title: "Weapons of Grania"
 			x: 0.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["13A9932D7BCD2E2E"]
+			description: [
+				"The Order has developed special weapons, especially damaging against the undead. They are precision weapons, single shot weapons."
+				""
+				"As I do not have the knowledge to manufacture firearms, I should loot firearms that are still working whenever I am able to. Ammunition may be an issue, as I must also loot it off dead soldiers' corpses. I may be able to recover some bullets from the corpses of slain enemies."
+			]
 			entity_vis_size: 1.0f
 			id: "65A842A2DFECDFF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AB3592B476D3395"
+					table_id: 7289787470242145730L
+					type: "choice"
+				}
+				{
+					id: "1317490FA2D46353"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "00D2DC1094FE8B62"
@@ -390,12 +473,26 @@
 			]
 			title: "Weapons of the Starlight Order"
 			x: 5.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0CA41706516F60D1"]
+			description: ["As sanguines preferred magical and traditional weapons, our manufacturing capabilities are quite underwhelming for firearms. Despite going underground, vampire society still has the ability to produce a few firearms. "]
 			entity_vis_size: 1.0f
 			id: "582421ED6048E9FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35B11FF53A0E14C3"
+					table_id: 7289787470242145730L
+					type: "choice"
+				}
+				{
+					id: "3F2F58CEE6E0A114"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "32E9DCEC61AFCCB7"
 				item: {
@@ -412,7 +509,7 @@
 			}]
 			title: "Weapons of Red Barar"
 			x: 2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -461,17 +558,24 @@
 				""
 				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
 				"{@pagebreak}"
-				"&aDesecrated is still in the development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, The Dulling, Reverse Eon."
+				"&aDesecrated is still in development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, The Dulling, Reverse Eon."
+				""
+				"&aThere may also be some quests missing descriptions. Make sure to update the modpack regularly to stay up to date!"
 			]
 			entity_vis_size: 1.0f
-			icon: {
-				Count: 1
-				id: "concatenatedadditionstools:bloody_living_sword"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "minecraft:knowledge_book"
 			id: "6054F9076164BFDE"
+			rewards: [{
+				id: "5F6B62A0B645526A"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
 			size: 0.75d
 			tasks: [{
 				id: "095F7CF043F53178"
@@ -554,7 +658,7 @@
 					Count: 1
 					id: "vampirism:blood_bottle"
 					tag: {
-						Damage: 8
+						Damage: 9
 					}
 				}
 				match_nbt: false
@@ -579,6 +683,18 @@
 					count: 5
 					id: "25C603D9540A1E4B"
 					item: "perdition:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2B91F3732539C884"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
 					type: "item"
 				}
 				{
@@ -629,7 +745,12 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["19AC0B8C0B44FA30"]
+			dependencies: ["512D4EF547F94803"]
+			description: [
+				"If I am lucky, I might be able to regroup with remnants of Red Barar forces. There are rumours of a vampire group rising to repulse the foreign powers in our lands. The Crescent Society seems to be formed of both former nobles and artificial vampires. I should take what I can get..."
+				""
+				"Perhaps it would be possible to enlist their help with payment? "
+			]
 			entity_vis_size: 1.5f
 			id: "0CA41706516F60D1"
 			rewards: [{
@@ -637,6 +758,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Friends!"
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -650,15 +772,21 @@
 				id: "63F062C342397FFB"
 				observe_type: 5
 				timer: 0L
+				title: "Meet the Crescent Society"
 				to_observe: "simpleenemymod:pmcunit"
 				type: "observation"
 			}]
 			title: "The Crescent Society"
 			x: 2.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["19AC0B8C0B44FA30"]
+			dependencies: ["512D4EF547F94803"]
+			description: [
+				"The Starlight Order is a foreign coalition made up of humans from all nations from across the sea that want to see our sanguine kind eradicated."
+				""
+				"Unlike the soldiers of Gold Barar who come for our riches, the Order's Hunters come for our blood. I've heard sangunine blood has many mystical uses for humans of the other continents."
+			]
 			entity_vis_size: 1.5f
 			id: "479883AB78B8D2FC"
 			rewards: [{
@@ -666,6 +794,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Vultures"
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -679,15 +808,21 @@
 				id: "38723CACB17307B2"
 				observe_type: 5
 				timer: 0L
+				title: "Meet Starlight Order Hunters"
 				to_observe: "simpleenemymod:ruunit"
 				type: "observation"
 			}]
 			title: "The Starlight Order"
 			x: 4.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["19AC0B8C0B44FA30"]
+			dependencies: ["512D4EF547F94803"]
+			description: [
+				"Our neighbours across the water have always preyed upon our lands. Our sanguine domain stretched across the entire island of Red Barar, but never extended across the water."
+				""
+				"Now, the Grand Duchy of Gold Barar has landed in the south of the island to conquer our lands. They are hostile to both the Crescent Society and the Starlight Order."
+			]
 			entity_vis_size: 1.5f
 			id: "384AD7FA6531C4B9"
 			rewards: [{
@@ -709,17 +844,35 @@
 				id: "275936E67DB1435B"
 				observe_type: 5
 				timer: 0L
+				title: "Meet Gold Barar Soldiers"
 				to_observe: "simpleenemymod:usunit"
 				type: "observation"
 			}]
 			title: "The Forces of Gold Barar"
 			x: -0.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["384AD7FA6531C4B9"]
+			description: [
+				"Gold Barar makes use of the same tactics as the Starlight Order, forming squads of four, equipped with muskets, bayonets and silver bullets to slay every vampire they can find. They are here for our riches, to plunder the countryside and occupy the towns. The non-vampire villagers have welcomed them with open arms. We can no longer use them as blood bags."
+				""
+				"They will come to rescue any villagers I abduct for my own uses.. They will still come after me nonetheless. I must strengthen my defences."
+			]
 			entity_vis_size: 1.5f
 			id: "1850F5DBF7A4D5A5"
+			rewards: [
+				{
+					id: "105BC581BF0DA715"
+					item: "vampiresdelight:blood_wine_glass"
+					type: "item"
+				}
+				{
+					id: "6FB4704727F38C22"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Occupiers"
 			tasks: [{
 				entity: "simpleenemymod:usunit"
@@ -739,12 +892,30 @@
 			}]
 			title: "The Duchy's Soldiers"
 			x: -0.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["479883AB78B8D2FC"]
+			description: [
+				"Similarly to Gold Barar forces, they make use of squad tactics, silver bullets, muskets and bayonets. While they are not professional forces, the Starlight Order has trained them in accordance to their church's doctrine, which makes them fierce zealots with holy ordinance."
+				""
+				"They will also come to rescue any captured villagers out of a sense of righteousness."
+			]
 			entity_vis_size: 1.5f
 			id: "13A9932D7BCD2E2E"
+			rewards: [
+				{
+					id: "5C5ED19ADD0DA2F8"
+					item: "hexalia:brew_of_bloodlust"
+					type: "item"
+				}
+				{
+					id: "2152CEC798AC2F68"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Zealots"
 			tasks: [{
 				entity: "simpleenemymod:ruunit"
 				entity_use_tag: false
@@ -763,7 +934,7 @@
 			}]
 			title: "The Order's Hunters"
 			x: 4.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -983,20 +1154,34 @@
 				type: "item"
 			}]
 			subtitle: "Storage Everywhere"
-			tasks: [{
-				id: "12A760AF88731FEC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "2E213FE06922988A"
+					item: "usefulbackpacks:backpack_small"
+					type: "item"
+				}
+				{
+					id: "3891FA4735D80559"
+					item: "usefulbackpacks:backpack_medium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "093C7DC0E71D0689"
+					item: {
+						Count: 1
+						id: "usefulbackpacks:backpack_large"
+						tag: {
+							display: {
+								color: 8606770
+							}
 						}
 					}
-					id: "usefulbackpacks:backpack_medium"
+					optional_task: true
+					type: "item"
 				}
-				match_nbt: false
-				type: "item"
-			}]
+			]
+			title: "Backpacks"
 			x: 1.5d
 			y: -5.0d
 		}
@@ -1484,6 +1669,28 @@
 			entity_vis_size: 1.0f
 			icon: "via_romana:charting_map"
 			id: "5B1114E8AD48A9D4"
+			rewards: [
+				{
+					id: "28BB7A1CBDC1230B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5997F5B92CA272DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Fast Travel Anywhere"
 			tasks: [{
 				id: "13AFB0DC1A961548"
@@ -1674,69 +1881,125 @@
 			y: -7.5d
 		}
 		{
+			description: [
+				"While I had not joined any of the older sanguine factions, I had contacts within each. Those acquaintances may no logner prove useful. I should try to find knowledge left behind by the members of these factions."
+				""
+				"This old family relic, the Sanguine Blood Charm is powerful in its own right. It empowers my strikes with significant force. But it has another special property. It can be used in the stead of the fateful core ingredient for the special relics of other factions. "
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "71FEEA1CF45FCE10"
 			invisible: true
+			rewards: [{
+				id: "44B6E0CC2250E89D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Sanguine Blood Charm"
 			tasks: [{
 				id: "40DD44E7499EFBF2"
 				item: "desecratedcore:exile_key_item"
 				type: "item"
 			}]
+			title: "Noble Exile"
 			x: 2.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
+			description: [
+				"The Sanguines of Vine are friends of nature, They harness elemental powers, especially of earth, grow various mystical herbs and commit themselves to astral rituals. I've heard of some powerful natural weapons they are able to uniquely produce. "
+				""
+				"Higher ranked members even begin to delve into harnessing the power of the colours throughout the world, hidden to most."
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "75BA4B7290E1DA00"
+			rewards: [{
+				id: "5354A5C3532AEDEC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Vine Amulet"
 			tasks: [{
 				id: "27053741C5223121"
 				item: "desecratedcore:vine_key_item"
 				type: "item"
 			}]
+			title: "Sanguine of Vine"
 			x: 0.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
+			description: ["Sanguines of Iron retreat to their workshops to forge powerful weapons, usually staying true to one weapon their whole lives, continually tinkering and improving it. They are master artisans who can produce plenty of specialized tools and equipment."]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "2139C028FEBE8500"
+			rewards: [{
+				id: "33606F1F9F7ABF41"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Darkstone Ring"
 			tasks: [{
 				id: "395989B7E42FBDA2"
 				item: "desecratedcore:iron_key_item"
 				type: "item"
 			}]
+			title: "Sanguine of Iron"
 			x: 1.0d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
+			description: [
+				"The Crimson Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Crimson Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
+				""
+				"Higher ranked Crimson Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "04E0E5A8D3613D91"
+			rewards: [{
+				id: "3D03F1CE4950724E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Spectral Feather"
 			tasks: [{
 				id: "2F6214FC32F1CE77"
 				item: "desecratedcore:artificer_key_item"
 				type: "item"
 			}]
+			title: "Crimson Artificer"
 			x: 3.0d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
+			description: [
+				"The Cultist Moon faction had faced a severe collapse even before the collapse of sanguine society. They adhered to the wider Tarot system used more widely by the other continents, claiming the Moon Arcana as their own. Suddenly, they became unable to craft Moon Tarot cards as they could before with ease, putting a stop to their power. Without the stored knowledge in the tarot cards, they stagnated. Eventually, they became able to make Inverted version of their regular tarot cards, but with twisted effects."
+				""
+				"The Moon faction still widely utilizes blood magic, but I might have to go on a journey to find traces of them."
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "3B6BAB7182971A38"
+			rewards: [{
+				id: "10514781DB08653E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Tarot: The Moon"
 			tasks: [{
 				id: "40A1B80F22D3CCCF"
 				item: "desecratedcore:moon_key_item"
 				type: "item"
 			}]
+			title: "Cultists of the Moon"
 			x: 4.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			description: [
@@ -1787,17 +2050,41 @@
 				}
 				{
 					id: "56C3B34B27D575AF"
-					item: {
-						Count: 1
-						id: "desecratedcore:amethyst_infusion_smithing_template"
-						tag: { }
-					}
+					item: "desecratedcore:amethyst_infusion_smithing_template"
 					optional_task: true
 					type: "item"
 				}
 			]
 			x: -1.0d
 			y: -6.0d
+		}
+		{
+			description: ["I don't have much time left... The elite hunters of the Starlight Order and Gold Barar will catch up to me soon. I've managed to escape them once only through sheer luck. They have silver bullets and powerful muskets. They are well prepared for a noble sanguine such as I. Worse of all, they come in squads of four."]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "concatenatedadditionstools:bloody_living_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "512D4EF547F94803"
+			invisible: true
+			rewards: [{
+				id: "7424582D737D0D26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Hot Trail"
+			tasks: [{
+				id: "05617CC200995B41"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 144000
+			}]
+			title: "The Hunters Arrive"
+			x: 2.0d
+			y: 1.5d
 		}
 	]
 	title: "Fallen"

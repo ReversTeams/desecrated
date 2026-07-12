@@ -4,11 +4,7 @@
 	default_quest_shape: ""
 	filename: "cultists_of_the_moon"
 	group: "77396AEB02AB4898"
-	icon: {
-		Count: 1
-		id: "bloodmagic:sacrificialdagger"
-		tag: { }
-	}
+	icon: "bloodmagic:sacrificialdagger"
 	id: "4468C364798D9A2C"
 	images: [
 		{
@@ -990,8 +986,26 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"The Cultist Moon faction had faced a severe collapse even before the collapse of sanguine society. They adhered to the wider Tarot system used more widely by the other continents, claiming the Moon Arcana as their own. Suddenly, they became unable to craft Moon Tarot cards as they could before with ease, putting a stop to their power. Without the stored knowledge in the tarot cards, they stagnated. Eventually, they became able to make Inverted version of their regular tarot cards, but with twisted effects."
+				""
+				"The Moon faction still widely utilizes blood magic, but I might have to go on a journey to find traces of them."
+			]
 			entity_vis_size: 1.0f
 			id: "24F94D88BBD152DF"
+			rewards: [{
+				count: 3
+				id: "6ECE6EC39F38E8C2"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The Moon Cult"
 			tasks: [{
 				id: "18BEA9416C67C713"
 				item: "desecratedcore:moon_key_item"

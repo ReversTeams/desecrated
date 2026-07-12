@@ -53,6 +53,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Sanguines of Iron retreat to their workshops to forge powerful weapons, usually staying true to one weapon their whole lives, continually tinkering and improving it. They are master artisans who can produce plenty of specialized tools and equipment."]
 			entity_vis_size: 1.0f
 			id: "20DC2110D654C2D8"
 			tasks: [{
@@ -291,7 +292,15 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["231627414397C6D6"]
+			dependencies: [
+				"231627414397C6D6"
+				"5CA75CA01A803357"
+				"142CEAE28CC979B5"
+				"5DEADC68E94F930F"
+				"6FFE6F897CC8BC2A"
+				"2F231685847D74F5"
+				"58A84DDA66A0816D"
+			]
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:chooser_key_item"
 			id: "718E019861370CB7"

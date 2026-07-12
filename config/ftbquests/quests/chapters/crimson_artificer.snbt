@@ -1730,8 +1730,18 @@
 			y: 16.75d
 		}
 		{
+			description: [
+				"The Crimson Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Crimson Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
+				""
+				"Higher ranked Crimson Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
+			]
 			entity_vis_size: 1.0f
 			id: "3913E4BF1C7341B8"
+			rewards: [{
+				id: "4B67DC3D439CDD12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "6E738E2E6645C8E3"
@@ -2299,20 +2309,12 @@
 			tasks: [
 				{
 					id: "53382D6D603DB8C4"
-					item: {
-						Count: 1
-						id: "ascendant_arcana:restorine"
-						tag: { }
-					}
+					item: "ascendant_arcana:restorine"
 					type: "item"
 				}
 				{
 					id: "05473B3882C749BC"
-					item: {
-						Count: 1
-						id: "desecratedcore:pure_restorine"
-						tag: { }
-					}
+					item: "desecratedcore:pure_restorine"
 					type: "item"
 				}
 			]
@@ -2326,11 +2328,7 @@
 			size: 1.1d
 			tasks: [{
 				id: "5D7ED13C8DD8DC76"
-				item: {
-					Count: 1
-					id: "ascendant_arcana:infusion_smithing_template"
-					tag: { }
-				}
+				item: "ascendant_arcana:infusion_smithing_template"
 				type: "item"
 			}]
 			x: -1.2499999999999991d
@@ -2443,11 +2441,7 @@
 			id: "2126408CBE5F90FA"
 			tasks: [{
 				id: "193645E9AF202AF2"
-				item: {
-					Count: 1
-					id: "ascendant_arcana:enchanted_scrap"
-					tag: { }
-				}
+				item: "ascendant_arcana:enchanted_scrap"
 				type: "item"
 			}]
 			x: 2.3500000000000005d
