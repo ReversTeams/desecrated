@@ -12,4 +12,4 @@ registerDummyBERs = true
 # When true: All block entities with Flywheel visuals (that are aware of this config) will not skip the vanilla block entity render.
 # Probably does nothing except make the game run a tiny bit slower.
 # default: false
-dontSkipVanillaRender = false
+dontSkipVanillaRender = true
