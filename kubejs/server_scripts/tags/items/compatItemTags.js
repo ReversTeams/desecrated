@@ -286,4 +286,47 @@ ServerEvents.tags('item', event => {
             "farmersdelight:mutton_chops"
         ]
     ]);
+
+    add('ascendant_arcana:restorine_blacklist', [
+        'vampirism:blood_bottle',
+        'perdition:dis',
+        'concatenatedadditionsartefacts:owl_stick',
+        'concatenatedadditionsartefacts:doom_candy_cane',
+        'concatenatedadditionsartefacts:protection_charm',
+        'vampiricageing:tainted_blood_bottle',
+        'macabre:crystalized_blood',
+        'macabre:cracked_crystalized_blood',
+        'bloodmagic:arcaneashes',
+        'bloodmagic:alchemy_flask',
+        'bloodmagic:alchemy_flask_throwable',
+        'bloodmagic:alchemy_flask_lingering',
+        'bloodmagic:duskscribetool',
+        'bloodmagic:airscribetool',
+        'bloodmagic:firescribetool',
+        'bloodmagic:waterscribetool',
+        'bloodmagic:earthscribetool'
+    ]);
+
+    add('ascendant_arcana:infusion_blacklist', [
+        'vampirism:blood_bottle',
+        'neepmeat:sacrificial_dagger',
+        'perdition:dis',
+        'concatenatedadditionsartefacts:owl_stick',
+        'concatenatedadditionsartefacts:doom_candy_cane',
+        'concatenatedadditionsartefacts:protection_charm',
+        'reliquary:alkahestry_tome',
+        'reliquary:magicbane',
+        'vampiricageing:tainted_blood_bottle',
+        'macabre:crystalized_blood',
+        'macabre:cracked_crystalized_blood',
+        'bloodmagic:arcaneashes',
+        'bloodmagic:alchemy_flask',
+        'bloodmagic:alchemy_flask_throwable',
+        'bloodmagic:alchemy_flask_lingering',
+        'bloodmagic:duskscribetool',
+        'bloodmagic:airscribetool',
+        'bloodmagic:firescribetool',
+        'bloodmagic:waterscribetool',
+        'bloodmagic:earthscribetool'
+    ]);
 });
