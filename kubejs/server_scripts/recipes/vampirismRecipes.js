@@ -5,7 +5,8 @@ ServerEvents.recipes(event => {
 
         const remove = [
                 'vampirism:blood_sieve',
-                'vampirism:blood_grinder'
+                'vampirism:blood_grinder',
+                'vampirism:umbrella'
         ]
 
         remove.forEach(item => {
@@ -39,7 +40,22 @@ ServerEvents.recipes(event => {
                         B: '#minecraft:planks',
                         C: 'butchery:meat_grinder',
                         D: 'minecraft:iron_block',
-                        A: 'farmersdelight:diamond_knife'
+                        A: 'butchery:diamond_skinning_knife'
+                }
+        )
+        event.shaped(
+                Item.of('vampirism:umbrella'),
+                [
+                        'AAA',
+                        'BCB',
+                        'DCE'
+                ],
+                {
+                        C: 'vampiresneedumbrellas:diamond_umbrella_rod',
+                        D: 'biomancy:exotic_dust',
+                        B: 'vampirism:vampire_orchid',
+                        E: 'biomancy:stone_powder',
+                        A: 'minecraft:black_wool'
                 }
         )
 });

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_welcome
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1781812597530
+  last_edited_time = 1783858243725
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3d7a9faf-99d7-4792-9208-751b8cc6bef0-1781812237795] = [groups:][instances:]
+  [loading_requirement_container_meta:c31dc401-ea0a-4065-b4c6-d633b3e45da1-1783858050337] = [groups:][instances:]
 }
 
 menu_background {
@@ -589,7 +589,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%Desecrated is a modpack with a lore-based questline that branches into multiple paths. At the start of the game, you will be prompted to choose a faction. You can eventually adhere to all factions.%n%%n%You start as a vampire. You will burn in the sun, the undead are not hostile to you, your health will increase as you level up and you will need to drink blood to survive. Eating regular food will temporarily grant hearts.%n%^^^
+  source = ^^^%n%Desecrated is a modpack with a lore-based questline that branches into multiple paths. At the start of the game, you will be prompted to choose a faction. You can eventually adhere to all factions.%n%%n%You start as a vampire. You are weak to the sun, the undead are not hostile to you, your health will increase as you level up and you will need to drink blood to survive. Eating regular food will temporarily grant hearts.%n%^^^
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -675,7 +675,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%%#FF6200%%n%Performance Warning!%n%%#% %n%Desecrated is still in early development! Progression is subject to change frequently and most content is still unfinished. Please report bugs and provide suggestions on our Discord.%n%^^^
+  source = ^^^%n%%#FF6200%%n%**Stability Warning!**%n%%#% %n%**Important! **Please add the following Java Argument to your launcher options to prevent crashes!  Report bugs on Discord.%n%%n%> [-Dorg.lwjgl.system.allocator=system](click:javaargclick)%n%^^^
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -711,9 +711,9 @@ element {
   anchor_point = element
   anchor_point_element = 44ad7374-b400-4bed-9437-963364924622-1758845556893
   x = -110
-  y = 148
+  y = 140
   width = 298
-  height = 83
+  height = 96
   stay_on_screen = true
   element_loading_requirement_container_identifier = 817d0661-e05c-4884-a5ef-0c12e89141a8-1758845049683
   [loading_requirement_container_meta:817d0661-e05c-4884-a5ef-0c12e89141a8-1758845049683] = [groups:][instances:]

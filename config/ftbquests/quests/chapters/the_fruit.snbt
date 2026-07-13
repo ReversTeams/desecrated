@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["171FDA40D98FA659"]
 			entity_vis_size: 1.0f
 			id: "7E76C7368365FAD4"
 			invisible: true
@@ -121,6 +122,57 @@
 			]
 			x: 5.5d
 			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "171FDA40D98FA659"
+			rewards: [{
+				id: "699D8980BDF2B400"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: "minecraft:cracked_stone_bricks"
+				id: "349F619C05F0664D"
+				structure: "integrated_stronghold:stronghold"
+				title: "Find the Stronghold"
+				type: "structure"
+			}]
+			title: "Find the Stronghold"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["171FDA40D98FA659"]
+			entity_vis_size: 1.0f
+			id: "6353A090E01229D8"
+			invisible: true
+			rewards: [{
+				id: "79E2BE07D0E81962"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: "desecratedcore:broken_portal_frame"
+				id: "3CEAD15E9651AACF"
+				observe_type: 0
+				timer: 0L
+				title: "Witness the broken portal"
+				to_observe: "desecratedcore:broken_portal_frame"
+				type: "observation"
+			}]
+			title: "Foiled Dreams"
+			x: -2.0d
+			y: -2.5d
 		}
 	]
 	title: "The Fruit"

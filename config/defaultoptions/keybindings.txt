@@ -68,17 +68,13 @@ key_placebo.toggleWings:key.keyboard.keypad.8:NONE
 key_key.carry.desc:key.keyboard.left.shift:NONE
 key_key.gpushift.toggle_overlay:key.keyboard.f8:NONE
 key_key.gpushift.open_settings:key.keyboard.f9:NONE
-key_key.usefulbackpacks.slotmodintegration.open_backpack.description:key.keyboard.v:NONE
+key_key.usefulbackpacks.slotmodintegration.open_backpack.description:key.keyboard.b:NONE
 key_key.biomancy.item_default:key.keyboard.v:NONE
 key_key.neepmeat.transform:key.keyboard.c:NONE
 key_key.meatweapons.down:key.keyboard.backslash:NONE
 key_key.meatweapons.use_item:key.keyboard.r:NONE
 key_chloride.zoom:key.keyboard.v:NONE
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown:NONE
-key_key.buildinggadgets2.settings_menu:key.keyboard.g:NONE
-key_key.buildinggadgets2.undo:key.keyboard.u:NONE
-key_key.buildinggadgets2.anchor:key.keyboard.h:NONE
-key_key.buildinggadgets2.range:key.keyboard.r:NONE
 key_key.shadercycler.cycle:key.keyboard.unknown:NONE
 key_key.shadercycler.open_config:key.keyboard.u:NONE
 key_key.clientsort.edit:key.keyboard.unknown:NONE
@@ -186,7 +182,7 @@ key_key.journeymap.zoom_in:key.keyboard.equal:NONE
 key_key.journeymap.zoom_out:key.keyboard.minus:NONE
 key_key.journeymap.minimap_type:key.keyboard.left.bracket:NONE
 key_key.journeymap.minimap_preset:key.keyboard.backslash:NONE
-key_key.journeymap.create_waypoint:key.keyboard.b:NONE
+key_key.journeymap.create_waypoint:key.keyboard.unknown:NONE
 key_key.journeymap.toggle_waypoints:key.keyboard.unknown:NONE
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b:NONE
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c:NONE

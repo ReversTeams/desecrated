@@ -33,16 +33,24 @@
 				"7F0C5BD591C3EA2A"
 			]
 			dependency_requirement: "one_started"
+			description: ["I've found a map to an unknown flesh dungeon, which should prove to have very useful mystical ingredients."]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "675440487ADE64B0"
+			rewards: [{
+				id: "2FB06AE398EE41DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				icon: "fracture:fleshy_chiseled_darkstone_bricks"
 				id: "4ECDF3BCA781F6CD"
 				structure: "fracture:flesh_dungeon"
+				title: "Find the Flesh Dungeon"
 				type: "structure"
 			}]
+			title: "Enter the Flesh Dungeon"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -110,6 +118,7 @@
 					type: "item"
 				}
 			]
+			title: "Parasitic Tools"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -117,6 +126,11 @@
 			dependencies: ["765F8AFD24ECD267"]
 			entity_vis_size: 1.0f
 			id: "2D7D4AEFBB50C92E"
+			rewards: [{
+				id: "0B99EE69880C49E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "526EEB4BDFD0AD08"
@@ -130,6 +144,12 @@
 			dependencies: ["675440487ADE64B0"]
 			entity_vis_size: 1.0f
 			id: "53261D133D9CC741"
+			rewards: [{
+				id: "6EA1A23DC25C9D7A"
+				table_id: 5351484687126849480L
+				team_reward: false
+				type: "random"
+			}]
 			tasks: [{
 				entity: "fracture:flesh_slime"
 				entity_use_tag: false
@@ -146,6 +166,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Flesh Slime"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -153,6 +174,19 @@
 			dependencies: ["675440487ADE64B0"]
 			entity_vis_size: 1.0f
 			id: "485A04F13A87E366"
+			rewards: [
+				{
+					id: "5BE2553213F513C9"
+					table_id: 836753948986940579L
+					team_reward: false
+					type: "random"
+				}
+				{
+					id: "410CB557D692D139"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				entity: "fracture:ankle_biter"
 				entity_use_tag: false
@@ -169,13 +203,27 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Ankle Biter"
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["675440487ADE64B0"]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "31E181386233E8D5"
+			rewards: [
+				{
+					id: "35183EB36814D13A"
+					table_id: 4966161535555837422L
+					team_reward: false
+					type: "random"
+				}
+				{
+					id: "1D887B26B15DCCD2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				entity: "fracture:flesh_walker"
 				entity_use_tag: false
@@ -192,13 +240,20 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Flesh Walker"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["675440487ADE64B0"]
+			description: ["Guarding an unknown portal, the flesh dungeon turns out to be mostly alive. Its guardian manifests as a great obelisk made of flesh. I have no idea why it's able to use most deadly magic circles as a defence mechanism..."]
 			entity_vis_size: 1.0f
 			id: "765F8AFD24ECD267"
+			rewards: [{
+				id: "0B26D5C137AE0E75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.1d
 			tasks: [{
 				entity: "fracture:flesh_obelisk"
@@ -216,6 +271,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "The Flesh Obelisk"
 			x: 0.0d
 			y: -2.75d
 		}
@@ -250,14 +306,27 @@
 			y: 0.5d
 		}
 		{
+			description: [
+				"I've found this odd pillager tower. There were a few pillagers guarding it, who I easily dispatched. Strangely, the inside of the tower itself was mostly in ruins."
+				""
+				"I sure hope that chest is not rig-"
+			]
 			entity_vis_size: 1.0f
 			id: "7F0C5BD591C3EA2A"
+			rewards: [{
+				id: "50512F1073BF76EB"
+				item: "minecraft:enchanted_golden_apple"
+				team_reward: false
+				type: "item"
+			}]
 			tasks: [{
 				icon: "butchery:pillager_corpse"
 				id: "6F408247D8576CB7"
 				structure: "fracture:pillager_tower"
+				title: "Find the Pillager Tower"
 				type: "structure"
 			}]
+			title: "Find the Pillager Tower"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -269,12 +338,19 @@
 			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "404C4A07177D5369"
+			rewards: [{
+				id: "037902BB4B4AB46C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				biome: "incision:eroded_yard"
 				icon: "incision:carrion"
 				id: "4C281D25C537958E"
+				title: "Find the Eroded Yard"
 				type: "biome"
 			}]
+			title: "Find the Eroded Yard"
 			x: 2.5d
 			y: -4.5d
 		}
@@ -282,32 +358,25 @@
 			dependencies: ["404C4A07177D5369"]
 			entity_vis_size: 1.0f
 			id: "070B4F68C93EA2C1"
+			rewards: [{
+				id: "42CF9BE7B0995907"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "4F8A1A03E6691119"
-					item: {
-						Count: 1
-						id: "incision:eyebulb"
-						tag: { }
-					}
+					item: "incision:eyebulb"
 					type: "item"
 				}
 				{
 					id: "077B22D5C4375695"
-					item: {
-						Count: 1
-						id: "incision:lens_glass"
-						tag: { }
-					}
+					item: "incision:lens_glass"
 					type: "item"
 				}
 				{
 					id: "146A1F37F9503B1F"
-					item: {
-						Count: 1
-						id: "incision:conductor_nerve"
-						tag: { }
-					}
+					item: "incision:conductor_nerve"
 					type: "item"
 				}
 			]
@@ -318,6 +387,11 @@
 			dependencies: ["57FD36BEA9511482"]
 			entity_vis_size: 1.0f
 			id: "5681A00017550057"
+			rewards: [{
+				id: "7099D031B8A8FA8B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "65644E6B8359B5C0"
 				item: {
@@ -336,6 +410,11 @@
 			dependencies: ["404C4A07177D5369"]
 			entity_vis_size: 1.0f
 			id: "57FD36BEA9511482"
+			rewards: [{
+				id: "31139481DBB5BC51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity: "incision:seer"
 				entity_use_tag: false
@@ -359,11 +438,18 @@
 			dependencies: ["404C4A07177D5369"]
 			entity_vis_size: 1.5f
 			id: "2696746882728AB7"
-			rewards: [{
-				id: "0CEABE4F3B94F744"
-				item: "netherman:azazel_guide_book"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0CEABE4F3B94F744"
+					item: "netherman:azazel_guide_book"
+					type: "item"
+				}
+				{
+					id: "3051BAF01FAD1DDA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				entity: "incision:purger"
 				entity_use_tag: false
@@ -387,6 +473,11 @@
 			dependencies: ["58D94019EC311AD3"]
 			entity_vis_size: 0.5f
 			id: "2BDC1C9802E15AF8"
+			rewards: [{
+				id: "03B25C4F78774CC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "fdse:abyssal_leviathan"
@@ -404,6 +495,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "The Abyssal Leviathan"
 			x: -6.0d
 			y: -7.5d
 		}
@@ -411,12 +503,19 @@
 			dependencies: ["404C4A07177D5369"]
 			entity_vis_size: 1.0f
 			id: "3EFEC14B36C83F77"
+			rewards: [{
+				id: "32EB744A36984BCF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				icon: "netherman:grand_door"
 				id: "67A67BF0924C9F84"
 				structure: "netherman:mansion_nether"
+				title: "Find the Cultist Mansion"
 				type: "structure"
 			}]
+			title: "Find the Cultist Mansion"
 			x: 6.5d
 			y: -7.5d
 		}
@@ -424,6 +523,11 @@
 			dependencies: ["3EFEC14B36C83F77"]
 			entity_vis_size: 1.0f
 			id: "784AF15C4238D0F4"
+			rewards: [{
+				id: "0B7DFD98366AE59B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "netherman:azazel"
@@ -441,6 +545,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "The Divine Chariot"
 			x: 8.0d
 			y: -8.5d
 		}
@@ -448,6 +553,11 @@
 			dependencies: ["58D94019EC311AD3"]
 			entity_vis_size: 2.0f
 			id: "20ACC3476774534F"
+			rewards: [{
+				id: "1356F616EC9ED2C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity: "fdse:angler_fish"
 				entity_use_tag: false
@@ -471,6 +581,11 @@
 			dependencies: ["58D94019EC311AD3"]
 			entity_vis_size: 3.0f
 			id: "0402FBA0EBBF8ED6"
+			rewards: [{
+				id: "5DCFB2604C61FC33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity: "fdse:bathyal"
 				entity_use_tag: false
@@ -494,6 +609,11 @@
 			dependencies: ["58D94019EC311AD3"]
 			entity_vis_size: 1.0f
 			id: "036684B91776187C"
+			rewards: [{
+				id: "6E70C8BAF3C6AA04"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity: "fdse:deep_sea_moray"
 				entity_use_tag: false
@@ -517,12 +637,19 @@
 			dependencies: ["765F8AFD24ECD267"]
 			entity_vis_size: 1.0f
 			id: "58D94019EC311AD3"
+			rewards: [{
+				id: "233355215B169E84"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				biome: "#minecraft:is_ocean"
 				icon: "subwild:water_puddle"
 				id: "557641224DA64857"
+				title: "Visit the ocean"
 				type: "biome"
 			}]
+			title: "Visit the ocean"
 			x: -3.0d
 			y: -4.5d
 		}

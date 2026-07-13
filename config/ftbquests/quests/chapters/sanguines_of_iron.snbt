@@ -53,6 +53,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Sanguines of Iron retreat to their workshops to forge powerful weapons, usually staying true to one weapon their whole lives, continually tinkering and improving it. They are master artisans who can produce plenty of specialized tools and equipment."]
 			entity_vis_size: 1.0f
 			id: "20DC2110D654C2D8"
 			tasks: [{
@@ -68,6 +69,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "67E46BEEC08F8EA1"
+			rewards: [{
+				id: "6D66967A79C7958C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					advancement: "tetra:upgrades/root"
@@ -104,6 +110,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "1CE2E59DF8AB13AF"
+			rewards: [{
+				id: "06102C5D4297A363"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/workbench"
 				criterion: ""
@@ -118,6 +129,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "27080CDFCD7A0AC9"
+			rewards: [{
+				id: "7AC5A5AAC4FF1350"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2E7E444F286DE0EB"
 				item: "tetra:geode"
@@ -131,6 +147,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "11BBC69CCB822E78"
+			rewards: [{
+				id: "7CE409A56D5EFCC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "tetra:spelunking/geode_open"
 				criterion: ""
@@ -145,6 +166,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "0FDC63AE98A6BC06"
+			rewards: [{
+				id: "7AC0AD823D4A731D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5772ACC8DBA56320"
 				item: {
@@ -168,6 +194,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "2F231685847D74F5"
+			rewards: [{
+				id: "11B83A644214F9B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/sword_upgrade"
 				criterion: ""
@@ -182,6 +213,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "5DEADC68E94F930F"
+			rewards: [{
+				id: "7A627CD08C293FB2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/shield_upgrade"
 				criterion: ""
@@ -196,6 +232,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "6FFE6F897CC8BC2A"
+			rewards: [{
+				id: "2C7FC31550B8B358"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/bow_upgrade"
 				criterion: ""
@@ -210,6 +251,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "142CEAE28CC979B5"
+			rewards: [{
+				id: "7A351110E66B9374"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/tool_upgrade"
 				criterion: ""
@@ -224,6 +270,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "6832804944E6968C"
+			rewards: [{
+				id: "46C85266D4041D6F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "74DFA1EBCF889EF0"
 				item: "tetra:rack"
@@ -237,6 +288,11 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "5CA75CA01A803357"
+			rewards: [{
+				id: "57D4F526C5BD3881"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					advancement: "tetra:upgrades/hammer_2"
@@ -268,6 +324,11 @@
 			dependencies: ["1CE2E59DF8AB13AF"]
 			entity_vis_size: 1.0f
 			id: "58A84DDA66A0816D"
+			rewards: [{
+				id: "70C3A727E3A4A469"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/enchant_item"
 				criterion: ""
@@ -281,6 +342,11 @@
 			dependencies: ["58A84DDA66A0816D"]
 			entity_vis_size: 1.0f
 			id: "231627414397C6D6"
+			rewards: [{
+				id: "7E8B06A635173520"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/unstable_power"
 				criterion: ""
@@ -291,7 +357,15 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["231627414397C6D6"]
+			dependencies: [
+				"231627414397C6D6"
+				"5CA75CA01A803357"
+				"142CEAE28CC979B5"
+				"5DEADC68E94F930F"
+				"6FFE6F897CC8BC2A"
+				"2F231685847D74F5"
+				"58A84DDA66A0816D"
+			]
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:chooser_key_item"
 			id: "718E019861370CB7"
