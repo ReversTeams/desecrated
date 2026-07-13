@@ -19,7 +19,7 @@ Mods planned for other packs
 - Mana & Artifice
 - Hexcasting
 
-Custom items and blocks are not added via KubeJS or Multiblocked2, but via custom mods, the primary one being Concatenation Core.
+Custom items and blocks are not added via KubeJS or Multiblocked2, but via custom mods, the primary one being Desecrated Core.
 
 ## Support
 Most discussions about Desecrated happen in [ReversTeam's Discord server](https://discord.com/invite/TJKZgr6UDg), where the developer team can also be asked questions.

@@ -1,0 +1,10 @@
+type = listener_instances
+
+listener_instance {
+  listener_instance_identifier = 525359d0-ebf7-40ed-8af5-e60bbbf6c0b4-1783858357303
+  listener_provider_identifier = text_clicked
+  listener_instance_action_script_identifier = a0cef873-2e79-48f7-a085-eaacc2a89873-1783858357303
+  [executable_action_instance:41808564-820d-48bd-a354-daa8f2126e33-1783858392740][action_type:copytoclipboard] = -Dorg.lwjgl.system.allocator=system
+  [executable_block:a0cef873-2e79-48f7-a085-eaacc2a89873-1783858357303][type:generic] = [executables:41808564-820d-48bd-a354-daa8f2126e33-1783858392740;]
+}
+

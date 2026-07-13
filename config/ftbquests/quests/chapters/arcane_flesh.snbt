@@ -108,6 +108,11 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"The Sickle of Struggle can appear in the hands of the betrayed guzzler at night. The main issue is recovering an intact sickle when fighting a guzzler."
+				""
+				"This Sickle can extract mystical ingredients from prey quite easily."
+			]
 			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
@@ -117,12 +122,19 @@
 				}
 			}
 			id: "445742EA3F278341"
-			rewards: [{
-				id: "23FFA7D0C4176D2C"
-				table_id: 6565141144447489233L
-				title: "Flesh Extravaganza"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "23FFA7D0C4176D2C"
+					table_id: 6565141144447489233L
+					title: "Flesh Extravaganza"
+					type: "random"
+				}
+				{
+					id: "468820B4558BE936"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.3d
 			tasks: [
 				{
@@ -160,8 +172,14 @@
 		}
 		{
 			dependencies: ["7E09D93FD685B52D"]
+			description: ["I can create my own flesh dungeon now! This once beating heart will beat again and obey my command! It will spawn flesh abominations that I will be able to use myself.."]
 			entity_vis_size: 1.0f
 			id: "3142ECB14BD0600D"
+			rewards: [{
+				id: "0FB9E3E10E753F94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0E6A8CA43D458267"
 				item: "biomancy:primordial_core"
@@ -176,8 +194,14 @@
 				"3142ECB14BD0600D"
 			]
 			dependency_requirement: "one_started"
+			description: ["With ample flesh, this creature will grow!"]
 			entity_vis_size: 1.0f
 			id: "681EF488E543DB48"
+			rewards: [{
+				id: "227B43A2E9E1AD68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.1d
 			tasks: [{
 				id: "493962C65BE3E642"
@@ -189,8 +213,14 @@
 		}
 		{
 			dependencies: ["3142ECB14BD0600D"]
+			description: ["I must upgrade the Sickle of Struggle to harvest more potent mystical ingredients from all sorts of creatures."]
 			entity_vis_size: 1.0f
 			id: "1B89069CF6F1DCC1"
+			rewards: [{
+				id: "475ECA4810C1B9B1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "5166DEFA64452371"
@@ -208,22 +238,45 @@
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
+			description: [
+				"I've found this odd pillager tower. There were a few pillagers guarding it, who I easily dispatched. Strangely, the inside of the tower itself was mostly in ruins."
+				""
+				"I've found a map to an unknown flesh dungeon, which should prove to have very useful mystical ingredients."
+			]
 			entity_vis_size: 1.0f
 			id: "5EA463A36036C699"
+			rewards: [{
+				id: "7C658B8DD626106D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				icon: "fracture:fleshy_chiseled_darkstone_bricks"
 				id: "02974B87792F75DA"
 				structure: "fracture:flesh_dungeon"
+				title: "Find the Flesh Dungeon"
 				type: "structure"
 			}]
+			title: "Enter the Flesh Dungeon"
 			x: 1.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5EA463A36036C699"]
+			description: [
+				"Guarding an unknown portal, the flesh dungeon turns out to be mostly alive. Its guardian manifests as a great obelisk made of flesh. I have no idea why it's able to use most deadly magic circles as a defence mechanism..."
+				""
+				"Obtaining its heart should signify the collapse of the dungeon. I need it as a most potent mystical ingredient to make my own flesh abomination!"
+			]
+			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "18228BC1BD391EE8"
+			rewards: [{
+				id: "631A08B4616B4B10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					entity: "fracture:flesh_obelisk"
@@ -248,6 +301,7 @@
 					type: "item"
 				}
 			]
+			title: "The Flesh Obelisk"
 			x: 1.5d
 			y: -8.5d
 		}
@@ -255,6 +309,11 @@
 			dependencies: ["6A8B34AA9E968EC2"]
 			entity_vis_size: 1.0f
 			id: "5CA8FDF37BD413E4"
+			rewards: [{
+				id: "147C54219FE8CA35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "04CDDF8A415FC01B"
 				item: "bloodyhell:chalice_of_the_dammed"
@@ -268,11 +327,18 @@
 			entity_vis_size: 1.0f
 			icon: "bloodyhell:materialized_soul"
 			id: "22DDD3C6B3604CD9"
-			rewards: [{
-				id: "6BC0BD395A83F8D5"
-				item: "bloodyhell:unknown_guide_book"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6BC0BD395A83F8D5"
+					item: "bloodyhell:unknown_guide_book"
+					type: "item"
+				}
+				{
+					id: "509BBD2182CA3D5A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				dimension: "bloodyhell:soul_dimension"
 				icon: "bloodyhell:materialized_soul"
@@ -286,6 +352,11 @@
 			dependencies: ["22DDD3C6B3604CD9"]
 			entity_vis_size: 1.0f
 			id: "65DF6B6B038F58F7"
+			rewards: [{
+				id: "40C11CC5735F22D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [
 				{
@@ -307,6 +378,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "47F30FDF4F349566"
+			rewards: [{
+				id: "4FA5362640103A3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0E6AA3830B98DD1B"
 				item: "bloodyhell:blasphemite_ore"
@@ -319,6 +395,11 @@
 			dependencies: ["0377023CC9A03552"]
 			entity_vis_size: 1.0f
 			id: "2E2EEA142952B774"
+			rewards: [{
+				id: "60F8D551B06F66BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "547C306A5F9914B1"
 				item: "bloodyhell:rhnull"
@@ -334,6 +415,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "477517C000C5B774"
+			rewards: [{
+				id: "629ACB88EEBAEAEC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "41730A53597E657A"
@@ -357,6 +443,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "0377023CC9A03552"
+			rewards: [{
+				id: "762D43FE34F6CA3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "566453C161A8DFCA"
 				item: "bloodyhell:sanguinite_infusor"
@@ -369,6 +460,11 @@
 			dependencies: ["477517C000C5B774"]
 			entity_vis_size: 1.0f
 			id: "37CBDB89759D3362"
+			rewards: [{
+				id: "3E5DE8D200AE76FE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7EE9113234748572"
 				item: "bloodyhell:sanguinite_blood_harvester_item"
@@ -381,6 +477,11 @@
 			dependencies: ["37CBDB89759D3362"]
 			entity_vis_size: 1.0f
 			id: "1B2A57FD9B88551A"
+			rewards: [{
+				id: "272A9849D51FC8C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "100E180F9A5C5936"
 				item: "bloodyhell:voracious_mushroom_item"
@@ -396,6 +497,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "16159AA464679A4C"
+			rewards: [{
+				id: "44942879A19A286C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "37A347FAF5987C3D"
 				item: "bloodyhell:blasphemite"
@@ -411,6 +517,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "1B25B0B9EE0E67D5"
+			rewards: [{
+				id: "6D66389FF07B1DAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "2DC434C4DBA3E83A"
@@ -431,6 +542,11 @@
 			dependencies: ["2E2EEA142952B774"]
 			entity_vis_size: 1.0f
 			id: "7650D349B57C739D"
+			rewards: [{
+				id: "28615602A2A4D24B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "47FD382A8DC458F4"
@@ -450,6 +566,11 @@
 			dependencies: ["2E2EEA142952B774"]
 			entity_vis_size: 1.0f
 			id: "6C679C18245C1722"
+			rewards: [{
+				id: "3CB99D17E56396F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "261670D7B34A47E8"
 				item: {
@@ -468,6 +589,11 @@
 			dependencies: ["100F51F50BB44B53"]
 			entity_vis_size: 1.0f
 			id: "0796C66F6BF3B1F5"
+			rewards: [{
+				id: "227063F64B473ABE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "64D9E6716A1EB943"
 				item: {
@@ -479,7 +605,6 @@
 						}
 					}
 					id: "bloodyhell:reliquary"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -490,6 +615,11 @@
 			dependencies: ["16159AA464679A4C"]
 			entity_vis_size: 1.0f
 			id: "13AB45EA2C99F16B"
+			rewards: [{
+				id: "4AC6F9422DE0C517"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "2306B2675A52A2ED"
@@ -509,6 +639,11 @@
 			dependencies: ["1B25B0B9EE0E67D5"]
 			entity_vis_size: 1.0f
 			id: "47CC4AD3F583A408"
+			rewards: [{
+				id: "53DFDC7FDF242A6A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "22BFBC9C8025A2D3"
 				item: {
@@ -552,6 +687,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "2A34F271C7C99ADA"
+			rewards: [{
+				id: "083AC58375B5D170"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6D09E15D0D523B10"
 				item: {
@@ -587,6 +727,11 @@
 			dependencies: ["13AB45EA2C99F16B"]
 			entity_vis_size: 1.0f
 			id: "5D3E30A449856590"
+			rewards: [{
+				id: "37A829420B23154D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6CBE11924111E21B"
 				item: {
@@ -627,6 +772,11 @@
 			dependencies: ["503F8332E07D41A2"]
 			entity_vis_size: 1.0f
 			id: "6341285D27A686D9"
+			rewards: [{
+				id: "097CDB4354C8D9D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3F7DAFA68ABB1A99"
 				item: "bloodyhell:ritekeeper_heart"
@@ -639,6 +789,11 @@
 			dependencies: ["19C8C7A0D9F4F3A6"]
 			entity_vis_size: 1.0f
 			id: "3D3271F66F0BAE41"
+			rewards: [{
+				id: "7FAB4853305D3613"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2D6F9E16CC5657D2"
 				item: "bloodyhell:ancient_gem"
@@ -651,6 +806,11 @@
 			dependencies: ["37CBDB89759D3362"]
 			entity_vis_size: 1.0f
 			id: "19C8C7A0D9F4F3A6"
+			rewards: [{
+				id: "5A5E44A648BC4FB1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "53D3C0E71F496C53"
 				item: "bloodyhell:sanguinite_condenser_item"
@@ -663,6 +823,11 @@
 			dependencies: ["1B25B0B9EE0E67D5"]
 			entity_vis_size: 1.0f
 			id: "4F7AC531DCA8EF4C"
+			rewards: [{
+				id: "6922BC1D1FAC0F05"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "649AE81C5C28C9A1"
 				item: {
@@ -689,8 +854,28 @@
 		}
 		{
 			dependencies: ["7A82C01F08326C74"]
+			description: ["Ether Ashes are obtained from creatures killed with the osseous sword."]
 			entity_vis_size: 1.0f
 			id: "31E9E6BBC04B24F9"
+			rewards: [
+				{
+					count: 3
+					id: "124F432CC34B5CC8"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19A81DED3C21C8EB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "73CE011FD7FAC15D"
 				item: "sons_of_sins:ether_ashes"
@@ -701,8 +886,14 @@
 		}
 		{
 			dependencies: ["31E9E6BBC04B24F9"]
+			description: ["While I don't have the capabilities to make regular, pure steel in an efficient manner, I can make mystical soul steel with more or less the same properties!"]
 			entity_vis_size: 1.0f
 			id: "28C4A4785D935FBE"
+			rewards: [{
+				id: "3C6EE55A9E4A4B47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "31B8E32429511C8D"
 				item: "sons_of_sins:soul_steel"
@@ -716,8 +907,32 @@
 				"4D45D411280B394B"
 				"31E9E6BBC04B24F9"
 			]
+			description: [
+				"By merging mystical blood and ether ashes, I can create etheric blood. Swimming through this blood heals all wounds! I can sense dread emanating from the underworld.. I believe staying too long in this blood would cause a great tragedy."
+				""
+				"Perhaps I should find a villager to sacrifice to this blood?"
+			]
 			entity_vis_size: 1.0f
 			id: "6F71CC7D8969DFA6"
+			rewards: [
+				{
+					count: 3
+					id: "6C98908E3F273544"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E994811BCAB0E0C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "20479500D6A0F789"
 				item: "sons_of_sins:blood_bucket"
@@ -728,38 +943,48 @@
 		}
 		{
 			dependencies: ["445742EA3F278341"]
+			description: ["Using the sickle of struggle and keeping a bottle on me, I can obtain a bottle of blood that can be used as a mystical ingredient. It keeps most of the vitality of the creature that was killed."]
 			entity_vis_size: 1.0f
 			id: "4D45D411280B394B"
-			rewards: [{
-				id: "4F02BAA767D2C1D6"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "4F02BAA767D2C1D6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "58A5897790AD1667"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0302303657EA0172"
-				item: {
-					Count: 1
-					id: "sons_of_sins:bottle_of_blood"
-					tag: { }
-				}
+				item: "sons_of_sins:bottle_of_blood"
 				type: "item"
 			}]
 			x: 0.0d
 			y: -2.0d
 		}
 		{
+			description: ["This macabre sword turns certain enemies to ashes, rending their soul apart. It is a very potent mystical ingredient. I'm not sure of the implications this poses... For a simple bone sword to be able to do this?&l"]
 			entity_vis_size: 1.0f
 			id: "7A82C01F08326C74"
+			rewards: [{
+				id: "47BF94131EF1D365"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3C3D0E9765666517"
 				item: {
@@ -776,8 +1001,14 @@
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
+			description: ["By throwing ether ashes into etheric blood, the ashes are infused and crystalize. I believe I could use this material for tools."]
 			entity_vis_size: 1.0f
 			id: "58B0FD0990E8414E"
+			rewards: [{
+				id: "3C8B8DDDDE1CA6C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5EBA68F7B4B9EF9E"
 				item: "sons_of_sins:crystallized_ether"
@@ -790,11 +1021,18 @@
 			dependencies: ["445742EA3F278341"]
 			entity_vis_size: 1.0f
 			id: "1261468FF3756AEA"
-			rewards: [{
-				id: "6AE6606D999A7EF1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6AE6606D999A7EF1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3A7D74A70DDF7E28"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7F0892882C927F15"
 				item: {
@@ -829,8 +1067,14 @@
 		}
 		{
 			dependencies: ["58B0FD0990E8414E"]
+			description: ["The Shape-Shifting Etheric Tool is a most wonderful pickaxe, axe and shovel!"]
 			entity_vis_size: 1.0f
 			id: "74AFAE94251EB275"
+			rewards: [{
+				id: "53AD501FF821B15E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "4581E3551AC9D56F"
@@ -856,6 +1100,7 @@
 					type: "item"
 				}
 			]
+			title: "Ether Tools"
 			x: -2.0d
 			y: -6.0d
 		}
@@ -873,6 +1118,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "2ACEA55675CB3F95"
+			rewards: [{
+				id: "3221F78E80C51BF5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "62398181B04422EA"
 				item: "sons_of_sins:bloody_bone"
@@ -885,6 +1135,11 @@
 			dependencies: ["28C4A4785D935FBE"]
 			entity_vis_size: 1.0f
 			id: "4C910074868C05DC"
+			rewards: [{
+				id: "25C8D5DCE73A983D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "4671DAABFDFC0556"
@@ -936,8 +1191,14 @@
 		}
 		{
 			dependencies: ["28C4A4785D935FBE"]
+			description: ["The urn serves to power soul steel tools with ether ashes."]
 			entity_vis_size: 1.0f
 			id: "33F207B4C699F6C5"
+			rewards: [{
+				id: "7CB1CD6D19ACE318"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4F839B0CBD50E9B5"
 				item: {
@@ -970,6 +1231,25 @@
 			dependency_requirement: "one_completed"
 			entity_vis_size: 1.0f
 			id: "7D5169ED2AE67ACB"
+			rewards: [
+				{
+					count: 3
+					id: "48632DE241C3E86B"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E97769870238349"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "73ABE930EC7E53A3"
 				item: {
@@ -997,6 +1277,11 @@
 			dependencies: ["445742EA3F278341"]
 			entity_vis_size: 1.0f
 			id: "69A549C4DACD3F1A"
+			rewards: [{
+				id: "70B91E1E8E80A0D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "39B8716C431A4337"
 				item: {
@@ -1047,9 +1332,16 @@
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
+			description: ["I have managed to capture a villager, although the hunters from the Starlight Order and Gold Barar are on my trail to rescue this poor soul. There won't be anything left for them to save! I will sacrifice this villager to the etheric blood and I will see what the underworld has to offer as a trade!"]
 			entity_vis_size: 1.0f
 			icon: "sons_of_sins:blood_ball"
 			id: "5392DF54A0BDC809"
+			rewards: [{
+				id: "3F45772AF710BDEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.2d
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -1064,9 +1356,11 @@
 				id: "52D7EBCCB705C359"
 				observe_type: 5
 				timer: 0L
+				title: "Witness a villager"
 				to_observe: "minecraft:villager"
 				type: "observation"
 			}]
+			title: "Capture the Villager"
 			x: 7.0d
 			y: -8.5d
 		}
@@ -1074,13 +1368,14 @@
 			dependencies: ["079ABE7B83F6A6F6"]
 			entity_vis_size: 1.0f
 			id: "667889EB98C92FD4"
+			rewards: [{
+				id: "7CA78A2B04E5AD4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "569E2D1AB70BC196"
-				item: {
-					Count: 1
-					id: "sons_of_sins:wistivers_jaws"
-					tag: { }
-				}
+				item: "sons_of_sins:wistivers_jaws"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1090,6 +1385,11 @@
 			dependencies: ["0FF481A9738C6A2E"]
 			entity_vis_size: 1.0f
 			id: "0CD8DD913FC68DA4"
+			rewards: [{
+				id: "4DCBFA250C6393B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "051E80515490B954"
 				item: {
@@ -1117,6 +1417,11 @@
 			dependencies: ["00CCFEBA2BF7D34B"]
 			entity_vis_size: 1.0f
 			id: "4C25EB608642E1FD"
+			rewards: [{
+				id: "4E19C1AB682418D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "23F1A9A85DD0C425"
 				item: "sons_of_sins:hand_of_riot"
@@ -1129,6 +1434,11 @@
 			dependencies: ["0BDCD3D1B995EDE8"]
 			entity_vis_size: 1.0f
 			id: "73421638692594EA"
+			rewards: [{
+				id: "79C0144A0444EB46"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1297A4219365E3DA"
 				item: "sons_of_sins:touch_of_greed"
@@ -1141,6 +1451,11 @@
 			dependencies: ["60A547780F1428FA"]
 			entity_vis_size: 1.0f
 			id: "4CEF240547D1B822"
+			rewards: [{
+				id: "0DD60855F55D1B96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "56AEA081E56C4190"
 				item: "sons_of_sins:ether_engine"
@@ -1153,6 +1468,11 @@
 			dependencies: ["1EC64182E63D237D"]
 			entity_vis_size: 1.0f
 			id: "170AB5D1F8B84557"
+			rewards: [{
+				id: "7B91F6745874584F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "325C75886B030345"
 				item: {
@@ -1171,6 +1491,11 @@
 			dependencies: ["5D88FB716ED71AD6"]
 			entity_vis_size: 1.0f
 			id: "26E1F8A2256E6536"
+			rewards: [{
+				id: "5A44E7F92987CB30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "04D610FF0670AAAF"
 				item: "sons_of_sins:cursed_head"
@@ -1183,6 +1508,11 @@
 			dependencies: ["5EA463A36036C699"]
 			entity_vis_size: 1.0f
 			id: "175FC1761178719D"
+			rewards: [{
+				id: "7CC2B7EE645C18D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "192D32EB6E023EE6"
 				item: "fracture:fleshy_bone"
@@ -1193,8 +1523,14 @@
 		}
 		{
 			dependencies: ["175FC1761178719D"]
+			description: ["Parasitic Tools could be considered a natural variant to Flesh Tools. They do not regenerate on their own, they use its user to be able to perform more efficiently. Some supplementary equipment could make its effects potentially worse or better."]
 			entity_vis_size: 1.0f
 			id: "4F5360BF2C69B6F6"
+			rewards: [{
+				id: "4021CA32891FC58C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "3D7CC0110503F0A7"
@@ -1241,13 +1577,20 @@
 					type: "item"
 				}
 			]
+			title: "Parasitic Tools"
 			x: -2.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["18228BC1BD391EE8"]
+			description: ["The meat has been whispering to me for days now... It wants to be alive once more!"]
 			entity_vis_size: 1.0f
 			id: "7E09D93FD685B52D"
+			rewards: [{
+				id: "4B52D36DEB0F8B9D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "biomancy:biomancy/root"
 				criterion: ""
@@ -1259,8 +1602,14 @@
 		}
 		{
 			dependencies: ["1B89069CF6F1DCC1"]
+			description: ["The fangs of a wolf. Intact!"]
 			entity_vis_size: 1.0f
 			id: "1149E9D781B1E0E6"
+			rewards: [{
+				id: "3591392A0789937C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					advancement: "biomancy:biomancy/predator_killer"
@@ -1282,6 +1631,11 @@
 			dependencies: ["681EF488E543DB48"]
 			entity_vis_size: 1.0f
 			id: "7E6B2DCA9A18DF4A"
+			rewards: [{
+				id: "77796B92D80B3D17"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "biomancy:biomancy/healing_activator_sacrifice"
 				criterion: ""
@@ -1295,6 +1649,11 @@
 			dependencies: ["69A549C4DACD3F1A"]
 			entity_vis_size: 1.0f
 			id: "6AB18A30D5721E61"
+			rewards: [{
+				id: "3ED35E47AAD83606"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "sons_of_sins:slice_all"
 				criterion: ""
@@ -1308,6 +1667,11 @@
 			dependencies: ["7D5169ED2AE67ACB"]
 			entity_vis_size: 1.0f
 			id: "7047E5E29683914E"
+			rewards: [{
+				id: "5EF6662265CFD4BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.2d
 			tasks: [{
 				advancement: "sons_of_sins:original_sin"
@@ -1322,17 +1686,24 @@
 			dependencies: ["7047E5E29683914E"]
 			entity_vis_size: 1.0f
 			id: "1520FE230FEDC3EA"
-			rewards: [{
-				id: "5F27080DD8AEC600"
-				item: {
-					Count: 1
-					id: "tangiblecommands:back_item"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "5F27080DD8AEC600"
+					item: {
+						Count: 1
+						id: "tangiblecommands:back_item"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6E7D8FC465C0B0CF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.1d
 			tasks: [{
 				advancement: "sons_of_sins:half_blood"
@@ -1347,6 +1718,11 @@
 			dependencies: ["5392DF54A0BDC809"]
 			entity_vis_size: 2.0f
 			id: "60A547780F1428FA"
+			rewards: [{
+				id: "052C6E84A215247D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "sons_of_sins:kelvin"
@@ -1371,6 +1747,11 @@
 			dependencies: ["5392DF54A0BDC809"]
 			entity_vis_size: 2.0f
 			id: "0FF481A9738C6A2E"
+			rewards: [{
+				id: "73C1B2C70A708AB5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "sons_of_sins:walking_bed"
@@ -1395,6 +1776,11 @@
 			dependencies: ["5392DF54A0BDC809"]
 			entity_vis_size: 2.0f
 			id: "079ABE7B83F6A6F6"
+			rewards: [{
+				id: "055EB583293780D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "sons_of_sins:wistiver"
@@ -1419,6 +1805,11 @@
 			dependencies: ["5392DF54A0BDC809"]
 			entity_vis_size: 1.0f
 			id: "00CCFEBA2BF7D34B"
+			rewards: [{
+				id: "738599BA7C224A5B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "sons_of_sins:prowler"
@@ -1443,6 +1834,11 @@
 			dependencies: ["5392DF54A0BDC809"]
 			entity_vis_size: 2.0f
 			id: "1EC64182E63D237D"
+			rewards: [{
+				id: "6E0115957DD7F764"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "sons_of_sins:butcher"
@@ -1467,6 +1863,11 @@
 			dependencies: ["5392DF54A0BDC809"]
 			entity_vis_size: 1.5f
 			id: "0BDCD3D1B995EDE8"
+			rewards: [{
+				id: "03A95ED9EBF8D437"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "sons_of_sins:blud"
@@ -1491,6 +1892,11 @@
 			dependencies: ["5392DF54A0BDC809"]
 			entity_vis_size: 2.0f
 			id: "5D88FB716ED71AD6"
+			rewards: [{
+				id: "31CC974BC2976999"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				entity: "sons_of_sins:curse"
@@ -1514,19 +1920,27 @@
 		{
 			dependencies: ["445742EA3F278341"]
 			dependency_requirement: "one_started"
+			description: ["I've killed so many of them! Why can I not find an intact sickle?!"]
 			entity_vis_size: 1.0f
 			id: "31CBFF467C36F547"
-			rewards: [{
-				id: "0165C907C18BA103"
-				item: {
-					Count: 1
-					id: "sons_of_sins:sickle_of_struggle"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "0165C907C18BA103"
+					item: {
+						Count: 1
+						id: "sons_of_sins:sickle_of_struggle"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "29D5068234CE5135"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 0.9d
 			tasks: [{
 				entity: "sons_of_sins:betrayed_guzzler"
@@ -1552,6 +1966,11 @@
 			dependencies: ["7047E5E29683914E"]
 			entity_vis_size: 1.5f
 			id: "3B3852B0A8E6308F"
+			rewards: [{
+				id: "0DEB240875BBA0FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -1575,6 +1994,11 @@
 			dependencies: ["7047E5E29683914E"]
 			entity_vis_size: 1.25f
 			id: "68B70E5C913E9372"
+			rewards: [{
+				id: "5307F2146860CE7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -1598,6 +2022,11 @@
 			dependencies: ["7047E5E29683914E"]
 			entity_vis_size: 1.0f
 			id: "2EF135674C688C29"
+			rewards: [{
+				id: "5228D69D34486F27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -1621,6 +2050,11 @@
 			dependencies: ["7047E5E29683914E"]
 			entity_vis_size: 2.0f
 			id: "14F1FF385D914C3C"
+			rewards: [{
+				id: "327BFB7EE7E8DE86"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -1644,6 +2078,11 @@
 			dependencies: ["7047E5E29683914E"]
 			entity_vis_size: 1.5f
 			id: "0ABA2E062DEBE6A5"
+			rewards: [{
+				id: "2AC875DEC2E82E72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -1667,6 +2106,11 @@
 			dependencies: ["61740180C335EEB4"]
 			entity_vis_size: 1.0f
 			id: "65A8B04267923FB7"
+			rewards: [{
+				id: "1BE893F74A76A030"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "5C37651CACAC3429"
@@ -1680,6 +2124,11 @@
 			dependencies: ["1B89069CF6F1DCC1"]
 			entity_vis_size: 1.0f
 			id: "14674EB8086DB4BE"
+			rewards: [{
+				id: "2BBC98F19259B664"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "56F22EAD83899843"
 				item: {
@@ -1736,6 +2185,11 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "2FC8B5F6807FD5DC"
+			rewards: [{
+				id: "65DACE74FDCA2E1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "7E54D367FDA99A4F"
@@ -1749,6 +2203,11 @@
 			dependencies: ["7E6B2DCA9A18DF4A"]
 			entity_vis_size: 1.0f
 			id: "61740180C335EEB4"
+			rewards: [{
+				id: "47DEB7DFD0EF9F8B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					entity: "biomancy:flesh_blob"
@@ -1780,6 +2239,11 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "54D942F53453202D"
+			rewards: [{
+				id: "0720C01FEB7D131E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "1CAE929292A994C3"
@@ -1793,6 +2257,11 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "50A5F2DF44930F15"
+			rewards: [{
+				id: "112B2968627EECA7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "25A25477E883BCED"
 				item: "biomancy:digester"
@@ -1805,6 +2274,11 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "241FEED0D5C70D76"
+			rewards: [{
+				id: "072FA65F5FC2131B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "643AE62A09DB3064"
 				item: {
@@ -1833,6 +2307,11 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "0DC21CC4073914AF"
+			rewards: [{
+				id: "39192FF55AE6134C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "29C7A731C150C0B0"
 				item: {
@@ -1862,6 +2341,11 @@
 			dependencies: ["50A5F2DF44930F15"]
 			entity_vis_size: 1.0f
 			id: "0B07BB8AC0AA7739"
+			rewards: [{
+				id: "311F8ABD219CB4BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "49EC982FFDB55961"
@@ -1882,6 +2366,11 @@
 			dependencies: ["14674EB8086DB4BE"]
 			entity_vis_size: 1.0f
 			id: "4BB27DC800763EE0"
+			rewards: [{
+				id: "397166751A292B14"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "biomancy:biomancy/organ_trader"
 				criterion: ""
@@ -1895,6 +2384,11 @@
 			dependencies: ["2ACAFD13FF8FA71F"]
 			entity_vis_size: 1.0f
 			id: "6ED8E2E5F96C70FC"
+			rewards: [{
+				id: "4CA61504ACE0E14F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "72484DD9EBC57359"
 				item: "biomancy:acid_bucket"
@@ -1910,6 +2404,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "6A8B34AA9E968EC2"
+			rewards: [{
+				id: "71669E06A1C45997"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.2d
 			tasks: [
 				{
@@ -1942,6 +2441,11 @@
 			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "0D0782320D0DEE82"
+			rewards: [{
+				id: "736093A457F6E93B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "132F81795B323930"
 				item: {
@@ -1960,6 +2464,11 @@
 			dependencies: ["2FC8B5F6807FD5DC"]
 			entity_vis_size: 1.0f
 			id: "7572614CAD3C843A"
+			rewards: [{
+				id: "018929F4E8A3C7F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.1d
 			tasks: [
 				{
@@ -1980,13 +2489,14 @@
 			dependencies: ["0D0782320D0DEE82"]
 			entity_vis_size: 1.0f
 			id: "2A8D992F16D4BE46"
+			rewards: [{
+				id: "533C65F13F407747"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4B08E495889C26AC"
-				item: {
-					Count: 1
-					id: "biomancy:essence"
-					tag: { }
-				}
+				item: "biomancy:essence"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1996,13 +2506,14 @@
 			dependencies: ["7572614CAD3C843A"]
 			entity_vis_size: 1.0f
 			id: "4D42C34DA0540090"
+			rewards: [{
+				id: "7789C8FE477C1653"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "73663CE5C1D022C3"
-				item: {
-					Count: 1
-					id: "biomancy:ravenous_claws"
-					tag: { }
-				}
+				item: "biomancy:ravenous_claws"
 				type: "item"
 			}]
 			x: 7.5d
@@ -2012,6 +2523,11 @@
 			dependencies: ["681EF488E543DB48"]
 			entity_vis_size: 1.0f
 			id: "2ACAFD13FF8FA71F"
+			rewards: [{
+				id: "054393916244407B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "51C1C47064B941B7"
 				item: "biomancy:primal_orifice"
@@ -2027,13 +2543,14 @@
 			]
 			entity_vis_size: 1.0f
 			id: "703274901EDEC2AF"
+			rewards: [{
+				id: "58F9E41E88EB874A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2BFBA4932B23F298"
-				item: {
-					Count: 1
-					id: "biomancy:caustic_gunblade"
-					tag: { }
-				}
+				item: "biomancy:caustic_gunblade"
 				type: "item"
 			}]
 			x: 6.0d
@@ -2043,6 +2560,11 @@
 			dependencies: ["7572614CAD3C843A"]
 			entity_vis_size: 1.0f
 			id: "082FAF1429E85144"
+			rewards: [{
+				id: "234646269F86D359"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "416FAD9D92FCF3EA"
@@ -2088,13 +2610,14 @@
 			dependencies: ["7572614CAD3C843A"]
 			entity_vis_size: 1.0f
 			id: "31E7ABD79D14926E"
+			rewards: [{
+				id: "7E62282114133575"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5F92BFAB49D0468F"
-				item: {
-					Count: 1
-					id: "biomancy:thorn_shield"
-					tag: { }
-				}
+				item: "biomancy:thorn_shield"
 				type: "item"
 			}]
 			x: 6.5d
@@ -2108,6 +2631,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "065D3252F4323B64"
+			rewards: [{
+				id: "3D7ABB9175A8DD99"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5DC7C7D35A8BBABB"
 				item: "biomancy:fertilizer"
@@ -2120,6 +2648,11 @@
 			dependencies: ["2FC8B5F6807FD5DC"]
 			entity_vis_size: 1.0f
 			id: "58142B18675A7AF0"
+			rewards: [{
+				id: "2EABE1DDB3880526"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "32F5A1CAF2F14A20"
 				item: "biomancy:organic_matter"
@@ -2135,6 +2668,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "7A2791CDDE031519"
+			rewards: [{
+				id: "4B9293341D9D151D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2A7D28EAD5D787F7"
 				item: "biomancy:nutrients"
@@ -2147,6 +2685,11 @@
 			dependencies: ["61740180C335EEB4"]
 			entity_vis_size: 1.0f
 			id: "1C94C6DD9349EBE2"
+			rewards: [{
+				id: "15F0F393FB1F1F6C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -2170,6 +2713,11 @@
 			dependencies: ["1C94C6DD9349EBE2"]
 			entity_vis_size: 1.0f
 			id: "120092C5CE8F3245"
+			rewards: [{
+				id: "57F848186D9C12E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -2193,6 +2741,11 @@
 			dependencies: ["54D942F53453202D"]
 			entity_vis_size: 1.0f
 			id: "65CD213C69DD4F67"
+			rewards: [{
+				id: "43441C338ED0A898"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "14D40F3459FF393B"
 				item: {
@@ -2237,6 +2790,11 @@
 			dependencies: ["65CD213C69DD4F67"]
 			entity_vis_size: 1.0f
 			id: "4ADEEC22740295F1"
+			rewards: [{
+				id: "575B8801A1D12351"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4419A11CE6FC9292"
 				item: {
@@ -2293,6 +2851,11 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "1E21748936204C26"
+			rewards: [{
+				id: "242465C49D13A76E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3667676CCC35E1BB"
 				item: "biomancy:biometric_membrane"
@@ -2306,6 +2869,11 @@
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "6CA6297CC6007608"
+			rewards: [{
+				id: "4F8339519A429C22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0733646C84384538"
 				item: "concatenatedadditionsartefacts:karma_tome"
@@ -2319,6 +2887,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "13C1C2246FBFAE0E"
+			rewards: [{
+				id: "2057ED518C5114CA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "41F95BAC3DD0A1C1"
 				item: "bloodyhell:soul_log"
@@ -2333,6 +2906,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "503F8332E07D41A2"
+			rewards: [{
+				id: "180D42355AB060D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				entity: "bloodyhell:ritekeeper"
 				entity_use_tag: false
@@ -2356,6 +2934,11 @@
 			dependencies: ["1B25B0B9EE0E67D5"]
 			entity_vis_size: 1.75f
 			id: "5BCBF128A6DC1902"
+			rewards: [{
+				id: "07642AA235FD3506"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.25d
 			tasks: [{
 				entity: "bloodyhell:seliora"
@@ -2380,6 +2963,11 @@
 			dependencies: ["5BCBF128A6DC1902"]
 			entity_vis_size: 1.0f
 			id: "6F3A5BBFC72E0DBF"
+			rewards: [{
+				id: "726A3CC3F4F5658C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "524C006A52685E72"
 				item: "bloodyhell:forbidden_bookshelf_block"
@@ -2392,6 +2980,11 @@
 			dependencies: ["6F3A5BBFC72E0DBF"]
 			entity_vis_size: 1.0f
 			id: "4EBF32AEC732A6CA"
+			rewards: [{
+				id: "00629867A9A1BE47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "755B797AC0FEBB85"
 				item: "bloodyhell:unknown_portal_item"
@@ -2404,6 +2997,11 @@
 			dependencies: ["0796C66F6BF3B1F5"]
 			entity_vis_size: 1.0f
 			id: "7947672BF3364758"
+			rewards: [{
+				id: "7A60742B981C0A12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3926584FF4350BA7"
 				item: "bloodyhell:rune_of_the_ravenous_gaze"
@@ -2416,6 +3014,11 @@
 			dependencies: ["13AB45EA2C99F16B"]
 			entity_vis_size: 1.0f
 			id: "70DF4751FC01E992"
+			rewards: [{
+				id: "6BA0C477BE3E8A60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "264D5381329587DC"
 				item: "bloodyhell:blood_gem_sprout_seed"
@@ -2428,6 +3031,11 @@
 			dependencies: ["65DF6B6B038F58F7"]
 			entity_vis_size: 1.0f
 			id: "5157D5D88A5137C9"
+			rewards: [{
+				id: "430609994713A5D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "6C28365AFA9BD8B1"
@@ -2481,6 +3089,11 @@
 			dependencies: ["65DF6B6B038F58F7"]
 			entity_vis_size: 1.0f
 			id: "2118C7B2C7BC8691"
+			rewards: [{
+				id: "3C6F39B5D1C2B2BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "0A17EC33A7AEE357"
@@ -2556,6 +3169,11 @@
 			dependencies: ["100F51F50BB44B53"]
 			entity_vis_size: 1.0f
 			id: "6C203FC4FC98999B"
+			rewards: [{
+				id: "55A21B60EE5DBC86"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0150916C1E44F84A"
 				item: "bloodyhell:nameless_whisper"
@@ -2568,6 +3186,11 @@
 			dependencies: ["13AB45EA2C99F16B"]
 			entity_vis_size: 1.0f
 			id: "4EF6DB4E4BE0875F"
+			rewards: [{
+				id: "47FF4CE8A9B8EA66"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5E51C32C3F6432A4"
 				item: "bloodyhell:blasphemous_eye"
@@ -2580,6 +3203,11 @@
 			dependencies: ["4EF6DB4E4BE0875F"]
 			entity_vis_size: 1.0f
 			id: "100F51F50BB44B53"
+			rewards: [{
+				id: "519E52BD4B6D0C99"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "63F3AE342F091673"
 				item: "bloodyhell:gaze_of_the_unknown"
@@ -2590,8 +3218,14 @@
 		}
 		{
 			dependencies: ["2ACEA55675CB3F95"]
+			description: ["Sinful Tools are unbreakable but are weaker than normal tools."]
 			entity_vis_size: 1.0f
 			id: "3B716EC50B1F94E9"
+			rewards: [{
+				id: "796676B293A6BE15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "77FA5BBCBE349751"
@@ -2626,6 +3260,7 @@
 				title: "Any Sinful Tool"
 				type: "item"
 			}]
+			title: "Sinful Tools"
 			x: 13.149999999999999d
 			y: -14.0d
 		}
@@ -2633,7 +3268,11 @@
 			dependencies: ["31E9E6BBC04B24F9"]
 			entity_vis_size: 1.0f
 			id: "38A5FCCF71245CF2"
-			invisible: true
+			rewards: [{
+				id: "7BF86AF44658BCB3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1CF8C8D13C80F011"
 				item: {
@@ -2652,6 +3291,11 @@
 			dependencies: ["38A5FCCF71245CF2"]
 			entity_vis_size: 1.0f
 			id: "593A3C9D80DA6026"
+			rewards: [{
+				id: "459E2B1757C6AD35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "77BEEE7D8A5FBC48"
 				item: "concatenatedadditionsartefacts:stalker_ward"
@@ -2664,6 +3308,11 @@
 			dependencies: ["22DDD3C6B3604CD9"]
 			entity_vis_size: 1.0f
 			id: "3488DDCE529DD3F8"
+			rewards: [{
+				id: "621128FD92F8D0C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "735757DD5C64C79A"
@@ -2683,11 +3332,18 @@
 			dependencies: ["6F3A5BBFC72E0DBF"]
 			entity_vis_size: 1.0f
 			id: "7A488EE346E022EE"
-			rewards: [{
-				id: "7EA45E715EECDE2B"
-				item: "mahoutsukai:guidebook"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7EA45E715EECDE2B"
+					item: "mahoutsukai:guidebook"
+					type: "item"
+				}
+				{
+					id: "158685E30D5F4BAE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "5FE3D39EA08193A7"
@@ -2701,6 +3357,11 @@
 			dependencies: ["578A5561970CCBCF"]
 			entity_vis_size: 1.0f
 			id: "31B184499BFCCBEF"
+			rewards: [{
+				id: "60DCE5D0F68D743D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "01C00362824A29FA"
 				item: "mahoutsukai:mortar_and_pestle"
@@ -2716,6 +3377,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "578A5561970CCBCF"
+			rewards: [{
+				id: "57C600E0EF82F35D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7970C20646466978"
@@ -2766,6 +3432,11 @@
 			dependencies: ["7A488EE346E022EE"]
 			entity_vis_size: 1.0f
 			id: "45EF31A93841A366"
+			rewards: [{
+				id: "7DA9F0086DF3C0C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0CB1A4C3F2538C2B"
 				item: {
@@ -2810,6 +3481,11 @@
 			dependencies: ["0F17782DE678C1AD"]
 			entity_vis_size: 1.0f
 			id: "06656D0213B43EC4"
+			rewards: [{
+				id: "2ED3B7DC42C25146"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "4AF30A27908690A7"
@@ -2832,6 +3508,11 @@
 			dependencies: ["06656D0213B43EC4"]
 			entity_vis_size: 1.0f
 			id: "02D261BF2033ED7D"
+			rewards: [{
+				id: "4E424EFF63839E1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "5BE390B1BD8721BE"
@@ -2857,6 +3538,11 @@
 			dependencies: ["7A488EE346E022EE"]
 			entity_vis_size: 1.0f
 			id: "0F17782DE678C1AD"
+			rewards: [{
+				id: "2867A5712CD70C8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "711E7E87CDDA70DF"
 				item: "mahoutsukai:spell_cloth"
@@ -2869,6 +3555,11 @@
 			dependencies: ["578A5561970CCBCF"]
 			entity_vis_size: 1.0f
 			id: "4BA7FF15EEE8FD2C"
+			rewards: [{
+				id: "6856457CD7F51921"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1A9B75594360CF77"
 				item: {
@@ -2897,6 +3588,11 @@
 			dependencies: ["0F17782DE678C1AD"]
 			entity_vis_size: 1.0f
 			id: "59EB9A04C8048113"
+			rewards: [{
+				id: "60E68F428392E83E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0EABB876123B45C2"
 				item: "mahoutsukai:fog_projector"
@@ -2909,6 +3605,11 @@
 			dependencies: ["0F17782DE678C1AD"]
 			entity_vis_size: 1.0f
 			id: "3365AE7B6D509B8D"
+			rewards: [{
+				id: "7AF9C1FEB22466C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "60E8097A61A331F1"
 				item: "mahoutsukai:mahoujin_projector"
@@ -2921,6 +3622,11 @@
 			dependencies: ["7A488EE346E022EE"]
 			entity_vis_size: 1.0f
 			id: "57060C6DB836D71C"
+			rewards: [{
+				id: "2E1F517845B4726E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6A43125F09841178"
 				item: "mahoutsukai:fae_essence"
@@ -2937,6 +3643,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "7A6F70D9D16B0066"
+			rewards: [{
+				id: "60DE85C239363839"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "7FFFB874658CF291"
@@ -2950,6 +3661,11 @@
 			dependencies: ["7A6F70D9D16B0066"]
 			entity_vis_size: 1.0f
 			id: "6102E1444E84E6B0"
+			rewards: [{
+				id: "76C6566BDE7068FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				dimension: "macabre:the_pit"
 				icon: {
@@ -2964,6 +3680,68 @@
 			}]
 			x: 10.0d
 			y: -30.0d
+		}
+		{
+			dependencies: ["6F71CC7D8969DFA6"]
+			description: ["Flesh Tools are weaker than regular tools but possess the ability to regenerate naturally as long as they are not overused."]
+			entity_vis_size: 1.0f
+			id: "7EDAF9050653AB37"
+			rewards: [{
+				id: "6E965CFE5EA98D06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5BF2EC3AF70433DD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sons_of_sins:flesh_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:flesh_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:flesh_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:flesh_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sons_of_sins:flesh_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Flesh Tool"
+				type: "item"
+			}]
+			title: "Flesh Tools"
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	title: "Arcane Flesh"

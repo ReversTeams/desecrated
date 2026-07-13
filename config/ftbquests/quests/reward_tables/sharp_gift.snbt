@@ -1,0 +1,13 @@
+{
+	id: "0B9CBF4885C59CA3"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "biomancy:mob_fang" }
+		{ item: "vampirism:vampire_fang" }
+		{ item: "biomancy:mob_claw" }
+		{ item: "reliquary:infernal_claw" }
+		{ item: "reliquary:infernal_claws", weight: 0.5f }
+	]
+	title: "Sharp Gift"
+}

@@ -1,0 +1,44 @@
+{
+	id: "44EB599AD0039DEE"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "fracture:parasitic_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fracture:parasitic_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fracture:parasitic_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "fracture:parasitic_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Parasites in the Flesh"
+}

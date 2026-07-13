@@ -65,8 +65,25 @@
 		}
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
+			description: [
+				"&4Raising your initial power is simple. An altar of inspiration can help you channel blood within your body. Pour blood bottles into it and infuse yourself with sanguine strength! "
+				""
+				"&4You can only really strengthen by a few levels this way, you will need a stronger ritual in the future."
+			]
 			entity_vis_size: 1.0f
 			id: "36B2420BD0867B95"
+			rewards: [{
+				count: 3
+				id: "0F9C05E9D4B10AB6"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18ADBA372793F0FD"
 				item: "vampirism:altar_inspiration"
@@ -79,6 +96,11 @@
 			dependencies: ["36B2420BD0867B95"]
 			entity_vis_size: 1.0f
 			id: "160D191AAE9B2104"
+			rewards: [{
+				id: "791B2217E991BC3E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7BF1B0772C760284"
@@ -112,11 +134,25 @@
 			]
 			entity_vis_size: 1.0f
 			id: "3FEE19387DC6BD6E"
-			rewards: [{
-				id: "4A7EAB1BAE6E0CA9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "09425D9AAC69899C"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A7EAB1BAE6E0CA9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "vampirism:vampire/resurrect"
 				criterion: ""
@@ -129,8 +165,14 @@
 		}
 		{
 			dependencies: ["36B2420BD0867B95"]
+			description: ["&a(Press Y by default to open the Vampire ability menu.)"]
 			entity_vis_size: 1.0f
 			id: "107F33580DA70E8F"
+			rewards: [{
+				id: "6F10E4396E3F6D5D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				advancement: "vampirism:vampire/bat"
 				criterion: ""
@@ -167,6 +209,7 @@
 		}
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
+			description: ["&4Regular umbrellas break so easily with plain iron or gold handles. You need a mystical umbrella that is unbreakable to the sun's rays. If you find a vampire forest, you can find vampire orchids to imbue an unbreakable umbrella."]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "61824DA13E12E5EA"
