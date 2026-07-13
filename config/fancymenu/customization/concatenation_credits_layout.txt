@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = concatenation_credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1781811330286
+  last_edited_time = 1783857282170
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:45eca4da-ac1b-4d1a-80b2-dd9fd30177c2-1781811313502] = [groups:][instances:]
+  [loading_requirement_container_meta:0ad0c69e-fec4-4cf0-87ee-0c4111390433-1783857257529] = [groups:][instances:]
 }
 
 menu_background {
@@ -615,7 +615,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%%n%Concatenation Division%n%Sem__lan - Writer%n%%n%Contributors%n%Ink Disorder%n%^^^
+  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%%n%### Contributors%n%Ink Disorder%n%%n%### Special Thanks for Collaboration%n%AgusDropOut - Bloody Hell Developer%n%MeatWheeze - NEEPMeat Developer%n%Noodlegamer - Fracture Developer%n%anti - Ascendant Arcana Developer%n%^^^
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -652,7 +652,7 @@ element {
   x = -113
   y = -55
   width = 226
-  height = 111
+  height = 116
   stay_on_screen = true
   element_loading_requirement_container_identifier = dcd22947-81cb-4b25-918a-6d3e6308bf52-1761180496636
   [loading_requirement_container_meta:dcd22947-81cb-4b25-918a-6d3e6308bf52-1761180496636] = [groups:][instances:]
@@ -687,7 +687,7 @@ element {
   horizontal_tilt_degrees = 2.3351564
   advanced_horizontal_tilt_degrees = 0.0
   base_color = #FFFFFFFF
-  scale = 0.75
+  scale = 0.65
   text_border = 2
   line_spacing = 2
   quote_indent = 8.0
@@ -700,7 +700,7 @@ element {
 
 element {
   button_element_executable_block_identifier = bbb3081d-30d8-4f83-9bda-0dfe3eac512a-1761180760520
-  [executable_action_instance:9dbfd6c6-41a9-4f77-b7b3-dfd0b1606a34-1761181475727][action_type:openlink] = https://github.com/Lysent/concatenation?tab=readme-ov-file#contributors
+  [executable_action_instance:9dbfd6c6-41a9-4f77-b7b3-dfd0b1606a34-1761181475727][action_type:openlink] = https://github.com/ReversTeams/desecrated#credits
   [executable_block:bbb3081d-30d8-4f83-9bda-0dfe3eac512a-1761180760520][type:generic] = [executables:9dbfd6c6-41a9-4f77-b7b3-dfd0b1606a34-1761181475727;]
   underline_label_on_hover = false
   transparent_background = false

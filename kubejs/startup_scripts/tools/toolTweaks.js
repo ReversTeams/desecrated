@@ -15,9 +15,9 @@ ItemEvents.modification(event => {
 		// Fracture Parasitic
 		1800,
 		["fracture:parasitic_pickaxe", 6],
-		["fracture:parasitic_sword_shovel", 7.5],
-		["fracture:parasitic_sword_axe", 13],
-		["fracture:parasitic_sword_sword", 10],
+		["fracture:parasitic_shovel", 7.5],
+		["fracture:parasitic_axe", 13],
+		["fracture:parasitic_sword", 10],
 
 		// SoS Sinful
 		0,
@@ -26,6 +26,13 @@ ItemEvents.modification(event => {
 		["sons_of_sins:sinful_axe", 15],
 		["sons_of_sins:sinful_sword", 12],
 		["sons_of_sins:sinful_hoe", 8],
+
+		120,
+		["sons_of_sins:flesh_pickaxe", 2],
+		["sons_of_sins:flesh_shovel", 1.5],
+		["sons_of_sins:flesh_axe", 8],
+		["sons_of_sins:flesh_sword", 6],
+		["sons_of_sins:flesh_hoe", 4],
 		
 		/////////////
 		//  Armor  //

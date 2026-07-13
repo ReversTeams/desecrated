@@ -67,6 +67,7 @@
 	quests: [
 		{
 			dependencies: ["0CAE6439C87989E4"]
+			description: ["The athame can be used to harvest tree resin from dark oak and cottonwood."]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			id: "5D7C1741C8D6F8E0"
@@ -92,8 +93,28 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			description: ["This flower can also be found in the world."]
 			entity_vis_size: 1.0f
 			id: "5FB35D49B42DB136"
+			rewards: [
+				{
+					id: "5157EAC5B4AF8124"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2460115E2E71C208"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "45329A33A229F751"
 				item: "hexalia:spirit_bloom"
@@ -104,8 +125,28 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			description: ["This flower can also be found in the world."]
 			entity_vis_size: 1.0f
 			id: "1E49979CD799AF0E"
+			rewards: [
+				{
+					id: "398B430B6A17A4E6"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "69F765711CFC6DCE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "00D0E9C38F79CA9D"
 				item: "hexalia:dreamshroom"
@@ -116,8 +157,28 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			description: ["This flower can also be found in the world."]
 			entity_vis_size: 1.0f
 			id: "098FCAB9E0418241"
+			rewards: [
+				{
+					id: "49EAD4A4FC12F414"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "000A60275E2265D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "03F946FD2FE05010"
 				item: "hexalia:siren_kelp"
@@ -128,8 +189,28 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			description: ["This flower can also be found in the world."]
 			entity_vis_size: 1.0f
 			id: "0D9E8704CBFB3F6C"
+			rewards: [
+				{
+					id: "69F036C3818E2768"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4163476F84811673"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "34B5B9D35CA9D832"
 				item: "hexalia:ghost_fern"
@@ -161,6 +242,25 @@
 			dependencies: ["098FCAB9E0418241"]
 			entity_vis_size: 1.0f
 			id: "4BF80DB72A72DBAB"
+			rewards: [
+				{
+					count: 3
+					id: "181F4F7864E40428"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B1933A4F7DC2868"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "00DD5417A7EC5356"
@@ -190,8 +290,28 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			description: ["This flower can also be found in the world."]
 			entity_vis_size: 1.0f
 			id: "4283D4B2FCBAA2C2"
+			rewards: [
+				{
+					id: "4A63DDB5EFF68E0F"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2C72B2B2554365AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6BADB8B60002D45A"
 				item: "hexalia:witchweed"
@@ -205,6 +325,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "02094B42E4290262"
+			rewards: [{
+				id: "6180896E50291D7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "456425231423ABF8"
@@ -232,6 +357,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "376E7364A9D63333"
+			rewards: [{
+				id: "5B07A7F083715F77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "01969DD2722114C0"
 				item: "hexalia:sunfire_tomato"
@@ -245,6 +375,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "70D080A715D3317C"
+			rewards: [{
+				id: "690EB9F28BB70B9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "12613DB1CC59D534"
 				item: "hexalia:chillberries"
@@ -258,6 +393,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "644522F860A5FA04"
+			rewards: [{
+				id: "108AC23E41C61CA4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "429FE0929ACAA656"
 				item: "hexalia:saltsprout"
@@ -270,6 +410,11 @@
 			dependencies: ["367B0F8EC622BF08"]
 			entity_vis_size: 1.0f
 			id: "324985E19423593A"
+			rewards: [{
+				id: "525BE1037153B21B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2476ADAB70CA42C1"
 				item: "hexalia:galeberries"
@@ -282,6 +427,11 @@
 			dependencies: ["79A14B394FAEBEA1"]
 			entity_vis_size: 1.0f
 			id: "5F838290AD659F48"
+			rewards: [{
+				id: "6D21E566001BF6B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7C2E48F9F2AD7768"
@@ -301,6 +451,11 @@
 			dependencies: ["644522F860A5FA04"]
 			entity_vis_size: 1.0f
 			id: "2B6DAF70A2BA1497"
+			rewards: [{
+				id: "3184E78CBBD22721"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "01B168D42D314714"
 				item: "hexalia:salt"
@@ -314,6 +469,11 @@
 			entity_vis_size: 1.0f
 			icon: "hexalia:ritual_table"
 			id: "79A14B394FAEBEA1"
+			rewards: [{
+				id: "6110EF43B2FEC54A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [
 				{
@@ -332,9 +492,14 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["5FB35D49B42DB136"]
+			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "367B0F8EC622BF08"
+			rewards: [{
+				id: "7552CB4BA9A0DC55"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "019A8FC1A339B21B"
@@ -348,6 +513,11 @@
 			dependencies: ["1E49979CD799AF0E"]
 			entity_vis_size: 1.0f
 			id: "7F5E0F9AA305FCDE"
+			rewards: [{
+				id: "283C43FB99BCF431"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "147F2E7EF7FAF58D"
@@ -368,6 +538,11 @@
 			dependencies: ["7F5E0F9AA305FCDE"]
 			entity_vis_size: 1.0f
 			id: "2E0559FF024B038E"
+			rewards: [{
+				id: "1C371F11809D787A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6B19ABED75B66436"
 				item: {
@@ -420,6 +595,11 @@
 			dependencies: ["285A0AB8817CC4D7"]
 			entity_vis_size: 1.0f
 			id: "3A1D10BB2E2F9A68"
+			rewards: [{
+				id: "0574B520E458EFD2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "671153B3D52B001F"
 				item: {
@@ -438,6 +618,11 @@
 			dependencies: ["280458A4E77B8B5F"]
 			entity_vis_size: 1.0f
 			id: "7686BEC6C823A5C5"
+			rewards: [{
+				id: "0A19580CE0423ABB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1EE5E30AB39C9781"
 				item: {
@@ -456,6 +641,11 @@
 			dependencies: ["3B07119ABAD8B6F8"]
 			entity_vis_size: 1.0f
 			id: "41D1F58401F47296"
+			rewards: [{
+				id: "446253CA3EE7DBA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "26D27DA0101E5E5F"
 				item: {
@@ -474,6 +664,11 @@
 			dependencies: ["280458A4E77B8B5F"]
 			entity_vis_size: 1.0f
 			id: "4DEA4059A64C351E"
+			rewards: [{
+				id: "1C7B43AC32A9CA95"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "451B87A532A97600"
 				item: {
@@ -492,6 +687,11 @@
 			dependencies: ["280458A4E77B8B5F"]
 			entity_vis_size: 1.0f
 			id: "6C3A9F484812BE20"
+			rewards: [{
+				id: "763E625371B80F07"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "11254269966F8099"
 				item: {
@@ -510,6 +710,11 @@
 			dependencies: ["7D77CCD369C9836A"]
 			entity_vis_size: 1.0f
 			id: "3B07119ABAD8B6F8"
+			rewards: [{
+				id: "568CD6878CF23442"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "49E26FE3EDDD584A"
 				item: "hexalia:celestial_crystal"
@@ -522,6 +727,11 @@
 			dependencies: ["7A9745165188D85E"]
 			entity_vis_size: 1.0f
 			id: "377E448539CC06F0"
+			rewards: [{
+				id: "145EA0B1626518F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "55FABD5C2000BB93"
@@ -578,6 +788,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "608FE86E7BEE0446"
+			rewards: [{
+				id: "45DD92CB285075DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.1d
 			tasks: [
 				{
@@ -638,6 +853,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "3409E128DA8E9ED3"
+			rewards: [{
+				id: "2ED296011DC7C676"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "6612A92B1836765F"
@@ -651,6 +871,11 @@
 			dependencies: ["7A9745165188D85E"]
 			entity_vis_size: 1.0f
 			id: "65832B921481F5E9"
+			rewards: [{
+				id: "04AF4AC2ACBA68E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "422F092968602FC1"
 				item: {
@@ -669,6 +894,11 @@
 			dependencies: ["285A0AB8817CC4D7"]
 			entity_vis_size: 1.0f
 			id: "3BB39F46D9204742"
+			rewards: [{
+				id: "393366C007758A27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2F8F5EF73DC7A3E2"
 				item: {
@@ -687,6 +917,11 @@
 			dependencies: ["1BD16C8208EAAEA6"]
 			entity_vis_size: 1.0f
 			id: "7A9745165188D85E"
+			rewards: [{
+				id: "2F1D59A4B4B3CAD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "70F147910836BE12"
 				item: "hexalia:silk_fiber"
@@ -699,6 +934,11 @@
 			dependencies: ["114DD2432F86370C"]
 			entity_vis_size: 1.0f
 			id: "37F8F638DA2FC343"
+			rewards: [{
+				id: "7EE4E16A353FAAEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2F467344C312FCC6"
 				item: "hexalia:dreamcatcher"
@@ -711,6 +951,11 @@
 			dependencies: ["7A9745165188D85E"]
 			entity_vis_size: 1.0f
 			id: "7DC4AE81F4FEF5F2"
+			rewards: [{
+				id: "787023C163A79B01"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "29D39208E04DE34E"
 				item: "hexalia:nesting_block"
@@ -723,6 +968,11 @@
 			dependencies: ["3AFEAB8E568538B8"]
 			entity_vis_size: 1.0f
 			id: "110391F0AA8822DD"
+			rewards: [{
+				id: "0AD8727FDCF6CD33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7D5E282672C06A03"
 				item: {
@@ -752,6 +1002,11 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "1BD16C8208EAAEA6"
+			rewards: [{
+				id: "03A4CBA75A51D1F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					entity_vis_idle_mode: "USE_GLOBAL"
@@ -784,6 +1039,11 @@
 			description: ["{entity:hexalia:cacofey ent_size:1.0 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"]
 			entity_vis_size: 1.0f
 			id: "1DB6A169A86470E1"
+			rewards: [{
+				id: "56DAB354A20DFD7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "6EB2894941F7392E"
@@ -814,6 +1074,11 @@
 			dependencies: ["1E49979CD799AF0E"]
 			entity_vis_size: 1.0f
 			id: "0DB34BE7C22F723C"
+			rewards: [{
+				id: "590D95B0D908E2F8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7FA388606793247D"
 				item: "hexalia:censer"
@@ -826,6 +1091,11 @@
 			dependencies: ["53F234AF49F2085B"]
 			entity_vis_size: 1.0f
 			id: "68D0BEA83BE8DEEE"
+			rewards: [{
+				id: "22541B94DC4AA436"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "008F1AFB120478ED"
 				item: "hexalia:morphora"
@@ -838,6 +1108,11 @@
 			dependencies: ["53F234AF49F2085B"]
 			entity_vis_size: 1.0f
 			id: "238E80BB62FA309F"
+			rewards: [{
+				id: "78B1036932167878"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "52F2E19F764C1198"
 				item: "hexalia:grimshade"
@@ -850,6 +1125,11 @@
 			dependencies: ["53F234AF49F2085B"]
 			entity_vis_size: 1.0f
 			id: "2C2A7EC1AE5EC03A"
+			rewards: [{
+				id: "0FB39184B354FF91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2993E60F288A4D69"
 				item: "hexalia:nautilite"
@@ -862,6 +1142,11 @@
 			dependencies: ["53F234AF49F2085B"]
 			entity_vis_size: 1.0f
 			id: "12BC778475234325"
+			rewards: [{
+				id: "726336DAB4A8B811"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "48126EC10C5AC3A8"
 				item: "hexalia:windsong"
@@ -874,6 +1159,11 @@
 			dependencies: ["53F234AF49F2085B"]
 			entity_vis_size: 1.0f
 			id: "0153BD0754FF6E0F"
+			rewards: [{
+				id: "0ED43A36031A94B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "414BBA49CF051F1D"
 				item: "hexalia:astrylis"
@@ -886,6 +1176,11 @@
 			dependencies: ["53F234AF49F2085B"]
 			entity_vis_size: 1.0f
 			id: "47BB013026679371"
+			rewards: [{
+				id: "7616B93E14CD01A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "38A328B6AAFB5C16"
 				item: "hexalia:lourdes"
@@ -898,6 +1193,11 @@
 			dependencies: ["53F234AF49F2085B"]
 			entity_vis_size: 1.0f
 			id: "7F9FEBDE6A8F8ACE"
+			rewards: [{
+				id: "6756E7B935CABD00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4F6E8116F334F80E"
 				item: "hexalia:aegiflora"
@@ -910,6 +1210,11 @@
 			dependencies: ["7A9745165188D85E"]
 			entity_vis_size: 1.0f
 			id: "154376889E877CFE"
+			rewards: [{
+				id: "6526421270E0084F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0DE974F8CE256F33"
 				item: "hexalia:silk_idol"
@@ -922,6 +1227,11 @@
 			dependencies: ["154376889E877CFE"]
 			entity_vis_size: 1.0f
 			id: "5B722878D8AA09BE"
+			rewards: [{
+				id: "57EAB95CA4A5AA29"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "23507C6A39930619"
 				item: {
@@ -953,6 +1263,11 @@
 			dependencies: ["79A14B394FAEBEA1"]
 			entity_vis_size: 1.0f
 			id: "280458A4E77B8B5F"
+			rewards: [{
+				id: "31E5D14CCCAC80FE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "32EE29FFA50B8FF2"
 				item: "hexalia:earth_node"
@@ -965,6 +1280,11 @@
 			dependencies: ["79A14B394FAEBEA1"]
 			entity_vis_size: 1.0f
 			id: "74C0673B71B55D50"
+			rewards: [{
+				id: "12C54EF31664DB1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6216229DD340558A"
 				item: "hexalia:air_node"
@@ -977,6 +1297,11 @@
 			dependencies: ["79A14B394FAEBEA1"]
 			entity_vis_size: 1.0f
 			id: "285A0AB8817CC4D7"
+			rewards: [{
+				id: "01DD834A16CD8921"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "69543A0969D535D2"
 				item: "hexalia:water_node"
@@ -989,6 +1314,11 @@
 			dependencies: ["79A14B394FAEBEA1"]
 			entity_vis_size: 1.0f
 			id: "114DD2432F86370C"
+			rewards: [{
+				id: "687748092388B103"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "15C533DF3D2B383A"
 				item: "hexalia:fire_node"
@@ -1001,6 +1331,11 @@
 			dependencies: ["280458A4E77B8B5F"]
 			entity_vis_size: 1.0f
 			id: "53F234AF49F2085B"
+			rewards: [{
+				id: "7947A6151DE2B4F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "3023132F6BF49A24"
@@ -1014,6 +1349,11 @@
 			dependencies: ["1FD01CDA1731655D"]
 			entity_vis_size: 1.0f
 			id: "1C10D594BB28276E"
+			rewards: [{
+				id: "4BB09A538506638F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2EC992632AE754A1"
 				item: "hexalia:hex_focus"
@@ -1026,6 +1366,11 @@
 			dependencies: ["0D9E8704CBFB3F6C"]
 			entity_vis_size: 1.0f
 			id: "34EA50FDAD627284"
+			rewards: [{
+				id: "07DCAC1666F94924"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "107BF48E628B2A14"
 				item: "hexalia:ghost_powder"
@@ -1038,6 +1383,11 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "63DD4DFC7E30EEA2"
+			rewards: [{
+				id: "57CDB472570ECCDE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "32C1D80FF18EC61F"
 				item: "hexalia:lotus_blossom"
@@ -1050,6 +1400,11 @@
 			dependencies: ["5D7C1741C8D6F8E0"]
 			entity_vis_size: 1.0f
 			id: "447D63C4C507339D"
+			rewards: [{
+				id: "788F30D1229D3308"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3DB446BEE2841F18"
 				item: "hexalia:celestial_bloom"
@@ -1059,8 +1414,18 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"The Sanguines of Vine are friends of nature, They harness elemental powers, especially of earth, grow various mystical herbs and commit themselves to astral rituals. I've heard of some powerful natural weapons they are able to uniquely produce. "
+				""
+				"Higher ranked members even begin to delve into harnessing the power of the colours throughout the world, hidden to most."
+			]
 			entity_vis_size: 1.0f
 			id: "0CAE6439C87989E4"
+			rewards: [{
+				id: "792B8B234B570BB8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5D7AE7C3BEA343B9"
 				item: "desecratedcore:vine_key_item"
@@ -1073,6 +1438,11 @@
 			dependencies: ["3AFEAB8E568538B8"]
 			entity_vis_size: 1.0f
 			id: "1FD01CDA1731655D"
+			rewards: [{
+				id: "52AB11B029418CB3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3737D18DDD42AB4A"
 				item: "hexalia:mutavis"
@@ -1085,6 +1455,11 @@
 			dependencies: ["3409E128DA8E9ED3"]
 			entity_vis_size: 1.0f
 			id: "55F5FBB4ED5DFDD5"
+			rewards: [{
+				id: "0458F288A03125CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "2EA8A8F077F9F875"
@@ -1139,11 +1514,18 @@
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:chooser_key_item"
 			id: "512B726C7BF16BC2"
-			rewards: [{
-				id: "7F305FE1EF567A7A"
-				item: "desecratedcore:chooser_key_item"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7F305FE1EF567A7A"
+					item: "desecratedcore:chooser_key_item"
+					type: "item"
+				}
+				{
+					id: "479E49C8269A398F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.4d
 			tasks: [{
 				id: "6397184BACC479CB"
@@ -1160,6 +1542,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "4B78724FE216F6C4"
+			rewards: [{
+				id: "1D94622B7D03D66D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "5521B7F4F387C15A"
@@ -1173,6 +1560,11 @@
 			dependencies: ["4B78724FE216F6C4"]
 			entity_vis_size: 1.0f
 			id: "6EBB47896FADA673"
+			rewards: [{
+				id: "67DAE3A28D09B868"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.1d
 			tasks: [
 				{
@@ -1230,6 +1622,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "4F640C8FE1FC8EFE"
+			rewards: [{
+				id: "4D30273C51AD1CDD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "4DE45F877A716A43"
@@ -1250,6 +1647,11 @@
 			dependencies: ["4B78724FE216F6C4"]
 			entity_vis_size: 1.0f
 			id: "67B5B4FBA053EA21"
+			rewards: [{
+				id: "449DFF63142132BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "329DEE8BCD0F18F1"
@@ -1277,6 +1679,11 @@
 			dependencies: ["367B0F8EC622BF08"]
 			entity_vis_size: 1.0f
 			id: "7D77CCD369C9836A"
+			rewards: [{
+				id: "7D5ECEF4DAB2147C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "72587C15EF027012"
 				item: "celestisynth:lunar_stone"
@@ -1292,6 +1699,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "57D2E90578BED5D0"
+			rewards: [{
+				id: "60EBA0FE2B8EDC83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "798CDD2085BEBD3D"
 				item: "celestisynth:lunar_scrap"
@@ -1304,6 +1716,11 @@
 			dependencies: ["2B6DAF70A2BA1497"]
 			entity_vis_size: 1.0f
 			id: "4ED85381F55A588B"
+			rewards: [{
+				id: "5B25D7232B05FD83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7ABDC913B904818B"
 				item: {
@@ -1322,13 +1739,14 @@
 			dependencies: ["70D080A715D3317C"]
 			entity_vis_size: 1.0f
 			id: "754E10ED740ED760"
+			rewards: [{
+				id: "110D42C17CC6C961"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "09E9AC5C1FA84378"
-				item: {
-					Count: 1
-					id: "hexalia:frost_sac"
-					tag: { }
-				}
+				item: "hexalia:frost_sac"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1338,13 +1756,14 @@
 			dependencies: ["376E7364A9D63333"]
 			entity_vis_size: 1.0f
 			id: "59EDE401A6A9D927"
+			rewards: [{
+				id: "22D32184A3C63AEE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6CD1241D4D95DD1F"
-				item: {
-					Count: 1
-					id: "hexalia:searing_sac"
-					tag: { }
-				}
+				item: "hexalia:searing_sac"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1355,13 +1774,14 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "3C7B2D8A2C73930B"
+			rewards: [{
+				id: "19005062CDD74A4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1581E502F0C46B79"
-				item: {
-					Count: 1
-					id: "hexalia:foul_sac"
-					tag: { }
-				}
+				item: "hexalia:foul_sac"
 				type: "item"
 			}]
 			x: 6.5d
@@ -1371,6 +1791,11 @@
 			dependencies: ["55F5FBB4ED5DFDD5"]
 			entity_vis_size: 1.0f
 			id: "7AC3623634395471"
+			rewards: [{
+				id: "42D1D95C5B2C5310"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "0BC442EC01229C7A"
