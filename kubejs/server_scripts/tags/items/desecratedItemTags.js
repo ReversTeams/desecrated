@@ -96,6 +96,11 @@ ServerEvents.tags('item', event => {
         'butchery:enderman_heart'
     ]);
 
+    add('desecrated:violent_flesh', [
+        'fracture:living_flesh',
+        'fracture:blood_slime_ball'
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"

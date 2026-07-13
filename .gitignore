@@ -99,5 +99,6 @@ kubejs/probe
 !config/colorwheel-client.toml
 !config/tab_organizer-client.toml
 !config/overflowingbars-client.toml
+!config/parcool-client.toml
 
 /mods - Copy

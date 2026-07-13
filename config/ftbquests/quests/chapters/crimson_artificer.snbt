@@ -2689,6 +2689,7 @@
 			y: 6.1d
 		}
 		{
+			dependencies: ["4875801A20501BE7"]
 			entity_vis_size: 1.0f
 			id: "76593EA6852DE6C8"
 			rewards: [{
@@ -5622,10 +5623,7 @@
 			y: 17.4d
 		}
 		{
-			dependencies: [
-				"76593EA6852DE6C8"
-				"3913E4BF1C7341B8"
-			]
+			dependencies: ["3913E4BF1C7341B8"]
 			entity_vis_size: 1.0f
 			id: "4875801A20501BE7"
 			rewards: [{
