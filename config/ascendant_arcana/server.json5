@@ -80,13 +80,13 @@
 		"minecraft:sweeping": 2,
 		"minecraft:looting": 4,
 		"minecraft:flame": 2,
-		"minecraft:lure": 1,
-		"minecraft:respiration": 2,
-		"minecraft:fire_aspect": 2,
 		"minecraft:frost_walker": 2,
+		"minecraft:lure": 1,
 		"minecraft:infinity": 3,
-		"minecraft:punch": 1,
-		"minecraft:fortune": 4
+		"minecraft:fire_aspect": 2,
+		"minecraft:respiration": 2,
+		"minecraft:fortune": 4,
+		"minecraft:punch": 1
 	},
 	/* Damage Relics apply to thrown Tridents, melee weapons, as well as arrows and rockets fired from bows and
 	   crossbows.
