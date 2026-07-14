@@ -45,7 +45,7 @@ patchouli_data.json
 /config/packetfixer.properties
 /config/asyncparticles/*.properties
 /config/durabilitytooltip-common.toml
-# do not put this line back or else you lag out people even more
+/config/spark
 Distant_Horizons_server_data
 welcomescreen_cache.json
 .mixin.out
@@ -100,5 +100,6 @@ kubejs/probe
 !config/tab_organizer-client.toml
 !config/overflowingbars-client.toml
 !config/parcool-client.toml
+!config/acceleratedrendering-client.toml
 
 /mods - Copy
