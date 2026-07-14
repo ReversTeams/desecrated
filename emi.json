@@ -1,6 +1,13 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"artificers_armory:harmonize\",lvl:1s}]}",
+    "item:minecraft:skeleton_skull",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"artificers_armory:grim_harvest\",lvl:3s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"artificers_armory:focus\",lvl:2s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"artificers_armory:hex\",lvl:2s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"artificers_armory:flamethrower\",lvl:2s}]}",
+    "item:macabre:sacrificial_dirk",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"artificers_armory:charge_blast\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"ascendant_arcana:soul_burst\",lvl:2s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"ascendant_arcana:soul_burst\",lvl:1s}]}",
@@ -24,7 +31,6 @@
     "item:waystones:warp_plate",
     "item:waystones:waystone",
     "item:patchouli:guide_book{\"patchouli:book\":\"parcool:parcool_guide\"}",
-    "item:macabre:sacrificial_dirk",
     "item:ascendant_arcana:relic{RelicStrength:1,RelicType:3}",
     "item:reliquary:infernal_claws",
     "item:ascendant_arcana:relic{RelicStrength:2,RelicType:2}",

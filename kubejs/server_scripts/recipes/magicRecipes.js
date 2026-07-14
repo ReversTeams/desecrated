@@ -24,7 +24,8 @@ ServerEvents.recipes(event => {
         'mahoutsukai:attuner',
         'bloodyhell:blood_flask',
         'mahoutsukai:mystic_code_first_sorcery',
-        'mahoutsukai:mystic_code'
+        'mahoutsukai:mystic_code',
+        'macabre:sacrificial_dirk'
     ]
 
     const removeCraftingShaped = [
@@ -335,6 +336,21 @@ ServerEvents.recipes(event => {
             B: 'bloodyhell:blasphemite',
             C: 'mahoutsukai:fae_essence',
             D: 'mahoutsukai:mystic_code'
+        }
+    )
+
+    // Macabre
+    event.shaped(
+        Item.of('macabre:sacrificial_dirk'),
+        [
+            '  A',
+            'BA ',
+            'CB '
+        ],
+        {
+            A: 'bloodyhell:blasphemite',
+            C: 'bloodyhell:rhnull',
+            B: 'biomancy:living_flesh'
         }
     )
 });
