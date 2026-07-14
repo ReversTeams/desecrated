@@ -2,7 +2,7 @@
 [general]
 	entityBlacklist = ["minecraft:armor_stand", "minecraft:painting", "minecraft:item_frame", "minecraft:glow_item_frame"]
 	applyToBosses = false
-	difficultyOrder = ["cozy", "normal", "extreme", "torture"]
+	difficultyOrder = ["cozy", "normal", "hard", "extreme", "torture"]
 	debugMode = false
 	#Automatically select a difficulty at world start without showing the GUI
 	autoSelectDifficulty = false
@@ -34,7 +34,7 @@
 
 [cozy]
 	enabled = true
-	name = "Cozy"
+	name = "Easy"
 	recommendation = "For a relaxing, stress-free experience"
 	#Range: 0.1 ~ 100.0
 	hpMultiplier = 0.5
@@ -57,7 +57,7 @@
 [normal]
 	enabled = true
 	name = "Normal"
-	recommendation = "Recommended for first-time players"
+	recommendation = "Standard experience."
 	#Range: 0.1 ~ 100.0
 	hpMultiplier = 1.0
 	#Range: 0.1 ~ 100.0
@@ -82,14 +82,14 @@
 	fallDmgMultiplier = 2.0
 	bgColor = "#0F0A05"
 	accentColor = "#FF8833"
-	allowKeepInventory = true
+	allowKeepInventory = false
 	#Commands to execute when Extreme difficulty is selected.
 	commands = []
 
 [torture]
 	enabled = true
-	name = "Torture"
-	recommendation = "Only for masochists. You've been warned."
+	name = "Nightmare"
+	recommendation = "The ultimate challenge."
 	#Range: 0.1 ~ 100.0
 	hpMultiplier = 3.0
 	#Range: 0.1 ~ 100.0
@@ -102,7 +102,7 @@
 	exhaustionAmount = 0.5
 	bgColor = "#100505"
 	accentColor = "#FF3333"
-	allowKeepInventory = true
+	allowKeepInventory = false
 	#Commands to execute when Torture difficulty is selected.
 	commands = []
 
@@ -122,7 +122,7 @@
 	exhaustionAmount = 1.0
 	bgColor = "#0A0005"
 	accentColor = "#FF0000"
-	allowKeepInventory = true
+	allowKeepInventory = false
 	#Commands to execute when Chaos difficulty is selected.
 	commands = []
 
@@ -131,18 +131,18 @@
 	customDifficultySlots = 10
 
 	[custom_difficulties.custom_0]
-		id = ""
-		name = "Custom 0"
-		description = "A custom difficulty setting."
+		id = "hard"
+		name = "Hard"
+		description = "Harder than normal."
 		recommendation = ""
 		#Range: 0 ~ 4
 		uiTheme = 0
 		#Range: 0.1 ~ 100.0
-		hpMultiplier = 1.0
+		hpMultiplier = 1.5
 		#Range: 0.1 ~ 100.0
-		dmgMultiplier = 1.0
+		dmgMultiplier = 1.5
 		#Range: 0.0 ~ 100.0
-		fallDmgMultiplier = 1.0
+		fallDmgMultiplier = 2.0
 		enableBleeding = false
 		enableCrippling = false
 		enableVengefulAi = false
@@ -156,13 +156,13 @@
 		#Range: 0.0 ~ 40.0
 		exhaustionAmount = 0.0
 		bgColor = "#07070F"
-		accentColor = "#D4A843"
+		accentColor = "#da641f"
 		hoverSound = ""
 		selectSound = ""
 		confirmSound = ""
 		commands = []
 		traits = []
-		allowKeepInventory = false
+		allowKeepInventory = true
 
 	[custom_difficulties.custom_1]
 		id = ""

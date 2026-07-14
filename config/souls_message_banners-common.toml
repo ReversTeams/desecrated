@@ -19,3 +19,8 @@
 			#Banner for activating waystones [Waystones Mod]
 			waystones_activate = true
 
+		#Fun
+		["Common Config".triggers.fun]
+			#Make ENTITY FELLED banners appear to all entity deaths
+			entity_felled_all = false
+
