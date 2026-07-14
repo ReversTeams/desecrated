@@ -73,6 +73,7 @@ key_key.biomancy.item_default:key.keyboard.v:NONE
 key_key.neepmeat.transform:key.keyboard.c:NONE
 key_key.meatweapons.down:key.keyboard.backslash:NONE
 key_key.meatweapons.use_item:key.keyboard.r:NONE
+key_key.walljump.cling:key.keyboard.left.shift:NONE
 key_chloride.zoom:key.keyboard.v:NONE
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown:NONE
 key_key.shadercycler.cycle:key.keyboard.unknown:NONE

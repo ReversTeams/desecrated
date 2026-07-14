@@ -31,6 +31,7 @@
 			dependencies: [
 				"6F71CC7D8969DFA6"
 				"7F0C5BD591C3EA2A"
+				"19AC0B8C0B44FA30"
 			]
 			dependency_requirement: "one_started"
 			description: ["I've found a map to an unknown flesh dungeon, which should prove to have very useful mystical ingredients."]

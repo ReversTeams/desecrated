@@ -1144,6 +1144,17 @@
         "value": 1
       }
     },
+    "parcool:stamina_recovery": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "irons_spellbooks:ice_spell_power": {
       "enabled": false,
       "min": {
@@ -1527,6 +1538,17 @@
       "max": {
         "default": 0.949999988079071,
         "value": 0.949999988079071
+      }
+    },
+    "parcool:max_stamina": {
+      "enabled": false,
+      "min": {
+        "default": 10,
+        "value": 10
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "irons_lib:crit_damage": {
