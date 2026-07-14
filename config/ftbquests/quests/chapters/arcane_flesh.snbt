@@ -237,7 +237,12 @@
 			y: -12.5d
 		}
 		{
-			dependencies: ["6F71CC7D8969DFA6"]
+			dependencies: [
+				"6F71CC7D8969DFA6"
+				"7F0C5BD591C3EA2A"
+				"19AC0B8C0B44FA30"
+			]
+			dependency_requirement: "one_started"
 			description: [
 				"I've found this odd pillager tower. There were a few pillagers guarding it, who I easily dispatched. Strangely, the inside of the tower itself was mostly in ruins."
 				""
@@ -3650,8 +3655,9 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				consume_items: false
 				id: "7FFFB874658CF291"
-				item: "macabre:sac_dir_4"
+				item: "macabre:sacrificial_dirk"
 				type: "item"
 			}]
 			x: 11.0d

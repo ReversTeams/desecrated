@@ -5,14 +5,14 @@
 	"base_relic_capacity": 2,
 	// XP is by default disabled in Ascendant Arcana, but can be optionally enabled and is fully supported if you do so.
 	"disable_xp": false,
-	// This can sometimes cause issues with mods that modify the HUD.
+	// Hiding the XP bar can sometimes cause issues with other mods that modify the HUD, this mitigates those issues.
 	"hide_xp_bar": false,
 	// Levels are linear if enabled. This adjusts the XP required to level up each time. Setting this to 0 disables it.
 	"xp_per_level": 0,
 	// Some vanilla mobs drop relics on death, like Witches, Wither Skeletons, and bosses. Recommended.
-	"add_relics_to_entities": false,
+	"add_relics_to_entities": true,
 	// Relics are automatically added to ANY chest loot table containing an enchanted book. Recommended.
-	"add_relics_to_chests": false,
+	"add_relics_to_chests": true,
 	// Add restorine to any chests containing amethyst shards or diamonds
 	"add_restorine_to_chests": true,
 	// Add unique boss drops, like the Warden Heart. Disabling this will make some enchantments unobtainable.
@@ -68,23 +68,23 @@
 	*/
 	"base_enchantment_capacity_overrides": {
 		"minecraft:shield": 15,
-		"minecraft:enchanted_book": 12,
 		"minecraft:crossbow": 20,
+		"minecraft:enchanted_book": 12,
 		"minecraft:bow": 20,
 		"minecraft:trident": 15
 	},
 	// Enchantments which have their base rarity overwritten. Common is 1, Uncommon is 2, Rare is 3, Very Rare is 4. This might not work on modded enchantments.
 	"overwritten_rarities": {
 		"minecraft:knockback": 1,
-		"minecraft:thorns": 2,
 		"minecraft:sweeping": 2,
-		"minecraft:flame": 2,
+		"minecraft:thorns": 2,
 		"minecraft:looting": 4,
+		"minecraft:flame": 2,
+		"minecraft:frost_walker": 2,
 		"minecraft:lure": 1,
+		"minecraft:infinity": 3,
 		"minecraft:fire_aspect": 2,
 		"minecraft:respiration": 2,
-		"minecraft:frost_walker": 2,
-		"minecraft:infinity": 3,
 		"minecraft:fortune": 4,
 		"minecraft:punch": 1
 	},

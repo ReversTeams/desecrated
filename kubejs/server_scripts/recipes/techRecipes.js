@@ -99,6 +99,13 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shapeless(
+    Item.of('minecraft:leather', 2),
+    [
+        '#butchery:skins'
+    ]
+)
+
     // Neepmeat
     event.replaceInput(
         { input: 'neepmeat:internal_components' },

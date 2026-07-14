@@ -239,6 +239,7 @@
 							HasBulletInBarrel: 0b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -253,6 +254,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -267,6 +269,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -309,6 +312,7 @@
 							HasBulletInBarrel: 0b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -323,6 +327,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -337,6 +342,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -348,6 +354,7 @@
 							AttachmentId: "antiques:bayonet_sg1871"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -457,6 +464,7 @@
 							HasBulletInBarrel: 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -468,6 +476,7 @@
 							AttachmentId: "antiques:bayonet_1867"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -505,6 +514,7 @@
 						HasBulletInBarrel: 1b
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Weapons of Red Barar"
