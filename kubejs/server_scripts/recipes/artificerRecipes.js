@@ -1319,6 +1319,228 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:3}'),
+        [
+            'minecraft:amethyst_shard',
+            'spectrum:citrine_shard',
+            'minecraft:glowstone_dust',
+            'minecraft:gold_ingot',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:0}'),
+        [
+            'minecraft:amethyst_shard',
+            'quark:red_corundum_cluster',
+            'minecraft:glowstone_dust',
+            'minecraft:iron_ingot',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:2}'),
+        [
+            'minecraft:amethyst_shard',
+            'spectrum:topaz_shard',
+            'minecraft:glowstone_dust',
+            'minecraft:prismarine_shard',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:1}'),
+        [
+            'minecraft:amethyst_shard',
+            'ascendant_arcana:restorine',
+            'minecraft:glowstone_dust',
+            'minecraft:diamond',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:2}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:2}').strongNBT(),
+            'spectrum:topaz_shard',
+            'spectrum:topaz_shard',
+            'minecraft:obsidian',
+            'minecraft:obsidian',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:3}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:3}').strongNBT(),
+            'spectrum:citrine_shard',
+            'spectrum:citrine_shard',
+            'minecraft:honeycomb',
+            'minecraft:honeycomb',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:0}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:0}').strongNBT(),
+            'quark:red_corundum_cluster',
+            'quark:red_corundum_cluster',
+            'minecraft:blaze_powder',
+            'minecraft:blaze_powder',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:1}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:1}').strongNBT(),
+            'ascendant_arcana:restorine',
+            'ascendant_arcana:restorine',
+            'minecraft:obsidian',
+            'minecraft:obsidian',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:1}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:1}').strongNBT(),
+            'ascendant_arcana:restorine',
+            'ascendant_arcana:restorine',
+            'desecratedcore:pure_restorine',
+            'desecratedcore:pure_restorine',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:1}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:1}').strongNBT(),
+            'ascendant_arcana:restorine',
+            'ascendant_arcana:restorine',
+            'minecraft:netherite_ingot',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:3}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:3}').strongNBT(),
+            'spectrum:citrine_shard',
+            'spectrum:citrine_shard',
+            'minecraft:honeycomb',
+            'minecraft:honeycomb',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:3}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:3}').strongNBT(),
+            'spectrum:citrine_shard',
+            'spectrum:citrine_shard',
+            'minecraft:ender_pearl',
+            'minecraft:ender_pearl',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:3}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:3}').strongNBT(),
+            'spectrum:citrine_shard',
+            'spectrum:citrine_shard',
+            'concatenatedadditionstools:glowing_gold',
+            'concatenatedadditionstools:glowing_gold',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:0}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:0}').strongNBT(),
+            'quark:red_corundum_cluster',
+            'quark:red_corundum_cluster',
+            '#desecrated:violent_flesh',
+            '#desecrated:violent_flesh',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:0}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:0}').strongNBT(),
+            'quark:red_corundum_cluster',
+            'quark:red_corundum_cluster',
+            'celestisynth:solar_crystal',
+            'celestisynth:solar_crystal',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:0}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:0}').strongNBT(),
+            'quark:red_corundum_cluster',
+            'quark:red_corundum_cluster',
+            'reliquary:infernal_claws',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:2}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:2}').strongNBT(),
+            'spectrum:topaz_shard',
+            'spectrum:topaz_shard',
+            'fracture:inkwood_sapling',
+            'fracture:inkwood_sapling',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:2}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:2}').strongNBT(),
+            'spectrum:topaz_shard',
+            'spectrum:topaz_shard',
+            'celestisynth:lunar_scrap',
+            'celestisynth:lunar_scrap',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:2}'),
+        [
+            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:2}').strongNBT(),
+            'spectrum:topaz_shard',
+            'spectrum:topaz_shard',
+            'concatenatedadditionstools:ice_shard',
+            'concatenatedadditionstools:ice_shard',
+            'concatenatedadditionstools:experience_orb'
+        ]
+    )
+
     // Celestisynth
 
     event.shaped(
@@ -1400,25 +1622,25 @@ ServerEvents.recipes(event => {
             B: 'reliquary:angelheart_vial'
         }
     )
-event.shaped(
-    Item.of('reliquary:alkahestry_tome'),
-    [
-        'ABC',
-        'DEF',
-        'GHI'
-    ],
-    {
-        A: 'amendments:dragon_charge',
-        I: 'reliquary:fortune_coin',
-        E: 'minecraft:writable_book',
-        F: 'reliquary:infernal_chalice',
-        G: 'reliquary:guardian_spike',
-        D: 'reliquary:emperor_chalice',
-        H: 'minecraft:wither_skeleton_skull',
-        B: 'reliquary:kraken_shell',
-        C: 'reliquary:eye_of_the_storm'
-    }
-)
+    event.shaped(
+        Item.of('reliquary:alkahestry_tome'),
+        [
+            'ABC',
+            'DEF',
+            'GHI'
+        ],
+        {
+            A: 'amendments:dragon_charge',
+            I: 'reliquary:fortune_coin',
+            E: 'minecraft:writable_book',
+            F: 'reliquary:infernal_chalice',
+            G: 'reliquary:guardian_spike',
+            D: 'reliquary:emperor_chalice',
+            H: 'minecraft:wither_skeleton_skull',
+            B: 'reliquary:kraken_shell',
+            C: 'reliquary:eye_of_the_storm'
+        }
+    )
 
     event.shaped(
         Item.of('reliquary:rending_gale'),

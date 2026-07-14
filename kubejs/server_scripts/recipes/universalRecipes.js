@@ -3,6 +3,7 @@
 
 ServerEvents.recipes(event => {
     event.remove({ mod: 'create' })
+    event.remove({ mod: 'waystones' })
 
     const remove = [
         'fracture:infected_core',
