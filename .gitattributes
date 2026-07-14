@@ -1,3 +1,4 @@
+*.jar filter=lfs diff=lfs merge=lfs -text
 *.properties filter=cleanTimestamps
 *.zip.txt filter=cleanTimestamps
 * !text !filter !merge !diff
