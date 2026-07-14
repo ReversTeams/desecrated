@@ -5,6 +5,14 @@
     "name": "forge",
     "version": "fmlloader-1.20.1-47.4.20.jar"
   },
+  "acceleratedrendering-1.0.12-1.20.1-alpha.jar": {
+    "jarName": "acceleratedrendering-1.0.12-1.20.1-alpha.jar",
+    "modId": "acceleratedrendering",
+    "name": "Accelerated Rendering",
+    "version": "1.0.12-1.20.1-alpha",
+    "curseForgeHash": 1644534034,
+    "modrinthHash": "78b82e4bb78e5597eeb5624fee4e04ed3c9d3ef2"
+  },
   "accessories-neoforge-1.0.0-beta.48+1.20.1.jar": {
     "jarName": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
     "modId": "accessories",
@@ -61,13 +69,13 @@
     "curseForgeHash": 101227267,
     "modrinthHash": "5d5a1d7d2d2dd37c578fdea2495757baaa624092"
   },
-  "animus-1.20.1-3.0.29.jar": {
-    "jarName": "animus-1.20.1-3.0.29.jar",
+  "animus-1.20.1-3.0.30.jar": {
+    "jarName": "animus-1.20.1-3.0.30.jar",
     "modId": "animus",
     "name": "Animus",
-    "version": "3.0.29",
-    "curseForgeHash": 957922385,
-    "modrinthHash": "e72f0f10e0a450caff63f286c51323520fabb5e4"
+    "version": "3.0.30",
+    "curseForgeHash": 31479640,
+    "modrinthHash": "034c512ca29b70c3918f40fa32c11ae528013153"
   },
   "ARC Fix 1.10.jar": {
     "jarName": "ARC Fix 1.10.jar",
@@ -269,13 +277,13 @@
     "curseForgeHash": 82214287,
     "modrinthHash": "c3966f3dc894f3d1594aa7617cf6dd7be0a204a4"
   },
-  "bloodyhell-0.8.57.jar": {
-    "jarName": "bloodyhell-0.8.57.jar",
+  "bloodyhell-0.8.585.jar": {
+    "jarName": "bloodyhell-0.8.585.jar",
     "modId": "bloodyhell",
     "name": "BloodyHell!",
-    "version": "0.8.57",
-    "curseForgeHash": 240896513,
-    "modrinthHash": "1408be911c92e393903ebb9292c4d0c3902a662f"
+    "version": "0.8.585",
+    "curseForgeHash": 3771250500,
+    "modrinthHash": "71b450343a3b0730f4c3effde3d0868e36753195"
   },
   "Bookshelf-Forge-1.20.1-20.2.15.jar": {
     "jarName": "Bookshelf-Forge-1.20.1-20.2.15.jar",
@@ -1313,14 +1321,6 @@
     "version": "1.20.1-1.8",
     "curseForgeHash": 686879422,
     "modrinthHash": "54301c2db5467e0f9f5c504887436f358335331f"
-  },
-  "gpushift-universal-1.20.1-1.2.5.jar": {
-    "jarName": "gpushift-universal-1.20.1-1.2.5.jar",
-    "modId": "gpushift",
-    "name": "GpuShift",
-    "version": "1.2.5",
-    "curseForgeHash": 3806294351,
-    "modrinthHash": "bc5caffc52ee36e0edc7eb863c17370ceb8533e0"
   },
   "GPUTape-1.18x-1.21x-1.0.5.1-forge.jar": {
     "jarName": "GPUTape-1.18x-1.21x-1.0.5.1-forge.jar",
