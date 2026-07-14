@@ -1,5 +1,5 @@
 #Master switch for GpuShift client-side optimizations.
-enabled = true
+enabled = false
 #Optimization profile.
 #Allowed Values: QUALITY, BALANCED, PERFORMANCE
 profile = "PERFORMANCE"
