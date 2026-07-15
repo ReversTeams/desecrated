@@ -1,2 +1,8 @@
 [filter "cleanTimestamps"]
-	clean = sed -E "'/#[A-Za-z]{3} [A-Za-z]{3} [0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} [A-Z]{3} [0-9]{4}/d'"
+	clean = gitfilters/cleanTimestamps.sh
+
+[filter "cleanMemfixHash"]
+	clean = gitfilters/cleanMemfixHash.sh
+
+[filter "stripComments"]
+	clean = gitfilters/stripComments.sh
