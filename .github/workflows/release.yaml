@@ -12,13 +12,25 @@ jobs:
         with:
           lfs: true
 
-      - name: Create Technic release
+      - name: Create Server Pack release
         run: |
-          zip -r9 release.zip . -x ".git/*" "*.sh"
+          zip -r9 desecrated-server.zip . -x ".git/*" "*.sh"
+
+      - name: Get latest release tag
+        id: latest_release
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.repos.getLatestRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+            core.setOutput('tag', data.tag_name);
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
-          files: release.zip
+          tag_name: ${{ steps.latest_release.outputs.tag }}
+          files: desecrated-server.zip
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
