@@ -3524,6 +3524,27 @@
 			x: -13.0d
 			y: -7.5d
 		}
+		{
+			dependencies: ["3A5B721A7E614679"]
+			entity_vis_size: 1.0f
+			icon: "concatenatedadditionsmachines:berry_incubator"
+			id: "6C22CAEF1156612C"
+			tasks: [
+				{
+					id: "21885755C3E4C2A5"
+					item: "concatenatedadditionsmachines:berry_incubator"
+					type: "item"
+				}
+				{
+					id: "77976AAC15054FD2"
+					item: "concatenatedadditionsmachines:transplant"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -8.0d
+		}
 	]
 	title: "Flesh Industries"
 }

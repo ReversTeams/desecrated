@@ -5,10 +5,9 @@ ServerEvents.tags('item', event => {
     const add = (tag, items) => items.forEach(item => event.add(tag, item));
     const remove = (tag, items) => items.forEach(item => event.remove(tag, item));
 
-    // remove('concatenation:tech_cards', [
-    //     'tarotcards:the_hierophant',
-    //     'tarotcards:the_hermit'
-    // ]);
+    remove('trinkets:chest/back', [
+        'usefulbackpacks:backpack_small'
+    ]);
 
     // Curios
     add('curios:necklace', [
@@ -124,6 +123,36 @@ ServerEvents.tags('item', event => {
     add('forge:resin', [
         'hexalia:tree_resin',
         'minecraft:resin_clump'
+    ]);
+
+    add('forge:ores', [
+        'concatenatedadditionsmachines:zinc_ore',
+        'butchery:sulfur_ore',
+        'butchery:deepslate_sulfur_ore',
+        'bloodyhell:sanguinite_ore',
+        'bloodyhell:blasphemite_ore'
+    ]);
+
+    add('c:ores', [
+        'concatenatedadditionsmachines:zinc_ore',
+        'butchery:sulfur_ore',
+        'butchery:deepslate_sulfur_ore',
+        'bloodyhell:sanguinite_ore',
+        'bloodyhell:blasphemite_ore'
+    ]);
+
+    add('forge:raw_materials', [
+        'bloodyhell:raw_sanguinite',
+        'bloodyhell:raw_blasphemite',
+        'concatenatedadditionsmachines:raw_zinc',
+        'macabre:raw_ferrum'
+    ]);
+
+    add('c:raw_ores', [
+        'bloodyhell:raw_sanguinite',
+        'bloodyhell:raw_blasphemite',
+        'concatenatedadditionsmachines:raw_zinc',
+        'macabre:raw_ferrum'
     ]);
 
     add('lychee:lightning_immune', [

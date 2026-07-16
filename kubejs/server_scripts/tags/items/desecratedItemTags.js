@@ -41,6 +41,11 @@ ServerEvents.tags('item', event => {
         'butchery:sculk_bone'
     ]);
 
+    add('desecrated:trigger_bone', [
+        'butchery:wishbone',
+        'fracture:fleshy_bone'
+    ]);
+
     add('desecrated:slime_chunk', [
         'butchery:slime_chunks',
         'reliquary:slime_pearl',

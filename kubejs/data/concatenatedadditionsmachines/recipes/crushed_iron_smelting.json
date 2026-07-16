@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "concatenatedadditionsmachines:crushed_iron"
+  },
+  "result": {
+    "item": "minecraft:iron_nugget",
+    "count": 4
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}
