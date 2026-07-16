@@ -265,7 +265,7 @@ ServerEvents.recipes(event => {
             B: 'butchery:heart',
             A: 'neepmeat:raw_meat_brick',
             C: 'butchery:stomach',
-            F: 'butchery:wishbone',
+            F: '#desecrated:trigger_bone',
             G: 'butchery:intestines'
         }
     )

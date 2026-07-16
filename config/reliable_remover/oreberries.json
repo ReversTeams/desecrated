@@ -1,0 +1,23 @@
+{
+    "action": "remove",
+    "items": [
+        "oreberriesreplanted:tin_oreberry_bush",
+        "oreberriesreplanted:aluminum_oreberry_bush",
+        "oreberriesreplanted:lead_oreberry_bush",
+        "oreberriesreplanted:nickel_oreberry_bush",
+        "oreberriesreplanted:uranium_oreberry_bush",
+        "oreberriesreplanted:osmium_oreberry_bush",
+        "oreberriesreplanted:tin_oreberry",
+        "oreberriesreplanted:aluminum_oreberry",
+        "oreberriesreplanted:lead_oreberry",
+        "oreberriesreplanted:nickel_oreberry",
+        "oreberriesreplanted:uranium_oreberry",
+        "oreberriesreplanted:osmium_oreberry",
+        "oreberriesreplanted:tin_oreberry_juice_bucket",
+        "oreberriesreplanted:aluminum_oreberry_juice_bucket",
+        "oreberriesreplanted:lead_oreberry_juice_bucket",
+        "oreberriesreplanted:nickel_oreberry_juice_bucket",
+        "oreberriesreplanted:uranium_oreberry_juice_bucket",
+        "oreberriesreplanted:osmium_oreberry_juice_bucket"
+    ]
+}

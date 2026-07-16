@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "knightlib:small_essence",
+            "knightlib:great_essence",
+            "knightlib:empty_grail",
+            "knightlib:filled_grail",
+            "knightlib:homunculus",
+            "knightlib:great_chalice"
+        ]
+    }
+]
