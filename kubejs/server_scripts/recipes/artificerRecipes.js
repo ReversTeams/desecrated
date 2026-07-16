@@ -269,7 +269,7 @@ ServerEvents.recipes(event => {
     ).damageIngredient("#desecrated:advanced_wrenches");
 
     event.shaped(
-        Item.of('clockwork:clockwork_gear'),
+        Item.of('desecratedcore:brass_gear'),
         [
             ' A ',
             'ABA',
@@ -278,6 +278,19 @@ ServerEvents.recipes(event => {
         {
             A: 'desecratedcore:brass_ingot',
             B: 'desecratedcore:amethyst_reinforced_iron_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('clockwork:clockwork_gear'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'desecratedcore:brass_ingot',
+            B: 'desecratedcore:brass_nugget'
         }
     )
 
@@ -327,7 +340,7 @@ ServerEvents.recipes(event => {
             F: 'desecratedcore:brass_ingot',
             B: '#desecrated:advanced_tuning_forks',
             D: 'minecraft:elytra',
-            A: 'clockwork:clockwork_gear'
+            A: 'desecratedcore:brass_gear'
         }
     ).damageIngredient("#desecrated:advanced_tuning_forks");
 
@@ -343,7 +356,7 @@ ServerEvents.recipes(event => {
             D: 'minecraft:iron_ingot',
             E: 'minecraft:blaze_powder',
             A: '#desecrated:advanced_tuning_forks',
-            B: 'clockwork:clockwork_gear'
+            B: 'desecratedcore:brass_gear'
         }
     ).damageIngredient("#desecrated:advanced_tuning_forks");
 
@@ -360,7 +373,7 @@ ServerEvents.recipes(event => {
             B: 'minecraft:quartz',
             E: '#desecrated:advanced_tuning_forks',
             F: 'minecraft:copper_ingot',
-            C: 'clockwork:clockwork_gear'
+            C: 'desecratedcore:brass_gear'
         }
     ).damageIngredient("#desecrated:advanced_tuning_forks");
 
@@ -375,7 +388,7 @@ ServerEvents.recipes(event => {
         {
             D: 'minecraft:stick',
             A: 'minecraft:oak_planks',
-            B: 'clockwork:clockwork_gear',
+            B: 'desecratedcore:brass_gear',
             C: 'supplementaries:wrench'
         }
     )
@@ -389,7 +402,7 @@ ServerEvents.recipes(event => {
         {
             D: 'minecraft:stick',
             A: 'minecraft:cobblestone',
-            B: 'clockwork:clockwork_gear',
+            B: 'desecratedcore:brass_gear',
             C: 'supplementaries:wrench'
         }
     )
@@ -403,7 +416,7 @@ ServerEvents.recipes(event => {
         {
             D: 'minecraft:stick',
             A: 'minecraft:copper_ingot',
-            B: 'clockwork:clockwork_gear',
+            B: 'desecratedcore:brass_gear',
             C: 'supplementaries:wrench'
         }
     )
@@ -417,7 +430,7 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:iron_ingot',
             D: 'minecraft:stick',
-            B: 'clockwork:clockwork_gear',
+            B: 'desecratedcore:brass_gear',
             C: 'supplementaries:wrench'
         }
     )
@@ -431,7 +444,7 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:gold_ingot',
             D: 'minecraft:stick',
-            B: 'clockwork:clockwork_gear',
+            B: 'desecratedcore:brass_gear',
             C: 'supplementaries:wrench'
         }
     )
@@ -445,7 +458,7 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:diamond',
             D: 'minecraft:stick',
-            B: 'clockwork:clockwork_gear',
+            B: 'desecratedcore:brass_gear',
             C: 'supplementaries:wrench'
         }
     )
@@ -461,7 +474,7 @@ ServerEvents.recipes(event => {
             C: 'desecratedcore:amethyst_tuning_wand',
             D: 'minecraft:stick',
             A: '#minecraft:planks',
-            B: 'clockwork:clockwork_gear'
+            B: 'desecratedcore:brass_gear'
         }
     )
     event.shaped(
@@ -475,7 +488,7 @@ ServerEvents.recipes(event => {
             C: 'desecratedcore:amethyst_tuning_wand',
             D: 'minecraft:stick',
             A: 'minecraft:cobblestone',
-            B: 'clockwork:clockwork_gear'
+            B: 'desecratedcore:brass_gear'
         }
     )
     event.shaped(
@@ -489,7 +502,7 @@ ServerEvents.recipes(event => {
             C: 'desecratedcore:amethyst_tuning_wand',
             D: 'minecraft:stick',
             A: 'minecraft:copper_ingot',
-            B: 'clockwork:clockwork_gear'
+            B: 'desecratedcore:brass_gear'
         }
     )
     event.shaped(
@@ -503,7 +516,7 @@ ServerEvents.recipes(event => {
             A: 'minecraft:iron_ingot',
             C: 'desecratedcore:amethyst_tuning_wand',
             D: 'minecraft:stick',
-            B: 'clockwork:clockwork_gear'
+            B: 'desecratedcore:brass_gear'
         }
     )
     event.shaped(
@@ -517,7 +530,7 @@ ServerEvents.recipes(event => {
             A: 'minecraft:gold_ingot',
             C: 'desecratedcore:amethyst_tuning_wand',
             D: 'minecraft:stick',
-            B: 'clockwork:clockwork_gear'
+            B: 'desecratedcore:brass_gear'
         }
     )
     event.shaped(
@@ -531,7 +544,7 @@ ServerEvents.recipes(event => {
             C: 'desecratedcore:amethyst_tuning_wand',
             A: 'minecraft:diamond',
             D: 'minecraft:stick',
-            B: 'clockwork:clockwork_gear'
+            B: 'desecratedcore:brass_gear'
         }
     )
     event.shaped(
@@ -1541,6 +1554,19 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.shaped(
+        Item.of('desecratedcore:pure_restorine'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'ascendant_arcana:restorine',
+            B: 'desecratedcore:spectral_dust'
+        }
+    )
+
     // Celestisynth
 
     event.shaped(
@@ -1850,8 +1876,23 @@ ServerEvents.recipes(event => {
             C: 'reliquary:destruction_catalyst',
             B: Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:4}').strongNBT(),
             E: 'concatenatedadditionstools:glowing_gold_block',
-            A: 'tacz:ammo',
+            A: Item.of('tacz:ammo', '{AmmoId:"ars_armorer:mana"}').strongNBT(),
             D: 'minecraft:stone_bricks'
+        }
+    )
+
+    event.shaped(
+        Item.of('tacz:ammo', '{AmmoId:"ars_armorer:mana"}'),
+        [
+            'AAA',
+            'BBB',
+            'CDC'
+        ],
+        {
+            B: 'incision:lens_glass',
+            C: 'minecraft:gold_ingot',
+            A: 'neepmeat:blood_bubble_planks_slab',
+            D: 'perdition:silver_ingot'
         }
     )
 
