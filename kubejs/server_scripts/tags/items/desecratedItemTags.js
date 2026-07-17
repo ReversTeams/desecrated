@@ -42,6 +42,7 @@ ServerEvents.tags('item', event => {
     ]);
 
     add('desecrated:trigger_bone', [
+        'butchery:broken_wishbone',
         'butchery:wishbone',
         'fracture:fleshy_bone'
     ]);

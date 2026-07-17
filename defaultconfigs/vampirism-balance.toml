@@ -486,9 +486,9 @@
 
 	[balance.items]
 		#Determines if the 'vampirism:applicable_oil/pickaxe' item tag should work as blacklist (false) or whitelist (true)
-		applicableOilPickaxeReverse = false
+		applicableOilPickaxeReverse = true
 		#Determines if the 'vampirism:applicable_oil/armor' item tag should work as blacklist (false) or whitelist (true)
-		applicableOilArmorReverse = false
+		applicableOilArmorReverse = true
 		#Determines if the 'vampirism:applicable_oil/sword' item tag should work as blacklist (false) or whitelist (true)
-		applicableOilSwordReverse = false
+		applicableOilSwordReverse = true
 
