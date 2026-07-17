@@ -37,6 +37,13 @@
 		}
 		{
 			dependencies: ["0AA4D0CCC184FAB7"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome V"
+				""
+				"&fMan, the legends they tell about each generation of this dragon seem to have made many adventurers truly underestimate her strength. Was the Ender Dragon always this strong every time she's reborn? One of my trusty companions got flung into the sky and was squished into a crepe. Luckily, he had an angelheart vial to save himself. A lot of these attacks and abilities aren't the same as recorded in legends. "
+				""
+				"&fIn the end, after moments of suffering and a bullet to the skull, we finally managed to best this legendary beast."
+			]
 			entity_vis_size: 1.0f
 			id: "6C5E0B16261EB864"
 			tasks: [{
@@ -124,6 +131,13 @@
 			y: -0.5d
 		}
 		{
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome V"
+				""
+				"&fLeft behind by an ancient civilization that has been theorized to be the Endermen's ancestors, underground Strongholds are sprawling mazes of fortifications."
+				""
+				"&fThey house important End portals to enter the End. Be warned that the guardian dragon of the End is not friendly to outsiders and is especially dangerous."
+			]
 			entity_vis_size: 1.0f
 			id: "171FDA40D98FA659"
 			rewards: [{
