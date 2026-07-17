@@ -1,0 +1,16 @@
+{
+	id: "599230019A82419D"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "vampirism:human_heart", weight: 1.5f }
+		{ item: "vampirism:pure_blood_0", weight: 0.4f }
+		{ item: "vampirism:pure_blood_1", weight: 0.4f }
+		{ item: "vampirism:pure_blood_2", weight: 0.4f }
+		{ item: "vampirism:pure_blood_3", weight: 0.4f }
+		{ item: "vampirism:pure_blood_4", weight: 0.4f }
+		{ item: "vampirism:vampire_book" }
+		{ count: 2, item: "vampirism:human_heart" }
+	]
+	title: "Sanguine Gift"
+}

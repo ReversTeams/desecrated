@@ -639,6 +639,8 @@
 				"This would be nice.. but I'm ashamed that I don't quite know how to do that."
 				""
 				"&4I can teach you later."
+				"{@pagebreak}"
+				"&a(You can right click any container with 1000mb of blood to fill the bottle with blood, whether it be a tank, a grate, etc. You can also throw a bottle into liquid blood blocks to fill the bottle.)"
 			]
 			entity_vis_size: 1.0f
 			id: "3F69B451E4B11129"
