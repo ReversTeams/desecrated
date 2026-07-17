@@ -17,7 +17,8 @@ ServerEvents.recipes(event => {
         'butchery:meat_grinder',
         'neepmeat:charnel_compactor',
         'neepmeat:pedestal',
-        'neepmeat:hungry_heterostructure'
+        'neepmeat:hungry_heterostructure',
+        'concatenatedadditionsmachines:galvanized_iron_casing'
     ]
 
     const removeCraftingShaped = [
@@ -100,11 +101,30 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-    Item.of('minecraft:leather', 2),
-    [
-        '#butchery:skins'
-    ]
-)
+        Item.of('minecraft:leather', 1),
+        [
+            'concatenatedadditionscore:cutting_tool',
+            '#butchery:skins',
+            '#butchery:skins',
+            '#butchery:skins',
+            '#butchery:skins'
+        ]
+    )
+
+    // Concatenated Additions
+    event.shaped(
+        Item.of('concatenatedadditionsmachines:galvanized_iron_casing'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'concatenatedadditionsmachines:galvanized_iron',
+            A: 'minecraft:iron_ingot',
+            C: 'concatenatedadditionsmachines:alclad'
+        }
+    )
 
     // Neepmeat
     event.replaceInput(
@@ -327,7 +347,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-        Item.of('neepmeat:vascular_conduit', 4),
+        Item.of('neepmeat:vascular_conduit', 32),
         [
             'AAA',
             'BCB',

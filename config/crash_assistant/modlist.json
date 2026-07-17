@@ -269,13 +269,13 @@
     "curseForgeHash": 924707434,
     "modrinthHash": "66b2684504dfbde4841cf8f781d80a3b8a0a0d2a"
   },
-  "bloodbits-2.1.3-forge-1.20.1.jar": {
-    "jarName": "bloodbits-2.1.3-forge-1.20.1.jar",
+  "bloodbits-2.1.4-forge-1.20.1.jar": {
+    "jarName": "bloodbits-2.1.4-forge-1.20.1.jar",
     "modId": "bloodbits",
     "name": "Blood Bits",
-    "version": "2.1.3",
-    "curseForgeHash": 1046922348,
-    "modrinthHash": "ea961a50206c3ef95e668c19535df3a9e7371b57"
+    "version": "2.1.4",
+    "curseForgeHash": 4186626198,
+    "modrinthHash": "48c105845386a57a1fe6572032779610c398882c"
   },
   "bloodmagic-1.20.1-3.3.7-49.jar": {
     "jarName": "bloodmagic-1.20.1-3.3.7-49.jar",
@@ -858,13 +858,13 @@
     "curseForgeHash": 4092597210,
     "modrinthHash": "dddab6a5ff092b4535e9fdfb01e1e011afb90e57"
   },
-  "desecratedcompat-1.0.2-forge-1.20.1.jar": {
-    "jarName": "desecratedcompat-1.0.2-forge-1.20.1.jar",
+  "desecratedcompat-1.0.3-forge-1.20.1.jar": {
+    "jarName": "desecratedcompat-1.0.3-forge-1.20.1.jar",
     "modId": "desecratedcompat",
     "name": "Desecrated Compat",
-    "version": "1.0.2",
-    "curseForgeHash": 293720582,
-    "modrinthHash": "12cd284ca9ed44235a9eb5e9171a35ee8c54d8a2"
+    "version": "1.0.3",
+    "curseForgeHash": 3217977688,
+    "modrinthHash": "d5dfe7e8053fbbe88b6f3450a4e47f22b72d05a3"
   },
   "desecratedcore-1.0.2-forge-1.20.1.jar": {
     "jarName": "desecratedcore-1.0.2-forge-1.20.1.jar",
@@ -953,6 +953,14 @@
     "version": "1.1.24+1.20.1+forge",
     "curseForgeHash": 573012167,
     "modrinthHash": "ea320200878e4a49196760234a22da763671520a"
+  },
+  "emi_accelerator-1.0.1.jar": {
+    "jarName": "emi_accelerator-1.0.1.jar",
+    "modId": "emi_accelerator",
+    "name": "EMI Accelerator",
+    "version": "1.0.1",
+    "curseForgeHash": 3394443500,
+    "modrinthHash": "e7376dea7dc29352ae8a8b20d1fd8d7b1e3402b0"
   },
   "emi_loot-0.7.9+1.20.1+forge.jar": {
     "jarName": "emi_loot-0.7.9+1.20.1+forge.jar",
@@ -1082,13 +1090,13 @@
     "curseForgeHash": 4200970324,
     "modrinthHash": "285c22b2567b9fdf98ef9808eceb5557de9611d3"
   },
-  "fancymenu_forge_3.9.7_MC_1.20.1.jar": {
-    "jarName": "fancymenu_forge_3.9.7_MC_1.20.1.jar",
+  "fancymenu_forge_3.9.8_MC_1.20.1.jar": {
+    "jarName": "fancymenu_forge_3.9.8_MC_1.20.1.jar",
     "modId": "fancymenu",
     "name": "FancyMenu",
-    "version": "3.9.7",
-    "curseForgeHash": 507087576,
-    "modrinthHash": "a6371bfca2d99b0dfd62628feae50437caf9b9f5"
+    "version": "3.9.8",
+    "curseForgeHash": 1454930575,
+    "modrinthHash": "38d9f5c56d5d2075264e3997b534b4709026088b"
   },
   "FarmersDelight-1.20.1-1.3.2.jar": {
     "jarName": "FarmersDelight-1.20.1-1.3.2.jar",
@@ -1679,6 +1687,14 @@
     "curseForgeHash": 1036440574,
     "modrinthHash": "1ec77a7df8adbf3290a296bf25b8f99f37a60020"
   },
+  "lucis-forge-1.20.1-1.0.2.1.jar": {
+    "jarName": "lucis-forge-1.20.1-1.0.2.1.jar",
+    "modId": "lucis",
+    "name": "Lucis",
+    "version": "1.0.2.1",
+    "curseForgeHash": 2352074618,
+    "modrinthHash": "d57f4fbdbec2dd71d158175cbca7abb67eef3ee5"
+  },
   "lunarshaders-forge-1.20.1-2.1.0.jar": {
     "jarName": "lunarshaders-forge-1.20.1-2.1.0.jar",
     "modId": "lunarshaders",
@@ -1807,13 +1823,13 @@
     "curseForgeHash": 3993116548,
     "modrinthHash": "5bdda0781bf9dfb5f992a7aa2bee64d5d3fe0b84"
   },
-  "modernfix-forge-5.27.63+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.27.63+mc1.20.1.jar",
+  "modernfix-forge-5.27.65+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.27.65+mc1.20.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.63+mc1.20.1",
-    "curseForgeHash": 122292549,
-    "modrinthHash": "ceba978d35109b5a1b5090f2bf6af67b1536d1be"
+    "version": "5.27.65+mc1.20.1",
+    "curseForgeHash": 149405828,
+    "modrinthHash": "b8814679c6d44febdafbb3b6fee54b6845ee3865"
   },
   "modernworldcreation_forge_2.0.2_MC_1.20.1.jar": {
     "jarName": "modernworldcreation_forge_2.0.2_MC_1.20.1.jar",
@@ -2718,14 +2734,6 @@
     "version": "1.1.0",
     "curseForgeHash": 2966281698,
     "modrinthHash": "084b07838b9c525e33321f09267e256e176eccb5"
-  },
-  "tickaccelerate-1.20.1-forge-0.8.0.jar": {
-    "jarName": "tickaccelerate-1.20.1-forge-0.8.0.jar",
-    "modId": "tickaccelerate",
-    "name": "TickAccelerate",
-    "version": "1.20.1-forge-0.8.0",
-    "curseForgeHash": 368749948,
-    "modrinthHash": "c2934468d82e89b5bffa28f24ea9ed9e3e2cde1b"
   },
   "time-in-a-bottle-4.0.4-mc1.20.1.jar": {
     "jarName": "time-in-a-bottle-4.0.4-mc1.20.1.jar",

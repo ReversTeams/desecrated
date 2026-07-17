@@ -1558,6 +1558,17 @@
 		}
 		{
 			dependencies: ["4B78724FE216F6C4"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome III"
+				""
+				"&eLunar Stone Armour is made from Lunepse crystals and soulsteel, a spiritually powered version of calralite.&r"
+				""
+				"&eThis combination creates a powerful synergy. This results in an armour that not only protects but also empowers its wearer, making it a favourite among those who value both defensive and offensive capabilities.&r"
+				"{@pagebreak}"
+				"&eIt possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course, increasing the potency of celestial-grade weapons.&r"
+				""
+				"&eThe uniqueness of Lunar Stone Armour is that it has a one in five chance to almost nullify incoming damage.&r"
+			]
 			entity_vis_size: 1.0f
 			id: "6EBB47896FADA673"
 			rewards: [{
@@ -1696,6 +1707,17 @@
 			dependencies: [
 				"7D77CCD369C9836A"
 				"1FD01CDA1731655D"
+			]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome III"
+				""
+				"&fLunar stone is usually found deep underground in a large cluster filled with water, forming a lunar lake within the earth."
+				""
+				"&fThis stone can be simply smelted to produce lunar scrap."
+				"{@pagebreak}"
+				"&eLunepse crystals are known for their resistance to celestial elemental forces, while Soleipse crystals enhance durability against otherworldly entities. When combined, they create a harmonious balance of light and dark energies, making them ideal for creating armour that can withstand both terrestrial and celestial threats.&r"
+				"{@pagebreak}"
+				"&eThe Lunepse and Soleipse crystals are used in the crafting of celestial armour sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armour infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
 			]
 			entity_vis_size: 1.0f
 			id: "57D2E90578BED5D0"
