@@ -9,6 +9,7 @@
     "fracture:flesh_dimension",
     "thedulling:heart_of_the_dulling",
     "reverseeon:island_dim",
+    "macabre:limbo",
     "thedulling:lost_interfold",
     "minecraft:overworld",
     "perdition:purgatory",
@@ -16,6 +17,7 @@
     "bloodyhell:soul_dimension",
     "minecraft:the_end",
     "minecraft:the_nether",
+    "macabre:the_pit",
     "blood_arsenal_reawakened:white_day",
     "thedulling:yvxzlight"
   ],
@@ -2043,6 +2045,46 @@
       "dimensions": [
         "minecraft:overworld",
         "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "macabre:prayer_altar",
+      "displayName": "Prayer Altar",
+      "isVanilla": false,
+      "dimensions": [
+        "macabre:the_pit"
+      ]
+    },
+    {
+      "id": "macabre:swamp_arch_common",
+      "displayName": "Swamp Arch Common",
+      "isVanilla": false,
+      "dimensions": [
+        "macabre:the_pit"
+      ]
+    },
+    {
+      "id": "macabre:swamp_arch_giant",
+      "displayName": "Swamp Arch Giant",
+      "isVanilla": false,
+      "dimensions": [
+        "macabre:the_pit"
+      ]
+    },
+    {
+      "id": "macabre:swamp_arch_titanic",
+      "displayName": "Swamp Arch Titanic",
+      "isVanilla": false,
+      "dimensions": [
+        "macabre:the_pit"
+      ]
+    },
+    {
+      "id": "macabre:tumor_spike",
+      "displayName": "Tumor Spike",
+      "isVanilla": false,
+      "dimensions": [
+        "macabre:the_pit"
       ]
     },
     {
