@@ -263,17 +263,6 @@
 					type: "item"
 				}
 				{
-					id: "3441A67742CBD3FA"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "butchery:butchers_guide"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "29F8F16BD3579370"
 					type: "xp_levels"
 					xp_levels: 1

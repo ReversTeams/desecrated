@@ -9,3 +9,4 @@ Platform.mods.create.name = '???'; // CREATE IS NOT REAL CREATE IS NOT REAL CREA
 Platform.mods.tetra.name = 'Tetra'; 
 Platform.mods.incision.name = 'Incision'; 
 Platform.mods.macabre.name = 'Macabre'; 
+Platform.mods.simplytents.name = 'Simply Tents'; 

@@ -22,6 +22,12 @@ ServerEvents.recipes(event => {
         '#forge:furnaces'
     )
 
+    event.replaceInput(
+        { output: 'supplementaries:soap' },
+        'minecraft:porkchop',
+        '#desecrated:soap_ingredient'
+    )
+
     // event.replaceInput(
     //     { input: '#biomancy:raw_meats' },
     //     '#biomancy:raw_meats',

@@ -1,0 +1,28 @@
+{
+  "features": {
+    "realms": true,
+    "player_reporting": true,
+    "feedback": true,
+    "bug_report": true,
+    "promotional_ui": true,
+    "telemetry": true,
+    "online_features": true,
+    "external_links": true,
+    "notifications": true,
+    "social_interactions": true,
+    "accessibility_ui": true,
+    "chat_ui": true,
+    "input_options": false,
+    "debug_tools": true,
+    "touchscreen": true,
+    "operator_items_tab": false,
+    "autosave_indicator": true,
+    "resource_pack_warnings": true,
+    "credits": true,
+    "world_creation_ui": true,
+    "menu_visuals": true,
+    "death_score": true,
+    "tutorial": true,
+    "version_text": true
+  }
+}

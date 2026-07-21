@@ -381,13 +381,13 @@
     "curseForgeHash": 2721917406,
     "modrinthHash": "fe49c0f42f21f4c0ea71c3cda7757914cb875ae7"
   },
-  "chloride-FORGE-mc1.20.1-v1.7.7.jar": {
-    "jarName": "chloride-FORGE-mc1.20.1-v1.7.7.jar",
+  "chloride-FORGE-mc1.20.1-v1.8.1.jar": {
+    "jarName": "chloride-FORGE-mc1.20.1-v1.8.1.jar",
     "modId": "chloride",
     "name": "Chloride",
-    "version": "1.7.7",
-    "curseForgeHash": 3511116092,
-    "modrinthHash": "eb11150bf4029b812f78cf4a3d155b535243d604"
+    "version": "1.8.1",
+    "curseForgeHash": 2849438660,
+    "modrinthHash": "b42ae912055a962aeae80b97f08ee3517542026a"
   },
   "chunkactivitytracker-forge-1.0.1-1.20.1.jar": {
     "jarName": "chunkactivitytracker-forge-1.0.1-1.20.1.jar",
@@ -429,13 +429,13 @@
     "curseForgeHash": 1505066646,
     "modrinthHash": "2b42f5b6f52dbd176719dee906bdcd1857bd843d"
   },
-  "civillis-forge-2.0.0-release+mc1.20.1.jar": {
-    "jarName": "civillis-forge-2.0.0-release+mc1.20.1.jar",
+  "civillis-forge-2.0.1-release+mc1.20.1.jar": {
+    "jarName": "civillis-forge-2.0.1-release+mc1.20.1.jar",
     "modId": "civil",
     "name": "Civillis",
-    "version": "2.0.0-release",
-    "curseForgeHash": 3709893080,
-    "modrinthHash": "6582381a61a2e276d1accb154df1a48c620e7101"
+    "version": "2.0.1-release",
+    "curseForgeHash": 3289360903,
+    "modrinthHash": "3cbcc453f6880271227f089f52f62ae14333bc22"
   },
   "clanging-howl-[Forge]_1.20.1_1.1.0.jar": {
     "jarName": "clanging-howl-[Forge]_1.20.1_1.1.0.jar",
@@ -557,13 +557,13 @@
     "curseForgeHash": 4088591132,
     "modrinthHash": "b18ced3ac25436f8bd52ddeb1b87c843f8050d2e"
   },
-  "concatenatedadditionsmachines-1.4.1-forge-1.20.1.jar": {
-    "jarName": "concatenatedadditionsmachines-1.4.1-forge-1.20.1.jar",
+  "concatenatedadditionsmachines-1.4.2-forge-1.20.1.jar": {
+    "jarName": "concatenatedadditionsmachines-1.4.2-forge-1.20.1.jar",
     "modId": "concatenatedadditionsmachines",
     "name": "Concatenated Additions",
-    "version": "1.4.1",
-    "curseForgeHash": 456055771,
-    "modrinthHash": "e5d5ef725796e2a499cfe833d1b99a413a3f2bbc"
+    "version": "1.4.2",
+    "curseForgeHash": 2927532783,
+    "modrinthHash": "58be7005e34855c22ea0a6155c2fbb5af878c3f4"
   },
   "concatenatedadditionstools-1.4.0-forge-1.20.1.jar": {
     "jarName": "concatenatedadditionstools-1.4.0-forge-1.20.1.jar",
@@ -642,13 +642,13 @@
     "curseForgeHash": 2144346557,
     "modrinthHash": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd"
   },
-  "conveniencerecipes-1.1.0-universal-1.20.1.jar": {
-    "jarName": "conveniencerecipes-1.1.0-universal-1.20.1.jar",
+  "conveniencerecipes-1.1.2-universal-1.20.1.jar": {
+    "jarName": "conveniencerecipes-1.1.2-universal-1.20.1.jar",
     "modId": "conveniencerecipes",
     "name": "Tag Localizations",
-    "version": "1.1.0",
-    "curseForgeHash": 2181470175,
-    "modrinthHash": "8e800c3953158c49782f43ca51c84fb92a2a9a5e"
+    "version": "1.1.2",
+    "curseForgeHash": 2912792404,
+    "modrinthHash": "56f07c7d14a50a89778fb8336cff7ad1888ddb53"
   },
   "coolcatlib-forge-1.20.1-2001.1.0.1.jar": {
     "jarName": "coolcatlib-forge-1.20.1-2001.1.0.1.jar",
@@ -721,6 +721,14 @@
     "version": "0.3.3",
     "curseForgeHash": 2064459127,
     "modrinthHash": "26db309a19862fd1923288392973f3a893afe1b3"
+  },
+  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
+    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
+    "modId": "craftingrecipeexporter",
+    "name": "Crafting Recipe Exporter",
+    "version": "1.0.2",
+    "curseForgeHash": 3177483119,
+    "modrinthHash": "bf979246d3f2d81749f6246e06a9675e06476dba"
   },
   "craftingstation-1.20.1-1.4.0.jar": {
     "jarName": "craftingstation-1.20.1-1.4.0.jar",
@@ -842,13 +850,13 @@
     "curseForgeHash": 4092597210,
     "modrinthHash": "dddab6a5ff092b4535e9fdfb01e1e011afb90e57"
   },
-  "desecratedcompat-1.0.3-forge-1.20.1.jar": {
-    "jarName": "desecratedcompat-1.0.3-forge-1.20.1.jar",
+  "desecratedcompat-1.0.4-forge-1.20.1.jar": {
+    "jarName": "desecratedcompat-1.0.4-forge-1.20.1.jar",
     "modId": "desecratedcompat",
     "name": "Desecrated Compat",
-    "version": "1.0.3",
-    "curseForgeHash": 3217977688,
-    "modrinthHash": "d5dfe7e8053fbbe88b6f3450a4e47f22b72d05a3"
+    "version": "1.0.4",
+    "curseForgeHash": 1497153642,
+    "modrinthHash": "20b031fb7b2c3d243a07985647980875083e5bbf"
   },
   "desecratedcore-1.0.2-forge-1.20.1.jar": {
     "jarName": "desecratedcore-1.0.2-forge-1.20.1.jar",
@@ -1258,13 +1266,13 @@
     "curseForgeHash": 3034467947,
     "modrinthHash": "f025cc4528288871ff5dd13c5ac0b0900c1a1ae0"
   },
-  "fusion-1.3.7-forge-mc1.20.1.jar": {
-    "jarName": "fusion-1.3.7-forge-mc1.20.1.jar",
+  "fusion-1.3.8-forge-mc1.20.1.jar": {
+    "jarName": "fusion-1.3.8-forge-mc1.20.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.7",
-    "curseForgeHash": 996476705,
-    "modrinthHash": "bf0f80892d9cb2d62241967f5b69b8fb375ec831"
+    "version": "1.3.8",
+    "curseForgeHash": 2085379570,
+    "modrinthHash": "23e322fb462a1e8e138eec9a368b281ccc31ab2b"
   },
   "fwa+1.20.1-forge-1.2.31.jar": {
     "jarName": "fwa+1.20.1-forge-1.2.31.jar",
@@ -1513,6 +1521,14 @@
     "version": "5.5.1+forge",
     "curseForgeHash": 1204092001,
     "modrinthHash": "c4339eb3ef0c4728cb511efe60726653a35c7a0d"
+  },
+  "jasione-1.0.5+1.20.1-forge.jar": {
+    "jarName": "jasione-1.0.5+1.20.1-forge.jar",
+    "modId": "jasione",
+    "name": "Jasione",
+    "version": "1.0.5+1.20.1-forge",
+    "curseForgeHash": 3124188574,
+    "modrinthHash": "69ecdaeb60cd4c0f4efb317755f891f235e8e580"
   },
   "jmi-forge-1.20.1-0.14-48.jar": {
     "jarName": "jmi-forge-1.20.1-0.14-48.jar",
@@ -2207,21 +2223,13 @@
     "curseForgeHash": 1441086174,
     "modrinthHash": "f5f5f792473bb7b85ec221f75c5afb3740afb13a"
   },
-  "recipeessentials-1.20.1-4.1.jar": {
-    "jarName": "recipeessentials-1.20.1-4.1.jar",
+  "recipeessentials-1.20.1-4.7.jar": {
+    "jarName": "recipeessentials-1.20.1-4.7.jar",
     "modId": "recipeessentials",
     "name": "recipeessentials mod",
-    "version": "1.20.1-4.1",
-    "curseForgeHash": 2529214632,
-    "modrinthHash": "c2e961462610cc696ab77abc9d36c12f405acb20"
-  },
-  "redirected-forge-1.0.0-1.20.1.jar": {
-    "jarName": "redirected-forge-1.0.0-1.20.1.jar",
-    "modId": "redirected",
-    "name": "Redirected",
-    "version": "1.0.0",
-    "curseForgeHash": 1715840423,
-    "modrinthHash": "804cb20635bec6d708617fb22e6bd62bed27a7a7"
+    "version": "1.20.1-4.7",
+    "curseForgeHash": 2081161564,
+    "modrinthHash": "e689f61f6799acf2af6b970c964aa65f50290ec4"
   },
   "refurbished_furniture-forge-1.20.1-1.0.20.jar": {
     "jarName": "refurbished_furniture-forge-1.20.1-1.0.20.jar",
@@ -2254,14 +2262,6 @@
     "version": "2.0.62.1532",
     "curseForgeHash": 3423985497,
     "modrinthHash": "2f09dff7064c01152a729fff324218a588622bef"
-  },
-  "replantingcrops-1.20.1-5.5.jar": {
-    "jarName": "replantingcrops-1.20.1-5.5.jar",
-    "modId": "replantingcrops",
-    "name": "Replanting Crops",
-    "version": "5.5",
-    "curseForgeHash": 775752096,
-    "modrinthHash": "377c9c8aaeb4f907fb3643df120822e53fa6dbc2"
   },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
@@ -2535,6 +2535,14 @@
     "curseForgeHash": 1405447780,
     "modrinthHash": "afca74c6e18883632e74e15a549004bfca245a90"
   },
+  "StreamsReflowing-1.20.1-forge-2.9.1.jar": {
+    "jarName": "StreamsReflowing-1.20.1-forge-2.9.1.jar",
+    "modId": "streamsreflowing",
+    "name": "StreamsReflowing",
+    "version": "2.9.1",
+    "curseForgeHash": 1627327943,
+    "modrinthHash": "da8986309e1bd33fb607ffd94a782a62b0ccacdb"
+  },
   "structure_layout_optimizer-forge-1.0.11.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
     "modId": "structure_layout_optimizer",
@@ -2719,13 +2727,13 @@
     "curseForgeHash": 306312555,
     "modrinthHash": "32f24f9ac23884bb68a276e5c608e27788b7ed68"
   },
-  "thedulling-encore-1.1.1-1.0.5-forge-1.20.1.jar": {
-    "jarName": "thedulling-encore-1.1.1-1.0.5-forge-1.20.1.jar",
+  "thedulling-encore-1.1.2-1.0.6-forge-1.20.1.jar": {
+    "jarName": "thedulling-encore-1.1.2-1.0.6-forge-1.20.1.jar",
     "modId": "thedulling",
     "name": "The Dulling",
-    "version": "1.1.0",
-    "curseForgeHash": 2966281698,
-    "modrinthHash": "084b07838b9c525e33321f09267e256e176eccb5"
+    "version": "1.0.6",
+    "curseForgeHash": 1023444599,
+    "modrinthHash": "0ad4722bceb0f26a5d97afc33aba281dfadf2528"
   },
   "time-in-a-bottle-4.0.4-mc1.20.1.jar": {
     "jarName": "time-in-a-bottle-4.0.4-mc1.20.1.jar",

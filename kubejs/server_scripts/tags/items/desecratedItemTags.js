@@ -107,6 +107,11 @@ ServerEvents.tags('item', event => {
         'fracture:blood_slime_ball'
     ]);
 
+    add('desecrated:soap_ingredient', [
+        'immersive_weathering:tallow',
+        'minecraft:porkchop'
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"
