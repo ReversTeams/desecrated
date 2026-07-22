@@ -15,11 +15,11 @@
 	# Multiplied by 5 internally
 	# default: 16
 	pistolCapacity = 16
-	# default: 7.0
-	chuggerAttackDamage = 7.0
+	# default: 8.0
+	chuggerAttackDamage = 8.0
 	# Multiplied by 5 internally
-	# default: 16
-	chuggerCapacity = 16
+	# default: 20
+	chuggerCapacity = 20
 	# default: 4.0
 	bosherAttackDamage = 4.0
 	# Multiplied by 5 internally
@@ -30,6 +30,8 @@
 	# Multiplied by 5 internally
 	# default: 16
 	longBoiCapacity = 16
+	# default: 9.0
+	grenadeLauncherDamage = 9.0
 	# Multiplied by 5 internally
 	# default: 16
 	grenadeLauncherCapacity = 16

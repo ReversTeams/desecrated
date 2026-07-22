@@ -15,6 +15,9 @@ drillChassisMaxComplexity = 16
 	defaultTrommelYield_1 = 1.2
 
 [motors]
+	# Maximum power that can be transferred by a striling engne (eJ/t)
+	# default: 150
+	stirlingEngineMaxPower = 150
 	# Maximum power that can be transferred by a basic motor (eJ/t)
 	# default: 400
 	basicMotorMaxPower = 400
