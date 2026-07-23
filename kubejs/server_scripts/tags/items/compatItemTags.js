@@ -165,6 +165,65 @@ ServerEvents.tags('item', event => {
         'bloodyhell:forbidden_bookshelf_block'
     ]);
 
+    add('sol_valheim_reforged:always_edible', [
+        'minecraft:golden_apple',
+        'quark:ancient_fruit',
+        'concatenatedadditionsfood:caramel_square',
+        'concatenatedadditionsfood:shiny_eclair',
+        'concatenatedadditionsfood:mint_apple',
+        'concatenatedadditionsfood:spicy_drop',
+        'concatenatedadditionsfood:yumpearls',
+        'concatenatedadditionsfood:allcandy',
+        "vampiresdelight:blood_syrup", 
+        "vampiresdelight:orchid_tea", 
+        "vampiresdelight:blood_wine_glass", 
+        "vampiresdelight:mulled_wine_glass", 
+        "vampiresdelight:blood_dough", 
+        "vampiresdelight:blood_bagel", 
+        "vampiresdelight:heart_pieces", 
+        "vampiresdelight:human_eye", 
+        "vampiresdelight:orchid_cake_slice", 
+        "vampiresdelight:blood_pie_slice", 
+        "vampiresdelight:orchid_cookie", 
+        "vampiresdelight:orchid_eclair", 
+        "vampiresdelight:orchid_ice_cream", 
+        "vampiresdelight:tricolor_dango", 
+        "vampiresdelight:cursed_cupcake", 
+        "vampiresdelight:dark_ice_cream", 
+        "vampiresdelight:blood_sausage", 
+        "vampiresdelight:blood_hot_dog", 
+        "vampiresdelight:eyes_on_stick", 
+        "vampiresdelight:eye_croissant", 
+        "vampiresdelight:bagel_sandwich", 
+        "vampiresdelight:bat_taco", 
+        "vampiresdelight:orchid_cream_soup", 
+        "vampiresdelight:black_mushroom_soup", 
+        "vampiresdelight:orchid_curry", 
+        "vampiresdelight:black_mushroom_noodles", 
+        "vampiresdelight:weird_jelly",
+        'fracture:living_flesh'
+    ]);
+
+    add('sol_valheim_reforged:low_nutrients_compat', [
+        'butchery:heart'
+    ]);
+
+    add('sol_valheim_reforged:high_nutrients_compat', [
+        'vampirism:human_heart',
+        "vampiresdelight:tricolor_dango", 
+        "vampiresdelight:cursed_cupcake", 
+        "vampiresdelight:blood_sausage", 
+        "vampiresdelight:blood_hot_dog", 
+        "vampiresdelight:eye_croissant", 
+        "vampiresdelight:bagel_sandwich", 
+        "vampiresdelight:bat_taco", 
+        "vampiresdelight:orchid_cream_soup", 
+        "vampiresdelight:black_mushroom_soup", 
+        "vampiresdelight:orchid_curry", 
+        "vampiresdelight:black_mushroom_noodles", 
+        "vampiresdelight:weird_jelly"
+    ]);
+
     add('biomancy:raw_meats', [
         [
             "butchery:raw_donkey_steak",
