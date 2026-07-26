@@ -41,7 +41,7 @@
 		HoDSpawnMaxCount = 3
 		#How many days until Heart of Decay can spawn, set to -1 to disable, Default: 0
 		#Range: > -1
-		HoDDaySpawn = 0
+		HoDDaySpawn = 5
 
 	["Mob Spawn".Hematoma]
 		#Spawn Weight for Hematoma, Default: 19
@@ -113,7 +113,7 @@
 	MeteorShowerFlash = true
 	#If 'MeteorShower' is enabled, Meteor Showers will occur ever defined days, Default: 15
 	#Range: > 1
-	MeteorShowerDays = 15
+	MeteorShowerDays = 28
 	#If 'MeteorShower' is enabled, how many seconds do Meteor Showers lasts, Default: 180
 	#Range: 1 ~ 550
 	MeteorShowerDuration = 180

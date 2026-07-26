@@ -64,9 +64,9 @@
 	DRILL_CLOCKWORK_GEAR_AMOUNT = 1
 	# Number of blocks mined until the drill breaks
 	# 
-	# Default: 128
+	# Default: 384
 	# Range: 1 ~ 10000
-	DRILL_BLOCKS_UNTIL_BROKEN = 128
+	DRILL_BLOCKS_UNTIL_BROKEN = 384
 
 ["Clockwork Crossbows"]
 	# Barrel Crossbow durability. Each fired arrow costs 1 and each firework costs 3, like the vanilla crossbow. Set to 0 for

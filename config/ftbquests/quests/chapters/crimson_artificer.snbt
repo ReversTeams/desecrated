@@ -192,7 +192,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["532DC607CA70E1C1"]
+			dependencies: ["206C4BFFA737D67C"]
 			entity_vis_size: 1.0f
 			id: "15A0FF70F62AFAAB"
 			rewards: [{
@@ -200,6 +200,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [{
 				id: "6CE4A35B330C6791"
 				item: {
@@ -223,8 +224,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -11.5d
+			x: -2.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["169431DCD7DDB357"]
@@ -282,9 +283,8 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				icon: "clockwork:clockwork_gear"
-				id: "0230BA1F62FDC93D"
-				item: "clockwork:clockwork_gear"
+				id: "4944E867FE86742C"
+				item: "desecratedcore:brass_gear"
 				type: "item"
 			}]
 			x: 0.0d
@@ -969,7 +969,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			size: 1.1d
+			size: 1.25d
 			tasks: [{
 				ftbquestsentityvis_icon: {
 					enabled: 0b
@@ -1047,7 +1047,7 @@
 			}]
 			title: "Wrench"
 			x: 0.0d
-			y: -9.25d
+			y: -8.75d
 		}
 		{
 			dependencies: ["59DD181B2F00F756"]
@@ -1075,7 +1075,7 @@
 				type: "observation"
 			}]
 			x: -1.0d
-			y: -12.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -2066,22 +2066,38 @@
 		{
 			dependencies: ["43A95B77D0DCE884"]
 			entity_vis_size: 1.0f
+			icon: "desecratedcore:brass_ingot"
 			id: "422F8B4E485EE7B3"
 			rewards: [{
 				id: "13EC9BBDAD823B1E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "1075F1D85734FF14"
-				item: "desecratedcore:brass_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1075F1D85734FF14"
+					item: "desecratedcore:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "099BC439816C2D02"
+					item: "desecratedcore:brass_part"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3913E4BF1C7341B8"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome I"
+				""
+				"&fThe crushing hammer is the first tool holders of &m-----------&r &fwill find to smash ingots into powder."
+				""
+				"&fI've heard that a similar model has been in use for years, however, it's made to flatten ingots into plates instead. This model fell into disuse with the Industrial Revolution. Why take a minute to flatten ingots manually when you can spend hours to automate it?"
+			]
 			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
@@ -2113,6 +2129,13 @@
 		}
 		{
 			dependencies: ["00731415D259609E"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome III"
+				""
+				"&eThe Starlight Factory is a celestial machining facility designed to harness the power of starlight energy for crafting advanced weapons and armour. Its core function revolves around the use of celestial fuel sources, such as amethyst crystals, to power its operations. The factory's machinery is built from celestial netherite, making it resistant to most terrestrial and celestial elemental forces.&r"
+				"{@pagebreak}"
+				"&eThe factory requires complex aluminium alloys and redstone cables to function properly, along with a solid obsidian base to stabilize the structure. Once operational, it can produce powerful celestial weapons imbued with starlight energy. The process involves aligning the amethyst crystals with a celestially refined ore, creating a stable energy source that powers the machinery.&r"
+			]
 			entity_vis_size: 1.0f
 			id: "319D42BD34E291D2"
 			rewards: [{
@@ -2147,6 +2170,11 @@
 		}
 		{
 			dependencies: ["5BE485A94600E5E5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome III"
+				""
+				"&eThe Supernal Netherite Ingot represents an advanced refinement of netherite metal, imbued with celestial or ghastly energies. This ingot is considered a supercharged variant, offering exceptional durability and unique elemental resistance.&r"
+			]
 			entity_vis_size: 1.0f
 			id: "00731415D259609E"
 			rewards: [{
@@ -2164,6 +2192,17 @@
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome III"
+				""
+				"&fSolar crystals are usually found in the Nether, forming around large glowstone deposits. "
+				""
+				"&fWhile this is the most common description I've heard, since solar crystals can be cut into glowstone, I would hypothesize that glowstone might originate, at least in part, from solar crystals."
+				"{@pagebreak}"
+				"&eThe Lunepse and Soleipse crystals are rare celestial minerals formed from lunar and solar crystals, respectively. These crystals are highly sought after for their unique ability to channel both solar and lunar energies, making them invaluable in crafting powerful celestial armour sets.&r"
+				"{@pagebreak}"
+				"&eThe Lunepse and Soleipse crystals are used in the crafting of celestial armour sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armour infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
+			]
 			entity_vis_size: 1.0f
 			id: "105B8DA1342C50C4"
 			rewards: [{
@@ -2181,6 +2220,17 @@
 		}
 		{
 			dependencies: ["105B8DA1342C50C4"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome III"
+				""
+				"&eSolar Crystal Armour is made from Soleipse crystals and soulsteel, a spiritually powered version of calralite.&r"
+				""
+				"&eThis combination creates a powerful synergy. This results in an armour that not only protects but also empowers its wearer, making it a favourite among those who value both defensive and offensive capabilities.&r"
+				"{@pagebreak}"
+				"&eIt possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course, increasing the potency of celestial-grade weapons.&r"
+				""
+				"&eThe uniqueness of Solar Crystal Armour is that it protects its wearer by casting a burst of flames when attacked.&r"
+			]
 			entity_vis_size: 1.0f
 			id: "46A3166EA9CCED6B"
 			rewards: [{
@@ -2401,7 +2451,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["532DC607CA70E1C1"]
+			dependencies: ["206C4BFFA737D67C"]
 			entity_vis_size: 1.0f
 			id: "59DD181B2F00F756"
 			rewards: [{
@@ -2409,6 +2459,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [{
 				id: "0876A1435CC8D670"
 				item: {
@@ -2421,7 +2472,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -11.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["6FD39AE1113C3DC8"]
@@ -2877,11 +2928,19 @@
 			dependencies: ["67DADCC34E9A8A63"]
 			entity_vis_size: 1.0f
 			id: "1101E3B8A9748513"
-			rewards: [{
-				id: "506FD5F223C78E2D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "1078A679F6668DE2"
+					item: "perdition:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "506FD5F223C78E2D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2A26C9C233249916"
 				item: {
@@ -5740,6 +5799,41 @@
 			}]
 			x: 0.0d
 			y: 13.0d
+		}
+		{
+			dependencies: ["532DC607CA70E1C1"]
+			entity_vis_size: 1.0f
+			id: "206C4BFFA737D67C"
+			tasks: [{
+				id: "4E31A61DCEE2F5F8"
+				item: "clockwork:clockwork_gear"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["15A0FF70F62AFAAB"]
+			entity_vis_size: 0.75f
+			id: "462D66DAEECB200F"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "639D7337AB72CEB0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clockwork:clockwork_drill"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -13.5d
 		}
 	]
 	title: "Crimson Artificer"

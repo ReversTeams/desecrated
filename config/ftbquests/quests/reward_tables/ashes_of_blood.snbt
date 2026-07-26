@@ -1,0 +1,19 @@
+{
+	id: "08F5457F4B13CB3F"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 8, item: "sons_of_sins:ether_ashes" }
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "vampirism:blood_bottle"
+				tag: {
+					Damage: 9
+				}
+			}
+		}
+	]
+	title: "Ashes of Blood"
+}

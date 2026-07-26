@@ -70,7 +70,9 @@
 			description: [
 				"Pressing blood into drinkable blood! Fully automatic! Mostly automatic.. "
 				""
-				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat, the blood is not fully pure, but it's drinkable."
+				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat in the sieve, the blood is not fully pure, but it's drinkable. I should place a tank under the grinder so that blood flows down there, easy for collection."
+				""
+				"I shouldn't try to mix unpure blood and pure blood, this is a bad idea."
 			]
 			entity_vis_size: 1.0f
 			id: "34B4063F2F210048"
@@ -111,7 +113,11 @@
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
-			description: ["These carcasses are quite cumbersome. I should hang them up. Cutting them open right there will just cause a mess on the floor. I should prepare something."]
+			description: [
+				"These carcasses are quite cumbersome to carry around. They wouldn't be very useful if I left them in a chest. I should hang them up. Maybe a hook or a rope would do."
+				""
+				"Cutting them open right there will just cause a mess on the floor. All of the organ, meats and blood will spill on the floor. What a waste! I should prepare something."
+			]
 			entity_vis_size: 1.0f
 			id: "623C14C05294EFCC"
 			rewards: [{
@@ -195,6 +201,15 @@
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
+			description: [
+				"So, Grisha.. what do I do with a meat grinder?"
+				""
+				"&4Sausages!"
+				""
+				"Really? Sausages?"
+				""
+				"&4They're a sanguine delicacy, I'll have you know! Your grandfather was quite fond of them."
+			]
 			entity_vis_size: 1.0f
 			id: "63F1C9A1095AEC1E"
 			rewards: [
@@ -248,17 +263,6 @@
 					type: "item"
 				}
 				{
-					id: "3441A67742CBD3FA"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "butchery:butchers_guide"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "29F8F16BD3579370"
 					type: "xp_levels"
 					xp_levels: 1
@@ -274,6 +278,7 @@
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
+			description: ["I should make an implement to dry skin easily. This way I should be able to more efficiently process skins into leather."]
 			entity_vis_size: 1.0f
 			id: "5B9F02CB6F9F9342"
 			rewards: [{
@@ -373,7 +378,11 @@
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
-			description: ["A Cleaver is a useful butcher's tool. When dealing the final blow, it can preserve the carcass of an animal for it to be processed later. It can also be used as a knife in a cutting board."]
+			description: [
+				"A Cleaver is a useful butcher's tool. When dealing the final blow, it can preserve the carcass of an animal for it to be processed later. It can also be used as a knife in a cutting board."
+				""
+				"Sadly, I must be my own butcher, but later I will find a way to automate this process."
+			]
 			entity_vis_size: 1.0f
 			id: "1A04E17C449CBCF1"
 			rewards: [
@@ -455,7 +464,13 @@
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
-			description: ["Landing the final blow with a cleaver will preserve most of the carcass for processing."]
+			description: [
+				"Landing the final blow with a cleaver will preserve most of the carcass for processing."
+				""
+				"Hey, Grisha, do you think this works for anything? Can I cleave a dragon?"
+				""
+				"&4Well if you're careful enough, it might just work. All that matters is leaving the carcass mostly intact but the animal dead. You might require a netherite cleaver against legendary foes like a dragon."
+			]
 			entity_vis_size: 1.0f
 			id: "4B4FD1712575D3F8"
 			rewards: [{
@@ -525,19 +540,11 @@
 				}
 			}
 			id: "3C411C6CC29A7BBB"
-			rewards: [
-				{
-					id: "07EC06E464B31C5A"
-					item: "neepmeat:projector"
-					team_reward: false
-					type: "item"
-				}
-				{
-					id: "186CB4AC1B1A2072"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "186CB4AC1B1A2072"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "190C7EEFC3D4965C"
@@ -2515,6 +2522,7 @@
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
+			description: ["With a basin, I can dedicate amounts of water to be evaporated over time, leaving only the salt behind."]
 			entity_vis_size: 1.0f
 			id: "20D1A7AA42AEAE60"
 			rewards: [{
@@ -2522,16 +2530,32 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "2C255BEEF887EC2D"
-				item: "butchery:basin"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C255BEEF887EC2D"
+					item: "butchery:basin"
+					type: "item"
+				}
+				{
+					id: "770C02E5AC6374FF"
+					item: "hexalia:salt"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["63F1C9A1095AEC1E"]
+			description: [
+				"Draining chickens and processing their carcasses sure is time consuming..."
+				""
+				"&4Keep this up and you could get a wish granted."
+				""
+				"A wish?"
+				""
+				"&4Old rumours were that a chicken's intact wishbone can be imbued with a Nether Star to grant immense power, granting a wish. Of course, I can't tell how exaggerated this was, but this might be worth looking into."
+			]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "23E9BE6DF9CD5AA7"
@@ -2584,6 +2608,21 @@
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
+			description: [
+				"Hey Grisha, would you have an idea as to how I could.. obtain more food while doing other things? This takes too much of my time."
+				""
+				"&4You want to drink fish blood? What's wrong with you?"
+				""
+				"No, for regular food. I would never drink fish blood in my life! Eww!"
+				"{@pagebreak}"
+				"&4Then, a regular fish trap is simple enough. Shouldn't you know this? It's quite obvious. "
+				""
+				"&4Make a box out of canvas and sticks then attach a hook inside. Place your bait on the hook. Without a bait, you'll only catch random river junk. Make sure the fish trap is in a river or in the ocean."
+				""
+				"&4Let me search inside of my pages for a moment.. Bread as bait will yield you any fish. Cods especially like beetroots. Salmon especially like berries. Tropical fish especially like melon."
+				""
+				"&a(The Fish trap needs to be in a river or ocean biome.)"
+			]
 			entity_vis_size: 1.0f
 			id: "5002D4D86529E236"
 			rewards: [{
@@ -2600,42 +2639,25 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["7F638D83710A4BFD"]
-			entity_vis_size: 1.0f
-			id: "1CFC91B3E529DCE8"
-			rewards: [{
-				id: "2EFDE446F205799C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				icon: "clanginghowl:extraterrestrial_stone"
-				id: "7BD49ABB24F2328C"
-				observe_type: 0
-				timer: 0L
-				to_observe: "clanginghowl:extraterrestrial_stone"
-				type: "observation"
-			}]
-			x: 8.5d
-			y: -23.5d
-		}
-		{
-			dependencies: ["1CFC91B3E529DCE8"]
+			dependencies: ["1E9B68675477C2B1"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome II"
+				""
+				"&fMeteorite clumps can be turned into frail but still effective tools. These do not have the highest durability or mining speed, but boast a mining level as impressive as diamond."
+				""
+				"&fThe most notable quality of these tools is the innate magnetism they possess. Any meteorite tool will naturally attract nearby items, in a range of around five blocks, to itself."
+				"{@pagebreak}"
+				"&fThe Meteorite Broadaxe is one of the special meteorite tools alongside the Meteorite Longsword. Apprentice Technicians enjoy making these special tool types to one-up their Hermit comrades. "
+				""
+				"&fThe Meteorite Broadaxe has the special ability to cut three logs at once and draw them to its wielder, due to the innate magnetism of the axe. Using a lesser quantity of meteorite for the regular meteorite axe limits it to cutting only one log."
+			]
 			entity_vis_size: 1.0f
 			id: "08648DDF8C6F0A20"
 			rewards: [{
-				id: "73E43F5F5054F498"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "4A20A418958C1C79"
+				item: "concatenatedadditionsmachines:meteorite"
+				random_bonus: 5
+				type: "item"
 			}]
 			tasks: [{
 				id: "3E09AE1FF1194097"
@@ -2699,11 +2721,12 @@
 				title: "Any Meteorite Tool"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -22.5d
+			title: "Meteorite Tools"
+			x: 1.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["1CFC91B3E529DCE8"]
+			dependencies: ["7F638D83710A4BFD"]
 			entity_vis_size: 1.0f
 			id: "4D2F18ACAB325F21"
 			rewards: [{
@@ -2720,7 +2743,7 @@
 			y: -25.0d
 		}
 		{
-			dependencies: ["1CFC91B3E529DCE8"]
+			dependencies: ["7F638D83710A4BFD"]
 			entity_vis_size: 1.0f
 			id: "76268D2BD1283EF4"
 			rewards: [{
@@ -3029,7 +3052,7 @@
 			y: -26.5d
 		}
 		{
-			dependencies: ["1CFC91B3E529DCE8"]
+			dependencies: ["7F638D83710A4BFD"]
 			entity_vis_size: 1.0f
 			id: "19BA5E36EDE9AD6D"
 			rewards: [{
@@ -3472,14 +3495,30 @@
 			y: -8.5d
 		}
 		{
-			description: ["The Boiler is a simple piece of machinery. When provided with fuel, it will power nearby steam-powered machines."]
+			description: [
+				"I still remember my steamwork classes. I am still able to make very simple steam machines."
+				""
+				"The Boiler is a simple piece of machinery. When provided with fuel, it will power nearby steam-powered machines."
+				"{@pagebreak}"
+				"&o&7Notes from Eleonore's Travels, Tome II"
+				""
+				"&fThe boiler is most often used as a component piece in other machines, but it has its own uses, typically to power other low-tech equipment with steam, such as the steam-powered macerator or steam-powered tree feller."
+			]
 			entity_vis_size: 1.0f
 			id: "3A5B721A7E614679"
-			rewards: [{
-				id: "7272728BCA495D7F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "20C133D9061BFEB7"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "7272728BCA495D7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2DC699AF1510ECA4"
 				item: "concatenatedadditionsmachines:boiler"
@@ -3490,14 +3529,32 @@
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
-			description: ["When powered by a nearby boiler, it will cut down trees as they grow from saplings. It is also able to replant saplings."]
+			description: [
+				"When powered by a nearby boiler, it will cut down trees as they grow from saplings. It can do this from the front or the back with its sawblades. It's programmed to only cut down trees as they grow, not chop already existing trees."
+				""
+				"When a chest is placed above it, its inventory will be poured in there. When provided with bone meal and saplings, it can replant trees automatically, but only at the front."
+				"{@pagebreak}"
+				"&o&7Notes from Eleonore's Travels, Tome II"
+				""
+				"&fThe Steam-Powered Tree Feller is a great low-tech automation machine to take care of trees. It requires an adjacent active boiler to work. It is then able to fell entire trees with either its front or back sawblades. If a chest is placed on top of the tree feller, then the contents will be deposited in there."
+				"{@pagebreak}"
+				"&fIt can also accommodate storage for saplings and bone meal to grow trees autonomously. One bone meal is consumed per sapling planted, and it does not use the bone meal on the sapling to grow it faster automatically. Saplings are replanted on the felling of trees."
+			]
 			entity_vis_size: 1.0f
 			id: "5DC0FCAE66BF00E8"
-			rewards: [{
-				id: "7FC30420BC8DAB74"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 48
+					id: "2C1AE4AD9F8D305F"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "7FC30420BC8DAB74"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "4C6591E3F784116A"
 				item: "concatenatedadditionsmachines:hydraulic_tree_feller"
@@ -3508,14 +3565,33 @@
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
-			description: ["When powered by a nearby boiler, it will crush ingots into powder."]
+			description: [
+				"When powered by a nearby boiler, it will crush ingots into powder. These powders can be useful for alloying but also for ore processing."
+				""
+				"It is more efficient to crush raw ore into powder rather than fully formed ingots, which then can be smelted into multiple nuggets. This way, more ore can be extracted than in traditional smelting. I calculate this can make up to 1.77x ore processing."
+				"{@pagebreak}"
+				"&o&7Notes from Eleonore's Travels, Tome II"
+				""
+				"&fThe Steam-Powered Crusher is a low-tech machine capable of crushing metals into not quite dust or fine powder, but something close enough. "
+				""
+				"&f[...] The most commonly crushed metals with this machine are, of course, iron and zinc, but also metals harder to crush with your bare hands and a hammer: copper and tin. &mThis can be used to make bronze.&r"
+				"{@pagebreak}"
+				"&fTo be powered, the crusher requires a nearby boiler within a one-block radius. The boiler must be active, thus requiring water and fuel inside. Water can be inserted with a bucket &a(right-click the boiler with it)&r."
+			]
 			entity_vis_size: 1.0f
 			id: "00A7C3C7A6E8A59D"
-			rewards: [{
-				id: "736FB4B3D6DBB1F7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "0F344F06BB470BFD"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "736FB4B3D6DBB1F7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "296FF6FE0366906B"
 				item: "concatenatedadditionsmachines:hydraulic_crusher"
@@ -3523,6 +3599,80 @@
 			}]
 			x: -13.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["3A5B721A7E614679"]
+			description: [
+				"Hmm, I'm not quite sure of what meteorite can do.."
+				""
+				"&4Fine, I'll regurgitate some of the knowledge I have on the matter."
+				""
+				"{@pagebreak}"
+				"&o&7Notes from Eleonore's Travels, Tome I"
+				""
+				"&fPanvita is a universal plant able to be grafted to any other plant and adapt to its host. This is most often used by holders of the &m-------- ----&r&f to grow more oreberry bushes, which do not reproduce naturally, requiring panvita to be grafted to them. "
+				""
+				"&f&lPanvita exclusively grows via the Incubator.&r"
+				"{@pagebreak}"
+				"&fThe Incubator needs to be filled with water to start the growing process. You can use a water bucket for this purpose. Panvita will start to grow with a minimum of 100mb of water and will consume 80mb on growth."
+				""
+				"&fYou will have to wait in all likelihood for a few days for a single panvita to grow, although it may take less time."
+				"{@pagebreak}"
+				"&fPanvita can be grafted to a wide variety of plants, flowers, and mushrooms, or can be turned into bonemeal."
+				""
+				"&fWhile oreberry bushes can only be planted in the dark, essence berry bushes can also be planted in the light."
+			]
+			entity_vis_size: 1.0f
+			icon: "concatenatedadditionsmachines:berry_incubator"
+			id: "6C22CAEF1156612C"
+			rewards: [
+				{
+					id: "64B18EAC5D7F6FA6"
+					item: "oreberriesreplanted:iron_oreberry_bush"
+					type: "item"
+				}
+				{
+					id: "280582D2FBE4AA38"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "21885755C3E4C2A5"
+					item: "concatenatedadditionsmachines:berry_incubator"
+					type: "item"
+				}
+				{
+					id: "77976AAC15054FD2"
+					item: "concatenatedadditionsmachines:transplant"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"I keep seeing these meteors throughout the land. Hey, Grisha, can I do anything useful with them?"
+				""
+				"&4Why yes, these meteors from outer space are quite magnetic. You can make use of their properties in tools to make meteorite tools possessing innate magnetism."
+			]
+			entity_vis_size: 1.0f
+			id: "1E9B68675477C2B1"
+			rewards: [{
+				id: "2273B6EA7D737716"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "15C5E4F56C30DA34"
+				item: "concatenatedadditionsmachines:meteorite"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
 		}
 	]
 	title: "Flesh Industries"

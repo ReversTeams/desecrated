@@ -23,10 +23,6 @@
 	#Increased duration for food items that don't stack up to 64 (boolean, default = true)
 	bonus_duration = true
 
-[food_timeout_damage]
-	#Damages the player when the timer of a food slot runs out (boolean, default = true)
-	timeout_damage = true
-
 [food_depletion_during_sleep]
 	#Sleeping consumes half the duration of current eaten foods (boolean, default = false)
 	sleep_depletion = true
@@ -36,4 +32,12 @@
 	disable_regeneration = false
 	#Allow consumables to apply saturation and food-related effects (not recommended) (boolean, default = false)
 	allow_saturation = false
+
+[food_timeout]
+	#Damages players when one of their food slot runs out (boolean, default = true)
+	timeout_damage = true
+	#Displays a message to the player when one of their food slots becomes empty (boolean, default = false)
+	timeout_message = false
+	#Plays a sound when a player's food slot becomes empty (boolean, default = false)
+	timeout_sound = false
 

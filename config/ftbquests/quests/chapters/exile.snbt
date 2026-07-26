@@ -639,6 +639,8 @@
 				"This would be nice.. but I'm ashamed that I don't quite know how to do that."
 				""
 				"&4I can teach you later."
+				"{@pagebreak}"
+				"&a(You can right click any container with 1000mb of blood to fill the bottle with blood, whether it be a tank, a grate, etc. You can also throw a bottle into liquid blood blocks to fill the bottle.)"
 			]
 			entity_vis_size: 1.0f
 			id: "3F69B451E4B11129"
@@ -769,23 +771,30 @@
 				xp_levels: 1
 			}]
 			subtitle: "Friends!"
-			tasks: [{
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "63F062C342397FFB"
-				observe_type: 5
-				timer: 0L
-				title: "Meet the Crescent Society"
-				to_observe: "simpleenemymod:pmcunit"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: true
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "63F062C342397FFB"
+					observe_type: 5
+					timer: 0L
+					title: "Meet the Crescent Society"
+					to_observe: "simpleenemymod:pmcunit"
+					type: "observation"
+				}
+				{
+					id: "539A8B1B55E15BF2"
+					item: "simpleenemymod:recruit_table"
+					type: "item"
+				}
+			]
 			title: "The Crescent Society"
 			x: 2.0d
 			y: 4.5d
@@ -2015,7 +2024,7 @@
 			description: [
 				"I have heard from my former Crimson Artificer friends about enchanting. It is a most powerful way of enhancing tools, weapons and armour. Unfortunately, my knowledge may be lacking, I can only make use of some weaker enchantments."
 				""
-				"&a(Enchanting is overhauled and you cannot enchant normally anymore. Enchantments require specific recipes instead of luck and absurd amounts of experience. Crimson Artificers can make the most out of enchanting. Relics replace the usual Unbreaking, Protection and Efficiency."
+				"&a(Enchanting is overhauled and you cannot enchant normally anymore. Enchantments require specific recipes instead of luck and absurd amounts of experience. Crimson Artificers can make the most out of enchanting. Relics replace Unbreaking, Sharpness, Protection and Efficiency.)"
 				"{@pagebreak}"
 				""
 				"&4You should find a Crimson Artificer's library and feed it to me."
@@ -2025,6 +2034,10 @@
 				"&4Sanguine enchanting methods differ from the humans in the north. You should still be able to find plenty of enchanted relics in ruins around the country. You do know about relics, yes?"
 				""
 				"Yes, they can infuse tools with superior durability, effiency or power."
+				"{@pagebreak}"
+				"&4You should be able to borrow the properties of amethyst to infuse rudimentary relic onto tools. You can combine any dormant relic with an infusion smithing template onto a tool to imbue it with more efficiency, durability, protection, speed or magic capacity."
+				""
+				"&4With an enchanting table made from copper and diamonds, you will be able to obtain common enchantments, but not anything particularly more advanced."
 			]
 			entity_vis_size: 1.0f
 			icon: "ascendant_arcana:copper_enchanting_table"
@@ -2062,6 +2075,70 @@
 					id: "56C3B34B27D575AF"
 					item: "desecratedcore:amethyst_infusion_smithing_template"
 					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C06E1B492DE0CED"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											RelicStrength: 1
+											RelicType: 0
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											RelicStrength: 1
+											RelicType: 1
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											RelicStrength: 1
+											RelicType: 2
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											RelicStrength: 1
+											RelicType: 3
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:strong_nbt"
+									tag: {
+										value: {
+											RelicStrength: 1
+											RelicType: 4
+										}
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Any Dormant Relic"
 					type: "item"
 				}
 			]
