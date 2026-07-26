@@ -25,7 +25,25 @@ ServerEvents.recipes(event => {
         'bloodyhell:blood_flask',
         'mahoutsukai:mystic_code_first_sorcery',
         'mahoutsukai:mystic_code',
-        'macabre:sacrificial_dirk'
+        'macabre:sacrificial_dirk',
+        "bloodyhell:sanguinite_axe", 
+        "bloodyhell:sanguinite_shovel", 
+        "bloodyhell:rhnull_hoe", 
+        "bloodyhell:blood_leggings", 
+        "bloodyhell:blood_boots", 
+        "bloodyhell:rhnull_chestplate", 
+        "bloodyhell:rhnull_helmet", 
+        "bloodyhell:rhnull_leggings", 
+        "bloodyhell:rhnull_pickaxe", 
+        "bloodyhell:sanguinite_sword", 
+        "bloodyhell:blood_helmet", 
+        "bloodyhell:rhnull_sword", 
+        "bloodyhell:blood_chestplate", 
+        "bloodyhell:rhnull_boots", 
+        "bloodyhell:sanguinite_hoe", 
+        "bloodyhell:rhnull_axe", 
+        "bloodyhell:sanguinite_pickaxe", 
+        "bloodyhell:rhnull_shovel"
     ]
 
     const removeCraftingShaped = [
@@ -226,6 +244,201 @@ ServerEvents.recipes(event => {
             A: '#minecraft:buttons'
         }
     )
+
+    event.shaped(
+        Item.of('bloodyhell:rhnull_helmet'),
+        [
+            'ABA',
+            'ACA',
+            '   '
+        ],
+        {
+            B: 'bloodyhell:ancient_gem',
+            A: 'bloodyhell:rhnull',
+            C: 'bloodyhell:blood_helmet'
+        }
+    )
+
+    event.shaped(
+        Item.of('bloodyhell:rhnull_boots'),
+        [
+            'ABA',
+            'ACA',
+            '   '
+        ],
+        {
+            C: 'bloodyhell:ancient_gem',
+            A: 'bloodyhell:rhnull',
+            B: 'bloodyhell:blood_boots'
+        }
+    )
+
+    event.shaped(
+        Item.of('bloodyhell:rhnull_chestplate'),
+        [
+            'ABA',
+            'ACA',
+            'AAA'
+        ],
+        {
+            C: 'bloodyhell:ancient_gem',
+            B: 'bloodyhell:blood_chestplate',
+            A: 'bloodyhell:rhnull'
+        }
+    )
+
+    event.shaped(
+        Item.of('bloodyhell:rhnull_leggings'),
+        [
+            'AAA',
+            'ABA',
+            'ACA'
+        ],
+        {
+            B: 'bloodyhell:ancient_gem',
+            C: 'bloodyhell:blood_leggings',
+            A: 'bloodyhell:rhnull'
+        }
+    )
+
+    event.shaped(
+    Item.of('bloodyhell:rhnull_sword'),
+    [
+        ' A ',
+        ' A ',
+        ' B '
+    ],
+    {
+        B: 'bloodyhell:sanguinite_sword',
+        A: 'bloodyhell:rhnull'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:rhnull_pickaxe'),
+    [
+        'AAA',
+        ' B ',
+        ' C '
+    ],
+    {
+        C: 'bloodyhell:sanguinite',
+        A: 'bloodyhell:rhnull',
+        B: 'bloodyhell:sanguinite_pickaxe'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:rhnull_axe'),
+    [
+        ' AA',
+        ' BA',
+        ' C '
+    ],
+    {
+        B: 'bloodyhell:sanguinite_axe',
+        C: 'bloodyhell:sanguinite',
+        A: 'bloodyhell:rhnull'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:rhnull_shovel'),
+    [
+        ' A ',
+        ' B ',
+        ' C '
+    ],
+    {
+        C: 'bloodyhell:sanguinite',
+        A: 'bloodyhell:rhnull',
+        B: 'bloodyhell:sanguinite_shovel'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:rhnull_hoe'),
+    [
+        ' AA',
+        ' B ',
+        ' C '
+    ],
+    {
+        B: 'bloodyhell:sanguinite_hoe',
+        C: 'bloodyhell:sanguinite',
+        A: 'bloodyhell:rhnull'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:sanguinite_hoe'),
+    [
+        'AAB',
+        ' A ',
+        'C  '
+    ],
+    {
+        B: 'bloodyhell:ancient_gem',
+        C: 'minecraft:gold_ingot',
+        A: 'bloodyhell:sanguinite'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:sanguinite_axe'),
+    [
+        'AAB',
+        ' CA',
+        ' C '
+    ],
+    {
+        B: 'bloodyhell:ancient_gem',
+        C: 'minecraft:gold_ingot',
+        A: 'bloodyhell:sanguinite'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:sanguinite_sword'),
+    [
+        ' A ',
+        'ABA',
+        ' C '
+    ],
+    {
+        B: 'bloodyhell:ancient_gem',
+        C: 'minecraft:gold_ingot',
+        A: 'bloodyhell:sanguinite'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:sanguinite_pickaxe'),
+    [
+        'AAA',
+        ' B ',
+        ' C '
+    ],
+    {
+        B: 'bloodyhell:ancient_gem',
+        C: 'minecraft:gold_ingot',
+        A: 'bloodyhell:sanguinite'
+    }
+)
+
+event.shaped(
+    Item.of('bloodyhell:sanguinite_shovel'),
+    [
+        ' A ',
+        ' B ',
+        ' C '
+    ],
+    {
+        B: 'bloodyhell:ancient_gem',
+        C: 'minecraft:gold_ingot',
+        A: 'bloodyhell:sanguinite'
+    }
+)
 
     event.custom({
         type: "bloodyhell:condensing",
