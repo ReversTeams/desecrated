@@ -66,9 +66,9 @@
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
 			description: [
-				"&4Raising your initial power is simple. An altar of inspiration can help you channel blood within your body. Pour blood bottles into it and infuse yourself with sanguine strength! "
+				"&4Raising your initial power is simple. An altar of inspiration can help you channel blood within your body with the power of moonlight. Pour blood bottles into it and infuse yourself with sanguine strength at night! "
 				""
-				"&4You can only really strengthen by a few levels this way, you will need a stronger ritual in the future."
+				"&4You can only really strengthen by a few levels this way, you will need a stronger ritual in the future. I can estimate around.. hm... 20 bottles of blood would be needed?"
 			]
 			entity_vis_size: 1.0f
 			id: "36B2420BD0867B95"
@@ -84,23 +84,31 @@
 				}
 				type: "item"
 			}]
+			size: 1.15d
 			tasks: [{
 				id: "18ADBA372793F0FD"
 				item: "vampirism:altar_inspiration"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["36B2420BD0867B95"]
+			description: [
+				"&4To progress further as a vampire, you will need to construct a more powerful altar with supporting elements. This altar will need to be built out of iron or gold for the best effects."
+				""
+				"&4You will require more powerful mystical ingredients to strengthen your sanguine power. This might require slaying vampire hunters and artificial vampires.. Let me think.."
+			]
 			entity_vis_size: 1.0f
+			icon: "vampirism:altar_infusion"
 			id: "160D191AAE9B2104"
 			rewards: [{
-				id: "791B2217E991BC3E"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "4AAB158C060E2424"
+				item: "vampirism:human_heart"
+				type: "item"
 			}]
+			size: 1.25d
 			tasks: [
 				{
 					id: "7BF1B0772C760284"
@@ -119,9 +127,32 @@
 					item: { Count: 4, id: "vampirism:altar_tip" }
 					type: "item"
 				}
+				{
+					count: 4L
+					id: "06FD7E3BF64858DE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:iron_block"
+								}
+								{
+									Count: 1b
+									id: "minecraft:gold_block"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Any Altar Pillar Filling Block"
+					type: "item"
+				}
 			]
 			x: 0.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
@@ -165,7 +196,11 @@
 		}
 		{
 			dependencies: ["36B2420BD0867B95"]
-			description: ["&a(Press Y by default to open the Vampire ability menu.)"]
+			description: [
+				"&4Upon becoming a mature vampire, you will gain special abilities. A famous skill of vampires is being able to turn into a bat to fly into the air and escape pursuers. The only downside of this bat form is that it strenghtens your weakness to the sun and consumes more blood."
+				""
+				"&a(Press Y by default to open the Vampire ability menu.)"
+			]
 			entity_vis_size: 1.0f
 			id: "107F33580DA70E8F"
 			rewards: [{
@@ -176,11 +211,26 @@
 			tasks: [{
 				advancement: "vampirism:vampire/bat"
 				criterion: ""
+				ftbquestsentityvis_icon: {
+					enabled: 1b
+					entity: "minecraft:bat"
+					idle_mode: "USE_GLOBAL"
+					offset_x: 0.0f
+					offset_y: 0.0f
+					rotation: 0.0f
+					silhouette_mode: "NONE"
+					size: 1.0f
+					spin_mode: "USE_GLOBAL"
+					use_as_quest_icon: 0b
+					walk_mode: "USE_GLOBAL"
+				}
+				icon: "spectrum:bat_head"
 				id: "1552677F7A59F135"
 				type: "advancement"
 			}]
+			title: "Bat Mode"
 			x: -1.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["160D191AAE9B2104"]
@@ -200,12 +250,13 @@
 				id: "29B26AE695813230"
 				observe_type: 5
 				timer: 0L
+				title: "Witness the Task Master"
 				to_observe: "vampirism:task_master_vampire"
 				type: "observation"
 			}]
 			title: "The Taskmaster"
 			x: 0.0d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["47A72E03EBA8A7ED"]
@@ -219,7 +270,78 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["47A72E03EBA8A7ED"]
+			description: [
+				"&4The vampire forest would make for a sanguine noble's most suitable residence. You no longer fear the sun due to the fog born from this forest and you can find all sorts of mystical ingredients beneficial to vampires."
+				""
+				"&4These forests may act as an obvious target for hunters, although some may be deterred."
+			]
+			entity_vis_size: 1.0f
+			id: "3D2C5DAB22CFA26A"
+			rewards: [{
+				id: "291DDEFF11E5796F"
+				item: {
+					Count: 1
+					id: "vampiresneedumbrellas:iron_umbrella"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "vampirism:vampire_forest"
+				icon: "vampirism:dark_spruce_sapling"
+				id: "26AE6298614BA178"
+				title: "Visit the Vampire Forest"
+				type: "biome"
+			}]
+			title: "The Vampire Forest"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["160D191AAE9B2104"]
+			description: [
+				"&4Human hearts will be vital, providing a strong source of blood. Vampire hunters will be a good source of them and you will be ridding yourself of a pest."
+				""
+				"&4For pure blood, as you do not possess the instruments to purify blood sufficiently, you will need to slay an artificial vampire who has produced purified blood."
+				""
+				"&4You should be able to find old sanguine records scattered throughout ruins of your homeland. Hunters and artificial vampires may have already found many tomes."
+			]
+			entity_vis_size: 1.0f
+			id: "2855856BE765234B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "502C29FBC8A737CF"
+				table_id: 6454273999420670365L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0DACFC0192369732"
+					item: "vampirism:human_heart"
+					type: "item"
+				}
+				{
+					id: "1D05487A9A8D21EA"
+					item: "vampirism:pure_blood_4"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "572CB6EF2F9E599F"
+					item: "vampirism:vampire_book"
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Vampiric Ingredients"
+			x: 2.0d
+			y: -5.5d
 		}
 	]
 	title: "Sanguine Legacy"

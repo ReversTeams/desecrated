@@ -38,7 +38,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 12.0d
-			y: -17.5d
+			y: -16.5d
 		}
 		{
 			alpha: 180
@@ -76,42 +76,19 @@
 			x: 20.0d
 			y: -29.5d
 		}
-		{
-			alpha: 180
-			height: 2.0d
-			image: "macabre:textures/particle/red_macabre_roar_10.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 10.0d
-			y: -30.0d
-		}
-		{
-			height: 1.0d
-			image: "macabre:textures/screens/oczy2.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.0d
-			y: -32.0d
-		}
-		{
-			alpha: 180
-			color: 16715797
-			height: 3.0d
-			image: "bloodmagic:models/alchemyarrays/mobsacrifice"
-			rotation: 0.0d
-			width: 3.0d
-			x: 11.0d
-			y: -27.0d
-		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"The Sickle of Struggle can appear in the hands of the betrayed guzzler at night. The main issue is recovering an intact sickle when fighting a guzzler."
+				"The Sickle of Struggle can appear in the hands of the betrayed guzzler at night."
 				""
-				"This Sickle can extract mystical ingredients from prey quite easily."
+				"&4It's quite a dangerous foe if caught unprepared. The guzzler can snatch your weapon right out of your hands and leave you completely defenseless. They are rare to encounter at night alone, but be prepared for when it happens."
+				""
+				"The main issue is recovering an intact sickle when fighting a guzzler. They keep breaking their sickles when I slay them!"
+				"{@pagebreak}"
+				"This Sickle can extract mystical ingredients from prey quite easily. Killing any monster or animal with a sickle leaves their mystical organs intact. If I have an empty bottle on me, I could try to extract their blood as well. It's sure to be a useful ingredient."
 			]
 			entity_vis_size: 1.0f
 			icon: {
@@ -172,14 +149,30 @@
 		}
 		{
 			dependencies: ["7E09D93FD685B52D"]
-			description: ["I can create my own flesh dungeon now! This once beating heart will beat again and obey my command! It will spawn flesh abominations that I will be able to use myself.."]
+			description: [
+				"Wise Grisha, how do I create a living catalyst with this heart I obtained?"
+				""
+				"&4If you dip it into the pool of etheric blood that reaches into hell, I believe there would be a reaction."
+				""
+				"Raw?"
+				""
+				"&4Temper it first. Merge it with some mystical flesh and etheric crystals first. It's no longer connected to the rest of a flesh gargantuan after all."
+			]
 			entity_vis_size: 1.0f
 			id: "3142ECB14BD0600D"
-			rewards: [{
-				id: "0FB9E3E10E753F94"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44C057F9E2686D0C"
+					table_id: 6565141144447489233L
+					type: "choice"
+				}
+				{
+					id: "0FB9E3E10E753F94"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0E6A8CA43D458267"
 				item: "biomancy:primordial_core"
@@ -194,14 +187,36 @@
 				"3142ECB14BD0600D"
 			]
 			dependency_requirement: "one_started"
-			description: ["With ample flesh, this creature will grow!"]
+			description: [
+				"I can create my own flesh dungeon now! This once beating heart will beat again and obey my command! It will spawn flesh abominations that I will be able to use myself.."
+				""
+				"With ample flesh, this creature will grow!"
+				"{@pagebreak}"
+				"&4This is an abomination!"
+				""
+				"Jealous? I know you're not as great as my flesh baby-"
+				""
+				"&4No! It's going to keep spreading and infecting the entire world with flesh! What have you done?"
+				""
+				"What? No! I have it all under perfect control! In fact, I believe if I feed it some rotten flesh and healing potions, it can grow a lot more!"
+				""
+				"&4No!"
+			]
 			entity_vis_size: 1.0f
 			id: "681EF488E543DB48"
-			rewards: [{
-				id: "227B43A2E9E1AD68"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5506D971F7903298"
+					table_id: 6800703616788188502L
+					type: "choice"
+				}
+				{
+					id: "227B43A2E9E1AD68"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.1d
 			tasks: [{
 				id: "493962C65BE3E642"
@@ -213,15 +228,28 @@
 		}
 		{
 			dependencies: ["3142ECB14BD0600D"]
-			description: ["I must upgrade the Sickle of Struggle to harvest more potent mystical ingredients from all sorts of creatures."]
+			description: [
+				"I must upgrade the Sickle of Struggle to harvest more potent mystical ingredients from all sorts of creatures."
+				""
+				"It will make it far less durable, but I can now obtain rarer ingredients than before! I won't be able to obtain the same ingredients as before, however."
+			]
 			entity_vis_size: 1.0f
 			id: "1B89069CF6F1DCC1"
-			rewards: [{
-				id: "475ECA4810C1B9B1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51471C9779E79155"
+					table_id: 836753948986940579L
+					type: "random"
+				}
+				{
+					id: "475ECA4810C1B9B1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
+			subtitle: "The Despoiler"
 			tasks: [{
 				id: "5166DEFA64452371"
 				item: {
@@ -251,6 +279,7 @@
 			entity_vis_size: 1.0f
 			id: "5EA463A36036C699"
 			rewards: [{
+				auto: "invisible"
 				id: "7C658B8DD626106D"
 				type: "xp_levels"
 				xp_levels: 1
@@ -265,7 +294,7 @@
 			}]
 			title: "Enter the Flesh Dungeon"
 			x: 1.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5EA463A36036C699"]
@@ -278,6 +307,7 @@
 			entity_vis_size: 1.0f
 			id: "18228BC1BD391EE8"
 			rewards: [{
+				auto: "invisible"
 				id: "631A08B4616B4B10"
 				type: "xp_levels"
 				xp_levels: 1
@@ -308,7 +338,7 @@
 			]
 			title: "The Flesh Obelisk"
 			x: 1.5d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6A8B34AA9E968EC2"]
@@ -348,8 +378,10 @@
 				dimension: "bloodyhell:soul_dimension"
 				icon: "bloodyhell:materialized_soul"
 				id: "05E81D8E5585CA1D"
+				title: "Visit the Soul Dimension"
 				type: "dimension"
 			}]
+			title: "Visit the Soul Dimension"
 			x: 14.5d
 			y: -20.0d
 		}
@@ -587,8 +619,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -25.5d
+			x: 19.5d
+			y: -25.0d
 		}
 		{
 			dependencies: ["100F51F50BB44B53"]
@@ -859,21 +891,19 @@
 		}
 		{
 			dependencies: ["7A82C01F08326C74"]
-			description: ["Ether Ashes are obtained from creatures killed with the osseous sword."]
+			description: [
+				"&4Ether Ashes are obtained from creatures killed with the osseous sword."
+				""
+				"Well I knew that. Soul steel is made from iron and ether ashes, but it's quite heavy."
+			]
 			entity_vis_size: 1.0f
 			id: "31E9E6BBC04B24F9"
 			rewards: [
 				{
-					count: 3
-					id: "124F432CC34B5CC8"
-					item: {
-						Count: 1
-						id: "vampirism:blood_bottle"
-						tag: {
-							Damage: 9
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "05228DAAACC43FF1"
+					table_id: 645498534620285759L
+					type: "choice"
 				}
 				{
 					id: "19A81DED3C21C8EB"
@@ -891,14 +921,28 @@
 		}
 		{
 			dependencies: ["31E9E6BBC04B24F9"]
-			description: ["While I don't have the capabilities to make regular, pure steel in an efficient manner, I can make mystical soul steel with more or less the same properties!"]
+			description: [
+				"While I don't have the capabilities to make regular, pure steel in an efficient manner, I can make mystical soul steel with more or less the same properties!"
+				""
+				"&4Soul steel possesses magical and eerie properties that are shunned upon. Are you sure you can withstand its effects?"
+				""
+				"Absolutely!"
+			]
 			entity_vis_size: 1.0f
 			id: "28C4A4785D935FBE"
-			rewards: [{
-				id: "3C6EE55A9E4A4B47"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "3AC34B69380F0CC4"
+					item: "sons_of_sins:ether_ashes"
+					type: "item"
+				}
+				{
+					id: "3C6EE55A9E4A4B47"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "31B8E32429511C8D"
 				item: "sons_of_sins:soul_steel"
@@ -982,7 +1026,11 @@
 			y: -2.0d
 		}
 		{
-			description: ["This macabre sword turns certain enemies to ashes, rending their soul apart. It is a very potent mystical ingredient. I'm not sure of the implications this poses... For a simple bone sword to be able to do this?&l"]
+			description: [
+				"This macabre sword turns slain foes to ashes, rending their soul apart. The yield seems to depend on the size of the carcass. It is a very potent mystical ingredient. I'm not sure of the implications this poses... For a simple bone sword to be able to do this?&l"
+				""
+				"&4It's not just any bone sword. This is a recipe for an osseous sword borrowing some of the underworld's power to render souls to ash."
+			]
 			entity_vis_size: 1.0f
 			id: "7A82C01F08326C74"
 			rewards: [{
@@ -1072,7 +1120,11 @@
 		}
 		{
 			dependencies: ["58B0FD0990E8414E"]
-			description: ["The Shape-Shifting Etheric Tool is a most wonderful pickaxe, axe and shovel!"]
+			description: [
+				"The Shape-Shifting Etheric Tool is a most wonderful pickaxe, axe and shovel! It consumes some ether ashes to power its shape-shifting ability."
+				""
+				"As for the Etheric Sword, I believe it could forcefully extract the vitality of my ennemies and feed it to me!"
+			]
 			entity_vis_size: 1.0f
 			id: "74AFAE94251EB275"
 			rewards: [{
@@ -1138,13 +1190,28 @@
 		}
 		{
 			dependencies: ["28C4A4785D935FBE"]
+			description: [
+				"&4Remnant armour forged from soul steel is resistant, durable and will keep you from being tossed around. It has one major flaw."
+				""
+				"Which is?"
+				""
+				"&4The core of the armour in the chestplate is an embedded crystallized ether piece. If you were to withstand a fatal blow with it, the chestplate would embed itself into your chest."
+			]
 			entity_vis_size: 1.0f
 			id: "4C910074868C05DC"
-			rewards: [{
-				id: "25C8D5DCE73A983D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78B635DC6CE6A0D7"
+					table_id: 645498534620285759L
+					type: "choice"
+				}
+				{
+					id: "25C8D5DCE73A983D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "4671DAABFDFC0556"
@@ -1191,19 +1258,38 @@
 					type: "item"
 				}
 			]
+			title: "Remnant Armour"
 			x: 5.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["28C4A4785D935FBE"]
-			description: ["The urn serves to power soul steel tools with ether ashes."]
+			description: [
+				"&4The urn serves to power soul steel tools, weapons and armour with ether ashes. Their mystical properties are enhanced. As long as you fill the urn with ether ashes, they will be consumed in exchange for power."
+				""
+				"So where do I keep this? In my pocket?"
+				""
+				"&4Yes, where else, your belt?"
+				"{@pagebreak}"
+				"I hope this thing isn't sentient.. It's containing the souls of over a hundred dead.. entities..."
+				""
+				"&4Make it go for a run once in a while!"
+			]
 			entity_vis_size: 1.0f
 			id: "33F207B4C699F6C5"
-			rewards: [{
-				id: "7CB1CD6D19ACE318"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "24077CE8F8030511"
+					item: "sons_of_sins:ether_ashes"
+					type: "item"
+				}
+				{
+					id: "7CB1CD6D19ACE318"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "4F839B0CBD50E9B5"
 				item: {
@@ -1224,6 +1310,7 @@
 				}
 				type: "item"
 			}]
+			title: "Soul Urn"
 			x: 5.5d
 			y: -3.5d
 		}
@@ -1337,7 +1424,13 @@
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
-			description: ["I have managed to capture a villager, although the hunters from the Starlight Order and Gold Barar are on my trail to rescue this poor soul. There won't be anything left for them to save! I will sacrifice this villager to the etheric blood and I will see what the underworld has to offer as a trade!"]
+			description: [
+				"I have managed to capture a villager, although the hunters from the Starlight Order and Gold Barar are on my trail to rescue this poor soul. There won't be anything left for them to save! I will sacrifice this villager to the etheric blood and I will see what the underworld has to offer as a trade!"
+				"{@pagebreak}"
+				"&4Careful near the etheric blood! If you fall in it for too long, you'll summon a demon as well!"
+				""
+				"It's perfectly manageable! Now, to ready for this sacrifice..."
+			]
 			entity_vis_size: 1.0f
 			icon: "sons_of_sins:blood_ball"
 			id: "5392DF54A0BDC809"
@@ -1511,9 +1604,11 @@
 		}
 		{
 			dependencies: ["5EA463A36036C699"]
+			description: ["These large flesh-made knights have sturdy bones that I believe can make great mystical ingredients!"]
 			entity_vis_size: 1.0f
 			id: "175FC1761178719D"
 			rewards: [{
+				auto: "invisible"
 				id: "7CC2B7EE645C18D4"
 				type: "xp_levels"
 				xp_levels: 1
@@ -1528,14 +1623,27 @@
 		}
 		{
 			dependencies: ["175FC1761178719D"]
-			description: ["Parasitic Tools could be considered a natural variant to Flesh Tools. They do not regenerate on their own, they use its user to be able to perform more efficiently. Some supplementary equipment could make its effects potentially worse or better."]
+			description: [
+				"Parasitic Tools could be considered a natural variant to Flesh Tools. They do not regenerate on their own, they use its user to be able to perform more efficiently. Some supplementary equipment could make its effects potentially worse or better."
+				""
+				"Similarly to the etheric sword, this parasitic sword has the effect of stealing vitality from enemies. I believe some of its ingredients were used to forge my ancestor's Bloody Living Sword."
+			]
 			entity_vis_size: 1.0f
 			id: "4F5360BF2C69B6F6"
-			rewards: [{
-				id: "4021CA32891FC58C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5211747857BD2453"
+					table_id: 8887839867309992666L
+					type: "choice"
+				}
+				{
+					auto: "invisible"
+					id: "4021CA32891FC58C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "3D7CC0110503F0A7"
@@ -1588,33 +1696,64 @@
 		}
 		{
 			dependencies: ["18228BC1BD391EE8"]
-			description: ["The meat has been whispering to me for days now... It wants to be alive once more!"]
+			description: [
+				"The meat has been whispering to me for days now... It wants to be alive once more!"
+				""
+				"&4Are you.. how do I put this? Okay in the head?"
+				""
+				"Absolutely!"
+				""
+				"&4Oh good, then we can proceed with flesh magic then. Beware, it could consume you whole!"
+			]
 			entity_vis_size: 1.0f
 			id: "7E09D93FD685B52D"
-			rewards: [{
-				id: "4B52D36DEB0F8B9D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A1EBE419798D998"
+					table_id: 8887839867309992666L
+					type: "choice"
+				}
+				{
+					id: "4B52D36DEB0F8B9D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "biomancy:biomancy/root"
 				criterion: ""
 				id: "4D21903B1D0F5A90"
 				type: "advancement"
 			}]
+			title: "Whispers in the Meat"
 			x: 1.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["1B89069CF6F1DCC1"]
-			description: ["The fangs of a wolf. Intact!"]
+			description: [
+				"The fangs of a wolf. Intact!"
+				""
+				"&4What are you using that for, my lad?"
+				""
+				"My flesh construct will need sharp teeth to mow through flesh."
+			]
 			entity_vis_size: 1.0f
 			id: "1149E9D781B1E0E6"
-			rewards: [{
-				id: "3591392A0789937C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6835DE1BD54A26DD"
+					table_id: 836753948986940579L
+					type: "choice"
+				}
+				{
+					id: "3591392A0789937C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					advancement: "biomancy:biomancy/predator_killer"
@@ -1629,24 +1768,44 @@
 					type: "item"
 				}
 			]
+			title: "Predator Killer"
 			x: 1.5d
 			y: -13.5d
 		}
 		{
 			dependencies: ["681EF488E543DB48"]
+			dependency_requirement: "one_started"
+			description: [
+				"This primordial cradle is full of life! Ever-expanding and ever-consuming! I believe that if I fill the cradle with raw meat, it should either expand or produce a new construct."
+				""
+				"&4Fill it with meat, then apply a healing potion to create new life."
+				""
+				"Oh? I thought you were against this? How do you even know this?"
+				""
+				"&4Knowledge accrued throughout my life at a necromancer's side. Besides, I am curious."
+			]
 			entity_vis_size: 1.0f
 			id: "7E6B2DCA9A18DF4A"
-			rewards: [{
-				id: "77796B92D80B3D17"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27225128ACF441AC"
+					table_id: 6565141144447489233L
+					type: "random"
+				}
+				{
+					id: "77796B92D80B3D17"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "biomancy:biomancy/healing_activator_sacrifice"
 				criterion: ""
 				id: "34552E1E6251D51C"
 				type: "advancement"
 			}]
+			title: "Healing Activator"
 			x: 1.5d
 			y: -16.5d
 		}
@@ -1684,6 +1843,7 @@
 				id: "6D4900B87AFB87AF"
 				type: "advancement"
 			}]
+			title: "It's Alive?"
 			x: -6.0d
 			y: -4.0d
 		}
@@ -1716,6 +1876,7 @@
 				id: "7929484B2AEE1858"
 				type: "advancement"
 			}]
+			title: "Half-Blood"
 			x: -8.25d
 			y: -5.5d
 		}
@@ -1989,6 +2150,7 @@
 				id: "43CFCAC7897F806E"
 				observe_type: 5
 				timer: 0L
+				title: "Witness the Gulber"
 				to_observe: "sons_of_sins:gulber"
 				type: "observation"
 			}]
@@ -2017,6 +2179,7 @@
 				id: "3632D64720A94F00"
 				observe_type: 5
 				timer: 0L
+				title: "Witness the Devourer"
 				to_observe: "sons_of_sins:devourer"
 				type: "observation"
 			}]
@@ -2045,6 +2208,7 @@
 				id: "7A73762223E35564"
 				observe_type: 5
 				timer: 0L
+				title: "Witness the Grub"
 				to_observe: "sons_of_sins:grub"
 				type: "observation"
 			}]
@@ -2073,9 +2237,11 @@
 				id: "33E3DCC6386C3358"
 				observe_type: 5
 				timer: 0L
+				title: "Witness the Guzzler"
 				to_observe: "sons_of_sins:guzzler"
 				type: "observation"
 			}]
+			title: "Witness the Guzzler"
 			x: -5.5d
 			y: -6.0d
 		}
@@ -2101,14 +2267,17 @@
 				id: "5FAC41CCFF8D58E8"
 				observe_type: 5
 				timer: 0L
+				title: "Witness the Nibbler"
 				to_observe: "sons_of_sins:nibbler"
 				type: "observation"
 			}]
+			title: "Witness the Nibbler"
 			x: -4.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["61740180C335EEB4"]
+			description: ["My beautiful flesh workshop! With this, I'll be able to fabricate many flesh creations."]
 			entity_vis_size: 1.0f
 			id: "65A8B04267923FB7"
 			rewards: [{
@@ -2123,10 +2292,34 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -19.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["1B89069CF6F1DCC1"]
+			description: [
+				"With this sickle, I can now harvest more specialized and dangerous organs from all sorts of creatures."
+				""
+				"If I slay various creatures, I can harvest different organs. Predators such as wolves or cats will yield sharp claws and fangs. I can obtain bone marrow from skeletons, volatile glands from explosive creatures and toxic glands from poisonous or venomous creatures. Sinews and bile glands are quite common among living creatures."
+				""
+				"{@pagebreak}"
+				"&4I sure wouldn't enjoy being despoiled myself!"
+				""
+				"What would happen if I used this sickle on you?"
+				""
+				"&4Nothing! I'm made of paper and leather! I just so happen to be sentient!"
+				""
+				"You have.. no internal organs?"
+				""
+				"&4Nothing! I am powered by sheer willpower and magic!"
+				"{@pagebreak}"
+				"Say, would human villages have these ingredients somewhere?"
+				""
+				"&4Surely. Elite hunters have the capabilities to harvest these ingredients and they must offload it somewhere."
+				""
+				"Then, would I be able to manufacture these?"
+				""
+				"&4I beg your pardon?"
+			]
 			entity_vis_size: 1.0f
 			id: "14674EB8086DB4BE"
 			rewards: [{
@@ -2183,7 +2376,8 @@
 				title: "Any Flesh Plunderer Drop"
 				type: "item"
 			}]
-			x: -1.5d
+			title: "Despoiled"
+			x: -2.0d
 			y: -13.0d
 		}
 		{
@@ -2201,18 +2395,33 @@
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			x: 2.8749999999999996d
-			y: -20.7d
+			x: 3.4499999999999997d
+			y: -21.275d
 		}
 		{
 			dependencies: ["7E6B2DCA9A18DF4A"]
+			description: [
+				"Well, this flesh blob is nicely grown and all but I think I'll have to kill it since it's grown enough."
+				""
+				"&4What are you saying? You would kill your child?"
+				""
+				"Yes. Well, after it's eaten a couple of creatures to fatten up. Then, I can harvest its living flesh myself."
+			]
 			entity_vis_size: 1.0f
 			id: "61740180C335EEB4"
-			rewards: [{
-				id: "47DEB7DFD0EF9F8B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FFAB3C5C1E73B90"
+					table_id: 6565141144447489233L
+					type: "random"
+				}
+				{
+					id: "47DEB7DFD0EF9F8B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					entity: "biomancy:flesh_blob"
@@ -2224,7 +2433,7 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
+					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "7665380E192F0B8A"
 					type: "kill"
@@ -2237,6 +2446,7 @@
 					type: "item"
 				}
 			]
+			title: "The Flesh Blob"
 			x: 1.5d
 			y: -18.0d
 		}
@@ -2255,8 +2465,8 @@
 				item: "biomancy:bio_lab"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -20.7d
+			x: -1.0d
+			y: -21.7d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
@@ -2273,7 +2483,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -21.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
@@ -2305,8 +2515,9 @@
 				title: "Any Flesh Automation Part"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -19.0d
+			title: "Flesh Automation"
+			x: -1.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
@@ -2339,8 +2550,9 @@
 				title: "Any Flesh Storage"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -19.0d
+			title: "Flesh Storage"
+			x: 4.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["50A5F2DF44930F15"]
@@ -2365,28 +2577,53 @@
 				}
 			]
 			x: 1.5d
-			y: -23.0d
+			y: -24.5d
 		}
 		{
 			dependencies: ["14674EB8086DB4BE"]
+			description: [
+				"&4You really are an organ collector."
+				""
+				"Well, I need all sorts of mystical ingredients for my creations!"
+				""
+				"&4Did you even kidnap villagers to conduct in aggressive trade negotations for more organs?"
+				""
+				"Perhaps. It was quite cheap, too! I even found some sanguine ingredients for myself."
+			]
 			entity_vis_size: 1.0f
 			id: "4BB27DC800763EE0"
-			rewards: [{
-				id: "397166751A292B14"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43049C6B84FAA144"
+					table_id: 6454273999420670365L
+					type: "choice"
+				}
+				{
+					id: "397166751A292B14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "biomancy:biomancy/organ_trader"
 				criterion: ""
 				id: "12E29A0363D42BCD"
 				type: "advancement"
 			}]
-			x: -3.0d
+			title: "Organ Trader"
+			x: -3.5d
 			y: -13.5d
 		}
 		{
 			dependencies: ["2ACAFD13FF8FA71F"]
+			description: [
+				"I can bottle up this acid for later use. It seem that this acid has armor shredding capabilities and will slowly corrode a creature."
+				""
+				"&4How do you know that? You touched it?"
+				""
+				"Yes... It hurts!"
+			]
 			entity_vis_size: 1.0f
 			id: "6ED8E2E5F96C70FC"
 			rewards: [{
@@ -2396,11 +2633,31 @@
 			}]
 			tasks: [{
 				id: "72484DD9EBC57359"
-				item: "biomancy:acid_bucket"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "biomancy:acid_bucket"
+							}
+							{
+								Count: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "biomancy:gastric_juice"
+								}
+							}
+						]
+					}
+				}
+				title: "Any Gastric Acid Container"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -15.5d
+			title: "Gastric Acid"
+			x: 6.0d
+			y: -16.5d
 		}
 		{
 			dependencies: [
@@ -2429,17 +2686,22 @@
 					id: "13F15280DF637A0A"
 					observe_type: 5
 					timer: 0L
+					title: "Witness Vesper"
 					to_observe: "bloodyhell:vesper"
 					type: "observation"
 				}
 				{
+					icon: "supplementaries:candle_holder_purple"
 					id: "290B2D37ACEA6F1D"
+					optional_task: true
 					structure: "bloodyhell:vespers_hut"
+					title: "Find Vesper's Hut"
 					type: "structure"
 				}
 			]
+			title: "Vesper"
 			x: 12.0d
-			y: -17.4d
+			y: -16.4d
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
@@ -2488,7 +2750,7 @@
 				}
 			]
 			x: 6.05d
-			y: -20.900000000000002d
+			y: -21.45d
 		}
 		{
 			dependencies: ["0D0782320D0DEE82"]
@@ -2521,11 +2783,13 @@
 				item: "biomancy:ravenous_claws"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -22.5d
 		}
 		{
 			dependencies: ["681EF488E543DB48"]
+			dependency_requirement: "one_started"
+			description: ["Once it's grown enough, my flesh cradle has produced some of these orifices where gastric acid oozes out."]
 			entity_vis_size: 1.0f
 			id: "2ACAFD13FF8FA71F"
 			rewards: [{
@@ -2538,8 +2802,8 @@
 				item: "biomancy:primal_orifice"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -15.5d
+			x: 4.0d
+			y: -17.0d
 		}
 		{
 			dependencies: [
@@ -2559,7 +2823,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -18.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
@@ -2608,8 +2872,9 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -21.5d
+			title: "Acolye Armour"
+			x: 8.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
@@ -2625,8 +2890,8 @@
 				item: "biomancy:thorn_shield"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -23.0d
+			x: 7.0d
+			y: -23.5d
 		}
 		{
 			dependencies: [
@@ -2646,8 +2911,8 @@
 				item: "biomancy:fertilizer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -23.5d
+			x: 5.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["2FC8B5F6807FD5DC"]
@@ -2663,8 +2928,8 @@
 				item: "biomancy:organic_matter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -22.0d
+			x: 4.5d
+			y: -22.5d
 		}
 		{
 			dependencies: [
@@ -2684,17 +2949,32 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -22.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["61740180C335EEB4"]
+			dependency_requirement: "one_started"
+			description: ["More rarely, I've encountered these hungry flesh blobs. They actively seek to eat and expand on their own, therefore I don't need to feed them meat or animals myself."]
 			entity_vis_size: 1.0f
 			id: "1C94C6DD9349EBE2"
-			rewards: [{
-				id: "15F0F393FB1F1F6C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D4F0B775FE67DE"
+					table_id: 5351484687126849480L
+					type: "random"
+				}
+				{
+					id: "0FE8569378B03828"
+					item: "biomancy:primordial_core"
+					type: "item"
+				}
+				{
+					id: "15F0F393FB1F1F6C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -2708,21 +2988,33 @@
 				id: "03F4391702DBBC29"
 				observe_type: 5
 				timer: 0L
+				title: "Witness the Hungry Flesh Blob"
 				to_observe: "biomancy:hungry_flesh_blob"
 				type: "observation"
 			}]
+			title: "The Hungry Flesh Blob"
 			x: -0.5d
-			y: -17.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["1C94C6DD9349EBE2"]
+			dependency_requirement: "one_started"
+			description: ["By feeding the cradle a primordial core and meat, I can create a primordial flesh blob. This creature is deeply linked to the primordial cradle and will seek to expand it, attacking everything and even fellow flesh blobs in its quest to expand the cradle."]
 			entity_vis_size: 1.0f
 			id: "120092C5CE8F3245"
-			rewards: [{
-				id: "57F848186D9C12E7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26826156E5618291"
+					table_id: 6454273999420670365L
+					type: "choice"
+				}
+				{
+					id: "57F848186D9C12E7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -2736,9 +3028,11 @@
 				id: "7A87856B322E8FC8"
 				observe_type: 5
 				timer: 0L
+				title: "Witness the Primordial Flesh Blob"
 				to_observe: "biomancy:primordial_flesh_blob"
 				type: "observation"
 			}]
+			title: "The Primordial Flesh Blob"
 			x: -2.5d
 			y: -16.5d
 		}
@@ -2788,8 +3082,9 @@
 				title: "Any Compound or Additive"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -21.0d
+			title: "Compounds and Additives"
+			x: -3.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["65CD213C69DD4F67"]
@@ -2849,8 +3144,9 @@
 				title: "Any Serum"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -21.5d
+			title: "Serum"
+			x: -5.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
@@ -2866,8 +3162,8 @@
 				item: "biomancy:biometric_membrane"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -18.5d
+			x: -3.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["120092C5CE8F3245"]
@@ -3087,6 +3383,7 @@
 					type: "item"
 				}
 			]
+			title: "Sanguinite Armour"
 			x: 14.5d
 			y: -21.5d
 		}
@@ -3167,6 +3464,7 @@
 					type: "item"
 				}
 			]
+			title: "Sanguinite Tools"
 			x: 15.0d
 			y: -22.5d
 		}
@@ -3266,18 +3564,37 @@
 				type: "item"
 			}]
 			title: "Sinful Tools"
-			x: 13.149999999999999d
-			y: -14.0d
+			x: 13.799999999999999d
+			y: -14.374999999999998d
 		}
 		{
 			dependencies: ["31E9E6BBC04B24F9"]
+			description: [
+				"&4Well, how about you make yourself a basic ritualistic weapon to defend yourself from spirits? Using ether ashes, you can affect spirits and set them ablaze near you."
+				""
+				"When do I ever encounter spirits though?"
+				""
+				"&4Don't phantoms come from the skies in this cursed land?"
+				""
+				"It seems overkill to use a charm for a few flying dead turtles."
+				""
+				"&4That's why it's the base for another more powerful charm..."
+			]
 			entity_vis_size: 1.0f
 			id: "38A5FCCF71245CF2"
-			rewards: [{
-				id: "7BF86AF44658BCB3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F4D40F54EA82B18"
+					table_id: 6548058741660532499L
+					type: "random"
+				}
+				{
+					id: "7BF86AF44658BCB3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1CF8C8D13C80F011"
 				item: {
@@ -3294,13 +3611,28 @@
 		}
 		{
 			dependencies: ["38A5FCCF71245CF2"]
+			description: [
+				"&4I have the recipe for a far more useful version of the protection charm. With this nightmare charm, phantoms and even the legendary nightmare stalker will be turned to ashes if they dare approach you."
+				""
+				"Aren't nightmare stalkers just legendary beasts? They haven't been seen for years."
+				""
+				"&4You never know when they might return."
+			]
 			entity_vis_size: 1.0f
 			id: "593A3C9D80DA6026"
-			rewards: [{
-				id: "459E2B1757C6AD35"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "387BF55994FFECE6"
+					table_id: 9004072155293914959L
+					type: "choice"
+				}
+				{
+					id: "459E2B1757C6AD35"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "77BEEE7D8A5FBC48"
 				item: "concatenatedadditionsartefacts:stalker_ward"
@@ -3641,55 +3973,16 @@
 			y: -31.0d
 		}
 		{
-			dependencies: [
-				"65A8B04267923FB7"
-				"4EBF32AEC732A6CA"
-			]
-			entity_vis_size: 1.0f
-			hide_dependency_lines: true
-			id: "7A6F70D9D16B0066"
-			rewards: [{
-				id: "60DE85C239363839"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			size: 1.5d
-			tasks: [{
-				consume_items: false
-				id: "7FFFB874658CF291"
-				item: "macabre:sacrificial_dirk"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -27.0d
-		}
-		{
-			dependencies: ["7A6F70D9D16B0066"]
-			entity_vis_size: 1.0f
-			id: "6102E1444E84E6B0"
-			rewards: [{
-				id: "76C6566BDE7068FF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				dimension: "macabre:the_pit"
-				icon: {
-					Count: 1
-					id: "macabre:crystalized_blood"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "4FE9E7D18C3C9CA0"
-				type: "dimension"
-			}]
-			x: 10.0d
-			y: -30.0d
-		}
-		{
 			dependencies: ["6F71CC7D8969DFA6"]
-			description: ["Flesh Tools are weaker than regular tools but possess the ability to regenerate naturally as long as they are not overused."]
+			description: [
+				"Flesh Tools are weaker than regular tools but possess the ability to regenerate naturally as long as they are not overused."
+				""
+				"&4They also retain the properties of osseous tools to turn creatures' souls to ether ashes."
+				""
+				"Wait, really?"
+				""
+				"&4Their base is osseous tools after all. It's partially why they're so brittle. The flesh will also reach out further to the creatures you attack or when you mine. It extends your reach."
+			]
 			entity_vis_size: 1.0f
 			id: "7EDAF9050653AB37"
 			rewards: [{
@@ -3748,6 +4041,223 @@
 			title: "Flesh Tools"
 			x: 4.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["2E2EEA142952B774"]
+			entity_vis_size: 1.0f
+			id: "5E25466AA32FAA72"
+			tasks: [
+				{
+					id: "102A2CC2293EFB41"
+					item: {
+						Count: 1
+						id: "bloodyhell:rhnull_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C5761961753401E"
+					item: {
+						Count: 1
+						id: "bloodyhell:rhnull_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "071EDFCF71D459B9"
+					item: {
+						Count: 1
+						id: "bloodyhell:rhnull_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A7F3C1A2C595FDA"
+					item: {
+						Count: 1
+						id: "bloodyhell:rhnull_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Rhnull Armour"
+			x: 16.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["2E2EEA142952B774"]
+			entity_vis_size: 1.0f
+			id: "330383B34BBC828C"
+			tasks: [{
+				id: "1F1338590EFCDC56"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:rhnull_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Rhnull Tools"
+			x: 17.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["4ADEEC22740295F1"]
+			entity_vis_size: 1.0f
+			id: "52FE229CF0737F96"
+			tasks: [{
+				id: "1B2EE3423A281DE8"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["52FE229CF0737F96"]
+			entity_vis_size: 1.0f
+			id: "013A96C26FC340F4"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "323180865B8A8C39"
+				observe_type: 5
+				timer: 0L
+				title: "Witness the Flesh Cow"
+				to_observe: "biomancy:flesh_cow"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["52FE229CF0737F96"]
+			entity_vis_size: 1.0f
+			id: "0412199F9CE8BB85"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "40D31C4393741EFB"
+				observe_type: 5
+				timer: 0L
+				title: "Witness the Flesh Chicken"
+				to_observe: "biomancy:flesh_chicken"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["52FE229CF0737F96"]
+			entity_vis_size: 1.0f
+			id: "4AD8D96421EAA635"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "37CD237F14EF0514"
+				observe_type: 5
+				timer: 0L
+				title: "Witness the Flesh Sheep"
+				to_observe: "biomancy:flesh_sheep"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["52FE229CF0737F96"]
+			entity_vis_size: 1.0f
+			id: "676E0A1FE49441E0"
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "4D02AF4A46A53226"
+				observe_type: 5
+				timer: 0L
+				title: "Witness the Flesh Pig"
+				to_observe: "biomancy:flesh_pig"
+				type: "observation"
+			}]
+			x: -7.5d
+			y: -25.0d
 		}
 	]
 	title: "Arcane Flesh"

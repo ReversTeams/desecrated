@@ -1,0 +1,30 @@
+{
+	id: "5ADF60BB81113F13"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "concatenatedadditionsartefacts:protection_charm"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "concatenatedadditionsartefacts:protection_charm"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "sons_of_sins:ether_ashes" }
+		{ count: 16, item: "sons_of_sins:ether_ashes" }
+		{ count: 8, item: "minecraft:fire_charge" }
+	]
+	title: "Phantom's Ashes"
+}

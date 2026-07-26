@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
                         D: 'minecraft:iron_block',
                         A: 'butchery:diamond_skinning_knife'
                 }
-        )
+        ).replaceIngredient('butchery:diamond_skinning_knife', 'minecraft:stick')
         event.shaped(
                 Item.of('vampirism:umbrella'),
                 [

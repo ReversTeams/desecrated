@@ -236,7 +236,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A traveller."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&cNo Faction"]
+		stats = ["&aVampire", "&cUnable to Join Faction"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = ["minecraft:generic.luck=2.0"]
 		#Main hand item.

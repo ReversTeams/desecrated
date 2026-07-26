@@ -5,12 +5,28 @@ ServerEvents.recipes(event => {
 
     const remove = [
         'bloodmagic:altar',
-        'bloodmagic:sacrificialdagger'
+        'bloodmagic:sacrificialdagger',
+        'perdition:dis'
     ]
 
     remove.forEach(item => {
         event.remove({ output: item })
     })
+
+    // Perdition Recipes
+    event.shaped(
+        Item.of('perdition:dis'),
+        [
+            ' A ',
+            ' B ',
+            ' C '
+        ],
+        {
+            B: 'perdition:marmor_elevated',
+            A: 'minecraft:ghast_tear',
+            C: 'desecratedcore:moon_key_item'
+        }
+    )
 
     // Blood Magic Recipes
     event.shaped(
