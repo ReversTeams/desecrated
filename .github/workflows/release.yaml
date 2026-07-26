@@ -8,17 +8,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          lfs: true
-
       - name: Create Technic release
         run: |
-          zip -r9 desecrated-0.3.0-technic.zip . -x ".git/*" "*.sh"
+          zip -r9 desecrated-0.4.0-technic.zip . -x ".git/*" "*.sh"
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
-          files: desecrated-0.3.0-technic.zip
+          files: desecrated-0.4.0-technic.zip
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
