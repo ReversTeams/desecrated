@@ -28,6 +28,18 @@ rebiomeStreams = true
 	#Allowed: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX.
 	#Allowed Values: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX
 	qualityPreset = "LOW"
+	#
+	#Watershed (region) size in blocks -- how large one continuous stream system is before it hands off
+	#to the next. -1 = auto (follow the quality preset; recommended). Otherwise 256 to 8192.
+	#  RECOMMENDED: leave at auto for live gameplay. Raising it can cause worldgen pauses when you
+	#  cross a watershed border (each build covers more ground at once).
+	#  For PRE-GENERATED worlds, larger watersheds produce stream systems that reach much further
+	#  inland, at overall similar total generation time. New chunks only.
+	#  NOTE: while pre-generating, the generation status can appear FROZEN/paused as a stream region
+	#  builds -- chunk generation waits for that watershed to finish, then resumes. This is normal;
+	#  larger sizes make each pause longer but less frequent.
+	#Range: -1 ~ 8192
+	plateSize = -1
 
 #APPEARANCE -- how streams look. These shape the network and channels and do NOT meaningfully
 #affect speed. Anything that changes the network (most of these) applies to NEW chunks only.
@@ -240,6 +252,19 @@ rebiomeStreams = true
 	#Rivers not connected to an ocean within range are left still. New chunks only.
 	#  true = flow vanilla rivers (default).  false = leave them still.
 	flowVanillaRivers = true
+	#
+	#Exempt water-dwelling mobs (fish, squid, dolphins, axolotls, glow squid, tadpoles, and
+	#water-breathing mobs that spawn in water like drowned and guardians) from being pushed by stream
+	#currents, so they hold their position in a stream instead of being swept downstream.
+	#  true = water mobs ignore the current (default).  false = the current carries them like anything else.
+	waterMobsIgnoreFlow = true
+	#
+	#When the Flowing Fluids mod is installed, fill stream channels with our own dedicated stream
+	#fluid instead of plain water. Flowing Fluids makes vanilla water finite and lets it drain away,
+	#which empties water-based streams; our stream fluid stays put and keeps its downstream current.
+	#Has no effect unless Flowing Fluids is present. New chunks only.
+	#  true = use the stream fluid under Flowing Fluids (default).  false = always plain water.
+	bakedFluidWhenFlowingFluids = true
 
 #EXPERIMENTAL -- off by default, rough edges, niche. Most change the network (NEW chunks only).
 [experimental]

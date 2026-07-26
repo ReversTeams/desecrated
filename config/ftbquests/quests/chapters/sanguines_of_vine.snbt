@@ -1813,11 +1813,19 @@
 			dependencies: ["55F5FBB4ED5DFDD5"]
 			entity_vis_size: 1.0f
 			id: "7AC3623634395471"
-			rewards: [{
-				id: "42D1D95C5B2C5310"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					advancement: "spectrum:spectrum"
+					criterion: ""
+					id: "79CC9CB30627D112"
+					type: "advancement"
+				}
+				{
+					id: "42D1D95C5B2C5310"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "0BC442EC01229C7A"

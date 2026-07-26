@@ -6,24 +6,53 @@
 	group: "511EB53C58AD34AE"
 	icon: "fracture:fleshy_chiseled_darkstone_bricks"
 	id: "2A43CF350B1D9F33"
-	images: [{
-		entity_vis_enabled: true
-		entity_vis_entity: "bloodyhell:blood_projectile"
-		entity_vis_idle_mode: "USE_GLOBAL"
-		entity_vis_offset_x: 0.0f
-		entity_vis_offset_y: 0.0f
-		entity_vis_rotation: 0.0f
-		entity_vis_silhouette: false
-		entity_vis_size: 1.0f
-		entity_vis_spin_mode: "USE_GLOBAL"
-		entity_vis_walk_mode: "USE_GLOBAL"
-		height: 1.0d
-		image: ""
-		rotation: 0.0d
-		width: 1.0d
-		x: -4.0d
-		y: 2.0d
-	}]
+	images: [
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_projectile"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 0.0f
+			entity_vis_silhouette: false
+			entity_vis_size: 1.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 1.0d
+			image: ""
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "macabre:textures/particle/red_macabre_roar_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "macabre:textures/screens/oczy2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			alpha: 180
+			color: 16715797
+			height: 3.0d
+			image: "bloodmagic:models/alchemyarrays/mobsacrifice"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -653,6 +682,53 @@
 			title: "Visit the ocean"
 			x: -3.0d
 			y: -4.5d
+		}
+		{
+			dependencies: [
+				"65A8B04267923FB7"
+				"4EBF32AEC732A6CA"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "7A6F70D9D16B0066"
+			rewards: [{
+				id: "60DE85C239363839"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "7FFFB874658CF291"
+				item: "macabre:sacrificial_dirk"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7A6F70D9D16B0066"]
+			entity_vis_size: 1.0f
+			id: "6102E1444E84E6B0"
+			rewards: [{
+				id: "76C6566BDE7068FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				dimension: "macabre:the_pit"
+				icon: {
+					Count: 1
+					id: "macabre:crystalized_blood"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4FE9E7D18C3C9CA0"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -13.0d
 		}
 	]
 	title: "Fractured Depths"
