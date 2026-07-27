@@ -382,6 +382,18 @@
 			x: 0.0d
 			y: -9.5d
 		}
+		{
+			dependencies: ["27080CDFCD7A0AC9"]
+			entity_vis_size: 1.0f
+			id: "60DD4B4A2BE46EAC"
+			tasks: [{
+				id: "6E41EF387CEC4ABA"
+				item: "oreberriesreplanted:iron_oreberry_bush"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
 	]
 	title: "Sanguines of Iron"
 }

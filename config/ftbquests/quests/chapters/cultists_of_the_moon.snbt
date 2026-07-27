@@ -1222,6 +1222,28 @@
 		}
 		{
 			dependencies: ["24F94D88BBD152DF"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome IX"
+				""
+				"&2The realm of Dis is well suited to the &m---------&r&2' quarries, being an external world where destroying the environment doesn't matter, but quantities of ore still generate."
+				""
+				"&2Dis is quite the spooky place, with dark water, unknown lighting and barren wastelands of marble. I made a standardized portal to enter, resembling the Netherworld's own.&r"
+				"{@pagebreak}"
+				"&2Dis is known for being a quarrying dimension, but why isn't it a mining dimension? Well, as an outsider living being, the ores of Dis will slowly infect you until your sudden demise. As quarries are machines, this does not apply to them.&r"
+				""
+				"&2Do not go mining in Dis. Nothing good will happen to you. Except perhaps large fortunes.&r"
+				"{@pagebreak}"
+				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. One great benefit of Dis is that both Overworld and &lNether ores&r&2 are found there. The marble is still very useful, though. It can be compacted and then crushed into various powders.&r"
+				""
+				"&2The resulting apatite powder can then be crushed even further into other kinds of powders. There are faint traces of diamonds in the marble of Dis.&r"
+				"{@pagebreak}"
+				"&2Dis gems can be found uncommonly throughout Dis. They contain rare and powerful materials inside, encased in a resin substance. Splitting the dis gem with lightning can be enough to both free up the core, and perhaps charge it? These gems make for great fuel in a lapiary dynamo, similar to other gems found in Dis or can be used to make special equipment. "
+				""
+				"{@pagebreak}"
+				"&2The Dis Wand is a multitool similar to a paxel, with the ability to swat away bad weather in Dis. "
+				""
+				"&2The Dis Crown can be worn to dampen the effects of inter-dimensional travel. No more do we need to carry buckets of milk everywhere!"
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "31D128CA9B959085"
@@ -1278,6 +1300,13 @@
 		}
 		{
 			dependencies: ["0D9BE8A704ED8BB4"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome IX"
+				""
+				"&2A strange sword that remains one of the few to open a rift to another dimension that resembles some depictions of Limbo in more religious descriptions.&r"
+				"{@pagebreak}"
+				"&2Purgatory is a strange place, and seems devoid of life at times. It does contain some materials useful to elementalists, serving as great substitutes in many recipes.&r"
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "5D06B3DA89CB0B2E"
@@ -1302,6 +1331,17 @@
 		}
 		{
 			dependencies: ["19CD7CA150532811"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome II"
+				""
+				"&fBlood provided essential spiritual power for ancient witchcraft, but can also provide physical nutrition, should you have enough to spare. Some ancient witches even had a diet entirely comprised of blood, and I did too, for a while. Your stomach learns to accept it, after a while..."
+				"{@pagebreak}"
+				"&o&7Notes from Eleonore's Travels, Tome IX"
+				""
+				"&2Some peculiar prized ores are found throughout Purgatory and particularly in the Purgatory chasms. "
+				""
+				"&2These are silver and pyrite ore, both equally useful when smelted into silver and witch's gold. While witch's gold may only be more useful to witches, silver is useful to all pathways, from technology to magic.&r"
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "585D9482FF0C3669"
@@ -1320,6 +1360,15 @@
 		}
 		{
 			dependencies: ["5D06B3DA89CB0B2E"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome IX"
+				""
+				"&2Purgatory is a fascinating dimension, filled with mystical ingredients and various anomalies.&r"
+				""
+				"&2I have noted down the various ingredients found and their uses below. Traveling through the dark lands, you will need a lantern to see more than 2 feet in front of you.&r"
+				"{@pagebreak}"
+				"&2The two main ways of entering Purgatory remain the Halcyon sword, which can be crafted by either those who have entered Purgatory themselves, or those who scavenged enough anomalous or elemental parts to make an artificial Halcyon, such as the researchers of the &m--------------&r &2or the elementists of the &m-----------&r&2. The second is to drink a planeswalker potion, made by the witches of &m--------&r&2.&r"
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "19CD7CA150532811"
@@ -1338,6 +1387,13 @@
 		}
 		{
 			dependencies: ["31D128CA9B959085"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome IX"
+				""
+				"&2How did the door to Dis open? While trying to open a rift, I seem to have pierced through some kind of barrier formed from gray fog. My rift blade broke, but I ended up in this place. With the quartz and diamonds I had, I turned some of this normal marble into an elevated one, which someone managed to turn into a portal. After years of researching how to return, I've finally done it.&r"
+				"{@pagebreak}"
+				"&2This is not too useful of a dimension, but perhaps I could recommend that my Hierophant friends go quarrying here instead of destroying the world constantly. I did find this travel journal lately. To the next one who finds it, I will stick a little note for you!&r"
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "2F27E02457BCBE92"
@@ -1356,6 +1412,13 @@
 		}
 		{
 			dependencies: ["19CD7CA150532811"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome II"
+				""
+				"&fThis strange sword resonates with the essence of experience within the body, ripping it out as small, marble-sized spheres. A small pain as the price of progress. It purges your inner experience into dark blue globby orbs. They can be consumed again to regain your levels."
+				"{@pagebreak}"
+				"&fThe experience orb is obtained through purging your own experience from your body with the Shrike sword &a(right-click with the sword, with experience levels)&r. &fWhile you can simply consume these orbs to gain back your levels, they are also used in various recipes."
+			]
 			entity_vis_size: 1.0f
 			id: "4317E4672B9BDFF5"
 			rewards: [{

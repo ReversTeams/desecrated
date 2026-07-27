@@ -1,0 +1,11 @@
+{
+	id: "7B57F344FF912ADA"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "sons_of_sins:ribs" }
+		{ item: "sons_of_sins:muscle" }
+		{ item: "sons_of_sins:heart" }
+	]
+	title: "Struggle's Gift"
+}

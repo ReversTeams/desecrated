@@ -1,0 +1,29 @@
+{
+	id: "7CF4E3EB6C47974F"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "fracture:permafrost_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "concatenatedadditionstools:blood_soaked_fabric", random_bonus: 15 }
+		{ count: 2, item: "celestisynth:crimson_piece" }
+		{
+			item: {
+				Count: 1
+				id: "reliquary:mercy_cross"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "reliquary:twilight_cloak" }
+	]
+	title: "Nightmare Ashes"
+}

@@ -41,6 +41,12 @@ ServerEvents.tags('item', event => {
         'butchery:sculk_bone'
     ]);
 
+    add('desecrated:trigger_bone', [
+        'butchery:broken_wishbone',
+        'butchery:wishbone',
+        'fracture:fleshy_bone'
+    ]);
+
     add('desecrated:slime_chunk', [
         'butchery:slime_chunks',
         'reliquary:slime_pearl',
@@ -99,6 +105,11 @@ ServerEvents.tags('item', event => {
     add('desecrated:violent_flesh', [
         'fracture:living_flesh',
         'fracture:blood_slime_ball'
+    ]);
+
+    add('desecrated:soap_ingredient', [
+        'immersive_weathering:tallow',
+        'minecraft:porkchop'
     ]);
 
     // Should be added to core mods
