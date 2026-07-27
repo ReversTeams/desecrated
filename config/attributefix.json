@@ -616,17 +616,6 @@
         "value": 100
       }
     },
-    "irons_lib:dodge_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "caelus:fall_flying": {
       "enabled": false,
       "min": {
@@ -636,6 +625,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "irons_lib:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "tconstruct:player.experience_multiplier": {

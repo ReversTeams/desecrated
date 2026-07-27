@@ -14,6 +14,7 @@
     "minecraft:overworld",
     "perdition:purgatory",
     "mahoutsukai:reality_marble",
+    "otherverse:ruins",
     "bloodyhell:soul_dimension",
     "minecraft:the_end",
     "minecraft:the_nether",
@@ -27,8 +28,7 @@
       "displayName": "Ancient City",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -44,8 +44,7 @@
       "displayName": "Buried Treasure",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -53,8 +52,7 @@
       "displayName": "Desert Pyramid",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -78,8 +76,7 @@
       "displayName": "Igloo",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -87,8 +84,7 @@
       "displayName": "Jungle Pyramid",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -96,8 +92,7 @@
       "displayName": "Mansion",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -105,8 +100,7 @@
       "displayName": "Mineshaft",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -114,8 +108,7 @@
       "displayName": "Mineshaft Mesa",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -123,8 +116,7 @@
       "displayName": "Monument",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -141,8 +133,7 @@
       "displayName": "Ocean Ruin Cold",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -150,8 +141,7 @@
       "displayName": "Ocean Ruin Warm",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -159,8 +149,7 @@
       "displayName": "Pillager Outpost",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -168,8 +157,7 @@
       "displayName": "Ruined Portal",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -177,8 +165,7 @@
       "displayName": "Ruined Portal Desert",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -186,8 +173,7 @@
       "displayName": "Ruined Portal Jungle",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -195,8 +181,7 @@
       "displayName": "Ruined Portal Mountain",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -212,8 +197,7 @@
       "displayName": "Ruined Portal Ocean",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -221,8 +205,7 @@
       "displayName": "Ruined Portal Swamp",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -230,8 +213,7 @@
       "displayName": "Shipwreck",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -239,8 +221,7 @@
       "displayName": "Shipwreck Beached",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -248,8 +229,7 @@
       "displayName": "Stronghold",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -257,8 +237,7 @@
       "displayName": "Swamp Hut",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -266,8 +245,7 @@
       "displayName": "Trail Ruins",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -275,8 +253,7 @@
       "displayName": "Village Desert",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -284,8 +261,7 @@
       "displayName": "Village Plains",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -293,8 +269,7 @@
       "displayName": "Village Savanna",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -302,8 +277,7 @@
       "displayName": "Village Snowy",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -311,8 +285,7 @@
       "displayName": "Village Taiga",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -320,8 +293,7 @@
       "displayName": "Ancient Temple",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -329,8 +301,7 @@
       "displayName": "Ancient Vessel",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -338,8 +309,7 @@
       "displayName": "Arachnid Dwelling",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -347,8 +317,7 @@
       "displayName": "Ati Stoneworks",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -356,8 +325,7 @@
       "displayName": "Castillo",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -365,8 +333,7 @@
       "displayName": "Catalonian Castle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -374,8 +341,7 @@
       "displayName": "Dark Keep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -383,8 +349,7 @@
       "displayName": "Dark Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -392,8 +357,7 @@
       "displayName": "Deepslate Keep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -401,8 +365,7 @@
       "displayName": "Desert Outpost",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -410,8 +373,7 @@
       "displayName": "Dojo",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -419,8 +381,7 @@
       "displayName": "Fortified Temple",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -428,8 +389,7 @@
       "displayName": "Gnome Hut",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -437,8 +397,7 @@
       "displayName": "Granite Fort",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -446,8 +405,7 @@
       "displayName": "Haunted Ruin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -455,8 +413,7 @@
       "displayName": "Herobrine Stronghold",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -464,8 +421,7 @@
       "displayName": "Ice Tribe",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -473,8 +429,7 @@
       "displayName": "Illager Homestead",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -482,8 +437,7 @@
       "displayName": "Illager Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -491,8 +445,7 @@
       "displayName": "Jungle Grotto",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -500,8 +453,7 @@
       "displayName": "Jungle Settlement",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -509,8 +461,7 @@
       "displayName": "Lighthouse",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -518,8 +469,7 @@
       "displayName": "Manor",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -527,8 +477,7 @@
       "displayName": "Marble Chateau",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -536,8 +485,7 @@
       "displayName": "Monastery Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -545,8 +493,7 @@
       "displayName": "Mosque",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -554,8 +501,7 @@
       "displayName": "Mud Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -563,8 +509,7 @@
       "displayName": "Nomadic Camp",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -572,8 +517,7 @@
       "displayName": "Old Fort",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -581,8 +525,7 @@
       "displayName": "Old Home",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -590,8 +533,7 @@
       "displayName": "Old Residence",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -599,8 +541,7 @@
       "displayName": "Overgrown Outpost",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -608,8 +549,7 @@
       "displayName": "Pufferfish Cave",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -617,8 +557,7 @@
       "displayName": "Quarry",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -626,8 +565,7 @@
       "displayName": "Rotten Log",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -635,8 +573,7 @@
       "displayName": "Rotting Temple",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -644,8 +581,7 @@
       "displayName": "Rotting Temple Underground",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -653,8 +589,7 @@
       "displayName": "Ruined Castle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -662,8 +597,7 @@
       "displayName": "Sculk Deposit",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -671,8 +605,7 @@
       "displayName": "Silverfish Nest",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -680,8 +613,7 @@
       "displayName": "Sinking Temple",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -689,8 +621,7 @@
       "displayName": "Small Keep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -698,8 +629,7 @@
       "displayName": "Spider Nest",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -707,8 +637,7 @@
       "displayName": "Steam House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -716,8 +645,7 @@
       "displayName": "Storage House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -725,8 +653,7 @@
       "displayName": "Storage Shack",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -734,8 +661,7 @@
       "displayName": "Stray Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -743,8 +669,7 @@
       "displayName": "Tavern",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -752,8 +677,7 @@
       "displayName": "Underground Monument",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -761,8 +685,7 @@
       "displayName": "Underwater Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -770,8 +693,7 @@
       "displayName": "Villager Inn",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -779,8 +701,7 @@
       "displayName": "Warden Monument",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -788,8 +709,7 @@
       "displayName": "Wither Cavern",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -797,8 +717,7 @@
       "displayName": "Wither Keep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -806,8 +725,7 @@
       "displayName": "Woodland Keep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -935,8 +853,7 @@
       "displayName": "Vespers Hut",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -944,8 +861,7 @@
       "displayName": "Vindicator Butchers House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -953,8 +869,7 @@
       "displayName": "Extraterrestrial Nest",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -962,8 +877,7 @@
       "displayName": "Large Extraterrestrial Nest",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -971,8 +885,7 @@
       "displayName": "Large Extraterrestrial Object",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -980,8 +893,7 @@
       "displayName": "Medium Extraterrestrial Object",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -989,8 +901,7 @@
       "displayName": "Research Cabin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -998,8 +909,7 @@
       "displayName": "Research Station",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1007,8 +917,7 @@
       "displayName": "Small Extraterrestrial Object",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1016,8 +925,7 @@
       "displayName": "Unknown Extraterrestrial Object",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1025,8 +933,7 @@
       "displayName": "Labyrinth",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1034,8 +941,7 @@
       "displayName": "Temple Of Duality",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1043,8 +949,7 @@
       "displayName": "Flesh Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1052,8 +957,7 @@
       "displayName": "Pillager Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1069,8 +973,7 @@
       "displayName": "Blackridge Watch",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1078,8 +981,7 @@
       "displayName": "Chill Hallmanor",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1087,8 +989,7 @@
       "displayName": "Decrown Monolith",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1096,8 +997,7 @@
       "displayName": "Frostbloom Bastion",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1105,8 +1005,7 @@
       "displayName": "Frozen Onion Fort",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1114,8 +1013,7 @@
       "displayName": "Glacierfall Keep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1123,8 +1021,7 @@
       "displayName": "Glimmervault Fortress",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1132,8 +1029,7 @@
       "displayName": "Shardspire Castle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1141,8 +1037,7 @@
       "displayName": "Silentgale Citadel",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1150,8 +1045,7 @@
       "displayName": "Snowgrave Citadel",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1159,8 +1053,7 @@
       "displayName": "Stonyfell Outpost",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1168,8 +1061,7 @@
       "displayName": "Travelers Lodge",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1177,8 +1069,7 @@
       "displayName": "Whitewarden Keep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1186,8 +1077,7 @@
       "displayName": "Winterhold Citadel",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1195,8 +1085,7 @@
       "displayName": "Zweiberg",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1204,8 +1093,7 @@
       "displayName": "Herbalist Hut",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1213,8 +1101,7 @@
       "displayName": "Abandoned Lighthouse",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1222,8 +1109,7 @@
       "displayName": "Abandoned Vineyard",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1231,8 +1117,7 @@
       "displayName": "Abandonedhouse",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1240,8 +1125,7 @@
       "displayName": "Ancient Mines",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1249,8 +1133,7 @@
       "displayName": "Ancient Portal/ancient Portal",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1266,8 +1149,7 @@
       "displayName": "Ancient Statue/ancient Statue Desert",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1275,8 +1157,7 @@
       "displayName": "Ancient Statue/ancient Statue Jungle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1284,8 +1165,7 @@
       "displayName": "Ancient Statue/ancient Statue Plains",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1293,8 +1173,7 @@
       "displayName": "Animal Den/forest Den",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1310,8 +1189,7 @@
       "displayName": "Animal Den/polar Bear Den",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1319,8 +1197,7 @@
       "displayName": "Apothecary Abode",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1328,8 +1205,7 @@
       "displayName": "Ars Nouveau/archmages Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1337,8 +1213,7 @@
       "displayName": "Bazaar",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1346,8 +1221,7 @@
       "displayName": "Bearclaw Inn",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1355,8 +1229,7 @@
       "displayName": "Beekeepers House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1364,8 +1237,7 @@
       "displayName": "Botanist",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1373,8 +1245,7 @@
       "displayName": "Brickhouse",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1382,8 +1253,7 @@
       "displayName": "Castle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1391,8 +1261,7 @@
       "displayName": "Collectors Museum",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1400,8 +1269,7 @@
       "displayName": "Cottage",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1409,8 +1277,7 @@
       "displayName": "Desert Camp/desert Camp",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1430,8 +1297,7 @@
       "displayName": "Desert Camp/desert Camp Red",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1439,8 +1305,7 @@
       "displayName": "Desert Market/desert Market",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1454,8 +1319,7 @@
       "displayName": "Desert Market/desert Market Red",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1463,8 +1327,7 @@
       "displayName": "Desert Pyramid",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1472,8 +1335,7 @@
       "displayName": "Desert Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1481,8 +1343,7 @@
       "displayName": "Dig Site/dig Site",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1490,8 +1351,7 @@
       "displayName": "Dig Site/dig Site Desert",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1499,8 +1359,7 @@
       "displayName": "Enchantingtower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1508,8 +1367,7 @@
       "displayName": "Farmhouse",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1517,8 +1375,7 @@
       "displayName": "Fishermans Lodge",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1526,8 +1383,7 @@
       "displayName": "Frozen Crypt",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1535,8 +1391,7 @@
       "displayName": "Haunted Manor",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1544,8 +1399,7 @@
       "displayName": "Hermits Hollow",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1553,8 +1407,7 @@
       "displayName": "Hunters Cabin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1562,8 +1415,7 @@
       "displayName": "Iceandfire/dread Citadel",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1571,8 +1423,7 @@
       "displayName": "Iceandfire/sirens Cove",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1580,8 +1431,7 @@
       "displayName": "Labyrinth",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1589,8 +1439,7 @@
       "displayName": "Lumber Camp/lumber Camp Acacia",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1598,8 +1447,7 @@
       "displayName": "Lumber Camp/lumber Camp Birch",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1631,8 +1479,7 @@
       "displayName": "Lumber Camp/lumber Camp Dark Oak",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1640,8 +1487,7 @@
       "displayName": "Lumber Camp/lumber Camp Jungle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1649,8 +1495,7 @@
       "displayName": "Lumber Camp/lumber Camp Oak",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1658,8 +1503,7 @@
       "displayName": "Lumber Camp/lumber Camp Spruce",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1667,8 +1511,7 @@
       "displayName": "Mason House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1692,8 +1535,7 @@
       "displayName": "Nexus",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1701,8 +1543,7 @@
       "displayName": "Pillager Camp",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1710,8 +1551,7 @@
       "displayName": "Pillager Fortress",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1719,8 +1559,7 @@
       "displayName": "Redhorn Guild",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1728,8 +1567,7 @@
       "displayName": "Ruined Church",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1737,8 +1575,7 @@
       "displayName": "Ruined Fort",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1746,8 +1583,7 @@
       "displayName": "Ruined Well",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1755,8 +1591,7 @@
       "displayName": "Ruins Of The Deep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1764,8 +1599,7 @@
       "displayName": "Snifferhenge",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1773,8 +1607,7 @@
       "displayName": "Sunken Ship/sunken Ship",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1782,8 +1615,7 @@
       "displayName": "Sunken Ship/sunken Ship Coral",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1791,8 +1623,7 @@
       "displayName": "Sunken Ship/sunken Ship Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1800,8 +1631,7 @@
       "displayName": "The Log",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1809,8 +1639,7 @@
       "displayName": "Tinkers Citadel",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1818,8 +1647,7 @@
       "displayName": "Tinkers Workshop",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1827,8 +1655,7 @@
       "displayName": "Train Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1836,8 +1663,7 @@
       "displayName": "Tree Of Wisdom",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1845,8 +1671,7 @@
       "displayName": "Treetop Tavern",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1854,8 +1679,7 @@
       "displayName": "Tudor Pub",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1863,8 +1687,7 @@
       "displayName": "Underground Camp/underground Camp",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1872,8 +1695,7 @@
       "displayName": "Underground Camp/underground Camp Deep",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1881,8 +1703,7 @@
       "displayName": "Wacky Wares",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1890,8 +1711,7 @@
       "displayName": "Washing Camp",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1899,8 +1719,7 @@
       "displayName": "Windswept Shrine",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1908,8 +1727,7 @@
       "displayName": "Winter Wagon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1917,8 +1735,7 @@
       "displayName": "Witches Treestump",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1926,8 +1743,7 @@
       "displayName": "Wizard Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1935,8 +1751,7 @@
       "displayName": "Stronghold",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1944,8 +1759,7 @@
       "displayName": "Airship Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1953,8 +1767,7 @@
       "displayName": "Cabin Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1962,8 +1775,7 @@
       "displayName": "Clockwork Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1971,8 +1783,7 @@
       "displayName": "Kutcha Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1980,8 +1791,7 @@
       "displayName": "Marketstead Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1989,8 +1799,7 @@
       "displayName": "Mediterranean Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -1998,8 +1807,7 @@
       "displayName": "Mossy Mounds",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2007,8 +1815,7 @@
       "displayName": "Oasis Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2016,8 +1823,7 @@
       "displayName": "Pirate Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2025,8 +1831,7 @@
       "displayName": "Quark/minka Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2034,8 +1839,7 @@
       "displayName": "Sunken Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2043,8 +1847,7 @@
       "displayName": "Tavern Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2092,8 +1895,7 @@
       "displayName": "Hunters Tent Blue",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2101,8 +1903,7 @@
       "displayName": "Hunters Tent Brown",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2110,8 +1911,7 @@
       "displayName": "Hunters Tent Cyan",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2119,8 +1919,7 @@
       "displayName": "Hunters Tent Gray",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2128,8 +1927,7 @@
       "displayName": "Hunters Tent Green",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2137,8 +1935,7 @@
       "displayName": "Hunters Tent Light Gray",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2146,8 +1943,7 @@
       "displayName": "Hunters Tent Purple",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2155,8 +1951,7 @@
       "displayName": "Hunters Tent Red",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2164,8 +1959,7 @@
       "displayName": "Hunters Tent White",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2173,8 +1967,7 @@
       "displayName": "Jungle Pyramid",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2182,8 +1975,7 @@
       "displayName": "Verrucous Rock",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2191,8 +1983,7 @@
       "displayName": "Believer House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2224,8 +2015,7 @@
       "displayName": "Head Altar",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2241,8 +2031,7 @@
       "displayName": "Maze",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2250,8 +2039,7 @@
       "displayName": "Monument",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2259,8 +2047,7 @@
       "displayName": "Nether Geyser",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2268,8 +2055,7 @@
       "displayName": "Pipes",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2278,6 +2064,14 @@
       "isVanilla": false,
       "dimensions": [
         "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "otherverse:brazier",
+      "displayName": "Brazier",
+      "isVanilla": false,
+      "dimensions": [
+        "otherverse:ruins"
       ]
     },
     {
@@ -2301,8 +2095,7 @@
       "displayName": "Ancient Crypt",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2310,8 +2103,7 @@
       "displayName": "Ancient Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2319,8 +2111,7 @@
       "displayName": "Ancient Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2328,8 +2119,7 @@
       "displayName": "Ancient Towers",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2337,8 +2127,7 @@
       "displayName": "Antiquus Crypta",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2346,8 +2135,7 @@
       "displayName": "Badlands Start Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2355,8 +2143,7 @@
       "displayName": "Badlands Structures",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2364,8 +2151,7 @@
       "displayName": "Bone Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2373,8 +2159,7 @@
       "displayName": "Desert Structures",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2398,8 +2183,7 @@
       "displayName": "Field Stone Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2407,8 +2191,7 @@
       "displayName": "Field Stone Ruins Rocks",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2416,8 +2199,7 @@
       "displayName": "Level One Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2425,8 +2207,7 @@
       "displayName": "Level Three Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2434,8 +2215,7 @@
       "displayName": "Level Two Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2443,8 +2223,7 @@
       "displayName": "Level Two Ruins Pool",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2452,8 +2231,7 @@
       "displayName": "Lost Soul City",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2461,8 +2239,7 @@
       "displayName": "Lost Soul Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2478,8 +2255,7 @@
       "displayName": "Ocean Fortress",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2487,8 +2263,7 @@
       "displayName": "Ocean Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2496,8 +2271,7 @@
       "displayName": "Pumpkin Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2505,8 +2279,7 @@
       "displayName": "Rare Ruin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2514,8 +2287,7 @@
       "displayName": "Sculk Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2539,8 +2311,7 @@
       "displayName": "Start Nether Ruin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2548,8 +2319,7 @@
       "displayName": "Underground Structures",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2557,8 +2327,7 @@
       "displayName": "Bridge Bridge 0",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2566,8 +2335,7 @@
       "displayName": "Bridge Bridge 1",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2575,8 +2343,7 @@
       "displayName": "Roadside Bench",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2584,8 +2351,7 @@
       "displayName": "Roadside Campfire",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2593,8 +2359,7 @@
       "displayName": "Roadside Campsite 1",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2602,8 +2367,7 @@
       "displayName": "Roadside Campsite 2",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2611,8 +2375,7 @@
       "displayName": "Roadside Campsite 3",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2620,8 +2383,7 @@
       "displayName": "Roadside Maid House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2629,8 +2391,7 @@
       "displayName": "Roadside Sakura Coffee House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2638,8 +2399,7 @@
       "displayName": "Spawn Cabin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2647,8 +2407,7 @@
       "displayName": "Stone Bridge Shiqiao",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2668,8 +2427,7 @@
       "displayName": "Wood Bridge Jinhehuan",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2677,8 +2435,7 @@
       "displayName": "Wood Bridge Shensexiangmu",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2686,8 +2443,7 @@
       "displayName": "Wood Bridge Yinghuamu",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2695,8 +2451,7 @@
       "displayName": "Wood Bridge Zhuzi",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2760,8 +2515,7 @@
       "displayName": "Pedestal Ruins Deepslate",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2769,8 +2523,7 @@
       "displayName": "Pedestal Ruins Stone",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2778,8 +2531,7 @@
       "displayName": "Preservation Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2795,8 +2547,7 @@
       "displayName": "Baby Villager Statue",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2804,8 +2555,7 @@
       "displayName": "Camp",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2813,8 +2563,7 @@
       "displayName": "Council Of The Trapped Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2822,8 +2571,7 @@
       "displayName": "House3",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2831,8 +2579,7 @@
       "displayName": "Iron Golem Statue",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2840,8 +2587,7 @@
       "displayName": "Random Blocks",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2849,8 +2595,7 @@
       "displayName": "Ruin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2858,8 +2603,7 @@
       "displayName": "Villager Statue",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2867,8 +2611,7 @@
       "displayName": "Way Sign",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2876,8 +2619,7 @@
       "displayName": "Desert Outpost",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2885,8 +2627,7 @@
       "displayName": "Fortified Desert Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2894,8 +2635,7 @@
       "displayName": "Fortified Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2967,8 +2707,7 @@
       "displayName": "Rubble Desert",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2976,8 +2715,7 @@
       "displayName": "Rubble Forest",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2985,8 +2723,7 @@
       "displayName": "Rubble Jungle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -2994,8 +2731,7 @@
       "displayName": "Rubble Mesa",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3003,8 +2739,7 @@
       "displayName": "Rubble Mountain",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3012,8 +2747,7 @@
       "displayName": "Rubble Taiga",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3021,8 +2755,7 @@
       "displayName": "Spire",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3038,8 +2771,7 @@
       "displayName": "Underground/giant Bee Hive",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3055,8 +2787,7 @@
       "displayName": "Underground/oak Cabin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3072,8 +2803,7 @@
       "displayName": "Underground/sunken Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3087,8 +2817,7 @@
       "displayName": "Underground Cabin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3104,8 +2833,7 @@
       "displayName": "Witch Hut",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3113,8 +2841,7 @@
       "displayName": "Extractor Ruin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3122,8 +2849,7 @@
       "displayName": "Regular Ruin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3139,8 +2865,7 @@
       "displayName": "Burgeoning Fortress",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3164,8 +2889,7 @@
       "displayName": "Dull Pyramid",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3173,8 +2897,7 @@
       "displayName": "Dulling Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3318,26 +3041,21 @@
       "displayName": "Underground Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
       "id": "vampirism:crypt",
       "displayName": "Crypt",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
+      "dimensions": []
     },
     {
       "id": "vampirism:hunter_camp",
       "displayName": "Hunter Camp",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3345,8 +3063,7 @@
       "displayName": "Hunter Outpost Badlands",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3354,8 +3071,7 @@
       "displayName": "Hunter Outpost Desert",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
@@ -3363,45 +3079,34 @@
       "displayName": "Hunter Outpost Plains",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
       "id": "vampirism:hunter_outpost_vampire_forest",
       "displayName": "Hunter Outpost Vampire Forest",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
+      "dimensions": []
     },
     {
       "id": "vampirism:mother",
       "displayName": "Mother",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
+      "dimensions": []
     },
     {
       "id": "vampirism:vampire_altar",
       "displayName": "Vampire Altar",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
+        "minecraft:overworld"
       ]
     },
     {
       "id": "vampirism:vampire_hut",
       "displayName": "Vampire Hut",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
+      "dimensions": []
     }
   ],
   "tags": [
