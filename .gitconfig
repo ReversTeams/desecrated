@@ -1,8 +1,0 @@
-[filter "cleanTimestamps"]
-	clean = gitfilters/cleanTimestamps.sh
-
-[filter "cleanMemfixHash"]
-	clean = gitfilters/cleanMemfixHash.sh
-
-[filter "stripComments"]
-	clean = gitfilters/stripComments.sh
