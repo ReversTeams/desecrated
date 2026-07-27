@@ -98,7 +98,7 @@
 		#Range: 0.0 ~ 2.0
 		attackSpeedMaxMod = 0.15
 		#Whether vampire have a reduced speed and attack boost when wearing heavy armor
-		armorPenalty = true
+		armorPenalty = false
 		#Blood exhaustion is multiplied with this value
 		#Range: 0.0 ~ 5.0
 		bloodExhaustionFactor = 1.0
