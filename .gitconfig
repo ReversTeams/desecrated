@@ -1,8 +1,11 @@
 [filter "cleanTimestamps"]
 	clean = gitfilters/cleanTimestamps.sh
+	smudge = gitfilters/cleanTimestamps.sh
 
 [filter "cleanMemfixHash"]
 	clean = gitfilters/cleanMemfixHash.sh
+	smudge = gitfilters/cleanMemfixHash.sh
 
 [filter "stripComments"]
 	clean = gitfilters/stripComments.sh
+	smudge = gitfilters/stripComments.sh
