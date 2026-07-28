@@ -10,6 +10,10 @@ generateRivers = true
 #feature, so it never changes what the surrounding biome placed. Applies to NEW chunks only.
 #  true = on.  false = off (default).
 rebiomeStreams = true
+#
+#Show the one-time Streams Reflowing notice in chat the first time this world is opened.
+#  true = show it once per world (default).  false = never show it.
+welcomeMessage = true
 
 #PERFORMANCE -- how FAST vs. how GOOD generation is. Costs CPU at world-gen time only; each
 #region builds once and is saved to disk forever, so the cost is one-time per area. If live
@@ -109,7 +113,7 @@ rebiomeStreams = true
 	#
 	#How NOISY/ragged the bank edges are: max +/- blocks of random jitter on the cut edge.
 	#  HIGHER = rougher, more broken-up banks.  0 = perfectly smooth, straight-edged cuts.
-	#Default 0.35. Carve-only: applies to new chunks without rebuilding networks.
+	#Default 0.21. Carve-only: applies to new chunks without rebuilding networks.
 	#Range: 0.0 ~ 3.0
 	bankNoise = 0.35
 	#
