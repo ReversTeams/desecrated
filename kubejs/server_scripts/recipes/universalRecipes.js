@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'minecraft:leather',
-            B: 'minecraft:white_carpet'
+            B: '#minecraft:wool_carpets'
         }
     )
 
@@ -119,7 +119,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'minecraft:rabbit_hide',
-            B: 'minecraft:white_carpet'
+            B: '#minecraft:wool_carpets'
         }
     )
 
@@ -486,6 +486,84 @@ ServerEvents.recipes(event => {
         [
             'concatenatedadditionsmachines:transplant',
             'hexalia:begonia'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('reliquary:nebulous_heart'),
+        [
+            'reverseeon:liquefied_terror',
+            'butchery:heart',
+            'minecraft:ender_pearl',
+            'minecraft:ender_pearl',
+            'minecraft:ender_pearl'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('reliquary:slime_pearl'),
+        [
+            'reverseeon:liquefied_terror',
+            'fracture:blood_slime_ball',
+            'minecraft:slime_ball',
+            'minecraft:slime_ball',
+            'minecraft:slime_ball'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('reliquary:catalyzing_gland'),
+        [
+            'reverseeon:liquefied_terror',
+            'biomancy:volatile_gland',
+            'minecraft:gunpowder',
+            'minecraft:gunpowder',
+            'minecraft:gunpowder'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('reliquary:chelicerae'),
+        [
+            'reverseeon:liquefied_terror',
+            'incision:vile_fang',
+            'minecraft:spider_eye',
+            'minecraft:spider_eye',
+            'minecraft:spider_eye'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('reliquary:bat_wing'),
+        [
+            'reverseeon:liquefied_terror',
+            'butchery:bat_wing',
+            'butchery:bat_skin',
+            'butchery:bat_skin',
+            'butchery:bat_skin'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('clanginghowl:extraterrestrial_energy_crystal', 4),
+        [
+            'reverseeon:magnesia_crystal',
+            'clanginghowl:extraterrestrial_energy_crystal'
+        ]
+    )
+
+    event.shapeless(
+    Item.of('concatenatedadditionsmachines:stickyredstone'),
+    [
+        'netherman:crimson_web',
+        'minecraft:redstone'
+    ]
+)
+
+    event.shapeless(
+        Item.of('vampirism:blood_bottle', '{Damage:9}'),
+        [
+            Item.of('desecratedcore:blood_bucket')
         ]
     )
 

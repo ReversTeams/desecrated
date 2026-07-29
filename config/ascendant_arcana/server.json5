@@ -27,6 +27,15 @@
 	"very_rare_enchanting_power": 110,
 	// Enchanted Books can only have one enchantment on them. Otherwise, they use the regular capacity system.
 	"single_enchantment_books": true,
+	// Enchanted Books placed in Chiseled Bookshelves near an Enchanting Table will remove the scrap cost for that enchantment.
+	"books_remove_scrap_cost": false,
+	/* The amount of tiers having an Enchanted Book in a Chiseled Bookshelf bypasses.
+	   
+	   For example, if this is set to 1 and you have a Miasma book in a nearby bookshelf you could now
+	   enchant Miasma at Rare tier instead of Very Rare. If this is set to 4, books would completely
+	   remove the power tier requirement at the enchanting table. Setting this to 0 disables this feature.
+	*/
+	"books_tier_bypass": 1,
 	/* Ascendant Arcana disables many vanilla enchantments because they stress the capacity system too much with
 	   'required' enchantments. Enchantments are generally meant to be more interesting and meaningfully impactful
 	   but this list is configurable so you can enable or disable whatever you want.
@@ -76,17 +85,22 @@
 	// Enchantments which have their base rarity overwritten. Common is 1, Uncommon is 2, Rare is 3, Very Rare is 4. This might not work on modded enchantments.
 	"overwritten_rarities": {
 		"minecraft:knockback": 1,
-		"minecraft:thorns": 2,
 		"minecraft:sweeping": 2,
+		"minecraft:thorns": 2,
 		"minecraft:looting": 4,
+		"minecraft:feather_falling": 1,
 		"minecraft:flame": 2,
 		"minecraft:lure": 1,
-		"minecraft:fire_aspect": 2,
+		"minecraft:soul_speed": 3,
+		"minecraft:aqua_affinity": 2,
 		"minecraft:respiration": 2,
+		"minecraft:fire_aspect": 2,
+		"minecraft:swift_sneak": 3,
 		"minecraft:frost_walker": 2,
 		"minecraft:infinity": 3,
 		"minecraft:fortune": 4,
-		"minecraft:punch": 1
+		"minecraft:punch": 1,
+		"minecraft:channeling": 2
 	},
 	/* Damage Relics apply to thrown Tridents, melee weapons, as well as arrows and rockets fired from bows and
 	   crossbows.
@@ -99,16 +113,24 @@
 		"4": 0.26,
 		"5": 0.3
 	},
+	/* If this is true, infusing a durability relic applies the below bonus additively (i.e. the item's base
+	   durability + the relic durability).
+	   If this is false, infusing a durability relic applies the below bonus multiplicatively (i.e. the item's
+	   base durability * the relic durability).
+	*/
+	"durability_additive": true,
 	/* Durability Relics can apply to any item with a durability value. For all vanilla items, the default
 	   values are better than Unbreaking 3.
-	   Because durability is stored as an integer in-game, durability relics cannot contain decimal values.
+	   If durability_additive is true, these values must be integers.
+	   If durability_additive is false, these values are calculated as so: base * (1 + relic_strength)
+	   For example, a relic strength of 0.5 is a multiplier of 1.5.
 	*/
 	"durability_relic_strengths": {
-		"1": 300,
-		"2": 600,
-		"3": 900,
-		"4": 1200,
-		"5": 1600
+		"1": 300.0,
+		"2": 600.0,
+		"3": 900.0,
+		"4": 1200.0,
+		"5": 1600.0
 	},
 	/* Protection Relics reduce the damage taken from most sources. Generally, this is any instance of damage
 	   that the original Protection enchantment would protect you from. The default values here are slightly

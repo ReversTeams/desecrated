@@ -13,7 +13,7 @@ rebiomeStreams = true
 #
 #Show the one-time Streams Reflowing notice in chat the first time this world is opened.
 #  true = show it once per world (default).  false = never show it.
-welcomeMessage = true
+welcomeMessage = false
 
 #PERFORMANCE -- how FAST vs. how GOOD generation is. Costs CPU at world-gen time only; each
 #region builds once and is saved to disk forever, so the cost is one-time per area. If live
