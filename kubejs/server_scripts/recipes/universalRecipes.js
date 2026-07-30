@@ -553,17 +553,18 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-    Item.of('concatenatedadditionsmachines:stickyredstone'),
-    [
-        'netherman:crimson_web',
-        'minecraft:redstone'
-    ]
-)
+        Item.of('concatenatedadditionsmachines:stickyredstone'),
+        [
+            'netherman:crimson_web',
+            'minecraft:redstone'
+        ]
+    )
 
     event.shapeless(
         Item.of('vampirism:blood_bottle', '{Damage:9}'),
         [
-            Item.of('desecratedcore:blood_bucket')
+            'desecratedcore:blood_bucket',
+            'minecraft:glass_bottle'
         ]
     )
 
