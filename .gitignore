@@ -102,5 +102,7 @@ config/QuantifiedAPI/cache
 !config/overflowingbars-client.toml
 !config/parcool-client.toml
 !config/acceleratedrendering-client.toml
+!config/streamsreflowing-client.toml
+!config/vanillabackport-client.toml
 
 /mods - Copy

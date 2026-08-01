@@ -2173,6 +2173,72 @@
 			x: 2.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
+			id: "0D7BD35FCA5D3234"
+			rewards: [
+				{
+					id: "286D0BE5874A1FD2"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "parcool:parcool_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1478D0655204C65E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "78DEAF50A7DDBE7C"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			title: "Movement Opportunity"
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19AC0B8C0B44FA30"]
+			entity_vis_size: 1.0f
+			icon: "minecraft:anvil"
+			id: "68BE0B940A5F1F63"
+			rewards: [
+				{
+					id: "080E476DC09CC1B5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54D85B002EB4103B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "33F55463D2349F5F"
+				type: "checkmark"
+			}]
+			title: "Armor Weight"
+			x: -4.5d
+			y: -5.5d
+		}
 	]
 	title: "Fallen"
 }

@@ -230,6 +230,30 @@
 
 	[custom_classes.custom_5]
 		#Unique internal ID. Leave empty to disable.
+		id = "practitioner"
+		#Display name shown in GUI. (Supports translation keys)
+		name = "Practitioner"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "A noble vampire studying the arcane rituals and pact of the past."
+		#Cosmetic stat summary lines.
+		stats = ["&aVampire", "&aPractitioner Faction", "&a+4 Armor Toughness"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = "bloodyhell:sacrificial_dagger"
+		#Off hand item.
+		off_hand = "minecraft:lantern"
+		#Armor items.
+		armor = ["otherverse:witch_hat"]
+		#Starting items.
+		items = ["desecratedcore:practitioner_key_item", "vampiresneedumbrellas:gold_umbrella", "ftbquests:book"]
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/vampirism level vampirism:vampire 1 %player%"]
+
+	[custom_classes.custom_6]
+		#Unique internal ID. Leave empty to disable.
 		id = "outcast"
 		#Display name shown in GUI. (Supports translation keys)
 		name = "Sanguine Outcast"
@@ -251,30 +275,6 @@
 		icon = "usefulbackpacks:backpack_small"
 		#Commands to execute when this class is selected. Use %player% for player name.
 		commands = ["/vampirism level vampirism:vampire 1 %player%"]
-
-	[custom_classes.custom_6]
-		#Unique internal ID. Leave empty to disable.
-		id = ""
-		#Display name shown in GUI. (Supports translation keys)
-		name = "New Class"
-		#Lore text shown in the panel. (Supports translation keys)
-		description = "A custom path."
-		#Cosmetic stat summary lines.
-		stats = ["&a+20% Speed", "&c-2 Health"]
-		#Mechanical modifiers (format: attribute=value:operation).
-		attributes = []
-		#Main hand item.
-		main_hand = ""
-		#Off hand item.
-		off_hand = ""
-		#Armor items.
-		armor = []
-		#Starting items.
-		items = []
-		#Item ID for the class icon.
-		icon = "minecraft:paper"
-		#Commands to execute when this class is selected. Use %player% for player name.
-		commands = []
 
 	[custom_classes.custom_7]
 		#Unique internal ID. Leave empty to disable.

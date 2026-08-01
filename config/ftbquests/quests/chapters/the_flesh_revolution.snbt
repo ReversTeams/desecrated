@@ -89,6 +89,7 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.15d
 			subtitle: "Automated Blood"
 			tasks: [
 				{
@@ -268,6 +269,7 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.15d
 			tasks: [{
 				id: "272AFA21F258B742"
 				item: "butchery:blood_grate"
@@ -509,6 +511,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.1d
 			tasks: [
 				{
 					count: 8L
@@ -583,6 +586,7 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.15d
 			tasks: [{
 				id: "08310D2B943B756E"
 				item: "neepmeat:stirling_engine"
@@ -605,6 +609,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [{
 				id: "0B3C17EFE8E53631"
 				item: {
@@ -811,6 +816,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0B29D57C85AEB96E"
 				item: "neepmeat:grinder"
@@ -1062,7 +1068,7 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["7FA3BBF85B8DC373"]
+			dependencies: ["720FB6E79AB03072"]
 			entity_vis_size: 1.0f
 			id: "13F215BB3664621C"
 			rewards: [{
@@ -1075,8 +1081,8 @@
 				item: "neepmeat:mixer"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -21.0d
+			x: -5.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["3E79771244634868"]
@@ -1283,6 +1289,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [
 				{
 					id: "7FD3A5FA8D612405"
@@ -2203,8 +2210,8 @@
 				item: "neepmeat:fluid_drain"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -11.0d
+			x: -5.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -2258,7 +2265,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -17.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -3519,6 +3526,7 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.1d
 			tasks: [{
 				id: "2DC699AF1510ECA4"
 				item: "concatenatedadditionsmachines:boiler"
@@ -3673,6 +3681,18 @@
 			}]
 			x: 1.0d
 			y: -9.0d
+		}
+		{
+			dependencies: ["538E3136ADC8067A"]
+			entity_vis_size: 1.0f
+			id: "0EBD548B39FF4C0C"
+			tasks: [{
+				id: "418AC1B96D25D730"
+				item: "neepmeat:farming_scutter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -16.5d
 		}
 	]
 	title: "Flesh Industries"
