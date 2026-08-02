@@ -22,8 +22,10 @@ JEIEvents.information(event => {
   event.addItem( 'hexalia:witchweed', ['Generates naturally in the world.'])  
   event.addItem( 'hexalia:bottled_moth', ['Obtained by right clicking a moth with a bottle.']) 
 
-  event.addItem( 'ascendant_arcana:budding_restorine', ['Found deep within caves.'])
-  event.addItem( 'ascendant_arcana:netherrack_budding_restorine', ['Found within the Nether.'])
-  event.addItem( 'ascendant_arcana:massive_restorine_cluster', ['Found deep within caves and within the Nether.']) 
-  event.addItem( 'ascendant_arcana:restorine_cluster', ['Found deep within caves and within the Nether.']) 
+  event.addItem( 'ascendant_arcana:budding_restorine', ['Generates naturally in the world.'])
+  event.addItem( 'ascendant_arcana:netherrack_budding_restorine', ['Generates naturally in the world.'])
+  event.addItem( 'ascendant_arcana:massive_restorine_cluster', ['Generates naturally in the world.']) 
+  event.addItem( 'ascendant_arcana:restorine_cluster', ['Generates naturally in the world.']) 
+
+  event.addItem( 'incision:vile_fang', ['Drops from Seers found in the Eroded Yard in the Nether.']) 
 })

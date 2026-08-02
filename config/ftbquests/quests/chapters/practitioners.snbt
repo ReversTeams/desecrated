@@ -13,7 +13,7 @@
 		rotation: 0.0d
 		width: 2.5d
 		x: 0.0d
-		y: -18.5d
+		y: -20.5d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["37B247664DB669DC"]
@@ -71,7 +71,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -87,7 +87,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -9.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["7C44D6CC5F06EE5A"]
@@ -99,7 +99,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7C44D6CC5F06EE5A"]
@@ -124,9 +124,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -13.25d
+			y: -15.25d
 		}
 		{
+			dependencies: ["7E33324E83A9FB11"]
 			entity_vis_size: 1.0f
 			id: "7AEFA6BBDD4C4408"
 			tasks: [{
@@ -134,8 +135,8 @@
 				item: "otherverse:familiar_name_tag"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: 3.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["40E2EE8ADDA9A8C7"]
@@ -147,7 +148,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -16.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["40E2EE8ADDA9A8C7"]
@@ -159,7 +160,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -16.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["28113F3C960EC2FB"]
@@ -195,7 +196,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -10.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["7C44D6CC5F06EE5A"]
@@ -231,7 +232,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -10.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["50A72DE7F7F469A8"]
@@ -249,10 +250,12 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -11.5d
+			y: -13.5d
 		}
 		{
+			dependencies: ["28113F3C960EC2FB"]
 			entity_vis_size: 1.0f
+			hide_dependency_lines: true
 			id: "2159925CC272FFDC"
 			tasks: [{
 				id: "544B2646558CBFCB"
@@ -265,8 +268,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -10.5d
+			x: 7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7C44D6CC5F06EE5A"]
@@ -317,7 +320,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: -15.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["30537F36DD89908A"]
@@ -330,7 +333,7 @@
 				type: "advancement"
 			}]
 			x: -3.0d
-			y: -11.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["7E33324E83A9FB11"]
@@ -342,8 +345,8 @@
 				id: "61BC11268110DE45"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: -11.5d
+			x: 2.5d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -368,7 +371,25 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -18.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "19F20EAC8BEF1A37"
+			tasks: [{
+				id: "637362677E8A153D"
+				item: {
+					Count: 1
+					id: "incision:burial_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	title: "Practitioners"

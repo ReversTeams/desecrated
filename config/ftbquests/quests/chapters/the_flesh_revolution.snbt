@@ -12,14 +12,14 @@
 			image: "clanginghowl:block/active_nerve_endings"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.5d
-			y: -24.5d
+			x: 11.0d
+			y: -35.0d
 		}
 		{
-			height: 1.0d
+			height: 1.5d
 			image: "neepmeat:block/advanced_integrator/danglies_1"
 			rotation: -180.0d
-			width: 1.0d
+			width: 1.5d
 			x: 0.5d
 			y: -17.0d
 		}
@@ -974,6 +974,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.25d
 			tasks: [{
 				id: "3AF7107D50C214B4"
 				item: "neepmeat:pedestal"
@@ -991,14 +992,14 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			size: 1.2d
+			size: 1.25d
 			tasks: [{
 				id: "0888C202C4A4650A"
 				item: "neepmeat:plc"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -21.5d
+			x: 1.25d
+			y: -21.25d
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
@@ -1060,6 +1061,32 @@
 						}
 					}
 					title: "Any Fluid Pipe"
+					type: "item"
+				}
+				{
+					id: "69B59766751215D4"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "neepmeat:stop_valve"
+								}
+								{
+									Count: 1b
+									id: "neepmeat:limiter_valve"
+								}
+								{
+									Count: 1b
+									id: "neepmeat:filter_pipe"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Any Control Pipe"
 					type: "item"
 				}
 			]
@@ -1451,23 +1478,12 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [
-				{
-					id: "68D7842531D30CBE"
-					item: "neepmeat:upgrade_manager"
-					type: "item"
-				}
-				{
-					id: "7D6F59FE0F85E087"
-					item: "neepmeat:surgery_platform"
-					type: "item"
-				}
-				{
-					id: "3A7987AE391E76F8"
-					item: "neepmeat:implanter"
-					type: "item"
-				}
-			]
+			size: 1.15d
+			tasks: [{
+				id: "7D6F59FE0F85E087"
+				item: "neepmeat:surgery_platform"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -23.0d
 		}
@@ -1509,7 +1525,7 @@
 				item: "neepmeat:tree_vacuum"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -22.5d
 		}
 		{
@@ -1544,7 +1560,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -24.0d
+			y: -23.5d
 		}
 		{
 			dependencies: [
@@ -2143,7 +2159,7 @@
 			y: -17.0d
 		}
 		{
-			dependencies: ["538E3136ADC8067A"]
+			dependencies: ["2DAC335CFE949E98"]
 			entity_vis_size: 1.0f
 			id: "5EAEE969037829A4"
 			rewards: [{
@@ -2156,8 +2172,8 @@
 				item: "neepmeat:divine_organ"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -19.0d
+			x: 4.5d
+			y: -30.0d
 		}
 		{
 			dependencies: [
@@ -2171,13 +2187,30 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [{
-				id: "5BF0AE9951126261"
-				item: "neepmeat:phage_ray"
+				id: "0E28824A80592EAA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "meatweapons:short_phage_ray"
+							}
+							{
+								Count: 1b
+								id: "neepmeat:phage_ray"
+							}
+						]
+					}
+				}
+				title: "Any Phage Ray"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -21.0d
+			x: 5.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -2264,8 +2297,8 @@
 				item: "neepmeat:transducer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -17.5d
+			x: 4.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -2313,7 +2346,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -19.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["7522632161D258AA"]
@@ -2741,13 +2774,20 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "01546538BF4FA32C"
-				item: "clanginghowl:extraterrestrial_steel_ingot"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -25.0d
+			tasks: [
+				{
+					id: "01546538BF4FA32C"
+					item: "clanginghowl:extraterrestrial_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "4B23299E7405B6FF"
+					item: "clanginghowl:extraterrestrial_steel_nugget"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -34.0d
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
@@ -2763,8 +2803,8 @@
 				item: "clanginghowl:extraterrestrial_energy_crystal"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -25.0d
+			x: 5.5d
+			y: -35.0d
 		}
 		{
 			dependencies: ["4D2F18ACAB325F21"]
@@ -2823,8 +2863,8 @@
 				title: "Any Extraterrestrial Steel Tool"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -26.0d
+			x: 9.0d
+			y: -35.0d
 		}
 		{
 			dependencies: ["4D2F18ACAB325F21"]
@@ -2846,8 +2886,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -27.5d
+			x: 8.0d
+			y: -36.5d
 		}
 		{
 			dependencies: [
@@ -2873,8 +2913,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -27.0d
+			x: 4.5d
+			y: -37.5d
 		}
 		{
 			dependencies: ["47271D8E8C2CAA7C"]
@@ -2897,8 +2937,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -29.0d
+			x: 4.0d
+			y: -39.5d
 		}
 		{
 			dependencies: ["47734465F52F456E"]
@@ -2921,8 +2961,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -30.5d
+			x: 4.5d
+			y: -41.0d
 		}
 		{
 			dependencies: [
@@ -2941,8 +2981,8 @@
 				item: "clanginghowl:battery_panel"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -29.5d
+			x: 8.5d
+			y: -39.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2965,8 +3005,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -31.5d
+			x: 7.0d
+			y: -41.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -2989,8 +3029,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -31.5d
+			x: 9.5d
+			y: -41.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3013,8 +3053,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -30.0d
+			x: 10.5d
+			y: -40.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3037,8 +3077,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -32.0d
+			x: 8.5d
+			y: -42.0d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -3055,12 +3095,13 @@
 				item: "clanginghowl:techno_optics"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -26.5d
+			x: 13.0d
+			y: -37.0d
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
 			entity_vis_size: 1.0f
+			icon: "clanginghowl:flesh_maiden_spawn_egg"
 			id: "19BA5E36EDE9AD6D"
 			rewards: [{
 				id: "694AC34CF861D1B7"
@@ -3069,33 +3110,26 @@
 			}]
 			tasks: [
 				{
-					id: "3169D4530F6B8C0E"
-					structure: "clanginghowl:extraterrestrial_nest"
+					icon: "clanginghowl:crystal_former"
+					id: "011A987CB61F1930"
+					structure: "clanginghowl:research_cabin"
 					type: "structure"
 				}
 				{
-					id: "1BD4A60300482EA9"
+					icon: "clanginghowl:barrier_of_extraterrestrial_activity"
+					id: "494477848646FA34"
+					structure: "clanginghowl:research_station"
+					type: "structure"
+				}
+				{
+					icon: "clanginghowl:consummate_nest"
+					id: "7636B90CFD0ED61D"
 					structure: "clanginghowl:large_extraterrestrial_nest"
 					type: "structure"
 				}
-				{
-					id: "6D7B09B707A56609"
-					structure: "clanginghowl:medium_extraterrestrial_object"
-					type: "structure"
-				}
-				{
-					id: "45516E93E07F2336"
-					structure: "clanginghowl:medium_extraterrestrial_object"
-					type: "structure"
-				}
-				{
-					id: "09338FA0DD0939E4"
-					structure: "clanginghowl:large_extraterrestrial_object"
-					type: "structure"
-				}
 			]
-			x: 12.5d
-			y: -24.0d
+			x: 11.0d
+			y: -34.5d
 		}
 		{
 			dependencies: [
@@ -3121,8 +3155,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: -28.0d
+			x: 14.5d
+			y: -38.5d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -3139,8 +3173,8 @@
 				item: "clanginghowl:advanced_electronics"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -25.5d
+			x: 14.5d
+			y: -36.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3163,8 +3197,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -27.5d
+			x: 16.0d
+			y: -38.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3187,8 +3221,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: -26.0d
+			x: 17.0d
+			y: -36.5d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3211,8 +3245,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: -24.5d
+			x: 17.0d
+			y: -35.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3235,8 +3269,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -23.5d
+			x: 16.0d
+			y: -34.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3252,8 +3286,8 @@
 				item: "clanginghowl:bloody_battery"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -23.5d
+			x: 14.5d
+			y: -34.0d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -3270,8 +3304,8 @@
 				item: "clanginghowl:techno_heart"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -26.5d
+			x: 11.5d
+			y: -37.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3294,8 +3328,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: -23.5d
+			x: 13.0d
+			y: -34.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3317,8 +3351,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -29.0d
+			x: 10.5d
+			y: -38.5d
 		}
 		{
 			dependencies: ["47271D8E8C2CAA7C"]
@@ -3350,8 +3384,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -27.5d
+			x: 3.0d
+			y: -38.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3367,11 +3401,14 @@
 				item: "clanginghowl:stationary_charging_station"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -29.0d
+			x: 9.5d
+			y: -37.5d
 		}
 		{
-			dependencies: ["173599F954578016"]
+			dependencies: [
+				"173599F954578016"
+				"76268D2BD1283EF4"
+			]
 			entity_vis_size: 1.0f
 			id: "5AA74C527B4105F6"
 			rewards: [{
@@ -3384,8 +3421,8 @@
 				item: "clanginghowl:crystal_former"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -26.0d
+			x: 6.5d
+			y: -36.5d
 		}
 		{
 			dependencies: ["3F82A1635119FC83"]
@@ -3401,8 +3438,8 @@
 				item: "clanginghowl:extraterrestrial_steel_plate"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -27.5d
+			x: 7.0d
+			y: -38.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3418,8 +3455,8 @@
 				item: "clanginghowl:barrier_of_extraterrestrial_activity"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -30.0d
+			x: 6.0d
+			y: -39.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3434,8 +3471,8 @@
 				item: "incision:eyebulb"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -19.5d
+			x: 9.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["5CBF6B358D34087C"]
@@ -3451,8 +3488,8 @@
 				item: "incision:lens_glass"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -20.5d
+			x: 10.0d
+			y: -31.5d
 		}
 		{
 			dependencies: ["5CBF6B358D34087C"]
@@ -3468,8 +3505,8 @@
 				item: "incision:conductor_nerve"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -20.5d
+			x: 8.0d
+			y: -31.0d
 		}
 		{
 			description: ["Browne can be found in caves."]
@@ -3691,8 +3728,140 @@
 				item: "neepmeat:farming_scutter"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["538E3136ADC8067A"]
+			entity_vis_size: 1.0f
+			id: "647EC0D4E1BC3C39"
+			tasks: [{
+				id: "31A620CA4E38F829"
+				item: "neepmeat:living_tool_implant"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7DC39383E7D870D5"]
+			entity_vis_size: 1.0f
+			id: "086B0EC8D5891154"
+			tasks: [{
+				id: "18FECCA148271D36"
+				item: "neepmeat:grave_brome"
+				type: "item"
+			}]
+			x: -1.0d
 			y: -16.5d
+		}
+		{
+			dependencies: ["64FCA03D70F9CBEC"]
+			entity_vis_size: 1.0f
+			id: "2DAC335CFE949E98"
+			size: 1.25d
+			tasks: [{
+				id: "0617425C5A771B6C"
+				item: "neepmeat:advanced_integrator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["6316E079115AB0BC"]
+			entity_vis_size: 1.0f
+			id: "62D4C1223BCCADBD"
+			tasks: [
+				{
+					id: "13A1C34007267AA8"
+					item: "neepmeat:upgrade_manager"
+					type: "item"
+				}
+				{
+					id: "686F7FFC5094AD55"
+					item: "neepmeat:implanter"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["6316E079115AB0BC"]
+			entity_vis_size: 1.0f
+			id: "7E578A9787FE3B42"
+			tasks: [{
+				id: "73850BBB7711095F"
+				item: "neepmeat:chrysalis"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -24.5d
+		}
+		{
+			dependencies: ["7E578A9787FE3B42"]
+			entity_vis_size: 1.0f
+			id: "64FCA03D70F9CBEC"
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: true
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "6249353CDACC6515"
+					observe_type: 5
+					timer: 0L
+					title: "Witness?"
+					to_observe: "neepmeat:bovine_horror"
+					type: "observation"
+				}
+				{
+					id: "3EC640781908B160"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "neepmeat:goggles"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "neepmeat:pineal_eye"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Any Sight Option"
+					type: "item"
+				}
+			]
+			title: "The Bovine Horror"
+			x: 3.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["5EAEE969037829A4"]
+			entity_vis_size: 1.0f
+			id: "30BF5FDB595996F0"
+			tasks: [{
+				id: "050402C243C48C37"
+				item: "neepmeat:charnel_pump"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -29.0d
 		}
 	]
 	title: "Flesh Industries"
