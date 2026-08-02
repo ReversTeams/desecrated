@@ -106,3 +106,5 @@ config/QuantifiedAPI/cache
 !config/vanillabackport-client.toml
 
 /mods - Copy
+
+eula.txt

@@ -5,7 +5,9 @@ ServerEvents.recipes(event => {
 
     const remove = [
         'otherverse:cinnabar',
-        'patchouli:guide_book'
+        'patchouli:guide_book',
+        'otherverse:chalk',
+        'otherverse:demesne_beacon'
     ]
 
     remove.forEach(item => {
@@ -13,6 +15,20 @@ ServerEvents.recipes(event => {
     })
 
     // Pact Magic Recipes
+    event.shaped(
+        Item.of('desecratedcore:practitioner_key_item'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'concatenatedadditionstools:experience_orb',
+            C: 'desecratedcore:chooser_key_item',
+            B: 'minecraft:paper'
+        }
+    )
+
     event.shapeless(
         Item.of('otherverse:salt', 2),
         [
@@ -57,6 +73,31 @@ ServerEvents.recipes(event => {
             'minecraft:sand'
         ]
     ).keepIngredient('desecratedcore:practitioner_key_item')
+
+    event.shapeless(
+        Item.of('otherverse:chalk'),
+        [
+            'desecratedcore:practitioner_key_item',
+            'minecraft:calcite',
+            'minecraft:calcite'
+        ]
+    ).keepIngredient('desecratedcore:practitioner_key_item')
+
+    event.shaped(
+        Item.of('otherverse:demesne_beacon'),
+        [
+            'ABA',
+            'ACA',
+            'DED'
+        ],
+        {
+            A: 'quark:lime_framed_glass',
+            B: 'celestisynth:eyebomination',
+            E: 'otherverse:cinnabar',
+            C: 'vampirism:vampire_beacon',
+            D: 'sons_of_sins:soul_steel'
+        }
+    )
 
     event.shaped(
         Item.of('patchouli:guide_book', '{"patchouli:book":"otherverse:implementum"}'),
@@ -178,6 +219,20 @@ ServerEvents.recipes(event => {
             'minecraft:book',
             'bloodyhell:sanguinite'
         ]
+    )
+
+    event.shaped(
+        Item.of('desecratedcore:sight'),
+        [
+            ' C ',
+            'CAC',
+            ' B '
+        ],
+        {
+            A: 'incision:lens_glass_pane',
+            C: 'minecraft:gold_ingot',
+            B: 'minecraft:copper_ingot'
+        }
     )
 
 

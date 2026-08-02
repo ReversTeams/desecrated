@@ -1,6 +1,0 @@
-*.properties filter=cleanTimestamps
-*.zip.txt filter=cleanTimestamps
-mcreator_mem_fix.json filter=cleanMemfixHash
-
-oculus.properties filter=stripComments
-c2me.toml filter=stripComments
