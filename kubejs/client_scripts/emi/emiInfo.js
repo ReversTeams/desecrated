@@ -28,4 +28,5 @@ JEIEvents.information(event => {
   event.addItem( 'ascendant_arcana:restorine_cluster', ['Generates naturally in the world.']) 
 
   event.addItem( 'incision:vile_fang', ['Drops from Seers found in the Eroded Yard in the Nether.']) 
+  event.addItem( 'incision:eyebulb', ['Found in the Eroded Yard in the Nether.']) 
 })

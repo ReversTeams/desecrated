@@ -221,5 +221,19 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.shaped(
+        Item.of('desecratedcore:sight'),
+        [
+            ' C ',
+            'CAC',
+            ' B '
+        ],
+        {
+            A: 'incision:lens_glass_pane',
+            C: 'minecraft:gold_ingot',
+            B: 'minecraft:copper_ingot'
+        }
+    )
+
 
 })

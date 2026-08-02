@@ -391,6 +391,18 @@
 			x: 0.0d
 			y: -6.5d
 		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "5A2A09B8A70D8D0E"
+			tasks: [{
+				id: "4B8BF5B5E52FEB4C"
+				item: "desecratedcore:sight"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
 	]
 	title: "Practitioners"
 }
