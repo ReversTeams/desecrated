@@ -24,4 +24,9 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('mahoutsukai:pestle', 'Celestial Mortar');
   event.renameItem('mahoutsukai:mortar', 'Celestial Pestle');
   event.renameItem('mahoutsukai:guidebook', 'Mahou Shomotsu');
+
+  event.renameItem('incision:nerve', 'Eyebulb Nerve');
+
+  event.renameItem('otherverse:sulfur', 'Ritual Sulfur');
+  event.renameItem('otherverse:salt', 'Ritual Salt');
 })

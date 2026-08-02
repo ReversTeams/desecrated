@@ -1567,6 +1567,20 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('ascendant_arcana:relic', '{RelicStrength:5,RelicType:4}'),
+        [
+            ' A ',
+            'BCB',
+            ' B '
+        ],
+        {
+            B: 'concatenatedadditionstools:experience_orb',
+            C: 'reliquary:void_tear',
+            A: 'fracture:crumbling_void_gem'
+        }
+    )
+
     // Celestisynth
 
     event.shaped(

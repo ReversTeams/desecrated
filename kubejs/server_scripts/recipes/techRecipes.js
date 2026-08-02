@@ -18,7 +18,18 @@ ServerEvents.recipes(event => {
         'neepmeat:charnel_compactor',
         'neepmeat:pedestal',
         'neepmeat:hungry_heterostructure',
-        'concatenatedadditionsmachines:galvanized_iron_casing'
+        'concatenatedadditionsmachines:galvanized_iron_casing',
+        'meatweapons:short_phage_ray',
+        'clanginghowl:extraterrestrial_steel_nugget',
+        "clanginghowl:extraterrestrial_hoe",
+        "clanginghowl:drill_bit",
+        "clanginghowl:extraterrestrial_sword", 
+        "clanginghowl:extraterrestrial_hammer", 
+        "clanginghowl:extraterrestrial_shovel", 
+        "clanginghowl:extraterrestrial_pickaxe", 
+        "clanginghowl:extraterrestrial_axe", 
+        "clanginghowl:battery_panel", 
+        "clanginghowl:industrial_adjustable_wrench"
     ]
 
     const removeCraftingShaped = [
@@ -371,6 +382,160 @@ ServerEvents.recipes(event => {
             C: 'incision:conductor_nerve',
             B: 'minecraft:diamond',
             A: '#desecrated:flesh_circuit'
+        }
+    )
+
+    event.shaped(
+        Item.of('meatweapons:short_phage_ray'),
+        [
+            'AAB',
+            'CDE',
+            'AA '
+        ],
+        {
+            A: 'neepmeat:meat_steel_ingot',
+            D: 'neepmeat:hungry_heterostructure',
+            E: 'neepmeat:divine_organ',
+            B: 'neepmeat:breaker',
+            C: 'meatweapons:meat_steel_barrel'
+        }
+    )
+
+    // Clanging Howl
+
+    event.shapeless(
+        Item.of('clanginghowl:extraterrestrial_steel_nugget', 9),
+        [
+            'clanginghowl:extraterrestrial_steel_ingot'
+        ]
+    )
+
+    event.shaped(
+        Item.of('clanginghowl:extraterrestrial_sword'),
+        [
+            ' A ',
+            ' A ',
+            'BCB'
+        ],
+        {
+            B: 'clanginghowl:steel_rod',
+            C: 'desecratedcore:extraterrestrial_core',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('clanginghowl:extraterrestrial_shovel'),
+        [
+            ' A ',
+            ' B ',
+            'BCB'
+        ],
+        {
+            B: 'clanginghowl:steel_rod',
+            C: 'desecratedcore:extraterrestrial_core',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('clanginghowl:extraterrestrial_pickaxe'),
+        [
+            'AAA',
+            ' B ',
+            'BCB'
+        ],
+        {
+            B: 'clanginghowl:steel_rod',
+            C: 'desecratedcore:extraterrestrial_core',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('clanginghowl:extraterrestrial_axe'),
+        [
+            ' AA',
+            ' BA',
+            'BCB'
+        ],
+        {
+            B: 'clanginghowl:steel_rod',
+            C: 'desecratedcore:extraterrestrial_core',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('clanginghowl:extraterrestrial_hoe'),
+        [
+            'AA ',
+            ' B ',
+            'BCB'
+        ],
+        {
+            B: 'clanginghowl:steel_rod',
+            C: 'desecratedcore:extraterrestrial_core',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('clanginghowl:extraterrestrial_hammer'),
+        [
+            'AAA',
+            'ABA',
+            'BCB'
+        ],
+        {
+            B: 'clanginghowl:steel_rod',
+            C: 'desecratedcore:extraterrestrial_core',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('clanginghowl:drill_bit'),
+        [
+            ' AB',
+            'CDA',
+            'CC '
+        ],
+        {
+            C: 'clanginghowl:extraterrestrial_steel_nugget',
+            B: 'thedulling:dense_copper_ingot',
+            D: 'desecratedcore:extraterrestrial_core',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
+        }
+    )
+
+    event.shapeless(
+        Item.of('clanginghowl:battery_panel'),
+        [
+            'desecratedcore:extraterrestrial_core',
+            'clanginghowl:diamond_diode',
+            'clanginghowl:diamond_diode',
+            'clanginghowl:redstone_wire',
+            'clanginghowl:redstone_wire',
+            'clanginghowl:energy_battery',
+            'clanginghowl:extraterrestrial_steel_plate',
+            'thedulling:dense_copper_ingot'
+        ]
+    )
+
+    event.shaped(
+        Item.of('clanginghowl:industrial_adjustable_wrench'),
+        [
+            'AB ',
+            'ACD',
+            ' E '
+        ],
+        {
+            B: 'thedulling:ultra_dense_copper_ingot',
+            C: 'desecratedcore:extraterrestrial_core',
+            E: 'clanginghowl:steel_rod',
+            D: 'clanginghowl:battery_panel',
+            A: 'clanginghowl:extraterrestrial_steel_plate'
         }
     )
 

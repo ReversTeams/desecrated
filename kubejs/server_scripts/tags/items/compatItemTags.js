@@ -125,6 +125,18 @@ ServerEvents.tags('item', event => {
         'minecraft:resin_clump'
     ]);
 
+    add('forge:salt', [
+        'otherverse:salt'
+    ]);
+
+    add('forge:sulfur', [
+        'otherverse:sulfur'
+    ]);
+
+    add('forge:cinnabar', [
+        'otherverse:cinnabar'
+    ]);
+
     add('forge:ores', [
         'concatenatedadditionsmachines:zinc_ore',
         'butchery:sulfur_ore',

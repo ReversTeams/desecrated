@@ -1,0 +1,408 @@
+{
+	autofocus_id: "28113F3C960EC2FB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "practitioners"
+	group: "77396AEB02AB4898"
+	icon: "otherverse:spindle_bloody"
+	id: "0A1C5505E3764781"
+	images: [{
+		alpha: 180
+		height: 2.5d
+		image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+		rotation: 0.0d
+		width: 2.5d
+		x: 0.0d
+		y: -20.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28113F3C960EC2FB"]
+			entity_vis_size: 1.0f
+			id: "7C44D6CC5F06EE5A"
+			size: 1.15d
+			tasks: [{
+				id: "0B8F2786B6437048"
+				item: {
+					Count: 1
+					id: "otherverse:chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "28113F3C960EC2FB"
+			size: 1.1d
+			tasks: [{
+				id: "10F6168D3045E419"
+				item: "desecratedcore:practitioner_key_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37B247664DB669DC"]
+			entity_vis_size: 1.0f
+			id: "1B71F321DDDB43BE"
+			tasks: [{
+				id: "10DF1A8B47171D01"
+				item: "otherverse:sulfur"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["37B247664DB669DC"]
+			entity_vis_size: 1.0f
+			id: "7595E652A71C5C23"
+			tasks: [{
+				id: "7BD60EE2F5A0C73F"
+				item: "otherverse:salt"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"7595E652A71C5C23"
+				"1B71F321DDDB43BE"
+				"37B247664DB669DC"
+			]
+			entity_vis_size: 1.0f
+			id: "50A72DE7F7F469A8"
+			tasks: [{
+				id: "7334C8F098FD402C"
+				item: "otherverse:cinnabar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "37B247664DB669DC"
+			tasks: [{
+				id: "46A1E418092BBD4F"
+				item: "otherverse:quicksilver"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "20353FB09B3448DF"
+			tasks: [{
+				id: "087BE6DD5493EF4C"
+				item: "otherverse:slate_scaffolding"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48F8FF74566C7387"]
+			entity_vis_size: 1.0f
+			id: "1C450EB80B3640B0"
+			size: 1.25d
+			tasks: [{
+				id: "315C69A097958D08"
+				item: "otherverse:demesne_beacon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.25d
+		}
+		{
+			dependencies: ["7E33324E83A9FB11"]
+			entity_vis_size: 1.0f
+			id: "7AEFA6BBDD4C4408"
+			tasks: [{
+				id: "3E40287E0D51F16E"
+				item: "otherverse:familiar_name_tag"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["40E2EE8ADDA9A8C7"]
+			entity_vis_size: 1.0f
+			id: "58F05C0FA730DB45"
+			tasks: [{
+				id: "672304FEED33F4C4"
+				item: "otherverse:writ"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["40E2EE8ADDA9A8C7"]
+			entity_vis_size: 1.0f
+			id: "0D623B0A807B1063"
+			tasks: [{
+				id: "19A919AF536C0053"
+				item: "otherverse:escape_rope"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["28113F3C960EC2FB"]
+			entity_vis_size: 1.0f
+			id: "60A31D681BDC05E7"
+			tasks: [{
+				id: "75C25BA1A4112339"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "otherverse:essentials"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50A72DE7F7F469A8"]
+			entity_vis_size: 1.0f
+			id: "30537F36DD89908A"
+			tasks: [{
+				id: "0FD7F8E7A8DE1DE4"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "otherverse:implementum"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "07F5553CDA26F8F8"
+			tasks: [{
+				id: "01E9A2882EF116B6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "otherverse:shamanism"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50A72DE7F7F469A8"]
+			entity_vis_size: 1.0f
+			id: "7E33324E83A9FB11"
+			tasks: [{
+				id: "2C137CAE3E39D1C1"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "otherverse:famulus"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50A72DE7F7F469A8"]
+			entity_vis_size: 1.0f
+			id: "48F8FF74566C7387"
+			tasks: [{
+				id: "166DA0E822825E0A"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "otherverse:demesnes"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["28113F3C960EC2FB"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2159925CC272FFDC"
+			tasks: [{
+				id: "544B2646558CBFCB"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "otherverse:ruins"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "54B8C72CDCC49101"
+			tasks: [{
+				advancement: "otherverse:hallow"
+				criterion: ""
+				id: "28BF2AC150C5F65C"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "1661BFE8D9C12596"
+			tasks: [{
+				advancement: "otherverse:bind"
+				criterion: ""
+				id: "1BC89FF4D454AF18"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20353FB09B3448DF"]
+			entity_vis_size: 1.0f
+			id: "21B85F3664C5CEB5"
+			tasks: [{
+				id: "052084D2C9348C2C"
+				item: "otherverse:contract"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C450EB80B3640B0"]
+			entity_vis_size: 1.0f
+			id: "40E2EE8ADDA9A8C7"
+			tasks: [{
+				advancement: "otherverse:demesnes"
+				criterion: ""
+				id: "455D82272A4CBDAF"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["30537F36DD89908A"]
+			entity_vis_size: 1.0f
+			id: "5F5A678874D9153D"
+			tasks: [{
+				advancement: "otherverse:implementum"
+				criterion: ""
+				id: "1C34D2BA506BFD92"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7E33324E83A9FB11"]
+			entity_vis_size: 1.0f
+			id: "79B2A8FEA9325E75"
+			tasks: [{
+				advancement: "otherverse:famulus"
+				criterion: ""
+				id: "61BC11268110DE45"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"40E2EE8ADDA9A8C7"
+				"5F5A678874D9153D"
+				"79B2A8FEA9325E75"
+				"1661BFE8D9C12596"
+				"54B8C72CDCC49101"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			icon: "desecratedcore:chooser_key_item"
+			id: "5182A801B0828319"
+			rewards: [{
+				id: "13EBF279BEC6DF63"
+				item: "desecratedcore:chooser_key_item"
+				type: "item"
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "1B037882C78727D6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "19F20EAC8BEF1A37"
+			tasks: [{
+				id: "637362677E8A153D"
+				item: {
+					Count: 1
+					id: "incision:burial_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7C44D6CC5F06EE5A"]
+			entity_vis_size: 1.0f
+			id: "5A2A09B8A70D8D0E"
+			tasks: [{
+				id: "4B8BF5B5E52FEB4C"
+				item: "desecratedcore:sight"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+	]
+	title: "Practitioners"
+}

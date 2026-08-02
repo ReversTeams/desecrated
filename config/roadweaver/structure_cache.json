@@ -14,6 +14,7 @@
     "minecraft:overworld",
     "perdition:purgatory",
     "mahoutsukai:reality_marble",
+    "otherverse:ruins",
     "bloodyhell:soul_dimension",
     "minecraft:the_end",
     "minecraft:the_nether",
@@ -2278,6 +2279,14 @@
       "isVanilla": false,
       "dimensions": [
         "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "otherverse:brazier",
+      "displayName": "Brazier",
+      "isVanilla": false,
+      "dimensions": [
+        "otherverse:ruins"
       ]
     },
     {

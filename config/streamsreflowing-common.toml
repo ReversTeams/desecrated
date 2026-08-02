@@ -10,22 +10,20 @@ generateRivers = true
 #feature, so it never changes what the surrounding biome placed. Applies to NEW chunks only.
 #  true = on.  false = off (default).
 rebiomeStreams = true
+#
+#Show the one-time Streams Reflowing notice in chat the first time this world is opened.
+#  true = show it once per world (default).  false = never show it.
+welcomeMessage = false
 
 #PERFORMANCE -- how FAST vs. how GOOD generation is. Costs CPU at world-gen time only; each
 #region builds once and is saved to disk forever, so the cost is one-time per area. If live
 #hitches bother you, pre-generate ahead with a mod like Chunky.
 [performance]
-	#The one performance dial. Higher = finer, more accurate rivers but a longer one-time build per
-	#region; lower = coarser rivers, near-instant. Choose by CPU strength and whether you pre-generate.
 	#
-	#  POTATO   ~4s/region   smoothest while flying; coarse rivers
-	#  LOW      ~12s         smooth while flying
-	#  MEDIUM   ~19s         default; brief hitch into never-seen land
-	#  HIGH     ~1min        pre-gen (Chunky) suggested
-	#  EXTREME  ~20min       pre-gen needed
-	#  MAX      ~1hr         pre-gen mandatory; finest
-	#(Rough, one-time per region, on heavy Tectonic terrain; vanilla is far cheaper.)
-	#Allowed: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX.
+	#(Legacy) The former name of the setting above. Kept only so an existing config is not
+	#silently reset when the option was renamed: if this is set to anything other than MEDIUM
+	#while terrainAccuracyLevel is still at its default, this value is used. Set
+	#terrainAccuracyLevel instead -- this one will be removed in a later version.
 	#Allowed Values: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX
 	qualityPreset = "LOW"
 	#
@@ -40,6 +38,19 @@ rebiomeStreams = true
 	#  larger sizes make each pause longer but less frequent.
 	#Range: -1 ~ 8192
 	plateSize = -1
+	#The one performance dial. Higher = finer, more accurate rivers but a longer one-time build per
+	#region; lower = coarser rivers, near-instant. Choose by CPU strength and whether you pre-generate.
+	#
+	#  POTATO   ~4s/region   smoothest while flying; coarse rivers
+	#  LOW      ~12s         smooth while flying
+	#  MEDIUM   ~19s         default; brief hitch into never-seen land
+	#  HIGH     ~1min        pre-gen (Chunky) suggested
+	#  EXTREME  ~20min       pre-gen needed
+	#  MAX      ~1hr         pre-gen mandatory; finest
+	#(Rough, one-time per region, on heavy Tectonic terrain; vanilla is far cheaper.)
+	#Allowed: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX.
+	#Allowed Values: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX
+	terrainAccuracyLevel = "MEDIUM"
 
 #APPEARANCE -- how streams look. These shape the network and channels and do NOT meaningfully
 #affect speed. Anything that changes the network (most of these) applies to NEW chunks only.
@@ -109,7 +120,7 @@ rebiomeStreams = true
 	#
 	#How NOISY/ragged the bank edges are: max +/- blocks of random jitter on the cut edge.
 	#  HIGHER = rougher, more broken-up banks.  0 = perfectly smooth, straight-edged cuts.
-	#Default 0.35. Carve-only: applies to new chunks without rebuilding networks.
+	#Default 0.21. Carve-only: applies to new chunks without rebuilding networks.
 	#Range: 0.0 ~ 3.0
 	bankNoise = 0.35
 	#
@@ -125,7 +136,8 @@ rebiomeStreams = true
 	#  2 = biome-boost: as 1, plus the BIOME'S OWN plants and rocks (whatever it normally places --
 	#      flowers, cacti, dead bushes, boulders, etc.) at higher density near the water, so banks
 	#      match their biome and any terrain mod. (Trees are never re-placed.)
-	# -1 = auto (follow preset: POTATO none, LOW simple, MEDIUM/HIGH/EXTREME/MAX biome-boost).
+	# -1 = auto: simple on every accuracy level except the lowest, which places none.
+	#      Biome-boost is never automatic -- set 2 here to turn it on.
 	#Applies to NEW chunks only.
 	#Range: -1 ~ 2
 	vegetation = -1
@@ -135,7 +147,8 @@ rebiomeStreams = true
 	#  0 = off (only this mod's streams get flora, at the 'vegetation' level above).
 	#  1 = extra grass/ferns/flowers around all water.
 	#  2 = biome-boost (also re-runs the biome's own plants/rocks) + extra grass around all water.
-	# -1 = auto (follow preset: off for POTATO/LOW, level 2 for MEDIUM and above).
+	# -1 = auto: off on the lowest accuracy level, level 1 above it. Biome-boost is never
+	#      automatic -- set 2 here to turn it on.
 	#Range: -1 ~ 2
 	allWaterFlora = -1
 	#
@@ -214,6 +227,16 @@ rebiomeStreams = true
 	##streamsreflowing:no_underwater_flora, which SHIPS with snowy + desert biomes (both are honoured).
 	#New chunks only. Default empty (the shipped tag still applies).
 	underwaterFloraBiomeBlacklist = ""
+	#
+	#SHORTEST STREAM -- the shortest stream, in BLOCKS, allowed to run from its own source
+	#straight into the sea. Anything shorter is dropped, which clears the short nubs that
+	#otherwise dot a coastline. Streams that join another stream, or end in a lake, are never
+	#affected -- this is only about stubs meeting the ocean.
+	#  0 = keep every stream, however short.
+	#Dry biomes are always exempt: a desert wash is short by nature and worth keeping.
+	#Default 50. New chunks only.
+	#Range: 0 ~ 2000
+	minStreamLength = 50
 
 #WATER & BOATS -- runtime behaviour of water itself. These affect ALL water in the world, not
 #just this mod's streams, and apply LIVE (no regeneration needed).
@@ -265,6 +288,11 @@ rebiomeStreams = true
 	#Has no effect unless Flowing Fluids is present. New chunks only.
 	#  true = use the stream fluid under Flowing Fluids (default).  false = always plain water.
 	bakedFluidWhenFlowingFluids = true
+	#
+	#Load chunks faster on packs that generate chunks in parallel. Has no effect otherwise.
+	#Turn this OFF if world generation crashes, or if chunks stop loading around you.
+	#  true = faster loading where supported (default).  false = always use the safe path.
+	fastChunkLoading = true
 
 #EXPERIMENTAL -- off by default, rough edges, niche. Most change the network (NEW chunks only).
 [experimental]
