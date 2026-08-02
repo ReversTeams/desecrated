@@ -240,7 +240,7 @@
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
-		main_hand = "bloodyhell:sacrificial_dagger"
+		main_hand = ""
 		#Off hand item.
 		off_hand = "minecraft:lantern"
 		#Armor items.
