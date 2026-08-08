@@ -13,6 +13,7 @@
 	#Gun IDs that TaCZ should always treat as silenced.
 	#Use this for integrated suppressors that do not expose TaCZ's silence modifier.
 	#This enables the gun's silenced sound and reduced muzzle-flash light.
+	#Guns without a silenced sound keep using their normal shot sound.
 	#Example: "tacz:example_integrally_suppressed_gun".
 	silencedGunIds = ["example:gun_id"]
 	#Optional per-gun muzzle-flash colors.
@@ -71,6 +72,19 @@
 	#Horizontal recoil multiplier for MGs. Negative values invert the recoil direction.
 	#Range: -10.0 ~ 10.0
 	recoilMGHorizontal = 1.0
+	#If true, the laser passes through blocks you can walk through, such as tall grass and flowers.
+	#Their selection box is far wider than the visible model, so the dot would otherwise
+	#hang in the empty gaps around the plant.
+	laserPassThroughNonCollidingBlocks = true
+	#Blocks the laser passes straight through instead of stopping on.
+	#Accepts block IDs such as "minecraft:glass" and block tags prefixed with "#",
+	#for example "#forge:glass".
+	laserPassThroughBlocks = ["#forge:glass", "#forge:glass_panes"]
+	#Blocks that always stop the laser, overriding both settings above.
+	#Defaults cover snow, which has no collision at one layer, and powder snow,
+	#which has none at all, so the laser would otherwise pass through solid-looking snow.
+	#Accepts block IDs and "#"-prefixed block tags.
+	laserBlockingBlocks = ["minecraft:snow", "minecraft:powder_snow"]
 
 	[common.gunTuck]
 		#If true, the gun pitches up when close to a wall.
@@ -126,4 +140,10 @@
 		#Multiplier for sway speed during sporadic phase
 		#Range: 0.1 ~ 5.0
 		sporadicSwaySpeed = 0.3
+
+	[common.aiming]
+		#If true, jumping drops the player out of aim and aiming cannot be started mid-air.
+		#Ladders, water, vehicles, elytra flight and creative flight are not treated as airborne.
+		#With hold-to-aim the player re-aims automatically on landing if the key is still held.
+		disableAimingWhileAirborne = false
 
