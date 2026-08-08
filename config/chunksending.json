@@ -12,6 +12,18 @@
     "desc:": "Enables chunks to prioritize loading in the direction the player is facing. Default: true",
     "prioritizeDirection": true
   },
+  "cacheChunkPackets": {
+    "desc:": "Enables chunk packets to be re-used to send to multiple players instead of creating new ones. Especially useful for many players on a server. Disable if you're having mod compat issues,  Default: true",
+    "cacheChunkPackets": true
+  },
+  "ItemFrameMaps": {
+    "desc:": "Settings for Item Frames containing maps sending updates to players. Default: enabled = true, set to false to disable this feature.",
+    "enabled:": true,
+    "descAll:": "Sets the update interval at which itemframes send map updates to ALL players in a dimension so reducing the update rate does reduce network traffic especially when a lot of itemframes with maps exist. Default: 100 Ticks, Vanilla: 10 Ticks",
+    "itemFrameMapUpdateInterval": 100,
+    "descNearby:": "Sets the update interval at which itemframes send map updates to nearby players. Default: 20 Ticks, Vanilla: 10 Ticks",
+    "itemFrameMapUpdateNearbyInterval": 20
+  },
   "debugLogging": {
     "desc:": "Enable debug logging to show the amount of chunks sent/queued",
     "debugLogging": false
