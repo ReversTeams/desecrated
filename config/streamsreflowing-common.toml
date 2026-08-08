@@ -5,15 +5,27 @@
 #Only affects chunks generated while on; already-generated chunks are left as-is.
 generateRivers = true
 #
-#Mark carved streams as minecraft:river biome after they're placed, so the stream reads as a river
-#for water colour, fish/mob spawns and ambience. Runs AFTER every other
-#feature, so it never changes what the surrounding biome placed. Applies to NEW chunks only.
-#  true = on.  false = off (default).
-rebiomeStreams = true
+#Mark carved streams as a river biome after they're placed, so a stream reads as a river for
+#fish and mob spawns, ambience and water colour. Runs AFTER every other feature, so it never
+#changes what the surrounding biome placed. Applies to NEW chunks only.
+#  0 = off: streams keep the biome they run through.
+#  1 = river, tinted like its surroundings (default). The stream is a river in every way, but
+#      its water keeps the colour of the biome around it, so a stream through a swamp looks
+#      like swamp water instead of turning river-blue.
+#  2 = plain minecraft:river. Choose this if another mod's river fish, mobs or features are
+#      not showing up in your streams -- some mods name minecraft:river directly rather than
+#      matching any river, and only setting 2 will satisfy those.
+#Range: 0 ~ 2
+rebiomeStreams = 1
 #
 #Show the one-time Streams Reflowing notice in chat the first time this world is opened.
 #  true = show it once per world (default).  false = never show it.
 welcomeMessage = false
+#
+#The same for the LAKES this mod carves, with the same three settings. Independent of
+#rebiomeStreams -- either can run on its own. Applies to NEW chunks only.
+#Range: 0 ~ 2
+rebiomeLakes = 1
 
 #PERFORMANCE -- how FAST vs. how GOOD generation is. Costs CPU at world-gen time only; each
 #region builds once and is saved to disk forever, so the cost is one-time per area. If live
@@ -245,7 +257,7 @@ welcomeMessage = false
 	#Let water spread across SOURCE-water surfaces so streams flow continuously over their own pools
 	#instead of stalling at them -- smoother, more natural flow.
 	#  true = on (default).  false = fully vanilla water spreading.
-	spillOverWater = true
+	spillOverWater = false
 	#
 	#When flowing streams collide (right-angle up to head-on) on one level, fuse the spot into a source
 	#block, so converging water backs up and fills basins instead of flickering. Self-limiting (ordinary

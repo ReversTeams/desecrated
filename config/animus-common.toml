@@ -47,7 +47,7 @@
 		#Maximum absorption amplifier for Ritual of Steadfast Heart (0 = 1 heart, 4 = 5 hearts)
 		#Range: 0 ~ 10
 		steadfastHeartMaxAmplifier = 4
-		#Range in blocks for Ritual of Nature's Leach to consume plants
+		#Maximum range in blocks the Ritual Tinkerer can expand Ritual of Nature's Leach to (it starts at 8)
 		#Range: 1 ~ 64
 		naturesLeachRange = 32
 		#Base refresh time in ticks for Ritual of Nature's Leach (before demon will modifier)
@@ -68,13 +68,13 @@
 		#Chunk radius for Ritual of Persistence chunk loading (in chunks, not blocks)
 		#Range: 1 ~ 16
 		persistenceChunkRadius = 3
-		#LP cost per tick for Ritual of Persistence (checked every second / 20 ticks)
+		#LP consumed each second the Ritual of Persistence is active (the key name is legacy; this is not per game tick)
 		#Range: 1 ~ 10000
 		persistenceLPPerTick = 100
 		#Radius in blocks for Ritual of Serenity spawn prevention
 		#Range: 1 ~ 256
 		serenityRadius = 48
-		#LP cost per tick for Ritual of Serenity (checked every second / 20 ticks)
+		#LP consumed each second the Ritual of Serenity is active (the key name is legacy; this is not per game tick)
 		#Range: 1 ~ 10000
 		serenityLPPerTick = 1
 		#Radius in blocks for Ritual of Nolite Ignem fire extinguishing
@@ -207,9 +207,75 @@
 			#LP cost per item collected by Ritual of Endless Greed
 			#Range: 0 ~ 100
 			lpPerItem = 1
-			#Base LP cost per refresh cycle (20 ticks) for Ritual of Endless Greed
+			#Base LP cost per refresh cycle for Ritual of Endless Greed
 			#Range: 0 ~ 1000
 			refreshCost = 5
+
+		#Upkeep for rituals that run on a timer.
+		#Cost is the LP drained once per refresh, not per game tick.
+		#Time is how many game ticks pass between refreshes (20 ticks = 1 second).
+		#Lowering a refresh time makes that ritual act more often, and therefore cost more LP over time.
+		[animus.rituals.refresh]
+			#LP drained from the owner's Soul Network per entity culled by Ritual of Culling
+			#Range: 0 ~ 100000
+			cullingCost = 75
+			#Ticks between refreshes for Ritual of Culling
+			#Range: 1 ~ 12000
+			cullingTime = 25
+			#Ticks between refreshes for Ritual of Endless Greed
+			#Range: 1 ~ 12000
+			endlessGreedTime = 20
+			#LP drained per refresh by Ritual of Entropy
+			#Range: 0 ~ 100000
+			entropyCost = 1
+			#Ticks between refreshes for Ritual of Entropy
+			#Range: 1 ~ 12000
+			entropyTime = 1
+			#LP drained per refresh by Ritual of Luna
+			#Range: 0 ~ 100000
+			lunaCost = 1
+			#Ticks between refreshes for Ritual of Luna
+			#Range: 1 ~ 12000
+			lunaTime = 5
+			#LP drained per refresh by Ritual of Nature's Leach
+			#Range: 0 ~ 100000
+			naturesLeachCost = 10
+			#Ticks between refreshes for Ritual of Nolite Ignem
+			#Range: 1 ~ 12000
+			noliteIgnemTime = 20
+			#Ticks between refreshes for Ritual of Peaceful Beckoning
+			#Range: 1 ~ 12000
+			peacefulBeckoningTime = 400
+			#Ticks between refreshes for Ritual of Persistence
+			#Range: 1 ~ 12000
+			persistenceTime = 20
+			#Ticks between refreshes for Ritual of Relentless Tides
+			#Range: 1 ~ 12000
+			relentlessTidesTime = 10
+			#Ticks between refreshes for Ritual of Serenity
+			#Range: 1 ~ 12000
+			serenityTime = 20
+			#Ticks between refreshes for Ritual of Siphon
+			#Range: 1 ~ 12000
+			siphonTime = 10
+			#LP drained per refresh by Ritual of Sol
+			#Range: 0 ~ 100000
+			solCost = 1
+			#Ticks between refreshes for Ritual of Sol
+			#Range: 1 ~ 12000
+			solTime = 5
+			#Ticks between refreshes for Ritual of Source Vitaeum
+			#Range: 1 ~ 12000
+			sourceVitaeumTime = 40
+			#LP drained per affected player by Ritual of the Steadfast Heart
+			#Range: 0 ~ 100000
+			steadfastHeartCost = 100
+			#LP drained per refresh by Ritual of Unmaking
+			#Range: 0 ~ 100000
+			unmakingCost = 0
+			#Ticks between refreshes for Ritual of Unmaking
+			#Range: 1 ~ 12000
+			unmakingTime = 20
 
 	#Imperfect Ritual Configuration
 	[animus.imperfectRituals]
