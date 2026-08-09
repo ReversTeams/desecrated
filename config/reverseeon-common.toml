@@ -46,7 +46,7 @@
 	manaRegenCap = 0.35
 
 	[arcanist.exp_sources]
-		#EXP gained each time the Storm hits you.
+		#EXP gained per Storm damage tick (every 2s) while you are out in it.
 		#Range: 0 ~ 10000
 		stormHitExp = 1
 		#Multiply Storm-hit EXP by the storm phase (1/2/3) while aura is active.
@@ -69,6 +69,13 @@
 		#Bonus EXP awarded when you survive a Storm to its end. 0 = disabled.
 		#Range: 0 ~ 100000
 		stormSurviveExp = 0
+		#Storm-EXP multiplier while sheltered (Equilibrium Umbrella / Hofmann Knot).
+		#Sheltering used to award ZERO exp, which meant the only way to level was to
+		#stand in the Storm and get hurt - the mod's own shelter items cost you all
+		#progression. 0.4 keeps the risk/reward choice real without punishing good play.
+		#Set to 0.0 for the old behaviour.
+		#Range: 0.0 ~ 1.0
+		shelterExpMultiplier = 0.4
 
 [aura]
 	#Level at which the aura unlocks (also needs attunement at Sonetto).
@@ -125,10 +132,11 @@
 	#Maximum affinity per NPC, per player.
 	#Range: 1 ~ 1000000
 	maxPoints = 1000
-	#Affinity gained when talking to an NPC.
+	#Affinity each conversation answer is worth. A good answer moves the bond by this much,
+	#a poor one by the same again (or double, for the worst answer of each question).
 	#Range: 0 ~ 100000
 	talkAmount = 1
-	#Cooldown between talk affinity gains, in seconds.
+	#Cooldown between conversations, in seconds.
 	#Range: 0 ~ 86400
 	talkCooldownSeconds = 60
 	#Affinity gained when gifting a flower.
@@ -143,6 +151,15 @@
 	#Arcanist EXP granted per point of affinity gained.
 	#Range: 0 ~ 100000
 	expPerPoint = 5
+	#Affinity needed to unlock an NPC's first passive.
+	#The passive ids (e.g. "vertin_400") keep their original numbers whatever you set here:
+	#those numbers identify WHICH passive, not what it costs, and they are written into
+	#player save data. Changing this moves the threshold, not the id.
+	#Range: 0 ~ 1000000
+	tier1 = 400
+	#Affinity needed to unlock an NPC's second passive. See tier1.
+	#Range: 0 ~ 1000000
+	tier2 = 800
 
 [suitcase]
 	#Starting number of boxes a Suitcase Tablet network can link.

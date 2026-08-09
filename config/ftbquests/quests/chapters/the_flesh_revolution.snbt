@@ -60,6 +60,8 @@
 		}
 	]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -2413,7 +2415,7 @@
 								}
 								{
 									Count: 1b
-									id: "farmersdelight:iron_knife"
+									id: "butchery:iron_skinning_knife"
 									tag: {
 										Damage: 0
 									}

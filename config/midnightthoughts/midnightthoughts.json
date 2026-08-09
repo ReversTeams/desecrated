@@ -126,6 +126,7 @@
   "ui": {
     "theme": "classic",
     "hideWellRestedHud": false,
+    "hideSleepingPlayersHud": false,
     "hideThemeSwitchButton": false
   }
 }
