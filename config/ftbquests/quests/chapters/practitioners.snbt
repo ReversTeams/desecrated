@@ -16,6 +16,8 @@
 		y: -20.5d
 	}]
 	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

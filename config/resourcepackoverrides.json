@@ -37,7 +37,8 @@
     "2": [
       "fabric",
       "Moonlight Mods Dynamic Assets",
-      "tacz_resources"
+      "tacz_resources",
+      "quest_enhance"
     ],
     "$$2": {
       "hidden": true,
@@ -45,7 +46,7 @@
       "default_position": "BOTTOM"
     },
     "3": [
-      "file/desecratedtextures-1.0.zip",
+      "file/desecratedtextures-1.1.zip",
       "file/desecrated-ftbquests-theme-1.0.zip"
     ],
     "$$3": {

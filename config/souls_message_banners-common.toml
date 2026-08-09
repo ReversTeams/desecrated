@@ -3,12 +3,12 @@
 [triggers]
 	#Banner for lighting up campfires
 	campfire_lit = true
-	#Banner for fallen entities (entities must be chosen through datapacks).
-	#By default, its all bosses tagged with forge:bosses.
-	#Special banners are given to the Wither and Ender Dragon.
 	entity_felled = true
-	#Banner for either raid victory or loss
 	raid_status = true
+	entity_spawned = true
+	player_spawned = true
+	player_felled = true
+	player_spawn_set = true
 
 	#Compatibility
 	[triggers.compatibility]
