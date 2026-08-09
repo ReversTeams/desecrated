@@ -1,14 +1,9 @@
 [
     {
-        "name": "safe_time",
-        "conditions": {
-            "maxdaycount": 7
-        }
-    },
-    {
         "name": "day7",
         "conditions": {
-            "mindaycount": 7
+            "mindaycount": 7,
+            "daycount": "repeat(4,0,1)"
         }
     }
 ]
