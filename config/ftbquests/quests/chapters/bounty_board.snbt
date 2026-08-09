@@ -7,6 +7,8 @@
 	icon: "create:clipboard"
 	id: "0C11BA015DF26C52"
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

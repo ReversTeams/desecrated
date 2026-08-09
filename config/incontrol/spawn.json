@@ -14,32 +14,22 @@
     ],
     "result": "allow"
   },
+
   {
-    "mob": [
-      "simpleenemymod:pmcunit",
-      "simpleenemymod:ruunit",
-      "simpleenemymod:usunit"
-    ],
-    "phase": "safe_time",
+    "mod": "simpleenemymod",
     "when": "onjoin",
     "result": "deny"
   },
   {
-    "mob": [
-      "simpleenemymod:pmcunit",
-      "simpleenemymod:ruunit",
-      "simpleenemymod:usunit"
-    ],
+    "mod": "simpleenemymod",
     "phase": "day7",
+    "mintime": 0,
+    "maxtime": 12000,
     "when": "onjoin",
     "result": "allow"
   },
   {
-    "mob": [
-      "simpleenemymod:pmcunit",
-      "simpleenemymod:ruunit",
-      "simpleenemymod:usunit"
-    ],
+    "mod": "simpleenemymod",
     "mincount": {
       "amount": 12,
       "mod": "simpleenemymod",
@@ -47,6 +37,34 @@
     },
     "result": "deny"
   },
+  {
+    "mob": "simpleenemymod:pmcunit",
+    "mincount": {
+      "amount": 4,
+      "hostile": true,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "simpleenemymod:ruunit",
+    "mincount": {
+      "amount": 4,
+      "hostile": true,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "simpleenemymod:usunit",
+    "mincount": {
+      "amount": 4,
+      "hostile": true,
+      "perplayer": false
+    },
+    "result": "deny"
+  },
+
   {
     "dimension": "reverseeon:island_dim",
     "result": "deny"
@@ -86,48 +104,13 @@
     "mod": "thedulling",
     "result": "deny"
   },
+
   {
     "mod": "vampirism",
     "mincount": {
       "amount": 12,
       "hostile": true,
       "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "simpleenemymod",
-    "mincount": {
-      "amount": 12,
-      "hostile": true,
-      "perplayer": false
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "simpleenemymod:pmcunit",
-    "mincount": {
-      "amount": 4,
-      "hostile": true,
-      "perplayer": false
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "simpleenemymod:ruunit",
-    "mincount": {
-      "amount": 4,
-      "hostile": true,
-      "perplayer": false
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "simpleenemymod:usunit",
-    "mincount": {
-      "amount": 4,
-      "hostile": true,
-      "perplayer": false
     },
     "result": "deny"
   },
