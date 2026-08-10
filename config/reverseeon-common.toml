@@ -126,7 +126,16 @@
 	#Give the Tome of the Eon (and show its welcome chat message) on a player's first join.
 	#Disable for packs where Reverse Eon isn't the starting point and the Tome is meant
 	#to be crafted later — the auto-gift would feel out of place there.
+	#NOTE: this covers the TOME ONLY. The Timekeeper Suitcase has its own switch below.
 	giveTomeOnJoin = false
+	#Give the one-per-world Timekeeper Suitcase (and show its chat message) to the first
+	#player who joins.
+	#
+	#This gift used to be hardcore-only, so in every other world it simply never happened and
+	#there was nothing to switch off. It now runs in every game mode -- which meant a pack that
+	#had turned giveTomeOnJoin off still got a free item and a [The Storm] chat line on join,
+	#with no setting anywhere that stopped it. Hence this switch.
+	giveSuitcaseOnJoin = true
 
 [affinity]
 	#Maximum affinity per NPC, per player.
@@ -180,4 +189,8 @@
 	#Cooldown, in seconds, between NPC summons from the tablet (0 = no cooldown).
 	#Range: 0 ~ 86400
 	summonCooldownSeconds = 30
+	#Let a player shift + right-click an animal with the Timekeeper Suitcase to send it
+	#to the island dock. Only animals, and only ones nobody else has tamed.
+	#Set false to keep the suitcase strictly a doorway for people.
+	ferryAnimals = true
 

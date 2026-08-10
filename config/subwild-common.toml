@@ -4,7 +4,7 @@
 "Adapt Cave Biomes to Modded Biomes" = true
 #The amount of non-solid blocks in front of a cave wall at which stairs and slabs spawn at a reduced rate to avoid high density narrow caves
 #Range: 0 ~ 16
-"Slope Threshold" = 3
+"Slope Threshold" = 0
 #The dimensions in which cave biomes will generate in
 "Dimension Whitelist" = ["minecraft:overworld"]
 

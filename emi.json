@@ -1,8 +1,6 @@
 {
   "favorites": [],
-  "lookup_history": [
-    "item:concatenatedadditionsmachines:copper_nugget"
-  ],
+  "lookup_history": [],
   "craft_history": [],
   "recipe_defaults": {
     "added": [
@@ -1264,7 +1262,6 @@
     "item:otherverse:idol{entity_type_namespace:\"macabre\",entity_type_path:\"canine\"}",
     "item:otherverse:idol{entity_type_namespace:\"macabre\",entity_type_path:\"observer\"}",
     "item:otherverse:idol{entity_type_namespace:\"macabre\",entity_type_path:\"blood_breather\"}",
-    "item:otherverse:idol",
     "item:otherverse:charcoal_stick{Damage:0}"
   ]
 }
