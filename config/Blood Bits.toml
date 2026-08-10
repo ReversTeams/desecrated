@@ -40,7 +40,7 @@
 	#List of entities that spawn nether blood.
 	"Nether Blood List" = [" "]
 	#List of entities that spawn default blood.
-	"Red Blood List" = [" "]
+	"Red Blood List" = ["fracture:flesh_slime"]
 	#List of entities that spawn end blood.
 	"End Blood List" = [" "]
 
