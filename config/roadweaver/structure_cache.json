@@ -2562,6 +2562,24 @@
       ]
     },
     {
+      "id": "reverseeon:suspicious_abandoned_house",
+      "displayName": "Suspicious Abandoned House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "reverseeon:suspicious_abandoned_house_snowy",
+      "displayName": "Suspicious Abandoned House Snowy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "roadweaver:bridge_bridge_0",
       "displayName": "Bridge Bridge 0",
       "isVanilla": false,

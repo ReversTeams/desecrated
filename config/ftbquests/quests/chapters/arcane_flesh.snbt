@@ -78,6 +78,8 @@
 		}
 	]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -407,8 +409,8 @@
 					type: "item"
 				}
 			]
-			x: 16.375d
-			y: -21.049999999999997d
+			x: 16.674999999999997d
+			y: -20.124999999999996d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -469,8 +471,8 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
-			y: -20.0d
+			x: 19.0d
+			y: -19.0d
 		}
 		{
 			dependencies: [
@@ -490,7 +492,7 @@
 				item: "bloodyhell:sanguinite_infusor"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.5d
 			y: -23.0d
 		}
 		{
@@ -507,8 +509,8 @@
 				item: "bloodyhell:sanguinite_blood_harvester_item"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -20.0d
+			x: 21.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -525,7 +527,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: -22.5d
+			y: -23.5d
 		}
 		{
 			dependencies: [
@@ -837,7 +839,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: -21.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -854,7 +856,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -21.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -1074,18 +1076,11 @@
 			dependencies: ["445742EA3F278341"]
 			entity_vis_size: 1.0f
 			id: "1261468FF3756AEA"
-			rewards: [
-				{
-					id: "6AE6606D999A7EF1"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "3A7D74A70DDF7E28"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "3A7D74A70DDF7E28"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7F0892882C927F15"
 				item: {
@@ -2280,11 +2275,19 @@
 			description: ["My beautiful flesh workshop! With this, I'll be able to fabricate many flesh creations."]
 			entity_vis_size: 1.0f
 			id: "65A8B04267923FB7"
-			rewards: [{
-				id: "1BE893F74A76A030"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "745A9B535278A589"
+					table_id: 6565141144447489233L
+					type: "random"
+				}
+				{
+					id: "1BE893F74A76A030"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "5C37651CACAC3429"
@@ -2384,11 +2387,19 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "2FC8B5F6807FD5DC"
-			rewards: [{
-				id: "65DACE74FDCA2E1B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "638D3D209090EBAE"
+					table_id: 6565141144447489233L
+					type: "random"
+				}
+				{
+					id: "65DACE74FDCA2E1B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "7E54D367FDA99A4F"
@@ -2454,11 +2465,18 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "54D942F53453202D"
-			rewards: [{
-				id: "0720C01FEB7D131E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7B7153DF23B5D44D"
+					item: "biomancy:living_flesh"
+					type: "item"
+				}
+				{
+					id: "0720C01FEB7D131E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "1CAE929292A994C3"
@@ -2472,28 +2490,44 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "50A5F2DF44930F15"
-			rewards: [{
-				id: "112B2968627EECA7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40F52705ED5A338D"
+					table_id: 6565141144447489233L
+					type: "loot"
+				}
+				{
+					id: "112B2968627EECA7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "25A25477E883BCED"
 				item: "biomancy:digester"
 				type: "item"
 			}]
 			x: 1.5d
-			y: -23.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "241FEED0D5C70D76"
-			rewards: [{
-				id: "072FA65F5FC2131B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DDE6B8D46FE8B6E"
+					table_id: 6565141144447489233L
+					type: "random"
+				}
+				{
+					id: "072FA65F5FC2131B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "643AE62A09DB3064"
 				item: {
@@ -2523,11 +2557,19 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "0DC21CC4073914AF"
-			rewards: [{
-				id: "39192FF55AE6134C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6085325EC2155D48"
+					table_id: 6565141144447489233L
+					type: "random"
+				}
+				{
+					id: "39192FF55AE6134C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "29C7A731C150C0B0"
 				item: {
@@ -2792,11 +2834,24 @@
 			description: ["Once it's grown enough, my flesh cradle has produced some of these orifices where gastric acid oozes out."]
 			entity_vis_size: 1.0f
 			id: "2ACAFD13FF8FA71F"
-			rewards: [{
-				id: "054393916244407B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6EDD60316CFF2275"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "054393916244407B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "51C1C47064B941B7"
 				item: "biomancy:primal_orifice"
@@ -2812,11 +2867,18 @@
 			]
 			entity_vis_size: 1.0f
 			id: "703274901EDEC2AF"
-			rewards: [{
-				id: "58F9E41E88EB874A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5CFF20EB6D320C52"
+					item: "biomancy:acid_bucket"
+					type: "item"
+				}
+				{
+					id: "58F9E41E88EB874A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2BFBA4932B23F298"
 				item: "biomancy:caustic_gunblade"
@@ -3152,11 +3214,19 @@
 			dependencies: ["65A8B04267923FB7"]
 			entity_vis_size: 1.0f
 			id: "1E21748936204C26"
-			rewards: [{
-				id: "242465C49D13A76E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "024C0787041A8074"
+					table_id: 6565141144447489233L
+					type: "random"
+				}
+				{
+					id: "242465C49D13A76E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3667676CCC35E1BB"
 				item: "biomancy:biometric_membrane"
@@ -3167,6 +3237,11 @@
 		}
 		{
 			dependencies: ["120092C5CE8F3245"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome IX"
+				""
+				"&2What is this book? It calls to me. Have I been a bad person throughout my life? No? This is an old book that seems to have fallen from another world. It can greatly increase my power, but I can only envision it in my mind. I'll have to physically render it with scrolls and leather.&r"
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "6CA6297CC6007608"
@@ -3663,7 +3738,7 @@
 				}
 			]
 			x: 16.5d
-			y: -19.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["6F3A5BBFC72E0DBF"]
@@ -4155,6 +4230,12 @@
 			dependencies: ["4ADEEC22740295F1"]
 			entity_vis_size: 1.0f
 			id: "52FE229CF0737F96"
+			rewards: [{
+				count: 3
+				id: "09641835BE9E1C8F"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B2EE3423A281DE8"
 				item: "biomancy:breeding_stimulant"
@@ -4258,6 +4339,94 @@
 			}]
 			x: -7.5d
 			y: -25.0d
+		}
+		{
+			dependencies: ["54D942F53453202D"]
+			entity_vis_size: 1.0f
+			id: "6CD7A701773A0862"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04183352DECD3A17"
+				table_id: 6454273999420670365L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C5A86CE9E467C71"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vampirism:pure_blood_0"
+							}
+							{
+								Count: 1b
+								id: "vampirism:pure_blood_1"
+							}
+							{
+								Count: 1b
+								id: "vampirism:pure_blood_2"
+							}
+							{
+								Count: 1b
+								id: "vampirism:pure_blood_3"
+							}
+						]
+					}
+				}
+				title: "Any Not Full Pure Blood"
+				type: "item"
+			}]
+			title: "Pure Blood"
+			x: -1.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["19C8C7A0D9F4F3A6"]
+			entity_vis_size: 1.0f
+			id: "098FC0168A2D7F6E"
+			tasks: [{
+				id: "6C9E9D3FDE5F9FA5"
+				item: "vampirism:pure_blood_4"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["6CD7A701773A0862"]
+			entity_vis_size: 1.0f
+			id: "5283B40105846030"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73679E8A9EE74F8B"
+				table_id: 6454273999420670365L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70B0F08BA08979A5"
+				item: "vampirism:blood_infused_iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"0377023CC9A03552"
+				"098FC0168A2D7F6E"
+			]
+			entity_vis_size: 1.0f
+			id: "219668FB6125E4B1"
+			tasks: [{
+				id: "5DD9D13B94AA5A87"
+				item: "vampirism:blood_infused_enhanced_iron_ingot"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -22.5d
 		}
 	]
 	title: "Arcane Flesh"

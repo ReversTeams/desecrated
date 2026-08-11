@@ -95,6 +95,34 @@
 		}
 	]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [
+		{
+			dependency: "q:d425b8b6302fef8"
+			reveal_on_hover: 0b
+			source: "q:257e0f645b9b307d"
+		}
+		{
+			dependency: "q:d425b8b6302fef8"
+			reveal_on_hover: 0b
+			source: "q:1ceda7615eebfb3d"
+		}
+		{
+			dependency: "q:d425b8b6302fef8"
+			reveal_on_hover: 0b
+			source: "q:75bf1eb1f7c20c0d"
+		}
+		{
+			dependency: "q:d425b8b6302fef8"
+			reveal_on_hover: 1b
+			source: "q:52be4771b955e80f"
+		}
+		{
+			dependency: "q:d425b8b6302fef8"
+			reveal_on_hover: 1b
+			source: "q:26e82a8cfe4649ff"
+		}
+	]
 	quest_links: [ ]
 	quests: [
 		{
@@ -195,11 +223,19 @@
 			dependencies: ["206C4BFFA737D67C"]
 			entity_vis_size: 1.0f
 			id: "15A0FF70F62AFAAB"
-			rewards: [{
-				id: "6E7E07BEF55F1FE6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E0443E949D23265"
+					table_id: 8119722541992150387L
+					type: "random"
+				}
+				{
+					id: "6E7E07BEF55F1FE6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "6CE4A35B330C6791"
@@ -294,11 +330,19 @@
 			dependencies: ["51B4F0043EFD8726"]
 			entity_vis_size: 1.0f
 			id: "169431DCD7DDB357"
-			rewards: [{
-				id: "2E0145C30BFCB95A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "0A01BFF5B4BC3D8D"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "2E0145C30BFCB95A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.1d
 			tasks: [{
 				id: "040A238737E7BD38"
@@ -369,11 +413,19 @@
 			dependencies: ["3529407D1A72FFCB"]
 			entity_vis_size: 1.0f
 			id: "0640AC4ED27C6122"
-			rewards: [{
-				id: "4A9884786484E99B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "69B4C2C2E8D2271E"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4A9884786484E99B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1A92F84E1811611C"
 				item: {
@@ -436,11 +488,19 @@
 			dependencies: ["422F8B4E485EE7B3"]
 			entity_vis_size: 1.0f
 			id: "6FD39AE1113C3DC8"
-			rewards: [{
-				id: "0EBD3858D1136828"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7458BDFAF7822504"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0EBD3858D1136828"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "01CD81B2E411D92A"
 				item: {
@@ -601,11 +661,19 @@
 			dependencies: ["422F8B4E485EE7B3"]
 			entity_vis_size: 1.0f
 			id: "706D2725EBD81A09"
-			rewards: [{
-				id: "040FD5F6B0A9397A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3D7151F65FB24A85"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "040FD5F6B0A9397A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "75580FFC2B41DDAA"
 				item: {
@@ -675,11 +743,19 @@
 			dependencies: ["3529407D1A72FFCB"]
 			entity_vis_size: 1.0f
 			id: "5A3B3B1D72398AA8"
-			rewards: [{
-				id: "5FD968DAC09571A4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2E9963A05533C2F1"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5FD968DAC09571A4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "068AD90802FC1CC2"
 				item: {
@@ -749,11 +825,19 @@
 			dependencies: ["422F8B4E485EE7B3"]
 			entity_vis_size: 1.0f
 			id: "038120B0C366CA49"
-			rewards: [{
-				id: "68B3F786C7733852"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6B09D700DF5CA176"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "68B3F786C7733852"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "08F34554FB2ED7E2"
 				item: {
@@ -816,11 +900,19 @@
 			dependencies: ["3529407D1A72FFCB"]
 			entity_vis_size: 1.0f
 			id: "494AFCB2DCBC7EBB"
-			rewards: [{
-				id: "736D2D97E4B75003"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "17085C6243507681"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "736D2D97E4B75003"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7A8766F2104FAE4F"
 				item: {
@@ -890,11 +982,19 @@
 			dependencies: ["3529407D1A72FFCB"]
 			entity_vis_size: 1.0f
 			id: "60B38266F5F4F8F7"
-			rewards: [{
-				id: "65346D719D28408A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3C53D836E90EF9F4"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "65346D719D28408A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2D6D963D865CCADC"
 				item: {
@@ -964,11 +1064,25 @@
 			dependencies: ["51B4F0043EFD8726"]
 			entity_vis_size: 1.0f
 			id: "532DC607CA70E1C1"
-			rewards: [{
-				id: "6AA3E8AF50B74E38"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "0EC08F01FD89C588"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 1b
+							RelicType: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AA3E8AF50B74E38"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				ftbquestsentityvis_icon: {
@@ -1074,15 +1188,18 @@
 				to_observe: "clockwork:dragonfly"
 				type: "observation"
 			}]
+			title: "The Dragonfly"
 			x: -1.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
 			description: [
-				"The Tome of Alkahestry is a relic that is a gate to many riches. It was once banned and branded as an unholy relic that attracts greed and disaster. Nowadays, this is still a rare artifact for reliquerers. &cSebastian&r hasn't found one yet. Wait, that's not &chis&r name. What was it again? Does this tome cause memory issues?"
+				"&o&7Notes from Eleonore's Travels, Tome VI"
 				""
-				"The Tome is a vessel for transmutation, able to turn redstone into countless imaginable things. We can also harness its power to craft numerous staffs. "
+				"&fThe Tome of Alkahestry is a relic that is a gate to many riches. It was once banned and branded as an unholy relic that attracts greed and disaster. Nowadays, this is still a rare artifact for reliquerers. &cSebastian&r &fhasn't found one yet. Wait, that's not &chis&r &fname. What was it again? Does this tome cause memory issues?"
+				""
+				"&fThe Tome is a vessel for transmutation, able to turn redstone into countless imaginable things. We can also harness its power to craft numerous staffs. "
 			]
 			entity_vis_size: 1.0f
 			id: "7D281BDB1C2472F1"
@@ -1109,9 +1226,11 @@
 		{
 			dependencies: ["34DB9EBB5C296D71"]
 			description: [
-				"The Angelheart Vial is a reliquerer's main trick: cheating death a countless number of times. Or at least per the number of vials they have stacked in their pockets."
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&fThe Angelheart Vial is a reliquerer's main trick: cheating death a countless number of times. Or at least per the number of vials they have stacked in their pockets."
 				"{@pagebreak}"
-				"Legends say an archmage once defied a god by using this vial. For lightning and divine kill could not bring him down, or at least to death, he was thrown into the void, his corpse never to be found."
+				"&fLegends say an archmage once defied a god by using this vial. For lightning and divine kill could not bring him down, or at least to death, he was thrown into the void, his corpse never to be found."
 			]
 			entity_vis_size: 1.0f
 			id: "483A8C4A3EE05C52"
@@ -1142,11 +1261,11 @@
 				"483A8C4A3EE05C52"
 			]
 			description: [
-				"What a cool name. That's what I think of it at least."
+				"&fWhat a cool name. That's what I think of it at least."
 				""
 				"&c\"That's just the name of the artifact.\"&r"
 				""
-				"Surely there's a deeper meaning? What are phoenixes anyways, haven't seen one of those around. Phoenix Down is created when pouring angelheart onto an angelic feather, yielding a more powerful, but less stackable way of cheating death."
+				"&fSurely there's a deeper meaning? What are phoenixes anyways, haven't seen one of those around. Phoenix Down is created when pouring angelheart onto an angelic feather, yielding a more powerful, but less stackable way of cheating death."
 			]
 			entity_vis_size: 1.0f
 			id: "3BC974F6785A43B3"
@@ -1174,15 +1293,17 @@
 		{
 			dependencies: ["34DB9EBB5C296D71"]
 			description: [
-				"\"This seems like a cheap knockoff of the Tower card.\""
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&f\"This seems like a cheap knockoff of the &m-----&r &fcard.\""
 				""
 				"&c\"No, no, no. This is where the effect of the Tower card originates. Ancient engineers once asked an ancient reliquer king to bring this ability to light.\"&r"
 				""
-				"\"An ancient reliquerer who was a king?\""
+				"&f\"An ancient reliquerer who was a king?\""
 				"{@pagebreak}"
 				"&c\"Reliquers were rarer back in the day, you know. They didn't have their massive parties or organized society to collect rare parts as we do.\"&r"
 				""
-				"\"Don't act as if you were old enough to have lived a thousand years ago.\""
+				"&f\"Don't act as if you were old enough to have lived a thousand years ago.\""
 			]
 			entity_vis_size: 1.0f
 			id: "23F4617A86D5F64E"
@@ -1209,7 +1330,9 @@
 		{
 			dependencies: ["550D01E852BFE592"]
 			description: [
-				"I then asked this reliquerer if he had a relic that helped him mine. Surely that's something that only Technicians or Engineers have access to."
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&fI then asked this reliquerer if he had a relic that helped him mine. Surely that's something that only Technicians or Engineers have access to."
 				"{@pagebreak}"
 				"&c\"This lil' contraption is a rather simple but effective tool. It essentially acts as a reusable smart stick of dynamite. Just put a bit of gunpowder in it, point it at a patch of ground you don't like, then blam! Instant explosion. It's actually better than an actual explosion in a couple of ways, since it doesn't hurt the user and it doesn't blow up the stuff you actually want, like ores, so that you can harvest them at your own leisure. Though, there is the flaw that it doesn't deal any damage with the explosion itself, which led to me innovating one of my favourite creations to date.\"&r"
 			]
@@ -1240,13 +1363,15 @@
 		{
 			dependencies: ["081070F7CBF61207"]
 			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
 				"&c\"Ah, my lucky change. This coin is actually imbued with a decent amount of luck, and that's not just a vague claim! Riches and valuable experience just seem to find me a preferable owner ever since I created this relic. Fortunately, it has a way to deactivate the effect, as I would've pissed off quite a number of powerful people that just happen to have a lot of treasures on display in their chambers, haha.\"&r"
 				"{@pagebreak}"
-				"\"I've seen this coin in the hands of many people though.\""
+				"&f\"I've seen this coin in the hands of many people though.\""
 				""
 				"&c\"Well... it's not unique, but it's certainly a relic!\"&r"
 				""
-				"\"You don't seem convincing.\""
+				"&f\"You don't seem convincing.\""
 			]
 			entity_vis_size: 1.0f
 			id: "0901394AD3A5FDAB"
@@ -1273,11 +1398,13 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			description: [
-				"With the power of the Tome of Alkahestry, I managed to borrow some of the properties of transmutation to create a version of the famed Glacial Staff that doesn't require snowballs. It does require more materials to make than normal, though."
+				"&o&7Notes from Eleonore's Travels, Tome VI"
 				""
-				"&cSebastian&r was bewildered at my progress, clutching his own staff and praising it as a bastion of tradition against this strange new magic."
+				"&fWith the power of the Tome of Alkahestry, I managed to borrow some of the properties of transmutation to create a version of the famed Glacial Staff that doesn't require snowballs. It does require more materials to make than normal, though."
+				""
+				"&cSebastian&r &fwas bewildered at my progress, clutching his own staff and praising it as a bastion of tradition against this strange new magic."
 				"{@pagebreak}"
-				"The Glacial Staff is an interesting weapon, able to fire surprisingly strong mystical snowballs of the ice element, especially effective against fire-type creatures such as blazes. It also freezes enemies momentarily."
+				"&fThe Glacial Staff is an interesting weapon, able to fire surprisingly strong mystical snowballs of the ice element, especially effective against fire-type creatures such as blazes. It also freezes enemies momentarily."
 			]
 			entity_vis_size: 1.0f
 			id: "641652D8289A2AF2"
@@ -1304,9 +1431,11 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			description: [
-				"I've found notes of a way older fireball staff used by an ancient civilization. I was able to find the core and a mangled stick, but alas, it did not work anymore. It seems to ressemble the Pyromancer staffs in a more crude form."
+				"&o&7Notes from Eleonore's Travels, Tome VI"
 				""
-				"With my usual tinkering, I made a version of the fireball staff that does not consume fire charges, and here's the recipe above."
+				"&fI've found notes of a way older fireball staff used by an ancient civilization. I was able to find the core and a mangled stick, but alas, it did not work anymore. It seems to ressemble the Pyromancer staffs in a more crude form."
+				""
+				"&fWith my usual tinkering, I made a version of the fireball staff that does not consume fire charges, and here's the recipe above."
 			]
 			entity_vis_size: 1.0f
 			id: "728B9DCC6EEF04E2"
@@ -1338,9 +1467,11 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
 				"&c\"I use this one on a daily basis, so you could probably tell that I'm particularly fond of this relic. The Rending Gale has three modes of function: flight, push, and pull. When in flight mode, the staff will (rather violently) pull you in the direction you're looking at extreme speeds! Incredible for getting anywhere fast, but it can be a bit dizzying the first forty or so uses. When in push mode, it expels a strong gust around you, preventing anything from getting anywhere close! Very good for taking a breather. When in pull mode, it creates a vortex of wind that sucks in everything in a chosen direction towards you. With all of these incredible use cases, I'm honestly more surprised it isn't more popular!\""
 				"{@pagebreak}"
-				"\"Isn't it rather expensive to gather the materials to make it? Obviously it wouldn't be a common commodity if the average person couldn't get it.\""
+				"&f\"Isn't it rather expensive to gather the materials to make it? Obviously it wouldn't be a common commodity if the average person couldn't get it.\""
 				""
 				"&c\"Yeah, but I never see any of my fellow magic users have one either! It's weird. I'd make a business around them if I wasn't so busy adventuring all the time.\"&r"
 			]
@@ -1382,7 +1513,11 @@
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
-			description: ["&c\"Now this is one of my most powerful artifacts! One cast of the Serpent Staff can easily turn a dicey combat encounter into a cakewalk. Upon being hit by the Kraken's spit expelled by this weapon, your enemies will find themselves completely unable to attack you for a time! Now, this comes with a couple caveats, those being that the staff is exceptionally fragile and that the pacification isn't foolproof. An enemy with a strong will can fight against it, but nine times out of ten you have a free kill.\"&r"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&c\"Now this is one of my most powerful artifacts! One cast of the Serpent Staff can easily turn a dicey combat encounter into a cakewalk. Upon being hit by the Kraken's spit expelled by this weapon, your enemies will find themselves completely unable to attack you for a time! Now, this comes with a couple caveats, those being that the staff is exceptionally fragile and that the pacification isn't foolproof. An enemy with a strong will can fight against it, but nine times out of ten you have a free kill.\"&r"
+			]
 			entity_vis_size: 1.0f
 			id: "1CB0C2CD353BA642"
 			rewards: [
@@ -1414,11 +1549,13 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			description: [
-				"Keeping in line with my newfound rudimentary transmutation knowledge, I managed to craft a more expensive but more useful version of the standard Sojourner Staff reliquerers use! They say relics are unique to their wielders, is this a part of it?"
+				"&o&7Notes from Eleonore's Travels, Tome VI"
 				""
-				"The Sojourner Staff is used to place down ethereal torches wherever you go. With my unique model, however, you don't need to keep torches with you!"
+				"&fKeeping in line with my newfound rudimentary transmutation knowledge, I managed to craft a more expensive but more useful version of the standard Sojourner Staff reliquerers use! They say relics are unique to their wielders, is this a part of it?"
+				""
+				"&fThe Sojourner Staff is used to place down ethereal torches wherever you go. With my unique model, however, you don't need to keep torches with you!"
 				"{@pagebreak}"
-				"&cSebastian&r tried replicating my recipe and it didn't work for him, unfortunately. A few other reliquerers also tried their hand and failed. I leave the recipe I used as a note, but beware that this may not work to make the transmutation-unique variant of the Sojourner Staff."
+				"&cSebastian&r &ftried replicating my recipe and it didn't work for him, unfortunately. A few other reliquerers also tried their hand and failed. I leave the recipe I used as a note, but beware that this may not work to make the transmutation-unique variant of the Sojourner Staff."
 			]
 			entity_vis_size: 1.0f
 			id: "6FE18A64BEAF0A08"
@@ -1445,7 +1582,11 @@
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
-			description: ["&c\"As someone who dabbles in brewing from time to time in order to make specialized ammunition, in the past I had found myself wanting for particular plants that are difficult for me to get more of out in the field. So, I ended up synthesizing this particular relic to help with my supply. It instantaneously grows whatever you're looking at, and if you use it to harvest a crop it simultaneously picks the whole batch as well. Saves me quite a bit of money when I'm looking for more ingredients!\"&r"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&c\"As someone who dabbles in brewing from time to time in order to make specialized ammunition, in the past I had found myself wanting for particular plants that are difficult for me to get more of out in the field. So, I ended up synthesizing this particular relic to help with my supply. It instantaneously grows whatever you're looking at, and if you use it to harvest a crop it simultaneously picks the whole batch as well. Saves me quite a bit of money when I'm looking for more ingredients!\"&r"
+			]
 			entity_vis_size: 1.0f
 			id: "6D9C35A4B03D6421"
 			rewards: [
@@ -1485,19 +1626,21 @@
 		{
 			dependencies: ["471939DE22B5426B"]
 			description: [
-				"\"This looks like it could be used like in those firearms of the Judgement Pathway?\""
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&f\"This looks like it could be used like in those firearms of the &m-------&r &fPathway?\""
 				""
 				"&c\"Don't let its appearance fool you, this may look like a common pistol like yours, but this baby is actually a feat of magical engineering. Because of its components, it's able to accept an incredible variety of magically manufactured ammunitions without malfunctioning!\""
 				"{@pagebreak}"
 				"&c\"I've personally created magic bullets that seek enemies, concussive rounds that explode, ammo that delivers potion payloads, and many more! My go-to ranged option as a reliquer. It's joined me on many a monster hunt and I wouldn't be nearly as successful as I am on them without it!\"&r"
 				""
-				"\"Aren't you a reliquerer though, why a gun?\""
+				"&f\"Aren't you a reliquerer though, why a gun?\""
 				""
 				"&c\"Reliquer.\"&r"
 				"{@pagebreak}"
 				"&c\"...Why is it shaped like a gun? Well, unlike those stuffy wizards and sorcerers you see all over the place here, I can recognize an ergonomic design when I see one. I don't have to like the techies to understand when they've made a good design choice. Increases the modularity quite a bit too!\"&r"
 				""
-				"\"Do you think you could make it cast spells as well now?\""
+				"&f\"Do you think you could make it cast spells as well now?\""
 			]
 			entity_vis_size: 1.0f
 			id: "4FB2DA70942ECABD"
@@ -1540,7 +1683,9 @@
 		{
 			dependencies: ["3220B67522BB5C0D"]
 			description: [
-				"I asked &cSantiago&r more about his so-called relics and the starting point of a reliquerer's craft. &c\"Well, if you're interested in fabricating relics of your own, then I'd say the very first thing you should get comfortable with crafting is the Void Tear. It isn't too difficult to scrounge up the materials, only really requiring a Ghast's tear, an Enderman's heart, a Slime's Pearl, and a bit of Lapis, but you should really stock up on the materials for it, since it's used as a base for many more complicated (and useful) relics.\"&r"
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&fI asked &cSantiago&r &fmore about his so-called relics and the starting point of a reliquerer's craft. &c\"Well, if you're interested in fabricating relics of your own, then I'd say the very first thing you should get comfortable with crafting is the Void Tear. It isn't too difficult to scrounge up the materials, only really requiring a Ghast's tear, an Enderman's heart, a Slime's Pearl, and a bit of Lapis, but you should really stock up on the materials for it, since it's used as a base for many more complicated (and useful) relics.\"&r"
 				"{@pagebreak}"
 				"&c\"Not to say that it's completely worthless by itself, it can technically store infinite items! Only one item type at a time though. Regardless, this is absolutely the rookie reliquer's first steps.\"&r"
 			]
@@ -1579,9 +1724,11 @@
 		{
 			dependencies: ["0901394AD3A5FDAB"]
 			description: [
-				"Magicbane is a relic with immense potential: it increases its power with each enchantment. It, however, has very low durability. Fortunately, by combining this with the Magician card, it becomes unbreakable, an all-around upgrade to the giant golden sword even some mages still use up to this point."
+				"&o&7Notes from Eleonore's Travels, Tome VI"
 				""
-				"It also has a higher chance of obtaining rare and exotic materials from monsters."
+				"&fMagicbane is a relic with immense potential: it increases its power with each enchantment. It, however, has very low durability. Fortunately, by combining this with the &m------&r&f card, it becomes unbreakable, an all-around upgrade to the giant golden sword even some mages still use up to this point."
+				""
+				"&fIt also has a higher chance of obtaining rare and exotic materials from monsters."
 			]
 			entity_vis_size: 1.0f
 			id: "21E6CA24E283AF68"
@@ -1625,9 +1772,11 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"Out of all of the weapons I've come across on my travels, up until now, this probably makes the top five. It uses Kestrel as a base, harvests the power of Magicbane using a transformative flower, and when swung, shoots deadly beams with the power of the Rending Gale, summoning lightning strikes on hit."
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&fOut of all of the weapons I've come across on my travels, up until now, this probably makes the top five. It uses Kestrel as a base, harvests the power of Magicbane using a transformative flower, and when swung, shoots deadly beams with the power of the Rending Gale, summoning lightning strikes on hit."
 				"{@pagebreak}"
-				"I can proudly say I've been the one to create this relic. I invented a relic! The first of a kind the world has never seen before!"
+				"&fI can proudly say I've been the one to create this relic. I invented a relic! The first of a kind the world has never seen before!"
 			]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
@@ -1662,11 +1811,13 @@
 		{
 			dependencies: ["081070F7CBF61207"]
 			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
 				"&c\"If you ever thought that ender pearls offered a distinct lack of options in forms of teleportation, this one might be a favourable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has three distinct modes that allow for more controlled self-teleportation. It has a basic mode which launches an ender pearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
 				"{@pagebreak}"
 				"&c\"Additionally, it features a waypoint mode, which instantly sends you to the last Wraith Node you interacted with. Overall a very solid relic.\"&r"
 				""
-				"I've innovated a bit on the concept and, on my first attempt, managed to somehow create a version of this staff that doesn't consume ender pearls! I noted down the recipe above. Sebastian was dumbfounded."
+				"&fI've innovated a bit on the concept and, on my first attempt, managed to somehow create a version of this staff that doesn't consume ender pearls! I noted down the recipe above. Sebastian was dumbfounded."
 			]
 			entity_vis_size: 1.0f
 			id: "4556ED8E14FEA0D9"
@@ -1710,7 +1861,11 @@
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
-			description: ["&c\"The Infernal Tear is a sort-of-sidegrade sort-of-upgrade of the Void Tear. Instead of storing infinite of one item, the thing accepts all items, but get this! It converts anything placed inside into experience points. Definitely a nice pickup for getting rid of garbage that you pick up on your journeys, but it inherits the Void Tear's applicability in other relics' recipes. That's where I'd say its true value shines.\"&r"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&c\"The Infernal Tear is a sort-of-sidegrade sort-of-upgrade of the Void Tear. Instead of storing infinite of one item, the thing accepts all items, but get this! It converts anything placed inside into experience points. Definitely a nice pickup for getting rid of garbage that you pick up on your journeys, but it inherits the Void Tear's applicability in other relics' recipes. That's where I'd say its true value shines.\"&r"
+			]
 			entity_vis_size: 1.0f
 			id: "550D01E852BFE592"
 			rewards: [
@@ -1738,13 +1893,15 @@
 		{
 			dependencies: ["081070F7CBF61207"]
 			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
 				"&c\"The Emperor's Chalice is one of my more tame creations, merely acting as an infinite source of water. Definitely useful, just not too exciting for my tastes. I personally use it for filling my Apothecary Cauldron and sip from it when I'm thirsty. Just make sure you don't leave it upside down. I didn't appreciate the hit my funds got when I almost flooded an entire district...\"&r"
 				"{@pagebreak}"
-				"\"But isn't this the same as carrying two buckets of water?\""
+				"&f\"But isn't this the same as carrying two buckets of water?\""
 				""
 				"&c\"What?\"&r"
 				""
-				"\"You know, laws of physics.\""
+				"&f\"You know, laws of physics.\""
 			]
 			entity_vis_size: 1.0f
 			id: "4128B0BDF74E7913"
@@ -1771,11 +1928,13 @@
 		{
 			dependencies: ["081070F7CBF61207"]
 			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
 				"&c\"Oh, this meager thing? This was one of the first relics I had ever synthesized, experimenting with the properties of the Void Tear and first figuring out what was possible. It lobs harmful snowballs in the direction you point it, which isn't a terrible effect, but it's sort of outlived its usefulness in my arsenal. Still good against blazes, but not nearly as powerful as its 'older brother', so to speak.\""
 				"{@pagebreak}"
 				"&c\"Why do I still have it then? Well, call it a bit of sentimentality, hoarding, or whatever, but I've become attached to it. Also, you never know when some tricky beastie will just snatch whatever weapon you're using straight out of your hands. Never hurts to have a backup.\"&r"
 				""
-				"\"Isn't this just a handle for more powerful staffs though?\""
+				"&f\"Isn't this just a handle for more powerful staffs though?\""
 			]
 			entity_vis_size: 1.0f
 			id: "2D16C6149B35A925"
@@ -1810,6 +1969,8 @@
 		{
 			dependencies: ["4128B0BDF74E7913"]
 			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
 				"&c\"While I was still in training here in the city of Sparkon, I was actually learning the practices of the apothecary. While it didn't end up being the path I had stuck with, I still implement it in my routine since the methods are a little too valuable to just forget about. Instead of haphazardly stuffing ingredients one after another like many other brewers, apothecaries first grind a mix of components into a potion essence. \""
 				"{@pagebreak}"
 				"&c\"Each ingredient can correspond to multiple different effects, but they require at least one shared effect in order to be concentrated into the essence. Then, we put the essence into the cauldron, add any universal reagents as desired, then throw in a bit of Nether Wart. This nets us three potions of significantly increased potency compared to their contemporaries!\"&r"
@@ -1849,9 +2010,11 @@
 				"2A6F7A84B94F1B7F"
 			]
 			description: [
+				"&o&7Notes from Eleonore's Travels, Tome X"
+				""
 				"&o&7 The handwriting brusquely changes"
 				""
-				"&6&fEleonore's&6 notes abruptly end here. That's odd. I would have thought she'd have reached The Devil. From the legends I've heard, she had acquired the Philosopher's Stone, but it isn't documented in this journal. It seems that &fEleonore &6took particular attention in the Salamander's Eye, but never properly documented it aside from a crude drawing of the eye."
+				"&6&fEleonore's&6 notes abruptly end here. That's odd. I would have thought she'd have reached &m-------&r&6. From the legends I've heard, she had acquired the Philosopher's Stone, but it isn't documented in this journal. It seems that &fEleonore &6took particular attention in the Salamander's Eye, but never properly documented it aside from a crude drawing of the eye."
 				""
 				"&6I was able to create one for myself, albeit most likely at a much higher cost than what traditional reliquerers could muster. The artefact does not seem particularly useful on the surface but may have hidden power."
 			]
@@ -1880,7 +2043,11 @@
 		}
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
-			description: ["The Lantern of Paranoia is used to spread torches over a dark area."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&fThe Lantern of Paranoia is used to spread torches over a dark area."
+			]
 			entity_vis_size: 1.0f
 			id: "2A6F7A84B94F1B7F"
 			rewards: [
@@ -1906,7 +2073,11 @@
 		}
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
-			description: ["The Interdiction Torch makes use of mystical fire, burning fragments of a nebulous heart as eternal fuel to repel hostile entities from an area."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VI"
+				""
+				"&fThe Interdiction Torch makes use of mystical fire, burning fragments of a nebulous heart as eternal fuel to repel hostile entities from an area."
+			]
 			entity_vis_size: 1.0f
 			id: "66DB777A17822FE0"
 			rewards: [
@@ -1933,7 +2104,11 @@
 		}
 		{
 			dependencies: ["7EA2E0871C6D568C"]
-			description: ["&6I've done it, this variant of the Witherless Rose blooms with bright colours, able to reverse effects of withering. I am getting closer to figuring out all-encompassing transmutation across all matter. I've used quite a lot of anti-withering elixir in my experiments, though. I don't think I'll be in need of those anymore."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome X"
+				""
+				"&6I've done it, this variant of the Witherless Rose blooms with bright colours, able to reverse effects of withering. I am getting closer to figuring out all-encompassing transmutation across all matter. I've used quite a lot of anti-withering elixir in my experiments, though. I don't think I'll be in need of those anymore."
+			]
 			entity_vis_size: 1.0f
 			id: "34DB9EBB5C296D71"
 			rewards: [{
@@ -1951,7 +2126,11 @@
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
-			description: ["&6The hero's medallion is outclassed in its ability by most earlier methods of experience storage, whether it be the Shrike sword, experience containers or the insightful crystal. I do believe that using the Salamander's Eye, it can be useful as a transmutation medium."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome X"
+				""
+				"&6The hero's medallion is outclassed in its ability by most earlier methods of experience storage, whether it be the Shrike sword, experience containers or the insightful crystal. I do believe that using the Salamander's Eye, it can be useful as a transmutation medium."
+			]
 			entity_vis_size: 1.0f
 			id: "7EA2E0871C6D568C"
 			rewards: [{
@@ -2027,11 +2206,19 @@
 				}
 			}
 			id: "3DD1F3BB424F9A9F"
-			rewards: [{
-				id: "703D66C3B56E6E1F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "79F11CF5522AF48C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "703D66C3B56E6E1F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "75265CB11C675751"
 				item: {
@@ -2050,11 +2237,18 @@
 			dependencies: ["3DD1F3BB424F9A9F"]
 			entity_vis_size: 1.0f
 			id: "3529407D1A72FFCB"
-			rewards: [{
-				id: "5DCACB61F17E627C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4E2F3234D4ADC9ED"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+				{
+					id: "5DCACB61F17E627C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7E08EC30849BF3B9"
 				item: "desecratedcore:amethyst_reinforced_iron_ingot"
@@ -2068,11 +2262,24 @@
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:brass_ingot"
 			id: "422F8B4E485EE7B3"
-			rewards: [{
-				id: "13EC9BBDAD823B1E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2EE45A3A4461C354"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13EC9BBDAD823B1E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "1075F1D85734FF14"
@@ -2107,11 +2314,24 @@
 				}
 			}
 			id: "43A95B77D0DCE884"
-			rewards: [{
-				id: "6ABD678B124888C0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "05E9F0FE770BADAB"
+					item: {
+						Count: 1
+						id: "concatenatedadditionscore:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ABD678B124888C0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0BC379F5967200FC"
 				item: {
@@ -2121,9 +2341,10 @@
 						value: "concatenation:hammers"
 					}
 				}
-				title: "Any #concatenation:hammers"
+				title: "Any Hammer"
 				type: "item"
 			}]
+			title: "Hammer"
 			x: -1.0d
 			y: -2.0d
 		}
@@ -2454,11 +2675,18 @@
 			dependencies: ["206C4BFFA737D67C"]
 			entity_vis_size: 1.0f
 			id: "59DD181B2F00F756"
-			rewards: [{
-				id: "7E443599C3BB894F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "04CB2E9AA1B56FC8"
+					item: "desecratedcore:brass_part"
+					type: "item"
+				}
+				{
+					id: "7E443599C3BB894F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "0876A1435CC8D670"
@@ -2508,6 +2736,7 @@
 					type: "item"
 				}
 			]
+			title: "Censer Golem"
 			x: -4.5d
 			y: -2.0d
 		}
@@ -2550,6 +2779,7 @@
 					type: "item"
 				}
 			]
+			title: "Electro Coil"
 			x: 4.0d
 			y: -12.0d
 		}
@@ -2578,6 +2808,7 @@
 				to_observe: "artificers_armory:familiar"
 				type: "observation"
 			}]
+			title: "Familiar"
 			x: -4.0d
 			y: -6.0d
 		}
@@ -2606,6 +2837,7 @@
 				to_observe: "artificers_armory:hover_sentry"
 				type: "observation"
 			}]
+			title: "Hover Sentry"
 			x: 2.0d
 			y: -12.0d
 		}
@@ -2634,6 +2866,7 @@
 				to_observe: "artificers_armory:mobile_gear"
 				type: "observation"
 			}]
+			title: "Mobile Gear"
 			x: 3.5d
 			y: -13.5d
 		}
@@ -2676,6 +2909,7 @@
 					type: "item"
 				}
 			]
+			title: "Redstone Laser"
 			x: 4.0d
 			y: -10.5d
 		}
@@ -2718,6 +2952,7 @@
 					type: "item"
 				}
 			]
+			title: "Sentry"
 			x: 2.5d
 			y: -10.5d
 		}
@@ -2725,11 +2960,19 @@
 			dependencies: ["76593EA6852DE6C8"]
 			entity_vis_size: 1.0f
 			id: "67DADCC34E9A8A63"
-			rewards: [{
-				id: "4CB4D0A02037C7D0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "52C8A71E719A6D41"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "4CB4D0A02037C7D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.1d
 			tasks: [{
 				id: "72300C07FA6BFA07"
@@ -2743,11 +2986,18 @@
 			dependencies: ["4875801A20501BE7"]
 			entity_vis_size: 1.0f
 			id: "76593EA6852DE6C8"
-			rewards: [{
-				id: "6BDE86ADC80EDD42"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "0452F71E1BA9A2CC"
+					item: "desecratedcore:pure_restorine"
+					type: "item"
+				}
+				{
+					id: "6BDE86ADC80EDD42"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "53382D6D603DB8C4"
@@ -2767,11 +3017,18 @@
 			dependencies: ["76593EA6852DE6C8"]
 			entity_vis_size: 1.0f
 			id: "74A4B93E1FA1AE91"
-			rewards: [{
-				id: "2AE9AE90B36A8A23"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "61564D69C9A436F9"
+					item: "ascendant_arcana:infusion_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2AE9AE90B36A8A23"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.1d
 			tasks: [{
 				id: "5D7ED13C8DD8DC76"
@@ -2885,11 +3142,24 @@
 			dependencies: ["74A4B93E1FA1AE91"]
 			entity_vis_size: 1.0f
 			id: "3220B67522BB5C0D"
-			rewards: [{
-				id: "268F5FB29A927D6B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "13373E59C7F3A718"
+					item: {
+						Count: 1
+						id: "tangiblecommands:back_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "268F5FB29A927D6B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.1d
 			tasks: [{
 				id: "6682007B4FCEE9BF"
@@ -2911,11 +3181,19 @@
 			dependencies: ["67DADCC34E9A8A63"]
 			entity_vis_size: 1.0f
 			id: "2126408CBE5F90FA"
-			rewards: [{
-				id: "3276ACE72194E550"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6207DD32A66981EE"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3276ACE72194E550"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "193645E9AF202AF2"
 				item: "ascendant_arcana:enchanted_scrap"
@@ -2964,6 +3242,7 @@
 				title: "Any Higher Bookshelves"
 				type: "item"
 			}]
+			title: "Higher Bookshelves"
 			x: 2.6500000000000012d
 			y: 6.9d
 		}
@@ -5294,6 +5573,7 @@
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
+			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "26E82A8CFE4649FF"
 			rewards: [{
@@ -5341,6 +5621,7 @@
 		}
 		{
 			dependencies: ["257E0F645B9B307D"]
+			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			id: "52BE4771B955E80F"
 			rewards: [{
@@ -5685,11 +5966,19 @@
 			dependencies: ["3913E4BF1C7341B8"]
 			entity_vis_size: 1.0f
 			id: "4875801A20501BE7"
-			rewards: [{
-				id: "5D9A22D1E6C0B7F6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7ED00C450E4C625D"
+					item: "ascendant_arcana:enchanted_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5D9A22D1E6C0B7F6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "357637AB5AA58BE4"
 				item: {
@@ -5804,6 +6093,12 @@
 			dependencies: ["532DC607CA70E1C1"]
 			entity_vis_size: 1.0f
 			id: "206C4BFFA737D67C"
+			rewards: [{
+				count: 4
+				id: "6761F2CBED883DAB"
+				item: "clockwork:clockwork_gear"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E31A61DCEE2F5F8"
 				item: "clockwork:clockwork_gear"
@@ -5832,6 +6127,7 @@
 				to_observe: "clockwork:clockwork_drill"
 				type: "observation"
 			}]
+			title: "The Clockwork Drill"
 			x: -3.0d
 			y: -13.5d
 		}

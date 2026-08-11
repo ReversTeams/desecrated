@@ -1,0 +1,19 @@
+{
+  "filters": [
+    {
+      "category": "vampirism:alchemical_cauldron"
+    },
+    {
+      "category": "vampirism:hunter_weapon"
+    },
+    {
+      "category": "vampirism:blessing"
+    },
+    {
+      "category": "vampirism:potion"
+    },
+    {
+      "category": "vampirism:alchemy_table"
+    }
+  ]
+}
