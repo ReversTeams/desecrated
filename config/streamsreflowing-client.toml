@@ -45,4 +45,11 @@ streamDebris = true
 #prepared during world creation. Purely visual and client-side.
 #  true = show (default).  false = hide it.
 loadingNotice = false
+#
+#How loud running water sounds. Streams murmur when you are beside them, and waterfalls carry --
+#a big fall can be heard from a long way off, growing into its full sound as you approach.
+#Rides the Ambient volume slider in your sound settings.
+#  0 = silent.  1 = normal (default).  Above 1 is louder.
+#Range: 0.0 ~ 2.0
+waterAmbience = 1.0
 

@@ -112,6 +112,12 @@ ServerEvents.tags('item', event => {
         'minecraft:porkchop'
     ]);
 
+    add('desecrated:higher_pure_blood', [
+        'vampirism:pure_blood_2',
+        'vampirism:pure_blood_3',
+        'vampirism:pure_blood_4'
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"

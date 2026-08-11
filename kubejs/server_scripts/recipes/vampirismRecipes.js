@@ -9,8 +9,16 @@ ServerEvents.recipes(event => {
                 'vampirism:umbrella'
         ]
 
+        const removeCraftingShapeless = [
+                'vampirism:blood_infused_iron_ingot',
+                'vampirism:blood_infused_enhanced_iron_ingot'
+        ]
+
         remove.forEach(item => {
                 event.remove({ output: item })
+        })
+        removeCraftingShapeless.forEach(item => {
+                event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
         })
 
         event.shaped(
