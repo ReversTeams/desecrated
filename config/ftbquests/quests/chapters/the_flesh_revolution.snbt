@@ -12,8 +12,8 @@
 			image: "clanginghowl:block/active_nerve_endings"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.0d
-			y: -35.0d
+			x: 12.0d
+			y: -36.0d
 		}
 		{
 			height: 1.5d
@@ -21,14 +21,14 @@
 			rotation: -180.0d
 			width: 1.5d
 			x: 0.5d
-			y: -17.0d
+			y: -17.5d
 		}
 		{
-			height: 1.0d
+			height: 1.5d
 			image: "neepmeat:block/machine_block/open_machine_block_danglers"
 			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
+			width: 1.5d
+			x: -0.5d
 			y: -12.0d
 		}
 		{
@@ -55,13 +55,17 @@
 			image: "celestisynth:textures/particle/pulsation4.png"
 			rotation: 0.0d
 			width: 1.6d
-			x: -11.0d
-			y: -7.0d
+			x: -11.5d
+			y: -6.0d
 		}
 	]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [{
+		dependency: "q:46f6d38b82b45363"
+		reveal_on_hover: 0b
+		source: "q:2388743859062ad5"
+	}]
 	quest_links: [ ]
 	quests: [
 		{
@@ -513,7 +517,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			size: 1.1d
+			size: 1.3d
 			tasks: [
 				{
 					count: 8L
@@ -528,8 +532,8 @@
 				}
 			]
 			title: "The Integrator Egg"
-			x: -1.0d
-			y: -12.5d
+			x: -0.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -550,6 +554,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [
 				{
 					id: "190C7EEFC3D4965C"
@@ -594,8 +599,8 @@
 				item: "neepmeat:stirling_engine"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.5d
+			x: -9.774999999999999d
+			y: -7.475d
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
@@ -703,8 +708,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: -12.5d
+			x: -10.924999999999999d
+			y: -12.649999999999999d
 		}
 		{
 			dependencies: ["5C5A1D9906886DF4"]
@@ -721,7 +726,7 @@
 				item: "neepmeat:small_compressor"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: -10.5d
 		}
 		{
@@ -738,7 +743,7 @@
 				item: "neepmeat:small_compressor_minecart"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -12.5d
 			y: -10.5d
 		}
 		{
@@ -771,11 +776,11 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.0d
 			y: -10.5d
 		}
 		{
-			dependencies: ["720FB6E79AB03072"]
+			dependencies: ["538E3136ADC8067A"]
 			entity_vis_size: 1.0f
 			id: "01D544725B5B1137"
 			rewards: [{
@@ -802,8 +807,8 @@
 				type: "observation"
 			}]
 			title: "Verrucous Stone Port"
-			x: -4.0d
-			y: -12.5d
+			x: 4.5d
+			y: -18.5d
 		}
 		{
 			dependencies: [
@@ -824,8 +829,8 @@
 				item: "neepmeat:grinder"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -9.5d
+			x: -7.7d
+			y: -8.25d
 		}
 		{
 			dependencies: ["294DE0759A56CB6A"]
@@ -855,8 +860,8 @@
 				item: "neepmeat:meat_scrap"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -12.0d
+			x: -8.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["535BD56C924E99EE"]
@@ -872,8 +877,8 @@
 				item: "neepmeat:raw_meat_brick"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -14.0d
+			x: -7.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
@@ -884,13 +889,14 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "298087857735C2AD"
 				item: "neepmeat:alloy_kiln"
 				type: "item"
 			}]
 			x: -5.5d
-			y: -16.5d
+			y: -17.0d
 		}
 		{
 			dependencies: [
@@ -904,13 +910,14 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.2d
 			tasks: [{
 				id: "6769F689E851790B"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -15.0d
+			x: -4.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["3A286E459CE15CB2"]
@@ -927,7 +934,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -16.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["35FEBF6CDC4E4DA9"]
@@ -939,13 +946,20 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "02FCEAC752DB0136"
-				item: "neepmeat:asbestos"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -14.5d
+			tasks: [
+				{
+					id: "02FCEAC752DB0136"
+					item: "neepmeat:asbestos"
+					type: "item"
+				}
+				{
+					id: "0934F03F28EDDC4D"
+					item: "neepmeat:asbestos_dust"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -959,6 +973,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "658136E5BD54DC8F"
 				item: "neepmeat:charnel_compactor"
@@ -976,14 +991,14 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			size: 1.25d
+			size: 1.3d
 			tasks: [{
 				id: "3AF7107D50C214B4"
 				item: "neepmeat:pedestal"
 				type: "item"
 			}]
 			x: 0.5d
-			y: -17.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -1001,7 +1016,7 @@
 				type: "item"
 			}]
 			x: 1.25d
-			y: -21.25d
+			y: -22.5d
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
@@ -1017,11 +1032,15 @@
 				item: "neepmeat:pump"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -11.5d
 		}
 		{
-			dependencies: ["5C5A1D9906886DF4"]
+			dependencies: [
+				"5C5A1D9906886DF4"
+				"5D4499D4254102B7"
+			]
+			dependency_requirement: "one_started"
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "720FB6E79AB03072"
@@ -1093,7 +1112,7 @@
 				}
 			]
 			title: "Tanks \\& Pipes"
-			x: -4.0d
+			x: -3.5d
 			y: -10.0d
 		}
 		{
@@ -1110,8 +1129,8 @@
 				item: "neepmeat:mixer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -11.5d
+			x: -4.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3E79771244634868"]
@@ -1142,6 +1161,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "661AD5E517491F94"
 				item: "neepmeat:whisper_brass_ingot"
@@ -1164,8 +1184,8 @@
 				item: "neepmeat:whisper_wheat_seeds"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -18.0d
+			x: -2.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
@@ -1306,8 +1326,8 @@
 				item: "neepmeat:asbestos_fabric"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -16.0d
+			x: -11.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["31108DE09C27216B"]
@@ -1366,8 +1386,8 @@
 				}
 			]
 			title: "Asbestos Suit"
-			x: -12.5d
-			y: -17.0d
+			x: -13.224999999999998d
+			y: -17.825d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
@@ -1378,11 +1398,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "0DB156CF23B8E726"
-				item: "neepmeat:crucible"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0DB156CF23B8E726"
+					item: "neepmeat:crucible"
+					type: "item"
+				}
+				{
+					id: "05D68227190E2929"
+					item: "neepmeat:collector"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: -17.5d
 		}
@@ -1401,7 +1428,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -17.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -1434,7 +1461,7 @@
 				type: "item"
 			}]
 			title: "Flesh Circuits"
-			x: 4.0d
+			x: 3.5d
 			y: -16.5d
 		}
 		{
@@ -1468,7 +1495,7 @@
 				item: "neepmeat:item_mincer"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -21.0d
 		}
 		{
@@ -1486,8 +1513,8 @@
 				item: "neepmeat:surgery_platform"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -23.0d
+			x: 2.3d
+			y: -24.15d
 		}
 		{
 			dependencies: ["187D75D48A04D454"]
@@ -1510,8 +1537,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -13.5d
+			x: -3.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
@@ -1527,8 +1554,8 @@
 				item: "neepmeat:tree_vacuum"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -22.5d
+			x: 2.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["187D75D48A04D454"]
@@ -1544,7 +1571,7 @@
 				item: "neepmeat:large_compressor"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -14.0d
 		}
 		{
@@ -1561,8 +1588,8 @@
 				item: "neepmeat:extractor"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -23.5d
+			x: 3.0d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -1653,8 +1680,8 @@
 				item: "meatweapons:airtruck"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -21.5d
+			x: -0.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -1848,8 +1875,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -15.0d
+			x: -8.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -2174,8 +2201,8 @@
 				item: "neepmeat:divine_organ"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -30.0d
+			x: 5.5d
+			y: -31.0d
 		}
 		{
 			dependencies: [
@@ -2211,8 +2238,8 @@
 				title: "Any Phage Ray"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -31.5d
+			x: 6.5d
+			y: -32.5d
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
@@ -2228,7 +2255,7 @@
 				item: "neepmeat:flesh_potato"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -20.0d
 		}
 		{
@@ -2245,8 +2272,8 @@
 				item: "neepmeat:fluid_drain"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -10.5d
+			x: -3.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -2283,7 +2310,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -19.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
@@ -2299,7 +2326,7 @@
 				item: "neepmeat:transducer"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -18.0d
 		}
 		{
@@ -2325,13 +2352,14 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.1d
 			tasks: [{
 				id: "71617DDF6591774E"
 				item: "neepmeat:blood_bubble_sapling"
 				type: "item"
 			}]
 			x: 2.0d
-			y: -18.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["15C64A76D9BDAF58"]
@@ -2348,7 +2376,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -19.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["7522632161D258AA"]
@@ -2765,7 +2793,7 @@
 			}]
 			title: "Meteorite Tools"
 			x: 1.5d
-			y: -10.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
@@ -2788,8 +2816,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -34.0d
+			x: 8.5d
+			y: -35.0d
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
@@ -2805,8 +2833,8 @@
 				item: "clanginghowl:extraterrestrial_energy_crystal"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -35.0d
+			x: 6.5d
+			y: -36.0d
 		}
 		{
 			dependencies: ["4D2F18ACAB325F21"]
@@ -2865,8 +2893,8 @@
 				title: "Any Extraterrestrial Steel Tool"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -35.0d
+			x: 10.0d
+			y: -36.0d
 		}
 		{
 			dependencies: ["4D2F18ACAB325F21"]
@@ -2888,8 +2916,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -36.5d
+			x: 9.0d
+			y: -37.5d
 		}
 		{
 			dependencies: [
@@ -2915,8 +2943,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -37.5d
+			x: 5.5d
+			y: -38.5d
 		}
 		{
 			dependencies: ["47271D8E8C2CAA7C"]
@@ -2939,8 +2967,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -39.5d
+			x: 5.0d
+			y: -40.5d
 		}
 		{
 			dependencies: ["47734465F52F456E"]
@@ -2963,8 +2991,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -41.0d
+			x: 5.5d
+			y: -42.0d
 		}
 		{
 			dependencies: [
@@ -2983,8 +3011,8 @@
 				item: "clanginghowl:battery_panel"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -39.5d
+			x: 9.5d
+			y: -40.5d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3007,8 +3035,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -41.0d
+			x: 8.0d
+			y: -42.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3031,8 +3059,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -41.0d
+			x: 10.5d
+			y: -42.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3055,8 +3083,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -40.0d
+			x: 11.5d
+			y: -41.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3079,8 +3107,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -42.0d
+			x: 9.5d
+			y: -43.0d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -3097,8 +3125,8 @@
 				item: "clanginghowl:techno_optics"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -37.0d
+			x: 14.0d
+			y: -38.0d
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
@@ -3130,8 +3158,9 @@
 					type: "structure"
 				}
 			]
-			x: 11.0d
-			y: -34.5d
+			title: "Sources of Technology"
+			x: 12.0d
+			y: -35.5d
 		}
 		{
 			dependencies: [
@@ -3157,8 +3186,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: -38.5d
+			x: 15.5d
+			y: -39.5d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -3175,8 +3204,8 @@
 				item: "clanginghowl:advanced_electronics"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -36.0d
+			x: 15.5d
+			y: -37.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3199,8 +3228,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: -38.0d
+			x: 17.0d
+			y: -39.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3223,8 +3252,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -36.5d
+			x: 18.0d
+			y: -37.5d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3247,8 +3276,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -35.0d
+			x: 18.0d
+			y: -36.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3271,8 +3300,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: -34.0d
+			x: 17.0d
+			y: -35.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3288,8 +3317,8 @@
 				item: "clanginghowl:bloody_battery"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -34.0d
+			x: 15.5d
+			y: -35.0d
 		}
 		{
 			dependencies: ["19BA5E36EDE9AD6D"]
@@ -3306,8 +3335,8 @@
 				item: "clanginghowl:techno_heart"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -37.0d
+			x: 12.5d
+			y: -38.0d
 		}
 		{
 			dependencies: ["0B85F0A2B253BCB5"]
@@ -3330,8 +3359,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -34.0d
+			x: 14.0d
+			y: -35.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3353,8 +3382,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -38.5d
+			x: 11.5d
+			y: -39.5d
 		}
 		{
 			dependencies: ["47271D8E8C2CAA7C"]
@@ -3386,8 +3415,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -38.0d
+			x: 4.0d
+			y: -39.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3403,8 +3432,8 @@
 				item: "clanginghowl:stationary_charging_station"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -37.5d
+			x: 10.5d
+			y: -38.5d
 		}
 		{
 			dependencies: [
@@ -3423,8 +3452,8 @@
 				item: "clanginghowl:crystal_former"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -36.5d
+			x: 7.5d
+			y: -37.5d
 		}
 		{
 			dependencies: ["3F82A1635119FC83"]
@@ -3440,8 +3469,8 @@
 				item: "clanginghowl:extraterrestrial_steel_plate"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -38.0d
+			x: 8.0d
+			y: -39.0d
 		}
 		{
 			dependencies: ["0D308BF48937BBF8"]
@@ -3457,11 +3486,13 @@
 				item: "clanginghowl:barrier_of_extraterrestrial_activity"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -39.5d
+			x: 7.0d
+			y: -40.5d
 		}
 		{
+			dependencies: ["5D4499D4254102B7"]
 			entity_vis_size: 1.0f
+			hide_dependency_lines: true
 			id: "5CBF6B358D34087C"
 			rewards: [{
 				id: "40AC74E5A3A63D10"
@@ -3473,8 +3504,8 @@
 				item: "incision:eyebulb"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -30.0d
+			x: 10.5d
+			y: -31.0d
 		}
 		{
 			dependencies: ["5CBF6B358D34087C"]
@@ -3490,8 +3521,8 @@
 				item: "incision:lens_glass"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -31.5d
+			x: 11.0d
+			y: -32.5d
 		}
 		{
 			dependencies: ["5CBF6B358D34087C"]
@@ -3507,12 +3538,14 @@
 				item: "incision:conductor_nerve"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -31.0d
+			x: 9.0d
+			y: -32.0d
 		}
 		{
+			dependencies: ["5D4499D4254102B7"]
 			description: ["Browne can be found in caves."]
 			entity_vis_size: 1.0f
+			hide_dependency_lines: true
 			id: "02ECCCD98242956B"
 			rewards: [{
 				id: "3CF85AD4B1D869D9"
@@ -3537,10 +3570,11 @@
 				}
 			]
 			title: "Browne"
-			x: -4.5d
+			x: -5.0d
 			y: -8.5d
 		}
 		{
+			dependencies: ["5D4499D4254102B7"]
 			description: [
 				"I still remember my steamwork classes. I am still able to make very simple steam machines."
 				""
@@ -3551,6 +3585,7 @@
 				"&fThe boiler is most often used as a component piece in other machines, but it has its own uses, typically to power other low-tech equipment with steam, such as the steam-powered macerator or steam-powered tree feller."
 			]
 			entity_vis_size: 1.0f
+			hide_dependency_lines: true
 			id: "3A5B721A7E614679"
 			rewards: [
 				{
@@ -3571,8 +3606,8 @@
 				item: "concatenatedadditionsmachines:boiler"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -7.0d
+			x: -11.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -3607,8 +3642,8 @@
 				item: "concatenatedadditionsmachines:hydraulic_tree_feller"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -8.5d
+			x: -12.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -3644,8 +3679,8 @@
 				item: "concatenatedadditionsmachines:hydraulic_crusher"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -7.5d
+			x: -13.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -3697,16 +3732,18 @@
 					type: "item"
 				}
 			]
-			x: -15.0d
-			y: -8.0d
+			x: -15.5d
+			y: -7.0d
 		}
 		{
+			dependencies: ["5D4499D4254102B7"]
 			description: [
 				"I keep seeing these meteors throughout the land. Hey, Grisha, can I do anything useful with them?"
 				""
 				"&4Why yes, these meteors from outer space are quite magnetic. You can make use of their properties in tools to make meteorite tools possessing innate magnetism."
 			]
 			entity_vis_size: 1.0f
+			hide_dependency_lines: true
 			id: "1E9B68675477C2B1"
 			rewards: [{
 				id: "2273B6EA7D737716"
@@ -3719,7 +3756,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
@@ -3731,7 +3768,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -17.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
@@ -3755,7 +3792,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -16.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["64FCA03D70F9CBEC"]
@@ -3767,8 +3804,8 @@
 				item: "neepmeat:advanced_integrator"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -28.0d
+			x: 4.5d
+			y: -29.0d
 		}
 		{
 			dependencies: ["6316E079115AB0BC"]
@@ -3786,8 +3823,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -23.0d
+			x: 4.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["6316E079115AB0BC"]
@@ -3798,8 +3835,8 @@
 				item: "neepmeat:chrysalis"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -24.5d
+			x: 3.5d
+			y: -25.5d
 		}
 		{
 			dependencies: ["7E578A9787FE3B42"]
@@ -3850,8 +3887,8 @@
 				}
 			]
 			title: "The Bovine Horror"
-			x: 3.0d
-			y: -26.0d
+			x: 4.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["5EAEE969037829A4"]
@@ -3862,8 +3899,250 @@
 				item: "neepmeat:charnel_pump"
 				type: "item"
 			}]
+			x: 7.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["02ECCCD98242956B"]
+			entity_vis_size: 1.0f
+			id: "2C9AF37FB92930EE"
+			tasks: [{
+				id: "72AE89D8B5F54083"
+				item: "neepmeat:feeding_trough"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2388743859062AD5"]
+			entity_vis_size: 1.0f
+			id: "091785408E027D36"
+			tasks: [{
+				id: "029D4954F559253F"
+				item: "neepmeat:small_trommel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -20.5d
+		}
+		{
+			dependencies: [
+				"76EB939D9E63EC40"
+				"0740A62EA79185DE"
+			]
+			entity_vis_size: 1.0f
+			id: "244378143BF3B0D3"
+			tasks: [{
+				id: "56F37F1F499B874C"
+				item: "neepmeat:pipe_driver"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["76EB939D9E63EC40"]
+			entity_vis_size: 1.0f
+			id: "7169247966F70F91"
+			tasks: [{
+				id: "7AC9BEDA86FEF87F"
+				item: "neepmeat:power_flower_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -24.5d
+		}
+		{
+			dependencies: ["7169247966F70F91"]
+			entity_vis_size: 1.0f
+			id: "0D80DDDC0EA03205"
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					icon: "neepmeat:power_flower_growth"
+					id: "64172D463D3DEBF3"
+					observe_type: 0
+					timer: 0L
+					title: "Witness a Power Flower Growth"
+					to_observe: "neepmeat:power_flower_growth"
+					type: "observation"
+				}
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					icon: "neepmeat:power_flower_controller"
+					id: "15C95E5965AF4126"
+					observe_type: 0
+					timer: 0L
+					title: "Witness a Power Flower Controller"
+					to_observe: "neepmeat:power_flower_controller"
+					type: "observation"
+				}
+			]
+			x: -1.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["0D80DDDC0EA03205"]
+			entity_vis_size: 1.0f
+			id: "25375D02836A613F"
+			tasks: [{
+				id: "0ADBE22A00D52B9C"
+				item: "neepmeat:fluid_exciter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -27.5d
+		}
+		{
+			dependencies: [
+				"25375D02836A613F"
+				"7CB4D77815BD3A65"
+			]
+			entity_vis_size: 1.0f
+			id: "110E1041B34B98D0"
+			tasks: [
+				{
+					id: "3D5AAD99489E64FF"
+					item: "neepmeat:stomach"
+					type: "item"
+				}
+				{
+					id: "18DEB834F52242F4"
+					item: "neepmeat:metaboliser_segment"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["110E1041B34B98D0"]
+			entity_vis_size: 1.0f
+			id: "7C9CD7D04AD20AA6"
+			tasks: [{
+				id: "747765F9A1988C41"
+				item: "neepmeat:large_motor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["76EB939D9E63EC40"]
+			entity_vis_size: 1.0f
+			id: "38F020EC3A2770E9"
+			tasks: [{
+				id: "1FD430F53FD38ECE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "neepmeat:skin_machine_block"
+							}
+							{
+								Count: 1b
+								id: "neepmeat:machine_block"
+							}
+							{
+								Count: 1b
+								id: "neepmeat:meat_steel_machine_block"
+							}
+							{
+								Count: 1b
+								id: "neepmeat:blood_bubble_machine_block"
+							}
+						]
+					}
+				}
+				title: "Any Machine Block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -25.5d
+		}
+		{
+			dependencies: ["38F020EC3A2770E9"]
+			entity_vis_size: 1.0f
+			id: "17088B6A27E2C546"
+			tasks: [
+				{
+					id: "64DE6BC7ECD94068"
+					item: "neepmeat:fluid_input_port"
+					type: "item"
+				}
+				{
+					id: "6A4FD005CFFCE38B"
+					item: "neepmeat:item_input_port"
+					type: "item"
+				}
+				{
+					id: "3BE59CD3BA461033"
+					item: "neepmeat:motor_port"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["38F020EC3A2770E9"]
+			entity_vis_size: 1.0f
+			id: "7CB4D77815BD3A65"
+			tasks: [{
+				id: "7DCAA3902D9809E8"
+				item: "neepmeat:living_machine_controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["7CB4D77815BD3A65"]
+			entity_vis_size: 1.0f
+			id: "162BD9699201E50E"
+			tasks: [{
+				id: "3C7A83ECBF687AA9"
+				item: "neepmeat:large_trommel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -28.0d
+		}
+		{
+			dependencies: [
+				"46F6D38B82B45363"
+				"01D544725B5B1137"
+			]
+			dependency_requirement: "one_started"
+			entity_vis_size: 1.0f
+			id: "2388743859062AD5"
+			tasks: [{
+				id: "05E21E4749052BC0"
+				item: "neepmeat:motor_unit"
+				type: "item"
+			}]
 			x: 6.0d
-			y: -29.0d
+			y: -19.5d
 		}
 	]
 	title: "Flesh Industries"

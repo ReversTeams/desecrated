@@ -409,8 +409,8 @@
 					type: "item"
 				}
 			]
-			x: 16.375d
-			y: -21.049999999999997d
+			x: 16.674999999999997d
+			y: -20.124999999999996d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -471,8 +471,8 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
-			y: -20.0d
+			x: 19.0d
+			y: -19.0d
 		}
 		{
 			dependencies: [
@@ -492,7 +492,7 @@
 				item: "bloodyhell:sanguinite_infusor"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.5d
 			y: -23.0d
 		}
 		{
@@ -509,8 +509,8 @@
 				item: "bloodyhell:sanguinite_blood_harvester_item"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -20.0d
+			x: 21.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -527,7 +527,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: -22.5d
+			y: -23.5d
 		}
 		{
 			dependencies: [
@@ -839,7 +839,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: -21.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
@@ -856,7 +856,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -21.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -3665,7 +3665,7 @@
 				}
 			]
 			x: 16.5d
-			y: -19.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["6F3A5BBFC72E0DBF"]
@@ -4260,6 +4260,82 @@
 			}]
 			x: -7.5d
 			y: -25.0d
+		}
+		{
+			dependencies: ["54D942F53453202D"]
+			entity_vis_size: 1.0f
+			id: "6CD7A701773A0862"
+			tasks: [{
+				id: "0C5A86CE9E467C71"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vampirism:pure_blood_0"
+							}
+							{
+								Count: 1b
+								id: "vampirism:pure_blood_1"
+							}
+							{
+								Count: 1b
+								id: "vampirism:pure_blood_2"
+							}
+							{
+								Count: 1b
+								id: "vampirism:pure_blood_3"
+							}
+						]
+					}
+				}
+				title: "Any Not Full Pure Blood"
+				type: "item"
+			}]
+			title: "Pure Blood"
+			x: -1.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["19C8C7A0D9F4F3A6"]
+			entity_vis_size: 1.0f
+			id: "098FC0168A2D7F6E"
+			tasks: [{
+				id: "6C9E9D3FDE5F9FA5"
+				item: "vampirism:pure_blood_4"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["6CD7A701773A0862"]
+			entity_vis_size: 1.0f
+			id: "5283B40105846030"
+			tasks: [{
+				id: "70B0F08BA08979A5"
+				item: "vampirism:blood_infused_iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"0377023CC9A03552"
+				"098FC0168A2D7F6E"
+			]
+			entity_vis_size: 1.0f
+			id: "219668FB6125E4B1"
+			tasks: [{
+				id: "5DD9D13B94AA5A87"
+				item: "vampirism:blood_infused_enhanced_iron_ingot"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -22.5d
 		}
 	]
 	title: "Arcane Flesh"
