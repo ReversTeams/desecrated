@@ -94,7 +94,14 @@ ServerEvents.recipes(event => {
         'reliquary:hero_medallion',
         'torchmaster:feral_flare_lantern',
         'torchmaster:frozen_pearl',
-        'reliquary:shears_of_winter'
+        'reliquary:shears_of_winter',
+        "artificers_armory:broom_wood",
+        'concatenatedadditionstools:ice_shard',
+        "artificers_armory:broom_stone",
+        "artificers_armory:broom_copper",
+        "artificers_armory:broom_iron",
+        "artificers_armory:broom_gold",
+        "artificers_armory:broom_diamond"
     ]
 
     remove.forEach(item => {
@@ -1216,6 +1223,99 @@ ServerEvents.recipes(event => {
             D: 'incision:blinking_hamstring',
             E: 'minecraft:diamond',
             B: 'fracture:flesh_block'
+        }
+    )
+
+    event.shaped(
+        Item.of('artificers_armory:broom_wood'),
+        [
+            ' AB',
+            'AC ',
+            'D  '
+        ],
+        {
+            C: 'perdition:pyrite',
+            D: 'minecraft:wheat',
+            B: 'minecraft:stick',
+            A: 'minecraft:oak_planks'
+        }
+    )
+
+    event.shaped(
+        Item.of('artificers_armory:broom_stone'),
+        [
+            ' AB',
+            'AC ',
+            'D  '
+        ],
+        {
+            C: 'perdition:pyrite',
+            D: 'minecraft:wheat',
+            B: 'minecraft:stick',
+            A: 'minecraft:cobblestone'
+        }
+    )
+
+    event.shaped(
+        Item.of('artificers_armory:broom_copper'),
+        [
+            ' AB',
+            'AC ',
+            'D  '
+        ],
+        {
+            C: 'perdition:pyrite',
+            D: 'minecraft:wheat',
+            B: 'minecraft:stick',
+            A: 'minecraft:copper_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('artificers_armory:broom_iron'),
+        [
+            ' AB',
+            'ACD',
+            'ED '
+        ],
+        {
+            C: 'perdition:pyrite',
+            A: 'minecraft:iron_ingot',
+            E: 'minecraft:wheat',
+            D: 'perdition:silver_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+
+    event.shaped(
+        Item.of('artificers_armory:broom_gold'),
+        [
+            ' AB',
+            'ACD',
+            'ED '
+        ],
+        {
+            C: 'perdition:pyrite',
+            A: 'minecraft:gold_ingot',
+            E: 'minecraft:wheat',
+            D: 'perdition:silver_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+
+    event.shaped(
+        Item.of('artificers_armory:broom_diamond'),
+        [
+            ' AB',
+            'ACD',
+            'ED '
+        ],
+        {
+            C: 'perdition:pyrite',
+            E: 'minecraft:wheat',
+            D: 'perdition:silver_ingot',
+            A: 'minecraft:diamond',
+            B: 'minecraft:stick'
         }
     )
 

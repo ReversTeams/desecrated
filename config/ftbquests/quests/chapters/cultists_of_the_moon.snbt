@@ -53,13 +53,9 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "14888EF83E146AED"
+					id: "26618FC3C0F43A90"
+					table_id: 6565141144447489233L
 					type: "random"
-				}
-				{
-					id: "7B28031F45864DBF"
-					type: "xp_levels"
-					xp_levels: 1
 				}
 				{
 					id: "24A141221B6CE643"
@@ -191,12 +187,12 @@
 			id: "25A618A3B28B8DEE"
 			rewards: [
 				{
-					id: "68D972FD21185F7D"
+					id: "7FEEC0E5F80ED6BF"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					id: "7FEEC0E5F80ED6BF"
+					id: "172AFF6DE64337DA"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -1102,11 +1098,24 @@
 			dependencies: ["068DF533DB041F37"]
 			entity_vis_size: 1.0f
 			id: "4643D70E0ECF32C6"
-			rewards: [{
-				id: "0C8A3F18298D2E10"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7EECA7D697D60ED3"
+					item: {
+						Count: 1
+						id: "concatenatedadditionsartefacts:protection_charm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C8A3F18298D2E10"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "467586B43290BCDB"
@@ -1189,11 +1198,24 @@
 			dependencies: ["068DF533DB041F37"]
 			entity_vis_size: 1.0f
 			id: "7E79862516937EEB"
-			rewards: [{
-				id: "60611577EF9C1F20"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6FD6842DB7A496E5"
+					item: {
+						Count: 1
+						id: "tangiblecommands:back_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60611577EF9C1F20"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "290B8297B43E239D"
 				item: {
@@ -1210,13 +1232,34 @@
 		}
 		{
 			dependencies: ["744FAFE8E9E3222C"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome IX"
+				""
+				"&2The sword Kestrel has a similar handle to Rift Blades. I've heard it's also able to teleport. Since people are still using it for travel and it hasn't shattered, perhaps I should procure one for myself for research.&r"
+			]
 			entity_vis_size: 1.0f
 			id: "4D4A36C535E4809E"
-			rewards: [{
-				id: "13CD196B63B20AC8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3383DBD1ECB84D2A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "majruszsenchantments:telekinesis"
+								lvl: 1b
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13CD196B63B20AC8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "64D81445D68A54E3"
 				item: {
@@ -1383,11 +1426,24 @@
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "19CD7CA150532811"
-			rewards: [{
-				id: "38CA7A27C0E80D2D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "01EF1573C828544C"
+					item: {
+						Count: 1
+						id: "tangiblecommands:rtp_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38CA7A27C0E80D2D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				dimension: "perdition:purgatory"
@@ -1412,11 +1468,24 @@
 			hide_until_deps_complete: true
 			icon: "perdition:marmor_exaltatus"
 			id: "2F27E02457BCBE92"
-			rewards: [{
-				id: "6D11E49B43144F14"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7541211169D96DDA"
+					item: {
+						Count: 1
+						id: "tangiblecommands:rtp_item"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D11E49B43144F14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				dimension: "perdition:dis"
@@ -1534,10 +1603,7 @@
 			y: 3.0999999999999996d
 		}
 		{
-			dependencies: [
-				"5EE6AE43F9620AB2"
-				"6C15F8C95DCDFB7E"
-			]
+			dependencies: ["5EE6AE43F9620AB2"]
 			dependency_requirement: "one_completed"
 			description: [
 				"&o&7Notes from Eleonore's Travels, Tome IX"
@@ -1668,18 +1734,6 @@
 			y: 8.4d
 		}
 		{
-			dependencies: ["7FE36C7E48D2715B"]
-			entity_vis_size: 1.0f
-			id: "46F134472373EB87"
-			tasks: [{
-				id: "6D402AEA3C1790AD"
-				item: "minecraft:echo_shard"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.9d
-		}
-		{
 			dependencies: ["366257C485C91809"]
 			description: [
 				"&o&7Notes from Eleonore's Travels, Tome IX"
@@ -1743,6 +1797,11 @@
 			]
 			entity_vis_size: 1.0f
 			id: "1A515F6225562D0D"
+			rewards: [{
+				id: "4D40DFAC635A882F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "52900DD96A086143"
 				item: {
@@ -1769,11 +1828,25 @@
 			entity_vis_size: 1.0f
 			icon: "perdition:limbo_berries"
 			id: "7F142F16CEB3F2BC"
-			rewards: [{
-				id: "06D753DE0B82FBF6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0AA42BE7503892D1"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06D753DE0B82FBF6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0B8D8B82F9BDFB75"
 				item: "perdition:limbo_berries"
@@ -1815,6 +1888,87 @@
 			title: "Silver and Pyrite"
 			x: -5.199999999999999d
 			y: 2.0999999999999996d
+		}
+		{
+			dependencies: ["64C5A9EB5083A520"]
+			entity_vis_size: 1.0f
+			id: "3BC379C4936B2FB8"
+			rewards: [{
+				count: 3
+				id: "2C878CA2E6241A70"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BC028C2EAABCA77"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "artificers_armory:broom_wood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:broom_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:broom_copper"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:broom_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:broom_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:broom_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "artificers_armory:broom_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Broom"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
 		}
 	]
 	title: "Cultists of the Moon"
