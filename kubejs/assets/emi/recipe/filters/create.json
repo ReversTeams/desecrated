@@ -1,75 +1,57 @@
 {
   "filters": [
     {
-      
       "category": "create:automatic_shapeless"
     },
     {
-      
       "category": "create:draining"
     },
     {
-      
       "category": "create:milling"
     },
     {
-      
       "category": "create:crushing"
     },
     {
-      
       "category": "create:fan_washing"
     },
     {
-      
       "category": "create:fan_smoking"
     },
     {
-      
       "category": "create:fan_blasting"
     },
     {
-      
       "category": "create:fan_haunting"
     },
     {
-      
       "category": "create:mixing"
     },
     {
-      
       "category": "create:automatic_brewing"
     },
     {
-      
       "category": "create:packing"
     },
     {
-      
       "category": "create:automatic_packing"
     },
     {
-      
       "category": "create:block_cutting"
     },
     {
-      
       "category": "create:item_application"
     },
     {
-      
       "category": "create:spout_filling"
     },
     {
-      
       "category": "create:draining"
     },
     {
-      
       "category": "create:automatic_shaped"
     },
     {
-      
       "category": "create:mystery_conversion"
     }
   ]
