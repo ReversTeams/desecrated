@@ -23,13 +23,14 @@ ServerEvents.recipes(event => {
         'clanginghowl:extraterrestrial_steel_nugget',
         "clanginghowl:extraterrestrial_hoe",
         "clanginghowl:drill_bit",
-        "clanginghowl:extraterrestrial_sword", 
-        "clanginghowl:extraterrestrial_hammer", 
-        "clanginghowl:extraterrestrial_shovel", 
-        "clanginghowl:extraterrestrial_pickaxe", 
-        "clanginghowl:extraterrestrial_axe", 
-        "clanginghowl:battery_panel", 
-        "clanginghowl:industrial_adjustable_wrench"
+        "clanginghowl:extraterrestrial_sword",
+        "clanginghowl:extraterrestrial_hammer",
+        "clanginghowl:extraterrestrial_shovel",
+        "clanginghowl:extraterrestrial_pickaxe",
+        "clanginghowl:extraterrestrial_axe",
+        "clanginghowl:battery_panel",
+        "clanginghowl:industrial_adjustable_wrench",
+        "neepmeat:living_machine_controller"
     ]
 
     const removeCraftingShaped = [
@@ -142,6 +143,20 @@ ServerEvents.recipes(event => {
         { input: 'neepmeat:internal_components' },
         'neepmeat:internal_components',
         '#desecrated:flesh_circuit'
+    )
+
+    event.shaped(
+        Item.of('neepmeat:projector'),
+        [
+            ' AB',
+            ' C ',
+            '   '
+        ],
+        {
+            C: 'neepmeat:integration_charge_crude',
+            B: 'neepmeat:open_eye',
+            A: 'neepmeat:television_off'
+        }
     )
 
     event.shaped(

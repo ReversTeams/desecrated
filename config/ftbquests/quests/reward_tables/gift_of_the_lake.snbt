@@ -1,0 +1,10 @@
+{
+	id: "02CDED946F1A02BC"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 16, item: "minecraft:clay_ball" }
+		{ count: 8, item: "neepmeat:asbestos_dust" }
+	]
+	title: "Gift of the Lake"
+}

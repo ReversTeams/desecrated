@@ -6,7 +6,8 @@ ServerEvents.recipes(event => {
     const remove = [
         'bloodmagic:altar',
         'bloodmagic:sacrificialdagger',
-        'perdition:dis'
+        'perdition:dis',
+        'concatenatedadditionstools:kestrel'
     ]
 
     remove.forEach(item => {
@@ -27,6 +28,33 @@ ServerEvents.recipes(event => {
             C: 'desecratedcore:moon_key_item'
         }
     )
+
+    event.shaped(
+        Item.of('concatenatedadditionstools:kestrel'),
+        [
+            'A  ',
+            'A  ',
+            'B  '
+        ],
+        {
+            B: 'concatenatedadditionstools:gold_handle',
+            A: 'perdition:corruptite'
+        }
+    )
+
+    event.shaped(
+        Item.of('concatenatedadditionstools:bloody_living_giant_sword'),
+        [
+            ' AA',
+            'ABA',
+            'CA '
+        ],
+        {
+            B: 'bloodmagic:weakbloodorb',
+            A: 'vampirism:blood_infused_iron_ingot',
+            C: 'bloodmagic:soulsword'
+        }
+    ).replaceIngredient('bloodmagic:weakbloodorb', 'neepmeat:ore_dust')
 
     // Blood Magic Recipes
     event.shaped(
