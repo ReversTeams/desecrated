@@ -21,6 +21,7 @@
     "usefulbackpacks:backpack_medium",
     "usefulbackpacks:backpack_large",
     "usefulbackpacks:backpack_enderchest",
-    "minecraft:written_book"
+    "minecraft:written_book",
+    "patchouli:guide_book"
   ]
 }
