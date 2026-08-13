@@ -25,6 +25,8 @@ logs
 *.log
 backups
 bandwidthoptimizer-native
+cache/skins
+data
 
 # various config, caches, etc
 modernfix
