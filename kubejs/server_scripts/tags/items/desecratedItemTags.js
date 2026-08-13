@@ -118,6 +118,11 @@ ServerEvents.tags('item', event => {
         'vampirism:pure_blood_4'
     ]);
 
+    add('desecrated:ender_wish', [
+        'minecraft:popped_chorus_fruit',
+        'butchery:enderman_head'
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"
