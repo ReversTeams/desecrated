@@ -169,6 +169,11 @@
 	#Affinity needed to unlock an NPC's second passive. See tier1.
 	#Range: 0 ~ 1000000
 	tier2 = 800
+	#Sonetto's 400 bond passive: added spell damage, as a fraction (0.10 = +10%).
+	#The passive also stops the holder damaging another player at all -- melee,
+	#arrows and spells alike. That half is not tunable; it is the point of the oath.
+	#Range: 0.0 ~ 10.0
+	sonettoSpellDamage = 0.1
 
 [suitcase]
 	#Starting number of boxes a Suitcase Tablet network can link.
@@ -193,4 +198,30 @@
 	#to the island dock. Only animals, and only ones nobody else has tamed.
 	#Set false to keep the suitcase strictly a doorway for people.
 	ferryAnimals = true
+	#Suitcase Tablet crafting panel (craft / smelt from the storage network).
+	#DISABLED BY DEFAULT: the system is still unstable, so it is switched off
+	#rather than removed. Set true to turn it back on.
+	#Note: queued smelting jobs from an earlier session always finish and their
+	#results are returned, even while this is false - their ingredients were
+	#already taken and are not thrown away.
+	craftingPanel = false
+
+#Storm monsters - skeletons and zombies the Storm is eating.
+[stormMonsters]
+	#Spawn Storm Syndrome Skeletons and Zombies while the Storm is blowing.
+	enabled = true
+	#Iron's Spellbooks spell id the Storm Skeleton casts (every 10s).
+	#Ignored when Iron's Spellbooks is not installed - the monster still spawns,
+	#it simply has no spell. An id that does not exist behaves the same way.
+	skeletonSpell = "irons_spellbooks:gust"
+	#Iron's Spellbooks spell id the Storm Zombie casts (every 10s).
+	zombieSpell = "irons_spellbooks:throw"
+
+#Forget Me Not - the potion-throwing mini boss.
+[forgetMeNot]
+	#Iron's Spellbooks spell id Forget Me Not casts to reposition (every 12s).
+	#Blood Step is a short teleport, which is what makes it hard to corner.
+	#Ignored when Iron's Spellbooks is not installed - it then fights with
+	#potions and melee only, which is still a complete encounter.
+	spell = "irons_spellbooks:blood_step"
 
