@@ -167,6 +167,10 @@ ServerEvents.tags('item', event => {
         'macabre:raw_ferrum'
     ]);
 
+    add('forge:nuggets/copper', [
+        'modestmining:copper_nugget'
+    ]);
+
     add('lychee:lightning_immune', [
         'desecratedcore:forbidden_knowledge',
         'bloodyhell:forbidden_bookshelf_block'

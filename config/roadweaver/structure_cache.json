@@ -2089,6 +2089,24 @@
       ]
     },
     {
+      "id": "modestmining:ancient_digging_site",
+      "displayName": "Ancient Digging Site",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "modestmining:sandy_digging_site",
+      "displayName": "Sandy Digging Site",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "monster_hunter_villager:hunters_tent_blue",
       "displayName": "Hunters Tent Blue",
       "isVanilla": false,

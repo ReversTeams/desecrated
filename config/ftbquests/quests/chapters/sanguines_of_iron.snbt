@@ -127,7 +127,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["20DC2110D654C2D8"]
+			dependencies: [
+				"20DC2110D654C2D8"
+				"623FB39372B70DDF"
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "27080CDFCD7A0AC9"
@@ -141,8 +144,8 @@
 				item: "tetra:geode"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27080CDFCD7A0AC9"]
@@ -160,8 +163,8 @@
 				id: "6038A97743354D67"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
@@ -282,7 +285,7 @@
 				item: "tetra:rack"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.0d
 			y: -3.5d
 		}
 		{
@@ -393,8 +396,440 @@
 				item: "oreberriesreplanted:iron_oreberry_bush"
 				type: "item"
 			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20DC2110D654C2D8"]
+			entity_vis_size: 1.0f
+			id: "7FF4417F28BBA363"
+			tasks: [{
+				id: "61722DAE05FC7C2C"
+				item: "modestmining:forge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			id: "6CB1DE4BBF000098"
+			tasks: [{
+				id: "1947DB23EBCAD4ED"
+				item: "modestmining:pearl"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6CB1DE4BBF000098"
+				"50CE7F52FC6B44F0"
+			]
+			entity_vis_size: 1.0f
+			id: "0108AAE3F424D4AF"
+			tasks: [{
+				id: "5613964B98CA68AF"
+				item: "modestmining:prismarite_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			id: "50CE7F52FC6B44F0"
+			tasks: [{
+				id: "4520CF29A2EB42C7"
+				item: "modestmining:coke"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			id: "77B94FC775C59E8F"
+			tasks: [{
+				id: "5506F0A4EE7323C5"
+				item: {
+					Count: 1
+					id: "modestmining:chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			x: 3.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["77B94FC775C59E8F"]
+			entity_vis_size: 1.0f
+			id: "623FB39372B70DDF"
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					icon: "modestmining:suspicious_dirt"
+					id: "7AD9A962D148E2A8"
+					observe_type: 0
+					timer: 0L
+					to_observe: "modestmining:suspicious_dirt"
+					type: "observation"
+				}
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					icon: "modestmining:suspicious_stone"
+					id: "1706818B5D362A04"
+					observe_type: 0
+					timer: 0L
+					to_observe: "modestmining:suspicious_stone"
+					type: "observation"
+				}
+			]
+			title: "Suspicious Mining"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0108AAE3F424D4AF"]
+			entity_vis_size: 1.0f
+			id: "43245FEBCF7B956D"
+			tasks: [{
+				id: "5016422568ADB015"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:prismarite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Prismarite Tool"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0108AAE3F424D4AF"]
+			entity_vis_size: 1.0f
+			id: "786B6F26A280619E"
+			tasks: [
+				{
+					id: "64D87A7E0E1555A5"
+					item: {
+						Count: 1
+						id: "modestmining:prismarite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45A7D4F32B522CF7"
+					item: {
+						Count: 1
+						id: "modestmining:prismarite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28414718AE94EDB0"
+					item: {
+						Count: 1
+						id: "modestmining:prismarite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6974B320CFB2623C"
+					item: {
+						Count: 1
+						id: "modestmining:prismarite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Prismarite Armour"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			id: "20D37E357AC221B0"
+			tasks: [{
+				id: "162222E4260F4D24"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:wooden_glaive"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:stone_glaive"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:iron_glaive"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:golden_glaive"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:diamond_glaive"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:netherite_glaive"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_glaive"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Glaive"
+				type: "item"
+			}]
+			title: "Glaive"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			id: "0B0BFB80FE0DA237"
+			tasks: [{
+				id: "27D3B0CF6F975DCC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:wooden_katana"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:stone_katana"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:golden_katana"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:iron_katana"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:diamond_katana"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:netherite_katana"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_katana"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Katana"
+				type: "item"
+			}]
+			title: "Katana"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			id: "487A5F582FC5FCC3"
+			tasks: [{
+				id: "53D1DE64173EBE92"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:wooden_mace"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:stone_mace"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:golden_mace"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:iron_mace"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:diamond_mace"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:netherite_mace"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_mace"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Mace"
+				type: "item"
+			}]
+			title: "Mace"
+			x: 4.0d
+			y: -4.0d
 		}
 	]
 	title: "Sanguines of Iron"

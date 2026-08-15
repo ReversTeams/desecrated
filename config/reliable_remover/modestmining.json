@@ -1,0 +1,18 @@
+{
+    "action": "remove",
+    "items": [
+        "modestmining:coal_chunk",
+        "modestmining:charcoal_chunk",
+        "modestmining:copper_dust",
+        "modestmining:gold_dust",
+        "modestmining:iron_dust",
+        "modestmining:debris_dust",
+        "modestmining:diamond_hammer",
+        "modestmining:netherite_hammer",
+        "modestmining:prismarite_hammer",
+        "modestmining:wooden_hammer",
+        "modestmining:stone_hammer",
+        "modestmining:iron_hammer",
+        "modestmining:golden_hammer"
+    ]
+}

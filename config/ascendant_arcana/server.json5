@@ -85,22 +85,22 @@
 	// Enchantments which have their base rarity overwritten. Common is 1, Uncommon is 2, Rare is 3, Very Rare is 4. This might not work on modded enchantments.
 	"overwritten_rarities": {
 		"minecraft:knockback": 1,
-		"minecraft:thorns": 2,
 		"minecraft:sweeping": 2,
+		"minecraft:thorns": 2,
+		"minecraft:looting": 4,
 		"minecraft:flame": 2,
 		"minecraft:feather_falling": 1,
-		"minecraft:looting": 4,
 		"minecraft:lure": 1,
 		"veinmining:vein_mining": 1,
 		"minecraft:soul_speed": 3,
 		"minecraft:aqua_affinity": 2,
-		"minecraft:fire_aspect": 2,
 		"minecraft:respiration": 2,
+		"minecraft:fire_aspect": 2,
 		"minecraft:swift_sneak": 3,
 		"minecraft:frost_walker": 2,
 		"minecraft:infinity": 3,
-		"minecraft:fortune": 4,
 		"minecraft:punch": 1,
+		"minecraft:fortune": 4,
 		"minecraft:channeling": 2
 	},
 	/* Damage Relics apply to thrown Tridents, melee weapons, as well as arrows and rockets fired from bows and
@@ -119,7 +119,7 @@
 	   If this is false, infusing a durability relic applies the below bonus multiplicatively (i.e. the item's
 	   base durability * the relic durability).
 	*/
-	"durability_additive": true,
+	"durability_additive": false,
 	/* Durability Relics can apply to any item with a durability value. For all vanilla items, the default
 	   values are better than Unbreaking 3.
 	   If durability_additive is true, these values must be integers.
@@ -127,11 +127,11 @@
 	   For example, a relic strength of 0.5 is a multiplier of 1.5.
 	*/
 	"durability_relic_strengths": {
-		"1": 300.0,
-		"2": 600.0,
-		"3": 900.0,
-		"4": 1200.0,
-		"5": 1600.0
+		"1": 0.25,
+		"2": 0.5,
+		"3": 0.75,
+		"4": 1.0,
+		"5": 1.5
 	},
 	/* Protection Relics reduce the damage taken from most sources. Generally, this is any instance of damage
 	   that the original Protection enchantment would protect you from. The default values here are slightly
