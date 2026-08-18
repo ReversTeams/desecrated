@@ -9,13 +9,13 @@
 	images: [
 		{
 			entity_vis_enabled: true
-			entity_vis_entity: "thedulling:umbral_black_hole"
+			entity_vis_entity: "bloodyhell:blood_fire_soul"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
 			entity_vis_silhouette: true
-			entity_vis_size: 1.0f
+			entity_vis_size: 5.0f
 			entity_vis_spin_mode: "USE_GLOBAL"
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 0.5d
@@ -23,7 +23,7 @@
 			rotation: 0.0d
 			width: 0.5d
 			x: 2.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_enabled: true
@@ -171,25 +171,6 @@
 			y: 8.5d
 		}
 		{
-			entity_vis_enabled: true
-			entity_vis_entity: "bloodyhell:blood_nova_entity"
-			entity_vis_idle_mode: "USE_GLOBAL"
-			entity_vis_offset_x: 0.0f
-			entity_vis_offset_y: 0.0f
-			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
-			entity_vis_spin_mode: "USE_GLOBAL"
-			entity_vis_walk_mode: "USE_GLOBAL"
-			height: 1.0d
-			image: ""
-			order: 100
-			rotation: 0.0d
-			width: 1.0d
-			x: 31.5d
-			y: -2.0d
-		}
-		{
 			alpha: 180
 			color: 11141120
 			dependency: "512D4EF547F94803"
@@ -200,10 +181,37 @@
 			x: 2.0d
 			y: 1.5d
 		}
+		{
+			entity_vis_enabled: true
+			entity_vis_entity: "bloodyhell:blood_fire_soul"
+			entity_vis_idle_mode: "USE_GLOBAL"
+			entity_vis_offset_x: 0.0f
+			entity_vis_offset_y: 0.0f
+			entity_vis_rotation: 75.0f
+			entity_vis_silhouette: true
+			entity_vis_size: 5.0f
+			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_walk_mode: "USE_GLOBAL"
+			height: 0.5d
+			image: ""
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			alpha: 20
+			color: 524288
+			dependency: "512D4EF547F94803"
+			height: 1.5d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot7.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -2.0d
+		}
 	]
 	order_index: 0
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

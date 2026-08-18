@@ -15,7 +15,6 @@ config_enabled = true
 # Category: player
 # Default game rule settings for the 'player' category.
 
-  player.adapticonviolence = false
   player.disable_elytra_movement_check = false
   player.do_immediate_respawn = false
   player.do_limited_crafting = false
@@ -23,7 +22,6 @@ config_enabled = true
   player.fall_damage = true
   player.fire_damage = true
   player.freeze_damage = true
-  player.infinitemana = false
   player.jaws_damage_limit = 666
   player.keep_inventory = false
   player.natural_regeneration = false
@@ -45,14 +43,11 @@ config_enabled = true
 # Category: spawning
 # Default game rule settings for the 'spawning' category.
 
-  spawning.annoying_bats_rule = false
   spawning.do_insomnia = true
   spawning.do_mob_spawning = true
   spawning.do_patrol_spawning = true
   spawning.do_trader_spawning = true
   spawning.do_warden_spawning = true
-  spawning.modded_missionary_spawns = true
-  spawning.rolling_event_allowed = false
 
 
 # Category: drops
@@ -93,10 +88,6 @@ config_enabled = true
 # Default game rule settings for the 'misc' category.
 
   misc.command_modification_block_limit = 32768
-  misc.dullingdarkness = false
   misc.global_sound_events = true
   misc.max_command_chain_length = 65536
   misc.reduced_debug_info = false
-  misc.spire_growth_speed = 1
-  misc.throttled_dulling_speed = true
-  misc.transparentportals = false

@@ -99,6 +99,25 @@ ServerEvents.recipes(event => {
         }
     )
 
+
+    event.shaped(
+        Item.of('desecratedcore:sight'),
+        [
+            ' C ',
+            'CAC',
+            ' B '
+        ],
+        {
+            A: 'incision:lens_glass_pane',
+            C: 'minecraft:gold_ingot',
+            B: 'minecraft:copper_ingot'
+        }
+    )
+
+    // Goety
+
+    // Patchouli Guide Books
+
     event.shaped(
         Item.of('patchouli:guide_book', '{"patchouli:book":"otherverse:implementum"}'),
         [
@@ -222,18 +241,35 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-        Item.of('desecratedcore:sight'),
+        Item.of('patchouli:guide_book', '{"patchouli:book":"goety:witches_brew"}'),
         [
-            ' C ',
-            'CAC',
-            ' B '
+            ' A ',
+            'BCB',
+            ' D '
         ],
         {
-            A: 'incision:lens_glass_pane',
-            C: 'minecraft:gold_ingot',
-            B: 'minecraft:copper_ingot'
+            D: 'perdition:pyrite',
+            B: 'spectrum:purple_pigment',
+            C: 'minecraft:book',
+            A: 'reliquary:witch_hat'
         }
     )
 
+    event.shaped(
+        Item.of('patchouli:guide_book', '{"patchouli:book":"goety:black_book"}'),
+        [
+            'AB ',
+            'CDE',
+            ' EF'
+        ],
+        {
+            A: 'minecraft:yellow_dye',
+            C: 'minecraft:leather',
+            B: 'minecraft:emerald',
+            E: 'minecraft:black_dye',
+            D: 'minecraft:book',
+            F: 'desecratedcore:practitioner_key_item'
+        }
+    ).keepIngredient('desecratedcore:practitioner_key_item')
 
 })

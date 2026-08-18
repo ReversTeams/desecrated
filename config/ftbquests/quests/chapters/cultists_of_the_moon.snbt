@@ -37,8 +37,6 @@
 		}
 	]
 	order_index: 4
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -1967,8 +1965,26 @@
 				title: "Any Broom"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64C5A9EB5083A520"]
+			entity_vis_size: 1.0f
+			id: "0BE1E655808D5900"
+			tasks: [{
+				id: "74E593C7A12D300B"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:witches_brew"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
 		}
 	]
 	title: "Cultists of the Moon"

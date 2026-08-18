@@ -60,12 +60,6 @@
 		}
 	]
 	order_index: 1
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [{
-		dependency: "q:46f6d38b82b45363"
-		reveal_on_hover: 0b
-		source: "q:2388743859062ad5"
-	}]
 	quest_links: [ ]
 	quests: [
 		{

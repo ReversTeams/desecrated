@@ -165,17 +165,6 @@
         "value": 1
       }
     },
-    "forge:entity_reach": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "goety:frost_potency": {
       "enabled": false,
       "min": {
@@ -187,15 +176,15 @@
         "value": 2048
       }
     },
-    "tacz:tacz.bullet_resistance": {
+    "forge:entity_reach": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1,
-        "value": 1
+        "default": 1024,
+        "value": 1024
       }
     },
     "goety:wild_discount": {
@@ -203,6 +192,17 @@
       "min": {
         "default": -1,
         "value": -1
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "tacz:tacz.bullet_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1,
@@ -418,17 +418,6 @@
         "value": 1000000
       }
     },
-    "vampirism:blood_exhaustion": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
     "goety:abyss_discount": {
       "enabled": false,
       "min": {
@@ -438,6 +427,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "vampirism:blood_exhaustion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "ars_nouveau:ars_elemental.perk.summon_power": {
@@ -473,17 +473,6 @@
         "value": 128
       }
     },
-    "thedulling:dull": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "goetyawaken:servant_damage_reduction": {
       "enabled": false,
       "min": {
@@ -493,6 +482,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "thedulling:dull": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "irons_spellbooks:holy_spell_power": {
@@ -539,17 +539,6 @@
         "value": 1
       }
     },
-    "reach-entity-attributes:reach": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "goety:spell_radius": {
       "enabled": false,
       "min": {
@@ -559,6 +548,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "reach-entity-attributes:reach": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:evocation_magic_resist": {
@@ -649,17 +649,6 @@
         "value": 100
       }
     },
-    "thedulling:nutrition": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
     "animus:bonus_demon_will": {
       "enabled": false,
       "min": {
@@ -669,6 +658,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "thedulling:nutrition": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "irons_spellbooks:evocation_spell_power": {
@@ -814,17 +814,6 @@
         "value": 10000
       }
     },
-    "minecraft:friction_modifier": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "goetyawaken:spell_bounce": {
       "enabled": false,
       "min": {
@@ -834,6 +823,17 @@
       "max": {
         "default": 255,
         "value": 255
+      }
+    },
+    "minecraft:friction_modifier": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "irons_spellbooks:spell_resist": {
@@ -1639,17 +1639,6 @@
         "value": 1
       }
     },
-    "thedulling:mana": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "goety:spell_range": {
       "enabled": false,
       "min": {
@@ -1659,6 +1648,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "thedulling:mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "goety:nether_potency": {
