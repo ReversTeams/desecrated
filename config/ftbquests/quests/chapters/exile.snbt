@@ -15,7 +15,7 @@
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
 			entity_vis_silhouette: true
-			entity_vis_size: 5.0f
+			entity_vis_size: 3.0f
 			entity_vis_spin_mode: "USE_GLOBAL"
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 0.5d
@@ -77,7 +77,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 7.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			entity_vis_enabled: true
@@ -189,7 +189,7 @@
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 75.0f
 			entity_vis_silhouette: true
-			entity_vis_size: 5.0f
+			entity_vis_size: 3.0f
 			entity_vis_spin_mode: "USE_GLOBAL"
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 0.5d
@@ -200,13 +200,12 @@
 			y: -2.5d
 		}
 		{
-			alpha: 20
-			color: 524288
-			dependency: "512D4EF547F94803"
-			height: 1.5d
-			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot7.png"
+			alpha: 70
+			color: 263172
+			height: 1.7d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
-			width: 1.5d
+			width: 1.7d
 			x: 2.0d
 			y: -2.0d
 		}

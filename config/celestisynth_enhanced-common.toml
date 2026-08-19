@@ -201,3 +201,35 @@
 	#Range: 0 ~ 72000
 	shift_skill_cooldown = 40
 
+[electric_pea]
+	#Electric pea projectile base damage (overall damage reduced by 75% vs the original 24). Default 6.
+	#Range: 0.0 ~ 2.147483647E9
+	damage = 6.0
+	#Electric pea projectile lifetime in ticks (20 = 1s). Default 20.
+	#Range: 1 ~ 3600
+	life_time = 20
+	#Splash damage multiplier based on main damage. Default 0.5.
+	#Range: 0.0 ~ 1024.0
+	splash_multiplier = 0.5
+	#Splash damage range, radius in blocks. Default 5.0.
+	#Range: 1.0 ~ 1024.0
+	splash_radius = 5.0
+	#Max number of targets hit by the splash. Default 4.
+	#Range: 0 ~ 3600
+	splash_count = 4
+	#Chance of triggering the gatling pea ultimate burst per shot. Default 0.03 (3%).
+	#Range: 0.0 ~ 1.0
+	burst_chance = 0.03
+	#Spread angle of the gatling pea ultimate burst (degrees).
+	#Range: 0.0 ~ 360.0
+	burst_spread_angle = 15.0
+	#Number of burst waves of the gatling pea ultimate. Default 20; do not set too high.
+	#Range: 1 ~ 1024
+	burst_waves = 20
+	#Bullets per wave of the gatling pea ultimate. Default 5; do not set too high.
+	#Range: 1 ~ 1024
+	burst_bullets_per_wave = 5
+	#Chain lightning trigger chance (open-ultimate chance): probability that a pea hit triggers chain lightning. Default 0.25 (25%).
+	#Range: 0.0 ~ 1.0
+	lightning_chance = 0.25
+

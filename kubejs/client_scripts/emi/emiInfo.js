@@ -30,5 +30,5 @@ JEIEvents.information(event => {
   event.addItem( 'incision:vile_fang', ['Drops from Seers found in the Eroded Yard in the Nether.']) 
   event.addItem( 'incision:eyebulb', ['Found in the Eroded Yard in the Nether.']) 
 
-  event.addItem( 'perdition:pyrite', ['Found in Purgatory, accessible to the Moon Faction..']) 
+  event.addItem( 'perdition:pyrite', ['Found in Purgatory, accessible to the Moon Faction.']) 
 })

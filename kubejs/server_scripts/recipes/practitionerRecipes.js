@@ -7,12 +7,35 @@ ServerEvents.recipes(event => {
         'otherverse:cinnabar',
         'patchouli:guide_book',
         'otherverse:chalk',
-        'otherverse:demesne_beacon'
+        'otherverse:demesne_beacon',
+        'goety:soul_emerald'
+    ]
+
+    const removeCraftingShaped = [
+        'goety:cursed_ingot',
+        'goety:shade_stone',
+        'minecraft:enchanting_table'
     ]
 
     remove.forEach(item => {
         event.remove({ output: item })
     })
+
+    removeCraftingShaped.forEach(item => {
+        event.remove({ output: item, type: 'minecraft:crafting_shaped' })
+    })
+
+    event.replaceInput(
+        { mod: 'goety' },
+        '#goety:pedestals',
+        'goety:dark_altar'
+    )
+
+    event.replaceInput(
+        { output: 'goety:totem_of_souls', type: 'minecraft:crafting_shaped' },
+        'minecraft:soul_lantern',
+        'goety:totem_of_roots'
+    )
 
     // Pact Magic Recipes
     event.shaped(
@@ -24,7 +47,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'concatenatedadditionstools:experience_orb',
-            C: 'desecratedcore:chooser_key_item',
+            C: '#desecrated:fate_item',
             B: 'minecraft:paper'
         }
     )
@@ -115,6 +138,59 @@ ServerEvents.recipes(event => {
     )
 
     // Goety
+    event.shaped(
+        Item.of('goety:cursed_ingot'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'dungeonnowloading:spawner_fragment',
+            B: 'goety:totem_of_roots'
+        }
+    ).keepIngredient('goety:totem_of_roots')
+
+    event.shaped(
+        Item.of('goety:cursed_ingot'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'dungeonnowloading:spawner_fragment',
+            B: 'goety:totem_of_souls'
+        }
+    ).replaceIngredient('goety:totem_of_souls', 'goety:spent_totem')
+
+    event.shaped(
+        Item.of('goety:dark_altar'),
+        [
+            '   ',
+            'ABA',
+            'CDC'
+        ],
+        {
+            A: 'minecraft:emerald',
+            D: 'goety:pedestal',
+            B: 'goety:cursed_ingot',
+            C: 'goety:shade_stone_bricks'
+        }
+    )
+
+    event.shaped(
+        Item.of('goety:soul_emerald'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            B: 'goety:empty_focus',
+            A: 'goety:magic_emerald'
+        }
+    )
 
     // Patchouli Guide Books
 

@@ -1,5 +1,5 @@
 {
-	autofocus_id: "5D4499D4254102B7"
+	autofocus_id: "4B4FD1712575D3F8"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_flesh_revolution"
@@ -51,12 +51,12 @@
 		}
 		{
 			alpha: 120
-			height: 1.6d
+			height: 1.9d
 			image: "celestisynth:textures/particle/pulsation4.png"
 			rotation: 0.0d
-			width: 1.6d
-			x: -11.5d
-			y: -6.0d
+			width: 1.9d
+			x: -9.5d
+			y: -5.0d
 		}
 	]
 	order_index: 1
@@ -3865,14 +3865,14 @@
 					xp_levels: 1
 				}
 			]
-			size: 1.1d
+			size: 1.15d
 			tasks: [{
 				id: "2DC699AF1510ECA4"
 				item: "concatenatedadditionsmachines:boiler"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -6.0d
+			x: -9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -3907,8 +3907,8 @@
 				item: "concatenatedadditionsmachines:hydraulic_tree_feller"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -7.5d
+			x: -11.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -3944,8 +3944,8 @@
 				item: "concatenatedadditionsmachines:hydraulic_crusher"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -6.5d
+			x: -12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -3997,8 +3997,8 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: -7.0d
+			x: -13.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
