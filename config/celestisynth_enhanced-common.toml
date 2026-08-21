@@ -233,3 +233,56 @@
 	#Range: 0.0 ~ 1.0
 	lightning_chance = 0.25
 
+[shard]
+	#Shard Sword (Zhi Li) total ATTACK_DAMAGE attribute value. Default 7 = 1 + tier 4 + 2 (datapack +6).
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 7.0
+	#Shard Sword total ATTACK_SPEED attribute value. Default 1.3 = vanilla 4 - 2.7.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 1.3
+	#Shard Sword buffed (Hell Transformation) total ATTACK_DAMAGE attribute value. Default 4 = datapack shard_s +3.
+	#Range: 1.0 ~ 2048.0
+	buff_attack_damage = 4.0
+	#Hell Transformation buff duration in ticks (20 = 1s). Datapack 600 (30s).
+	#Range: 1 ~ 72000
+	buff_duration = 600
+	#Hold-right-click charge time in ticks before Hell Transformation activates. Datapack consume_seconds 1.25 = 25.
+	#Range: 5 ~ 72000
+	use_ticks = 25
+	#Self damage taken when activating Hell Transformation (only if health >= 7).
+	#Range: 0.0 ~ 2048.0
+	activate_self_damage = 6.0
+	#Wujian Sword-Tree (buffed basic attack) sweep damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	sweep_ratio = 0.4
+	#Sweep damage point offset forward from the player's eyes (blocks). Datapack 2.5.
+	#Range: 0.0 ~ 64.0
+	sweep_forward = 2.5
+	#Sweep damage radius around the offset point (blocks). Datapack 2.
+	#Range: 0.0 ~ 64.0
+	sweep_range = 2.0
+	#Sudden Grace counter (Shu Hu En Ci) damage = player ATTACK_DAMAGE x this. Datapack x2.
+	#Range: 0.0 ~ 100.0
+	rage_ratio = 2.0
+	#Counter damage radius (blocks). Datapack 8.
+	#Range: 0.0 ~ 64.0
+	rage_range = 8.0
+	#Great Execution (Da Bi Wan Si) landing damage = player ATTACK_DAMAGE x this + blood pool x 1.0. Datapack x2.
+	#Range: 0.0 ~ 100.0
+	smash_ratio = 2.0
+	#Great Execution landing damage radius (blocks). Datapack 15.
+	#Range: 0.0 ~ 128.0
+	smash_range = 15.0
+	#Max health bonus while holding the Shard Sword. Datapack +20.
+	#Range: 0.0 ~ 1024.0
+	max_health_bonus = 20.0
+	#Buffed attack damage bonus = current max health x this. Datapack 0.1.
+	#Range: 0.0 ~ 100.0
+	buff_attack_ratio = 0.1
+	#Hell Transformation cooldown after activation in ticks (20 = 1s).
+	#Range: 0 ~ 72000
+	activate_cooldown = 20
+	#Great Execution (Da Bi Wan Si) cooldown in ticks after release (8s = 160).
+	#Range: 0 ~ 72000
+	ultimate_cooldown = 160
+

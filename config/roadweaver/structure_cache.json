@@ -3287,6 +3287,15 @@
       ]
     },
     {
+      "id": "structuresplus:acacia_house",
+      "displayName": "Acacia House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "structuresplus:baby_villager_statue",
       "displayName": "Baby Villager Statue",
       "isVanilla": false,

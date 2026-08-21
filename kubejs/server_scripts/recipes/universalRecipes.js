@@ -166,98 +166,98 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('minecraft:pitcher_plant', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:pitcher_plant'
         ]
     )
     event.shapeless(
         Item.of('minecraft:mangrove_propagule', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:mangrove_propagule'
         ]
     )
     event.shapeless(
         Item.of('minecraft:fern', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:fern'
         ]
     )
     event.shapeless(
         Item.of('minecraft:dandelion', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:dandelion'
         ]
     )
     event.shapeless(
         Item.of('minecraft:poppy', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:poppy'
         ]
     )
     event.shapeless(
         Item.of('minecraft:blue_orchid', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:blue_orchid'
         ]
     )
     event.shapeless(
         Item.of('minecraft:allium', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:allium'
         ]
     )
     event.shapeless(
         Item.of('minecraft:azure_bluet', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:azure_bluet'
         ]
     )
     event.shapeless(
         Item.of('minecraft:red_tulip', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:red_tulip'
         ]
     )
     event.shapeless(
         Item.of('minecraft:orange_tulip', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:orange_tulip'
         ]
     )
     event.shapeless(
         Item.of('minecraft:white_tulip', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:white_tulip'
         ]
     )
     event.shapeless(
         Item.of('minecraft:pink_tulip', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:pink_tulip'
         ]
     )
     event.shapeless(
         Item.of('minecraft:oxeye_daisy', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:oxeye_daisy'
         ]
     )
     event.shapeless(
         Item.of('minecraft:lily_of_the_valley', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:lily_of_the_valley'
         ]
     )
@@ -265,56 +265,56 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('minecraft:cornflower', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:cornflower'
         ]
     )
     event.shapeless(
         Item.of('minecraft:torchflower', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:torchflower'
         ]
     )
     event.shapeless(
         Item.of('immersive_weathering:azalea_flowers', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'immersive_weathering:azalea_flowers'
         ]
     )
     event.shapeless(
         Item.of('minecraft:pink_petals', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:pink_petals'
         ]
     )
     event.shapeless(
         Item.of('farmersdelight:wild_cabbages', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'farmersdelight:wild_cabbages'
         ]
     )
     event.shapeless(
         Item.of('minecraft:lilac', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:lilac'
         ]
     )
     event.shapeless(
         Item.of('minecraft:sunflower', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:sunflower'
         ]
     )
     event.shapeless(
         Item.of('minecraft:rose_bush', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:rose_bush'
         ]
     )
@@ -322,14 +322,14 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('farmersdelight:wild_onions', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'farmersdelight:wild_onions'
         ]
     )
     event.shapeless(
         Item.of('farmersdelight:wild_potatoes', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'farmersdelight:wild_potatoes'
         ]
     )
@@ -337,28 +337,28 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('farmersdelight:wild_tomatoes', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'farmersdelight:wild_tomatoes'
         ]
     )
     event.shapeless(
         Item.of('farmersdelight:wild_beetroots', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'farmersdelight:wild_beetroots'
         ]
     )
     event.shapeless(
         Item.of('farmersdelight:wild_carrots', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'farmersdelight:wild_carrots'
         ]
     )
     event.shapeless(
         Item.of('farmersdelight:wild_rice', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'farmersdelight:wild_rice'
         ]
     )
@@ -366,34 +366,34 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('immersive_weathering:moss_clump', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'immersive_weathering:moss_clump'
         ]
     )
     event.shapeless(
         Item.of('minecraft:red_mushroom', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:red_mushroom'
         ]
     )
     event.shapeless(
         Item.of('minecraft:brown_mushroom', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'minecraft:brown_mushroom'
         ]
     )
     event.shapeless(
         Item.of('minecraft:bone_meal', 64),
         [
-            'concatenationcore:transplant'
+            'concatenatedadditionsmachines:transplant'
         ]
     )
     event.shapeless(
         Item.of('immersive_weathering:golden_moss_clump', 4),
         [
-            'concatenationcore:transplant',
+            'concatenatedadditionsmachines:transplant',
             'immersive_weathering:golden_moss_clump'
         ]
     )
