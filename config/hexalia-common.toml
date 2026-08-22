@@ -19,6 +19,9 @@
 	#Time in ticks required for Egg Clusters to hatch. Default: 9600 ticks (8 minutes)
 	#Range: 20 ~ 24000
 	eggClusterHatchDuration = 9600
+	#Number of mature crops required for Nature's Ritual. Set to 0 to disable the crop requirement
+	#Range: 0 ~ 32
+	naturesRitualCropRequirement = 8
 
 #Enchanted plant behavior and effect settings
 [plants]

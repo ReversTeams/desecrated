@@ -1,5 +1,5 @@
 {
-	autofocus_id: "5D4499D4254102B7"
+	autofocus_id: "4B4FD1712575D3F8"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_flesh_revolution"
@@ -51,21 +51,15 @@
 		}
 		{
 			alpha: 120
-			height: 1.6d
+			height: 1.9d
 			image: "celestisynth:textures/particle/pulsation4.png"
 			rotation: 0.0d
-			width: 1.6d
-			x: -11.5d
-			y: -6.0d
+			width: 1.9d
+			x: -9.5d
+			y: -5.0d
 		}
 	]
 	order_index: 1
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [{
-		dependency: "q:46f6d38b82b45363"
-		reveal_on_hover: 0b
-		source: "q:2388743859062ad5"
-	}]
 	quest_links: [ ]
 	quests: [
 		{
@@ -554,6 +548,13 @@
 				"34B4063F2F210048"
 				"02ECCCD98242956B"
 			]
+			description: [
+				"So where do I go from here, Grisha?"
+				""
+				"&4Do you want to attain true eldritch power? Do you want to grow blood out of the trees, weaponize flesh and summon creatures beyond your comprehension? With the browne you've acquired, you can make a tissue operator. Rip out the undead heart of a zombie and sacrifice it."
+				""
+				"&4Aside from that, you can even use this tissue operator as a makeshift wrench and you can extract blood out of living beings. Make sure you're above a fluid drain, though."
+			]
 			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
@@ -630,7 +631,7 @@
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
 			description: [
-				"The Drill, with the use of compressed air, can be an efficient mining tool. It must be within 25 blocks of a compressor."
+				"The Drill, with the use of compressed air, can be an efficient mining tool. It must be within 25 blocks of a compressor. This drill design is modular in nature and I'm sure I would be able to upgrade parts of it later."
 				""
 				"It is uniquely able to mine asbestos without the particles dissolving too much to be unusable."
 			]
@@ -789,6 +790,7 @@
 		}
 		{
 			dependencies: ["3C6FEBFA33F092E5"]
+			description: ["The Scutter will follow me with a compressor on its back. This would be helpful for going on long mining trips... if I'd find anything!"]
 			entity_vis_size: 1.0f
 			id: "24CE50C2833FEFB8"
 			rewards: [{
@@ -900,6 +902,11 @@
 		}
 		{
 			dependencies: ["294DE0759A56CB6A"]
+			description: [
+				"The jaw crusher seems more efficient at making minced meat than the meat grinder. It's of industrial grade after all. But I'm not sure this is minced meat. Are these just scraps of meat?"
+				""
+				"&4These scraps of meat have potential for a meat alloy strong as steel. If you made a oven strong enough to withstand great flames, these would become very useful indeed."
+			]
 			entity_vis_size: 1.0f
 			id: "535BD56C924E99EE"
 			rewards: [
@@ -931,6 +938,11 @@
 		}
 		{
 			dependencies: ["535BD56C924E99EE"]
+			description: [
+				"This looks quite.. delicious. Well, not as delicious as the meals my cooks would make before!"
+				""
+				"&4Do not eat it, young sanguine. Alloy it with iron and you can make a fine material. Or cook it and then eat it."
+			]
 			entity_vis_size: 1.0f
 			id: "056E6367718CA24E"
 			rewards: [
@@ -956,6 +968,13 @@
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
+			description: [
+				"With this furnace, I should be able to make some simple alloys. Brass perhaps? I'm not sure of the right ratios, though."
+				""
+				"&4How about whispering brass? Or an alloy of flesh?"
+				""
+				"That sounds a lot better. How do I do that?"
+			]
 			entity_vis_size: 1.0f
 			id: "51C98BEF06A70185"
 			rewards: [
@@ -985,6 +1004,13 @@
 				"056E6367718CA24E"
 				"51C98BEF06A70185"
 			]
+			description: [
+				"&4By alloying iron and a meat brick at high temperatures, you can create a meatsteel alloy. This material is durable and you can make high performing tools and machines out of it."
+				""
+				"Darn, it's a bit too tough to eat now.."
+				""
+				"&4You would eat your own tools?"
+			]
 			entity_vis_size: 1.0f
 			id: "187D75D48A04D454"
 			rewards: [
@@ -1011,6 +1037,7 @@
 		}
 		{
 			dependencies: ["3A286E459CE15CB2"]
+			description: ["To make better alloys, I would be needing bricks with higher heat resistance. Using the properties of asbestos, that should do the trick."]
 			entity_vis_size: 1.0f
 			id: "7B5907164F7959A4"
 			rewards: [
@@ -1036,7 +1063,11 @@
 		}
 		{
 			dependencies: ["35FEBF6CDC4E4DA9"]
-			description: ["Asbestos can be mined with a drill."]
+			description: [
+				"Asbestos can be mined with a drill. I've heard it's not quite healthy for humans, which is why our exports of asbestos had collapsed in the past decades. Apparently, the human realms don't have large asbestos deposits under their lands, while we do in abundance. I hope this deters the invaders frfom mining our lands."
+				""
+				"I'm a noble sanguine! Lung cancer is not a threat to me!"
+			]
 			entity_vis_size: 1.0f
 			id: "3A286E459CE15CB2"
 			rewards: [
@@ -1482,6 +1513,7 @@
 		}
 		{
 			dependencies: ["3A286E459CE15CB2"]
+			description: ["Asbestos is a naturally fire resistant material. If I could make a suit out of it, I would be taking care of my largest natural weakness!"]
 			entity_vis_size: 1.0f
 			id: "31108DE09C27216B"
 			rewards: [
@@ -1508,6 +1540,11 @@
 		}
 		{
 			dependencies: ["31108DE09C27216B"]
+			description: [
+				"This asbestos suit would be deadly for a mere human, but it's a formidable armour for a noble sanguine like me! Well.. it doesn't look great or imposing, but its properties make up for it."
+				""
+				"The asbestos helmet protects me from the sun's deadly rays. I no longer have to worry about turning to ash in the day or carry around an encumbering umbrella. The rest of the suit provides a full immunity against fire and lava, one of my main weaknesses! It's not too solid, but it should be enough to last for a while."
+			]
 			entity_vis_size: 1.0f
 			id: "4183E4899388A8BC"
 			rewards: [
@@ -1975,6 +2012,7 @@
 		}
 		{
 			dependencies: ["056E6367718CA24E"]
+			description: ["&4You are in need of a strong weapon, little sanguine. How about a meat gun? It's fragile, but still has sufficient firepower to respond to most threats. Instead of ammunition, you can feed it."]
 			entity_vis_size: 1.0f
 			id: "557215ED76C0BB67"
 			rewards: [
@@ -3800,7 +3838,15 @@
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
-			description: ["Browne can be found in caves."]
+			description: [
+				"I've found this strange browne material in caves, it seems about as durable as iron but is flammable. What is this actually made out of? Fossilized brownies?"
+				""
+				"&4It's theorized to be a material formed from a microbe mesh. Molecules of browne can also be found in some types of grass."
+				""
+				"Why does this material only appear in Red Barar, though? Did one of our previous queens have an obsession for chocolate treats?"
+				""
+				"&4They're not made from brownies."
+			]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "02ECCCD98242956B"
@@ -3823,6 +3869,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Fossilized Brownies"
 			tasks: [
 				{
 					id: "13A46D3024FD4104"
@@ -3871,14 +3918,14 @@
 					xp_levels: 1
 				}
 			]
-			size: 1.1d
+			size: 1.15d
 			tasks: [{
 				id: "2DC699AF1510ECA4"
 				item: "concatenatedadditionsmachines:boiler"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -6.0d
+			x: -9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -3913,8 +3960,8 @@
 				item: "concatenatedadditionsmachines:hydraulic_tree_feller"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -7.5d
+			x: -11.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -3950,8 +3997,8 @@
 				item: "concatenatedadditionsmachines:hydraulic_crusher"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -6.5d
+			x: -12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -4003,8 +4050,8 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: -7.0d
+			x: -13.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -4235,6 +4282,13 @@
 		}
 		{
 			dependencies: ["02ECCCD98242956B"]
+			description: [
+				"Tending to animals is such a chore. What if animals ate themselves?"
+				""
+				"&4You want animal cannibalism?"
+				""
+				"No, I meant if they eat their food by themselves! I could make a feeding through and leave an adequate amount of food. Wheat would work fine as a simple feed for most farm animals. I should think of a better way to make animal feed in industrial quantities."
+			]
 			entity_vis_size: 1.0f
 			id: "2C9AF37FB92930EE"
 			rewards: [
@@ -4250,11 +4304,19 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				id: "72AE89D8B5F54083"
-				item: "neepmeat:feeding_trough"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "72AE89D8B5F54083"
+					item: "neepmeat:feeding_trough"
+					type: "item"
+				}
+				{
+					id: "5161FEC04C1F8D2D"
+					item: "neepmeat:animal_feed_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: -10.0d
 		}

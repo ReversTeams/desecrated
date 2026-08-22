@@ -95,34 +95,6 @@
 		}
 	]
 	order_index: 2
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [
-		{
-			dependency: "q:d425b8b6302fef8"
-			reveal_on_hover: 0b
-			source: "q:257e0f645b9b307d"
-		}
-		{
-			dependency: "q:d425b8b6302fef8"
-			reveal_on_hover: 0b
-			source: "q:1ceda7615eebfb3d"
-		}
-		{
-			dependency: "q:d425b8b6302fef8"
-			reveal_on_hover: 0b
-			source: "q:75bf1eb1f7c20c0d"
-		}
-		{
-			dependency: "q:d425b8b6302fef8"
-			reveal_on_hover: 1b
-			source: "q:52be4771b955e80f"
-		}
-		{
-			dependency: "q:d425b8b6302fef8"
-			reveal_on_hover: 1b
-			source: "q:26e82a8cfe4649ff"
-		}
-	]
 	quest_links: [ ]
 	quests: [
 		{

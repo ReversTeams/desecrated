@@ -90,7 +90,8 @@
 	#Aura duration (ticks) at max level.
 	#Range: 20 ~ 720000
 	durationLv100 = 4300
-	#Base aura cooldown in ticks (8400 = 7 min).
+	#Base aura cooldown in ticks (18000 = 15 min). Every colour uses this one number;
+	#the per-colour extras were removed so the wait is the same whatever you rolled.
 	#Range: 20 ~ 720000
 	cooldownBaseTicks = 8400
 	#Max cooldown reduction in SECONDS from levels (1s per level).
@@ -121,6 +122,21 @@
 	#(0.20 = up to +20% at the end of the aura). 0 = disabled (no ramp).
 	#Range: 0.0 ~ 10.0
 	spellPowerRampMax = 0.0
+	#How many times a colour's own track plays before its aura ends.
+	#Only affects colours that have a measured track length; the rest keep the
+	#level-based duration and say so in the Codex.
+	#Range: 1 ~ 20
+	musicLoops = 5
+	#Arcanist level needed for the Ego aura, on top of having worn every other colour.
+	#Setting this above the level cap makes Ego unobtainable.
+	#Range: 1 ~ 1000
+	egoLevelRequired = 100
+	#Requiem: one heart is lost every this many ticks (100 = 5s). It never kills you.
+	#Range: 20 ~ 2400
+	requiemBleedTicks = 100
+	#Ink: how often a mob loses your trail, in ticks (100 = 5s).
+	#Range: 20 ~ 2400
+	inkForgetTicks = 100
 
 [onboarding]
 	#Give the Tome of the Eon (and show its welcome chat message) on a player's first join.
@@ -135,7 +151,7 @@
 	#there was nothing to switch off. It now runs in every game mode -- which meant a pack that
 	#had turned giveTomeOnJoin off still got a free item and a [The Storm] chat line on join,
 	#with no setting anywhere that stopped it. Hence this switch.
-	giveSuitcaseOnJoin = true
+	giveSuitcaseOnJoin = false
 
 [affinity]
 	#Maximum affinity per NPC, per player.
@@ -145,13 +161,13 @@
 	#a poor one by the same again (or double, for the worst answer of each question).
 	#Range: 0 ~ 100000
 	talkAmount = 1
-	#Cooldown between conversations, in seconds.
+	#Cooldown between conversations, in seconds. 150 = 2:30.
 	#Range: 0 ~ 86400
 	talkCooldownSeconds = 60
 	#Affinity gained when gifting a flower.
 	#Range: 0 ~ 100000
 	flowerAmount = 10
-	#Cooldown between flower gifts, in seconds.
+	#Cooldown between flower gifts, in seconds. 210 = 3:30.
 	#Range: 0 ~ 86400
 	flowerCooldownSeconds = 120
 	#Affinity LOST when gifting a Wither Rose (positive number).
@@ -169,6 +185,21 @@
 	#Affinity needed to unlock an NPC's second passive. See tier1.
 	#Range: 0 ~ 1000000
 	tier2 = 800
+	#Sonetto's 400 bond passive: added spell damage, as a fraction (0.10 = +10%).
+	#The passive also stops the holder damaging another player at all -- melee,
+	#arrows and spells alike. That half is not tunable; it is the point of the oath.
+	#Range: 0.0 ~ 10.0
+	sonettoSpellDamage = 0.1
+	#Affinity gained per tier of a Wrapped Keepsake. A tier-3 gift is worth three times this.
+	#The tier comes from what was sealed inside -- iron 1, diamond 3, Dragon Egg 5 (clamped).
+	#Range: 0 ~ 100000
+	keepsakeAmountPerTier = 25
+	#Cooldown between Wrapped Keepsake gifts, in seconds. 1800 = 30 minutes.
+	#This is its OWN cooldown, deliberately not shared with flowers: a keepsake costs a real
+	#item and pays several times a flower, so putting both on one timer would mean a flower
+	#given in passing locks out the half-hour gift, and nothing on screen would say why.
+	#Range: 0 ~ 86400
+	keepsakeCooldownSeconds = 1800
 
 [suitcase]
 	#Starting number of boxes a Suitcase Tablet network can link.
@@ -193,4 +224,42 @@
 	#to the island dock. Only animals, and only ones nobody else has tamed.
 	#Set false to keep the suitcase strictly a doorway for people.
 	ferryAnimals = true
+	#Suitcase Tablet crafting panel (craft / smelt from the storage network).
+	#DISABLED BY DEFAULT: the system is still unstable, so it is switched off
+	#rather than removed. Set true to turn it back on.
+	#Note: queued smelting jobs from an earlier session always finish and their
+	#results are returned, even while this is false - their ingredients were
+	#already taken and are not thrown away.
+	craftingPanel = false
+
+#Storm monsters - skeletons and zombies the Storm is eating.
+[stormMonsters]
+	#Spawn Storm Syndrome Skeletons and Zombies while the Storm is blowing.
+	enabled = true
+	#Iron's Spellbooks spell id the Storm Skeleton casts (every 10s).
+	#Ignored when Iron's Spellbooks is not installed - the monster still spawns,
+	#it simply has no spell. An id that does not exist behaves the same way.
+	skeletonSpell = "irons_spellbooks:gust"
+	#Iron's Spellbooks spell id the Storm Zombie casts (every 10s).
+	zombieSpell = "irons_spellbooks:throw"
+
+#Forget Me Not - the potion-throwing mini boss.
+[forgetMeNot]
+	#Iron's Spellbooks spell id Forget Me Not casts to reposition (every 12s).
+	#Blood Step is a short teleport, which is what makes it hard to corner.
+	#Ignored when Iron's Spellbooks is not installed - it then fights with
+	#potions and melee only, which is still a complete encounter.
+	spell = "irons_spellbooks:blood_step"
+
+[year]
+	#Let the Storm change the year when it passes.
+	#Off: the year stays where it is and no cutscene plays. The year itself is still
+	#saved and still shown, so turning this back on resumes from the same number.
+	enabled = true
+	#Damage immunity granted to every player while the year cutscene plays, in ticks.
+	#A Screen only pauses the game in single-player. On a server everyone stands still
+	#watching an animation they cannot escape, so this is what stops that being a
+	#free hit. Set it to 0 to remove the protection.
+	#Range: 0 ~ 1200
+	cutsceneImmunityTicks = 140
 

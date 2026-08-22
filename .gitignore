@@ -26,7 +26,8 @@ logs
 backups
 bandwidthoptimizer-native
 cache/skins
-data
+/data
+defaultoptions.journal.json
 
 # various config, caches, etc
 modernfix

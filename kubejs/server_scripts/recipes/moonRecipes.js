@@ -7,7 +7,8 @@ ServerEvents.recipes(event => {
         'bloodmagic:altar',
         'bloodmagic:sacrificialdagger',
         'perdition:dis',
-        'concatenatedadditionstools:kestrel'
+        'concatenatedadditionstools:kestrel',
+        'goety:witch_cauldron'
     ]
 
     remove.forEach(item => {
@@ -27,7 +28,7 @@ ServerEvents.recipes(event => {
             A: 'minecraft:ghast_tear',
             C: 'desecratedcore:moon_key_item'
         }
-    )
+    ).keepIngredient('desecratedcore:moon_key_item')
 
     event.shaped(
         Item.of('concatenatedadditionstools:kestrel'),
@@ -100,6 +101,20 @@ ServerEvents.recipes(event => {
             B: 'concatenatedadditionstools:experience_orb',
             C: 'minecraft:emerald',
             D: 'minecraft:diamond'
+        }
+    )
+
+    // Goety
+    event.shaped(
+        Item.of('goety:witch_cauldron'),
+        [
+            'A A',
+            'ABA',
+            'AAA'
+        ],
+        {
+            B: 'perdition:pyrite',
+            A: 'perdition:silver_ingot'
         }
     )
 

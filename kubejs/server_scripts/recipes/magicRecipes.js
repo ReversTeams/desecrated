@@ -575,13 +575,14 @@ ServerEvents.recipes(event => {
         Item.of('macabre:sacrificial_dirk'),
         [
             '  A',
-            'BA ',
+            'BD ',
             'CB '
         ],
         {
             A: 'bloodyhell:blasphemite',
             C: 'bloodyhell:rhnull',
-            B: 'biomancy:living_flesh'
+            B: 'biomancy:living_flesh',
+            D: 'fracture:boreas_key'
         }
     )
 });
