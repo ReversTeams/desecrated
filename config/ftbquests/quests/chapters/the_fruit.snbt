@@ -7,9 +7,7 @@
 	group: "511EB53C58AD34AE"
 	icon: "desecratedcore:knowledge_fruit"
 	id: "24EF1187AC6BC831"
-	order_index: 2
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

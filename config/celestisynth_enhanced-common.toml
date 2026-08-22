@@ -1,0 +1,288 @@
+
+[solaris]
+	#Solaris (enhanced) total ATTACK_DAMAGE attribute value (base 1.0 + modifier). Default 8 = vanilla 1 + tier 4 + 3.
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 8.0
+	#Solaris (enhanced) total ATTACK_SPEED attribute value (base 4.0 + modifier). Default 1.5 = vanilla 4 - 2.5.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 1.5
+	#Skill Full Round (Man Lun Zhan) cooldown in ticks (20 = 1s). Vanilla 70.
+	#Range: 0 ~ 72000
+	cd_full_round = 70
+	#Skill Soul Dash cooldown in ticks (20 = 1s). Vanilla 50.
+	#Range: 0 ~ 72000
+	cd_soul_dash = 50
+	#Full Round per-hit normal damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	full_round_normal_ratio = 0.4
+	#Full Round per-hit fire damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	full_round_fire_ratio = 0.2
+	#Full Round damage box half-extent (blocks). Vanilla 4, enhanced 6.
+	#Range: 1 ~ 128
+	full_round_range = 6
+	#Soul Dash per-hit normal damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	soul_dash_normal_ratio = 0.4
+	#Soul Dash per-hit fire damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	soul_dash_fire_ratio = 0.2
+	#Soul Dash damage box half-extent (blocks). Vanilla 7, enhanced 6.
+	#Range: 1 ~ 128
+	soul_dash_range = 6
+	#Soul Dash total forward dash distance (blocks).
+	#Range: 0.0 ~ 64.0
+	soul_dash_distance = 12.0
+
+[aquaflora]
+	#Aquaflora (enhanced) total ATTACK_DAMAGE attribute value. Default 3 = vanilla 1 + tier 4 - 2.
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 3.0
+	#Aquaflora (enhanced) total ATTACK_SPEED attribute value. Default 2.9 = vanilla 4 - 1.1.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 2.9
+	#Skill Swipethrough (Luan Hua Zang) cooldown in ticks. Vanilla 20.
+	#Range: 0 ~ 72000
+	cd_petal_pierces = 20
+	#Skill Exorbitant Slashing Frenzy (Jing Hua Shui Yue) cooldown in ticks. Vanilla 200.
+	#Range: 0 ~ 72000
+	cd_slash_frenzy = 200
+	#Swipethrough per-hit normal damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	petal_normal_ratio = 0.1
+	#Swipethrough per-hit poison (magic) damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	petal_poison_ratio = 0.1
+	#Slashing Frenzy per-hit damage = player ATTACK_DAMAGE x this + target max health x max_health_ratio.
+	#Range: 0.0 ~ 100.0
+	frenzy_damage_ratio = 1.5
+	#Slashing Frenzy per-hit bonus = target max health x this.
+	#Range: 0.0 ~ 10.0
+	frenzy_max_health_ratio = 0.02
+
+[breezebreaker]
+	#Breezebreaker (enhanced) total ATTACK_DAMAGE attribute value. Default 6 = vanilla 1 + tier 4 + 1.
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 6.0
+	#Breezebreaker (enhanced) total ATTACK_SPEED attribute value. Default 2.0 = vanilla 4 - 2.0.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 2.0
+	#All Breezebreaker skill damage multiplier (applied on top of each skill coefficient).
+	#Range: 0.0 ~ 100.0
+	skill_damage_multiplier = 1.5
+	#Skill Galestorm (Bao Feng Zhi Xi) cooldown in ticks. Vanilla 15.
+	#Range: 0 ~ 72000
+	cd_galestorm = 15
+	#Skill Dual Galestorm (Bao Feng Shuang Xi) cooldown in ticks. Vanilla 15.
+	#Range: 0 ~ 72000
+	cd_dual_galestorm = 15
+	#Skill Zephyr's Death Wheel (Ji Luo Si Lun) cooldown in ticks. Vanilla 40.
+	#Range: 0 ~ 72000
+	cd_wheel = 40
+	#Skill Full-Force Whirlwind Extravagance (Ji Li Xuan Feng) cooldown in ticks. Vanilla 35.
+	#Range: 0 ~ 72000
+	cd_whirlwind = 35
+	#Skill Roar of the Wind (Jin Feng Nu Hao) cooldown in ticks. Enhanced 80 (4s).
+	#Range: 0 ~ 72000
+	cd_wind_roar = 80
+	#Death Wheel extra multiplier on top of skill_damage_multiplier (total = skill_damage_multiplier x wheel_extra_mult). Default 2.0 -> 1.5 x 2.0 = 3.0.
+	#Range: 0.0 ~ 100.0
+	wheel_extra_mult = 2.0
+	#Whirlwind tornado speed profile (kept for compatibility; the tornado now travels at a constant 7 blocks/s, see SkillCastBreezebreakerTornadoMixin).
+	#Range: 0.001 ~ 1.0
+	tornado_speed_scale = 0.125
+	#Whirlwind tornado pull strength divisor (smaller = stronger pull).
+	#Range: 0.1 ~ 64.0
+	tornado_pull_divisor = 2.0
+	#Galestorm / Dual Galestorm slashing-wave pull strength divisor (larger = weaker pull; vanilla enhanced used 2.0).
+	#Range: 0.1 ~ 64.0
+	slash_pull_divisor = 4.0
+	#Roar of the Wind Judgment-Slash: slash visuals spawned per tick (more = denser 'thread' web).
+	#Range: 1 ~ 64
+	roar_slash_count = 10
+
+[poltergeist]
+	#Poltergeist (enhanced) total ATTACK_DAMAGE attribute value. Default 11 = vanilla 1 + tier 4 + 6.
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 11.0
+	#Poltergeist (enhanced) total ATTACK_SPEED attribute value. Default 0.9 = vanilla 4 - 3.1.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 0.9
+	#All Poltergeist skill damage multiplier.
+	#Range: 0.0 ~ 100.0
+	skill_damage_multiplier = 2.0
+	#Skill Cosmic Steel Annihilation (Lian Yu Yan Mie) cooldown in ticks. Vanilla 200, enhanced 150.
+	#Range: 0 ~ 72000
+	cd_smash = 150
+	#Skill Barrier Call (Sheng Zhe Wu Jin / 生者勿近) cooldown in ticks. Vanilla 80. Enhanced 10 (0.5s).
+	#Range: 0 ~ 72000
+	cd_ward = 10
+
+[frostbound]
+	#Frostbound (enhanced) total ATTACK_DAMAGE attribute value. Default 10 = vanilla 1 + tier 4 + 5.
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 10.0
+	#Frostbound (enhanced) total ATTACK_SPEED attribute value. Default 1.3 = vanilla 4 - 2.7.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 1.3
+	#All Frostbound skill damage multiplier.
+	#Range: 0.0 ~ 100.0
+	skill_damage_multiplier = 1.5
+	#Skill Dance of the Seven-Thousand Snowflakes cooldown in ticks. Vanilla 160, enhanced 120.
+	#Range: 0 ~ 72000
+	cd_dance = 120
+	#Skill Calamity Frost Cast cooldown in ticks. Vanilla 100, enhanced 75.
+	#Range: 0 ~ 72000
+	cd_cryogenesis = 75
+	#Calamity Frost Cast: number of ice-pillar rows (1 = vanilla single row).
+	#Range: 1 ~ 9
+	ice_cast_rows = 3
+	#Calamity Frost Cast: angle interval between rows (degrees, around vertical axis).
+	#Range: 1.0 ~ 180.0
+	ice_cast_angle_interval = 30.0
+	#Calamity Frost Cast: ice pillar damage AABB scale (expand damage judgment range; 1.0 = vanilla).
+	#Range: 1.0 ~ 8.0
+	ice_range_scale = 2.5
+
+[keres]
+	#Keres (enhanced) total ATTACK_DAMAGE attribute value. Default 11 = vanilla 1 + tier 4 + 6.
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 11.0
+	#Keres (enhanced) total ATTACK_SPEED attribute value. Default 1.1 = vanilla 4 - 2.9.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 1.1
+	#All Keres skill damage multiplier (+25%).
+	#Range: 0.0 ~ 100.0
+	skill_damage_multiplier = 1.25
+	#Skill Keres Slash cooldown in ticks. Vanilla 5.
+	#Range: 0 ~ 72000
+	cd_slash = 5
+	#Skill Keres Rend (charged) cooldown in ticks. Vanilla 100.
+	#Range: 0 ~ 72000
+	cd_rend = 100
+	#Skill Keres Smash cooldown in ticks. Vanilla 100.
+	#Range: 0 ~ 72000
+	cd_smash = 100
+	#Damage reduction while charging Keres skills (0.85 = 85% damage reduction).
+	#Range: 0.0 ~ 0.99
+	charge_damage_reduction = 0.85
+
+[crescentia]
+	#Crescentia (enhanced) total ATTACK_DAMAGE attribute value. Default 9 = vanilla 1 + tier 4 + 4.
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 9.0
+	#Crescentia (enhanced) total ATTACK_SPEED attribute value. Default 1.3 = vanilla 4 - 2.7.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 1.3
+	#All Crescentia skill damage multiplier (+25%).
+	#Range: 0.0 ~ 100.0
+	skill_damage_multiplier = 1.25
+	#Skill Lunar Celebration Barrage cooldown in ticks. Vanilla 100.
+	#Range: 0 ~ 72000
+	cd_barrage = 100
+	#Skill Eye of the Dragon cooldown in ticks. Vanilla 60.
+	#Range: 0 ~ 72000
+	cd_dragon = 60
+	#Lunar Celebration Barrage final firework-explosion damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	firework_explosion_ratio = 1.5
+	#Eye of the Dragon side dragons flight speed multiplier (0.5 = half speed).
+	#Range: 0.01 ~ 2.0
+	side_dragon_speed_mult = 0.5
+
+[rainfall_serenity]
+	#Rainfall Serenity Enhanced (Ji Mie Xing Yuan) total ATTACK_DAMAGE attribute value. Default 14.
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 14.0
+	#Rainfall Serenity Enhanced total ATTACK_SPEED attribute value. Default 1.6.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 1.6
+	#Rainfall Serenity Enhanced True Serenity (sneak right-click) cooldown in ticks.
+	#Range: 0 ~ 72000
+	shift_skill_cooldown = 40
+
+[electric_pea]
+	#Electric pea projectile base damage (overall damage reduced by 75% vs the original 24). Default 6.
+	#Range: 0.0 ~ 2.147483647E9
+	damage = 6.0
+	#Electric pea projectile lifetime in ticks (20 = 1s). Default 20.
+	#Range: 1 ~ 3600
+	life_time = 20
+	#Splash damage multiplier based on main damage. Default 0.5.
+	#Range: 0.0 ~ 1024.0
+	splash_multiplier = 0.5
+	#Splash damage range, radius in blocks. Default 5.0.
+	#Range: 1.0 ~ 1024.0
+	splash_radius = 5.0
+	#Max number of targets hit by the splash. Default 4.
+	#Range: 0 ~ 3600
+	splash_count = 4
+	#Chance of triggering the gatling pea ultimate burst per shot. Default 0.03 (3%).
+	#Range: 0.0 ~ 1.0
+	burst_chance = 0.03
+	#Spread angle of the gatling pea ultimate burst (degrees).
+	#Range: 0.0 ~ 360.0
+	burst_spread_angle = 15.0
+	#Number of burst waves of the gatling pea ultimate. Default 20; do not set too high.
+	#Range: 1 ~ 1024
+	burst_waves = 20
+	#Bullets per wave of the gatling pea ultimate. Default 5; do not set too high.
+	#Range: 1 ~ 1024
+	burst_bullets_per_wave = 5
+	#Chain lightning trigger chance (open-ultimate chance): probability that a pea hit triggers chain lightning. Default 0.25 (25%).
+	#Range: 0.0 ~ 1.0
+	lightning_chance = 0.25
+
+[shard]
+	#Shard Sword (Zhi Li) total ATTACK_DAMAGE attribute value. Default 7 = 1 + tier 4 + 2 (datapack +6).
+	#Range: 1.0 ~ 2048.0
+	attack_damage = 7.0
+	#Shard Sword total ATTACK_SPEED attribute value. Default 1.3 = vanilla 4 - 2.7.
+	#Range: 0.1 ~ 64.0
+	attack_speed = 1.3
+	#Shard Sword buffed (Hell Transformation) total ATTACK_DAMAGE attribute value. Default 4 = datapack shard_s +3.
+	#Range: 1.0 ~ 2048.0
+	buff_attack_damage = 4.0
+	#Hell Transformation buff duration in ticks (20 = 1s). Datapack 600 (30s).
+	#Range: 1 ~ 72000
+	buff_duration = 600
+	#Hold-right-click charge time in ticks before Hell Transformation activates. Datapack consume_seconds 1.25 = 25.
+	#Range: 5 ~ 72000
+	use_ticks = 25
+	#Self damage taken when activating Hell Transformation (only if health >= 7).
+	#Range: 0.0 ~ 2048.0
+	activate_self_damage = 6.0
+	#Wujian Sword-Tree (buffed basic attack) sweep damage = player ATTACK_DAMAGE x this.
+	#Range: 0.0 ~ 100.0
+	sweep_ratio = 0.4
+	#Sweep damage point offset forward from the player's eyes (blocks). Datapack 2.5.
+	#Range: 0.0 ~ 64.0
+	sweep_forward = 2.5
+	#Sweep damage radius around the offset point (blocks). Datapack 2.
+	#Range: 0.0 ~ 64.0
+	sweep_range = 2.0
+	#Sudden Grace counter (Shu Hu En Ci) damage = player ATTACK_DAMAGE x this. Datapack x2.
+	#Range: 0.0 ~ 100.0
+	rage_ratio = 2.0
+	#Counter damage radius (blocks). Datapack 8.
+	#Range: 0.0 ~ 64.0
+	rage_range = 8.0
+	#Great Execution (Da Bi Wan Si) landing damage = player ATTACK_DAMAGE x this + blood pool x 1.0. Datapack x2.
+	#Range: 0.0 ~ 100.0
+	smash_ratio = 2.0
+	#Great Execution landing damage radius (blocks). Datapack 15.
+	#Range: 0.0 ~ 128.0
+	smash_range = 15.0
+	#Max health bonus while holding the Shard Sword. Datapack +20.
+	#Range: 0.0 ~ 1024.0
+	max_health_bonus = 20.0
+	#Buffed attack damage bonus = current max health x this. Datapack 0.1.
+	#Range: 0.0 ~ 100.0
+	buff_attack_ratio = 0.1
+	#Hell Transformation cooldown after activation in ticks (20 = 1s).
+	#Range: 0 ~ 72000
+	activate_cooldown = 20
+	#Great Execution (Da Bi Wan Si) cooldown in ticks after release (8s = 160).
+	#Range: 0 ~ 72000
+	ultimate_cooldown = 160
+

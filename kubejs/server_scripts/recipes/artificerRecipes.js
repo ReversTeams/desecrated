@@ -23,7 +23,6 @@ ServerEvents.recipes(event => {
         'artificers_armory:tuning_fork_diamond',
         'reliquary:void_tear',
         'reliquary:infernal_tear',
-        'minecraft:enchanting_table',
         'ascendant_arcana:copper_enchanting_table',
         'celestisynth:celestial_core',
         'ascendant_arcana:infusion_smithing_template',

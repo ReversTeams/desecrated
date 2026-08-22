@@ -1,7 +1,7 @@
 {
     "type": "lychee:item_inside",
     "item_in": {
-        "item": "minecraft:glass_bottle"
+        "item": "minecraft:leather"
     },
     "block_in": {
         "blocks": [

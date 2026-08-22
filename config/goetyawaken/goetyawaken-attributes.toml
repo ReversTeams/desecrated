@@ -1,0 +1,783 @@
+
+[Attributes]
+
+	[Attributes."Warden Servant"]
+		#How much Max Health Warden Servants have, Default: 500.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		wardenServantHealth = 500.0
+		#How much damage Warden Servants deals, Default: 30.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		wardenServantDamage = 30.0
+		#How much natural armor points Warden Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		wardenServantArmor = 0.0
+		#How much armor toughness Warden Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		wardenServantArmorToughness = 0.0
+
+	[Attributes."Creeper Servant"]
+		#How much Max Health Creeper Servants have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		creeperServantHealth = 20.0
+		#How much natural armor points Creeper Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		creeperServantArmor = 0.0
+		#How much armor toughness Creeper Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		creeperServantArmorToughness = 0.0
+
+	[Attributes."JITB Zombie Servant"]
+		#How much Max Health JITB Zombie Servants have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		jitbZombieServantHealth = 20.0
+		#How much natural armor points JITB Zombie Servants have, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		jitbZombieServantArmor = 2.0
+		#How much armor toughness JITB Zombie Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		jitbZombieServantArmorToughness = 0.0
+
+	[Attributes."Giant Servant"]
+		#How much Max Health Giant Servants have, Default: 100.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		giantServantHealth = 100.0
+		#How much movement speed Giant Servants have, Default: 0.5
+		#Range: 0.0 ~ 1.7976931348623157E308
+		giantServantMovementSpeed = 0.5
+		#How much damage Giant Servants deals, Default: 15.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		giantServantDamage = 15.0
+		#How much natural armor points Giant Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		giantServantArmor = 0.0
+		#How much armor toughness Giant Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		giantServantArmorToughness = 0.0
+
+	[Attributes."Poisonous Potato Zombie Servant"]
+		#How much Max Health Poisonous Potato Zombie Servants have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		poisonousPotatoZombieServantHealth = 20.0
+		#How much damage Poisonous Potato Zombie Servants deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		poisonousPotatoZombieServantDamage = 3.0
+		#How much natural armor points Poisonous Potato Zombie Servants have, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		poisonousPotatoZombieServantArmor = 2.0
+		#How much armor toughness Poisonous Potato Zombie Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		poisonousPotatoZombieServantArmorToughness = 0.0
+
+	[Attributes."Poisonous Potato Skeleton Servant"]
+		#How much Max Health Poisonous Potato Skeleton Servants have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		poisonousPotatoSkeletonServantHealth = 20.0
+		#How much damage Poisonous Potato Skeleton Servants deals, Default: 2.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		poisonousPotatoSkeletonServantDamage = 2.0
+		#How much natural armor points Poisonous Potato Skeleton Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		poisonousPotatoSkeletonServantArmor = 0.0
+		#How much armor toughness Poisonous Potato Skeleton Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		poisonousPotatoSkeletonServantArmorToughness = 0.0
+
+	[Attributes."Poisonous Potato Creeper Servant"]
+		#How much Max Health Poisonous Potato Creeper Servants have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		poisonousPotatoCreeperServantHealth = 20.0
+		#How much natural armor points Poisonous Potato Creeper Servants have, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		poisonousPotatoCreeperServantArmor = 2.0
+		#How much armor toughness Poisonous Potato Creeper Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		poisonousPotatoCreeperServantArmorToughness = 0.0
+
+	[Attributes."Toxifin Slab Servant"]
+		#How much Max Health Toxifin Slab Servants have, Default: 30.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		toxifinServantHealth = 30.0
+		#How much damage Toxifin Slab Servants deals, Default: 6.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		toxifinServantDamage = 6.0
+		#How much movement speed Toxifin Slab Servants have, Default: 0.5
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toxifinServantMovementSpeed = 0.5
+		#How much follow range Toxifin Slab Servants have, Default: 16.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		toxifinServantFollowRange = 16.0
+
+	[Attributes."Plaguewhale Slab Servant"]
+		#How much Max Health Plaguewhale Slab Servants have, Default: 80.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		plaguewhaleSlabServantHealth = 80.0
+		#How much damage Plaguewhale Slab Servants deals, Default: 8.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		plaguewhaleSlabServantDamage = 8.0
+		#How much movement speed Plaguewhale Slab Servants have, Default: 0.3
+		#Range: 0.0 ~ 1.7976931348623157E308
+		plaguewhaleSlabServantMovementSpeed = 0.3
+		#How much follow range Plaguewhale Slab Servants have, Default: 16.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		plaguewhaleSlabServantFollowRange = 16.0
+
+	[Attributes."Ice Creeper Servant"]
+		#How much Max Health Ice Creeper Servants have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		iceCreeperServantHealth = 20.0
+		#How much natural armor points Ice Creeper Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		iceCreeperServantArmor = 0.0
+		#How much armor toughness Ice Creeper Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		iceCreeperServantArmorToughness = 0.0
+
+	[Attributes."Spider Creeder"]
+		#How much Max Health Spider Creeder has, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		spiderCreederHealth = 20.0
+		#How much natural armor points Spider Creeder have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		spiderCreederArmor = 0.0
+		#How much armor toughness Spider Creeder have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		spiderCreederArmorToughness = 0.0
+
+	[Attributes."Statue Creeper"]
+		#How much Max Health Statue Creeper has, Default: 12.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		statueCreeperHealth = 12.0
+		#How much natural armor points Statue Creeper has, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		statueCreeperArmor = 2.0
+		#How much armor toughness Statue Creeper has, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		statueCreeperArmorToughness = 2.0
+
+	[Attributes."Enderman Servant"]
+		#How much Max Health Enderman Servants have, Default: 40.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		endermanServantHealth = 40.0
+		#How much damage Enderman Servants deals, Default: 7.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		endermanServantDamage = 7.0
+		#How much natural armor points Enderman Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		endermanServantArmor = 0.0
+		#How much armor toughness Enderman Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		endermanServantArmorToughness = 0.0
+
+	[Attributes."Endermite Servant"]
+		#How much Max Health Endermite Servants have, Default: 8.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		endermiteServantHealth = 8.0
+		#How much damage Endermite Servants deals, Default: 2.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		endermiteServantDamage = 2.0
+		#How much natural armor points Endermite Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		endermiteServantArmor = 0.0
+		#How much armor toughness Endermite Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		endermiteServantArmorToughness = 0.0
+
+	[Attributes."Shulker Servant"]
+		#How much Max Health Shulker Servants have, Default: 30.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		shulkerServantHealth = 30.0
+		#How much natural armor points Shulker Servants have, Default: 20.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		shulkerServantArmor = 20.0
+		#How much armor toughness Shulker Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		shulkerServantArmorToughness = 0.0
+
+	[Attributes."Wither Servant"]
+		#How much Max Health Wither Servants have, Default: 300.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		witherServantHealth = 300.0
+		#How much natural armor points Wither Servants have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		witherServantArmor = 4.0
+		#How much armor toughness Wither Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		witherServantArmorToughness = 0.0
+
+	[Attributes."Pale Golem Servant"]
+		#How much Max Health Pale Golem Servants have, Default: 120.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		paleGolemServantHealth = 120.0
+		#How much damage Pale Golem Servants deals, Default: 15.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		paleGolemServantDamage = 15.0
+
+	[Attributes."Royalguard Servant"]
+		#How much Max Health Royalguard Servants have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		royalguardServantHealth = 24.0
+		#How much natural armor points Royalguard Servants have, Default: 20.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		royalguardServantArmor = 20.0
+		#How much armor toughness Royalguard Servants have, Default: 8.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		royalguardServantArmorToughness = 8.0
+		#How much damage Royalguard Servants deals, Default: 9.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		royalguardServantDamage = 9.0
+		#How much damage Royalguards' shield can absorb before breaking, Default: 10.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		royalguardServantShieldCapacity = 10.0
+
+	[Attributes."Tower Guard"]
+		#How much Max Health Tower Guards have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		towerGuardHealth = 24.0
+		#How much natural armor points Tower Guards have, Default: 20.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		towerGuardArmor = 20.0
+		#How much armor toughness Tower Guards have, Default: 12.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		towerGuardArmorToughness = 12.0
+		#How much damage Tower Guards deals, Default: 11.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		towerGuardDamage = 11.0
+		#How much damage Tower Guards' shield can absorb before breaking, Default: 10.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		towerGuardShieldCapacity = 10.0
+		#How much movement speed Tower Guards have, Default: 0.30
+		#Range: 0.0 ~ 1.7976931348623157E308
+		towerGuardMovementSpeed = 0.3
+
+	[Attributes."Silverfish Servant"]
+		#How much Max Health Silverfish Servants have, Default: 8.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		silverfishServantHealth = 8.0
+		#How much damage Silverfish Servants deals, Default: 1.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		silverfishServantDamage = 1.0
+		#How much natural armor points Silverfish Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		silverfishServantArmor = 0.0
+		#How much armor toughness Silverfish Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		silverfishServantArmorToughness = 0.0
+
+	[Attributes."Caerbannog Rabbit Servant"]
+		#How much Max Health Caerbannog Rabbit Servants have, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		caerbannogRabbitServantHealth = 3.0
+		#How much damage Caerbannog Rabbit Servants deals, Default: 8.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		caerbannogRabbitServantDamage = 8.0
+		#How much natural armor points Caerbannog Rabbit Servants have, Default: 8.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		caerbannogRabbitServantArmor = 8.0
+
+	[Attributes."Mushroom Monstrosity"]
+		#How much Max Health Mooshroom Monstrosities have, Default: 1000.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		mushroomMonstrosityHealth = 1000.0
+		#How much natural armor points Mooshroom Monstrosities have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		mushroomMonstrosityArmor = 4.0
+		#How much armor toughness Mooshroom Monstrosities have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		mushroomMonstrosityArmorToughness = 0.0
+		#How much damage Mooshroom Monstrosities deals, Default: 16.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		mushroomMonstrosityDamage = 16.0
+		#How much following/detection range Mooshroom Monstrosities have, Default: 48.0
+		#Range: 1.0 ~ 2048.0
+		mushroomMonstrosityFollowRange = 48.0
+		#Mooshroom Monstrosity damage cap as a percentage of max health (default: 0.25 = 25%)
+		#Range: 0.0 ~ 1.0
+		mushroomMonstrosityDamageCap = 0.25
+		#Mooshroom Monstrosity percentage-based damage (default: 0.08 = 8%)
+		#Range: 0.0 ~ 1.0
+		mushroomMonstrosityPercentageDamage = 0.08
+		#Default time limit for Mooshroom Monstrosity dynamic shield in ticks (default: 5)
+		#Range: > 0
+		mushroomDynamicShieldDefaultLimitTime = 5
+		#Should Poisonous Mushroom Block heal owner(Mooshroom Monstrosity)? Default: false
+		allowPoisonousMushroomHealSpecialOwners = false
+		#Should Mooshroom Monstrosity be allowed to plant poisonous mushrooms? Default: true
+		allowMushroomMonstrosityPlantPoisonousMushroom = true
+
+	[Attributes."Angry Mooshroom"]
+		#How much Max Health Angry Mooshrooms have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		angryMooshroomHealth = 24.0
+		#How much armor points Angry Mooshrooms have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		angryMooshroomArmor = 0.0
+		#How much damage Angry Mooshrooms deals, Default: 6.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		angryMooshroomDamage = 6.0
+		#How much movement speed Angry Mooshrooms have, Default: 0.25
+		#Range: 0.0 ~ 1.7976931348623157E308
+		angryMooshroomMovementSpeed = 0.25
+
+	[Attributes."Wraith Necromancer"]
+		#How much Max Health Wraith Necromancers have, Default: 220.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		wraithNecromancerHealth = 220.0
+		#How much natural armor points Wraith Necromancers have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		wraithNecromancerArmor = 0.0
+		#How much damage Wraith Necromancers deals, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		wraithNecromancerDamage = 4.0
+		#How much follow range Wraith Necromancers have, Default: 32.0
+		#Range: 1.0 ~ 2048.0
+		wraithNecromancerFollowRange = 32.0
+
+	[Attributes."Parched Necromancer"]
+		#How much Max Health Parched Necromancers have, Default: 220.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		parchedNecromancerHealth = 220.0
+		#How much natural armor points Parched Necromancers have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		parchedNecromancerArmor = 4.0
+		#How much armor toughness Parched Necromancers have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		parchedNecromancerArmorToughness = 0.0
+		#How much damage Parched Necromancers deals, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		parchedNecromancerDamage = 1.0
+		#How much follow range Parched Necromancers have, Default: 48.0
+		#Range: 1.0 ~ 2048.0
+		parchedNecromancerFollowRange = 48.0
+
+	[Attributes."Nameless One"]
+		#How much Max Health Nameless One have, Default: 444.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		namelessOneHealth = 444.0
+		#How much natural armor points Nameless One have, Default: 8.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		namelessOneArmor = 8.0
+		#How much armor toughness Nameless One have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		namelessOneArmorToughness = 4.0
+		#How much damage Nameless One deals, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		namelessOneDamage = 4.0
+		#How much follow range Nameless One have, Default: 48.0
+		#Range: 1.0 ~ 2048.0
+		namelessOneFollowRange = 48.0
+		#Damage cap percentage for Nameless One (fraction of max health), Default: 0.2 (20%)
+		#Range: 0.01 ~ 1.0
+		namelessOneDamageCapPercent = 0.2
+		#Hit cooldown in ticks for Nameless One damage cap, Default: 5
+		#Range: 1 ~ 100
+		namelessOneHitCooldown = 5
+		#Dynamic damage reduction time in ticks for Nameless One, Default: 10
+		#Range: 1 ~ 100
+		namelessOneDynamicReductionTime = 10
+		#Nameless One heal interval in ticks (default: 20 - 1 second)
+		#Range: > 1
+		namelessOneHealInterval = 20
+		#Nameless One heal amount per interval (default: 1.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		namelessOneHealAmount = 1.0
+
+	[Attributes."Illusioner Servant"]
+		#How much Max Health Illusioner Servants have, Default: 32.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		illusionerServantHealth = 32.0
+		#How much natural armor points Illusioner Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		illusionerServantArmor = 0.0
+		#How much armor toughness Illusioner Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		illusionerServantArmorToughness = 0.0
+		#How much movement speed Illusioner Servants have, Default: 0.5
+		#Range: 0.0 ~ 1.7976931348623157E308
+		illusionerServantMovementSpeed = 0.5
+		#How much following/detection range Illusioner Servants have, Default: 18.0
+		#Range: 1.0 ~ 2048.0
+		illusionerServantFollowRange = 18.0
+
+	[Attributes."Arch Illusioner Servant"]
+		#How much Max Health Arch Illusioner Servants have, Default: 100.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		archIllusionerServantHealth = 100.0
+		#How much natural armor points Arch Illusioner Servants have, Default: 8.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		archIllusionerServantArmor = 8.0
+		#How much armor toughness Arch Illusioner Servants have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		archIllusionerServantArmorToughness = 4.0
+		#How much movement speed Arch Illusioner Servants have, Default: 0.5
+		#Range: 0.0 ~ 1.7976931348623157E308
+		archIllusionerServantMovementSpeed = 0.5
+		#How much following/detection range Arch Illusioner Servants have, Default: 48.0
+		#Range: 1.0 ~ 2048.0
+		archIllusionerServantFollowRange = 48.0
+		#How much attack damage Arch Illusioners have, affects Explosive Arrow damage, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		archIllusionerDamage = 1.0
+
+	[Attributes."Bound Sorcerer"]
+		#How much Max Health Bound Sorcerers have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		boundSorcererHealth = 24.0
+		#How much natural armor points Bound Sorcerers have, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		boundSorcererArmor = 2.0
+		#How much following/detection range Bound Sorcerers have, Default: 32.0
+		#Range: 1.0 ~ 2048.0
+		boundSorcererFollowRange = 32.0
+
+	[Attributes."Vanguard Champion"]
+		#How much Max Health Vanguard Champions have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		vanguardChampionHealth = 24.0
+		#How much movement speed Vanguard Champions have, Default: 0.3
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vanguardChampionMovementSpeed = 0.3
+		#How much base damage Vanguard Champions deals, Default: 1.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		vanguardChampionDamage = 1.0
+		#How much attack knockback Vanguard Champions have, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vanguardChampionAttackKnockback = 1.0
+		#How much natural armor points Vanguard Champions have, Default: 20.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vanguardChampionArmor = 20.0
+		#How much armor toughness Vanguard Champions have, Default: 8.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vanguardChampionArmorToughness = 8.0
+
+	[Attributes."Scarlet Vex"]
+		#How much Max Health Scarlet Vexes have, Default: 12.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		scarletVexHealth = 12.0
+		#How much damage Scarlet Vexes deals, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		scarletVexDamage = 4.0
+
+	[Attributes."Tower Wraith"]
+		#How much Max Health Tower Wraiths have, Default: 30.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		towerWraithHealth = 30.0
+		#How much natural armor points Tower Wraiths have, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		towerWraithArmor = 2.0
+		#How much damage Tower Wraiths deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		towerWraithDamage = 3.0
+
+	[Attributes."Tower Witch"]
+		#How much Max Health Tower Witches have, Default: 30.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		towerWitchHealth = 30.0
+		#How much natural armor points Tower Witches have, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		towerWitchArmor = 2.0
+		#How much movement speed Tower Witches have, Default: 0.3
+		#Range: 0.0 ~ 1.7976931348623157E308
+		towerWitchMovementSpeed = 0.3
+
+	[Attributes."Giant Ghast"]
+		#How much Max Health Giant Ghast has, Default: 140.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		giantGhastHealth = 140.0
+		#How much natural armor points Giant Ghast has, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		giantGhastArmor = 4.0
+		#How much armor toughness Giant Ghast has, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		giantGhastArmorToughness = 0.0
+		#How much damage Giant Ghast deals, Default: 5.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		giantGhastDamage = 5.0
+		#Allow Giant Ghast to fire Giant Hell Blast, Default: false
+		giantGhastAllowGiantHellBlast = false
+
+	[Attributes."Rampart Captain"]
+		#How much Max Health Rampart Captains have, Default: 120.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		rampartCaptainHealth = 120.0
+		#How much damage Rampart Captains deals, Default: 6.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		rampartCaptainDamage = 6.5
+		#How much armor Rampart Captains have, Default: 20.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		rampartCaptainArmor = 20.0
+		#How much armor toughness Rampart Captains have, Default: 8.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		rampartCaptainArmorToughness = 8.0
+		#Chance for Rampart Captain's Run Attack to loop (0.0-1.0), Default: 0.7 (70%)
+		#Range: 0.0 ~ 1.0
+		rampartCaptainRunAttackLoopChance = 0.7
+
+	[Attributes."Burning Shield"]
+		#How much Max Health Burning Shields have, Default: 12.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		burningShieldHealth = 12.5
+
+	[Attributes."Masquerader Servant"]
+		#How much Max Health Masquerader Servants have, Default: 300.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		masqueraderServantHealth = 300.0
+		#How much movement speed Masquerader Servants have, Default: 0.4
+		#Range: 0.0 ~ 1.7976931348623157E308
+		masqueraderServantMovementSpeed = 0.4
+		#How much following/detection range Masquerader Servants have, Default: 64.0
+		#Range: 1.0 ~ 2048.0
+		masqueraderServantFollowRange = 64.0
+		#How much damage Masquerader Servants deals, Default: 6.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		masqueraderServantDamage = 6.0
+		#How much natural armor Masquerader Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		masqueraderServantArmor = 0.0
+		#How much armor toughness Masquerader Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		masqueraderServantArmorToughness = 0.0
+
+	[Attributes."Swampjaw Servant"]
+		#How much Max Health Swampjaw Servants have, Default: 100.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		swampjawServantHealth = 100.0
+		#How much damage Swampjaw Servants deals, Default: 12.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		swampjawServantDamage = 12.0
+		#How much knockback resistance Swampjaw Servants have, Default: 0.8
+		#Range: 0.0 ~ 1.7976931348623157E308
+		swampjawServantKnockbackResistance = 0.8
+		#How much explosion power Swampjaw Servant's mines have, Default: 3.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		swampjawServantExplosionPower = 3.0
+		#How much natural armor Swampjaw Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		swampjawServantArmor = 0.0
+		#How much armor toughness Swampjaw Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		swampjawServantArmorToughness = 0.0
+
+	[Attributes."Bellringer Servant"]
+		#How much Max Health Bellringer Servants have, Default: 200.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		bellringerServantHealth = 200.0
+		#How much damage Bellringer Servants deals, Default: 10.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		bellringerServantDamage = 10.0
+		#How much armor Bellringer Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bellringerServantArmor = 0.0
+		#How much armor toughness Bellringer Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bellringerServantArmorToughness = 0.0
+
+	[Attributes."Rosalyne Servant"]
+		#How much Max Health Rosalyne Servants have, Default: 500.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		rosalyneServantHealth = 500.0
+		#How much damage Rosalyne Servants deals, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		rosalyneServantDamage = 24.0
+		#How much armor Rosalyne Servants have, Default: 8.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		rosalyneServantArmor = 8.0
+		#How much armor toughness Rosalyne Servants have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		rosalyneServantArmorToughness = 4.0
+
+	[Attributes."Rose Spirit Servant"]
+		#How much Max Health Rose Spirit Servants have, Default: 40.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		roseSpiritServantHealth = 40.0
+		#How much damage Rose Spirit Servants deals, Default: 16.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		roseSpiritServantDamage = 16.0
+		#How much armor Rose Spirit Servants have, Default: 5.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		roseSpiritServantArmor = 5.0
+		#How much armor toughness Rose Spirit Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		roseSpiritServantArmorToughness = 0.0
+
+	[Attributes."Dame Fortuna Servant"]
+		#How much Max Health Dame Fortuna Servants have, Default: 300.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		dameFortunaServantHealth = 300.0
+		#How much damage Dame Fortuna Servants deals, Default: 16.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		dameFortunaServantDamage = 16.0
+		#How much armor Dame Fortuna Servants have, Default: 5.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		dameFortunaServantArmor = 5.0
+		#How much armor toughness Dame Fortuna Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		dameFortunaServantArmorToughness = 0.0
+
+	[Attributes."Archer Servant"]
+		#How much Max Health Archer Servants have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		archerServantHealth = 24.0
+		#How much damage Archer Servants deals, Default: 5.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		archerServantDamage = 5.0
+		#How much movement speed Archer Servants have, Default: 0.36
+		#Range: 0.0 ~ 1.7976931348623157E308
+		archerServantMovementSpeed = 0.36
+		#How much follow range Archer Servants have, Default: 40.0
+		#Range: 1.0 ~ 2048.0
+		archerServantFollowRange = 40.0
+		#How much natural armor points Archer Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		archerServantArmor = 0.0
+		#How much armor toughness Archer Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		archerServantArmorToughness = 0.0
+
+	[Attributes."Skirmisher Servant"]
+		#How much Max Health Skirmisher Servants have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		skirmisherServantHealth = 24.0
+		#How much damage Skirmisher Servants deals, Default: 5.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		skirmisherServantDamage = 5.0
+		#How much movement speed Skirmisher Servants have, Default: 0.36
+		#Range: 0.0 ~ 1.7976931348623157E308
+		skirmisherServantMovementSpeed = 0.36
+		#How much follow range Skirmisher Servants have, Default: 16.0
+		#Range: 1.0 ~ 2048.0
+		skirmisherServantFollowRange = 16.0
+		#How much natural armor points Skirmisher Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		skirmisherServantArmor = 0.0
+		#How much armor toughness Skirmisher Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		skirmisherServantArmorToughness = 0.0
+
+	[Attributes."Legioner Servant"]
+		#How much Max Health Legioner Servants have, Default: 40.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		legionerServantHealth = 40.0
+		#How much damage Legioner Servants deals, Default: 6.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		legionerServantDamage = 6.5
+		#How much movement speed Legioner Servants have, Default: 0.275
+		#Range: 0.0 ~ 1.7976931348623157E308
+		legionerServantMovementSpeed = 0.275
+		#How much follow range Legioner Servants have, Default: 24.0
+		#Range: 1.0 ~ 2048.0
+		legionerServantFollowRange = 24.0
+		#How much natural armor Legioner Servants have, Default: 6.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		legionerServantArmor = 6.0
+		#How much armor toughness Legioner Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		legionerServantArmorToughness = 0.0
+
+	[Attributes."Sculk Centipede Servant"]
+		#How much Max Health Sculk Centipede Servants have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		sculkCentipedeServantHealth = 20.0
+		#How much damage Sculk Centipede Servants deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		sculkCentipedeServantDamage = 3.0
+		#How much movement speed Sculk Centipede Servants have, Default: 0.2
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sculkCentipedeServantMovementSpeed = 0.2
+		#How much natural armor Sculk Centipede Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sculkCentipedeServantArmor = 0.0
+		#How much armor toughness Sculk Centipede Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sculkCentipedeServantArmorToughness = 0.0
+
+	[Attributes."Sculk Leech Servant"]
+		#How much Max Health Sculk Leech Servants have, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		sculkLeechServantHealth = 4.0
+		#How much damage Sculk Leech Servants deals, Default: 1.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		sculkLeechServantDamage = 1.0
+		#How much movement speed Sculk Leech Servants have, Default: 0.25
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sculkLeechServantMovementSpeed = 0.25
+		#How much natural armor Sculk Leech Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sculkLeechServantArmor = 0.0
+		#How much armor toughness Sculk Leech Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sculkLeechServantArmorToughness = 0.0
+
+	[Attributes."Shattered Servant"]
+		#How much Max Health Shattered Servants have, Default: 50.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		shatteredServantHealth = 50.0
+		#How much damage Shattered Servants deals, Default: 6.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		shatteredServantDamage = 6.0
+		#How much movement speed Shattered Servants have, Default: 0.2
+		#Range: 0.0 ~ 1.7976931348623157E308
+		shatteredServantMovementSpeed = 0.2
+		#How much natural armor Shattered Servants have, Default: 3.5
+		#Range: 0.0 ~ 1.7976931348623157E308
+		shatteredServantArmor = 3.5
+		#How much follow range Shattered Servants have, Default: 10.0
+		#Range: 1.0 ~ 2048.0
+		shatteredServantFollowRange = 10.0
+		#How much armor toughness Shattered Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		shatteredServantArmorToughness = 0.0
+
+	[Attributes."Shriek Worm Servant"]
+		#How much Max Health Shriek Worm Servants have, Default: 100.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		shriekWormServantHealth = 100.0
+		#How much damage Shriek Worm Servants deals, Default: 7.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		shriekWormServantDamage = 7.0
+		#How much movement speed Shriek Worm Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		shriekWormServantMovementSpeed = 0.0
+		#How much natural armor Shriek Worm Servants have, Default: 3.5
+		#Range: 0.0 ~ 1.7976931348623157E308
+		shriekWormServantArmor = 3.5
+		#How much armor toughness Shriek Worm Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		shriekWormServantArmorToughness = 0.0
+
+	[Attributes."Sludge Servant"]
+		#How much Max Health Sludge Servants have (per size), Default: 16.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		sludgeServantHealth = 16.0
+		#How much damage Sludge Servants deals, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		sludgeServantDamage = 4.0
+		#How much movement speed Sludge Servants have, Default: 0.6
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sludgeServantMovementSpeed = 0.6
+		#How much natural armor Sludge Servants have, Default: 2.5
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sludgeServantArmor = 2.5
+		#How much armor toughness Sludge Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sludgeServantArmorToughness = 0.0
+
+	[Attributes."Stalker Servant"]
+		#How much Max Health Stalker Servants have, Default: 200.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		stalkerServantHealth = 200.0
+		#How much damage Stalker Servants deals, Default: 22.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		stalkerServantDamage = 22.0
+		#How much movement speed Stalker Servants have, Default: 0.3
+		#Range: 0.0 ~ 1.7976931348623157E308
+		stalkerServantMovementSpeed = 0.3
+		#How much natural armor Stalker Servants have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		stalkerServantArmor = 4.0
+		#How much knockback resistance Stalker Servants have, Default: 1.0
+		#Range: 0.0 ~ 1.0
+		stalkerServantKnockbackResistance = 1.0
+		#How much armor toughness Stalker Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		stalkerServantArmorToughness = 0.0
+

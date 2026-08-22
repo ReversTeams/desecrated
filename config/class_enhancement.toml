@@ -160,7 +160,7 @@
 		#Unique internal ID. Leave empty to disable.
 		id = "artificer"
 		#Display name shown in GUI. (Supports translation keys)
-		name = "Crimson Artificer"
+		name = "Spectral Artificer"
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire tinkering gadgets, studying enchanting and searching for powerful relics."
 		#Cosmetic stat summary lines.
@@ -232,7 +232,7 @@
 		#Unique internal ID. Leave empty to disable.
 		id = "practitioner"
 		#Display name shown in GUI. (Supports translation keys)
-		name = "Practitioner"
+		name = "Dark Practitioner"
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire studying the arcane rituals and pact of the past."
 		#Cosmetic stat summary lines.

@@ -5,22 +5,17 @@
     "spectrum:deeper_down",
     "perdition:dis",
     "bloodmagic:dungeon",
-    "thedulling:emptiness",
     "fracture:flesh_dimension",
-    "thedulling:heart_of_the_dulling",
     "reverseeon:island_dim",
     "macabre:limbo",
-    "thedulling:lost_interfold",
     "minecraft:overworld",
     "perdition:purgatory",
     "mahoutsukai:reality_marble",
     "otherverse:ruins",
     "bloodyhell:soul_dimension",
     "minecraft:the_end",
-    "minecraft:the_nether",
     "macabre:the_pit",
-    "blood_arsenal_reawakened:white_day",
-    "thedulling:yvxzlight"
+    "blood_arsenal_reawakened:white_day"
   ],
   "structures": [
     {
@@ -36,9 +31,7 @@
       "id": "minecraft:bastion_remnant",
       "displayName": "Bastion Remnant",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:buried_treasure",
@@ -70,9 +63,7 @@
       "id": "minecraft:fortress",
       "displayName": "Fortress",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:igloo",
@@ -132,10 +123,7 @@
       "id": "minecraft:nether_fossil",
       "displayName": "Nether Fossil",
       "isVanilla": true,
-      "dimensions": [
-        "thedulling:lost_interfold",
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:ocean_ruin_cold",
@@ -204,9 +192,7 @@
       "id": "minecraft:ruined_portal_nether",
       "displayName": "Ruined Portal Nether",
       "isVanilla": true,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "minecraft:ruined_portal_ocean",
@@ -941,6 +927,147 @@
       ]
     },
     {
+      "id": "bosgoety:adventure_tents",
+      "displayName": "Adventure Tents",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:behemoth_graveyard",
+      "displayName": "Behemoth Graveyard",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:end_passage",
+      "displayName": "End Passage",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "bosgoety:end_post",
+      "displayName": "End Post",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "bosgoety:foregone_home",
+      "displayName": "Foregone Home",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:light_pillager_outpost",
+      "displayName": "Light Pillager Outpost",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:preachers_chapel",
+      "displayName": "Preachers Chapel",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:raider_camp",
+      "displayName": "Raider Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:rotten_shed",
+      "displayName": "Rotten Shed",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:ruined_monument",
+      "displayName": "Ruined Monument",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:snow_fort",
+      "displayName": "Snow Fort",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:stone_resting",
+      "displayName": "Stone Resting",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:strange_portal",
+      "displayName": "Strange Portal",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:trampler_stable",
+      "displayName": "Trampler Stable",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "bosgoety:void_well",
+      "displayName": "Void Well",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "bosgoety:water_idol",
+      "displayName": "Water Idol",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "butchery:vindicator_butchers_house",
       "displayName": "Vindicator Butchers House",
       "isVanilla": false,
@@ -1064,6 +1191,354 @@
       "dimensions": [
         "fracture:boreas_dimension"
       ]
+    },
+    {
+      "id": "goety:black_assembly",
+      "displayName": "Black Assembly",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:blighted_shack",
+      "displayName": "Blighted Shack",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:buried_ritual",
+      "displayName": "Buried Ritual",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:crypt",
+      "displayName": "Crypt",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:dark_manor",
+      "displayName": "Dark Manor",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:final_terminal",
+      "displayName": "Final Terminal",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "goety:graveyard",
+      "displayName": "Graveyard",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:mangrove_tower",
+      "displayName": "Mangrove Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:ominous_blacksmith",
+      "displayName": "Ominous Blacksmith",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:royal_tribute",
+      "displayName": "Royal Tribute",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:ruined_monastery",
+      "displayName": "Ruined Monastery",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:secluded_igloo",
+      "displayName": "Secluded Igloo",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:sorcerous_keep",
+      "displayName": "Sorcerous Keep",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:spider_den",
+      "displayName": "Spider Den",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goety:wind_shrine",
+      "displayName": "Wind Shrine",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:abandoned_tower",
+      "displayName": "Abandoned Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:absolute_citadel",
+      "displayName": "Absolute Citadel",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "goetyawaken:arch_illusioner_keep",
+      "displayName": "Arch Illusioner Keep",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:boreal_spire",
+      "displayName": "Boreal Spire",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:chaos_prison",
+      "displayName": "Chaos Prison",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:endersent_in_end",
+      "displayName": "Endersent In End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "goetyawaken:gauntlet_of_howling",
+      "displayName": "Gauntlet Of Howling",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:glacial_ghost_house",
+      "displayName": "Glacial Ghost House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:greatsword_burial_site",
+      "displayName": "Greatsword Burial Site",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:illager_station",
+      "displayName": "Illager Station",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:invaded_shack",
+      "displayName": "Invaded Shack",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:mirage",
+      "displayName": "Mirage",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:nocturnal_rite",
+      "displayName": "Nocturnal Rite",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:ominous_castle",
+      "displayName": "Ominous Castle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:pristine_shack",
+      "displayName": "Pristine Shack",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:rabbit_shed",
+      "displayName": "Rabbit Shed",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:ruined_camp",
+      "displayName": "Ruined Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:secluded_cottage",
+      "displayName": "Secluded Cottage",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:secret_kitchen",
+      "displayName": "Secret Kitchen",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "goetyawaken:shelter",
+      "displayName": "Shelter",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:snowy_abandoned_tower",
+      "displayName": "Snowy Abandoned Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:temple_of_apollyon",
+      "displayName": "Temple Of Apollyon",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "goetyawaken:the_mausoleum",
+      "displayName": "The Mausoleum",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyawaken:tidal_tomb",
+      "displayName": "Tidal Tomb",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "goetyhostility:raging_inferno",
+      "displayName": "Raging Inferno",
+      "isVanilla": false,
+      "dimensions": []
     },
     {
       "id": "grim_kingdoms:blackridge_watch",
@@ -1258,9 +1733,7 @@
       "id": "idas:ancient_portal/nether_ancient_portal",
       "displayName": "Ancient Portal/nether Ancient Portal",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "idas:ancient_statue/ancient_statue_desert",
@@ -1302,9 +1775,7 @@
       "id": "idas:animal_den/foxhound_den",
       "displayName": "Animal Den/foxhound Den",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "idas:animal_den/polar_bear_den",
@@ -1676,17 +2147,13 @@
       "id": "idas:necromancers_spire",
       "displayName": "Necromancers Spire",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "idas:nether_pump_camp",
       "displayName": "Nether Pump Camp",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "idas:nexus",
@@ -2089,6 +2556,24 @@
       ]
     },
     {
+      "id": "modestmining:ancient_digging_site",
+      "displayName": "Ancient Digging Site",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "modestmining:sandy_digging_site",
+      "displayName": "Sandy Digging Site",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "monster_hunter_villager:hunters_tent_blue",
       "displayName": "Hunters Tent Blue",
       "isVanilla": false,
@@ -2200,25 +2685,19 @@
       "id": "netherman:eye_columns",
       "displayName": "Eye Columns",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "netherman:gast_chamber",
       "displayName": "Gast Chamber",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "netherman:gehen_statue",
       "displayName": "Gehen Statue",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "netherman:head_altar",
@@ -2233,9 +2712,7 @@
       "id": "netherman:mansion_nether",
       "displayName": "Mansion Nether",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "netherman:maze",
@@ -2277,9 +2754,7 @@
       "id": "netherman:trap",
       "displayName": "Trap",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "otherverse:brazier",
@@ -2478,9 +2953,7 @@
       "id": "philipsruins:nether_lava_ruins",
       "displayName": "Nether Lava Ruins",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "philipsruins:ocean_fortress",
@@ -2531,17 +3004,13 @@
       "id": "philipsruins:sealedruinedghaststatue1",
       "displayName": "Sealedruinedghaststatue1",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "philipsruins:start_nether_dungeon",
       "displayName": "Start Nether Dungeon",
       "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
+      "dimensions": []
     },
     {
       "id": "philipsruins:start_nether_ruin",
@@ -2727,6 +3196,15 @@
       ]
     },
     {
+      "id": "sons_of_sins:sinful_church",
+      "displayName": "Sinful Church",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "spectrum:city_below",
       "displayName": "City Below",
       "isVanilla": false,
@@ -2815,6 +3293,15 @@
       "isVanilla": false,
       "dimensions": [
         "spectrum:deeper_down"
+      ]
+    },
+    {
+      "id": "structuresplus:acacia_house",
+      "displayName": "Acacia House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
       ]
     },
     {
@@ -3151,193 +3638,6 @@
       "dimensions": [
         "minecraft:overworld",
         "fracture:flesh_dimension"
-      ]
-    },
-    {
-      "id": "thedulling:bone_hoarder_arena",
-      "displayName": "Bone Hoarder Arena",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:burgeoning_fortress",
-      "displayName": "Burgeoning Fortress",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
-    },
-    {
-      "id": "thedulling:dark_fortress",
-      "displayName": "Dark Fortress",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:devastator_arena",
-      "displayName": "Devastator Arena",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:dull_pyramid",
-      "displayName": "Dull Pyramid",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
-    },
-    {
-      "id": "thedulling:dulling_dungeon",
-      "displayName": "Dulling Dungeon",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
-    },
-    {
-      "id": "thedulling:dulling_portal",
-      "displayName": "Dulling Portal",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:dulling_trap",
-      "displayName": "Dulling Trap",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:firstborn_statue",
-      "displayName": "Firstborn Statue",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:gorelick_settlement",
-      "displayName": "Gorelick Settlement",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:incredible_arena",
-      "displayName": "Incredible Arena",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:heart_of_the_dulling"
-      ]
-    },
-    {
-      "id": "thedulling:interfold_dulling_ruin",
-      "displayName": "Interfold Dulling Ruin",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:lost_ruin_1",
-      "displayName": "Lost Ruin 1",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:lost_ruin_2",
-      "displayName": "Lost Ruin 2",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:lost_ruin_3",
-      "displayName": "Lost Ruin 3",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:lost_ruin_4",
-      "displayName": "Lost Ruin 4",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:lost_ruin_5",
-      "displayName": "Lost Ruin 5",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:offering_altar",
-      "displayName": "Offering Altar",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:orb_island",
-      "displayName": "Orb Island",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:powdered_snow_altar",
-      "displayName": "Powdered Snow Altar",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:storage_room",
-      "displayName": "Storage Room",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:strange_ruin",
-      "displayName": "Strange Ruin",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
-      ]
-    },
-    {
-      "id": "thedulling:thorium_keep",
-      "displayName": "Thorium Keep",
-      "isVanilla": false,
-      "dimensions": [
-        "thedulling:lost_interfold"
       ]
     },
     {
@@ -3745,6 +4045,27 @@
       ]
     },
     {
+      "tagId": "goety:can_summon_border_wraiths",
+      "displayName": "#Can Summon Border Wraiths",
+      "structureIds": [
+        "goety:crypt"
+      ]
+    },
+    {
+      "tagId": "goety:can_summon_brutes",
+      "displayName": "#Can Summon Brutes",
+      "structureIds": [
+        "minecraft:bastion_remnant"
+      ]
+    },
+    {
+      "tagId": "goety:can_summon_wither_skeletons",
+      "displayName": "#Can Summon Wither Skeletons",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
       "tagId": "idas:common",
       "displayName": "#Common",
       "structureIds": [
@@ -3792,11 +4113,187 @@
       ]
     },
     {
+      "tagId": "goety:crone_spawns",
+      "displayName": "#Crone Spawns",
+      "structureIds": [
+        "goety:blighted_shack"
+      ]
+    },
+    {
+      "tagId": "goety:crypt",
+      "displayName": "#Crypt",
+      "structureIds": [
+        "goety:crypt"
+      ]
+    },
+    {
       "tagId": "quark:dark_oak_chest_structures",
       "displayName": "#Dark Oak Chest Structures",
       "structureIds": [
         "minecraft:mansion",
         "minecraft:pillager_outpost"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/ancient_city",
+      "displayName": "#Explorer Maps/ancient City",
+      "structureIds": [
+        "minecraft:ancient_city"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/blighted_shack",
+      "displayName": "#Explorer Maps/blighted Shack",
+      "structureIds": [
+        "goety:blighted_shack"
+      ]
+    },
+    {
+      "tagId": "goetyawaken:explorer_maps/chaos_prison",
+      "displayName": "#Explorer Maps/chaos Prison",
+      "structureIds": [
+        "goetyawaken:chaos_prison"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/crypt",
+      "displayName": "#Explorer Maps/crypt",
+      "structureIds": [
+        "goety:crypt"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/dark_manor",
+      "displayName": "#Explorer Maps/dark Manor",
+      "structureIds": [
+        "goety:dark_manor"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/desert_pyramid",
+      "displayName": "#Explorer Maps/desert Pyramid",
+      "structureIds": [
+        "minecraft:desert_pyramid",
+        "idas:desert_pyramid"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/end/end_city",
+      "displayName": "#Explorer Maps/end/end City",
+      "structureIds": [
+        "minecraft:end_city"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/end/final_terminal",
+      "displayName": "#Explorer Maps/end/final Terminal",
+      "structureIds": [
+        "goety:final_terminal"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/final_terminal",
+      "displayName": "#Explorer Maps/final Terminal",
+      "structureIds": [
+        "goety:final_terminal"
+      ]
+    },
+    {
+      "tagId": "goetyawaken:explorer_maps/glacial_ghost_house",
+      "displayName": "#Explorer Maps/glacial Ghost House",
+      "structureIds": [
+        "goetyawaken:glacial_ghost_house"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/graveyard",
+      "displayName": "#Explorer Maps/graveyard",
+      "structureIds": [
+        "goety:graveyard"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/jungle_temple",
+      "displayName": "#Explorer Maps/jungle Temple",
+      "structureIds": [
+        "minecraft:jungle_pyramid"
+      ]
+    },
+    {
+      "tagId": "goetyawaken:explorer_maps/mirage",
+      "displayName": "#Explorer Maps/mirage",
+      "structureIds": [
+        "goetyawaken:mirage"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/nether/bastion_remnant",
+      "displayName": "#Explorer Maps/nether/bastion Remnant",
+      "structureIds": [
+        "minecraft:bastion_remnant"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/nether/fortress",
+      "displayName": "#Explorer Maps/nether/fortress",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/ominous_blacksmith",
+      "displayName": "#Explorer Maps/ominous Blacksmith",
+      "structureIds": [
+        "goety:ominous_blacksmith"
+      ]
+    },
+    {
+      "tagId": "goetyawaken:explorer_maps/ominous_castle",
+      "displayName": "#Explorer Maps/ominous Castle",
+      "structureIds": [
+        "goetyawaken:ominous_castle"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/pillager_outpost",
+      "displayName": "#Explorer Maps/pillager Outpost",
+      "structureIds": [
+        "minecraft:pillager_outpost"
+      ]
+    },
+    {
+      "tagId": "goetyawaken:explorer_maps/rabbit_shed",
+      "displayName": "#Explorer Maps/rabbit Shed",
+      "structureIds": [
+        "goetyawaken:rabbit_shed"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/ruined_monastery",
+      "displayName": "#Explorer Maps/ruined Monastery",
+      "structureIds": [
+        "goety:ruined_monastery"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/sorcerous_keep",
+      "displayName": "#Explorer Maps/sorcerous Keep",
+      "structureIds": [
+        "goety:sorcerous_keep"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/spider_den",
+      "displayName": "#Explorer Maps/spider Den",
+      "structureIds": [
+        "goety:spider_den"
+      ]
+    },
+    {
+      "tagId": "goety:explorer_maps/wind_shrine",
+      "displayName": "#Explorer Maps/wind Shrine",
+      "structureIds": [
+        "goety:wind_shrine"
       ]
     },
     {
@@ -3970,10 +4467,80 @@
       ]
     },
     {
+      "tagId": "goety:mob_spawn/hostile_wildfire",
+      "displayName": "#Mob Spawn/hostile Wildfire",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
+      "tagId": "goety:mob_spawn/necromancer",
+      "displayName": "#Mob Spawn/necromancer",
+      "structureIds": [
+        "minecraft:desert_pyramid",
+        "minecraft:stronghold",
+        "integrated_stronghold:stronghold"
+      ]
+    },
+    {
+      "tagId": "goety:mob_spawn/skeleton_vanguard",
+      "displayName": "#Mob Spawn/skeleton Vanguard",
+      "structureIds": [
+        "minecraft:desert_pyramid",
+        "minecraft:stronghold",
+        "integrated_stronghold:stronghold"
+      ]
+    },
+    {
+      "tagId": "goetyawaken:mob_spawn/skeleton_vanguard_spawn",
+      "displayName": "#Mob Spawn/skeleton Vanguard Spawn",
+      "structureIds": [
+        "minecraft:desert_pyramid",
+        "minecraft:stronghold",
+        "integrated_stronghold:stronghold"
+      ]
+    },
+    {
+      "tagId": "goety:mob_spawn/zombie_darkguard",
+      "displayName": "#Mob Spawn/zombie Darkguard",
+      "structureIds": [
+        "minecraft:desert_pyramid",
+        "minecraft:stronghold",
+        "integrated_stronghold:stronghold"
+      ]
+    },
+    {
+      "tagId": "goetyawaken:mob_spawn/zombie_darkguard_spawn",
+      "displayName": "#Mob Spawn/zombie Darkguard Spawn",
+      "structureIds": [
+        "minecraft:desert_pyramid",
+        "minecraft:stronghold",
+        "integrated_stronghold:stronghold"
+      ]
+    },
+    {
       "tagId": "spectrum:mysterious_compass_located",
       "displayName": "#Mysterious Compass Located",
       "structureIds": [
         "spectrum:forsaken_cathedral"
+      ]
+    },
+    {
+      "tagId": "goety:necro_hostile",
+      "displayName": "#Necro Hostile",
+      "structureIds": [
+        "dungeonnowloading:labyrinth",
+        "goety:crypt",
+        "goetyawaken:chaos_prison",
+        "goetyawaken:mirage"
+      ]
+    },
+    {
+      "tagId": "goety:necromancer_power",
+      "displayName": "#Necromancer Power",
+      "structureIds": [
+        "goety:crypt",
+        "goety:graveyard"
       ]
     },
     {
@@ -4097,6 +4664,13 @@
       ]
     },
     {
+      "tagId": "goety:skull_lord_spawns",
+      "displayName": "#Skull Lord Spawns",
+      "structureIds": [
+        "goety:crypt"
+      ]
+    },
+    {
       "tagId": "idas:small",
       "displayName": "#Small",
       "structureIds": [
@@ -4214,6 +4788,21 @@
       ]
     },
     {
+      "tagId": "goety:vizier_spawns",
+      "displayName": "#Vizier Spawns",
+      "structureIds": [
+        "minecraft:mansion"
+      ]
+    },
+    {
+      "tagId": "goety:void_hostile",
+      "displayName": "#Void Hostile",
+      "structureIds": [
+        "goety:final_terminal",
+        "goetyawaken:chaos_prison"
+      ]
+    },
+    {
       "tagId": "supplementaries:way_sign_destinations",
       "displayName": "#Way Sign Destinations",
       "structureIds": [
@@ -4243,6 +4832,20 @@
         "integrated_villages:pirate_village",
         "integrated_villages:quark/minka_village",
         "integrated_villages:tavern_village"
+      ]
+    },
+    {
+      "tagId": "goetyawaken:wildfire_spawn",
+      "displayName": "#Wildfire Spawn",
+      "structureIds": [
+        "minecraft:fortress"
+      ]
+    },
+    {
+      "tagId": "goety:wither_necromancer_spawns",
+      "displayName": "#Wither Necromancer Spawns",
+      "structureIds": [
+        "minecraft:fortress"
       ]
     }
   ]

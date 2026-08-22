@@ -36,6 +36,7 @@
     "mahoutsukai",
     "macabre",
     "incision",
+    "modestmining",
     "philipsruins"
   ],
   "stoneStrata": [
@@ -66,7 +67,6 @@
     "concatenation:crafting_station",
     "forge:sculk_bone",
     "forge:zombie_heart",
-    "forge:blood_bucket",
     "forge:knives/iron",
     "forge:knives/gold",
     "forge:knives/diamond",
@@ -100,7 +100,6 @@
     "diamond",
     "electrum",
     "elementium",
-    "emerald",
     "enderium",
     "fluorite",
     "gold",

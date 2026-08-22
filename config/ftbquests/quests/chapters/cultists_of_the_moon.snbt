@@ -1,5 +1,5 @@
 {
-	autofocus_id: "5D06B3DA89CB0B2E"
+	autofocus_id: "0D9BE8A704ED8BB4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cultists_of_the_moon"
@@ -37,8 +37,6 @@
 		}
 	]
 	order_index: 4
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -1162,6 +1160,7 @@
 					type: "item"
 				}
 			]
+			title: "Cultist Armour"
 			x: -3.0999999999999996d
 			y: 0.5999999999999996d
 		}
@@ -1170,6 +1169,8 @@
 				"The Cultist Moon faction had faced a severe collapse even before the collapse of sanguine society. They adhered to the wider Tarot system used more widely by the other continents, claiming the Moon Arcana as their own. Suddenly, they became unable to craft Moon Tarot cards as they could before with ease, putting a stop to their power. Without the stored knowledge in the tarot cards, they stagnated. Eventually, they became able to make Inverted version of their regular tarot cards, but with twisted effects."
 				""
 				"The Moon faction still widely utilizes blood magic, but I might have to go on a journey to find traces of them."
+				"{@pagebreak}"
+				"&a(The next quests in this questline are hidden until their dependencies are completed.)"
 			]
 			entity_vis_size: 1.0f
 			id: "24F94D88BBD152DF"
@@ -1449,6 +1450,7 @@
 				dimension: "perdition:purgatory"
 				icon: "perdition:perditio"
 				id: "50B8E170985B1E51"
+				title: "Visit Purgatory"
 				type: "dimension"
 			}]
 			title: "Purgatory"
@@ -1489,14 +1491,9 @@
 			size: 1.2d
 			tasks: [{
 				dimension: "perdition:dis"
-				icon: {
-					Count: 1
-					id: "perdition:halcyon"
-					tag: {
-						Damage: 0
-					}
-				}
+				icon: "perdition:cut_dis_gem"
 				id: "543BA042D0B534A5"
+				title: "Visit Dis"
 				type: "dimension"
 			}]
 			title: "Dis"
@@ -1967,8 +1964,38 @@
 				title: "Any Broom"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64C5A9EB5083A520"]
+			entity_vis_size: 1.0f
+			id: "0BE1E655808D5900"
+			tasks: [{
+				id: "74E593C7A12D300B"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:witches_brew"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BE1E655808D5900"]
+			entity_vis_size: 1.0f
+			id: "08F9FDCF9DC841F7"
+			tasks: [{
+				id: "1CC443C5DEFBD3E8"
+				item: "goety:witch_cauldron"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
 		}
 	]
 	title: "Cultists of the Moon"

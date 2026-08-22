@@ -106,7 +106,7 @@
 		start_message = "&cThe \"Blood Moon\" rises... Distant sounds of the undead can be heard..."
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&cThe \"Blood Moon\" sets... The undead begin to burn..."
-		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		#Moon phases this event can occur on. 0 = full moon, 4 = new moon. Example: [0] or [0, 4]. Empty keeps default.
 		valid_moon_phases = []
 		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
 		#Range: -1.0 ~ 10000.0
@@ -202,7 +202,7 @@
 		start_message = "&c&lThe \"Super Blood Moon\" rises... Distant sounds of the undead can be heard..."
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&cThe \"Super Blood Moon\" sets... The undead begin to burn..."
-		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		#Moon phases this event can occur on. 0 = full moon, 4 = new moon. Example: [0] or [0, 4]. Empty keeps default.
 		valid_moon_phases = []
 		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
 		#Range: -1.0 ~ 10000.0
@@ -302,7 +302,7 @@
 		enable_crop_drop_boost = true
 		#Item tags to multiply drops for. Format: "tag_id;multiplier".
 		crop_drop_tags = ["enhancedcelestials:harvest_moon_crops;2.0"]
-		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		#Moon phases this event can occur on. 0 = full moon, 4 = new moon. Example: [0] or [0, 4]. Empty keeps default.
 		valid_moon_phases = []
 		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
 		#Range: -1.0 ~ 10000.0
@@ -402,7 +402,7 @@
 		enable_crop_drop_boost = true
 		#Item tags to multiply drops for. Format: "tag_id;multiplier".
 		crop_drop_tags = ["enhancedcelestials:harvest_moon_crops;4.0"]
-		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		#Moon phases this event can occur on. 0 = full moon, 4 = new moon. Example: [0] or [0, 4]. Empty keeps default.
 		valid_moon_phases = []
 		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
 		#Range: -1.0 ~ 10000.0
@@ -498,7 +498,7 @@
 		start_message = "&bThe \"Blue Moon\" rises... You feel lucky!"
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&bThe \"Blue Moon\" sets... You don't feel lucky anymore..."
-		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		#Moon phases this event can occur on. 0 = full moon, 4 = new moon. Example: [0] or [0, 4]. Empty keeps default.
 		valid_moon_phases = []
 		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
 		#Range: -1.0 ~ 10000.0
@@ -594,7 +594,7 @@
 		start_message = "&bThe \"Super Blue Moon\" rises... You feel very lucky!"
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&bThe \"Super Blue Moon\" sets... You don't feel very lucky anymore..."
-		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		#Moon phases this event can occur on. 0 = full moon, 4 = new moon. Example: [0] or [0, 4]. Empty keeps default.
 		valid_moon_phases = []
 		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
 		#Range: -1.0 ~ 10000.0
@@ -690,7 +690,7 @@
 		start_message = "&dThe \"Super Moon\" rises... Slimes begin to spawn nearby."
 		#Message shown when the event ends. Supports & color codes. Empty = no message.
 		end_message = "&dThe \"Super Moon\" sets..."
-		#Moon phases (0-7) this event can occur on. Empty keeps default.
+		#Moon phases this event can occur on. 0 = full moon, 4 = new moon. Example: [0] or [0, 4]. Empty keeps default.
 		valid_moon_phases = []
 		#Multiplier on the mob-spawn cap during this event. 1.0 = vanilla. -1 = no cap, mobs keep spawning.
 		#Range: -1.0 ~ 10000.0

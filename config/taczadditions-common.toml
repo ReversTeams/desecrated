@@ -147,3 +147,36 @@
 		#With hold-to-aim the player re-aims automatically on landing if the key is still held.
 		disableAimingWhileAirborne = false
 
+	[common.variableZoom]
+		#Let scopes with several zoom levels be swept smoothly with the scroll wheel while aiming,
+		#instead of only toggling between the levels with the zoom key.
+		#Each authored level acts as a soft detent that briefly resists but can be scrolled past.
+		enabled = true
+		#While aiming a variable scope, the scroll wheel changes magnification instead of the hotbar slot.
+		#If false, magnification can only be changed with the zoom key.
+		#Fixed scopes, iron sights and hip fire always keep normal hotbar scrolling.
+		lockHotbarScroll = true
+		#Also apply variable zoom to guns whose scope is built into the gun rather than attached.
+		#TaCZ pins those to their first zoom level and its zoom key does nothing on them,
+		#so this makes integrated variable optics usable. Set false for stock TaCZ behaviour.
+		allowBuiltInScopes = true
+		#Upper limit on magnification, whatever a scope asks for. Raise it to disable the cap.
+		#Range: 1.0 ~ 100.0
+		maxMagnification = 50.0
+		#Scope IDs to always treat as one continuous range, merging every zoom level they define.
+		#Use this when a pack authors a real variable optic without marking its levels as one sight.
+		#Example: "tacz:scope_lpvo_1_6".
+		forceVariableScopes = ["example:scope_id"]
+		#Scope IDs to never sweep, keeping every zoom level a separate step.
+		#Use this for optics that switch between fixed settings rather than zooming, such as a 1x/4x switch.
+		#Example: "tacz:scope_elcan_4x".
+		forceFixedScopes = ["example:scope_id"]
+
+	[common.pipScope]
+		#Allow players to render scopes picture-in-picture, so the lens shows its own magnified
+		#image instead of the whole screen zooming in.
+		#Each player still picks the mode in their own client config; this only decides whether
+		#the server permits it at all. Set false to force every connected player back to the
+		#stock full-screen zoom.
+		enabled = true
+

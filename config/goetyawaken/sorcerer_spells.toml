@@ -1,0 +1,324 @@
+# Sorcerer Servant Spell Configuration
+# focus: Focus item registry name
+# minLevel: Minimum sorcerer level to cast (1-6)
+# maxLevel: Maximum sorcerer level to cast (1-6)
+# levelIncrease: Whether level increases spell potency
+# upgradeStaff: Special staff registry name, or "none"
+# upgradeStaffLevel: Level required for special staff
+# weight: Random selection weight (1-100, default 10)
+
+[[spells]]
+focus = "goety:fire_breath_focus"
+minLevel = 1
+maxLevel = 3
+levelIncrease = false
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:iron_hide_focus"
+minLevel = 1
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:hunting_focus"
+minLevel = 1
+maxLevel = 1
+levelIncrease = false
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:soul_heal_focus"
+minLevel = 1
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:soul_heal_focus"
+minLevel = 6
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:frost_breath_focus"
+minLevel = 2
+maxLevel = 3
+levelIncrease = false
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:mauling_focus"
+minLevel = 2
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:wild_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:biting_focus"
+minLevel = 2
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:ominous_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:frostborn_focus"
+minLevel = 3
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:frost_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:ice_spike_focus"
+minLevel = 3
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:frost_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:thunderbolt_focus"
+minLevel = 3
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:storm_staff"
+upgradeStaffLevel = 4
+weight = 10
+
+[[spells]]
+focus = "goety:scatter_focus"
+minLevel = 3
+maxLevel = 5
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:ice_storm_focus"
+minLevel = 4
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:frost_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:bulwark_focus"
+minLevel = 4
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:electrocute_focus"
+minLevel = 4
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:storm_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:bouncy_bubble_focus"
+minLevel = 4
+maxLevel = 5
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:arrow_rain_focus"
+minLevel = 4
+maxLevel = 5
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:vexing_focus"
+minLevel = 4
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:ominous_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:cyclone_focus"
+minLevel = 5
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:wind_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:eruption_focus"
+minLevel = 5
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:geo_staff"
+upgradeStaffLevel = 5
+weight = 10
+
+[[spells]]
+focus = "goety:tidal_focus"
+minLevel = 5
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:biomine_focus"
+minLevel = 5
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:abyss_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:blossoming_focus"
+minLevel = 6
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:wild_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:magma_bomb_focus"
+minLevel = 6
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:nether_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:razor_wind_focus"
+minLevel = 6
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:wind_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:weakening_focus"
+minLevel = 5
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:magic_bolt_focus"
+minLevel = 6
+maxLevel = 6
+levelIncrease = false
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:entangling_focus"
+minLevel = 5
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:wild_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:poison_dart_focus"
+minLevel = 1
+maxLevel = 3
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:soul_bolt_focus"
+minLevel = 1
+maxLevel = 2
+levelIncrease = true
+upgradeStaff = "none"
+upgradeStaffLevel = 0
+weight = 10
+
+[[spells]]
+focus = "goety:chilling_focus"
+minLevel = 3
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:frost_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:frost_nova_focus"
+minLevel = 5
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:frost_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:ghost_fire_focus"
+minLevel = 4
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:necro_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:trembling_focus"
+minLevel = 3
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:wind_staff"
+upgradeStaffLevel = 6
+weight = 10
+
+[[spells]]
+focus = "goety:discharge_focus"
+minLevel = 6
+maxLevel = 6
+levelIncrease = true
+upgradeStaff = "goety:storm_staff"
+upgradeStaffLevel = 6
+weight = 10
+

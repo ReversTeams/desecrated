@@ -9,7 +9,7 @@ ServerEvents.tags('fluid', event => {
         'desecratedcore:blood'
     ]);
 
-    remove('forge:blood', [
+    add('forge:blood', [
         'bloodyhell:blood'
     ]);
 });
