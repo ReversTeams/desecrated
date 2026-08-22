@@ -5,6 +5,10 @@ ServerEvents.tags('item', event => {
     const add = (tag, items) => items.forEach(item => event.add(tag, item));
     const remove = (tag, items) => items.forEach(item => event.remove(tag, item));
 
+    remove('forge:ingots/zinc', [
+        'create:zinc_ingot'
+    ]);
+
     remove('trinkets:chest/back', [
         'usefulbackpacks:backpack_small'
     ]);

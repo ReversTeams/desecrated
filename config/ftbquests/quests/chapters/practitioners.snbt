@@ -6,15 +6,57 @@
 	group: "77396AEB02AB4898"
 	icon: "otherverse:spindle_bloody"
 	id: "0A1C5505E3764781"
-	images: [{
-		alpha: 180
-		height: 2.5d
-		image: "celestisynth:textures/entity/visuals/keres_pulse.png"
-		rotation: 0.0d
-		width: 2.5d
-		x: 0.0d
-		y: -20.0d
-	}]
+	images: [
+		{
+			alpha: 180
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -20.0d
+		}
+		{
+			alpha: 180
+			color: 11178381
+			height: 2.0d
+			image: "otherverse:textures/portal/portal_3.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			color: 11766406
+			height: 1.5d
+			image: "otherverse:textures/portal/portal_4.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			alpha: 180
+			color: 11141120
+			height: 2.0d
+			image: "bloodmagic:models/alchemyarrays/voidsigil"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			color: 14277631
+			height: 2.2d
+			image: "goety:textures/entity/cultist/summon_apostle.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: 0.0d
+			y: 4.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

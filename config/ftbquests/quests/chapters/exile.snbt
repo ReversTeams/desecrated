@@ -577,7 +577,7 @@
 				""
 				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
 				"{@pagebreak}"
-				"&aDesecrated is still in development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, The Dulling, Reverse Eon. The modpack is about 70% complete as of now."
+				"&aDesecrated is still in development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, and Goety. The modpack is about 70% complete as of now."
 				""
 				"&aMost quest descriptions are missing, but the progression is still repesented through the quests. Refer to the mods' guidebooks for now. Make sure to update the pack as all quest descriptions will come in the next update."
 			]
@@ -609,7 +609,11 @@
 			description: [
 				"I have not fed on man for days! I hunger for warm blood... Alas, human settlements are defended too heavily by these invaders... For now I must feed on small animals. With a few glass bottles, I should be able to stock up on blood for some time."
 				""
+				"While I am very weak right now, I can eat nutritious food to gain temporary strength. This way, I should be able to withstand greater blows."
+				"{@pagebreak}"
 				"&a(Press V by default on animals or villagers to drink their blood when you see the icon. Keep glass bottles in your hotbar to fill them with blood instead when you drink blood. Blood production can be automated in the &oFlesh Industries &r&aquest chapter.)"
+				""
+				"&a(Eating normal food will temporarily grant you extra hearts. These extra hearts are removed after their duration is expended unless you eat again. Some foods can give both food and blood, refer to Vampires' Delight.)"
 			]
 			entity_vis_size: 1.0f
 			id: "416FA3E84EDBA716"
@@ -640,6 +644,7 @@
 		}
 		{
 			dependencies: ["416FA3E84EDBA716"]
+			dependency_requirement: "one_started"
 			description: [
 				"Letting the blood drip from my fangs into the glass bottle, I managed to harvest raw blood. This is undignified! I must find a better solution."
 				""
@@ -2253,8 +2258,16 @@
 				}
 			]
 			tasks: [{
-				id: "33F55463D2349F5F"
-				type: "checkmark"
+				id: "57CF53E37A74711A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armors"
+					}
+				}
+				title: "Any Armour Piece"
+				type: "item"
 			}]
 			title: "Armour Weight"
 			x: -4.5d

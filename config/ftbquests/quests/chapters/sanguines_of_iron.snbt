@@ -70,11 +70,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "67E46BEEC08F8EA1"
-			rewards: [{
-				id: "6D66967A79C7958C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "662662E7940A2619"
+					table_id: 8119722541992150387L
+					type: "random"
+				}
+				{
+					id: "6D66967A79C7958C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					advancement: "tetra:upgrades/root"
@@ -130,14 +138,23 @@
 				"20DC2110D654C2D8"
 				"623FB39372B70DDF"
 			]
+			dependency_requirement: "one_started"
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "27080CDFCD7A0AC9"
-			rewards: [{
-				id: "7AC5A5AAC4FF1350"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DFBA1F2DEEF385E"
+					table_id: 8119722541992150387L
+					type: "random"
+				}
+				{
+					id: "7AC5A5AAC4FF1350"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2E7E444F286DE0EB"
 				item: "tetra:geode"
@@ -151,11 +168,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "11BBC69CCB822E78"
-			rewards: [{
-				id: "7CE409A56D5EFCC2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F63FDA2F3B32380"
+					table_id: 8119722541992150387L
+					type: "random"
+				}
+				{
+					id: "7CE409A56D5EFCC2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "tetra:spelunking/geode_open"
 				criterion: ""
@@ -390,6 +415,12 @@
 			dependencies: ["27080CDFCD7A0AC9"]
 			entity_vis_size: 1.0f
 			id: "60DD4B4A2BE46EAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1153A8D1F40553AD"
+				table_id: 8119722541992150387L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "6E41EF387CEC4ABA"
 				item: "oreberriesreplanted:iron_oreberry_bush"
@@ -402,6 +433,12 @@
 			dependencies: ["20DC2110D654C2D8"]
 			entity_vis_size: 1.0f
 			id: "7FF4417F28BBA363"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4696F23BB93C4DF5"
+				table_id: 8119722541992150387L
+				type: "random"
+			}]
 			tasks: [{
 				id: "61722DAE05FC7C2C"
 				item: "modestmining:forge"
@@ -414,6 +451,11 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "6CB1DE4BBF000098"
+			rewards: [{
+				id: "7B553165BEBF5D9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1947DB23EBCAD4ED"
 				item: "modestmining:pearl"
@@ -429,6 +471,12 @@
 			]
 			entity_vis_size: 1.0f
 			id: "0108AAE3F424D4AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D2BC0560CD1C8FA"
+				table_id: 8119722541992150387L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "5613964B98CA68AF"
 				item: "modestmining:prismarite_ingot"
@@ -441,6 +489,11 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "50CE7F52FC6B44F0"
+			rewards: [{
+				id: "3759ECEDCA37525A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4520CF29A2EB42C7"
 				item: "modestmining:coke"
@@ -453,6 +506,12 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "77B94FC775C59E8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "434D5E0751D8A126"
+				table_id: 6454273999420670365L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5506F0A4EE7323C5"
 				item: {
@@ -471,6 +530,11 @@
 			dependencies: ["77B94FC775C59E8F"]
 			entity_vis_size: 1.0f
 			id: "623FB39372B70DDF"
+			rewards: [{
+				id: "17CACFC51BCE8626"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					entity_vis_idle_mode: "USE_GLOBAL"
@@ -515,6 +579,11 @@
 			dependencies: ["0108AAE3F424D4AF"]
 			entity_vis_size: 1.0f
 			id: "43245FEBCF7B956D"
+			rewards: [{
+				id: "73C3EC02F371EFCE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5016422568ADB015"
 				item: {
@@ -563,6 +632,7 @@
 				title: "Any Prismarite Tool"
 				type: "item"
 			}]
+			title: "Prismarite Tools"
 			x: 7.0d
 			y: -2.0d
 		}
@@ -570,6 +640,11 @@
 			dependencies: ["0108AAE3F424D4AF"]
 			entity_vis_size: 1.0f
 			id: "786B6F26A280619E"
+			rewards: [{
+				id: "494E464E2EA87EF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "64D87A7E0E1555A5"
@@ -624,6 +699,11 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "20D37E357AC221B0"
+			rewards: [{
+				id: "2F4B6C6064AA1D4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "162222E4260F4D24"
 				item: {
@@ -694,6 +774,11 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "0B0BFB80FE0DA237"
+			rewards: [{
+				id: "616516996BF7FAA4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "27D3B0CF6F975DCC"
 				item: {
@@ -764,6 +849,11 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "487A5F582FC5FCC3"
+			rewards: [{
+				id: "0752E727222B65F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "53D1DE64173EBE92"
 				item: {

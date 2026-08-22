@@ -3,6 +3,14 @@
 
 ServerEvents.recipes(event => {
 
+    const remove = [
+        'modestmining:forge'
+    ]
+
+    remove.forEach(item => {
+        event.remove({ output: item })
+    })
+
     // Modest Mining Recipes
     event.shaped(
         Item.of('modestmining:forge'),
