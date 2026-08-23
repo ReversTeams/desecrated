@@ -34,6 +34,368 @@ ServerEvents.recipes(event => {
     //     '#forge:raw_meat'
     // )
 
+    event.shaped(
+        Item.of('minecraft:iron_pickaxe'),
+        [
+            'AAA',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:iron_axe'),
+        [
+            ' AA',
+            ' BA',
+            ' B '
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:iron_shovel'),
+        [
+            ' A ',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:iron_hoe'),
+        [
+            ' AA',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_shovel'),
+        [
+            ' A ',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:diamond',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_hoe'),
+        [
+            ' AA',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:diamond',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_axe'),
+        [
+            ' AA',
+            ' BA',
+            ' B '
+        ],
+        {
+            A: 'minecraft:diamond',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_pickaxe'),
+        [
+            'AAA',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:diamond',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_shovel'),
+        [
+            ' A ',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_hoe'),
+        [
+            ' AA',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_axe'),
+        [
+            ' AA',
+            ' BA',
+            ' B '
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_pickaxe'),
+        [
+            'AAA',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_sword'),
+        [
+            ' A ',
+            ' A ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:iron_sword'),
+        [
+            ' A ',
+            ' A ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_sword'),
+        [
+            ' A ',
+            ' A ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:diamond',
+            B: 'minecraft:stick'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:iron_helmet'),
+        [
+            'AAA',
+            'A A',
+            '   '
+        ],
+        {
+            A: 'minecraft:iron_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:iron_boots'),
+        [
+            'A A',
+            'A A',
+            '   '
+        ],
+        {
+            A: 'minecraft:iron_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:iron_leggings'),
+        [
+            'AAA',
+            'A A',
+            'A A'
+        ],
+        {
+            A: 'minecraft:iron_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:iron_chestplate'),
+        [
+            'A A',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:iron_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_boots'),
+        [
+            'A A',
+            'A A',
+            '   '
+        ],
+        {
+            A: 'minecraft:diamond'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_helmet'),
+        [
+            'AAA',
+            'A A',
+            '   '
+        ],
+        {
+            A: 'minecraft:diamond'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_leggings'),
+        [
+            'AAA',
+            'A A',
+            'A A'
+        ],
+        {
+            A: 'minecraft:diamond'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:diamond_chestplate'),
+        [
+            'A A',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:diamond'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_boots'),
+        [
+            'A A',
+            'A A',
+            '   '
+        ],
+        {
+            A: 'minecraft:gold_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_helmet'),
+        [
+            'AAA',
+            'A A',
+            '   '
+        ],
+        {
+            A: 'minecraft:gold_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_leggings'),
+        [
+            'AAA',
+            'A A',
+            'A A'
+        ],
+        {
+            A: 'minecraft:gold_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:golden_chestplate'),
+        [
+            'A A',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:gold_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:chain', 6),
+        [
+            ' A ',
+            ' B ',
+            ' A '
+        ],
+        {
+            A: 'minecraft:iron_nugget',
+            B: 'minecraft:iron_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:compass'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:redstone'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:compass'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:redstone'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:brush'),
+        [
+            ' A ',
+            ' B ',
+            ' C '
+        ],
+        {
+            C: 'minecraft:stick',
+            A: 'minecraft:feather',
+            B: 'minecraft:copper_ingot'
+        }
+    )
+
     event.shapeless(
         Item.of('desecratedcore:raw_meat_block'),
         [
@@ -74,13 +436,6 @@ ServerEvents.recipes(event => {
             A: 'farmersdelight:canvas',
             B: '#minecraft:wool_carpets'
         }
-    )
-
-    event.shapeless(
-        Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:1,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}'),
-        [
-            'create:wrench'
-        ]
     )
 
     event.shapeless(
@@ -578,9 +933,16 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
+        Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}'),
+        [
+            'create:wrench'
+        ]
+    )
+
+    event.shapeless(
         Item.of('create:wrench'),
         [
-            Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:1,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}').strongNBT()
+            Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"create_armorer:special_melee_wrench",HasBulletInBarrel:1b}').strongNBT()
         ]
     )
 

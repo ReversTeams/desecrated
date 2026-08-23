@@ -157,6 +157,11 @@
 	pithosRespawn = true
 	#Allow used Crystal Balls to spawn Crones again when right-clicked with respawn_boss tagged item, Default: true
 	crystalBallRespawn = true
+	#The amount of Soul Energy Black Crystal gives when draining a mob, Default: 1
+	#Range: > 0
+	blackCrystalSouls = 1
+	#Whether sleeping in a non-cushioned Sarcophagus would give debuffs to non-undead players when waking up the next day, Default: true
+	sarcophagusUndead = true
 
 ["Soul Taken"]
 	#Multiplies the amount of Souls taken by this amount, Default: 2

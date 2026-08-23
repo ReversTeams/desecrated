@@ -9,6 +9,10 @@ ServerEvents.tags('item', event => {
         'create:zinc_ingot'
     ]);
 
+    remove('forge:salt', [
+        'otherverse:salt'
+    ]);
+
     remove('trinkets:chest/back', [
         'usefulbackpacks:backpack_small'
     ]);
