@@ -85,8 +85,8 @@
 	// Enchantments which have their base rarity overwritten. Common is 1, Uncommon is 2, Rare is 3, Very Rare is 4. This might not work on modded enchantments.
 	"overwritten_rarities": {
 		"minecraft:knockback": 1,
-		"minecraft:sweeping": 2,
 		"minecraft:thorns": 2,
+		"minecraft:sweeping": 2,
 		"minecraft:feather_falling": 1,
 		"minecraft:flame": 2,
 		"minecraft:looting": 4,

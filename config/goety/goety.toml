@@ -162,6 +162,8 @@
 	blackCrystalSouls = 1
 	#Whether sleeping in a non-cushioned Sarcophagus would give debuffs to non-undead players when waking up the next day, Default: true
 	sarcophagusUndead = true
+	#Whether Sarcophagus can be sleep in, Default: true
+	sarcophagusSleep = true
 
 ["Soul Taken"]
 	#Multiplies the amount of Souls taken by this amount, Default: 2
