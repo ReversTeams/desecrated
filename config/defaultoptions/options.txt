@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","tacz_resources","mod_resources","fabric","Moonlight Mods Dynamic Assets","file/Stay_True_1.20.zip","file/staytrue1.20.1.zip","file/Stay_True_Amendment3.zip","file/Better_Enderdragon.zip","file/Icon Journey 1.1.zip","file/LowOnFire_1.20.1.zip","file/Old+Iron+Chest.zip","file/cubic-sun-moon-v1.8.5.zip","file/elysiapresents_lootr.zip","file/Fresh Vampirism Pack V1.4.zip","file/Better_hunters_2.zip","file/Mahou Tsukai Better Textures.zip","file/desecrated-ftbquests-theme-1.0.zip","quest_enhance","file/desecratedtextures-1.1.zip"]
+resourcePacks:["vanilla","tacz_resources","mod_resources","fabric","Moonlight Mods Dynamic Assets","file/Stay_True_1.20.zip","file/staytrue1.20.1.zip","file/Stay_True_Amendment3.zip","file/Better_Enderdragon.zip","file/Icon Journey 1.1.zip","file/LowOnFire_1.20.1.zip","file/Old+Iron+Chest.zip","file/cubic-sun-moon-v1.8.5.zip","file/elysiapresents_lootr.zip","file/Fresh Vampirism Pack V1.4.zip","file/Better_hunters_2.zip","file/Mahou Tsukai Better Textures.zip","file/desecrated-ftbquests-theme-1.0.zip","file/desecratedtextures-1.1.zip"]
 incompatibleResourcePacks:["file/Icon Journey 1.1.zip","file/Old+Iron+Chest.zip","file/elysiapresents_lootr.zip"]
 lastServer:
 lang:en_us

@@ -781,3 +781,44 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		stalkerServantArmorToughness = 0.0
 
+	[Attributes."Bound Preacher"]
+		#How much Max Health Bound Preachers have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		boundPreacherHealth = 24.0
+		#How much natural armor points Bound Preachers have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		boundPreacherArmor = 0.0
+		#How much following/detection range Bound Preachers have, Default: 16.0
+		#Range: 1.0 ~ 2048.0
+		boundPreacherFollowRange = 16.0
+
+	[Attributes."Bound Envioker"]
+		#How much Max Health Bound Enviokers have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		boundEnviokerHealth = 24.0
+		#How much natural armor points Bound Enviokers have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		boundEnviokerArmor = 0.0
+		#How much following/detection range Bound Enviokers have, Default: 32.0
+		#Range: 1.0 ~ 2048.0
+		boundEnviokerFollowRange = 32.0
+		#How much attack damage Bound Enviokers have, Default: 5.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		boundEnviokerDamage = 5.0
+
+	[Attributes."Bound Minister"]
+		#How much Max Health Bound Ministers have, Default: 128.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		boundMinisterHealth = 128.0
+		#How much following/detection range Bound Ministers have, Default: 32.0
+		#Range: 1.0 ~ 2048.0
+		boundMinisterFollowRange = 32.0
+		#How much attack damage Bound Ministers have, Default: 5.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		boundMinisterDamage = 5.0
+
+	[Attributes."Soul Blast Furnace"]
+		#How many ticks one soul burns in the Soul Blast Furnace, Default: 40
+		#Range: > 1
+		soulBlastFurnaceBurnTime = 40
+

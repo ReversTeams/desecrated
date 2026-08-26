@@ -100,6 +100,9 @@
 	#Roar of the Wind Judgment-Slash: slash visuals spawned per tick (more = denser 'thread' web).
 	#Range: 1 ~ 64
 	roar_slash_count = 10
+	#Passive 'Benevolent Soul' (Ren Xin): number of skill casts required to trigger. Vanilla 15.
+	#Range: 1 ~ 1000
+	benevolent_soul_trigger_casts = 15
 
 [poltergeist]
 	#Poltergeist (enhanced) total ATTACK_DAMAGE attribute value. Default 11 = vanilla 1 + tier 4 + 6.

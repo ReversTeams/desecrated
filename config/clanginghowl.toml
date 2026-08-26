@@ -4,7 +4,7 @@
 	["Mob Spawn"."Flesh Maiden"]
 		#How many days until Flesh Maiden can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		FleshMaidenDaySpawn = 15
+		FleshMaidenDaySpawn = 20
 		#Spawn minimum group count for Flesh Maiden, Default: 1
 		#Range: > 1
 		FleshMaidenSpawnMinCount = 1
@@ -13,18 +13,18 @@
 		FleshMaidenSpawnMaxCount = 4
 		#Spawn Weight for Flesh Maiden, Default: 15
 		#Range: > 0
-		FleshMaidenSpawnWeight = 15
+		FleshMaidenSpawnWeight = 10
 
 	["Mob Spawn"."Ex Reaper"]
 		#Spawn Weight for Ex Reaper, Default: 15
 		#Range: > 0
-		ExReaperSpawnWeight = 15
+		ExReaperSpawnWeight = 10
 		#Spawn minimum group count for Ex Reaper, Default: 1
 		#Range: > 1
 		ExReaperSpawnMinCount = 1
 		#How many days until Ex Reaper can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		ExReaperDaySpawn = 15
+		ExReaperDaySpawn = 25
 		#Spawn maximum group count for Ex Reaper, must be equal or higher than min count, Default: 2
 		#Range: > 1
 		ExReaperSpawnMaxCount = 2
@@ -35,18 +35,18 @@
 		HoDSpawnMinCount = 1
 		#Spawn Weight for Heart of Decay, Default: 15
 		#Range: > 0
-		HoDSpawnWeight = 15
+		HoDSpawnWeight = 10
 		#Spawn maximum group count for Heart of Decay, must be equal or higher than min count, Default: 3
 		#Range: > 1
 		HoDSpawnMaxCount = 3
 		#How many days until Heart of Decay can spawn, set to -1 to disable, Default: 0
 		#Range: > -1
-		HoDDaySpawn = 5
+		HoDDaySpawn = 7
 
 	["Mob Spawn".Hematoma]
 		#Spawn Weight for Hematoma, Default: 19
 		#Range: > 0
-		HematomaSpawnWeight = 19
+		HematomaSpawnWeight = 15
 		#Spawn minimum group count for Hematoma, Default: 1
 		#Range: > 1
 		HematomaSpawnMinCount = 1
@@ -55,12 +55,12 @@
 		HematomaSpawnMaxCount = 2
 		#How many days until Hematoma can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		HematomaDaySpawn = 15
+		HematomaDaySpawn = 20
 
 	["Mob Spawn"."Blood Spreader"]
 		#Spawn Weight for Blood Spreader, Default: 15
 		#Range: > 0
-		BloodSpreaderSpawnWeight = 15
+		BloodSpreaderSpawnWeight = 10
 		#Spawn minimum group count for Blood Spreader, Default: 1
 		#Range: > 1
 		BloodSpreaderSpawnMinCount = 1
@@ -69,12 +69,12 @@
 		BloodSpreaderSpawnMaxCount = 3
 		#How many days until Blood Spreader can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		BloodSpreaderDaySpawn = 15
+		BloodSpreaderDaySpawn = 20
 
 	["Mob Spawn".Prowler]
 		#Spawn Weight for Prowler, Default: 10
 		#Range: > 0
-		ProwlerSpawnWeight = 10
+		ProwlerSpawnWeight = 8
 		#Spawn minimum group count for Prowler, Default: 1
 		#Range: > 1
 		ProwlerSpawnMinCount = 1
@@ -83,12 +83,12 @@
 		ProwlerSpawnMaxCount = 1
 		#How many days until Prowler can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		ProwlerDaySpawn = 15
+		ProwlerDaySpawn = 17
 
 	["Mob Spawn".Carcass]
 		#Spawn Weight for Carcass, Default: 10
 		#Range: > 0
-		CarcassSpawnWeight = 10
+		CarcassSpawnWeight = 8
 		#Spawn minimum group count for Carcass, Default: 1
 		#Range: > 1
 		CarcassSpawnMinCount = 1
@@ -97,7 +97,7 @@
 		CarcassSpawnMaxCount = 1
 		#How many days until Carcass can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		CarcassDaySpawn = 15
+		CarcassDaySpawn = 20
 
 [General]
 	#Whether Technoflesh creatures gain buffs as game time goes by, Default: true
@@ -113,10 +113,10 @@
 	MeteorShowerFlash = true
 	#If 'MeteorShower' is enabled, Meteor Showers will occur ever defined days, Default: 15
 	#Range: > 1
-	MeteorShowerDays = 28
+	MeteorShowerDays = 32
 	#If 'MeteorShower' is enabled, how many seconds do Meteor Showers lasts, Default: 180
 	#Range: 1 ~ 550
-	MeteorShowerDuration = 180
+	MeteorShowerDuration = 140
 	#Players camera can shake. Default: true
 	CameraShake = true
 

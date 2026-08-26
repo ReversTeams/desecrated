@@ -28,6 +28,7 @@ bandwidthoptimizer-native
 cache/skins
 /data
 defaultoptions.journal.json
+panoptic
 
 # various config, caches, etc
 modernfix
