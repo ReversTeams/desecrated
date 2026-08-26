@@ -180,3 +180,63 @@
 		#stock full-screen zoom.
 		enabled = true
 
+	[common.freeAim]
+		#Allow players to decouple the gun from the camera, so the weapon drifts inside the view
+		#instead of being welded to the centre of the screen.
+		#Each player still tunes the feel in their own client config; this only decides whether
+		#the server permits it. Set false to force every connected player back to a locked gun.
+		enabled = true
+		#If true, shots leave along the barrel the player is looking at rather than along their
+		#crosshair, the way gun tuck bends its own shots.
+		#Unlike gun tuck the server cannot work this angle out for itself, so each client reports
+		#it and the server clamps what it is told to the limit below.
+		#Set false to keep free aim a first person visual, with every shot on the crosshair.
+		affectsBulletAngle = true
+		#Largest reported offset in degrees the server will fire along, on either axis.
+		#This is the cap on what a client can claim, so keep it near the largest maxYaw or
+		#maxPitch players are expected to run rather than far above it.
+		#Range: 0.0 ~ 60.0
+		maxBulletAngle = 20.0
+
+	[common.waterEffects]
+		#If true, bullets trail bubbles underwater and throw a splash where they cross the water surface.
+		#The server spawns these, so every player nearby sees the same thing.
+		bulletWaterEffects = true
+		#How closely spaced the underwater bubble trail is.
+		#1.0 places a bubble roughly every 0.3 blocks of travel. Higher is denser and costlier.
+		#Range: 0.1 ~ 4.0
+		bulletWaterTrailDensity = 1.0
+		#Overall size and particle count of the surface splash. The splash already scales with bullet speed.
+		#Range: 0.1 ~ 3.0
+		bulletWaterSplashScale = 1.0
+		#If true, the splash size is nudged by the weapon type using the multipliers below.
+		bulletWaterSplashByWeaponType = true
+		#If true, surface hits play a short splash sound. At most three per tick.
+		bulletWaterSplashSound = true
+		#Players further than this many blocks from the hit are not sent the particles.
+		#Range: 8.0 ~ 128.0
+		bulletWaterEffectDistance = 64.0
+		#Hard cap on water particles spawned per tick across all bullets.
+		#Lower this if sustained automatic fire into water costs server or network time.
+		#Range: 50 ~ 4000
+		bulletWaterParticleBudget = 600
+
+		#Per weapon type splash multipliers, applied on top of bulletWaterSplashScale.
+		#Kept close to 1.0 on purpose: a shotgun should read heavier than a pistol,
+		#not throw a different effect. Set all of them to 1.0 to flatten the difference.
+		[common.waterEffects.weaponTypeScale]
+			#Range: 0.1 ~ 3.0
+			pistol = 0.85
+			#Range: 0.1 ~ 3.0
+			smg = 0.9
+			#Range: 0.1 ~ 3.0
+			rifle = 1.0
+			#Range: 0.1 ~ 3.0
+			shotgun = 1.1
+			#Range: 0.1 ~ 3.0
+			sniper = 1.2
+			#Range: 0.1 ~ 3.0
+			machineGun = 1.05
+			#Range: 0.1 ~ 3.0
+			rpg = 1.3
+

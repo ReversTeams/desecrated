@@ -31,4 +31,5 @@ JEIEvents.information(event => {
   event.addItem( 'incision:eyebulb', ['Found in the Eroded Yard in the Nether.']) 
 
   event.addItem( 'perdition:pyrite', ['Found in Purgatory, accessible to the Moon Faction.']) 
+  event.addItem( 'reverseeon:dimension_portal', ['Can be found in abandoned snowy grim castles.']) 
 })

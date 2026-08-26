@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('otherverse:salt', 2),
         [
-            'hexalia:salt',
+            '#forge:salt',
             'otherverse:quicksilver'
         ]
     )

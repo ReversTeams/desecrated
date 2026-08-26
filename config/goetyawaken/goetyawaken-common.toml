@@ -641,6 +641,32 @@
 		#Range: > 0
 		mooshroomFocusCooldown = 160
 
+	["Focus Spells"."Scatter Bomb Focus"]
+		#Scatter Bomb Focus soul cost (default: 16)
+		#Range: > 0
+		scatterBombFocusSoulCost = 16
+		#Scatter Bomb Focus cast duration in ticks (default: 40)
+		#Range: > 0
+		scatterBombFocusCastDuration = 40
+		#Scatter Bomb Focus cooldown in ticks (default: 60)
+		#Range: > 0
+		scatterBombFocusCooldown = 60
+		#Scatter Bomb base explosion damage (default: 12.5)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scatterBombBaseDamage = 12.5
+		#Scatter Bomb damage increase per potency level (default: 1.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scatterBombPotencyDamage = 1.0
+		#Scatter Bomb explosion radius increase per potency level (default: 0.5)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scatterBombPotencyRadius = 0.5
+		#Mushroom Scatter Bomb acid pool base damage (default: 3.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		mushroomScatterBombAcidBaseDamage = 3.0
+		#Mushroom Scatter Bomb acid pool damage increase per potency level (default: 0.5)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		mushroomScatterBombAcidPotencyDamage = 0.5
+
 ["Weapon Stats"]
 	#Truth Seeker base damage (default: 12.0)
 	#Range: 0.0 ~ 1.7976931348623157E308
@@ -718,6 +744,21 @@
 	endermanServantBlacklist = ["minecraft:bedrock", "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:structure_block", "minecraft:structure_void", "minecraft:crafting_table"]
 	#Allow the multi shot for projectile. Use the full name (eg: minecraft:arrow)
 	allowMultiShotProjectiles = ["minecraft:arrow", "minecraft:tipped_arrow", "minecraft:spectral_arrow", "minecraft:snowball", "minecraft:firework_rocket", "minecraft:fireball", "minecraft:llama_spit", "minecraft:small_fireball", "minecraft:shulker_bullet", "minecraft:dragon_fireball", "goety:soul_bolt", "goety:death_arrow", "goety:fireball", "goety:lavaball", "goety:hell_bolt", "goety:hell_chant", "goety:sword", "goety:hell_blast", "goety:ice_spike", "goety:ice_spear", "goety:ice_storm", "goety:ghost_arrow", "goety:death_arrow", "goety:harpoon", "goety:poison_quill", "goety:bone_shard", "goety:scythe", "goety:dragon_fireball", "goety:haunted_skull_shot", "goety:wither_skull", "goety:soul_bullet", "goety:soul_bolt", "goety:poison_bolt", "goety:steam_missile", "goety:wither_bolt", "goety:necro_bolt", "goety:magic_bolt", "goety:void_shock_bomb", "goety:ill_bomb", "goety:electro_orb", "goety:surging_orb", "goety:bouncy_bubble", "goety:scatter_bomb", "goety:snap_fungus", "goety:blast_fungus", "goety:berserk_fungus", "goety:magma_bomb", "goety:blossom_ball", "goety:web_shot", "goety:snareling_shot", "goety:ender_goo", "goety:tidal_surge", "goety:razor_wind", "goety:void_slash", "goetyawaken:silverfish_egg", "goetyawaken:endermite_egg", "goetyawaken:ghost_fire_bolt", "goetyawaken:mushroom_missile", "goetyawaken:mushroom_scatter_bomb", "goetyawaken:frost_scythe_slash", "goetyawaken:explosive_arrow", "goetyawaken:mod_sword_projectile", "goetyawaken:giant_ghast_fireball", "goetyawaken:tracking_fireball", "goetyawaken:giant_hell_blast", "goetyawaken:flying_axe", "goetyawaken:nameless_bolt", "goetyawaken:corrupted_soul_bolt"]
+	#Enable Armor Enhancement: Illagers with the Armor Enhancement cannot equip armor, and equipped armor is dropped (default: true)
+	enableArmorEnhancement = true
+	#Hostile Illagers (Pillager, Vindicator, Crusher, Mountaineer) may spawn with Armor Enhancement. Chance is regional difficulty * 4%%, capped at 25%% (default: false)
+	hostileArmorEnhancementSpawn = false
+	#Armor points granted by Armor Enhancement (default: 15.0)
+	armorEnhancementArmor = 15.0
+	#Armor toughness points granted by Armor Enhancement (default: 4.0)
+	armorEnhancementToughness = 4.0
+	#Whether Illager servants converted with the Ring of the Forge gain Armor Enhancement (default: true)
+	ringOfForgeConversionEnhancement = true
+	#Allow the Spell Bounce attribute to affect non-spell projectiles (arrows, snowballs, thrown potions, tridents, ender pearls, etc). Default: false
+	allowSpellBounceOnNonSpellProjectiles = false
+	#Mob Enchant Fast Attack: action speed multiplier gained per level (default: 0.1, level 10 = 2.0x)
+	#Range: 0.05 ~ 0.5
+	fastAttackSpeedPerLevel = 0.1
 
 [Enhancements]
 	#Enable Blastling Enhancement(default: true)
@@ -736,11 +777,6 @@
 	enablePikerEnhancement = true
 	#Enable Brood Mother Enhancement(default: true)
 	enableBroodMotherEnhancement = true
-	#Allow Crone Servant to throw Gas Brew (default: false)
-	croneServantAllowGasBrew = false
-	#The maximum number of times a single item can be enhanced on an anvil using a Gilded Ingot to improve its enchantments. (default: 1)
-	#Range: > 1
-	gildedIngotMaxEnhancements = 1
 
 ["Structure Settings"]
 	#How many blocks above the structure base to scan for cavities
@@ -772,6 +808,11 @@
 	grimoireAffixEnabled = true
 	#Allow negative attribute values on Grimoire affixes. Default: true
 	grimoireAffixAllowNegative = true
+	#Allow Crone Servant to throw Gas Brew (default: false)
+	croneServantAllowGasBrew = false
+	#The maximum number of times a single item can be enhanced on an anvil using a Gilded Ingot to improve its enchantments. (default: 1)
+	#Range: > 1
+	gildedIngotMaxEnhancements = 1
 
 ["Mob Spawning"]
 	#Allow Zombie Darkguard to naturally spawn. Default: false
