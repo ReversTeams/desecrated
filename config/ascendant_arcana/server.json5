@@ -94,13 +94,13 @@
 		"veinmining:vein_mining": 1,
 		"minecraft:soul_speed": 3,
 		"minecraft:aqua_affinity": 2,
-		"minecraft:respiration": 2,
 		"minecraft:fire_aspect": 2,
+		"minecraft:respiration": 2,
 		"minecraft:swift_sneak": 3,
 		"minecraft:frost_walker": 2,
 		"minecraft:infinity": 3,
-		"minecraft:punch": 1,
 		"minecraft:fortune": 4,
+		"minecraft:punch": 1,
 		"minecraft:channeling": 2
 	},
 	/* Damage Relics apply to thrown Tridents, melee weapons, as well as arrows and rockets fired from bows and
