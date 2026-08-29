@@ -14,7 +14,6 @@
     ],
     "result": "allow"
   },
-
   {
     "mod": "simpleenemymod",
     "when": "onjoin",
@@ -64,7 +63,6 @@
     },
     "result": "deny"
   },
-
   {
     "dimension": "reverseeon:island_dim",
     "result": "deny"
@@ -79,32 +77,6 @@
     "mod": "thedulling",
     "result": "deny"
   },
-  {
-    "dimension": "minecraft:the_nether",
-    "mod": "thedulling",
-    "result": "deny"
-  },
-  {
-    "dimension": "perdition:dis",
-    "mod": "thedulling",
-    "result": "deny"
-  },
-  {
-    "dimension": "perdition:purgatory",
-    "mod": "thedulling",
-    "result": "deny"
-  },
-  {
-    "dimension": "fracture:boreas",
-    "mod": "thedulling",
-    "result": "deny"
-  },
-  {
-    "dimension": "fracture:flesh_dimension",
-    "mod": "thedulling",
-    "result": "deny"
-  },
-
   {
     "mod": "vampirism",
     "mincount": {
@@ -118,15 +90,6 @@
     "mod": "enemyexpansion",
     "mincount": {
       "amount": 12,
-      "hostile": true,
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "thedulling",
-    "mincount": {
-      "amount": 16,
       "hostile": true,
       "perplayer": true
     },
