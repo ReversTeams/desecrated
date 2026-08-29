@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "predicate": {
+                    "nbt": "{phage_ray:1b}"
+                  }
+                }
+              ],
+              "name": "clanginghowl:extraterrestrial_steel"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "clanginghowl:blocks/extraterrestrial_steel_ore"
+}
