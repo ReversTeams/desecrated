@@ -77,19 +77,19 @@
 	*/
 	"base_enchantment_capacity_overrides": {
 		"minecraft:shield": 15,
-		"minecraft:crossbow": 20,
 		"minecraft:enchanted_book": 12,
+		"minecraft:crossbow": 20,
 		"minecraft:bow": 20,
 		"minecraft:trident": 15
 	},
 	// Enchantments which have their base rarity overwritten. Common is 1, Uncommon is 2, Rare is 3, Very Rare is 4. This might not work on modded enchantments.
 	"overwritten_rarities": {
 		"minecraft:knockback": 1,
-		"minecraft:thorns": 2,
 		"minecraft:sweeping": 2,
-		"minecraft:feather_falling": 1,
+		"minecraft:thorns": 2,
 		"minecraft:flame": 2,
 		"minecraft:looting": 4,
+		"minecraft:feather_falling": 1,
 		"minecraft:lure": 1,
 		"veinmining:vein_mining": 1,
 		"minecraft:soul_speed": 3,
@@ -99,8 +99,8 @@
 		"minecraft:swift_sneak": 3,
 		"minecraft:frost_walker": 2,
 		"minecraft:infinity": 3,
-		"minecraft:fortune": 4,
 		"minecraft:punch": 1,
+		"minecraft:fortune": 4,
 		"minecraft:channeling": 2
 	},
 	/* Damage Relics apply to thrown Tridents, melee weapons, as well as arrows and rockets fired from bows and
