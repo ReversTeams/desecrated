@@ -4,16 +4,17 @@
     {
       "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{phage_ray:1b}"
+          }
+        }
+      ],
       "entries": [
         {
-          "conditions": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{phage_ray:1b}"
-              }
-            }
-          ],
+          "type": "minecraft:item",
           "name": "clanginghowl:extraterrestrial_steel"
         }
       ]

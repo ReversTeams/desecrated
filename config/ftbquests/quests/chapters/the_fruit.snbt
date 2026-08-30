@@ -12,8 +12,8 @@
 		image: "celestisynth_enhanced:textures/particle/murasama_slash/murasama_slash_particle_7.png"
 		rotation: 0.0d
 		width: 3.0d
-		x: -2.0d
-		y: -0.5d
+		x: -200.0d
+		y: -200.5d
 	}]
 	order_index: 1
 	quest_links: [ ]

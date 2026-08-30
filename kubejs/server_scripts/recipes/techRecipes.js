@@ -20,7 +20,6 @@ ServerEvents.recipes(event => {
         'neepmeat:hungry_heterostructure',
         'concatenatedadditionsmachines:galvanized_iron_casing',
         'meatweapons:short_phage_ray',
-        'clanginghowl:extraterrestrial_steel_nugget',
         "clanginghowl:extraterrestrial_hoe",
         "clanginghowl:drill_bit",
         "clanginghowl:extraterrestrial_sword",
@@ -551,6 +550,18 @@ ServerEvents.recipes(event => {
             E: 'clanginghowl:steel_rod',
             D: 'clanginghowl:battery_panel',
             A: 'clanginghowl:extraterrestrial_steel_plate'
+        }
+    )
+    event.shaped(
+        Item.of('desecratedcore:extraterrestrial_core'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'clanginghowl:extraterrestrial_energy_crystal',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
         }
     )
 

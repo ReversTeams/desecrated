@@ -475,22 +475,6 @@
               "add": false
             }
           ],
-          "name": "clanginghowl:extraterrestrial_steel_plate",
-          "weight": 100
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
           "name": "clanginghowl:extraterrestrial_energy_crystal",
           "weight": 100
         },
@@ -572,22 +556,6 @@
             }
           ],
           "name": "minecraft:gunpowder",
-          "weight": 100
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 8.0,
-                "max": 16.0
-              },
-              "add": false
-            }
-          ],
-          "name": "clanginghowl:extraterrestrial_steel_nugget",
           "weight": 100
         },
         {
@@ -684,22 +652,6 @@
             }
           ],
           "name": "clanginghowl:diamond_diode",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "clanginghowl:extraterrestrial_steel_ingot",
           "weight": 20
         }
       ]
