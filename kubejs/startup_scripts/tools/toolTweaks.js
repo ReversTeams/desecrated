@@ -27,12 +27,22 @@ ItemEvents.modification(event => {
 		["sons_of_sins:sinful_sword", 12],
 		["sons_of_sins:sinful_hoe", 8],
 
+		// SoS Flesh
 		120,
 		["sons_of_sins:flesh_pickaxe", 2],
 		["sons_of_sins:flesh_shovel", 1.5],
 		["sons_of_sins:flesh_axe", 8],
 		["sons_of_sins:flesh_sword", 6],
 		["sons_of_sins:flesh_hoe", 4],
+
+		// CH Extraterrestrial
+		7000,
+		["clanginghowl:extraterrestrial_pickaxe", 8],
+		["clanginghowl:extraterrestrial_shovel", 7.5],
+		["clanginghowl:extraterrestrial_axe", 15],
+		["clanginghowl:extraterrestrial_sword", 13],
+		["clanginghowl:extraterrestrial_hoe", 8],
+		["clanginghowl:extraterrestrial_hammer", 16],
 		
 		/////////////
 		//  Armor  //
@@ -55,7 +65,7 @@ ItemEvents.modification(event => {
 			// console.log(Object.keys(item));
 			item.maxDamage = d;
 			console.log(item[p]);
-			item[p](dmg);
+			item[p](dmg - 1);
 			if (spd !== undefined) item.speed = spd;
 		});
 	});
