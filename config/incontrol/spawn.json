@@ -16,6 +16,7 @@
   },
   {
     "mod": "simpleenemymod",
+    "phase": "days1-6",
     "when": "onjoin",
     "result": "deny"
   },
