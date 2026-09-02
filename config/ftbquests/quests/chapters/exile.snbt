@@ -741,6 +741,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:zombie_head"
@@ -759,6 +761,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:skeleton_skull"
@@ -794,6 +798,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "63F062C342397FFB"
@@ -836,6 +842,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "38723CACB17307B2"
@@ -872,6 +880,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "275936E67DB1435B"
@@ -917,6 +927,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5B38546748E44E75"
@@ -959,6 +971,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "418F8CD5E008A36E"

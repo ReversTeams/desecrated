@@ -81,7 +81,16 @@
   {
     "mod": "vampirism",
     "mincount": {
-      "amount": 12,
+      "amount": 24,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "fracture",
+    "mincount": {
+      "amount": 24,
       "hostile": true,
       "perplayer": true
     },
