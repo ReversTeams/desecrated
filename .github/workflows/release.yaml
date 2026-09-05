@@ -12,11 +12,11 @@ jobs:
       
       - name: Create Technic release
         run: |
-          zip -r9 desecrated-0.6.3-technic.zip . -x ".git/*" "*.sh"
+          zip -r9 desecrated-0.6.4-technic.zip . -x ".git/*" "*.sh"
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
-          files: desecrated-0.6.3-technic.zip
+          files: desecrated-0.6.4-technic.zip
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
