@@ -57,6 +57,57 @@
           "weight": 90
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "biomancy:flesh_bits"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "biomancy:despoil_sickle"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "items": [
+                      "biomancy:despoil_sickle"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 0,
+            "max": 3
+          }
+        }
+      ]
     }
   ]
 }

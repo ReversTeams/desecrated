@@ -90,7 +90,8 @@
 	#Aura duration (ticks) at max level.
 	#Range: 20 ~ 720000
 	durationLv100 = 4300
-	#Base aura cooldown in ticks (8400 = 7 min).
+	#Base aura cooldown in ticks (18000 = 15 min). Every colour uses this one number;
+	#the per-colour extras were removed so the wait is the same whatever you rolled.
 	#Range: 20 ~ 720000
 	cooldownBaseTicks = 8400
 	#Max cooldown reduction in SECONDS from levels (1s per level).
@@ -121,6 +122,16 @@
 	#(0.20 = up to +20% at the end of the aura). 0 = disabled (no ramp).
 	#Range: 0.0 ~ 10.0
 	spellPowerRampMax = 0.0
+	#Arcanist level needed for the Ego aura, on top of having worn every other colour.
+	#Setting this above the level cap makes Ego unobtainable.
+	#Range: 1 ~ 1000
+	egoLevelRequired = 100
+	#Requiem: one heart is lost every this many ticks (100 = 5s). It never kills you.
+	#Range: 20 ~ 2400
+	requiemBleedTicks = 100
+	#Ink: how often a mob loses your trail, in ticks (100 = 5s).
+	#Range: 20 ~ 2400
+	inkForgetTicks = 100
 
 [onboarding]
 	#Give the Tome of the Eon (and show its welcome chat message) on a player's first join.
@@ -145,13 +156,13 @@
 	#a poor one by the same again (or double, for the worst answer of each question).
 	#Range: 0 ~ 100000
 	talkAmount = 1
-	#Cooldown between conversations, in seconds.
+	#Cooldown between conversations, in seconds. 150 = 2:30.
 	#Range: 0 ~ 86400
 	talkCooldownSeconds = 60
 	#Affinity gained when gifting a flower.
 	#Range: 0 ~ 100000
 	flowerAmount = 10
-	#Cooldown between flower gifts, in seconds.
+	#Cooldown between flower gifts, in seconds. 210 = 3:30.
 	#Range: 0 ~ 86400
 	flowerCooldownSeconds = 120
 	#Affinity LOST when gifting a Wither Rose (positive number).
@@ -174,6 +185,16 @@
 	#arrows and spells alike. That half is not tunable; it is the point of the oath.
 	#Range: 0.0 ~ 10.0
 	sonettoSpellDamage = 0.1
+	#Affinity gained per tier of a Wrapped Keepsake. A tier-3 gift is worth three times this.
+	#The tier comes from what was sealed inside -- iron 1, diamond 3, Dragon Egg 5 (clamped).
+	#Range: 0 ~ 100000
+	keepsakeAmountPerTier = 25
+	#Cooldown between Wrapped Keepsake gifts, in seconds. 1800 = 30 minutes.
+	#This is its OWN cooldown, deliberately not shared with flowers: a keepsake costs a real
+	#item and pays several times a flower, so putting both on one timer would mean a flower
+	#given in passing locks out the half-hour gift, and nothing on screen would say why.
+	#Range: 0 ~ 86400
+	keepsakeCooldownSeconds = 1800
 
 [suitcase]
 	#Starting number of boxes a Suitcase Tablet network can link.
@@ -199,12 +220,14 @@
 	#Set false to keep the suitcase strictly a doorway for people.
 	ferryAnimals = true
 	#Suitcase Tablet crafting panel (craft / smelt from the storage network).
-	#DISABLED BY DEFAULT: the system is still unstable, so it is switched off
-	#rather than removed. Set true to turn it back on.
+	#The panel needs a linked Crafting Table; other stations only add processes
+	#to a panel the table has already opened.
+	#Set false to switch it off - the tab then does not appear at all, rather
+	#than appearing and refusing every click.
 	#Note: queued smelting jobs from an earlier session always finish and their
 	#results are returned, even while this is false - their ingredients were
 	#already taken and are not thrown away.
-	craftingPanel = false
+	craftingEnabled = true
 
 #Storm monsters - skeletons and zombies the Storm is eating.
 [stormMonsters]
@@ -224,4 +247,62 @@
 	#Ignored when Iron's Spellbooks is not installed - it then fights with
 	#potions and melee only, which is still a complete encounter.
 	spell = "irons_spellbooks:blood_step"
+
+[island]
+	#Let a Warp Pad be set as the island's shared arrival point (sneak + right-click).
+	#Anyone without a pad of their own lands there instead of at the dock.
+	#A personal pad always wins over the shared one.
+	sharedWarpPad = true
+	#Require permission level 2 to set or clear the shared pad.
+	#On an open server this is the difference between a front door and a way for
+	#anyone to decide where everybody else materialises.
+	sharedWarpPadOpOnly = true
+	#Allow Nether portals to be lit on the island.
+	#Off: flint and steel refuses on the island and says so, rather than failing quietly.
+	#Portals that already exist keep working either way.
+	netherPortals = false
+	#Allow End portal frames to be filled with eyes of ender on the island.
+	#Off: the eye will not go in, and the player is told why.
+	endPortals = false
+	#Take fall damage on the island.
+	#Off by default: it is a building space reached through a suitcase, and dying to
+	#your own scaffolding there is not the danger anyone came for.
+	fallDamage = false
+
+[wishing_orb]
+	#How long after a wish before the same player may wish again, in seconds. 240 = 4 minutes.
+	#This is a cooldown on the PLAYER, not on the item stack: carrying several orbs does not
+	#buy several wishes at once. Set to 0 to remove the wait entirely.
+	#Note that lowering this does not shorten a wait already running -- the stored timestamp
+	#is compared against the new number, so an existing wait simply ends sooner.
+	#Range: 0 ~ 86400
+	cooldownSeconds = 240
+	#Affinity granted with EACH islander by the fourth wish, 'Let them think well of me'.
+	#The default 50 is five flowers' worth per character and about a third of the way to the
+	#first passive tier. Raising it far past this makes the orb the fastest bond in the mod,
+	#which is a fine choice to make deliberately and a bad one to make by accident.
+	#Range: 0 ~ 1000000
+	regardAmount = 50
+
+[year]
+	#Let the Storm change the year when it passes.
+	#Off: the year stays where it is and no cutscene plays. The year itself is still
+	#saved and still shown, so turning this back on resumes from the same number.
+	enabled = true
+	#Damage immunity granted to every player while the year cutscene plays, in ticks.
+	#A Screen only pauses the game in single-player. On a server everyone stands still
+	#watching an animation they cannot escape, so this is what stops that being a
+	#free hit. Set it to 0 to remove the protection.
+	#Range: 0 ~ 1200
+	cutsceneImmunityTicks = 140
+
+#The Storm's world revert.
+[worldRevert]
+	#Surviving a Storm returns the Overworld to the state it generated in.
+	#Builds, mined blocks and every other trace of habitation are undone as
+	#each chunk is next visited. The seed does not change, so the land itself
+	#is the same land.
+	#IRREVERSIBLE - every Overworld build is lost, by design.
+	#Works in singleplayer, LAN and on servers alike. OFF by default.
+	enabled = false
 

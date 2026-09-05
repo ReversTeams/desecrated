@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.34",
-  "config_datetime": "2026-09-01_16-33-36",
+  "config_datetime": "2026-09-01_16-33-14",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -124,22 +124,6 @@
     },
     {
       "name": "integrated_villages:regular_villages",
-      "override_global_spacing_and_separation_modifier": true
-    },
-    {
-      "name": "macabre:prayer_altar",
-      "override_global_spacing_and_separation_modifier": true
-    },
-    {
-      "name": "macabre:swamp_arch_common",
-      "override_global_spacing_and_separation_modifier": true
-    },
-    {
-      "name": "macabre:swamp_arch_giant",
-      "override_global_spacing_and_separation_modifier": true
-    },
-    {
-      "name": "macabre:swamp_arch_titanic",
       "override_global_spacing_and_separation_modifier": true
     },
     {
