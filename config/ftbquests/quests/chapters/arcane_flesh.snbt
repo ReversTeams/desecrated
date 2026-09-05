@@ -234,6 +234,8 @@
 				"I must upgrade the Sickle of Struggle to harvest more potent mystical ingredients from all sorts of creatures."
 				""
 				"It will make it far less durable, but I can now obtain rarer ingredients than before! I won't be able to obtain the same ingredients as before, however."
+				"{@pagebreak}"
+				"This is quite annoying, despite the fact I have many of the rare ingredients needed to make such a sickle such as a flesh dungeon's heart, I don't have a single intact rib bone! Time to go hunting! Hopefully that won't take me several nights..."
 			]
 			entity_vis_size: 1.0f
 			id: "1B89069CF6F1DCC1"
@@ -1112,6 +1114,7 @@
 				title: "Any Basic Flesh"
 				type: "item"
 			}]
+			title: "Flesh"
 			x: -1.5d
 			y: -1.0d
 		}
@@ -1416,15 +1419,16 @@
 				title: "Any Mob Organ"
 				type: "item"
 			}]
+			title: "Organs"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
 			description: [
-				"I have managed to capture a villager, although the hunters from the Starlight Order and Gold Barar are on my trail to rescue this poor soul. There won't be anything left for them to save! I will sacrifice this villager to the etheric blood and I will see what the underworld has to offer as a trade! First I should sacrifice flesh, then the villager."
+				"I have managed to capture a villager, although the hunters from the Starlight Order and Gold Barar are on my trail to rescue this poor soul. There won't be anything left for them to save! I will sacrifice this villager to the etheric blood and I will see what the underworld has to offer as a trade!"
 				"{@pagebreak}"
-				"&4Careful near the etheric blood! If you already dropped some flesh in it and fall in it for too long, you'll summon a demon as well!"
+				"&4Careful near the etheric blood! If you fall in it for too long, you'll summon a demon as well!"
 				""
 				"It's perfectly manageable! Now, to ready for this sacrifice..."
 			]
@@ -1823,6 +1827,7 @@
 				id: "35CE2A9B813F6A27"
 				type: "advancement"
 			}]
+			title: "Slice All"
 			x: -4.0d
 			y: 0.0d
 		}

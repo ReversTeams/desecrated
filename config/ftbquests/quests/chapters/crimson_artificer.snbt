@@ -2149,9 +2149,9 @@
 		}
 		{
 			description: [
-				"The Crimson Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Crimson Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
+				"The Spectral Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Spectral Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
 				""
-				"Higher ranked Crimson Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
+				"Higher ranked Spectral Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
 			]
 			entity_vis_size: 1.0f
 			id: "3913E4BF1C7341B8"
@@ -6122,5 +6122,5 @@
 			y: -13.5d
 		}
 	]
-	title: "Crimson Artificer"
+	title: "Spectral Artificer"
 }

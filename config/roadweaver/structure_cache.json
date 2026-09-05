@@ -3196,15 +3196,6 @@
       ]
     },
     {
-      "id": "sons_of_sins:sinful_church",
-      "displayName": "Sinful Church",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
-    },
-    {
       "id": "spectrum:city_below",
       "displayName": "City Below",
       "isVanilla": false,
