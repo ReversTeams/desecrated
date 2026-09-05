@@ -190,6 +190,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "33A4645940306D53"
@@ -227,6 +229,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "2A8ACE52B3855117"
@@ -264,6 +268,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7661B26AD0027D73"
@@ -295,6 +301,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "566194A9C85B22AA"
@@ -455,6 +463,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "743046D37600A14F"
@@ -490,6 +500,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "665FCE4AE3C74E1A"
@@ -519,6 +531,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 0.2f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7FC7B6A859FA5891"
@@ -569,6 +583,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "606834364558B4C5"
@@ -598,6 +614,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "4D75CB2B344C5CD3"
@@ -626,6 +644,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "53E1B684ACAD58C3"
@@ -654,6 +674,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3A5A80BE78FC5B0A"

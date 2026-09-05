@@ -741,6 +741,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:zombie_head"
@@ -759,6 +761,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:skeleton_skull"
@@ -794,6 +798,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "63F062C342397FFB"
@@ -836,6 +842,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "38723CACB17307B2"
@@ -872,6 +880,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "275936E67DB1435B"
@@ -917,6 +927,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5B38546748E44E75"
@@ -959,6 +971,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "418F8CD5E008A36E"
@@ -1987,9 +2001,9 @@
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
 			description: [
-				"The Crimson Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Crimson Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
+				"The Spectral Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Spectral Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
 				""
-				"Higher ranked Crimson Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
+				"Higher ranked Spectral Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
 			]
 			disable_toast: true
 			entity_vis_size: 1.0f
@@ -2005,7 +2019,7 @@
 				item: "desecratedcore:artificer_key_item"
 				type: "item"
 			}]
-			title: "Crimson Artificer"
+			title: "Spectral Artificer"
 			x: 3.0d
 			y: 10.0d
 		}
@@ -2036,12 +2050,12 @@
 		}
 		{
 			description: [
-				"I have heard from my former Crimson Artificer friends about enchanting. It is a most powerful way of enhancing tools, weapons and armour. Unfortunately, my knowledge may be lacking, I can only make use of some weaker enchantments."
+				"I have heard from my former Spectral Artificer friends about enchanting. It is a most powerful way of enhancing tools, weapons and armour. Unfortunately, my knowledge may be lacking, I can only make use of some weaker enchantments."
 				""
-				"&a(Enchanting is overhauled and you cannot enchant normally anymore. Enchantments require specific recipes instead of luck and absurd amounts of experience. Crimson Artificers can make the most out of enchanting. Relics replace Unbreaking, Sharpness, Protection and Efficiency.)"
+				"&a(Enchanting is overhauled and you cannot enchant normally anymore. Enchantments require specific recipes instead of luck and absurd amounts of experience. Spectral Artificers can make the most out of enchanting. Relics replace Unbreaking, Sharpness, Protection and Efficiency.)"
 				"{@pagebreak}"
 				""
-				"&4You should find a Crimson Artificer's library and feed it to me."
+				"&4You should find a Spectral Artificer's library and feed it to me."
 				""
 				"You eat books? Well, I'll see if I can satiate you one day."
 				""

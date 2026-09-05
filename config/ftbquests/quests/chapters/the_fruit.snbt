@@ -12,8 +12,8 @@
 		image: "celestisynth_enhanced:textures/particle/murasama_slash/murasama_slash_particle_7.png"
 		rotation: 0.0d
 		width: 3.0d
-		x: -2.0d
-		y: -0.5d
+		x: -200.0d
+		y: -200.5d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -66,6 +66,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "07D1FAAED8FF3B02"
@@ -184,6 +186,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "desecratedcore:broken_portal_frame"

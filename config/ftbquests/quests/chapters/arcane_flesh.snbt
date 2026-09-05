@@ -135,6 +135,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "sons_of_sins:flesh_of_demise"
@@ -232,6 +234,8 @@
 				"I must upgrade the Sickle of Struggle to harvest more potent mystical ingredients from all sorts of creatures."
 				""
 				"It will make it far less durable, but I can now obtain rarer ingredients than before! I won't be able to obtain the same ingredients as before, however."
+				"{@pagebreak}"
+				"This is quite annoying, despite the fact I have many of the rare ingredients needed to make such a sickle such as a flesh dungeon's heart, I don't have a single intact rib bone! Time to go hunting! Hopefully that won't take me several nights..."
 			]
 			entity_vis_size: 1.0f
 			id: "1B89069CF6F1DCC1"
@@ -323,6 +327,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "fracture:flesh_sprayer"
@@ -1108,6 +1114,7 @@
 				title: "Any Basic Flesh"
 				type: "item"
 			}]
+			title: "Flesh"
 			x: -1.5d
 			y: -1.0d
 		}
@@ -1412,6 +1419,7 @@
 				title: "Any Mob Organ"
 				type: "item"
 			}]
+			title: "Organs"
 			x: -2.5d
 			y: 0.5d
 		}
@@ -1441,6 +1449,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "butchery:villager_head"
@@ -1817,6 +1827,7 @@
 				id: "35CE2A9B813F6A27"
 				type: "advancement"
 			}]
+			title: "Slice All"
 			x: -4.0d
 			y: 0.0d
 		}
@@ -1893,6 +1904,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3EFDF918A1FBA9D9"
@@ -1922,6 +1935,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "75E65E6930C5910E"
@@ -1951,6 +1966,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5E1D415655871691"
@@ -1980,6 +1997,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "62F1F902E1B27032"
@@ -2009,6 +2028,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "4CC21AAB6AE67298"
@@ -2038,6 +2059,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "70F729B769E7B7E2"
@@ -2067,6 +2090,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3F7E950D8DEFC369"
@@ -2111,6 +2136,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "6B433F8562F1759C"
@@ -2138,6 +2165,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "43CFCAC7897F806E"
@@ -2167,6 +2196,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3632D64720A94F00"
@@ -2196,6 +2227,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7A73762223E35564"
@@ -2225,6 +2258,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "33E3DCC6386C3358"
@@ -2255,6 +2290,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5FAC41CCFF8D58E8"
@@ -2382,7 +2419,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["65A8B04267923FB7"]
+			dependencies: ["1D64ABE56F773781"]
 			entity_vis_size: 1.0f
 			id: "2FC8B5F6807FD5DC"
 			rewards: [
@@ -2404,8 +2441,8 @@
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			x: 3.4499999999999997d
-			y: -21.275d
+			x: 3.4499999999999993d
+			y: -22.275d
 		}
 		{
 			dependencies: ["7E6B2DCA9A18DF4A"]
@@ -2442,6 +2479,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "7665380E192F0B8A"
@@ -2460,7 +2499,7 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["65A8B04267923FB7"]
+			dependencies: ["1D64ABE56F773781"]
 			entity_vis_size: 1.0f
 			id: "54D942F53453202D"
 			rewards: [
@@ -2482,10 +2521,10 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -21.7d
+			y: -22.7d
 		}
 		{
-			dependencies: ["65A8B04267923FB7"]
+			dependencies: ["1D64ABE56F773781"]
 			entity_vis_size: 1.0f
 			id: "50A5F2DF44930F15"
 			rewards: [
@@ -2507,7 +2546,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -22.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
@@ -2617,7 +2656,7 @@
 				}
 			]
 			x: 1.5d
-			y: -24.5d
+			y: -25.5d
 		}
 		{
 			dependencies: ["14674EB8086DB4BE"]
@@ -2721,6 +2760,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "13F15280DF637A0A"
@@ -2765,7 +2806,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -19.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["2FC8B5F6807FD5DC"]
@@ -2789,8 +2830,8 @@
 					type: "item"
 				}
 			]
-			x: 6.05d
-			y: -21.45d
+			x: 6.050000000000001d
+			y: -22.45d
 		}
 		{
 			dependencies: ["0D0782320D0DEE82"]
@@ -2824,7 +2865,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -22.5d
+			y: -23.5d
 		}
 		{
 			dependencies: ["681EF488E543DB48"]
@@ -2934,7 +2975,7 @@
 			]
 			title: "Acolye Armour"
 			x: 8.5d
-			y: -21.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
@@ -2951,7 +2992,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -23.5d
+			y: -24.5d
 		}
 		{
 			dependencies: [
@@ -2972,7 +3013,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -24.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["2FC8B5F6807FD5DC"]
@@ -2989,7 +3030,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -22.5d
+			y: -23.5d
 		}
 		{
 			dependencies: [
@@ -3009,7 +3050,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -23.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["61740180C335EEB4"]
@@ -3043,6 +3084,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "03F4391702DBBC29"
@@ -3083,6 +3126,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7A87856B322E8FC8"
@@ -3144,7 +3189,7 @@
 			}]
 			title: "Compounds and Additives"
 			x: -3.0d
-			y: -22.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["65CD213C69DD4F67"]
@@ -3206,7 +3251,7 @@
 			}]
 			title: "Serum"
 			x: -5.0d
-			y: -23.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
@@ -3295,6 +3340,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "0DC13DCBBC4195F2"
@@ -3324,6 +3371,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7ECD894936E48A4D"
@@ -4240,7 +4289,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -25.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["52FE229CF0737F96"]
@@ -4254,6 +4303,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "323180865B8A8C39"
@@ -4264,7 +4315,7 @@
 				type: "observation"
 			}]
 			x: -4.0d
-			y: -26.5d
+			y: -27.5d
 		}
 		{
 			dependencies: ["52FE229CF0737F96"]
@@ -4278,6 +4329,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "40D31C4393741EFB"
@@ -4288,7 +4341,7 @@
 				type: "observation"
 			}]
 			x: -5.5d
-			y: -27.0d
+			y: -28.0d
 		}
 		{
 			dependencies: ["52FE229CF0737F96"]
@@ -4302,6 +4355,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "37CD237F14EF0514"
@@ -4312,7 +4367,7 @@
 				type: "observation"
 			}]
 			x: -7.0d
-			y: -26.5d
+			y: -27.5d
 		}
 		{
 			dependencies: ["52FE229CF0737F96"]
@@ -4326,6 +4381,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "4D02AF4A46A53226"
@@ -4336,7 +4393,7 @@
 				type: "observation"
 			}]
 			x: -7.5d
-			y: -25.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["54D942F53453202D"]
@@ -4379,7 +4436,7 @@
 			}]
 			title: "Pure Blood"
 			x: -1.5d
-			y: -23.5d
+			y: -24.5d
 		}
 		{
 			dependencies: ["19C8C7A0D9F4F3A6"]
@@ -4409,7 +4466,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -25.0d
+			y: -26.0d
 		}
 		{
 			dependencies: [
@@ -4425,6 +4482,26 @@
 			}]
 			x: 18.5d
 			y: -22.5d
+		}
+		{
+			dependencies: ["65A8B04267923FB7"]
+			entity_vis_size: 1.0f
+			id: "1D64ABE56F773781"
+			rewards: [{
+				count: 8
+				id: "3F6DD1055389173E"
+				item: "biomancy:flesh_bits"
+				random_bonus: 8
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "0A80918DB5582E57"
+				item: "biomancy:flesh_bits"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -21.5d
 		}
 	]
 	title: "Arcane Flesh"

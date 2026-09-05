@@ -1,0 +1,163 @@
+{
+  "config_version": "2.0.34",
+  "config_datetime": "2026-09-01_16-32-32",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.3
+  },
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": false,
+      "min_distance_from_world_center": 50,
+      "max_distance_from_world_center": 0
+    }
+  ],
+  "structures": [
+    {
+      "name": "fracture:flesh_dungeon",
+      "step": "underground_structures"
+    },
+    {
+      "name": "terralith:underground/frosted_dungeon",
+      "step": "underground_structures"
+    },
+    {
+      "name": "terralith:underground/giant_bee_hive",
+      "step": "underground_structures"
+    },
+    {
+      "name": "terralith:underground/mining_outpost",
+      "step": "underground_structures"
+    },
+    {
+      "name": "terralith:underground/oak_cabin",
+      "step": "underground_structures"
+    },
+    {
+      "name": "terralith:underground/old_refinery",
+      "step": "underground_structures"
+    },
+    {
+      "name": "terralith:underground/sunken_tower",
+      "step": "underground_structures"
+    },
+    {
+      "name": "terralith:underground/witch_hut",
+      "step": "underground_structures"
+    },
+    {
+      "name": "terralith:underground_cabin",
+      "step": "underground_structures"
+    },
+    {
+      "name": "underground_village:underground_village",
+      "step": "underground_structures"
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "bloodyhell:pool",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "bloodyhell:portal",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "bloodyhell:sanctum_of_the_unbound",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "bloodyhell:vespers_hut",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "fracture:flesh_dungeon",
+      "spacing": 36,
+      "separation": 22,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "fracture:flesh_dungeon": 10
+      }
+    },
+    {
+      "name": "fracture:pillager_tower",
+      "spacing": 20,
+      "separation": 2,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "grim_kingdoms:snowy",
+      "spacing": 31,
+      "separation": 8,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "grim_kingdoms:winterhold_citadel": 1,
+        "grim_kingdoms:snowgrave_citadel": 3,
+        "grim_kingdoms:frostbloom_bastion": 1,
+        "grim_kingdoms:blackridge_watch": 1,
+        "grim_kingdoms:travelers_lodge": 1,
+        "grim_kingdoms:shardspire_castle": 1,
+        "grim_kingdoms:glacierfall_keep": 1,
+        "grim_kingdoms:whitewarden_keep": 1,
+        "grim_kingdoms:zweiberg": 1,
+        "grim_kingdoms:decrown_monolith": 1,
+        "grim_kingdoms:glimmervault_fortress": 4,
+        "grim_kingdoms:frozen_onion_fort": 1,
+        "grim_kingdoms:silentgale_citadel": 1,
+        "grim_kingdoms:stonyfell_outpost": 1,
+        "grim_kingdoms:chill_hallmanor": 1
+      }
+    },
+    {
+      "name": "integrated_stronghold:stronghold",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "integrated_villages:air_villages",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "integrated_villages:regular_villages",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "neepmeat:verrucous_rock",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "perdition:scintillating_gateway",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "perdition:tau_cross",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "sons_of_sins:sinful_church",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "underground_village:underground_village",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "vampirism:crypt",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "vampirism:hunter_camp",
+      "frequency": 0.702
+    },
+    {
+      "name": "vampirism:mother",
+      "override_global_spacing_and_separation_modifier": true
+    }
+  ],
+  "structure_template_pools": []
+}

@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.33",
-  "config_datetime": "2026-08-23_11-54-07",
+  "config_version": "2.0.34",
+  "config_datetime": "2026-09-01_16-33-36",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -60,59 +60,25 @@
   ],
   "structure_sets": [
     {
-      "spacing": 32,
-      "separation": 8,
       "name": "bloodyhell:pool",
-      "is_disabled": false,
-      "salt": 1234325678,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "bloodyhell:pool": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 8,
-      "separation": 6,
       "name": "bloodyhell:portal",
-      "is_disabled": false,
-      "salt": 1643176474,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "bloodyhell:portal": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 32,
-      "separation": 8,
       "name": "bloodyhell:sanctum_of_the_unbound",
-      "is_disabled": false,
-      "salt": 1234567890,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "bloodyhell:sanctum_of_the_unbound": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 26,
-      "separation": 20,
       "name": "bloodyhell:vespers_hut",
-      "is_disabled": false,
-      "salt": 1623176464,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "bloodyhell:vespers_hut": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 24,
-      "separation": 16,
       "name": "fracture:flesh_dungeon",
-      "is_disabled": false,
-      "salt": 5325545,
+      "spacing": 36,
+      "separation": 22,
       "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
@@ -120,24 +86,15 @@
       }
     },
     {
-      "spacing": 16,
-      "separation": 8,
       "name": "fracture:pillager_tower",
-      "is_disabled": false,
-      "salt": 8008135,
-      "frequency": 0.2,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "fracture:pillager_tower": 1
-      }
+      "spacing": 20,
+      "separation": 2,
+      "override_global_spacing_and_separation_modifier": true
     },
     {
+      "name": "grim_kingdoms:snowy",
       "spacing": 31,
       "separation": 8,
-      "name": "grim_kingdoms:snowy",
-      "is_disabled": false,
-      "salt": 88,
-      "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
         "grim_kingdoms:winterhold_citadel": 1,
@@ -158,98 +115,72 @@
       }
     },
     {
-      "spacing": 85,
-      "separation": 50,
       "name": "integrated_stronghold:stronghold",
-      "is_disabled": false,
-      "salt": 68173563,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "integrated_stronghold:stronghold": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 115,
-      "separation": 90,
       "name": "integrated_villages:air_villages",
-      "is_disabled": false,
-      "salt": 1982700828,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "integrated_villages:airship_village": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 26,
-      "separation": 19,
       "name": "integrated_villages:regular_villages",
-      "is_disabled": false,
-      "salt": 1982700828,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "integrated_villages:clockwork_village": 1,
-        "integrated_villages:tavern_village": 1,
-        "integrated_villages:marketstead_village": 1,
-        "integrated_villages:quark/minka_village": 1,
-        "integrated_villages:mediterranean_village": 1,
-        "integrated_villages:pirate_village": 1,
-        "integrated_villages:kutcha_village": 1,
-        "integrated_villages:oasis_village": 1,
-        "integrated_villages:cabin_village": 1,
-        "integrated_villages:sunken_village": 1,
-        "integrated_villages:mossy_mounds": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 16,
-      "separation": 4,
+      "name": "macabre:prayer_altar",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "macabre:swamp_arch_common",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "macabre:swamp_arch_giant",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "macabre:swamp_arch_titanic",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
       "name": "neepmeat:verrucous_rock",
-      "is_disabled": false,
-      "salt": 1646207470,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "neepmeat:verrucous_rock": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 14,
-      "separation": 6,
+      "name": "netherman:mansion_nether",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "otherverse:braziers",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
       "name": "perdition:scintillating_gateway",
-      "is_disabled": false,
-      "salt": 266853446,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "perdition:scintillating_gateway": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 12,
-      "separation": 6,
       "name": "perdition:tau_cross",
-      "is_disabled": false,
-      "salt": 266890446,
-      "frequency": 0.8,
-      "override_global_spacing_and_separation_modifier": true,
-      "structure_weights": {
-        "perdition:tau_cross": 1
-      }
+      "override_global_spacing_and_separation_modifier": true
     },
     {
-      "spacing": 9,
-      "separation": 6,
+      "name": "sons_of_sins:sinful_church",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "underground_village:underground_village",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "vampirism:crypt",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
       "name": "vampirism:hunter_camp",
-      "is_disabled": false,
-      "salt": 1724616580,
-      "frequency": 0.702,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "vampirism:hunter_camp": 1
-      }
+      "frequency": 0.702
+    },
+    {
+      "name": "vampirism:mother",
+      "override_global_spacing_and_separation_modifier": true
     }
   ],
   "structure_template_pools": []

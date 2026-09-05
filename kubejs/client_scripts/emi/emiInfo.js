@@ -33,4 +33,5 @@ JEIEvents.information(event => {
   event.addItem( 'perdition:pyrite', ['Found in Purgatory, accessible to the Moon Faction.']) 
   event.addItem( 'reverseeon:dimension_portal', ['Can be found in abandoned snowy grim castles.']) 
   event.addItem( 'biomancy:flesh_bits', ['Can be harvested from some mobs with the Flesh Plunderer.']) 
+  event.addItem( 'clanginghowl:extraterrestrial_steel', ['Can be harvested via a phage ray from extraterrestrial and meteorite ore.']) 
 })
