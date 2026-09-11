@@ -8,7 +8,8 @@ ServerEvents.recipes(event => {
         'patchouli:guide_book',
         'otherverse:chalk',
         'otherverse:demesne_beacon',
-        'goety:soul_emerald'
+        'goety:soul_emerald',
+        'otherverse:intestines'
     ]
 
     const removeCraftingShaped = [
