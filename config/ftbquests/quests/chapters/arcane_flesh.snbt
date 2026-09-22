@@ -348,6 +348,17 @@
 		}
 		{
 			dependencies: ["6A8B34AA9E968EC2"]
+			description: [
+				"&4I believe you might need a piece of soul and some very strong mystical bones from another realm."
+				""
+				"Vesper asked for bones of a Sin and pieces of a soul."
+				""
+				"&4Your essence and Sinful bones would do nicely then, with them you can enter the soul dimension. They are not direct ingredients, but they will help to anchor you within the dimension."
+				"{@pagebreak}"
+				"So,,, we're not using the bones to make a broth?"
+				""
+				"&4No."
+			]
 			entity_vis_size: 1.0f
 			id: "5CA8FDF37BD413E4"
 			rewards: [{
@@ -365,6 +376,7 @@
 		}
 		{
 			dependencies: ["5CA8FDF37BD413E4"]
+			description: ["&4This is quite strange... as you're describing it to me, I do not remember any part of this dimension. You see blue trees once in a while? I fear the soul dimension may have been overtaken with something.. foreign."]
 			entity_vis_size: 1.0f
 			icon: "bloodyhell:materialized_soul"
 			id: "22DDD3C6B3604CD9"
@@ -1078,13 +1090,22 @@
 		}
 		{
 			dependencies: ["445742EA3F278341"]
+			description: ["This flesh is mystical in nature. The Sickle of Struggle can help preserve the spirituality in the flesh. The muscles will keep twitching and the heart will keep beating."]
 			entity_vis_size: 1.0f
 			id: "1261468FF3756AEA"
-			rewards: [{
-				id: "3A7D74A70DDF7E28"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C1029495E0E44F5"
+					table_id: 8887839867309992666L
+					type: "random"
+				}
+				{
+					id: "3A7D74A70DDF7E28"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7F0892882C927F15"
 				item: {
@@ -1127,11 +1148,19 @@
 			]
 			entity_vis_size: 1.0f
 			id: "74AFAE94251EB275"
-			rewards: [{
-				id: "53AD501FF821B15E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7086C0C2A8FED180"
+					table_id: 8119722541992150387L
+					type: "random"
+				}
+				{
+					id: "53AD501FF821B15E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "4581E3551AC9D56F"
@@ -1172,14 +1201,29 @@
 				"5D88FB716ED71AD6"
 			]
 			dependency_requirement: "one_started"
+			description: [
+				"Grisha, how do you know about all of the artefacts born from the remains of the Sins? Am I not the first one to have fought them?"
+				""
+				"&4Foolish sanguine. The Sins are ever-present and their true form is immortal. They only present themselves in this form as an avatar for you to perceive. Yes, they are truly powerful, but it is not their true form. I have detailed records of the Sins throughout history. They manifest differently for different people."
+				"{@pagebreak}"
+				"&4Some archeologists even found ancient depictions of the Sins. We believe the Sin of Gluttony was then known as Gorge and the Sin of Greed was known as Avar. We have traces of a decisive ancient battle between an ancient civilization and the Sins. We do not know who won."
+			]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "2ACEA55675CB3F95"
-			rewards: [{
-				id: "3221F78E80C51BF5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "145777CC99E89F47"
+					item: "biomancy:flesh_bits"
+					type: "item"
+				}
+				{
+					id: "3221F78E80C51BF5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "62398181B04422EA"
 				item: "sons_of_sins:bloody_bone"
@@ -1321,6 +1365,11 @@
 				"4D45D411280B394B"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&4You want to delve into necromancy, young sanguine? Very good, although at your current state, you cannot perform true necromancy, more amalgamating a construct with the organs you've collected."
+				""
+				"&4First, you will need a bottle of blood with the mystical properties intact. Then you will need to amass sufficient mystical flesh to serve as a vessel."
+			]
 			entity_vis_size: 1.0f
 			id: "7D5169ED2AE67ACB"
 			rewards: [
@@ -1367,13 +1416,28 @@
 		}
 		{
 			dependencies: ["445742EA3F278341"]
+			description: [
+				"Hey Grisha, what are the various special organs creatures have that will be useful to me?"
+				""
+				"&4I've written down the most notable organs to you. From creeper ribs to enderman muscle, you can all preserve their mystical properties with the Sickle of Struggle."
+				""
+				"&4You can eat these organs to gain their power temporarily, although you will find that it will be far more valuable if you decide to delve into necromancy."
+			]
 			entity_vis_size: 1.0f
 			id: "69A549C4DACD3F1A"
-			rewards: [{
-				id: "70B91E1E8E80A0D2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40202649CAC65E82"
+					table_id: 5749829554896931113L
+					type: "random"
+				}
+				{
+					id: "70B91E1E8E80A0D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "39B8716C431A4337"
 				item: {
@@ -1467,13 +1531,26 @@
 		}
 		{
 			dependencies: ["079ABE7B83F6A6F6"]
+			description: [
+				"&4The Wistiver's Jaws are a powerful artefact. You can use the jaws as gauntlets and while you do not wield a weapon, the powerful remains will boost your power tremendously. "
+				""
+				"&4Punch a creature once and it will only be momentarily harmed. Punch it twice and it will feel it. Punch it thrice and now real pain is felt. Four times becomes decisive and five times can become fatal. The more you continue your combo, the more your power will grow."
+			]
 			entity_vis_size: 1.0f
 			id: "667889EB98C92FD4"
-			rewards: [{
-				id: "7CA78A2B04E5AD4E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "4F9D58F07F5B823B"
+					item: "fracture:fleshy_bone"
+					type: "item"
+				}
+				{
+					id: "7CA78A2B04E5AD4E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "569E2D1AB70BC196"
 				item: "sons_of_sins:wistivers_jaws"
@@ -1484,13 +1561,22 @@
 		}
 		{
 			dependencies: ["0FF481A9738C6A2E"]
+			description: ["&4The Puppet of Strife can make use of the mystical properties of various special organs without eating them. For instance, you can gain the powers of an enderman by stuffing the puppet with enderman muscle."]
 			entity_vis_size: 1.0f
 			id: "0CD8DD913FC68DA4"
-			rewards: [{
-				id: "4DCBFA250C6393B0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F301B491B8CA314"
+					table_id: 5749829554896931113L
+					type: "random"
+				}
+				{
+					id: "4DCBFA250C6393B0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "051E80515490B954"
 				item: {
@@ -1518,11 +1604,25 @@
 			dependencies: ["00CCFEBA2BF7D34B"]
 			entity_vis_size: 1.0f
 			id: "4C25EB608642E1FD"
-			rewards: [{
-				id: "4E19C1AB682418D8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "66EB904670ED76D5"
+					item: {
+						Count: 1
+						id: "vampirism:amulet"
+						tag: {
+							Damage: 0
+							refinement_set: "vampirism:health1"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E19C1AB682418D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "23F1A9A85DD0C425"
 				item: "sons_of_sins:hand_of_riot"
@@ -1535,11 +1635,19 @@
 			dependencies: ["0BDCD3D1B995EDE8"]
 			entity_vis_size: 1.0f
 			id: "73421638692594EA"
-			rewards: [{
-				id: "79C0144A0444EB46"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2C17155914BA8BD7"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "79C0144A0444EB46"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1297A4219365E3DA"
 				item: "sons_of_sins:touch_of_greed"
@@ -1550,13 +1658,22 @@
 		}
 		{
 			dependencies: ["60A547780F1428FA"]
+			description: ["&4The Ether Engine can power ether artefacts infinitely or nearly. It can replace a soul urn and you can stop hunting for ether ashes. It is one of the most useful remains of the Sins, but one you might replace the most easily as I doubt you will keep using etheric tools for more than a century."]
 			entity_vis_size: 1.0f
 			id: "4CEF240547D1B822"
-			rewards: [{
-				id: "0DD60855F55D1B96"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "7EB506CDA59A5B7E"
+					item: "sons_of_sins:crystallized_ether"
+					type: "item"
+				}
+				{
+					id: "0DD60855F55D1B96"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "56AEA081E56C4190"
 				item: "sons_of_sins:ether_engine"
@@ -1567,13 +1684,40 @@
 		}
 		{
 			dependencies: ["1EC64182E63D237D"]
+			description: ["&4The Butcher's Cleaver is an artefact that is fueled by desperation. The closer to death you are, the more vicious the cleaver's attacks will be."]
 			entity_vis_size: 1.0f
 			id: "170AB5D1F8B84557"
-			rewards: [{
-				id: "7B91F6745874584F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0856D1E781632CA6"
+					table_id: 6565141144447489233L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "426C64A84E81988A"
+					table_id: 645498534620285759L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B48FBCA062CFD61"
+					table_id: 5749829554896931113L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A98CD7CFCAA1CF7"
+					table_id: 8887839867309992666L
+					type: "random"
+				}
+				{
+					id: "7B91F6745874584F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "325C75886B030345"
 				item: {
@@ -1590,13 +1734,21 @@
 		}
 		{
 			dependencies: ["5D88FB716ED71AD6"]
+			description: ["&4I do not recommend making use of the Cursed Head. It is a gambit. You can forcibly steal a piece of armour from an enemy at the cost of the Cursed Head itself, which will dissipate. If the enemy has very powerful armour, this may prove to be a good artefact."]
 			entity_vis_size: 1.0f
 			id: "26E1F8A2256E6536"
-			rewards: [{
-				id: "5A44E7F92987CB30"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4994E911FA78A7A1"
+					item: "reliquary:rod_of_lyssa"
+					type: "item"
+				}
+				{
+					id: "5A44E7F92987CB30"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "04D610FF0670AAAF"
 				item: "sons_of_sins:cursed_head"
@@ -1814,13 +1966,22 @@
 		}
 		{
 			dependencies: ["69A549C4DACD3F1A"]
+			description: ["&4I must congratulate you on your acquisition of every organ on my list. Very impressive. Now, I must tell you to not replace your own organs with these. It's very unhealthy. I have the experience to prove it. Keep them for bodybuilding purposes. But not for your own."]
 			entity_vis_size: 1.0f
 			id: "6AB18A30D5721E61"
-			rewards: [{
-				id: "3ED35E47AAD83606"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62CB8449AC913568"
+					table_id: 5749829554896931113L
+					type: "choice"
+				}
+				{
+					id: "3ED35E47AAD83606"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "sons_of_sins:slice_all"
 				criterion: ""
@@ -2324,6 +2485,7 @@
 				}
 			]
 			size: 1.2d
+			subtitle: "Organic Fabricator"
 			tasks: [{
 				id: "5C37651CACAC3429"
 				item: "biomancy:bio_forge"
@@ -2420,6 +2582,7 @@
 		}
 		{
 			dependencies: ["1D64ABE56F773781"]
+			description: ["I will need something to break down already-formed materials into its base components.. What about a living stomach machine? That should do."]
 			entity_vis_size: 1.0f
 			id: "2FC8B5F6807FD5DC"
 			rewards: [
@@ -2549,7 +2712,8 @@
 			y: -23.5d
 		}
 		{
-			dependencies: ["65A8B04267923FB7"]
+			dependencies: ["1D64ABE56F773781"]
+			description: ["Hoppers are way too slow... If only flesh could make them faster. I know! What about a tongue that works like a conveyor belt? I can spit out items as fast as a chameleon!"]
 			entity_vis_size: 1.0f
 			id: "241FEED0D5C70D76"
 			rewards: [
@@ -2588,10 +2752,15 @@
 			}]
 			title: "Flesh Automation"
 			x: -1.0d
-			y: -19.5d
+			y: -20.0d
 		}
 		{
-			dependencies: ["65A8B04267923FB7"]
+			dependencies: ["1D64ABE56F773781"]
+			description: [
+				"Flesh can make for a perfect security system! I will let the flesh.. swallow all of my belongings! Only I will be able to retrieve it. It's bound to be explosion-proof. The flesh can regenerate after all."
+				""
+				"What about more portable storage? I keep carrying all of these huge backpacks. While they are really small, they are very cheap to produce."
+			]
 			entity_vis_size: 1.0f
 			id: "0DC21CC4073914AF"
 			rewards: [
@@ -2631,17 +2800,26 @@
 			}]
 			title: "Flesh Storage"
 			x: 4.0d
-			y: -19.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["50A5F2DF44930F15"]
+			description: ["All food matters are fundamentally the same. I must simply break down the nutrients into a paste. This paste can be used as a material and I can also eat it. But this is quite disgusting looking. I would never debase myself by eating this thing!"]
 			entity_vis_size: 1.0f
 			id: "0B07BB8AC0AA7739"
-			rewards: [{
-				id: "311F8ABD219CB4BF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "295E9CCA798401B3"
+					item: "biomancy:nutrient_bar"
+					type: "item"
+				}
+				{
+					id: "311F8ABD219CB4BF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "49EC982FFDB55961"
@@ -2743,6 +2921,11 @@
 				"2A8D992F16D4BE46"
 				"2ACEA55675CB3F95"
 			]
+			description: [
+				"Grisha, with a piece of soul, what can I do?"
+				""
+				"&4What about entering the soul dimension? Many have entered it in my time, but I do not know what became of it during my slumber. Let's see, who might still be alive that knows about it? Ah, Vesper! I.. don't know what he is, but he might still be alive. Find him for me."
+			]
 			entity_vis_size: 1.0f
 			id: "6A8B34AA9E968EC2"
 			rewards: [{
@@ -2787,6 +2970,7 @@
 		{
 			dependencies: ["7572614CAD3C843A"]
 			dependency_requirement: "one_started"
+			description: ["With a principle similar to proud sanguines drinking blood with their fangs, an organic tool could have the strength necessary to suck out the essence out of a creature."]
 			entity_vis_size: 1.0f
 			id: "0D0782320D0DEE82"
 			rewards: [{
@@ -2810,13 +2994,22 @@
 		}
 		{
 			dependencies: ["2FC8B5F6807FD5DC"]
+			description: ["By decomposing strong materials with minerals and fibers, I may be able to make something out of them..."]
 			entity_vis_size: 1.0f
 			id: "7572614CAD3C843A"
-			rewards: [{
-				id: "018929F4E8A3C7F4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A5BD10053CAFE88"
+					table_id: 3682133338790196090L
+					type: "random"
+				}
+				{
+					id: "018929F4E8A3C7F4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.1d
 			tasks: [
 				{
@@ -2830,11 +3023,17 @@
 					type: "item"
 				}
 			]
+			title: "Tough Matter"
 			x: 6.050000000000001d
 			y: -22.45d
 		}
 		{
 			dependencies: ["0D0782320D0DEE82"]
+			description: [
+				"The essence is a part of their physical body that their soul imparts a mark on. Therefore, it is can be used as a unique racial indicator."
+				""
+				"I could take a small part of myself if need be. It is bound to be useful as a mystical ingredient to identify my own &lsoul&r."
+			]
 			entity_vis_size: 1.0f
 			id: "2A8D992F16D4BE46"
 			rewards: [{
@@ -2842,6 +3041,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Fragment of the Soul"
 			tasks: [{
 				id: "4B08E495889C26AC"
 				item: "biomancy:essence"
@@ -2903,6 +3103,11 @@
 			dependencies: [
 				"2FC8B5F6807FD5DC"
 				"2ACAFD13FF8FA71F"
+			]
+			description: [
+				"I most believe that the gastric acid that appears around my flesh monster can be weaponized against my enemies! I can make an organic tool that can shoot out gastric acid, most deadly against most creatures! They will slowly corrode and even the toughest of skins and armour will be severely damaged."
+				""
+				"I could also spray a little acid on one of my blades to make it corrosive."
 			]
 			entity_vis_size: 1.0f
 			id: "703274901EDEC2AF"
@@ -3000,6 +3205,7 @@
 				"7A2791CDDE031519"
 				"7572614CAD3C843A"
 			]
+			description: ["This almighty fertilizer is the most powerful plant supplement us sanguines have to offer. This is many times more powerful than bone meal or other fertilizers. Even crops where bone meal normally is ineffective, such as sugarcane, will be affected by this fertilizer."]
 			entity_vis_size: 1.0f
 			id: "065D3252F4323B64"
 			rewards: [{
@@ -3017,6 +3223,7 @@
 		}
 		{
 			dependencies: ["2FC8B5F6807FD5DC"]
+			description: ["An organic, plant-based material, broken down to its purest form. This is clearly not edible. This would be like eating dirt."]
 			entity_vis_size: 1.0f
 			id: "58142B18675A7AF0"
 			rewards: [{
@@ -3037,6 +3244,7 @@
 				"0B07BB8AC0AA7739"
 				"2FC8B5F6807FD5DC"
 			]
+			description: ["The purest form of nutrients. I believe humans refer to the nutrition value of food as calories?"]
 			entity_vis_size: 1.0f
 			id: "7A2791CDDE031519"
 			rewards: [{
@@ -3096,7 +3304,7 @@
 				type: "observation"
 			}]
 			title: "The Hungry Flesh Blob"
-			x: -0.5d
+			x: -1.0d
 			y: -17.5d
 		}
 		{
@@ -3138,8 +3346,8 @@
 				type: "observation"
 			}]
 			title: "The Primordial Flesh Blob"
-			x: -2.5d
-			y: -16.5d
+			x: -3.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["54D942F53453202D"]
@@ -3254,7 +3462,16 @@
 			y: -24.0d
 		}
 		{
-			dependencies: ["65A8B04267923FB7"]
+			dependencies: ["241FEED0D5C70D76"]
+			description: [
+				"I could make farms just so efficient.. if only I could sort babies from their progenitors. "
+				""
+				"&4That sounds really bad."
+				""
+				"No, I'm sparing the child, you see. I'm doing them a small mercy."
+				""
+				"&4... until they mature?"
+			]
 			entity_vis_size: 1.0f
 			id: "1E21748936204C26"
 			rewards: [
@@ -3286,7 +3503,6 @@
 				"&2What is this book? It calls to me. Have I been a bad person throughout my life? No? This is an old book that seems to have fallen from another world. It can greatly increase my power, but I can only envision it in my mind. I'll have to physically render it with scrolls and leather.&r"
 			]
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			id: "6CA6297CC6007608"
 			rewards: [{
 				id: "4F8339519A429C22"
@@ -3298,7 +3514,7 @@
 				item: "concatenatedadditionsartefacts:karma_tome"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -16.0d
 		}
 		{
@@ -3643,14 +3859,22 @@
 		}
 		{
 			dependencies: ["2ACEA55675CB3F95"]
-			description: ["Sinful Tools are unbreakable but are weaker than normal tools."]
+			description: ["Sinful Tools are unbreakable but are weaker than normal tools. The Sins must have been quite solid if this was their bones. No wonder they were a small challenge."]
 			entity_vis_size: 1.0f
 			id: "3B716EC50B1F94E9"
-			rewards: [{
-				id: "796676B293A6BE15"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "3C848A0FFA8A9497"
+					item: "sons_of_sins:bloody_bone"
+					type: "item"
+				}
+				{
+					id: "796676B293A6BE15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "77FA5BBCBE349751"
@@ -4107,11 +4331,18 @@
 			]
 			entity_vis_size: 1.0f
 			id: "7EDAF9050653AB37"
-			rewards: [{
-				id: "6E965CFE5EA98D06"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4BFB93B14C568776"
+					item: "sons_of_sins:blood_bucket"
+					type: "item"
+				}
+				{
+					id: "6E965CFE5EA98D06"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5BF2EC3AF70433DD"
 				item: {
@@ -4485,6 +4716,11 @@
 		}
 		{
 			dependencies: ["65A8B04267923FB7"]
+			description: [
+				"It would be for the best if I had flesh bits in the making of more flesh apparatus. But where can I find some? "
+				""
+				"I keep seeing all of these fleshy clanging horrors around, maybe it's time I harvest their flesh with my plunderer."
+			]
 			entity_vis_size: 1.0f
 			id: "1D64ABE56F773781"
 			rewards: [{
@@ -4501,6 +4737,24 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["54D942F53453202D"]
+			entity_vis_size: 1.0f
+			id: "3BC88F6CBADB7963"
+			tasks: [{
+				id: "1B9E6ECEF7D658DA"
+				item: {
+					Count: 1
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
 			y: -21.5d
 		}
 	]

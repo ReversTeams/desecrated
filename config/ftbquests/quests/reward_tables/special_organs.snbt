@@ -1,0 +1,18 @@
+{
+	id: "4FCB7F842AAC8929"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "sons_of_sins:charged_creeper_ribs" }
+		{ item: "sons_of_sins:creeper_ribs" }
+		{ item: "sons_of_sins:golem_cuirass" }
+		{ item: "sons_of_sins:slime_rear" }
+		{ item: "sons_of_sins:enderman_muscle" }
+		{ item: "sons_of_sins:strider_muscle" }
+		{ item: "sons_of_sins:ravager_muscle" }
+		{ item: "sons_of_sins:blazing_heart" }
+		{ item: "sons_of_sins:spider_heart" }
+		{ item: "sons_of_sins:ice_heart" }
+	]
+	title: "Special Organs"
+}

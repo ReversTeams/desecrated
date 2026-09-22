@@ -1058,6 +1058,7 @@
 			size: 1.25d
 			tasks: [{
 				ftbquestsentityvis_icon: {
+					cycle_seconds: 0.0f
 					enabled: 0b
 					entity: "minecraft:pig"
 					idle_mode: "USE_GLOBAL"

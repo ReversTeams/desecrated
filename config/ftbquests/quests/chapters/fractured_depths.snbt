@@ -8,6 +8,7 @@
 	id: "2A43CF350B1D9F33"
 	images: [
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"

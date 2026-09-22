@@ -8,6 +8,7 @@
 	id: "599002CA7AE7B666"
 	images: [
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_fire_soul"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -26,6 +27,7 @@
 			y: -2.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -44,6 +46,7 @@
 			y: -8.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_nova_entity"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -62,6 +65,7 @@
 			y: -2.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -80,6 +84,7 @@
 			y: 0.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -98,6 +103,7 @@
 			y: -7.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -116,6 +122,7 @@
 			y: 2.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -134,6 +141,7 @@
 			y: 11.0d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -182,6 +190,7 @@
 			y: 1.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_fire_soul"
 			entity_vis_idle_mode: "USE_GLOBAL"
