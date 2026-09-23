@@ -111,6 +111,9 @@
   "corpse": {
     "corpse": true
   },
+  "goetyawaken": {
+    "mob_enchant": true
+  },
   "goety": {
     "block_owner": true,
     "soul_energy": true,
@@ -123,9 +126,6 @@
     "train_to": true,
     "summon_lifespan": true,
     "trainable": true
-  },
-  "beer": {
-    "beer": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

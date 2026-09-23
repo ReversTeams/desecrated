@@ -1327,6 +1327,15 @@
       ]
     },
     {
+      "id": "goety:wrecked_mansion",
+      "displayName": "Wrecked Mansion",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "goetyawaken:abandoned_tower",
       "displayName": "Abandoned Tower",
       "isVanilla": false,
