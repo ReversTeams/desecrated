@@ -167,6 +167,19 @@ ServerEvents.recipes(event => {
             B: 'biomancy:living_flesh'
         }
     )
+    event.shaped(
+        Item.of('desecratedcore:primordial_life'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'biomancy:creator_mix',
+            A: 'sons_of_sins:crystallized_ether',
+            C: 'biomancy:primordial_core'
+        }
+    )
 
     // Bloody Hell
 
@@ -457,6 +470,19 @@ ServerEvents.recipes(event => {
             'bloodyhell:rootlet_powder'
         ]
     )
+    event.shaped(
+        Item.of('desecratedcore:bloody_whisper'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'bloodyhell:great_ancient_gem',
+            C: 'bloodyhell:nameless_whisper',
+            A: 'bloodyhell:cinder_acolyte_fainted_ember'
+        }
+    )
 
     event.custom({
         type: "bloodyhell:condensing",
@@ -580,9 +606,24 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'bloodyhell:blasphemite',
-            C: 'bloodyhell:rhnull',
+            C: '#desecrated:macabre_key',
             B: 'biomancy:living_flesh',
             D: 'fracture:boreas_key'
+        }
+    )
+    event.shaped(
+        Item.of('desecratedcore:macabre_heart'),
+        [
+            ' A ',
+            'BCD',
+            ' E '
+        ],
+        {
+            E: 'macabre:gargamaw_heart',
+            A: 'macabre:gomoria_heart',
+            B: 'macabre:morphegor_heart',
+            D: 'macabre:baal_heart',
+            C: 'macabre:valamon_heart'
         }
     )
 });

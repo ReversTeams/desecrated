@@ -50,7 +50,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "clanginghowl:techno_heart"
+          "name": "desecratedcore:organic_heart"
         },
         {
           "type": "minecraft:empty",

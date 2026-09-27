@@ -67,8 +67,8 @@
 	*/
 	"base_enchantment_capacity_overrides": {
 		"minecraft:shield": 15,
-		"minecraft:crossbow": 20,
 		"minecraft:enchanted_book": 12,
+		"minecraft:crossbow": 20,
 		"minecraft:bow": 20,
 		"minecraft:trident": 15
 	},
@@ -78,8 +78,8 @@
 		"minecraft:sweeping": 2,
 		"minecraft:thorns": 2,
 		"artificers_armory:lifedrain": 3,
-		"minecraft:flame": 2,
 		"minecraft:feather_falling": 1,
+		"minecraft:flame": 2,
 		"artificers_armory:singularity": 3,
 		"minecraft:projectile_protection": 3,
 		"artificers_armory:transmutation": 3,

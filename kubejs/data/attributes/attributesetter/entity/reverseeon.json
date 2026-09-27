@@ -1,0 +1,189 @@
+{
+  "storm_creeper": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "storm_skeleton": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "storm_spider": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "storm_zombie": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "masked_follower_thrall": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "masked_follower_amazon": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "forget_me_not": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "larva": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "lantern_bearer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "animus": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "veiled_acolyte": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ]
+}

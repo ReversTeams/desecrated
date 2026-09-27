@@ -399,19 +399,28 @@
 				title: "Visit the Soul Dimension"
 				type: "dimension"
 			}]
-			title: "Visit the Soul Dimension"
+			title: "Soul Dimension"
 			x: 14.5d
 			y: -20.0d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
+			description: ["Within most of the bloodred areas of this world, I was able to find this red metal ressembling solidified, metalized blood. It would be apt to call this Sanguinite, after its colour and after us noble sanguines."]
 			entity_vis_size: 1.0f
 			id: "65DF6B6B038F58F7"
-			rewards: [{
-				id: "40C11CC5735F22D1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "3D4491B1D0F9673A"
+					item: "bloodyhell:raw_sanguinite"
+					type: "item"
+				}
+				{
+					id: "40C11CC5735F22D1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [
 				{
@@ -468,13 +477,22 @@
 				"65DF6B6B038F58F7"
 				"3488DDCE529DD3F8"
 			]
+			description: [""]
 			entity_vis_size: 1.0f
 			id: "477517C000C5B774"
-			rewards: [{
-				id: "629ACB88EEBAEAEC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "1BE2E6CCAE7665E0"
+					item: "bloodyhell:raw_sanguinite"
+					type: "item"
+				}
+				{
+					id: "629ACB88EEBAEAEC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "41730A53597E657A"
@@ -487,6 +505,7 @@
 					type: "item"
 				}
 			]
+			title: "Sanguinite Logistics"
 			x: 19.0d
 			y: -19.0d
 		}
@@ -2663,6 +2682,7 @@
 		}
 		{
 			dependencies: ["1D64ABE56F773781"]
+			description: ["An organic brewing stand! The extent of concoctions and ingredients I can produce has now increased tenfold."]
 			entity_vis_size: 1.0f
 			id: "54D942F53453202D"
 			rewards: [
@@ -2688,6 +2708,7 @@
 		}
 		{
 			dependencies: ["1D64ABE56F773781"]
+			description: ["Simple digestion might not work to break down all materials to their base form, especially for food. I might need to make a weaker stomach storage vessel that can be used for longer fermentations."]
 			entity_vis_size: 1.0f
 			id: "50A5F2DF44930F15"
 			rewards: [
@@ -3052,13 +3073,26 @@
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
+			description: [
+				"&4Don't you need a stronger weapon by now? This living flesh seems suitable."
+				""
+				"But of course. By grafting the sharpest of claws on living flesh and enhancing it with tough fibers, I can make this handy arm extension. As long as I keep feeding it, the combination of the living flesh and claws should make any enemy bleed and I can slowly accumulate their blood. After I acquire enough blood, I can release it all at once in an explosion!"
+			]
 			entity_vis_size: 1.0f
 			id: "4D42C34DA0540090"
-			rewards: [{
-				id: "7789C8FE477C1653"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "290BDC461C608832"
+					table_id: 5114517534435723353L
+					type: "random"
+				}
+				{
+					id: "7789C8FE477C1653"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "73663CE5C1D022C3"
 				item: "biomancy:ravenous_claws"
@@ -3133,13 +3167,26 @@
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
+			description: [
+				"I must become one with the flesh if I am to become the true master of all things flesh and blood. "
+				""
+				"Living flesh does make for some sturdy armour and I can keep feeding it nutrient to repair it. The cradle seems less hostile to me and I can inject concoctions into my bloodstream more easily."
+			]
 			entity_vis_size: 1.0f
 			id: "082FAF1429E85144"
-			rewards: [{
-				id: "234646269F86D359"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E7C9A5C29BCD0EB"
+					table_id: 5114517534435723353L
+					type: "random"
+				}
+				{
+					id: "234646269F86D359"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "416FAD9D92FCF3EA"
@@ -3184,13 +3231,26 @@
 		}
 		{
 			dependencies: ["7572614CAD3C843A"]
+			description: [
+				"&4What have you made this time?"
+				""
+				"A portable living flesh shield that can be retracted for ease of use. It can expand and reveal its thorny side to damage attackers whenever needed. The only downside is that I need to supply it with nutrients."
+			]
 			entity_vis_size: 1.0f
 			id: "31E7ABD79D14926E"
-			rewards: [{
-				id: "7E62282114133575"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "03ABE887BAAB69A1"
+					item: "biomancy:nutrient_paste"
+					type: "item"
+				}
+				{
+					id: "7E62282114133575"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5F92BFAB49D0468F"
 				item: "biomancy:thorn_shield"
@@ -3208,11 +3268,19 @@
 			description: ["This almighty fertilizer is the most powerful plant supplement us sanguines have to offer. This is many times more powerful than bone meal or other fertilizers. Even crops where bone meal normally is ineffective, such as sugarcane, will be affected by this fertilizer."]
 			entity_vis_size: 1.0f
 			id: "065D3252F4323B64"
-			rewards: [{
-				id: "3D7ABB9175A8DD99"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "4F07D53C9B5D9453"
+					item: "biomancy:nutrient_paste"
+					type: "item"
+				}
+				{
+					id: "3D7ABB9175A8DD99"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5DC7C7D35A8BBABB"
 				item: "biomancy:fertilizer"
@@ -3226,11 +3294,19 @@
 			description: ["An organic, plant-based material, broken down to its purest form. This is clearly not edible. This would be like eating dirt."]
 			entity_vis_size: 1.0f
 			id: "58142B18675A7AF0"
-			rewards: [{
-				id: "2EABE1DDB3880526"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "54E0B3D91E94D7E8"
+					item: "biomancy:organic_matter"
+					type: "item"
+				}
+				{
+					id: "2EABE1DDB3880526"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "32F5A1CAF2F14A20"
 				item: "biomancy:organic_matter"
@@ -3247,11 +3323,19 @@
 			description: ["The purest form of nutrients. I believe humans refer to the nutrition value of food as calories?"]
 			entity_vis_size: 1.0f
 			id: "7A2791CDDE031519"
-			rewards: [{
-				id: "4B9293341D9D151D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "55C2B2CC95BD66C1"
+					item: "biomancy:nutrients"
+					type: "item"
+				}
+				{
+					id: "4B9293341D9D151D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2A7D28EAD5D787F7"
 				item: "biomancy:nutrients"
@@ -3353,11 +3437,19 @@
 			dependencies: ["54D942F53453202D"]
 			entity_vis_size: 1.0f
 			id: "65CD213C69DD4F67"
-			rewards: [{
-				id: "43441C338ED0A898"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "116F1E970705ADF3"
+					table_id: 2849036788629031597L
+					type: "random"
+				}
+				{
+					id: "43441C338ED0A898"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "14D40F3459FF393B"
 				item: {
@@ -3403,11 +3495,19 @@
 			dependencies: ["65CD213C69DD4F67"]
 			entity_vis_size: 1.0f
 			id: "4ADEEC22740295F1"
-			rewards: [{
-				id: "575B8801A1D12351"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41A6DC12BE4116AB"
+					table_id: 7659875039651690934L
+					type: "random"
+				}
+				{
+					id: "575B8801A1D12351"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "4419A11CE6FC9292"
 				item: {
@@ -3989,13 +4089,22 @@
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
+			description: ["&4The fauna of this world is not as I remember. Everything has been corrupted by the opposite colour: red. Blood has seeped into every crevice of this world and plants are freely growing everywhere based on this new paradigm."]
 			entity_vis_size: 1.0f
 			id: "3488DDCE529DD3F8"
-			rewards: [{
-				id: "621128FD92F8D0C6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "289C24AA2E2CDB21"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "621128FD92F8D0C6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "735757DD5C64C79A"
@@ -4008,6 +4117,7 @@
 					type: "item"
 				}
 			]
+			title: "Blood Fauna"
 			x: 16.5d
 			y: -18.5d
 		}
@@ -4526,6 +4636,12 @@
 			dependencies: ["52FE229CF0737F96"]
 			entity_vis_size: 1.0f
 			id: "013A96C26FC340F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "186FDC7AE4324D17"
+				table_id: 5114517534435723353L
+				type: "random"
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -4552,6 +4668,12 @@
 			dependencies: ["52FE229CF0737F96"]
 			entity_vis_size: 1.0f
 			id: "0412199F9CE8BB85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40C543DF7549C02B"
+				table_id: 5114517534435723353L
+				type: "random"
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -4578,6 +4700,12 @@
 			dependencies: ["52FE229CF0737F96"]
 			entity_vis_size: 1.0f
 			id: "4AD8D96421EAA635"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "615AE49694846E04"
+				table_id: 5114517534435723353L
+				type: "random"
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -4604,6 +4732,12 @@
 			dependencies: ["52FE229CF0737F96"]
 			entity_vis_size: 1.0f
 			id: "676E0A1FE49441E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45C95991053418B7"
+				table_id: 5114517534435723353L
+				type: "random"
+			}]
 			tasks: [{
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
@@ -4628,6 +4762,15 @@
 		}
 		{
 			dependencies: ["54D942F53453202D"]
+			description: [
+				"I believe I've finally figured out how those noble barons distill blood into a pure form."
+				""
+				"&4Considering you were talking about a biorganic brewing stand minutes ago, I assume this isn't a 'traditional' method."
+				""
+				"Of course not. I think they use brass or something? No, this is a masterpiece! My masterpiece! "
+				"{@pagebreak}"
+				"I can cleanse the impurities of blood with a cleansing serum. Of course, this only goes so far. After that, I will need to &oage&r the blood."
+			]
 			entity_vis_size: 1.0f
 			id: "6CD7A701773A0862"
 			rewards: [{
@@ -4683,6 +4826,11 @@
 		}
 		{
 			dependencies: ["6CD7A701773A0862"]
+			description: [
+				"Infusing iron with blood is quite simple if I am to do it with organic stations. I just need pure blood, iron, some mineral fragment, pure nutrients, and a really good organic forge that I conveniently have."
+				""
+				"If I had higher quality blood or meatsteel it would certainly ease the process."
+			]
 			entity_vis_size: 1.0f
 			id: "5283B40105846030"
 			rewards: [{
@@ -4741,8 +4889,22 @@
 		}
 		{
 			dependencies: ["54D942F53453202D"]
+			description: ["Using a syringe-like thin needle-blade, this should be able to inject concoctions and serums into most creatures."]
 			entity_vis_size: 1.0f
 			id: "3BC88F6CBADB7963"
+			rewards: [
+				{
+					count: 4
+					id: "2C8CC524EA941C4C"
+					item: "biomancy:vial"
+					type: "item"
+				}
+				{
+					id: "0CDCA733B1F88451"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1B9E6ECEF7D658DA"
 				item: {
