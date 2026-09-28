@@ -43,6 +43,33 @@ ItemEvents.modification(event => {
 		["clanginghowl:extraterrestrial_sword", 13],
 		["clanginghowl:extraterrestrial_hoe", 8],
 		["clanginghowl:extraterrestrial_hammer", 16],
+
+		// BH Sanguinite
+		3810,
+		["bloodyhell:sanguinite_pickaxe", 7],
+		["bloodyhell:sanguinite_shovel", 6.5],
+		["bloodyhell:sanguinite_axe", 14],
+		["bloodyhell:sanguinite_sword", 12],
+		["bloodyhell:sanguinite_hoe", 7],
+
+		// BH Rhnull
+		4318,
+		["bloodyhell:rhnull_pickaxe", 8],
+		["bloodyhell:rhnull_shovel", 7.5],
+		["bloodyhell:rhnull_axe", 15],
+		["bloodyhell:rhnull_sword", 13],
+		["bloodyhell:rhnull_hoe", 8],
+
+		// BH Blasphemite
+		6350,
+		["bloodyhell:blasphemite_pickaxe", 9],
+		["bloodyhell:blasphemite_shovel", 8.5],
+		["bloodyhell:blasphemite_axe", 17],
+		["bloodyhell:blasphemite_sword", 15],
+		["bloodyhell:blasphemite_hoe", 9],
+		["bloodyhell:blasphemous_twin_daggers", 19],
+		["bloodyhell:blasphemous_hulking_mass_of_iron", 19],
+		["bloodyhell:blasphemous_impaler", 20],
 		
 		/////////////
 		//  Armor  //
@@ -54,6 +81,30 @@ ItemEvents.modification(event => {
 		6880, ["butchery:dragon_scale_armor_chestplate", 19],
 		6450, ["butchery:dragon_scale_armor_leggings", 14],
 		5590, ["butchery:dragon_scale_armor_boots", 12],
+
+		// Biomancy Acolyte
+		200, ["biomancy:acolyte_armor_helmet", 4],
+		250, ["biomancy:acolyte_armor_chestplate", 8],
+		250, ["biomancy:acolyte_armor_leggings", 7],
+		200, ["biomancy:acolyte_armor_boots", 4],
+
+		// BH Sanguinite
+		763, ["bloodyhell:blood_helmet", 6],
+		1272, ["bloodyhell:blood_chestplate", 10],
+		1144, ["bloodyhell:blood_leggings", 9],
+		763, ["bloodyhell:blood_boots", 6],
+
+		// BH Rhnull
+		1017, ["bloodyhell:rhnull_helmet", 8],
+		1524, ["bloodyhell:rhnull_chestplate", 12],
+		1397, ["bloodyhell:rhnull_leggings", 11],
+		1017, ["bloodyhell:rhnull_boots", 8],
+
+		// BH Blasphemite
+		2794, ["bloodyhell:blasphemite_helmet", 11],
+		3810, ["bloodyhell:blasphemite_chestplate", 15],
+		3556, ["bloodyhell:blasphemite_leggings", 14],
+		2794, ["bloodyhell:blasphemite_boots", 11],
 
 	].forEach(en => {
 		if (typeof en === "number") return d = en;

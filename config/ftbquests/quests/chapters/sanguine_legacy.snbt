@@ -212,6 +212,7 @@
 				advancement: "vampirism:vampire/bat"
 				criterion: ""
 				ftbquestsentityvis_icon: {
+					cycle_seconds: 0.0f
 					enabled: 1b
 					entity: "minecraft:bat"
 					idle_mode: "USE_GLOBAL"

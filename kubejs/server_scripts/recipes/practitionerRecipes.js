@@ -8,7 +8,8 @@ ServerEvents.recipes(event => {
         'patchouli:guide_book',
         'otherverse:chalk',
         'otherverse:demesne_beacon',
-        'goety:soul_emerald'
+        'goety:soul_emerald',
+        'otherverse:intestines'
     ]
 
     const removeCraftingShaped = [
@@ -17,12 +18,20 @@ ServerEvents.recipes(event => {
         'minecraft:enchanting_table'
     ]
 
+    const removeSmelting = [
+        'otherverse:quicksilver'
+    ]
+
     remove.forEach(item => {
         event.remove({ output: item })
     })
 
     removeCraftingShaped.forEach(item => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })
+    })
+
+    removeSmelting.forEach(item => {
+        event.remove({ output: item, type: 'minecraft:smelting' })
     })
 
     event.replaceInput(

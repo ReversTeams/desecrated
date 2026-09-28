@@ -189,6 +189,17 @@ ServerEvents.tags('item', event => {
         'bloodyhell:forbidden_bookshelf_block'
     ]);
 
+    add('keep_equipment:kept_equipment', [
+        "desecratedcore:vine_key_item", 
+        "desecratedcore:iron_key_item", 
+        "desecratedcore:artificer_key_item", 
+        "desecratedcore:practitioner_key_item", 
+        "desecratedcore:yore_key_item", 
+        "desecratedcore:moon_key_item", 
+        "desecratedcore:exile_key_item", 
+        "desecratedcore:knowledge_fruit"
+    ]);
+
     add('sol_valheim_reforged:always_edible', [
         'minecraft:golden_apple',
         'quark:ancient_fruit',

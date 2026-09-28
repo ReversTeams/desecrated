@@ -40,7 +40,7 @@
 		#Add the string id in quotes of any dimension (/vampirism currentDimension) you want to enforce sundamage for to this comma-separated list. Overrides defaults and values added by other mods
 		sundamageDimensionsOverridePositive = []
 		#Add the string id in quotes of any dimension (/vampirism currentDimension) you want to disable sundamage for to this comma-separated list. Overrides defaults and values added by other mods
-		sundamageDimensionsOverrideNegative = []
+		sundamageDimensionsOverrideNegative = ["reverseeon:island_dim"]
 		#Additional biomes the player should not get sundamage in. Use biome ids e.g. ["minecraft:mesa", "minecraft:plains"]
 		sundamageDisabledBiomes = []
 

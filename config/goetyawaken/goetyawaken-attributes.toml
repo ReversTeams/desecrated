@@ -817,8 +817,50 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		boundMinisterDamage = 5.0
 
-	[Attributes."Soul Blast Furnace"]
-		#How many ticks one soul burns in the Soul Blast Furnace, Default: 40
+	[Attributes."Bound Enchanter"]
+		#How much Max Health Bound Enchanters have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		boundEnchanterHealth = 24.0
+		#How much natural armor points Bound Enchanters have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		boundEnchanterArmor = 0.0
+		#How much following/detection range Bound Enchanters have, Default: 16.0
+		#Range: 1.0 ~ 2048.0
+		boundEnchanterFollowRange = 16.0
+
+	[Attributes."Blasting Wraith"]
+		#How much damage Blasting Wraiths deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		blastingWraithDamage = 3.0
+
+	[Attributes."Enchanter Servant"]
+		#How much Max Health Enchanter Servants have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		enchanterServantHealth = 24.0
+		#How much natural armor points Enchanter Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		enchanterServantArmor = 0.0
+		#How much armor toughness Enchanter Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		enchanterServantArmorToughness = 0.0
+		#How far Enchanter Servants can detect targets, Default: 16.0
+		#Range: 1.0 ~ 2048.0
+		enchanterServantFollowRange = 16.0
+		#How fast Enchanter Servants move, Default: 0.35
+		#Range: 0.01 ~ 1.7976931348623157E308
+		enchanterServantMovementSpeed = 0.35
+		#Cooldown in ticks between enchant attempts, Default: 600
+		#Range: > 20
+		enchanterInterval = 600
+		#Maximum number of enchanted allies an Enchanter Servant can maintain, Default: 5
 		#Range: > 1
-		soulBlastFurnaceBurnTime = 40
+		enchanterMaxLinkedTargets = 5
+		#Maximum number of different enchant types a mob can have before it can no longer be enchanted by Enchanter, Default: 4
+		#Range: > 1
+		enchanterMaxEnchantsPerEntity = 4
+		#Maximum total enchant levels a mob can have before it can no longer be enchanted by Enchanter, Default: 7
+		#Range: > 1
+		enchanterMaxTotalEnchantLevels = 7
+		#Enchant types and their maximum levels that can be applied, each entry in the form [enchant_name, max_level]. Setting a max level of 0 disables that enchant, Default: [[protection, 5], [tough, 3], [health_boost, 5], [speedy, 5], [strong, 4], [thorn, 3], [multishot, 1], [huge, 3], [fast_attack, 5], [fire_aspect, 4]]
+		enchanterEnchants = ["[protection, 5]", "[tough, 3]", "[health_boost, 5]", "[speedy, 5]", "[strong, 4]", "[thorn, 3]", "[multishot, 1]", "[huge, 3]", "[fast_attack, 5]", "[fire_aspect, 4]"]
 
