@@ -550,7 +550,7 @@
 		shatteredFocusCooldown = 160
 
 	["Focus Spells"."Agony Focus"]
-		#Agony Focus soul cost (default: 16)
+		#Agony Focus soul cost (default: 8)
 		#Range: > 0
 		agonyFocusSoulCost = 16
 		#Agony Focus cast up duration in ticks (default: 0)
@@ -592,7 +592,7 @@
 		fireballFeastFocusCooldown = 400
 
 	["Focus Spells"."Heaven Rift Focus"]
-		#Heaven Rift Focus soul cost (default: 256)
+		#Heaven Rift Focus soul cost (default: 64)
 		#Range: > 0
 		heavenRiftFocusSoulCost = 256
 		#Heaven Rift Focus cast duration in ticks (default: 0)
@@ -667,182 +667,255 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		mushroomScatterBombAcidPotencyDamage = 0.5
 
-["Weapon Stats"]
-	#Truth Seeker base damage (default: 12.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	truthSeekerDamage = 12.0
-	#Truth Seeker attack speed (default: 0.8)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	truthSeekerAttackSpeed = 0.8
-	#Frost Scythe base damage (default: 8.5)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	frostScytheDamage = 8.5
-	#Frost Scythe attack speed (default: 0.6)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	frostScytheAttackSpeed = 0.6
-	#Glaive base damage (default: 8.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	glaiveDamage = 8.0
-	#Glaive attack speed (default: 1.2)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	glaiveAttackSpeed = 1.2
-	#Moonlight Cut base damage (default: 10.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	moonlightCutDamage = 10.0
-	#Moonlight Cut attack speed (default: 1.2)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	moonlightCutAttackSpeed = 1.2
-	#Grave Bane base damage (default: 9.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	graveBaneDamage = 9.0
-	#Grave Bane attack speed (default: 1.2)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	graveBaneAttackSpeed = 1.2
-	#Sun Grace base damage (default: 11.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	sunGraceDamage = 11.0
-	#Sun Grace attack speed (default: 0.5)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	sunGraceAttackSpeed = 0.5
-	#Mace base damage (default: 9.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	maceDamage = 9.0
-	#Mace attack speed (default: 0.5)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	maceAttackSpeed = 0.5
-	#MooShroom Mace base damage (default: 15.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	mooShroomMaceDamage = 15.0
-	#MooShroom Mace attack speed (default: 0.5)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	mooShroomMaceAttackSpeed = 0.5
-	#Claymore base damage (default: 10.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	claymoreDamage = 10.0
-	#Claymore attack speed (default: 0.6)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	claymoreAttackSpeed = 0.6
-	#Starless Night base damage (default: 16.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	starlessNightDamage = 16.0
-	#Starless Night attack speed (default: 0.6)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	starlessNightAttackSpeed = 0.6
-	#Obsidian Claymore base damage (default: 13.0)
-	#Range: 0.0 ~ 1.7976931348623157E308
-	obsidianClaymoreDamage = 13.0
-	#Obsidian Claymore attack speed (default: 0.6)
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	obsidianClaymoreAttackSpeed = 0.6
+	["Focus Spells"."Ghost Havoc Focus"]
+		#Ghost Havoc Focus soul cost (default: 24)
+		#Range: > 0
+		ghostHavocFocusSoulCost = 24
+		#Ghost Havoc Focus cast up duration in ticks (default: 40)
+		#Range: > 0
+		ghostHavocFocusCastUp = 40
+		#Ghost Havoc Focus spell cooldown in ticks (default: 200 - 10 seconds)
+		#Range: > 0
+		ghostHavocFocusSpellCooldown = 200
 
-["Misc Settings"]
-	#Whether Obsidian Monolith should glow (default: true)
-	obsidianMonolithGlow = true
-	#Whether Wight Servant should play ambient sound (default: true)
-	wightServantAmbientSound = true
-	#Enderman Servant blacklisted blocks that cannot be picked up. Default: Minecraft's unbreakable blocks, chests, barrels, and shulker boxes
-	endermanServantBlacklist = ["minecraft:bedrock", "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:structure_block", "minecraft:structure_void", "minecraft:crafting_table"]
-	#Allow the multi shot for projectile. Use the full name (eg: minecraft:arrow)
-	allowMultiShotProjectiles = ["minecraft:arrow", "minecraft:tipped_arrow", "minecraft:spectral_arrow", "minecraft:snowball", "minecraft:firework_rocket", "minecraft:fireball", "minecraft:llama_spit", "minecraft:small_fireball", "minecraft:shulker_bullet", "minecraft:dragon_fireball", "goety:soul_bolt", "goety:death_arrow", "goety:fireball", "goety:lavaball", "goety:hell_bolt", "goety:hell_chant", "goety:sword", "goety:hell_blast", "goety:ice_spike", "goety:ice_spear", "goety:ice_storm", "goety:ghost_arrow", "goety:death_arrow", "goety:harpoon", "goety:poison_quill", "goety:bone_shard", "goety:scythe", "goety:dragon_fireball", "goety:haunted_skull_shot", "goety:wither_skull", "goety:soul_bullet", "goety:soul_bolt", "goety:poison_bolt", "goety:steam_missile", "goety:wither_bolt", "goety:necro_bolt", "goety:magic_bolt", "goety:void_shock_bomb", "goety:ill_bomb", "goety:electro_orb", "goety:surging_orb", "goety:bouncy_bubble", "goety:scatter_bomb", "goety:snap_fungus", "goety:blast_fungus", "goety:berserk_fungus", "goety:magma_bomb", "goety:blossom_ball", "goety:web_shot", "goety:snareling_shot", "goety:ender_goo", "goety:tidal_surge", "goety:razor_wind", "goety:void_slash", "goetyawaken:silverfish_egg", "goetyawaken:endermite_egg", "goetyawaken:ghost_fire_bolt", "goetyawaken:mushroom_missile", "goetyawaken:mushroom_scatter_bomb", "goetyawaken:frost_scythe_slash", "goetyawaken:explosive_arrow", "goetyawaken:mod_sword_projectile", "goetyawaken:giant_ghast_fireball", "goetyawaken:tracking_fireball", "goetyawaken:giant_hell_blast", "goetyawaken:flying_axe", "goetyawaken:nameless_bolt", "goetyawaken:corrupted_soul_bolt"]
-	#Enable Armor Enhancement: Illagers with the Armor Enhancement cannot equip armor, and equipped armor is dropped (default: true)
-	enableArmorEnhancement = true
-	#Hostile Illagers (Pillager, Vindicator, Crusher, Mountaineer) may spawn with Armor Enhancement. Chance is regional difficulty * 4%%, capped at 25%% (default: false)
-	hostileArmorEnhancementSpawn = false
-	#Armor points granted by Armor Enhancement (default: 15.0)
-	armorEnhancementArmor = 15.0
-	#Armor toughness points granted by Armor Enhancement (default: 4.0)
-	armorEnhancementToughness = 4.0
-	#Whether Illager servants converted with the Ring of the Forge gain Armor Enhancement (default: true)
-	ringOfForgeConversionEnhancement = true
-	#Allow the Spell Bounce attribute to affect non-spell projectiles (arrows, snowballs, thrown potions, tridents, ender pearls, etc). Default: false
-	allowSpellBounceOnNonSpellProjectiles = false
-	#Mob Enchant Fast Attack: action speed multiplier gained per level (default: 0.1, level 10 = 2.0x)
-	#Range: 0.05 ~ 0.5
-	fastAttackSpeedPerLevel = 0.1
+	["Focus Spells"."Rock Launch Focus"]
+		#Rock Launch Focus soul cost (default: 12)
+		#Range: > 0
+		rockLaunchFocusSoulCost = 12
+		#Rock Launch Focus cast up duration in ticks (default: 20)
+		#Range: > 0
+		rockLaunchFocusCastUp = 20
+		#Rock Launch Focus spell cooldown in ticks (default: 300 - 15 seconds)
+		#Range: > 0
+		rockLaunchFocusSpellCooldown = 300
 
-[Enhancements]
-	#Enable Blastling Enhancement(default: true)
-	enableBlastlingEnhancement = true
-	#Enable Snareling Enhancement(default: true)
-	enableSnarelingEnhancement = true
-	#Enable Watchling Enhancement(default: true)
-	enableWatchlingEnhancement = true
-	#Enable Squall Golem Enhancement(default: true)
-	enableSquallGolemEnhancement = true
-	#Enable Leapleaf Enhancement(default: true)
-	enableLeapleafEnhancement = true
-	#Enable Wildfire Enhancement(default: true)
-	enableWildfireEnhancement = true
-	#Enable Piker Enhancement(default: true)
-	enablePikerEnhancement = true
-	#Enable Brood Mother Enhancement(default: true)
-	enableBroodMotherEnhancement = true
+	["Focus Spells"."Seismic Focus"]
+		#Seismic Focus soul cost (default: 64)
+		#Range: > 0
+		seismicFocusSoulCost = 64
+		#Seismic Focus cast duration in ticks (default: 60 - 3 seconds)
+		#Range: > 0
+		seismicFocusCastDuration = 60
+		#Seismic Focus cooldown in ticks (default: 400 - 20 seconds)
+		#Range: > 0
+		seismicFocusCooldown = 400
+		#Seismic Wave extra damage per Potency level (default: 2.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		seismicPotencyDamage = 2.0
+		#Seismic Wave base damage (default: 18.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		seismicWaveBaseDamage = 18.0
+		#Seismic Wave base max radius in blocks (default: 16.0)
+		#Range: 1.0 ~ 64.0
+		seismicWaveBaseRadius = 16.0
+		#Seismic Monolith max health (default: 70.0)
+		#Range: 1.0 ~ 1.7976931348623157E308
+		seismicMonolithHealth = 70.0
+		#Seismic Monolith armor (default: 4.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		seismicMonolithArmor = 4.0
+		#Damage the Seismic Monolith takes each time it releases a seismic wave (default: 10.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		seismicMonolithSelfDamage = 10.0
 
-["Structure Settings"]
-	#How many blocks above the structure base to scan for cavities
-	#Range: 1 ~ 50
-	foundationScanAbove = 7
-	#How many blocks below the structure base to scan for cavities. Increase this if you see hollow spaces under structures.
-	#Range: 10 ~ 200
-	foundationScanBelow = 50
-	#List of structures that will receive foundation generation. Format: modid:structure_name
-	foundationWhitelist = ["goetyawaken:mirage", "goetyawaken:ominous_castle", "goetyawaken:arch_illusioner_keep"]
+	["Focus Spells"."Oblivion Gale Focus"]
+		#Oblivion Gale Focus soul cost (default: 64)
+		#Range: > 0
+		oblivionGaleFocusSoulCost = 64
+		#Oblivion Gale Focus cast duration in ticks (default: 60 - 3 seconds)
+		#Range: > 0
+		oblivionGaleFocusCastDuration = 60
+		#Oblivion Gale Focus cooldown in ticks (default: 600 - 30 seconds)
+		#Range: > 0
+		oblivionGaleFocusCooldown = 600
+		#Oblivion Gale damage (default: 2.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		oblivionGaleDamage = 2.0
+		#Oblivion Gale extra damage per Potency level (default: 0.5)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		oblivionGalePotencyDamage = 0.5
 
-["Item Settings"]
-	#Death Cap Mushroom cooldown in ticks after eating (default: 1200 - 60 seconds)
-	#Range: > 0
-	deathCapMushroomCooldown = 1200
-	#Death Cap Mushroom maximum usages before being consumed (default: 10)
-	#Range: > 1
-	deathCapMushroomMaxUsages = 10
-	#Death Cap Mushroom BERSERK effect duration in ticks (default: 600 - 30 seconds)
-	#Range: > 0
-	deathCapMushroomEffectDuration = 600
-	#Death Cap Mushroom BERSERK effect level/amplifier (default: 4, which is level IV)
-	#Range: 1 ~ 255
-	deathCapMushroomEffectLevel = 4
-	#Swelling Pendant max slime value (default: 10000)
-	#Range: > 1
-	swellingPendantMaxSlimeValue = 10000
-	#Enable Grimoire random affix system (crafting/ritual affix rolls and Curios attribute modifiers). Default: true
-	grimoireAffixEnabled = true
-	#Allow negative attribute values on Grimoire affixes. Default: true
-	grimoireAffixAllowNegative = true
-	#Allow Crone Servant to throw Gas Brew (default: false)
-	croneServantAllowGasBrew = false
-	#The maximum number of times a single item can be enhanced on an anvil using a Gilded Ingot to improve its enchantments. (default: 1)
-	#Range: > 1
-	gildedIngotMaxEnhancements = 1
+	["Focus Spells"."Weapon Stats"]
+		#Truth Seeker base damage (default: 12.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		truthSeekerDamage = 12.0
+		#Truth Seeker attack speed (default: 0.8)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		truthSeekerAttackSpeed = 0.8
+		#Frost Scythe base damage (default: 8.5)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		frostScytheDamage = 8.5
+		#Frost Scythe attack speed (default: 0.6)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		frostScytheAttackSpeed = 0.6
+		#Glaive base damage (default: 8.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		glaiveDamage = 8.0
+		#Glaive attack speed (default: 1.2)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		glaiveAttackSpeed = 1.2
+		#Moonlight Cut base damage (default: 10.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		moonlightCutDamage = 10.0
+		#Moonlight Cut attack speed (default: 1.2)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		moonlightCutAttackSpeed = 1.2
+		#Grave Bane base damage (default: 9.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		graveBaneDamage = 9.0
+		#Grave Bane attack speed (default: 1.2)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		graveBaneAttackSpeed = 1.2
+		#Sun Grace base damage (default: 11.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sunGraceDamage = 11.0
+		#Sun Grace attack speed (default: 0.5)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		sunGraceAttackSpeed = 0.5
+		#Mace base damage (default: 9.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		maceDamage = 9.0
+		#Mace attack speed (default: 0.5)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		maceAttackSpeed = 0.5
+		#MooShroom Mace base damage (default: 15.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		mooShroomMaceDamage = 15.0
+		#MooShroom Mace attack speed (default: 0.5)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		mooShroomMaceAttackSpeed = 0.5
+		#Claymore base damage (default: 10.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		claymoreDamage = 10.0
+		#Claymore attack speed (default: 0.6)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		claymoreAttackSpeed = 0.6
+		#Starless Night base damage (default: 16.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		starlessNightDamage = 16.0
+		#Starless Night attack speed (default: 0.6)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		starlessNightAttackSpeed = 0.6
+		#Obsidian Claymore base damage (default: 13.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		obsidianClaymoreDamage = 13.0
+		#Obsidian Claymore attack speed (default: 0.6)
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		obsidianClaymoreAttackSpeed = 0.6
 
-["Mob Spawning"]
-	#Allow Zombie Darkguard to naturally spawn. Default: false
-	zombieDarkguardSpawn = false
-	#Allow Skeleton Vanguard to naturally spawn. Default: false
-	skeletonVanguardSpawn = false
-	#Allow Parched to naturally spawn. Default: false
-	parchedSpawn = false
-	#Allow Ice Creeper to naturally spawn. Default: false
-	iceCreeperSpawn = false
-	#Allow Bouldering Zombie to naturally spawn. Default: false
-	boulderingZombieSpawn = false
-	#Allow Jungle Zombie to naturally spawn. Default: false
-	jungleZombieSpawn = false
-	#Allow Frozen Zombie to naturally spawn. Default: false
-	frozenZombieSpawn = false
-	#Allow Hostile Snapper to naturally spawn. Default: false
-	hostileSnapperSpawn = false
-	#Allow Hostile Tropical Slime to naturally spawn. Default: false
-	hostileTropicalSlimeSpawn = false
-	#Allow Hostile Mini Ghast to naturally spawn. Default: false
-	hostileMiniGhastSpawn = false
-	#Allow Hostile Gnasher to naturally spawn. Default: false
-	hostileGnasherSpawn = false
-	#Allow Sunken Skeleton to naturally spawn. Default: false
-	sunkenSkeletonSpawn = false
-	#Allow Hostile Wildfire to naturally spawn. Default: false
-	hostileWildfireSpawn = false
-	#Allow Hostile Spider Creeder to naturally spawn. Default: false
-	hostileSpiderCreederSpawn = false
-	#Allow Hostile Twilight Goat to naturally spawn. Default: false
-	hostileTwilightGoatSpawn = false
+	["Focus Spells"."Misc Settings"]
+		#Allow Crone Servant to throw Gas Brew (default: false)
+		croneServantAllowGasBrew = false
+		#Whether Obsidian Monolith should glow (default: true)
+		obsidianMonolithGlow = true
+		#Enable Armor Enhancement: Illagers with the Armor Enhancement cannot equip armor, and equipped armor is dropped (default: true)
+		enableArmorEnhancement = true
+		#Hostile Illagers (Pillager, Vindicator, Crusher, Mountaineer) may spawn with Armor Enhancement. Chance is regional difficulty * 4%%, capped at 25%% (default: false)
+		hostileArmorEnhancementSpawn = false
+		#Armor points granted by Armor Enhancement (default: 15.0)
+		armorEnhancementArmor = 15.0
+		#Armor toughness points granted by Armor Enhancement (default: 4.0)
+		armorEnhancementToughness = 4.0
+		#Whether Illager servants converted with the Ring of the Forge gain Armor Enhancement (default: true)
+		ringOfForgeConversionEnhancement = true
+		#Whether Wight Servant should play ambient sound (default: true)
+		wightServantAmbientSound = true
+		#Enderman Servant blacklisted blocks that cannot be picked up. Default: Minecraft's unbreakable blocks, chests, barrels, and shulker boxes
+		endermanServantBlacklist = ["minecraft:bedrock", "minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:structure_block", "minecraft:structure_void", "minecraft:crafting_table"]
+		#Enchanter Servant blacklisted entity ids that will never be selected as enchant targets. Default: [minecraft:vex, goety:neollager, goety:prisoner, goety:irk_servant, goety:vex_servant, goetyawaken:enchanter_servant, goetyawaken:bound_enchanter, goetyawaken:enchanter]
+		enchanterExcludedEntities = ["minecraft:vex", "goety:neollager", "goety:prisoner", "goety:irk_servant", "goety:vex_servant", "goetyawaken:enchanter_servant", "goetyawaken:bound_enchanter", "goetyawaken:enchanter"]
+		#Allow the multi shot for projectile. Use the full name (eg: minecraft:arrow)
+		allowMultiShotProjectiles = ["minecraft:arrow", "minecraft:tipped_arrow", "minecraft:spectral_arrow", "minecraft:snowball", "minecraft:firework_rocket", "minecraft:fireball", "minecraft:llama_spit", "minecraft:small_fireball", "minecraft:shulker_bullet", "minecraft:dragon_fireball", "goety:soul_bolt", "goety:fireball", "goety:lavaball", "goety:hell_bolt", "goety:hell_chant", "goety:sword", "goety:hell_blast", "goety:ice_spike", "goety:ice_spear", "goety:ice_storm", "goety:ghost_arrow", "goety:death_arrow", "goety:harpoon", "goety:poison_quill", "goety:bone_shard", "goety:scythe", "goety:dragon_fireball", "goety:haunted_skull_shot", "goety:wither_skull", "goety:soul_bullet", "goety:soul_bolt", "goety:poison_bolt", "goety:steam_missile", "goety:wither_bolt", "goety:necro_bolt", "goety:magic_bolt", "goety:void_shock_bomb", "goety:ill_bomb", "goety:electro_orb", "goety:surging_orb", "goety:bouncy_bubble", "goety:scatter_bomb", "goety:snap_fungus", "goety:blast_fungus", "goety:berserk_fungus", "goety:magma_bomb", "goety:blossom_ball", "goety:web_shot", "goety:snareling_shot", "goety:ender_goo", "goety:tidal_surge", "goety:razor_wind", "goety:void_slash", "goetyawaken:silverfish_egg", "goetyawaken:endermite_egg", "goetyawaken:ghost_fire_bolt", "goetyawaken:mushroom_missile", "goetyawaken:mushroom_scatter_bomb", "goetyawaken:frost_scythe_slash", "goetyawaken:explosive_arrow", "goetyawaken:mod_sword_projectile", "goetyawaken:giant_ghast_fireball", "goetyawaken:tracking_fireball", "goetyawaken:giant_hell_blast", "goetyawaken:flying_axe", "goetyawaken:new_scatter_bomb", "goetyawaken:nameless_bolt", "goetyawaken:corrupted_soul_bolt"]
+		#Allow the Spell Bounce attribute to affect non-spell projectiles (arrows, snowballs, thrown potions, tridents, ender pearls, etc). Default: false
+		allowSpellBounceOnNonSpellProjectiles = false
+		#Mob Enchant Fast Attack: action speed multiplier gained per level (default: 0.1, level 10 = 2.0x)
+		#Range: 0.05 ~ 0.5
+		fastAttackSpeedPerLevel = 0.1
+
+	["Focus Spells".Enhancements]
+		#Enable Blastling Enhancement(default: true)
+		enableBlastlingEnhancement = true
+		#Enable Snareling Enhancement(default: true)
+		enableSnarelingEnhancement = true
+		#Enable Watchling Enhancement(default: true)
+		enableWatchlingEnhancement = true
+		#Enable Squall Golem Enhancement(default: true)
+		enableSquallGolemEnhancement = true
+		#Enable Leapleaf Enhancement(default: true)
+		enableLeapleafEnhancement = true
+		#Enable Wildfire Enhancement(default: true)
+		enableWildfireEnhancement = true
+		#Enable Piker Enhancement(default: true)
+		enablePikerEnhancement = true
+		#Enable Brood Mother Enhancement(default: true)
+		enableBroodMotherEnhancement = true
+
+	["Focus Spells"."Structure Settings"]
+		#How many blocks above the structure base to scan for cavities
+		#Range: 1 ~ 50
+		foundationScanAbove = 7
+		#How many blocks below the structure base to scan for cavities. Increase this if you see hollow spaces under structures.
+		#Range: 10 ~ 200
+		foundationScanBelow = 50
+		#List of structures that will receive foundation generation. Format: modid:structure_name
+		foundationWhitelist = ["goetyawaken:mirage", "goetyawaken:ominous_castle", "goetyawaken:arch_illusioner_keep"]
+
+	["Focus Spells"."Item Settings"]
+		#How many ticks one soul burns in the Soul Blast Furnace (default: 40)
+		#Range: > 1
+		soulBlastFurnaceBurnTime = 40
+		#The maximum number of times a single item can be enhanced on an anvil using a Gilded Ingot to improve its enchantments. (default: 1)
+		#Range: > 1
+		gildedIngotMaxEnhancements = 1
+		#Death Cap Mushroom cooldown in ticks after eating (default: 1200 - 60 seconds)
+		#Range: > 0
+		deathCapMushroomCooldown = 1200
+		#Death Cap Mushroom maximum usages before being consumed (default: 10)
+		#Range: > 1
+		deathCapMushroomMaxUsages = 10
+		#Death Cap Mushroom BERSERK effect duration in ticks (default: 600 - 30 seconds)
+		#Range: > 0
+		deathCapMushroomEffectDuration = 600
+		#Death Cap Mushroom BERSERK effect level/amplifier (default: 4, which is level IV)
+		#Range: 1 ~ 255
+		deathCapMushroomEffectLevel = 4
+		#Swelling Pendant max slime value (default: 10000)
+		#Range: > 1
+		swellingPendantMaxSlimeValue = 10000
+		#Enable Grimoire random affix system (crafting/ritual affix rolls and Curios attribute modifiers). Default: true
+		grimoireAffixEnabled = true
+		#Allow negative attribute values on Grimoire affixes. Default: true
+		grimoireAffixAllowNegative = true
+
+	["Focus Spells"."Mob Spawning"]
+		#Allow Zombie Darkguard to naturally spawn. Default: false
+		zombieDarkguardSpawn = false
+		#Allow Skeleton Vanguard to naturally spawn. Default: false
+		skeletonVanguardSpawn = false
+		#Allow Parched to naturally spawn. Default: false
+		parchedSpawn = false
+		#Allow Ice Creeper to naturally spawn. Default: false
+		iceCreeperSpawn = false
+		#Allow Bouldering Zombie to naturally spawn. Default: false
+		boulderingZombieSpawn = false
+		#Allow Jungle Zombie to naturally spawn. Default: false
+		jungleZombieSpawn = false
+		#Allow Frozen Zombie to naturally spawn. Default: false
+		frozenZombieSpawn = false
+		#Allow Hostile Snapper to naturally spawn. Default: false
+		hostileSnapperSpawn = false
+		#Allow Hostile Tropical Slime to naturally spawn. Default: false
+		hostileTropicalSlimeSpawn = false
+		#Allow Hostile Mini Ghast to naturally spawn. Default: false
+		hostileMiniGhastSpawn = false
+		#Allow Hostile Gnasher to naturally spawn. Default: false
+		hostileGnasherSpawn = false
+		#Allow Sunken Skeleton to naturally spawn. Default: false
+		sunkenSkeletonSpawn = false
+		#Allow Hostile Wildfire to naturally spawn. Default: false
+		hostileWildfireSpawn = false
+		#Allow Hostile Spider Creeder to naturally spawn. Default: false
+		hostileSpiderCreederSpawn = false
+		#Allow Hostile Twilight Goat to naturally spawn. Default: false
+		hostileTwilightGoatSpawn = false
 

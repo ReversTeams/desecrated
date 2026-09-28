@@ -2,7 +2,7 @@
 [storm]
 	#Base chance for The Storm to spawn on its once-per-day dusk roll (0.0 - 1.0).
 	#Range: 0.0 ~ 1.0
-	dailyChance = 0.0
+	dailyChance = 0.5
 	#Extra daily chance added when Vertin is on the island.
 	#Range: 0.0 ~ 1.0
 	vertinBonus = 0.5
@@ -21,9 +21,79 @@
 	#Tick at which the storm enters Phase 3.
 	#Range: 0 ~ 720000
 	phase3Tick = 2400
-	#Storm-damage reduction per Arcanist armor piece worn (0.20 = 20%, capped at 80%).
+	#Storm-damage reduction per Foundation Standard Uniform piece worn (0.20 = 20%, capped at 80%).
 	#Range: 0.0 ~ 0.25
 	armorReductionPerPiece = 0.2
+	#The moment the countdown reaches zero, strike everyone the Storm lands on
+	#who is not sheltered. Sheltered means the same three things it means
+	#everywhere else: the Equilibrium Umbrella in hand, an activated Hofmann Knot,
+	#or standing in ground a Protection Dove watches over.
+	#⚠️ Only fires at the end of a Reverse-Rain warning — a Storm called instantly
+	#by /weather storm or by the Critical Point gave nobody the two minutes the
+	#strike is the deadline for, so it does not strike.
+	#Also skipped entirely when the reverseeonStormDamage gamerule is false.
+	arrivalStrike = true
+	#HP the arrival strike deals. The default is far past any survivable total:
+	#the warning is a deadline, and a deadline you can miss and walk away from is
+	#not one. Lower it for a harsh-but-survivable Storm; arrivalStrike=false turns
+	#it off outright.
+	#Range: 0.0 ~ 10000.0
+	arrivalStrikeDamage = 1000.0
+	#Chance that, as phase 3 of a Storm begins, the Manus come for a Dove a player is
+	#sheltering under. They fight for the ground around it; if they win, the Dove is
+	#destroyed and everything it sheltered is exposed to the Storm, revert included.
+	#0 turns raids off. So does the reverseeonStormGriefing gamerule. An operator can
+	#still start one with /reverseeon manus raid start.
+	#Range: 0.0 ~ 1.0
+	manusRaidChance = 0.35
+	#Which phase of the Storm the raid is rolled at the start of: 2 or 3.
+	#Phase 2 brings the raid earlier, into a Storm that still has longer to run.
+	#Range: 2 ~ 3
+	manusRaidPhase = 3
+	#Whether the player who brings a raid must be sheltering under a Dove.
+	#false: any player within 64 blocks of a Dove (measured flat) can bring one.
+	manusRaidNeedsShelter = true
+	#The shortest time, in seconds, in which the Manus can take a Dove nobody defends.
+	#It caps how fast the bar can move their way, however many raiders reach the Dove,
+	#so there is time for players to get there. It cannot go below 80 (1:20).
+	#Range: 80 ~ 600
+	manusRaidMinFallSeconds = 80
+	#Holding the ground this many seconds wins the raid, whatever waves are left.
+	#Range: 60 ~ 1800
+	manusRaidHoldSeconds = 360
+	#How far around a player The Storm physically tears blocks away, in blocks.
+	#Beyond this the debris is drawn as client-side copies instead, which cost
+	#nothing but cannot be walked up to — so this is the radius within which the
+	#world genuinely comes apart.
+	#Everything taken is returned when the Storm ends. Requires the
+	#reverseeonStormLift gamerule.
+	#Range: 0 ~ 128
+	liftNearRadius = 40
+	#Most blocks one Storm may have taken at once. On reaching this, lifting stops
+	#and only the client-side debris continues.
+	#This bounds both how much of a base can be missing at any moment and how long
+	#the world takes to knit itself back together afterwards.
+	#Range: 0 ~ 100000
+	liftMaxBlocks = 4000
+	#Pieces torn off each claimed building every half-second.
+	#This is the speed one building comes apart at, not how many are affected.
+	#Range: 0 ~ 16
+	liftClustersPerPhase = 1
+	#Buildings coming apart at once, per storm phase.
+	#At 1 the Storm works on one building early and three at its peak.
+	#A building is claimed whole and then peeled from its roof down for as long
+	#as the Storm lasts; when nothing is left of it, another is claimed.
+	#Range: 0 ~ 16
+	liftStructuresPerPhase = 1
+	#Largest building the Storm will claim in one piece, in blocks.
+	#A base bigger than this is claimed in parts rather than all at once.
+	#Range: 16 ~ 100000
+	liftMaxStructureBlocks = 2048
+	#Smallest thing that counts as a building.
+	#Below this it is a fence post or a stray block, not something worth tearing
+	#apart — without this the Storm picks at litter instead of pulling a roof off.
+	#Range: 1 ~ 4096
+	liftMinStructureBlocks = 12
 
 [arcanist]
 	#Maximum Arcanist level.
@@ -32,16 +102,24 @@
 	#EXP required per level.
 	#Range: 1 ~ 1000000
 	expPerLevel = 100
-	#Iron's Spellbooks spell power granted per level while aura is active (0.0125 = +1.25%/lvl).
+	#Iron's Spellbooks spell power granted per level while the aura is active
+	#(0.004 = +0.4%/lvl, so +40% at level 100).
+	#WARNING: every spell-power bonus in this mod is a MULTIPLY_TOTAL modifier,
+	#and those MULTIPLY with each other rather than adding. This one, the aura
+	#colour, the Vertin set, an ally's aura and a bond all compound. At the old
+	#default of 0.0125 the stack reached roughly nineteen times damage, which is
+	#why these numbers came down together in 1.1.7.
 	#Range: 0.0 ~ 1.0
 	spellPowerPerLevel = 0.0125
-	#Spell-power cap as a fraction (1.25 = +125%).
+	#Spell-power cap as a fraction (0.40 = +40%).
+	#Raising this raises the TOP of a stack that multiplies - see the warning
+	#under spellPowerPerLevel before doubling it.
 	#Range: 0.0 ~ 100.0
 	spellPowerCap = 1.25
-	#Mana-regen bonus per level (0.0025 = +0.25%/lvl).
+	#Mana-regen bonus per level (0.0015 = +0.15%/lvl).
 	#Range: 0.0 ~ 1.0
 	manaRegenPerLevel = 0.0025
-	#Mana-regen cap as a fraction (0.35 = +35%).
+	#Mana-regen cap as a fraction (0.15 = +15%).
 	#Range: 0.0 ~ 100.0
 	manaRegenCap = 0.35
 
@@ -263,11 +341,11 @@
 	netherPortals = false
 	#Allow End portal frames to be filled with eyes of ender on the island.
 	#Off: the eye will not go in, and the player is told why.
-	endPortals = false
+	endPortals = true
 	#Take fall damage on the island.
 	#Off by default: it is a building space reached through a suitcase, and dying to
 	#your own scaffolding there is not the danger anyone came for.
-	fallDamage = false
+	fallDamage = true
 
 [wishing_orb]
 	#How long after a wish before the same player may wish again, in seconds. 240 = 4 minutes.
@@ -305,4 +383,271 @@
 	#IRREVERSIBLE - every Overworld build is lost, by design.
 	#Works in singleplayer, LAN and on servers alike. OFF by default.
 	enabled = false
+
+#Sharpodonty, the coin Lilya charges for Su-01вe upgrades.
+[sharpodonty]
+	#Least coin from killing a Storm monster.
+	#Set both min and max to 0 to stop Storm monsters paying out at all.
+	#Range: 0 ~ 10000
+	stormKillMin = 3
+	#Most coin from killing a Storm monster.
+	#A value below the minimum is raised to it rather than disabling the drop.
+	#Range: 0 ~ 10000
+	stormKillMax = 8
+	#Least coin from killing a Masked Follower.
+	#Range: 0 ~ 10000
+	manusKillMin = 6
+	#Most coin from killing a Masked Follower.
+	#Range: 0 ~ 10000
+	manusKillMax = 14
+	#Percentage of your purse lost when you die. 0 keeps all of it.
+	#The balance otherwise survives death, unlike items - this is the exception,
+	#and it is taken from the player who died before anything is carried over.
+	#Range: 0 ~ 100
+	deathLossPercent = 25
+
+#Lilya, and the one subject she cannot leave alone.
+[lilya]
+	#Lilya notices the Su-01вe.
+	#Greet her while holding one - or while sat on one - and she reacts to the
+	#broom rather than to you: she cheers, and she likes you a little more for
+	#having brought it. She is the one who builds them; this is her subject.
+	#false: she greets you the same way whatever you are carrying.
+	broomInterest = true
+	#Affinity she gains from seeing a broom, on top of the ordinary greeting.
+	#0 disables the affinity but keeps the reaction, if you want the character
+	#without the progression.
+	#Range: 0 ~ 50
+	broomAffinity = 2
+	#Ticks before a broom can impress her again. 6000 = five minutes.
+	#WARNING: without a cooldown the affinity is farmable by right-clicking
+	#her repeatedly while holding a broom, which is not a conversation.
+	#Range: 0 ~ 24000
+	broomCooldownTicks = 6000
+
+#The Quest Board. Its postings are derived from the world's year, so they turn
+#over whenever the Year Reel does - there is no timer and nothing is stored.
+[questboard]
+	#false: everyone on the server reads the SAME board, which is what makes it
+	#        a board - something people stand in front of and argue about.
+	#true:  each player gets their own postings.
+	#Switching this mid-world re-rolls every board immediately. Progress is
+	#stored per posting, so work already done on a job that is no longer
+	#offered is kept and becomes visible again if that job ever returns.
+	personalBoards = false
+	#Fewest postings on a board.
+	#A player who has only ever seen the Overworld draws from a smaller pool,
+	#so their board can be shorter than this - it is never padded with jobs
+	#in dimensions they have not been to.
+	#Range: 1 ~ 32
+	minPostings = 5
+	#Most postings on a board. Raised to the minimum if set below it.
+	#Range: 1 ~ 32
+	maxPostings = 10
+	#Scales every reward the board pays, as a percentage.
+	#100 is the shipped balance. This is the tap for how fast Sharpodonty
+	#enters the world once boards exist - see the note above [sharpodonty],
+	#whose defaults were set for a world with no boards in it.
+	#Range: 0 ~ 1000
+	rewardPercent = 100
+
+[vertin_outfit]
+	#Maximum mana added while all four Vertin pieces are worn. 0 = no set bonus.
+	#Applied as an Iron's Spellbooks attribute modifier, so the mana bar and F3
+	#both report it. Without Iron's Spellbooks installed there is no mana to add
+	#and this does nothing.
+	#Range: 0.0 ~ 10000.0
+	setMaxMana = 120.0
+	#The Record Skips: seconds before the full set can save its wearer again.
+	#A blow that would kill someone in all four pieces is cancelled instead -
+	#they are put back where they stood a few seconds earlier, on a sliver of
+	#health, with every point of mana gone. 0 makes it always ready, which is a
+	#player who cannot die to anything that takes more than one hit.
+	#Range: 0 ~ 86400
+	recordSkipCooldownSeconds = 900
+	#Fraction of maximum health the wearer is left on. 0.30 = 30%.
+	#Range: 0.05 ~ 1.0
+	recordSkipHealth = 0.3
+	#How many seconds back the wearer is put. Capped by the five seconds of
+	#position history the set keeps; a larger number simply uses the oldest
+	#sample there is.
+	#Range: 0.0 ~ 5.0
+	recordSkipRewindSeconds = 5.0
+	#How far the hat's spell-power aura reaches, in blocks.
+	#Range: 0.0 ~ 128.0
+	allyAuraRange = 17.0
+	#The same reach while the Vertin Coat is worn with the hat.
+	#Set this at or below allyAuraRange and the coat's set bonus does nothing;
+	#it is not clamped, because a pack may want them equal on purpose.
+	#Range: 0.0 ~ 128.0
+	allyAuraRangeWithCoat = 24.0
+	#Spell power the wearer gains (0.18 = +18%).
+	#WARNING: multiplies with the Arcanist aura, the aura colour and any bond -
+	#see the warning under [arcanist] spellPowerPerLevel.
+	#Range: 0.0 ~ 10.0
+	selfSpellPower = 0.18
+	#Spell power allies in range gain (0.22 = +22%). Does not stack.
+	#Higher than the wearer's own on purpose: standing in somebody else's aura
+	#is a choice about where you fight, and it is the only bonus in the mod a
+	#player can hand to a friend.
+	#Range: 0.0 ~ 10.0
+	allySpellPower = 0.22
+
+[npc_anchor]
+	#How far from its own block an NPC Anchor may be told to place someone.
+	#Every offset below is clamped to this, in both directions. It is the
+	#ceiling and not the offset: raising it does not move any anchor.
+	#Range: 0 ~ 64
+	maxOffset = 10
+	#Blocks ABOVE the anchor that an NPC appears.
+	#1 is standing on top of it. 0 puts them inside the anchor's own space,
+	#which the anchor will report as unsafe rather than quietly suffocate them.
+	#Range: -64 ~ 64
+	offsetY = 1
+	#Sideways offset on X. Positive is east.
+	#Range: -64 ~ 64
+	offsetX = 0
+	#Sideways offset on Z. Positive is south.
+	#Range: -64 ~ 64
+	offsetZ = 0
+	#Keep each anchored islander within territoryRadius of their anchor.
+	#OFF, and deliberately so: an islander who walks where you did not expect
+	#is a choice, and a territory nobody asked for turns the island's cast into
+	#seven mobs standing on seven squares. Turn it on and set the radius
+	#yourself - there is no default radius either, for the same reason.
+	territory = false
+	#How far from the anchor an islander may wander, in blocks.
+	#0 means no territory even when territory is true, which is what an
+	#unconfigured world has: switching the toggle on alone changes nothing
+	#until a radius is entered here.
+	#Under 8 is not recommended - an islander's own pathfinding overshoots that
+	#far on a single stroll and would be pulled back constantly.
+	#Range: 0 ~ 256
+	territoryRadius = 0
+
+#Carbunclew critters: taming, the pet cap, and the stats one is born with.
+[critters]
+	#Chance a single Critters Dust bonds a wild Carbunclew.
+	#Low on purpose: dust is the drop route and drops in sixes, so this is the
+	#patient way in. The Critter Can is the deliberate way - see tameChanceCan.
+	#Range: 0.0 ~ 1.0
+	tameChanceDust = 0.03
+	#Chance one Critter Can bonds a wild Carbunclew.
+	#A can costs a dust, an iron ingot and a piece of meat, so it is roughly
+	#three times the odds for something that takes a crafting step.
+	#Range: 0.0 ~ 1.0
+	tameChanceCan = 0.1
+	#How many critters one player may have bonded at once.
+	#The cap counts every critter on the roster, loaded or not - a pet left in
+	#another dimension is still yours. Set 0 for no cap at all.
+	#Range: 0 ~ 1000
+	petCap = 10
+	#Blocks from its owner at which a critter is teleported to them.
+	#This is not a convenience, it is what stops a pet being left behind in a
+	#chunk that then unloads: an unloaded critter does not tick, does not
+	#follow, and to its owner has simply vanished. Roaming critters are exempt,
+	#which is the whole meaning of that mode.
+	#Range: 8 ~ 256
+	leashRadius = 48
+	#Scales the whole levelling curve. A level costs base x level squared, so at
+	#40 the climb from 1 to 10 is about 12,900 points: roughly a thousand cans,
+	#or three thousand kills, for one animal.
+	#A can is worth 12, a dust 4, and a kill 3.
+	#One number rather than ten so a pack can move the curve without deciding
+	#the shape of it.
+	#Range: 1 ~ 100000
+	levelXpBase = 40
+	#Lowest max health a critter can be born with.
+	#Range: 1 ~ 1024
+	hpMin = 10
+	#Highest max health a critter can be born with.
+	#Range: 1 ~ 1024
+	hpMax = 30
+	#Lowest armour a critter can be born with. 5 is iron-ish.
+	#Range: 0 ~ 30
+	defMin = 5
+	#Highest armour a critter can be born with. 10 is diamond-ish.
+	#Range: 0 ~ 30
+	defMax = 10
+	#Lowest attack damage a critter can be born with.
+	#Range: 0 ~ 256
+	atkMin = 5
+	#Highest attack damage a critter can be born with.
+	#Range: 0 ~ 256
+	atkMax = 20
+	#Lowest movement speed a critter can be born with.
+	#For scale: a zombie is 0.23, a player walks at 0.10 of this attribute's
+	#own units and a wolf runs at 0.30.
+	#Range: 0.05 ~ 1.0
+	speedMin = 0.2
+	#Highest movement speed a critter can be born with.
+	#Range: 0.05 ~ 1.0
+	speedMax = 0.3
+
+[gilded_annuity]
+	#What it costs to unlock a Gilded Annuity through its own panel.
+	#Capped at 32767 because the panel is told this price through a synced
+	#ContainerData slot, which carries a short.
+	#Range: 0 ~ 32767
+	unlockCost = 3500
+	#Scales what every Annuity produces per cycle.
+	#This is the tap for how fast money enters a world once cages exist - see
+	#the note under [sharpodonty], whose defaults were set for a world with no
+	#cages in it. The cap is NOT scaled, so a higher yield fills a cage sooner
+	#rather than holding more; collect more often to see the difference.
+	#Range: 0.0 ~ 100.0
+	yieldMultiplier = 1.0
+	#Scales all three upgrade prices. 0 makes every upgrade free.
+	#Capped at 10 rather than 100: the panel is told each price through a
+	#ContainerData slot so it quotes the server's figure, and a slot is synced
+	#with writeShort. 10 x the dearest upgrade is 30000, inside that; 100 x
+	#would be a number the panel could not be told.
+	#Range: 0.0 ~ 10.0
+	upgradeCostMultiplier = 1.0
+
+[depth_of_myth]
+	#Mural Fragments it costs to sink from 10m to 20m.
+	#The cost rises evenly from this to fragmentsAtFloor for the last step.
+	#Range: 1 ~ 64
+	fragmentsAtTop = 2
+	#Mural Fragments it costs to sink from 90m to 100m.
+	#Range: 1 ~ 64
+	fragmentsAtFloor = 6
+	#Blocks a player is carried sideways each time they sink 10m.
+	#Each step lands somewhere new, with its own flooded structures and chests;
+	#that is what makes a step feel like a new layer rather than a number.
+	#Range: 64 ~ 10000
+	sinkDistance = 500
+	#Chance per player, every two seconds, that a Myth manifested mob appears
+	#near them at 10m. Kept low: the top of the zone is meant to feel empty.
+	#Range: 0.0 ~ 1.0
+	spawnChanceAtTop = 0.04
+	#The same chance at 100m.
+	#Range: 0.0 ~ 1.0
+	spawnChanceAtFloor = 0.35
+	#Most Myth manifested mobs near one player at 10m before spawning stops.
+	#Range: 0 ~ 64
+	mobCapAtTop = 2
+	#The same cap at 100m.
+	#Range: 0 ~ 64
+	mobCapAtFloor = 8
+	#How much stronger a Myth manifested mob is at 100m than at 10m.
+	#1.0 means double health and double damage at the floor; it scales evenly
+	#from nothing extra at the top.
+	#Range: 0.0 ~ 10.0
+	mobPowerAtFloor = 1.0
+	#Chance a Myth manifested mob drops a Mural Fragment. Looting adds 10% a level.
+	#Range: 0.0 ~ 1.0
+	fragmentDropChance = 0.35
+	#Chance a Myth manifested mob drops a Rising Raindrop.
+	#Range: 0.0 ~ 1.0
+	raindropDropChance = 0.04
+	#Share of structures kept in The Depth of Myth.
+	#Every structure of every dimension and mod can generate there, each at its own
+	#normal spacing, so without this they pile on top of each other. 1.0 keeps them
+	#all; 0.15 keeps about one in seven. Keep it above 0: a structure that can never
+	#generate makes /locate search forever. Only affects chunks generated after the
+	#change.
+	#Range: 0.01 ~ 1.0
+	structureChance = 0.15
 

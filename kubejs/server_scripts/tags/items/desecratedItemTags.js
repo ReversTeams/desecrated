@@ -123,6 +123,19 @@ ServerEvents.tags('item', event => {
         'butchery:enderman_head'
     ]);
 
+    add('desecrated:macabre_key', [
+        'netherman:nether_spawner',
+        'fdse:varunas_trident'
+    ]);
+
+    add('desecrated:macabre_hearts', [
+        "macabre:baal_heart", 
+        "macabre:gomoria_heart", 
+        "macabre:valamon_heart", 
+        "macabre:gargamaw_heart", 
+        "macabre:morphegor_heart"
+    ]);
+
     // Should be added to core mods
     add('curios:curio', [
         "desecratedcore:moon_key_item"

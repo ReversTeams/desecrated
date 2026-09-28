@@ -27,6 +27,18 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('modestmining:copper_screw'),
+        [
+            'DD ',
+            'D  ',
+            '   '
+        ],
+        {
+            D: 'minecraft:copper_ingot'
+        }
+    )
+
     // Tetra Recipes
     event.shaped(
         Item.of('desecratedcore:iron_key_item'),

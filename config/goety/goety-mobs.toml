@@ -224,6 +224,14 @@
 	#How many seconds a servant can't heal through Soul Energy after being injured, Default: 5
 	#Range: > 0
 	servantHealHalt = 5
+	#Whether Trampler Servants when summoned as hostile will convert into their hostile counterpart, Default: true
+	tramplerHostileConvert = true
+	#Whether Ravager Servants when summoned as hostile will convert into their hostile counterpart, Default: true
+	ravagerHostileConvert = true
+	#Whether Redstone Golems when summoned as hostile will convert into their hostile counterpart, Default: true
+	redstoneGolemHostileConvert = true
+	#Whether Redstone Monstrosities when summoned as hostile will convert into their hostile counterpart, Default: true
+	redstoneMonstrosityHostileConvert = true
 
 	[Servants."Undead Servants"]
 		#Whether Servants would naturally attack Undead mobs if owner wears a full Necro Set, Default: false
@@ -253,6 +261,10 @@
 		#Chance that a baby zombie servant is summoned as a Chicken Jokey, Default: 0.05
 		#Range: 0.0 ~ 1.0
 		zombieServantChickenJockeyChance = 0.05
+		#Whether Zombie Vindicators, when summoned as hostile and without owner, will convert into their hostile counterpart, Default: true
+		zombieVindicatorHostileConvert = true
+		#Whether Skeleton Pillagers, when summoned as hostile and without owner, will convert into their hostile counterpart, Default: true
+		skeletonPillagerHostileConvert = true
 
 	[Servants."Water Servants"]
 		#Whether Water Servants can heal if summoned while wearing Abyss Robe, Default: true
@@ -285,14 +297,6 @@
 		blackBeastChunkLoad = true
 		#Whether owned Black Beasts drop Howling Soul, Default: true
 		blackBeastHowlingSoul = true
-		#Whether Trampler Servants when summoned as hostile will convert into their hostile counterpart, Default: true
-		tramplerHostileConvert = true
-		#Whether Ravager Servants when summoned as hostile will convert into their hostile counterpart, Default: true
-		ravagerHostileConvert = true
-		#Whether Redstone Golems when summoned as hostile will convert into their hostile counterpart, Default: true
-		redstoneGolemHostileConvert = true
-		#Whether Redstone Monstrosities when summoned as hostile will convert into their hostile counterpart, Default: true
-		redstoneMonstrosityHostileConvert = true
 
 	[Servants."Geo Servants"]
 		#Whether Geo Servants can heal if summoned while wearing Geo Robe, Default: true
@@ -858,6 +862,9 @@
 		#How much damage is reduced, by percentage, on the Apostle when in the Nether, setting to 100 will make them invulnerable, Default: 50
 		#Range: 0 ~ 100
 		apostleNetherDamageReduction = 50
+		#How much damage caused by Smite enchantment is reduced, by percentage, on the Apostle, setting to 100 will make them immune to Smite enchanted attacks, Default: 25
+		#Range: 0 ~ 100
+		apostleSmiteDamageReduction = 25
 
 	[Misc.Damned]
 		#Whether Damned shoot indicator is enabled. Default: true

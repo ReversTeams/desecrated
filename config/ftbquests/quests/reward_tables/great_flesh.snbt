@@ -1,0 +1,12 @@
+{
+	id: "46FA6A99858C4859"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ item: "clanginghowl:chunk_of_technoflesh", random_bonus: 7 }
+		{ item: "biomancy:flesh_bits", random_bonus: 7 }
+		{ item: "biomancy:living_flesh", random_bonus: 3 }
+		{ item: "biomancy:creator_mix" }
+	]
+	title: "Great Flesh"
+}

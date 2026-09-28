@@ -62,8 +62,25 @@
 	quests: [
 		{
 			dependencies: ["28113F3C960EC2FB"]
+			description: [
+				"Diagrams. I'll need a tool to make diagrams on the floor and rearrange them easily. I'm gonna need many attempts, erasing and writing it anew until it's perfect. Grisha, what should I use?"
+				""
+				"&4How about chalk? You can grind down calcite into chalk with mystical properties using the talisman contract you found. It would be suitable for most ritual purposes as you only need to fill the chalk with spirituality."
+			]
 			entity_vis_size: 1.0f
 			id: "7C44D6CC5F06EE5A"
+			rewards: [{
+				id: "451F985DC61CB380"
+				item: {
+					Count: 1
+					id: "otherverse:chalk"
+					tag: {
+						Damage: 0
+						dye_color: 14b
+					}
+				}
+				type: "item"
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "0B8F2786B6437048"
@@ -80,6 +97,11 @@
 			y: -4.0d
 		}
 		{
+			description: [
+				"The Dark Practitioners form contracts with great entities, other worlds and spirits. They bind creatures, use the force of souls and research the world around them."
+				""
+				"Practitioners need a contract to enter into this reverse of the world. From there, they can either practice their pact magic or research the power of the soul."
+			]
 			entity_vis_size: 1.0f
 			id: "28113F3C960EC2FB"
 			size: 1.1d
@@ -93,8 +115,19 @@
 		}
 		{
 			dependencies: ["37B247664DB669DC"]
+			description: [
+				"&4You can find sulfur in the depths of the earth in ore form."
+				""
+				"&4You have to ready this sulfur for rituals by mixing trace amounts of mercury."
+			]
 			entity_vis_size: 1.0f
 			id: "1B71F321DDDB43BE"
+			rewards: [{
+				count: 16
+				id: "56D966CAB488DFDE"
+				item: "butchery:sulfur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10DF1A8B47171D01"
 				item: "otherverse:sulfur"
@@ -105,8 +138,19 @@
 		}
 		{
 			dependencies: ["37B247664DB669DC"]
+			description: [
+				"&4Salt can be found in plenty of places. To be evaporated from the water. To be found accumulating at the bottom of oceans. To be grown from saltsprouts."
+				""
+				"&4You have to ready this salt into salt useable for rituals with traces of mercury. Later on, you will be able to transfuse sugar into ritual salt."
+			]
 			entity_vis_size: 1.0f
 			id: "7595E652A71C5C23"
+			rewards: [{
+				count: 16
+				id: "1A875706CCD50335"
+				item: "hexalia:salt"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BD60EE2F5A0C73F"
 				item: "otherverse:salt"
@@ -121,6 +165,7 @@
 				"1B71F321DDDB43BE"
 				"37B247664DB669DC"
 			]
+			description: ["&4Cinnabar can be synthesized from the other ritual-ready materials."]
 			entity_vis_size: 1.0f
 			id: "50A72DE7F7F469A8"
 			tasks: [{
@@ -133,8 +178,18 @@
 		}
 		{
 			dependencies: ["7C44D6CC5F06EE5A"]
+			description: [
+				"Isn't handling this raw mercury on a cutting board... quite bad for my health? Even as a noble sanguine?"
+				""
+				"&4Practitioners are notoriously known as evil wizards, insane or not. This could be why I have never met a sane Practitioner before and why they're all rendering themselves to extinction. Just don't breathe in the fumes."
+			]
 			entity_vis_size: 1.0f
 			id: "37B247664DB669DC"
+			rewards: [{
+				id: "3219CA81BAED992D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46A1E418092BBD4F"
 				item: "otherverse:quicksilver"
@@ -206,8 +261,18 @@
 		}
 		{
 			dependencies: ["28113F3C960EC2FB"]
+			description: [
+				"I think Practitioners were lovers of knowledge. I haven't encountered many of them... actually have I encountered one of them? Grisha, do you need me to find and raid a Practitioner's library for you?"
+				""
+				"&4No need, young sanguine. I have all of the knowledge a practitioner needs. However, it is very deep into my pages. I might need some materials to refresh my memory and regurgitate the knowledge you seek. How about settling for the essentials first?"
+			]
 			entity_vis_size: 1.0f
 			id: "60A31D681BDC05E7"
+			rewards: [{
+				id: "51B141F98B6A70E0"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75C25BA1A4112339"
 				item: {
@@ -417,8 +482,18 @@
 		}
 		{
 			dependencies: ["7C44D6CC5F06EE5A"]
+			description: [
+				"&4The Burial Knife is a semi-common ritual dagger made from the fangs of underworld creatures. These fangs can channel spirituality efficiently, making it easy to extract materials out of raw parts."
+				""
+				"&4In your case, you will want to use this burial knife to extract the mercury out of ender pearls or various sea creatures."
+			]
 			entity_vis_size: 1.0f
 			id: "19F20EAC8BEF1A37"
+			rewards: [{
+				id: "00BB223CBF8C5389"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "637362677E8A153D"
 				item: {
@@ -435,8 +510,21 @@
 		}
 		{
 			dependencies: ["7C44D6CC5F06EE5A"]
+			description: [
+				"I can vaguely see what my patterns do, but what happens in the spirit world?"
+				""
+				"&4You might need to make yourself a special lens. Go into the Netherworld and find an eyebulb. Smelt it and turn it into panes to make a lens. Eyebulbs can see into the spirit world, allowing you to pry into their world if you borrow the properties of the material."
+				"{@pagebreak}"
+				"&a(You can use Practitioner Sight with The Sight equipped with a keybind defaulted to O.)"
+			]
 			entity_vis_size: 1.0f
 			id: "5A2A09B8A70D8D0E"
+			rewards: [{
+				id: "026B3587EF7BC075"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Mystery Pryer"
 			tasks: [{
 				id: "4B8BF5B5E52FEB4C"
 				item: "desecratedcore:sight"
@@ -745,5 +833,5 @@
 			y: 10.5d
 		}
 	]
-	title: "Practitioners"
+	title: "Dark Practitioners"
 }
