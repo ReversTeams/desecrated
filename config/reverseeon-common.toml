@@ -9,23 +9,19 @@
 	#How long The Storm lasts, in ticks (20 ticks = 1 second). Default 3600 = 3 min.
 	#Range: 20 ~ 720000
 	durationTicks = 3600
-	#HP damage per hit at the START of the storm (before armor reduction).
-	#Range: 0.0 ~ 100.0
-	damageMin = 0.5
-	#HP damage per hit at the END of the storm (scales up over time).
-	#Range: 0.0 ~ 100.0
-	damageMax = 3.0
 	#Tick at which the storm enters Phase 2.
 	#Range: 0 ~ 720000
 	phase2Tick = 1200
 	#Tick at which the storm enters Phase 3.
 	#Range: 0 ~ 720000
 	phase3Tick = 2400
-	#Storm-damage reduction per Foundation Standard Uniform piece worn (0.20 = 20%, capped at 80%).
+	#How much each Foundation Standard Uniform piece worn slows Storm Syndrome's clock
+	#(0.20 = 20%, capped at 80%: a full set runs it at a fifth of the speed).
 	#Range: 0.0 ~ 0.25
 	armorReductionPerPiece = 0.2
-	#The moment the countdown reaches zero, strike everyone the Storm lands on
-	#who is not sheltered. Sheltered means the same three things it means
+	#The moment the countdown reaches zero, the Storm lands on everyone who is not
+	#sheltered: their Storm Syndrome clock jumps arrivalStrikeSeconds ahead at once.
+	#Sheltered means the same three things it means
 	#everywhere else: the Equilibrium Umbrella in hand, an activated Hofmann Knot,
 	#or standing in ground a Protection Dove watches over.
 	#⚠️ Only fires at the end of a Reverse-Rain warning — a Storm called instantly
@@ -33,12 +29,6 @@
 	#strike is the deadline for, so it does not strike.
 	#Also skipped entirely when the reverseeonStormDamage gamerule is false.
 	arrivalStrike = true
-	#HP the arrival strike deals. The default is far past any survivable total:
-	#the warning is a deadline, and a deadline you can miss and walk away from is
-	#not one. Lower it for a harsh-but-survivable Storm; arrivalStrike=false turns
-	#it off outright.
-	#Range: 0.0 ~ 10000.0
-	arrivalStrikeDamage = 1000.0
 	#Chance that, as phase 3 of a Storm begins, the Manus come for a Dove a player is
 	#sheltering under. They fight for the ground around it; if they win, the Dove is
 	#destroyed and everything it sheltered is exposed to the Storm, revert included.
@@ -94,6 +84,38 @@
 	#apart — without this the Storm picks at litter instead of pulling a roof off.
 	#Range: 1 ~ 4096
 	liftMinStructureBlocks = 12
+	#Storm Syndrome: seconds from first standing in the Storm unsheltered to death.
+	#The first half is the first stage (the symptoms begin), the second half the
+	#second (they are severe). Reaching shelter, leaving the Overworld or outlasting
+	#the Storm cures it and gives back the maximum health it took.
+	#The Storm does no damage otherwise.
+	#Range: 10 ~ 600
+	syndromeSeconds = 60
+	#How much of a player's maximum health Storm Syndrome has worn away by the time
+	#its clock runs out (0.75 = three quarters). A quarter of it goes in the first
+	#stage, the rest in the second. It never takes the last heart; the clock kills.
+	#Range: 0.0 ~ 0.95
+	syndromeMaxHealthLoss = 0.75
+	#The Storm unmakes every mob it catches out in the Overworld, from any mod: torn
+	#apart and taken out of the world, and put back where they stood once the Storm
+	#has passed — whole, with everything they carried. No drops and no experience,
+	#since they come back. While it runs nothing new spawns there of its own accord
+	#except #reverseeon:spawns_in_the_storm (the Manus, the Storm's own creatures).
+	#Never under a Dove; never Reverse Eon's bosses or the islanders
+	#(#reverseeon:spared_by_the_storm).
+	unmakesMobs = true
+	#Soonest, in seconds out in the Storm, a mob is unmade. Each mob has its own time
+	#between this and unmakeSecondsMax, so a herd goes one by one.
+	#Range: 1 ~ 3600
+	unmakeSecondsMin = 20
+	#Latest, in seconds out in the Storm, a mob is unmade.
+	#Range: 1 ~ 3600
+	unmakeSecondsMax = 90
+	#Seconds of Storm Syndrome's clock the arrival takes at once. The default is
+	#half a minute: straight into the second stage, with half a minute to reach
+	#shelter. The warning is a deadline, and missing it should cost.
+	#Range: 0 ~ 600
+	arrivalStrikeSeconds = 30
 
 [arcanist]
 	#Maximum Arcanist level.
@@ -306,6 +328,9 @@
 	#results are returned, even while this is false - their ingredients were
 	#already taken and are not thrown away.
 	craftingEnabled = true
+	#A plain right click on a shut Pocket Suitcase takes it straight back into your
+	#inventory. Off, a shut case only says it is shut.
+	pickUpWhenShut = true
 
 #Storm monsters - skeletons and zombies the Storm is eating.
 [stormMonsters]
@@ -583,6 +608,15 @@
 	#Highest movement speed a critter can be born with.
 	#Range: 0.05 ~ 1.0
 	speedMax = 0.3
+	#Chance, every 30 seconds for each player, that a wild critter wanders in
+	#24-48 blocks away, in a biome it lives in. Vanilla only spawns critters when a
+	#chunk is first made, so without this they stop appearing once an area has been
+	#explored. 0 turns it off; 1 tries every time.
+	#Range: 0.0 ~ 1.0
+	wanderChance = 0.35
+	#No critter wanders in while this many wild ones are already within 64 blocks.
+	#Range: 0 ~ 32
+	wanderCap = 4
 
 [gilded_annuity]
 	#What it costs to unlock a Gilded Annuity through its own panel.
@@ -643,11 +677,19 @@
 	#Range: 0.0 ~ 1.0
 	raindropDropChance = 0.04
 	#Share of structures kept in The Depth of Myth.
-	#Every structure of every dimension and mod can generate there, each at its own
-	#normal spacing, so without this they pile on top of each other. 1.0 keeps them
+	#Every Overworld and Nether structure, and every mod's, can generate there (not
+	#the End's), each at its own normal spacing, so without this they pile on top
+	#of each other. 1.0 keeps them
 	#all; 0.15 keeps about one in seven. Keep it above 0: a structure that can never
 	#generate makes /locate search forever. Only affects chunks generated after the
 	#change.
 	#Range: 0.01 ~ 1.0
 	structureChance = 0.15
+
+#The Equilibrium Umbrella.
+[umbrella]
+	#Seconds of holding the Storm off per point of the umbrella's wear (it has 900).
+	#Set 0 and it never wears. It is mended with Phantom Membrane at an anvil.
+	#Range: 0 ~ 3600
+	wearSeconds = 1
 
