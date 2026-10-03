@@ -1,5 +1,5 @@
 {
-	autofocus_id: "1CE2E59DF8AB13AF"
+	autofocus_id: "67E46BEEC08F8EA1"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sanguines_of_iron"
@@ -537,15 +537,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "modestmining:suspicious_dirt"
@@ -556,15 +558,17 @@
 					type: "observation"
 				}
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "modestmining:suspicious_stone"

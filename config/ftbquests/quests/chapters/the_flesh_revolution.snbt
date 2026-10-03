@@ -504,7 +504,13 @@
 				"6B0E995FC2B51651"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The integrator egg can be obtained by throwing a reanimated heart into lava surrounded by 8 rusty metal blocks."]
+			description: [
+				"I threw this heart into a pool of lava surrounded by rusted metal and... what was that creature from the sky? Is this egg even safe?"
+				""
+				"&4This egg was delivered properly and it is completely safe. It's an integrator egg, you can feed it blood with pipes to make it hatch."
+				"{@pagebreak}"
+				"&4Integrators can naturally withstand large amounts of eldritch and cosmic knowledge. It slowly accumulates knowledge, which can ease in the creation of future materials."
+			]
 			entity_vis_size: 1.0f
 			icon: "neepmeat:integrator_egg"
 			id: "27E206D2AED49A96"
@@ -842,15 +848,17 @@
 				}
 			]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "neepmeat:verrucous_stone_port"
@@ -1185,6 +1193,7 @@
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
+			description: ["I will need a machine to pump liquid out of containers and into pipes. A redstone-activated pump should do the trick. The redstone should create enough motion on its fluid to move the fluid."]
 			entity_vis_size: 1.0f
 			id: "6B0E995FC2B51651"
 			rewards: [
@@ -1214,6 +1223,7 @@
 				"5D4499D4254102B7"
 			]
 			dependency_requirement: "one_started"
+			description: ["Pipes will be needed to move fluids such as blood efficiently, and tanks will be needed to store it. Plain iron and copper should do."]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "720FB6E79AB03072"
@@ -1831,6 +1841,7 @@
 				"187D75D48A04D454"
 				"7FA3BBF85B8DC373"
 			]
+			description: ["This meat steel is... too durable for what it is. It's even stronger than iron tools and almost stronger than diamond."]
 			entity_vis_size: 1.0f
 			id: "55797E03F03413CB"
 			rewards: [
@@ -2524,6 +2535,7 @@
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
+			description: ["I can upgrade the grate into a more convenient vessel for gathering blood. Combined with a tissue operator, I can crack open most fleshy creatures and take their blood direrctly. Or I could settle for something more boring and let it intake water from below."]
 			entity_vis_size: 1.0f
 			id: "73DB815B7413BC62"
 			rewards: [
@@ -4221,15 +4233,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "6249353CDACC6515"
@@ -4386,15 +4400,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "neepmeat:power_flower_growth"
@@ -4406,15 +4422,17 @@
 					type: "observation"
 				}
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "neepmeat:power_flower_controller"

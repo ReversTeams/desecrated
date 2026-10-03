@@ -2,10 +2,10 @@
 [storm]
 	#Base chance for The Storm to spawn on its once-per-day dusk roll (0.0 - 1.0).
 	#Range: 0.0 ~ 1.0
-	dailyChance = 0.5
+	dailyChance = 0.01
 	#Extra daily chance added when Vertin is on the island.
 	#Range: 0.0 ~ 1.0
-	vertinBonus = 0.5
+	vertinBonus = 0.8
 	#How long The Storm lasts, in ticks (20 ticks = 1 second). Default 3600 = 3 min.
 	#Range: 20 ~ 720000
 	durationTicks = 3600
