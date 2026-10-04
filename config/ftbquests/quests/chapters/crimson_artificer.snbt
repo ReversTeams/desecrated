@@ -2410,11 +2410,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "42FA00DDD1653F0E"
-				item: "celestisynth:solar_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "42FA00DDD1653F0E"
+					item: "celestisynth:solar_crystal"
+					type: "item"
+				}
+				{
+					id: "33195D80DE4A662D"
+					item: "desecratedcore:soleipse_crystal"
+					type: "item"
+				}
+			]
 			x: 11.150000000000002d
 			y: 12.9d
 		}

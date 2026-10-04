@@ -26,10 +26,10 @@
 		}
 		{
 			alpha: 180
-			height: 4.0d
+			height: 4.25d
 			image: "celestisynth:textures/entity/visuals/skin/frostbound_impact_crack_seabreeze.png"
 			rotation: -35.0d
-			width: 4.0d
+			width: 4.25d
 			x: -8.0d
 			y: -12.5d
 		}
@@ -61,13 +61,145 @@
 			x: 0.0d
 			y: -21.0d
 		}
+		{
+			alpha: 240
+			height: 1.0d
+			image: "hexalia:block/nautilite"
+			order: 100
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -12.2d
+		}
+		{
+			height: 1.0d
+			image: "hexalia:block/siren_kelp"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.2d
+		}
+		{
+			alpha: 240
+			height: 1.0d
+			image: "hexalia:block/wild_sunfire_tomato"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -2.2d
+		}
+		{
+			alpha: 240
+			height: 1.0d
+			image: "hexalia:block/galeberries_vine_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.3d
+		}
+		{
+			alpha: 240
+			height: 1.0d
+			image: "hexalia:block/wild_mandrake"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.2d
+		}
+		{
+			alpha: 240
+			height: 1.0d
+			image: "hexalia:block/chillberry_bush_stage3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -0.7000000000000002d
+		}
+		{
+			alpha: 240
+			height: 1.0d
+			image: "hexalia:block/rabbage_crop_stage3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -8.8d
+		}
+		{
+			alpha: 180
+			color: 43520
+			height: 1.5d
+			image: "spectrum:block/fiery_shooting_star"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			alpha: 180
+			color: 2756864
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "minecraft:block/bamboo_small_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "immersive_weathering:block/light_azalea_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "immersive_weathering:block/light_azalea_leaves"
+			rotation: 23.0d
+			width: 1.0d
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "biomesoplenty:block/redwood_leaves_bushy"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -9.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["0CAE6439C87989E4"]
-			description: ["The athame can be used to harvest tree resin from dark oak and cottonwood."]
+			description: [
+				"I'm glad I was once friends with a Sanguine of Vine. I won't have to raid some ancient verdant library. Let's see what I can recall from what she told me..."
+				""
+				"The athame can be used to harvest tree resin from dark oak and cottonwood. It can also be used to harvest lotus blossoms and shape ritual braziers."
+			]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			id: "5D7C1741C8D6F8E0"
@@ -93,7 +225,11 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
-			description: ["This flower can also be found in the world."]
+			description: [
+				"I've heard of spirit blooms and their... well, spiritual properties, but I'm not quite sure where to find them."
+				""
+				"&4You'll find them in swamps. Spirits are not only those of deceased creatures, but plants as well."
+			]
 			entity_vis_size: 1.0f
 			id: "5FB35D49B42DB136"
 			rewards: [
@@ -125,7 +261,11 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
-			description: ["This flower can also be found in the world."]
+			description: [
+				"This mushroom makes me want to fall asleep..."
+				""
+				"&4Dreamshrooms are connected to the realm of dreams."
+			]
 			entity_vis_size: 1.0f
 			id: "1E49979CD799AF0E"
 			rewards: [
@@ -157,7 +297,11 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
-			description: ["This flower can also be found in the world."]
+			description: [
+				"I found little bits of purple kelp at the bottom of the ocean. I believe this is siren kelp. It looks... strangely edible."
+				""
+				"&4Siren kelp is not very nutritious but it can temporarily increase your affinity with water."
+			]
 			entity_vis_size: 1.0f
 			id: "098FCAB9E0418241"
 			rewards: [
@@ -189,7 +333,11 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
-			description: ["This flower can also be found in the world."]
+			description: [
+				"Has this fern eaten a person?"
+				""
+				"&4Don't be so silly, that's only the name. The ghost powder you can derive from this plant is made of organic, plant-based ghost."
+			]
 			entity_vis_size: 1.0f
 			id: "0D9E8704CBFB3F6C"
 			rewards: [
@@ -228,8 +376,15 @@
 				"4283D4B2FCBAA2C2"
 			]
 			dependency_requirement: "one_completed"
+			description: ["A mortar and pestle is a simple way of grinding down flowers into powder to make use of their spirituality. While a regular mortar and pestle might do, I believe a specialized one can be made with a higher natural synergy."]
 			entity_vis_size: 1.0f
 			id: "3AFEAB8E568538B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6000C302B4647D93"
+				table_id: 2626234854309448681L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5C2ACED18A154439"
 				item: "hexalia:mortar_and_pestle"
@@ -240,6 +395,11 @@
 		}
 		{
 			dependencies: ["098FCAB9E0418241"]
+			description: [
+				"Mixing siren kelp with natural water affinity with dirt to keep it hydrated results in this infused dirt. It not only does not need any water, but crops grow even better on it."
+				""
+				"I recall my Sanguine of Vine's garden was filled with this dirt. It must have been why the crops were sprouting with vitality and spirituality!"
+			]
 			entity_vis_size: 1.0f
 			id: "4BF80DB72A72DBAB"
 			rewards: [
@@ -285,6 +445,7 @@
 					id: "7E42FA8B9B19725E"
 					observe_type: 0
 					timer: 0L
+					title: "Witness Infused Farmland"
 					to_observe: "hexalia:infused_farmland"
 					type: "observation"
 				}
@@ -294,7 +455,11 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
-			description: ["This flower can also be found in the world."]
+			description: [
+				"How shameful, I really can't find this plant at all. I've travelled hundreds of miles and it's nowhere in sight."
+				""
+				"&4Then why not transmute a plant into this one? Using mutavis, you can transmute common plants into their spiritual counterparts. As long as you found one of the spiritual plants, you can make mutavis."
+			]
 			entity_vis_size: 1.0f
 			id: "4283D4B2FCBAA2C2"
 			rewards: [
@@ -353,8 +518,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -3.5d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
@@ -371,8 +536,8 @@
 				item: "hexalia:sunfire_tomato"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
@@ -389,8 +554,8 @@
 				item: "hexalia:chillberries"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
@@ -408,7 +573,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["367B0F8EC622BF08"]
@@ -466,10 +631,15 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1C10D594BB28276E"]
+			description: [
+				"Greater natural rituals can be conducted with a ritual table. It should be a simple matter of carving it out of deepslate with a hex focus. Then, it needs braziers to surround it to accept items and those braziers need salt applied to them."
+				""
+				"The natural ritual will require the vitality of nearby grown crops. I believe I can insert farmland between the braziers easily."
+			]
 			entity_vis_size: 1.0f
 			icon: "hexalia:ritual_table"
 			id: "79A14B394FAEBEA1"
@@ -497,13 +667,25 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			description: [
+				"By cutting up planks with my athame, I can make a brazier to hold up materials for rituals."
+				""
+				"Astral rituals should be simple enough, I recall that what is needed is sky access, daylight, and maybe celestial blooms nearby? I should have listened better when my friend explained it."
+			]
 			entity_vis_size: 1.0f
 			id: "367B0F8EC622BF08"
-			rewards: [{
-				id: "7552CB4BA9A0DC55"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "10E77CC4DEE75BC7"
+					item: "hexalia:spirit_bloom"
+					type: "item"
+				}
+				{
+					id: "7552CB4BA9A0DC55"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "019A8FC1A339B21B"
@@ -517,11 +699,19 @@
 			dependencies: ["1E49979CD799AF0E"]
 			entity_vis_size: 1.0f
 			id: "7F5E0F9AA305FCDE"
-			rewards: [{
-				id: "283C43FB99BCF431"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "540AB35FF1E80433"
+					table_id: 5967352122958418807L
+					type: "random"
+				}
+				{
+					id: "283C43FB99BCF431"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "147F2E7EF7FAF58D"
@@ -542,11 +732,19 @@
 			dependencies: ["7F5E0F9AA305FCDE"]
 			entity_vis_size: 1.0f
 			id: "2E0559FF024B038E"
-			rewards: [{
-				id: "1C371F11809D787A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79FC60642A6FD89B"
+					table_id: 5967352122958418807L
+					type: "choice"
+				}
+				{
+					id: "1C371F11809D787A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6B19ABED75B66436"
 				item: {
@@ -970,13 +1168,26 @@
 		}
 		{
 			dependencies: ["3AFEAB8E568538B8"]
+			description: [
+				"My old friend often applied these ointments to heal my training wounds. I don't recall other salves, but healing and reinforcing salves are a must for my current condition."
+				""
+				"I believe regenerating salve can be made with simple tree resin and some flowers."
+			]
 			entity_vis_size: 1.0f
 			id: "110391F0AA8822DD"
-			rewards: [{
-				id: "0AD8727FDCF6CD33"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "596C66BE5EE281AB"
+					table_id: 2626234854309448681L
+					type: "random"
+				}
+				{
+					id: "0AD8727FDCF6CD33"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7D5E282672C06A03"
 				item: {
@@ -998,6 +1209,7 @@
 				title: "Any Salve"
 				type: "item"
 			}]
+			title: "Salves"
 			x: 1.5d
 			y: -5.0d
 		}
@@ -1029,6 +1241,7 @@
 					id: "1BA8DBC7A4A48014"
 					observe_type: 5
 					timer: 0L
+					title: "Witness a Silk Moth"
 					to_observe: "hexalia:silk_moth"
 					type: "observation"
 				}
@@ -1044,7 +1257,6 @@
 		}
 		{
 			dependencies: ["324985E19423593A"]
-			description: ["{entity:hexalia:cacofey ent_size:1.0 off_x:0.0 off_y:0.0 rot:0.0 spin:USE_GLOBAL idle:USE_GLOBAL walk:USE_GLOBAL width:100 height:100 align:center}"]
 			entity_vis_size: 1.0f
 			id: "1DB6A169A86470E1"
 			rewards: [{
@@ -1075,6 +1287,7 @@
 					id: "655360A8BEC68064"
 					observe_type: 5
 					timer: 0L
+					title: "Witness a Cacofey"
 					to_observe: "hexalia:cacofey"
 					type: "observation"
 				}
@@ -1086,11 +1299,19 @@
 			dependencies: ["1E49979CD799AF0E"]
 			entity_vis_size: 1.0f
 			id: "0DB34BE7C22F723C"
-			rewards: [{
-				id: "590D95B0D908E2F8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "598263F8626B6290"
+					table_id: 5967352122958418807L
+					type: "random"
+				}
+				{
+					id: "590D95B0D908E2F8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7FA388606793247D"
 				item: "hexalia:censer"
@@ -1359,6 +1580,7 @@
 		}
 		{
 			dependencies: ["1FD01CDA1731655D"]
+			description: ["The Hex Focus is a natural wand, channeling the user's intent to act onto plants and rituals. It's an essential tool for natural magic."]
 			entity_vis_size: 1.0f
 			id: "1C10D594BB28276E"
 			rewards: [{
@@ -1375,31 +1597,23 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["0D9E8704CBFB3F6C"]
-			entity_vis_size: 1.0f
-			id: "34EA50FDAD627284"
-			rewards: [{
-				id: "07DCAC1666F94924"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "107BF48E628B2A14"
-				item: "hexalia:ghost_powder"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			description: ["This lotus is quite rare but so beautiful. It truly is a feast to the eyes."]
 			entity_vis_size: 1.0f
 			id: "63DD4DFC7E30EEA2"
-			rewards: [{
-				id: "57CDB472570ECCDE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2318187786989FC6"
+					table_id: 6522480712724039605L
+					type: "random"
+				}
+				{
+					id: "57CDB472570ECCDE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "32C1D80FF18EC61F"
 				item: "hexalia:lotus_blossom"
@@ -1410,13 +1624,22 @@
 		}
 		{
 			dependencies: ["5D7C1741C8D6F8E0"]
+			description: ["Do these flowers have a connection to the sky? They must be Celestial blossoms. I believe I'll need some for astral rituals."]
 			entity_vis_size: 1.0f
 			id: "447D63C4C507339D"
-			rewards: [{
-				id: "788F30D1229D3308"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "133869E3E8342A33"
+					table_id: 6522480712724039605L
+					type: "random"
+				}
+				{
+					id: "788F30D1229D3308"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3DB446BEE2841F18"
 				item: "hexalia:celestial_bloom"
@@ -1448,13 +1671,26 @@
 		}
 		{
 			dependencies: ["3AFEAB8E568538B8"]
+			description: [
+				"Mutavis is a rudimentary natural transmutation substance. I will need tree resin and crushed herbs to stick together properly for this. Slime should do the trick."
+				""
+				"Mutavis can transmute elements into their spiritual counterparts. This should be useful for spiritual plants I can't find on my own."
+			]
 			entity_vis_size: 1.0f
 			id: "1FD01CDA1731655D"
-			rewards: [{
-				id: "52AB11B029418CB3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4315ADCFB01882C4"
+					table_id: 2626234854309448681L
+					type: "random"
+				}
+				{
+					id: "52AB11B029418CB3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3737D18DDD42AB4A"
 				item: "hexalia:mutavis"
@@ -1552,6 +1788,13 @@
 				"3B07119ABAD8B6F8"
 				"57D2E90578BED5D0"
 			]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome III"
+				""
+				"&eLunepse crystals are known for their resistance to celestial elemental forces, while Soleipse crystals enhance durability against otherworldly entities. When combined, they create a harmonious balance of light and dark energies, making them ideal for creating armour that can withstand both terrestrial and celestial threats.&r"
+				"{@pagebreak}"
+				"&eThe Lunepse and Soleipse crystals are used in the crafting of celestial armour sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armour infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
+			]
 			entity_vis_size: 1.0f
 			id: "4B78724FE216F6C4"
 			rewards: [{
@@ -1561,8 +1804,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				id: "5521B7F4F387C15A"
-				item: "celestisynth:starstruck_scrap"
+				id: "7DA2ADD49C456AF7"
+				item: "desecratedcore:lunepse_crystal"
 				type: "item"
 			}]
 			x: -5.0d
@@ -1700,13 +1943,26 @@
 		}
 		{
 			dependencies: ["367B0F8EC622BF08"]
+			description: [
+				"My friend had once given me some pieces of lunar stones, but I'm not sure where to find them. Grisha?"
+				""
+				"&4Lunar stones are found deep underground. They are formed around lunar lakes and the crystal formation is quite obvious."
+			]
 			entity_vis_size: 1.0f
 			id: "7D77CCD369C9836A"
-			rewards: [{
-				id: "7D5ECEF4DAB2147C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "79CDC76C97C50C15"
+					item: "celestisynth:lunar_stone"
+					type: "item"
+				}
+				{
+					id: "7D5ECEF4DAB2147C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "72587C15EF027012"
 				item: "celestisynth:lunar_stone"
@@ -1726,10 +1982,6 @@
 				"&fLunar stone is usually found deep underground in a large cluster filled with water, forming a lunar lake within the earth."
 				""
 				"&fThis stone can be simply smelted to produce lunar scrap."
-				"{@pagebreak}"
-				"&eLunepse crystals are known for their resistance to celestial elemental forces, while Soleipse crystals enhance durability against otherworldly entities. When combined, they create a harmonious balance of light and dark energies, making them ideal for creating armour that can withstand both terrestrial and celestial threats.&r"
-				"{@pagebreak}"
-				"&eThe Lunepse and Soleipse crystals are used in the crafting of celestial armour sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armour infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
 			]
 			entity_vis_size: 1.0f
 			id: "57D2E90578BED5D0"
@@ -1767,7 +2019,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["70D080A715D3317C"]
@@ -1783,8 +2035,8 @@
 				item: "hexalia:frost_sac"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["376E7364A9D63333"]
@@ -1800,8 +2052,8 @@
 				item: "hexalia:searing_sac"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4283D4B2FCBAA2C2"]
@@ -1818,8 +2070,8 @@
 				item: "hexalia:foul_sac"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -4.5d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["55F5FBB4ED5DFDD5"]

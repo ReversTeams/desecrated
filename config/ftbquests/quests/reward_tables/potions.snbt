@@ -1,0 +1,148 @@
+{
+	id: "52D04B23B29C1377"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "vampirism:long_vampire_fire_resistance"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_swiftness"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_strength"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:luck"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "minecraft:long_swiftness"
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "reliquary:potion"
+				tag: {
+					effects: [{
+						duration: 1750s
+						name: "minecraft:resistance"
+						potency: 0b
+					}]
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "reliquary:potion"
+				tag: {
+					effects: [{
+						duration: 1500s
+						name: "minecraft:haste"
+						potency: 1b
+					}]
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "reliquary:potion"
+				tag: {
+					effects: [{
+						duration: 2250s
+						name: "minecraft:health_boost"
+						potency: 1b
+					}]
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "reliquary:potion"
+				tag: {
+					effects: [{
+						duration: 2250s
+						name: "minecraft:absorption"
+						potency: 1b
+					}]
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "reliquary:potion"
+				tag: {
+					effects: [{
+						duration: 1500s
+						name: "minecraft:strength"
+						potency: 1b
+					}]
+				}
+			}
+		}
+	]
+	title: "Potions"
+}
