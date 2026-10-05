@@ -3,7 +3,7 @@
   "failed_reloads_per_session": 5,
   "default_packs": [
     "file/Stay_True_1.20.zip",
-    "file/staytrue1.20.1.zip",
+    "file/staytrue1.20.1-hotfix.zip",
     "file/Stay_True_Amendment.zip",
     "file/Mahou Tsukai Better Textures.zip",
     "file/Fresh Vampirism Pack V1.4.zip",
@@ -28,7 +28,7 @@
       "file/LowOnFire_1.20.1.zip",
       "file/cubic-sun-moon-v1.8.5.zip",
       "file/elysiapresents_lootr.zip",
-      "file/Old+Iron+Chest.zip"
+      "doublechests_old_textures"
     ],
     "$$1": {
       "required": true,

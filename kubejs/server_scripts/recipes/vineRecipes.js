@@ -13,7 +13,12 @@ ServerEvents.recipes(event => {
         'celestisynth:lunar_scrap',
         'spectrum:pedestal_basic_amethyst',
         'spectrum:pedestal_basic_citrine',
-        'spectrum:pedestal_basic_topaz'
+        'spectrum:pedestal_basic_topaz',
+        'celestisynth:starstruck_scrap',
+        "celestisynth:lunar_stone_helmet",
+        'celestisynth:lunar_stone_leggings',
+        'celestisynth:lunar_stone_chestplate',
+        'celestisynth:lunar_stone_boots'
     ]
 
     const removeCraftingShaped = [
@@ -43,7 +48,6 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: 'celestisynth:lunar_scrap', type: 'minecraft:smelting' })
     event.remove({ output: 'celestisynth:lunar_scrap', type: 'minecraft:blasting' })
-    event.remove({ output: 'celestisynth:starstruck_scrap', type: 'minecraft:brewing' })
 
     event.replaceInput(
         { input: 'hexalia:tree_resin' },
@@ -183,6 +187,22 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.shapeless(
+        Item.of('hexalia:mortar_and_pestle'),
+        [
+            'butchery:pestle_and_mortar',
+            'hexalia:athame'
+        ]
+    ).damageIngredient("hexalia:athame");
+
+    event.shapeless(
+        Item.of('hexalia:tree_resin', 4),
+        [
+            'hexalia:athame',
+            'perdition:resin'
+        ]
+    ).damageIngredient("hexalia:athame");
+
     // Celestisynth
 
     event.shaped(
@@ -212,6 +232,144 @@ ServerEvents.recipes(event => {
             A: 'hexalia:spirit_powder'
         }
     )
+
+    event.custom({
+        type: "hexalia:ritual_table",
+        ingredients: [
+            {
+                "item": "hexalia:celestial_crystal"
+            },
+            {
+                "item": "celestisynth:starstruck_scrap"
+            },
+            {
+                "item": "hexalia:air_node"
+            },
+            {
+                "item": "hexalia:celestial_bloom"
+            },
+            {
+                "item": "hexalia:celestial_crystal"
+            }
+        ],
+        output: {
+            "item": "desecratedcore:lunepse_crystal"
+        }
+    });
+
+    event.custom({
+        type: "hexalia:ritual_table",
+        ingredients: [
+            {
+                "item": "hexalia:air_node"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            }
+        ],
+        output: {
+            "item": "celestisynth:lunar_stone_helmet"
+        }
+    });
+
+    event.custom({
+        type: "hexalia:ritual_table",
+        ingredients: [
+            {
+                "item": "hexalia:water_node"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            }
+        ],
+        output: {
+            "item": "celestisynth:lunar_stone_leggings"
+        }
+    });
+
+    event.custom({
+        type: "hexalia:ritual_table",
+        ingredients: [
+            {
+                "item": "hexalia:water_node"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            }
+        ],
+        output: {
+            "item": "celestisynth:lunar_stone_boots"
+        }
+    });
+
+    event.custom({
+        type: "hexalia:ritual_table",
+        ingredients: [
+            {
+                "item": "hexalia:air_node"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            },
+            {
+                "item": "desecratedcore:lunepse_crystal"
+            }
+        ],
+        output: {
+            "item": "celestisynth:lunar_stone_chestplate"
+        }
+    });
 
     // Spectrum
 

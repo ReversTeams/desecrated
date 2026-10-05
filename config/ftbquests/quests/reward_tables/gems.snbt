@@ -1,0 +1,11 @@
+{
+	id: "5A8481A69040C7B5"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 16, item: "minecraft:amethyst_shard" }
+		{ item: "minecraft:diamond" }
+		{ count: 8, item: "minecraft:emerald" }
+	]
+	title: "Gems"
+}

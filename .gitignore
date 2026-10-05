@@ -108,6 +108,7 @@ config/QuantifiedAPI/cache
 !config/acceleratedrendering-client.toml
 !config/streamsreflowing-client.toml
 !config/vanillabackport-client.toml
+!config/reverseeon-client.toml
 
 /mods - Copy
 

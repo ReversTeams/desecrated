@@ -1,0 +1,12 @@
+{
+	id: "2CA13FA737DF4EDD"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ item: "tetra:pristine_lapis" }
+		{ item: "tetra:pristine_emerald" }
+		{ item: "tetra:pristine_diamond" }
+		{ item: "tetra:pristine_amethyst" }
+	]
+	title: "Pristine Gems"
+}

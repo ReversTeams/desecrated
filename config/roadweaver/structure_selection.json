@@ -1,6 +1,5 @@
 {
   "enabledStructures": [
-    "minecraft:castle",
     "ati_structures:ati_stoneworks",
     "ati_structures:castillo",
     "ati_structures:catalonian_castle",
@@ -52,15 +51,11 @@
     "integrated_villages:pirate_village",
     "integrated_villages:quark/minka_village",
     "integrated_villages:sunken_village",
-    "integrated_villages:tavern_village",
-    "tetra:extractor_ruin",
-    "tetra:regular_ruin",
-    "ati_structures:dojo"
+    "integrated_villages:tavern_village"
   ],
   "enabledTags": [
     "bloodyhell:vesper_hut",
-    "terralith:fortified_villages",
-    "tetra:forged_ruins"
+    "terralith:fortified_villages"
   ],
   "useTagMode": true
 }

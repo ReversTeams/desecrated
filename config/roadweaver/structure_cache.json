@@ -1,6 +1,7 @@
 {
   "dimensions": [
     "blood_arsenal_reawakened:black_void",
+    "neepmeat:bog",
     "fracture:boreas_dimension",
     "spectrum:deeper_down",
     "reverseeon:depth_of_myth",
@@ -15,6 +16,7 @@
     "otherverse:ruins",
     "bloodyhell:soul_dimension",
     "minecraft:the_end",
+    "minecraft:the_nether",
     "macabre:the_pit",
     "blood_arsenal_reawakened:white_day"
   ],
@@ -34,7 +36,8 @@
       "displayName": "Bastion Remnant",
       "isVanilla": true,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -61,7 +64,6 @@
       "displayName": "End City",
       "isVanilla": true,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -70,7 +72,8 @@
       "displayName": "Fortress",
       "isVanilla": true,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -137,7 +140,8 @@
       "displayName": "Nether Fossil",
       "isVanilla": true,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -213,7 +217,8 @@
       "displayName": "Ruined Portal Nether",
       "isVanilla": true,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -1049,7 +1054,6 @@
       "displayName": "End Passage",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -1058,7 +1062,6 @@
       "displayName": "End Post",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -1167,7 +1170,6 @@
       "displayName": "Void Well",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -1374,7 +1376,6 @@
       "displayName": "Final Terminal",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -1493,7 +1494,6 @@
       "displayName": "Absolute Citadel",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -1532,7 +1532,6 @@
       "displayName": "Endersent In End",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -1661,7 +1660,8 @@
       "displayName": "Secret Kitchen",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -1689,7 +1689,8 @@
       "displayName": "Temple Of Apollyon",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -1716,7 +1717,8 @@
       "displayName": "Raging Inferno",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -1934,7 +1936,8 @@
       "displayName": "Ancient Portal/nether Ancient Portal",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -1982,7 +1985,8 @@
       "displayName": "Animal Den/foxhound Den",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -2390,7 +2394,8 @@
       "displayName": "Necromancers Spire",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -2398,7 +2403,8 @@
       "displayName": "Nether Pump Camp",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -2987,7 +2993,8 @@
       "displayName": "Eye Columns",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -2995,7 +3002,8 @@
       "displayName": "Gast Chamber",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -3003,7 +3011,8 @@
       "displayName": "Gehen Statue",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -3021,7 +3030,8 @@
       "displayName": "Mansion Nether",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -3069,7 +3079,8 @@
       "displayName": "Trap",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -3194,7 +3205,6 @@
       "displayName": "End Gate Fortress",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -3203,7 +3213,6 @@
       "displayName": "End Ruins",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:the_end"
       ]
     },
@@ -3292,7 +3301,8 @@
       "displayName": "Nether Lava Ruins",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -3348,7 +3358,8 @@
       "displayName": "Sealedruinedghaststatue1",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -3356,7 +3367,8 @@
       "displayName": "Start Nether Dungeon",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth"
+        "reverseeon:depth_of_myth",
+        "minecraft:the_nether"
       ]
     },
     {
@@ -4878,6 +4890,28 @@
         "integrated_villages:pirate_village",
         "integrated_villages:quark/minka_village",
         "integrated_villages:tavern_village"
+      ]
+    },
+    {
+      "tagId": "reverseeon:lilya_chart/abandoned_house",
+      "displayName": "#Lilya Chart/abandoned House",
+      "structureIds": [
+        "reverseeon:suspicious_abandoned_house",
+        "reverseeon:suspicious_abandoned_house_snowy"
+      ]
+    },
+    {
+      "tagId": "reverseeon:lilya_chart/guiding_camp",
+      "displayName": "#Lilya Chart/guiding Camp",
+      "structureIds": [
+        "reverseeon:guiding_camp"
+      ]
+    },
+    {
+      "tagId": "reverseeon:lilya_chart/manus_outpost",
+      "displayName": "#Lilya Chart/manus Outpost",
+      "structureIds": [
+        "reverseeon:manus_outpost"
       ]
     },
     {

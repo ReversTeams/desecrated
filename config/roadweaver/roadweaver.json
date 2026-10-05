@@ -1,13 +1,11 @@
 {
   "villagePredictionEnabled": true,
   "structurePredictionEnabled": true,
-  "predictRadiusChunks": 1024,
+  "predictRadiusChunks": 256,
   "biomePrefilter": true,
   "structureWhitelist": [
     "#bloodyhell:vesper_hut",
     "#terralith:fortified_villages",
-    "#tetra:forged_ruins",
-    "minecraft:castle",
     "ati_structures:ati_stoneworks",
     "ati_structures:castillo",
     "ati_structures:catalonian_castle",
@@ -59,19 +57,15 @@
     "integrated_villages:pirate_village",
     "integrated_villages:quark/minka_village",
     "integrated_villages:sunken_village",
-    "integrated_villages:tavern_village",
-    "ati_structures:dojo"
+    "integrated_villages:tavern_village"
   ],
   "structureBlacklist": [],
   "structurePredictionDimensionWhitelist": [
-    "minecraft:overworld",
-    "minecraft:the_nether",
-    "minecraft:the_end",
-    "minecraft:the_end"
+    "minecraft:overworld"
   ],
-  "initialPlanRadiusChunks": 128,
+  "initialPlanRadiusChunks": 64,
   "dynamicPlanEnabled": true,
-  "dynamicPlanRadiusChunks": 256,
+  "dynamicPlanRadiusChunks": 128,
   "dynamicPlanStrideChunks": 64,
   "planningAlgorithm": "RNG",
   "highwayEnabled": false,

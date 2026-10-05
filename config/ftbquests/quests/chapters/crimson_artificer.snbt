@@ -1067,7 +1067,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 1b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -1146,15 +1148,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "669378201FE571F0"
@@ -2406,11 +2410,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "42FA00DDD1653F0E"
-				item: "celestisynth:solar_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "42FA00DDD1653F0E"
+					item: "celestisynth:solar_crystal"
+					type: "item"
+				}
+				{
+					id: "33195D80DE4A662D"
+					item: "desecratedcore:soleipse_crystal"
+					type: "item"
+				}
+			]
 			x: 11.150000000000002d
 			y: 12.9d
 		}
@@ -2689,15 +2700,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "4E55A5E372DC4F3B"
@@ -2728,15 +2741,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.25f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "354AC829FD3E7924"
@@ -2772,15 +2787,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "75F344A04C8D6F59"
@@ -2803,15 +2820,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 0.2f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "726C44433AF3D2CE"
@@ -2834,15 +2853,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.4f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "726D31B00B7D6D8C"
@@ -2866,15 +2887,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.25f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "042BB13228149603"
@@ -2911,15 +2934,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.25f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "57DC6BF3211143D1"
@@ -2947,6 +2972,7 @@
 		}
 		{
 			dependencies: ["76593EA6852DE6C8"]
+			description: ["&4The humans have a crude enchanting system, completely random and at the mercy of the universe. Your ancestors have perfected a much more efficient system over centuries that let you pick and choose what enchantments to apply with some supplementary ingredients as supplements."]
 			entity_vis_size: 1.0f
 			id: "67DADCC34E9A8A63"
 			rewards: [
@@ -2973,6 +2999,11 @@
 		}
 		{
 			dependencies: ["4875801A20501BE7"]
+			description: [
+				"Grisha, where do I find restorine?"
+				""
+				"&4You will find restorine underground, but not too deep. It is green and budding much like amethyst but doesn't come in large geodes, but rather in \"spikes\". You can harvest its buds but then you will have to wait until it reforms to harvest more."
+			]
 			entity_vis_size: 1.0f
 			id: "76593EA6852DE6C8"
 			rewards: [
@@ -3193,6 +3224,11 @@
 		}
 		{
 			dependencies: ["67DADCC34E9A8A63"]
+			description: [
+				"&4You won't be able to see all enchantments available at first. You will need bookshelves to be able to decrypt enchantments and apply them onto your equipment. Regular bookshelves are not enough. You will need bloody bookshelves or any bookshelf that is more powerful. You can also make enchanted bookshelves by inserting enchanted books into chiseled bookshelves, which is a potent way of increasing enchanting power."
+				""
+				"&a(Jade does not display the correct enchanting power on the table, open the table to see the blue bar's enchanting power.)"
+			]
 			entity_vis_size: 1.0f
 			id: "1101E3B8A9748513"
 			rewards: [
@@ -5953,6 +5989,15 @@
 		}
 		{
 			dependencies: ["3913E4BF1C7341B8"]
+			description: [
+				"I raided a Spectral Artificer's library for you, Grisha. Here, have these books. Why do you even eat books?"
+				""
+				"&4Why do you drink blood?"
+				""
+				"To live... Oh nevermind, what should be the first step to delve into enchanting?."
+				""
+				"&4Humans crudely use mere diamonds for enchanting anchors, but sanguines use restorite, a rarer material not found in every region, but abundant in our Red Barar. To harvest the most pure fragments, you will need a special amethyst harvesting wand."
+			]
 			entity_vis_size: 1.0f
 			id: "4875801A20501BE7"
 			rewards: [
@@ -6101,15 +6146,17 @@
 			entity_vis_size: 0.75f
 			id: "462D66DAEECB200F"
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "639D7337AB72CEB0"

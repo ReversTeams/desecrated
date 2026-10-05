@@ -1,0 +1,142 @@
+{
+  "seliora": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "ritekeeper": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 100,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "bloodseeker": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5,
+      "operation": "ADDITION"
+    }
+  ],
+  "bloodthirstybeast": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 5,
+      "operation": "ADDITION"
+    }
+  ],
+  "cinder_acolyte": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "failed_remnant": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "frailed_son_of_the_unknown": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "grave_walker_entity": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "offspring_of_the_unknown": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "blasphemous_malformation": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ]
+}
