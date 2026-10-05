@@ -1,0 +1,12 @@
+{
+	id: "247242AF83DD4BE9"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ item: "hexalia:spirit_bloom" }
+		{ item: "hexalia:dreamshroom" }
+		{ item: "hexalia:siren_kelp" }
+		{ item: "hexalia:ghost_fern" }
+	]
+	title: "Gift of the Vine"
+}

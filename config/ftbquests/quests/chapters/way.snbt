@@ -96,7 +96,10 @@
 				rotation: 0.0f
 				silhouette_mode: "NONE"
 				size: 3.0f
+				slim_arms: 0b
 				spin_mode: "USE_GLOBAL"
+				tag_cycle_mode: "USE_GLOBAL"
+				use_as_quest_icon: 0b
 				walk_mode: "USE_GLOBAL"
 			}
 			id: "148A223B1FB08B33"
@@ -104,15 +107,17 @@
 			tasks: [{
 				entity: "macabre:the_hollow_man"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3D37ECE2E7AAF7FF"
@@ -156,15 +161,17 @@
 			tasks: [{
 				entity: "macabre:baal"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "20EFBF9B777813CF"
@@ -206,15 +213,17 @@
 			tasks: [{
 				entity: "macabre:gomoria"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "196412AB28F3C33F"
@@ -232,15 +241,17 @@
 			tasks: [{
 				entity: "macabre:valamon"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "28A320BFF33E63FA"
@@ -270,15 +281,17 @@
 			tasks: [{
 				entity: "macabre:gargamaw"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "00B482EA32958F8B"
@@ -308,15 +321,17 @@
 			tasks: [{
 				entity: "macabre:morphegor"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "74468A4784E40EF8"

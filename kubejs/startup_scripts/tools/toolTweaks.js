@@ -106,6 +106,18 @@ ItemEvents.modification(event => {
 		3556, ["bloodyhell:blasphemite_leggings", 14],
 		2794, ["bloodyhell:blasphemite_boots", 11],
 
+		// Celestisynth Lunar
+		655, ["celestisynth:lunar_stone_helmet", 5],
+		819, ["celestisynth:lunar_stone_chestplate", 9],
+		728, ["celestisynth:lunar_stone_leggings", 8],
+		655, ["celestisynth:lunar_stone_boots", 5],
+
+		// Celestisynth Solar
+		655, ["celestisynth:solar_crystal_helmet", 5],
+		819, ["celestisynth:solar_crystal_chestplate", 9],
+		728, ["celestisynth:solar_crystal_leggings", 8],
+		655, ["celestisynth:solar_crystal_boots", 5],
+
 	].forEach(en => {
 		if (typeof en === "number") return d = en;
 		if (typeof en === "string") return p = en;

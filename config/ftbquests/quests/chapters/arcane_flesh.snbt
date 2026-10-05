@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 23.0d
-			y: -31.0d
+			y: -32.5d
 		}
 		{
 			alpha: 180
@@ -74,7 +74,43 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 20.0d
-			y: -29.5d
+			y: -31.5d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "bloodyhell:textures/particle/cyclops_halo_particle.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 21.849999999999998d
+			y: -39.75d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "bloodyhell:textures/gui/mana_sphere_empty.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.5d
+			y: -28.0d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "bloodyhell:textures/particle/cyclops_halo_particle_4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 20.849999999999998d
+			y: -37.25d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "bloodyhell:textures/particle/blood_pulse_0.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: -20.5d
 		}
 	]
 	order_index: 2
@@ -128,15 +164,17 @@
 				{
 					entity: "sons_of_sins:betrayed_guzzler"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "sons_of_sins:flesh_of_demise"
@@ -320,15 +358,17 @@
 				{
 					entity: "fracture:flesh_obelisk"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "fracture:flesh_sprayer"
@@ -358,6 +398,10 @@
 				"So,,, we're not using the bones to make a broth?"
 				""
 				"&4No."
+				""
+				"Then where do I use this chalice?"
+				""
+				"&4I think I can sense an otherwordly gate within the walls. Break it open. I don't think he would mind. It's where he hides it from the hunters."
 			]
 			entity_vis_size: 1.0f
 			id: "5CA8FDF37BD413E4"
@@ -405,7 +449,11 @@
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
-			description: ["Within most of the bloodred areas of this world, I was able to find this red metal ressembling solidified, metalized blood. It would be apt to call this Sanguinite, after its colour and after us noble sanguines."]
+			description: [
+				"Within most of the bloodred areas of this world, I was able to find this red metal ressembling solidified, metalized blood. It would be apt to call this Sanguinite, after its colour and after us noble sanguines."
+				""
+				"It seems like Vesper's portal was also made of the same material. I believe I could go back home anywhere with a similar design."
+			]
 			entity_vis_size: 1.0f
 			id: "65DF6B6B038F58F7"
 			rewards: [
@@ -422,20 +470,13 @@
 				}
 			]
 			size: 1.15d
-			tasks: [
-				{
-					id: "7F33FDF31A6CFBD1"
-					item: "bloodyhell:sanguinite_ore"
-					type: "item"
-				}
-				{
-					id: "29E1E5129F6DBC29"
-					item: "bloodyhell:sanguinite"
-					type: "item"
-				}
-			]
-			x: 16.674999999999997d
-			y: -20.124999999999996d
+			tasks: [{
+				id: "29E1E5129F6DBC29"
+				item: "bloodyhell:sanguinite"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["22DDD3C6B3604CD9"]
@@ -453,7 +494,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: -33.5d
+			y: -35.0d
 		}
 		{
 			dependencies: ["0377023CC9A03552"]
@@ -464,6 +505,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [{
 				id: "547C306A5F9914B1"
 				item: "bloodyhell:rhnull"
@@ -477,7 +519,7 @@
 				"65DF6B6B038F58F7"
 				"3488DDCE529DD3F8"
 			]
-			description: [""]
+			description: ["&4The blood fauna of this world is truly fascinating. They have developed intricate circulation systems we could replicate for fluid logistics."]
 			entity_vis_size: 1.0f
 			id: "477517C000C5B774"
 			rewards: [
@@ -532,6 +574,7 @@
 		}
 		{
 			dependencies: ["477517C000C5B774"]
+			description: ["&4With sanguinite, the purest forms of blood with the highest levels of vitality can be extracted from most creatures. Build a harvester with sanguinite and gold and slay various creatures on it. You will see the result. Blood you would have dreamed of."]
 			entity_vis_size: 1.0f
 			id: "37CBDB89759D3362"
 			rewards: [{
@@ -576,13 +619,14 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.2d
 			tasks: [{
 				id: "37A347FAF5987C3D"
 				item: "bloodyhell:blasphemite"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -34.0d
+			x: 20.849999999999998d
+			y: -37.25d
 		}
 		{
 			dependencies: [
@@ -596,6 +640,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [
 				{
 					id: "2DC434C4DBA3E83A"
@@ -682,8 +727,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: -38.5d
+			x: 21.349999999999998d
+			y: -42.75d
 		}
 		{
 			dependencies: ["16159AA464679A4C"]
@@ -694,6 +739,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [
 				{
 					id: "2306B2675A52A2ED"
@@ -706,8 +752,8 @@
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: -35.5d
+			x: 21.849999999999998d
+			y: -39.75d
 		}
 		{
 			dependencies: ["1B25B0B9EE0E67D5"]
@@ -839,8 +885,8 @@
 				title: "Any Blasphemous Spell"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -36.0d
+			x: 20.349999999999998d
+			y: -40.25d
 		}
 		{
 			dependencies: ["503F8332E07D41A2"]
@@ -878,6 +924,11 @@
 		}
 		{
 			dependencies: ["37CBDB89759D3362"]
+			description: [
+				"What do I do with all of this high quality blood laying around?"
+				""
+				"&4I believe you could make use of a condenser, either to solidify the blood into a useful material or to provide an alternate method of producing pure blood."
+			]
 			entity_vis_size: 1.0f
 			id: "19C8C7A0D9F4F3A6"
 			rewards: [{
@@ -1525,15 +1576,17 @@
 			}]
 			size: 1.2d
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "butchery:villager_head"
@@ -2077,15 +2130,17 @@
 			tasks: [{
 				entity: "sons_of_sins:kelvin"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3EFDF918A1FBA9D9"
@@ -2108,15 +2163,17 @@
 			tasks: [{
 				entity: "sons_of_sins:walking_bed"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "75E65E6930C5910E"
@@ -2139,15 +2196,17 @@
 			tasks: [{
 				entity: "sons_of_sins:wistiver"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5E1D415655871691"
@@ -2170,15 +2229,17 @@
 			tasks: [{
 				entity: "sons_of_sins:prowler"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "62F1F902E1B27032"
@@ -2201,15 +2262,17 @@
 			tasks: [{
 				entity: "sons_of_sins:butcher"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "4CC21AAB6AE67298"
@@ -2232,15 +2295,17 @@
 			tasks: [{
 				entity: "sons_of_sins:blud"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "70F729B769E7B7E2"
@@ -2263,15 +2328,17 @@
 			tasks: [{
 				entity: "sons_of_sins:curse"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3F7E950D8DEFC369"
@@ -2309,15 +2376,17 @@
 			tasks: [{
 				entity: "sons_of_sins:betrayed_guzzler"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "6B433F8562F1759C"
@@ -2338,15 +2407,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "43CFCAC7897F806E"
@@ -2369,15 +2440,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3632D64720A94F00"
@@ -2400,15 +2473,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7A73762223E35564"
@@ -2431,15 +2506,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "33E3DCC6386C3358"
@@ -2463,15 +2540,17 @@
 				xp_levels: 1
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5FAC41CCFF8D58E8"
@@ -2654,15 +2733,17 @@
 				{
 					entity: "biomancy:flesh_blob"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "7665380E192F0B8A"
@@ -2957,15 +3038,17 @@
 			size: 1.2d
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "13F15280DF637A0A"
@@ -3369,15 +3452,17 @@
 				}
 			]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "03F4391702DBBC29"
@@ -3411,15 +3496,17 @@
 				}
 			]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7A87856B322E8FC8"
@@ -3636,10 +3723,9 @@
 			y: -28.5d
 		}
 		{
-			dependencies: ["65DF6B6B038F58F7"]
+			dependencies: ["37BAE0962B2FD53A"]
 			dependency_requirement: "all_started"
 			entity_vis_size: 1.0f
-			hide_dependency_lines: true
 			id: "503F8332E07D41A2"
 			rewards: [{
 				id: "180D42355AB060D6"
@@ -3649,15 +3735,17 @@
 			tasks: [{
 				entity: "bloodyhell:ritekeeper"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "0DC13DCBBC4195F2"
@@ -3668,7 +3756,7 @@
 			y: -23.5d
 		}
 		{
-			dependencies: ["1B25B0B9EE0E67D5"]
+			dependencies: ["4DA2C269CE28DD1E"]
 			entity_vis_size: 1.75f
 			id: "5BCBF128A6DC1902"
 			rewards: [{
@@ -3680,15 +3768,17 @@
 			tasks: [{
 				entity: "bloodyhell:seliora"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7ECD894936E48A4D"
@@ -3696,7 +3786,7 @@
 				value: 1L
 			}]
 			x: 20.0d
-			y: -29.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["5BCBF128A6DC1902"]
@@ -3713,7 +3803,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: -31.0d
+			y: -33.0d
 		}
 		{
 			dependencies: ["6F3A5BBFC72E0DBF"]
@@ -3729,8 +3819,8 @@
 				item: "bloodyhell:unknown_portal_item"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -32.5d
+			x: 20.5d
+			y: -34.5d
 		}
 		{
 			dependencies: ["0796C66F6BF3B1F5"]
@@ -3746,8 +3836,8 @@
 				item: "bloodyhell:rune_of_the_ravenous_gaze"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -39.5d
+			x: 20.0d
+			y: -44.0d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -3763,18 +3853,31 @@
 				item: "bloodyhell:blood_gem_sprout_seed"
 				type: "item"
 			}]
-			x: 24.0d
-			y: -35.0d
+			x: 24.349999999999998d
+			y: -38.75d
 		}
 		{
 			dependencies: ["65DF6B6B038F58F7"]
+			description: [
+				"I believe this sanguinite would make for fine armour material. Sanguinite is durable, strong and surprisingly light."
+				""
+				"It's not special, but its properties are impressive by itself."
+			]
 			entity_vis_size: 1.0f
 			id: "5157D5D88A5137C9"
-			rewards: [{
-				id: "430609994713A5D0"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "080E801628480F25"
+					item: "bloodyhell:sanguinite"
+					type: "item"
+				}
+				{
+					id: "430609994713A5D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "6C28365AFA9BD8B1"
@@ -3827,13 +3930,26 @@
 		}
 		{
 			dependencies: ["65DF6B6B038F58F7"]
+			description: [
+				"Sanguinite tools are simple in design but are made from a most powerful material, durable and strong."
+				""
+				"The Sanguinite Bow is most impressive for its effectiveness. While sanguinite arrows are expensive, they deal a massive amount of damage."
+			]
 			entity_vis_size: 1.0f
 			id: "2118C7B2C7BC8691"
-			rewards: [{
-				id: "3C6F39B5D1C2B2BD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "08BE78D4FF3AEFA0"
+					item: "bloodyhell:sanguinite"
+					type: "item"
+				}
+				{
+					id: "3C6F39B5D1C2B2BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "0A17EC33A7AEE357"
@@ -3920,8 +4036,8 @@
 				item: "bloodyhell:nameless_whisper"
 				type: "item"
 			}]
-			x: 25.0d
-			y: -38.5d
+			x: 24.849999999999998d
+			y: -42.75d
 		}
 		{
 			dependencies: ["13AB45EA2C99F16B"]
@@ -3937,8 +4053,8 @@
 				item: "bloodyhell:blasphemous_eye"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -37.0d
+			x: 22.349999999999998d
+			y: -41.25d
 		}
 		{
 			dependencies: ["4EF6DB4E4BE0875F"]
@@ -3954,8 +4070,8 @@
 				item: "bloodyhell:gaze_of_the_unknown"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -38.5d
+			x: 22.849999999999998d
+			y: -42.75d
 		}
 		{
 			dependencies: ["2ACEA55675CB3F95"]
@@ -4144,7 +4260,7 @@
 				type: "item"
 			}]
 			x: 23.0d
-			y: -31.0d
+			y: -32.5d
 		}
 		{
 			dependencies: ["578A5561970CCBCF"]
@@ -4161,7 +4277,7 @@
 				type: "item"
 			}]
 			x: 28.0d
-			y: -35.0d
+			y: -36.5d
 		}
 		{
 			dependencies: [
@@ -4219,7 +4335,7 @@
 				}
 			]
 			x: 26.0d
-			y: -34.0d
+			y: -35.5d
 		}
 		{
 			dependencies: ["7A488EE346E022EE"]
@@ -4268,7 +4384,7 @@
 				type: "item"
 			}]
 			x: 25.0d
-			y: -32.5d
+			y: -34.0d
 		}
 		{
 			dependencies: ["0F17782DE678C1AD"]
@@ -4295,7 +4411,7 @@
 				type: "item"
 			}]
 			x: 27.5d
-			y: -29.5d
+			y: -31.0d
 		}
 		{
 			dependencies: ["06656D0213B43EC4"]
@@ -4325,7 +4441,7 @@
 				type: "item"
 			}]
 			x: 29.5d
-			y: -29.5d
+			y: -31.0d
 		}
 		{
 			dependencies: ["7A488EE346E022EE"]
@@ -4342,7 +4458,7 @@
 				type: "item"
 			}]
 			x: 25.0d
-			y: -29.5d
+			y: -31.0d
 		}
 		{
 			dependencies: ["578A5561970CCBCF"]
@@ -4375,7 +4491,7 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: -35.5d
+			y: -37.0d
 		}
 		{
 			dependencies: ["0F17782DE678C1AD"]
@@ -4392,7 +4508,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: -28.0d
+			y: -29.5d
 		}
 		{
 			dependencies: ["0F17782DE678C1AD"]
@@ -4409,7 +4525,7 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: -28.0d
+			y: -29.5d
 		}
 		{
 			dependencies: ["7A488EE346E022EE"]
@@ -4426,7 +4542,7 @@
 				type: "item"
 			}]
 			x: 25.5d
-			y: -31.0d
+			y: -32.5d
 		}
 		{
 			dependencies: ["6F71CC7D8969DFA6"]
@@ -4643,15 +4759,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "323180865B8A8C39"
@@ -4675,15 +4793,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "40D31C4393741EFB"
@@ -4707,15 +4827,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "37CD237F14EF0514"
@@ -4739,15 +4861,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "4D02AF4A46A53226"
@@ -4918,6 +5042,220 @@
 			}]
 			x: -2.0d
 			y: -21.5d
+		}
+		{
+			dependencies: ["16159AA464679A4C"]
+			entity_vis_size: 1.0f
+			id: "1242F74FC06441D9"
+			tasks: [
+				{
+					id: "5F2703D510514DFD"
+					item: {
+						Count: 1
+						id: "bloodyhell:blasphemite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37EAEE4B31BB3018"
+					item: {
+						Count: 1
+						id: "bloodyhell:blasphemite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54F02A720D6DD207"
+					item: {
+						Count: 1
+						id: "bloodyhell:blasphemite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "169408C640C7EBD1"
+					item: {
+						Count: 1
+						id: "bloodyhell:blasphemite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blasphemite Armour"
+			x: 23.0d
+			y: -37.5d
+		}
+		{
+			dependencies: ["16159AA464679A4C"]
+			entity_vis_size: 1.0f
+			id: "7287DF481DEE165A"
+			size: 0.9d
+			tasks: [{
+				id: "50087A8289964D5A"
+				item: "bloodyhell:blasphemous_ring"
+				type: "item"
+			}]
+			x: 18.45d
+			y: -37.35d
+		}
+		{
+			dependencies: ["16159AA464679A4C"]
+			entity_vis_size: 1.0f
+			id: "5BCB8F88C69272AC"
+			size: 0.9d
+			tasks: [{
+				id: "3B43A5DD8201BFCC"
+				item: {
+					Count: 1
+					id: "bloodyhell:heretic_sacrificial_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.9d
+			y: -38.25d
+		}
+		{
+			dependencies: ["16159AA464679A4C"]
+			entity_vis_size: 1.0f
+			id: "313ADBA5CBAC1864"
+			tasks: [{
+				id: "2027C2366060D0CB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodyhell:blasphemous_twin_daggers"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blasphemous_hulking_mass_of_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blasphemous_impaler"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Blasphemite Weapon"
+				type: "item"
+			}]
+			title: "Blasphemite Weapons"
+			x: 24.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["16159AA464679A4C"]
+			entity_vis_size: 1.0f
+			id: "7208DBE7531A650F"
+			tasks: [{
+				id: "2B7897888DA0019F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodyhell:blasphemite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blasphemite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blasphemite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blasphemite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodyhell:blasphemite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Blasphemite Tool"
+				type: "item"
+			}]
+			title: "Blasphemite Tools"
+			x: 23.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["65DF6B6B038F58F7"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "37BAE0962B2FD53A"
+			tasks: [{
+				icon: "bloodyhell:ancient_bloody_stone_bricks"
+				id: "6C19754BEAFCD5BB"
+				structure: "bloodyhell:sanctum_of_the_unbound"
+				title: "Find the Sanctum of the Unbound"
+				type: "structure"
+			}]
+			x: 23.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["1B25B0B9EE0E67D5"]
+			entity_vis_size: 1.0f
+			id: "4DA2C269CE28DD1E"
+			size: 0.9d
+			tasks: [{
+				icon: "bloodyhell:star_lamp_block"
+				id: "46627B645F80A112"
+				structure: "bloodyhell:pool"
+				title: "Find Seliora's Pyramid"
+				type: "structure"
+			}]
+			x: 19.349999999999998d
+			y: -29.7d
 		}
 	]
 	title: "Arcane Flesh"

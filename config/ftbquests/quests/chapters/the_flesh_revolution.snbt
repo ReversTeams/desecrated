@@ -504,7 +504,13 @@
 				"6B0E995FC2B51651"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The integrator egg can be obtained by throwing a reanimated heart into lava surrounded by 8 rusty metal blocks."]
+			description: [
+				"I threw this heart into a pool of lava surrounded by rusted metal and... what was that creature from the sky? Is this egg even safe?"
+				""
+				"&4This egg was delivered properly and it is completely safe. It's an integrator egg, you can feed it blood with pipes to make it hatch."
+				"{@pagebreak}"
+				"&4Integrators can naturally withstand large amounts of eldritch and cosmic knowledge. It slowly accumulates knowledge, which can ease in the creation of future materials."
+			]
 			entity_vis_size: 1.0f
 			icon: "neepmeat:integrator_egg"
 			id: "27E206D2AED49A96"
@@ -826,6 +832,7 @@
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
+			description: ["&4Another sign of the enlightenment exposure of the world: stones that bleed. The transient ichor from verrucous stone is essentially free, although it doesn't have much throughput."]
 			entity_vis_size: 1.0f
 			id: "01D544725B5B1137"
 			rewards: [
@@ -842,15 +849,17 @@
 				}
 			]
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "neepmeat:verrucous_stone_port"
@@ -1107,6 +1116,17 @@
 				"187D75D48A04D454"
 				"27E206D2AED49A96"
 			]
+			description: [
+				"&4The Charnel Compactor, with help from an integrator, can turn raw meats into a more enlightenened liquid solution."
+				""
+				"... What counts as raw meat?"
+				""
+				"&4If it's raw and came from some creature, it's raw meat"
+				""
+				"What about spiders?"
+				""
+				"&4Meat."
+			]
 			entity_vis_size: 1.0f
 			id: "3E79771244634868"
 			rewards: [
@@ -1133,6 +1153,17 @@
 		}
 		{
 			dependencies: ["3BC238D73427F68B"]
+			description: [
+				"&4Similar to the Charnel Compactor, the Pedestal allows an integrator to channel enlightenment into an item. These enlightened items are crucial for most advanced engineering."
+				""
+				"What should I enlighten first?"
+				""
+				"&4Enlightened plants are very useful and can easily be scaled once the first crop is transformed."
+				""
+				"Can I eat these crops?"
+				""
+				"&4... If you really want to, you can."
+			]
 			entity_vis_size: 1.0f
 			id: "7DC39383E7D870D5"
 			rewards: [
@@ -1159,6 +1190,17 @@
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
+			description: [
+				"&4The PLC is a versatile programmable computer, capable of more complex manufacturing processes, such as creating implants and purposed organisms. The manufacturer's guide projector may contain more information about it."
+				""
+				"Haven't you eaten books about this?"
+				""
+				"&4The guide projector isn't a book, and I am incapable of seeing things the way you living creatures do. I once tried eating one, but it gave me a stomach ache."
+				""
+				"So you &odo&r have organs!"
+				""
+				"&4... A figure of speech."
+			]
 			entity_vis_size: 1.0f
 			id: "76EB939D9E63EC40"
 			rewards: [
@@ -1185,6 +1227,7 @@
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
+			description: ["I will need a machine to pump liquid out of containers and into pipes. A redstone-activated pump should do the trick. The redstone should create enough motion on its fluid to move the fluid."]
 			entity_vis_size: 1.0f
 			id: "6B0E995FC2B51651"
 			rewards: [
@@ -1214,6 +1257,7 @@
 				"5D4499D4254102B7"
 			]
 			dependency_requirement: "one_started"
+			description: ["Pipes will be needed to move fluids such as blood efficiently, and tanks will be needed to store it. Plain iron and copper should do."]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			id: "720FB6E79AB03072"
@@ -1315,6 +1359,15 @@
 		}
 		{
 			dependencies: ["3E79771244634868"]
+			description: [
+				"This fluid whisper to me..."
+				""
+				"&4You will get a lot more of that later."
+				""
+				"The fluid?"
+				""
+				"&4That too, it's very useful to connect flesh and metal, but no. The whispering."
+			]
 			entity_vis_size: 1.0f
 			id: "3BC238D73427F68B"
 			rewards: [
@@ -1342,6 +1395,7 @@
 				"51C98BEF06A70185"
 				"7ACE16042C8B562F"
 			]
+			description: ["&4Whisper brass is a core material for any logistics sytem because of its self-lubricating properties, even better than regular brass."]
 			entity_vis_size: 1.0f
 			id: "7FA3BBF85B8DC373"
 			rewards: [
@@ -1368,6 +1422,19 @@
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
+			description: [
+				"&4This enlightened form of wheat contains traces of transient metals that engineers were never able to identify. These traces allow this plant to be used in alloying with copper to create a new form of brass."
+				""
+				"Oh, oh, this one whispers to me too!"
+				""
+				"&4Yes, it's in the name."
+				""
+				"..."
+				""
+				"&4I know what you're about to ask. Yes, you can make bread from this and yes, you can eat it. Just mind your enlightenment exposure."
+				""
+				"Woohoo!"
+			]
 			entity_vis_size: 1.0f
 			id: "7ACE16042C8B562F"
 			rewards: [
@@ -1382,11 +1449,19 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				id: "3AF3E231B1AFA3A6"
-				item: "neepmeat:whisper_wheat_seeds"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3AF3E231B1AFA3A6"
+					item: "neepmeat:whisper_wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "13FDE768505DC5F6"
+					item: "neepmeat:whisper_wheat"
+					type: "item"
+				}
+			]
+			title: "Whisper Wheat"
 			x: -2.0d
 			y: -19.0d
 		}
@@ -1500,6 +1575,15 @@
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
+			description: [
+				"Oh I know this one, it's an open crate!"
+				""
+				"&4... You shouldn't know about that."
+				""
+				"What, the botanical engineers fairy tales?"
+				""
+				"&4Right, the fairy tales..."
+			]
 			entity_vis_size: 1.0f
 			id: "32DD1410B6D0D9DF"
 			rewards: [{
@@ -1641,6 +1725,23 @@
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
+			description: [
+				"&4The pressing basin, paired with a matching hydraulic press, can turn liquid suspensions back into solid items."
+				""
+				"Can I press meat?"
+				""
+				"&4You can definitely press meat."
+				"{@pagebreak}"
+				"Can I press myself?"
+				""
+				"&4Why would you do that?"
+				""
+				"I'm made of meat. Maybe sanguine meat is special?"
+				""
+				"&4Even if it is, you wouldn't be able to see the results. Don't press yourself."
+				""
+				"That makes sense..."
+			]
 			entity_vis_size: 1.0f
 			id: "0CDD735F5019B57F"
 			rewards: [{
@@ -1753,6 +1854,7 @@
 		}
 		{
 			dependencies: ["187D75D48A04D454"]
+			description: ["A higher capacity tank, but it's the same size... is there something special about meat steel that enables this strange behaviour?"]
 			entity_vis_size: 1.0f
 			id: "649C05E136899115"
 			rewards: [{
@@ -1831,6 +1933,7 @@
 				"187D75D48A04D454"
 				"7FA3BBF85B8DC373"
 			]
+			description: ["This meat steel is... too durable for what it is. It's even stronger than iron tools and almost stronger than diamond."]
 			entity_vis_size: 1.0f
 			id: "55797E03F03413CB"
 			rewards: [
@@ -2500,6 +2603,7 @@
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
+			description: ["&4You can produce these squirming potatoes via enlightenment, but some records note that they can be grown from normal potatoes sometimes. It seems the whole world has been affected by some form of minor enlightenment, but from an unknown location..."]
 			entity_vis_size: 1.0f
 			id: "2ED8C90203220E71"
 			rewards: [
@@ -2524,6 +2628,7 @@
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
+			description: ["I can upgrade the grate into a more convenient vessel for gathering blood. Combined with a tissue operator, I can crack open most fleshy creatures and take their blood direrctly. Or I could settle for something more boring and let it intake water from below."]
 			entity_vis_size: 1.0f
 			id: "73DB815B7413BC62"
 			rewards: [
@@ -2551,6 +2656,7 @@
 				"538E3136ADC8067A"
 				"3BC238D73427F68B"
 			]
+			description: ["&4When moving from raw transient ichor to vascular power, you will need a better transport. This three-way vascular conduit filled with integration fluid can efficiently balance this new form of power."]
 			entity_vis_size: 1.0f
 			id: "2C7E9493B5246AF6"
 			rewards: [
@@ -2574,7 +2680,19 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["7FA3BBF85B8DC373"]
+			dependencies: [
+				"7FA3BBF85B8DC373"
+				"0CDD735F5019B57F"
+			]
+			description: [
+				"Pump water in, pump water out, and let the press do the pressing!"
+				""
+				"&4Do remember to put the press above a pressing basin, though."
+				""
+				"Oh, no no, I'm going to press the milk out of a cow."
+				""
+				"&4... Your methods confuse me, young sanguine."
+			]
 			entity_vis_size: 1.0f
 			id: "0EF999DF08503DD3"
 			rewards: [{
@@ -2592,6 +2710,13 @@
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
+			description: [
+				"&4This biomachine can circulate transient ichor from nothing, using a simple energy source."
+				""
+				"It's gonna be boiling water again isn't it?"
+				""
+				"&4It's boiling water."
+			]
 			entity_vis_size: 1.0f
 			id: "46F6D38B82B45363"
 			rewards: [
@@ -2616,6 +2741,17 @@
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
+			description: [
+				"&4This should be a great interest to sanguinekind: growing blood on trees."
+				""
+				"How does that work?"
+				""
+				"&4Think of it like the wart fungus being modified to grow enlarged, exposed broncial tissue."
+				""
+				"... So they're lung trees?"
+				""
+				"&4Yes. And yes, you can eat the blood-filled alveola."
+			]
 			entity_vis_size: 1.0f
 			id: "15C64A76D9BDAF58"
 			rewards: [
@@ -2648,6 +2784,7 @@
 		}
 		{
 			dependencies: ["15C64A76D9BDAF58"]
+			description: ["&4This blood-filled alveolar sac is the product of blood bubble trees. The concentrated fuid can be extracted into liquid blood by diluting it with water in a mixer."]
 			entity_vis_size: 1.0f
 			id: "56C3A5105479F0AF"
 			rewards: [
@@ -4135,6 +4272,17 @@
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
+			description: [
+				"&4Grave Brome naturally contains a high concentration of the compounds found in Browne."
+				""
+				"Does this mean I can now grow this grass to meet my material and fuel needs?"
+				""
+				"&4Yes, this will do much good for your self-sufficiency in that department. "
+				""
+				"So... can I eat it?"
+				""
+				"&4They're. Not. Made. From. Brownies."
+			]
 			entity_vis_size: 1.0f
 			id: "086B0EC8D5891154"
 			rewards: [{
@@ -4221,15 +4369,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "6249353CDACC6515"
@@ -4328,6 +4478,7 @@
 		}
 		{
 			dependencies: ["2388743859062AD5"]
+			description: ["&4The trommel can separate fluids and solids. You'll find a good use for it in the cleaning of meat or oil fats. The meat in particular you'll need a lot more of later on."]
 			entity_vis_size: 1.0f
 			id: "091785408E027D36"
 			rewards: [{
@@ -4386,15 +4537,17 @@
 			}]
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "neepmeat:power_flower_growth"
@@ -4406,15 +4559,17 @@
 					type: "observation"
 				}
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "neepmeat:power_flower_controller"
@@ -4608,6 +4763,7 @@
 				"01D544725B5B1137"
 			]
 			dependency_requirement: "one_started"
+			description: ["&4The stirling engine sure works, but is very inefficient. You can make use of your newly acquired transient ichor to power up these more efficient motors."]
 			entity_vis_size: 1.0f
 			id: "2388743859062AD5"
 			rewards: [
