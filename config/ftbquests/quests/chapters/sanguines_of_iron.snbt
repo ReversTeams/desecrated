@@ -57,6 +57,11 @@
 			description: ["Sanguines of Iron retreat to their workshops to forge powerful weapons, usually staying true to one weapon their whole lives, continually tinkering and improving it. They are master artisans who can produce plenty of specialized tools and equipment."]
 			entity_vis_size: 1.0f
 			id: "20DC2110D654C2D8"
+			rewards: [{
+				id: "4A96F83A5199E07A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3046CFCEC4204858"
 				item: "desecratedcore:iron_key_item"
@@ -67,6 +72,7 @@
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
+			description: ["Sanguines of Iron always have their trusty hammers to forge other tools. I should get one of my own. Wood should do for now."]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "67E46BEEC08F8EA1"
@@ -111,19 +117,33 @@
 					type: "item"
 				}
 			]
+			title: "Tinkering Hammers"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["67E46BEEC08F8EA1"]
+			description: [
+				"Modifying a workbench with my hammer has proven to be succesful. I can now tinker tools more effectively."
+				""
+				"&a(Right click a crafting table with the hammer)"
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "1CE2E59DF8AB13AF"
-			rewards: [{
-				id: "06102C5D4297A363"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C9F4291D41B7DB4"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "06102C5D4297A363"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "tetra:upgrades/workbench"
 				criterion: ""
@@ -139,6 +159,7 @@
 				"623FB39372B70DDF"
 			]
 			dependency_requirement: "one_started"
+			description: ["I sometimes encounter these geodes while mining. They seem to contain valuable resources, sometimes. I could crack them open with a hammer at the iron workbench."]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "27080CDFCD7A0AC9"
@@ -192,14 +213,33 @@
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
+			description: [
+				"It would be quite useful if I could store items in a belt on top of my backpack. I believe starting off with a rope will do and then I can upgrade it into a belt."
+				""
+				"&a(The keybind to open the belt is Alt + B by default.)"
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "0FDC63AE98A6BC06"
-			rewards: [{
-				id: "7AC0AD823D4A731D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "43EA8642DBE5DED4"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7AC0AD823D4A731D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5772ACC8DBA56320"
 				item: {
@@ -223,18 +263,26 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "2F231685847D74F5"
-			rewards: [{
-				id: "11B83A644214F9B8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F6F6377568668CA"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "11B83A644214F9B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "tetra:upgrades/sword_upgrade"
 				criterion: ""
 				id: "4E99896113E28D29"
 				type: "advancement"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: -6.0d
 		}
 		{
@@ -242,11 +290,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "5DEADC68E94F930F"
-			rewards: [{
-				id: "7A627CD08C293FB2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "744B4DD544C3EE79"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "7A627CD08C293FB2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "tetra:upgrades/shield_upgrade"
 				criterion: ""
@@ -261,11 +317,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "6FFE6F897CC8BC2A"
-			rewards: [{
-				id: "2C7FC31550B8B358"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DB2ECDDBBF3572B"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "2C7FC31550B8B358"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "tetra:upgrades/bow_upgrade"
 				criterion: ""
@@ -280,11 +344,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "142CEAE28CC979B5"
-			rewards: [{
-				id: "7A351110E66B9374"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "744D7C53D687282C"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "7A351110E66B9374"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "tetra:upgrades/tool_upgrade"
 				criterion: ""
@@ -299,11 +371,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "6832804944E6968C"
-			rewards: [{
-				id: "46C85266D4041D6F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43DB65573D30D8F3"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "46C85266D4041D6F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "74DFA1EBCF889EF0"
 				item: "tetra:rack"
@@ -317,11 +397,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "5CA75CA01A803357"
-			rewards: [{
-				id: "57D4F526C5BD3881"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C4D5AFB8EDD4B9E"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "57D4F526C5BD3881"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					advancement: "tetra:upgrades/hammer_2"
@@ -346,18 +434,26 @@
 					type: "advancement"
 				}
 			]
-			x: -3.5d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["1CE2E59DF8AB13AF"]
 			entity_vis_size: 1.0f
 			id: "58A84DDA66A0816D"
-			rewards: [{
-				id: "70C3A727E3A4A469"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19E7A492CE8220AA"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "70C3A727E3A4A469"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "tetra:upgrades/enchant_item"
 				criterion: ""
@@ -371,11 +467,19 @@
 			dependencies: ["58A84DDA66A0816D"]
 			entity_vis_size: 1.0f
 			id: "231627414397C6D6"
-			rewards: [{
-				id: "7E8B06A635173520"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "215F904BE4D654C2"
+					table_id: 3215921596348714717L
+					type: "random"
+				}
+				{
+					id: "7E8B06A635173520"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				advancement: "tetra:upgrades/unstable_power"
 				criterion: ""
@@ -394,15 +498,24 @@
 				"6FFE6F897CC8BC2A"
 				"2F231685847D74F5"
 				"58A84DDA66A0816D"
+				"3CED3F5BBA4B35A5"
 			]
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:chooser_key_item"
 			id: "718E019861370CB7"
-			rewards: [{
-				id: "17F1BD724B7F73FD"
-				item: "desecratedcore:chooser_key_item"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "17F1BD724B7F73FD"
+					item: "desecratedcore:chooser_key_item"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06EDF12BB5B25944"
+					table_id: 9068938414053408072L
+					type: "choice"
+				}
+			]
 			size: 1.4d
 			tasks: [{
 				id: "29D24D9C1F7D1B4B"
@@ -413,6 +526,7 @@
 		}
 		{
 			dependencies: ["27080CDFCD7A0AC9"]
+			description: ["I sometimes encounter iron oreberry bushes growing on the geodes I crack open, this is quite convenient. I can now grow iron at home."]
 			entity_vis_size: 1.0f
 			id: "60DD4B4A2BE46EAC"
 			rewards: [{
@@ -451,11 +565,19 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "6CB1DE4BBF000098"
-			rewards: [{
-				id: "7B553165BEBF5D9B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C7B04448CA2A1FA"
+					table_id: 3215921596348714717L
+					type: "random"
+				}
+				{
+					id: "7B553165BEBF5D9B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1947DB23EBCAD4ED"
 				item: "modestmining:pearl"
@@ -489,11 +611,19 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "50CE7F52FC6B44F0"
-			rewards: [{
-				id: "3759ECEDCA37525A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "693BD5BC1F3149BE"
+					table_id: 6522480712724039605L
+					type: "random"
+				}
+				{
+					id: "3759ECEDCA37525A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "4520CF29A2EB42C7"
 				item: "modestmining:coke"
@@ -508,8 +638,8 @@
 			id: "77B94FC775C59E8F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "434D5E0751D8A126"
-				table_id: 6454273999420670365L
+				id: "7B1F55455F8DB4E3"
+				table_id: 3215921596348714717L
 				type: "random"
 			}]
 			tasks: [{
@@ -530,11 +660,19 @@
 			dependencies: ["77B94FC775C59E8F"]
 			entity_vis_size: 1.0f
 			id: "623FB39372B70DDF"
-			rewards: [{
-				id: "17CACFC51BCE8626"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15545376BCAA80AC"
+					table_id: 6454273999420670365L
+					type: "choice"
+				}
+				{
+					id: "17CACFC51BCE8626"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					entity_vis_cycle_seconds: 0.0f
@@ -554,6 +692,7 @@
 					id: "7AD9A962D148E2A8"
 					observe_type: 0
 					timer: 0L
+					title: "Witness Suspicious Dirt"
 					to_observe: "modestmining:suspicious_dirt"
 					type: "observation"
 				}
@@ -575,6 +714,7 @@
 					id: "1706818B5D362A04"
 					observe_type: 0
 					timer: 0L
+					title: "Witness Suspicious Stone"
 					to_observe: "modestmining:suspicious_stone"
 					type: "observation"
 				}
@@ -587,11 +727,19 @@
 			dependencies: ["0108AAE3F424D4AF"]
 			entity_vis_size: 1.0f
 			id: "43245FEBCF7B956D"
-			rewards: [{
-				id: "73C3EC02F371EFCE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30E2C20455DD48EE"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "73C3EC02F371EFCE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5016422568ADB015"
 				item: {
@@ -648,11 +796,19 @@
 			dependencies: ["0108AAE3F424D4AF"]
 			entity_vis_size: 1.0f
 			id: "786B6F26A280619E"
-			rewards: [{
-				id: "494E464E2EA87EF3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A1AAECA69E96927"
+					table_id: 3682133338790196090L
+					type: "random"
+				}
+				{
+					id: "494E464E2EA87EF3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "64D87A7E0E1555A5"
@@ -707,11 +863,25 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "20D37E357AC221B0"
-			rewards: [{
-				id: "2F4B6C6064AA1D4C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "00C508DA777D521E"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2F4B6C6064AA1D4C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "162222E4260F4D24"
 				item: {
@@ -782,11 +952,25 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "0B0BFB80FE0DA237"
-			rewards: [{
-				id: "616516996BF7FAA4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6676D03FB6D2B3A9"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "616516996BF7FAA4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "27D3B0CF6F975DCC"
 				item: {
@@ -857,11 +1041,25 @@
 			dependencies: ["7FF4417F28BBA363"]
 			entity_vis_size: 1.0f
 			id: "487A5F582FC5FCC3"
-			rewards: [{
-				id: "0752E727222B65F7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "0F635478D44F8DF7"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0752E727222B65F7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "53D1DE64173EBE92"
 				item: {
@@ -927,6 +1125,116 @@
 			title: "Mace"
 			x: 4.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["2F231685847D74F5"]
+			entity_vis_size: 1.0f
+			id: "3CED3F5BBA4B35A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "576D042D29845F4B"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "531D7462C6C5E491"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/sword_hone"
+				criterion: ""
+				id: "1190E9EDB71B518F"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2F231685847D74F5"]
+			entity_vis_size: 1.0f
+			id: "08DBEB5B08C8161D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1ABBFD54AFF59263"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "615ACD3100AFC0FB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/sword_integrity"
+				criterion: ""
+				id: "0A989BC38E1E39DA"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3CED3F5BBA4B35A5"
+				"718E019861370CB7"
+			]
+			entity_vis_size: 1.0f
+			id: "0E4B3D5802A7BB0F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B8DEA3A2FE27827"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "76982951231AC437"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/sword_improvement_hone"
+				criterion: ""
+				id: "59436DB1184EBCEE"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3CED3F5BBA4B35A5"
+				"718E019861370CB7"
+			]
+			entity_vis_size: 1.0f
+			id: "2170141E58EFD247"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DE8F0B02E6D779B"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "7C7BC4C20C680C7B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/sword_hone_peak"
+				criterion: ""
+				id: "4EA53D39C8DC4E27"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -8.5d
 		}
 	]
 	title: "Sanguines of Iron"
