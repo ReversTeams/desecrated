@@ -1,0 +1,176 @@
+
+[general]
+	#Master switch for Sub Expansion worldgen features.
+	enableWorldgen = true
+	#Disables all custom worldgen except stalagmite and stalactite generation.
+	liteMode = false
+	#Master switch for gameplay-side environmental effects such as freezing, lava transformations, and geyser eruptions.
+	enableEnvironmentalEffects = true
+
+[worldgen]
+
+	[worldgen.sharedCaves]
+
+		[worldgen.sharedCaves.structures]
+			enableStructureFeatures = true
+			#Range: 0.0 ~ 1.0
+			genericStructurePlacementChance = 1.0
+
+		[worldgen.sharedCaves.speleothemFeatures]
+			enableSpeleothemFeatures = true
+			#Range: 0.0 ~ 1.0
+			structurePlacementChance = 1.0
+			#Range: 0.0 ~ 1.0
+			spawnChance = 1.0
+			#Range: 0.0 ~ 8.0
+			densityMultiplier = 1.0
+			#Range: 0.0 ~ 1.0
+			floorSpawnChance = 1.0
+			#Range: 0.0 ~ 1.0
+			ceilingSpawnChance = 1.0
+			#Range: 0.0 ~ 8.0
+			floorDensityMultiplier = 1.0
+			#Range: 0.0 ~ 8.0
+			ceilingDensityMultiplier = 1.0
+			#Range: 0 ~ 320
+			floorMaxY = 320
+			#Range: 0 ~ 320
+			ceilingMaxY = 256
+			#Range: 0 ~ 64
+			floorMinBelowSurface = 3
+
+		[worldgen.sharedCaves.biomeBlending]
+			enableBiomeBlockReplacement = true
+			#Range: 0.0 ~ 3.0
+			densityMultiplier = 1.0
+
+		[worldgen.sharedCaves.patches]
+			enableCobblestonePatches = true
+			enableCobbledDeepslatePatches = true
+
+		[worldgen.sharedCaves.stoneStrips]
+			enableStoneStrips = true
+
+			[worldgen.sharedCaves.stoneStrips.vanillaFeatureRemovals]
+				removeGraniteUpper = true
+				removeGraniteLower = true
+				removeDioriteUpper = true
+				removeDioriteLower = true
+				removeAndesiteUpper = true
+				removeAndesiteLower = true
+				removeTuff = true
+
+	[worldgen.desertCaves]
+
+		[worldgen.desertCaves.ores]
+			enableDesertOreFeatures = true
+
+		[worldgen.desertCaves.structures]
+			enableFossils = true
+			#Range: 0.0 ~ 1.0
+			fossilPlacementChance = 1.0
+
+		[worldgen.desertCaves.sediment]
+			enableSedimentFeatures = true
+
+		[worldgen.desertCaves.featureRemovals]
+			#Features that desert caves should block when either the local biome or the surface biome is invalid.
+			features = ["sub_expansion:cobbled_deepslate", "sub_expansion:cobblestone", "sub_expansion:deepslate_stalactite_feature", "sub_expansion:deepslate_stalagmite_feature", "minecraft:ore_andesite_lower", "minecraft:ore_andesite_upper", "minecraft:ore_coal_lower", "minecraft:ore_coal_upper", "minecraft:ore_copper_large", "minecraft:ore_copper", "minecraft:ore_diamond_buried", "minecraft:ore_diamond_large", "minecraft:ore_diamond", "minecraft:ore_dirt", "minecraft:ore_emerald", "minecraft:ore_gold_extra", "minecraft:ore_gold_lower", "minecraft:ore_gold", "minecraft:ore_granite_lower", "minecraft:ore_granite_upper", "minecraft:ore_gravel", "minecraft:ore_iron_middle", "minecraft:ore_iron_small", "minecraft:ore_iron_upper", "minecraft:ore_lapis_buried", "minecraft:ore_lapis", "minecraft:ore_redstone_lower", "minecraft:ore_redstone", "minecraft:ore_tuff", "sub_expansion:stone_stalactite_feature", "sub_expansion:stone_stalagmite_feature", "sub_expansion:red_sandstone"]
+
+	[worldgen.snowyCaves]
+
+		[worldgen.snowyCaves.glacierRegions]
+			enableGlacierRegions = true
+			#Range: 1 ~ 128
+			regionRarity = 6
+			#Range: 0.25 ~ 4.0
+			radiusScale = 1.0
+			#Range: 0.25 ~ 4.0
+			heightScale = 1.0
+
+		[worldgen.snowyCaves.icePillars]
+			enableLargeIcePillars = true
+			#Range: 1 ~ 4
+			shellThickness = 1
+			#Range: 0.0 ~ 1.0
+			randomHeightVariationChance = 0.2
+			enableFrozenSkeletons = true
+			#Range: 0.0 ~ 1.0
+			frozenSkeletonChance = 0.1
+
+		[worldgen.snowyCaves.iceDetails]
+			enableFrozenPuddles = true
+			#Range: 0.0 ~ 1.0
+			largeRadiusChance = 0.18
+			#Range: 0.25 ~ 3.0
+			sizeMultiplier = 1.0
+			#Range: 0.0 ~ 1.0
+			outerRingChance = 0.4
+			enableFrostedOreFeatures = true
+			enableIceLayerFeature = true
+
+		[worldgen.snowyCaves.lavaMeltedEdges]
+			enableLavaMeltedEdges = true
+			#Range: 0.0 ~ 4.0
+			transitionChanceMultiplier = 1.0
+
+		[worldgen.snowyCaves.frigidGeysers]
+			enableFrigidGeyserFeatures = true
+			#Range: 1 ~ 128
+			placementAttempts = 18
+			#Range: 0 ~ 32
+			searchHorizontalRadius = 4
+			#Range: 0 ~ 64
+			searchUp = 6
+			#Range: 1 ~ 96
+			searchDown = 18
+			#Range: 1 ~ 64
+			minimumSpacing = 18
+
+		[worldgen.snowyCaves.featureRemovals]
+			#Features that snowy caves should block when either the local biome or the surface biome is invalid.
+			features = ["sub_expansion:cobbled_deepslate", "sub_expansion:cobblestone", "sub_expansion:deepslate_stalactite_feature", "sub_expansion:deepslate_stalagmite_feature", "minecraft:ore_coal_lower", "minecraft:ore_coal_upper", "minecraft:ore_copper_large", "minecraft:ore_copper", "minecraft:ore_diamond_buried", "minecraft:ore_diamond_large", "minecraft:ore_diamond", "minecraft:ore_diorite_lower", "minecraft:ore_diorite_upper", "minecraft:ore_dirt", "minecraft:ore_emerald", "minecraft:ore_gold_extra", "minecraft:ore_gold_lower", "minecraft:ore_gold", "minecraft:ore_granite_lower", "minecraft:ore_granite_upper", "minecraft:ore_gravel", "minecraft:ore_iron_middle", "minecraft:ore_iron_small", "minecraft:ore_iron_upper", "minecraft:ore_lapis_buried", "minecraft:ore_lapis", "minecraft:ore_redstone_lower", "minecraft:ore_redstone", "sub_expansion:stone_stalactite_feature", "sub_expansion:stone_stalagmite_feature"]
+
+[gameplay]
+
+	[gameplay.shared]
+
+		[gameplay.shared.frostedBlocks]
+			meltNearLava = true
+
+	[gameplay.snowyCaves]
+
+		[gameplay.snowyCaves.glacierIce]
+			appliesFreezing = true
+			freezesAdjacentWater = true
+			ambientSounds = true
+			#Range: 1 ~ 20000
+			ambientSoundChance = 4000
+
+		[gameplay.snowyCaves.frigidGeyserBlock]
+			enableEruptions = true
+			requiresNearbyPlayer = true
+			#Range: 1.0 ~ 128.0
+			hearRadius = 30.0
+			#Range: 1 ~ 24000
+			burstCheckIntervalTicks = 4200
+			#Range: 1 ~ 512
+			scheduledBurstChance = 12
+			#Range: 1 ~ 512
+			randomTickBurstChance = 14
+			#Range: 1 ~ 1200
+			eruptionDurationTicks = 110
+			#Range: 1 ~ 2400
+			freezeDurationTicks = 200
+			freezeDamageEnabled = true
+			#Range: 1 ~ 1200
+			freezeDamageIntervalTicks = 40
+			#Range: 0.0 ~ 20.0
+			freezeDamage = 1.0
+			#Range: 1 ~ 100
+			particlePulseIntervalTicks = 3
+			#Range: 0.0 ~ 8.0
+			freezeFieldHorizontalRadius = 0.05
+			#Range: 0.0 ~ 16.0
+			freezeFieldVerticalRadius = 0.6
+

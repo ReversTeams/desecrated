@@ -38,7 +38,8 @@
       "fabric",
       "Moonlight Mods Dynamic Assets",
       "tacz_resources",
-      "quest_enhance"
+      "quest_enhance",
+      "generated/fragmentum_layer"
     ],
     "$$2": {
       "hidden": true,
@@ -47,7 +48,7 @@
     },
     "3": [
       "file/desecratedtextures-1.1.zip",
-      "file/desecrated-ftbquests-theme-1.0.zip"
+      "file/desecrated-ftbquests-theme-1.1.zip"
     ],
     "$$3": {
       "hidden": false,

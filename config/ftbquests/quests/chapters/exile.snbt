@@ -612,10 +612,6 @@
 				"&aYou start as a vampire. Vampires are weak to the sun and fire but undead are not hostile to them. You must drink blood to survive. "
 				""
 				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
-				"{@pagebreak}"
-				"&aDesecrated is mostly complete but still in development. The ending of the pack, reaching the Fruit of All Knowledge is reachable. Some quest descriptions are missing and some content of the Sanguine Factions is not covered in the quests yet."
-				""
-				"&aMost quest descriptions are missing, but the progression is still repesented through the quests. Refer to the mods' guidebooks for now. Make sure to update the pack in the future."
 			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:knowledge_book"

@@ -20,7 +20,7 @@
 	starterBook = false
 	#Gives Players the Witch's Brew when first entering World and Patchouli is loaded, Default: false
 	starterWitchBook = false
-	#Entities part of a Player's Grimoire of Goodwill will not take most damage from said Player rather than just spells, Default: false
+	#Entities part of a Player's Grimoire of Goodwill will not take most damage from said Player rather than just spells, Default: true
 	goodwillNoDamage = false
 	#Entities part of a Player's Grimoire of Goodwill will be protected by the Player's servants, Default: true
 	goodwillServantGuard = true
@@ -70,18 +70,8 @@
 	bossMusic = true
 	#Players camera can shake. Default: true
 	cameraShake = true
-
-["Mod Compatibility"]
-	#If enabled, Ender Dragon's Fireballs will leave clouds that damages even undead and will not hit itself. Default: false
-	betterDragonFireball = false
-	#If Iron's Spells and Spellbooks is installed, certain robes provides Spell resistances. Default: true
-	robesIronResist = true
-	#If Iron's Spells and Spellbooks is installed, certain curios provides Spell buffs. Default: true
-	ironBuff = true
-	#If L_Ender's Cataclysm is installed, pouring Lava onto Void Fluid source blocks will turn it into Void Stones. Default: true
-	cataclysmVoidStone = true
-	#If there's a Block of Lapis Lazuli below, Lava interacting with water will generate Ominous Stone. Default: true
-	ominousStoneGenerator = true
+	#Show how much soul energy is added or removed on the Soul Energy Bar, Default: true
+	showChange = true
 
 [Blocks]
 	#Add mobs that Hook Bells don't work on. 
@@ -238,4 +228,18 @@
 	lichScrollRequirement = true
 	#Whether the player in Lich Mode will emit Lich sounds, Default: true
 	lichModeSounds = true
+
+["Mod Compat/Vanilla Changes"]
+	#If enabled, Ender Dragon's Fireballs will leave clouds that damages even undead and will not hit itself. Default: false
+	betterDragonFireball = false
+	#If Iron's Spells and Spellbooks is installed, certain robes provides Spell resistances. Default: true
+	robesIronResist = true
+	#If Iron's Spells and Spellbooks is installed, certain curios provides Spell buffs. Default: true
+	ironBuff = true
+	#If L_Ender's Cataclysm is installed, pouring Lava onto Void Fluid source blocks will turn it into Void Stones. Default: true
+	cataclysmVoidStone = true
+	#If there's a Block of Lapis Lazuli below, Lava interacting with water will generate Ominous Stone. Default: true
+	ominousStoneGenerator = true
+	#Change Soul Fire behavior to give Soul Burn effect instead of simply burning entities. Default: true
+	soulFireBurn = true
 

@@ -339,6 +339,65 @@
       ]
     },
     {
+      "id": "ancient_remnants:cherry_monument",
+      "displayName": "Cherry Monument",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "ancient_remnants:coniferous_monument",
+      "displayName": "Coniferous Monument",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "ancient_remnants:hunter_monolith",
+      "displayName": "Hunter Monolith",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "ancient_remnants:oakwood_monument",
+      "displayName": "Oakwood Monument",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "ancient_remnants:sentinel_monolith",
+      "displayName": "Sentinel Monolith",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "ancient_remnants:warrior_monolith",
+      "displayName": "Warrior Monolith",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "ati_structures:ancient_temple",
       "displayName": "Ancient Temple",
       "isVanilla": false,
@@ -1319,6 +1378,36 @@
       "dimensions": [
         "fracture:boreas_dimension",
         "reverseeon:depth_of_myth"
+      ]
+    },
+    {
+      "id": "frozen_dominion:expedition_camp",
+      "displayName": "Expedition Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "frozen_dominion:frozen_citadel",
+      "displayName": "Frozen Citadel",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "frozen_dominion:frozen_watchtower",
+      "displayName": "Frozen Watchtower",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
       ]
     },
     {
@@ -3696,6 +3785,32 @@
       ]
     },
     {
+      "id": "strangematter:warp_gate_anomaly",
+      "displayName": "Warp Gate Anomaly",
+      "isVanilla": false,
+      "dimensions": [
+        "blood_arsenal_reawakened:white_day",
+        "perdition:dis",
+        "mahoutsukai:reality_marble",
+        "bloodmagic:dungeon",
+        "fracture:flesh_dimension",
+        "reverseeon:island_dim",
+        "macabre:limbo",
+        "neepmeat:bog",
+        "spectrum:deeper_down",
+        "fracture:boreas_dimension",
+        "macabre:the_pit",
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "minecraft:the_end",
+        "perdition:purgatory",
+        "blood_arsenal_reawakened:black_void",
+        "bloodyhell:soul_dimension",
+        "otherverse:ruins",
+        "minecraft:the_nether"
+      ]
+    },
+    {
       "id": "structuresplus:acacia_house",
       "displayName": "Acacia House",
       "isVanilla": false,
@@ -3728,16 +3843,6 @@
     {
       "id": "structuresplus:council_of_the_trapped_ruins",
       "displayName": "Council Of The Trapped Ruins",
-      "isVanilla": false,
-      "dimensions": [
-        "reverseeon:depth_of_myth",
-        "minecraft:overworld",
-        "fracture:flesh_dimension"
-      ]
-    },
-    {
-      "id": "structuresplus:house3",
-      "displayName": "House3",
       "isVanilla": false,
       "dimensions": [
         "reverseeon:depth_of_myth",
@@ -4768,6 +4873,13 @@
       ]
     },
     {
+      "tagId": "frozen_dominion:fortress_locator",
+      "displayName": "#Fortress Locator",
+      "structureIds": [
+        "frozen_dominion:frozen_citadel"
+      ]
+    },
+    {
       "tagId": "vampirism:hunter_outpost",
       "displayName": "#Hunter Outpost",
       "structureIds": [
@@ -5277,6 +5389,20 @@
       "structureIds": [
         "goety:final_terminal",
         "goetyawaken:chaos_prison"
+      ]
+    },
+    {
+      "tagId": "strangematter:warp_gate_anomaly",
+      "displayName": "#Warp Gate Anomaly",
+      "structureIds": [
+        "strangematter:warp_gate_anomaly"
+      ]
+    },
+    {
+      "tagId": "frozen_dominion:watchtower_locator",
+      "displayName": "#Watchtower Locator",
+      "structureIds": [
+        "frozen_dominion:frozen_watchtower"
       ]
     },
     {

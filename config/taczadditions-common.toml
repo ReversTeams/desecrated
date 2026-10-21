@@ -172,14 +172,6 @@
 		#Example: "tacz:scope_elcan_4x".
 		forceFixedScopes = ["example:scope_id"]
 
-	[common.pipScope]
-		#Allow players to render scopes picture-in-picture, so the lens shows its own magnified
-		#image instead of the whole screen zooming in.
-		#Each player still picks the mode in their own client config; this only decides whether
-		#the server permits it at all. Set false to force every connected player back to the
-		#stock full-screen zoom.
-		enabled = true
-
 	[common.freeAim]
 		#Allow players to decouple the gun from the camera, so the weapon drifts inside the view
 		#instead of being welded to the centre of the screen.
