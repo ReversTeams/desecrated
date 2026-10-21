@@ -32,6 +32,7 @@ key_key.hotbar.6:key.keyboard.6:NONE
 key_key.hotbar.7:key.keyboard.7:NONE
 key_key.hotbar.8:key.keyboard.8:NONE
 key_key.hotbar.9:key.keyboard.9:NONE
+key_key.dungeonconfig.open:key.keyboard.k:NONE
 key_key.entityculling.toggle:key.keyboard.unknown:NONE
 key_key.modernfix.config:key.keyboard.unknown:NONE
 key_key.oneenoughitem.open_editor:key.keyboard.right.bracket:CONTROL
@@ -46,6 +47,7 @@ key_key.butchery.evokermaskpress:key.keyboard.c:NONE
 key_key.butchery.pillagernosepress:key.keyboard.c:NONE
 key_key.butchery.vindicatornosepress:key.keyboard.c:NONE
 key_key.reliable_remover.emi_delete:key.keyboard.delete:NONE
+key_key.reliable_remover.jei_delete:key.keyboard.delete:NONE
 key_key.open_muffler_gui:key.keyboard.unknown:NONE
 key_cos.key.opencosarmorinventory:key.keyboard.unknown:NONE
 key_key.craftingtweaks.rotate:key.keyboard.unknown:NONE
@@ -75,6 +77,7 @@ key_chloride.zoom:key.keyboard.v:NONE
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown:NONE
 key_key.shadercycler.cycle:key.keyboard.unknown:NONE
 key_key.shadercycler.open_config:key.keyboard.u:NONE
+key_key.namepain.showCulled:key.keyboard.unknown:NONE
 key_key.clientsort.edit:key.keyboard.unknown:NONE
 key_key.clientsort.cancelAuto:key.keyboard.unknown:NONE
 key_key.clientsort.op.sort:key.mouse.middle:NONE
@@ -120,6 +123,8 @@ key_tetra.toolbelt.binding.access:key.keyboard.b:NONE
 key_tetra.toolbelt.binding.restock:key.keyboard.b:SHIFT
 key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
 key_tetra.toolbelt.binding.secondary_use:key.keyboard.v:NONE
+key_key.frozen_dominion.roll:key.keyboard.x:NONE
+key_key.coolcatcanvas.screen_effects:key.keyboard.unknown:NONE
 key_key.taczadditions.toggle_laser:key.keyboard.k:NONE
 key_key.fog.toggle:key.keyboard.unknown:NONE
 key_key.ftbteams.open_gui:key.keyboard.unknown:NONE

@@ -246,7 +246,7 @@
 			description: [
 				"By placing a grate below the hanging carcass, I can collect the drained blood. The grate will also purify the blood, no longer is it raw! Well, mostly. I should try not to mix raw and purified blood."
 				""
-				"&a(With butcher's papers, you can switch the type of blood in the grate. Beware, you cannot put back blood in a grate.)"
+				"&a(Try to only use buckets at 1000mb to get the blood from the grate.)"
 			]
 			entity_vis_size: 1.0f
 			id: "7522632161D258AA"
@@ -3233,6 +3233,7 @@
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
+			description: ["Extraterrestrial ore can be harvested with a phage ray."]
 			entity_vis_size: 1.0f
 			id: "4D2F18ACAB325F21"
 			rewards: [{

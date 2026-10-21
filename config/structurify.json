@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.42",
-  "config_datetime": "2026-10-04_20-11-45",
+  "config_version": "2.0.43",
+  "config_datetime": "2026-10-20_16-51-46",
   "general": {
     "enable_global_spacing_and_separation_modifier": true,
     "global_spacing_and_separation_modifier": 1.2
@@ -56,6 +56,36 @@
   ],
   "structure_sets": [
     {
+      "name": "ancient_remnants:cherry_monument",
+      "spacing": 81,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "ancient_remnants:coniferous_monument",
+      "spacing": 81,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "ancient_remnants:hunter_monolith",
+      "spacing": 81,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "ancient_remnants:oakwood_monument",
+      "spacing": 81,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "ancient_remnants:sentinel_monolith",
+      "spacing": 81,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "ancient_remnants:warrior_monolith",
+      "spacing": 81,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
       "name": "bloodyhell:pool",
       "override_global_spacing_and_separation_modifier": true
     },
@@ -94,8 +124,26 @@
       "override_global_spacing_and_separation_modifier": true
     },
     {
+      "name": "frozen_dominion:expedition_camp",
+      "spacing": 41,
+      "separation": 20,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "frozen_dominion:frozen_citadel",
+      "spacing": 40,
+      "separation": 20,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "frozen_dominion:frozen_watchtower",
+      "spacing": 40,
+      "separation": 20,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
       "name": "grim_kingdoms:snowy",
-      "spacing": 31,
+      "spacing": 15,
       "separation": 8,
       "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
@@ -178,6 +226,7 @@
     },
     {
       "name": "vampirism:mother",
+      "spacing": 36,
       "override_global_spacing_and_separation_modifier": true
     }
   ],
