@@ -20,7 +20,6 @@ ServerEvents.recipes(event => {
         'neepmeat:hungry_heterostructure',
         'concatenatedadditionsmachines:galvanized_iron_casing',
         'meatweapons:short_phage_ray',
-        'clanginghowl:extraterrestrial_steel_nugget',
         "clanginghowl:extraterrestrial_hoe",
         "clanginghowl:drill_bit",
         "clanginghowl:extraterrestrial_sword",
@@ -416,6 +415,21 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('desecratedcore:enlightened_chrysalis'),
+        [
+            'AAA',
+            'BCD',
+            'AAA'
+        ],
+        {
+            A: 'neepmeat:internal_components',
+            D: 'neepmeat:enlightened_brain',
+            C: 'neepmeat:chrysalis',
+            B: 'neepmeat:divine_organ'
+        }
+    )
+
     // Clanging Howl
 
     event.shapeless(
@@ -551,6 +565,46 @@ ServerEvents.recipes(event => {
             E: 'clanginghowl:steel_rod',
             D: 'clanginghowl:battery_panel',
             A: 'clanginghowl:extraterrestrial_steel_plate'
+        }
+    )
+    event.shaped(
+        Item.of('desecratedcore:extraterrestrial_core'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'clanginghowl:extraterrestrial_energy_crystal',
+            A: 'clanginghowl:extraterrestrial_steel_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('clanginghowl:techno_heart'),
+        [
+            ' A ',
+            'BCD',
+            ' E '
+        ],
+        {
+            B: 'clanginghowl:advanced_electronics',
+            C: 'desecratedcore:organic_heart',
+            E: 'desecratedcore:extraterrestrial_core',
+            D: 'clanginghowl:battery_panel',
+            A: 'clanginghowl:chunk_of_technoflesh'
+        }
+    )
+    event.shaped(
+        Item.of('desecratedcore:artificial_life'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            C: 'clanginghowl:techno_heart',
+            B: 'clanginghowl:technoflesh_nest',
+            A: 'clanginghowl:chunk_of_technoflesh'
         }
     )
 

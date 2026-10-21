@@ -8,15 +8,19 @@
 	id: "599002CA7AE7B666"
 	images: [
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_fire_soul"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: true
+			entity_vis_silhouette_mode: "ALWAYS"
 			entity_vis_size: 3.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 0.5d
 			image: ""
@@ -26,15 +30,19 @@
 			y: -2.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -44,15 +52,19 @@
 			y: -8.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_nova_entity"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 180.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -62,15 +74,19 @@
 			y: -2.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -80,15 +96,19 @@
 			y: 0.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -98,15 +118,19 @@
 			y: -7.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -116,15 +140,19 @@
 			y: 2.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -134,15 +162,19 @@
 			y: 11.0d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_clot_projectile"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -182,15 +214,19 @@
 			y: 1.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "bloodyhell:blood_fire_soul"
 			entity_vis_idle_mode: "USE_GLOBAL"
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 75.0f
-			entity_vis_silhouette: true
+			entity_vis_silhouette_mode: "ALWAYS"
 			entity_vis_size: 3.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 0.5d
 			image: ""
@@ -577,9 +613,9 @@
 				""
 				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
 				"{@pagebreak}"
-				"&aDesecrated is still in development. Currently the following mods are not fully integrated into the pack and its questline but will be very soon: Spectrum, Tetra, and Goety. The modpack is about 70% complete as of now."
+				"&aDesecrated is mostly complete but still in development. The ending of the pack, reaching the Fruit of All Knowledge is reachable. Some quest descriptions are missing and some content of the Sanguine Factions is not covered in the quests yet."
 				""
-				"&aMost quest descriptions are missing, but the progression is still repesented through the quests. Refer to the mods' guidebooks for now. Make sure to update the pack as all quest descriptions will come in the next update."
+				"&aMost quest descriptions are missing, but the progression is still repesented through the quests. Refer to the mods' guidebooks for now. Make sure to update the pack in the future."
 			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:knowledge_book"
@@ -734,13 +770,17 @@
 				{
 					entity: "minecraft:zombie"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:zombie_head"
@@ -752,13 +792,17 @@
 				{
 					entity: "minecraft:skeleton"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:skeleton_skull"
@@ -787,13 +831,17 @@
 			subtitle: "Friends!"
 			tasks: [
 				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
 					entity_vis_use_as_quest_icon: true
 					entity_vis_walk_mode: "USE_GLOBAL"
 					id: "63F062C342397FFB"
@@ -829,13 +877,17 @@
 			}]
 			subtitle: "Vultures"
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "38723CACB17307B2"
@@ -865,13 +917,17 @@
 			}]
 			subtitle: "Opportunists"
 			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "275936E67DB1435B"
@@ -910,13 +966,17 @@
 			tasks: [{
 				entity: "simpleenemymod:usunit"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "5B38546748E44E75"
@@ -952,13 +1012,17 @@
 			tasks: [{
 				entity: "simpleenemymod:ruunit"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "418F8CD5E008A36E"
@@ -1987,9 +2051,9 @@
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
 			description: [
-				"The Crimson Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Crimson Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
+				"The Spectral Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Spectral Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
 				""
-				"Higher ranked Crimson Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
+				"Higher ranked Spectral Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
 			]
 			disable_toast: true
 			entity_vis_size: 1.0f
@@ -2005,7 +2069,7 @@
 				item: "desecratedcore:artificer_key_item"
 				type: "item"
 			}]
-			title: "Crimson Artificer"
+			title: "Spectral Artificer"
 			x: 3.0d
 			y: 10.0d
 		}
@@ -2036,12 +2100,12 @@
 		}
 		{
 			description: [
-				"I have heard from my former Crimson Artificer friends about enchanting. It is a most powerful way of enhancing tools, weapons and armour. Unfortunately, my knowledge may be lacking, I can only make use of some weaker enchantments."
+				"I have heard from my former Spectral Artificer friends about enchanting. It is a most powerful way of enhancing tools, weapons and armour. Unfortunately, my knowledge may be lacking, I can only make use of some weaker enchantments."
 				""
-				"&a(Enchanting is overhauled and you cannot enchant normally anymore. Enchantments require specific recipes instead of luck and absurd amounts of experience. Crimson Artificers can make the most out of enchanting. Relics replace Unbreaking, Sharpness, Protection and Efficiency.)"
+				"&a(Enchanting is overhauled and you cannot enchant normally anymore. Enchantments require specific recipes instead of luck and absurd amounts of experience. Spectral Artificers can make the most out of enchanting. Relics replace Unbreaking, Sharpness, Protection and Efficiency.)"
 				"{@pagebreak}"
 				""
-				"&4You should find a Crimson Artificer's library and feed it to me."
+				"&4You should find a Spectral Artificer's library and feed it to me."
 				""
 				"You eat books? Well, I'll see if I can satiate you one day."
 				""

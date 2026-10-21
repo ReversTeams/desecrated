@@ -1,3 +1,4 @@
+block_respawn_point_set_message = true
 
 #Triggers
 [triggers]
@@ -13,7 +14,9 @@
 	#Compatibility
 	[triggers.compatibility]
 		#Banner for activating bonfires [Bonfires Mod]
-		bonfire_lit = true
+		bonfires_bonfire_lit = true
 		#Banner for activating waystones [Waystones Mod]
-		waystones_activate = true
+		waystone_activated = true
+		#Banner for retrieving experience catalyst [Irons RPG Tweaks]
+		xp_catalyst_retrieved = true
 

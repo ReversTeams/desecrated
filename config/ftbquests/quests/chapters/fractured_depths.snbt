@@ -6,53 +6,28 @@
 	group: "511EB53C58AD34AE"
 	icon: "fracture:fleshy_chiseled_darkstone_bricks"
 	id: "2A43CF350B1D9F33"
-	images: [
-		{
-			entity_vis_enabled: true
-			entity_vis_entity: "bloodyhell:blood_projectile"
-			entity_vis_idle_mode: "USE_GLOBAL"
-			entity_vis_offset_x: 0.0f
-			entity_vis_offset_y: 0.0f
-			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
-			entity_vis_spin_mode: "USE_GLOBAL"
-			entity_vis_walk_mode: "USE_GLOBAL"
-			height: 1.0d
-			image: ""
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			alpha: 180
-			height: 2.0d
-			image: "macabre:textures/particle/red_macabre_roar_10.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: -13.0d
-		}
-		{
-			height: 1.0d
-			image: "macabre:textures/screens/oczy2.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: -15.0d
-		}
-		{
-			alpha: 180
-			color: 16715797
-			height: 3.0d
-			image: "bloodmagic:models/alchemyarrays/mobsacrifice"
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.0d
-			y: -9.5d
-		}
-	]
+	images: [{
+		entity_vis_cycle_seconds: 0.0f
+		entity_vis_enabled: true
+		entity_vis_entity: "bloodyhell:blood_projectile"
+		entity_vis_idle_mode: "USE_GLOBAL"
+		entity_vis_offset_x: 0.0f
+		entity_vis_offset_y: 0.0f
+		entity_vis_rotation: 0.0f
+		entity_vis_silhouette_mode: "NONE"
+		entity_vis_size: 1.0f
+		entity_vis_slim_arms: false
+		entity_vis_spin_mode: "USE_GLOBAL"
+		entity_vis_tag_cycle_mode: "USE_GLOBAL"
+		entity_vis_use_as_quest_icon: false
+		entity_vis_walk_mode: "USE_GLOBAL"
+		height: 1.0d
+		image: ""
+		rotation: 0.0d
+		width: 1.0d
+		x: -4.0d
+		y: 2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -183,13 +158,17 @@
 			tasks: [{
 				entity: "fracture:flesh_slime"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "33A4645940306D53"
@@ -220,13 +199,17 @@
 			tasks: [{
 				entity: "fracture:ankle_biter"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "2A8ACE52B3855117"
@@ -257,13 +240,17 @@
 			tasks: [{
 				entity: "fracture:flesh_walker"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7661B26AD0027D73"
@@ -288,13 +275,17 @@
 			tasks: [{
 				entity: "fracture:flesh_obelisk"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "566194A9C85B22AA"
@@ -448,13 +439,17 @@
 			tasks: [{
 				entity: "incision:seer"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "743046D37600A14F"
@@ -483,13 +478,17 @@
 			tasks: [{
 				entity: "incision:purger"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "665FCE4AE3C74E1A"
@@ -512,13 +511,17 @@
 			tasks: [{
 				entity: "fdse:abyssal_leviathan"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 0.2f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "7FC7B6A859FA5891"
@@ -562,13 +565,17 @@
 			tasks: [{
 				entity: "netherman:azazel"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "606834364558B4C5"
@@ -591,13 +598,17 @@
 			tasks: [{
 				entity: "fdse:angler_fish"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: -0.2f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "4D75CB2B344C5CD3"
@@ -619,13 +630,17 @@
 			tasks: [{
 				entity: "fdse:bathyal"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "53E1B684ACAD58C3"
@@ -647,13 +662,17 @@
 			tasks: [{
 				entity: "fdse:deep_sea_moray"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "3A5A80BE78FC5B0A"
@@ -684,51 +703,21 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"65A8B04267923FB7"
-				"4EBF32AEC732A6CA"
-			]
+			dependencies: ["784AF15C4238D0F4"]
 			entity_vis_size: 1.0f
-			hide_dependency_lines: true
-			id: "7A6F70D9D16B0066"
+			id: "148D125D6085723F"
 			rewards: [{
-				id: "60DE85C239363839"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			size: 1.5d
-			tasks: [{
-				consume_items: false
-				id: "7FFFB874658CF291"
-				item: "macabre:sacrificial_dirk"
+				id: "205DAEFCF5708513"
+				item: "netherman:nether_spawner"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["7A6F70D9D16B0066"]
-			entity_vis_size: 1.0f
-			id: "6102E1444E84E6B0"
-			rewards: [{
-				id: "76C6566BDE7068FF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			tasks: [{
-				dimension: "macabre:the_pit"
-				icon: {
-					Count: 1
-					id: "macabre:crystalized_blood"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "4FE9E7D18C3C9CA0"
-				type: "dimension"
+				id: "579171E304719F19"
+				item: "netherman:nether_spawner"
+				type: "item"
 			}]
-			x: 0.0d
-			y: -13.0d
+			x: 9.5d
+			y: -10.0d
 		}
 	]
 	title: "Fractured Depths"

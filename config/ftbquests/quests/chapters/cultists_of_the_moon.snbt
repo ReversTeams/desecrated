@@ -28,6 +28,7 @@
 		}
 		{
 			alpha: 180
+			dependency: "1C6C9B0F105380FC"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d

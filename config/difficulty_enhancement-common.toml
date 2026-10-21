@@ -50,7 +50,7 @@
 	underwaterBreathing = true
 	bgColor = "#050F0F"
 	accentColor = "#55FFFF"
-	allowKeepInventory = true
+	allowKeepInventory = false
 	#Commands to execute when Cozy difficulty is selected.
 	commands = []
 
@@ -66,7 +66,7 @@
 	fallDmgMultiplier = 1.0
 	bgColor = "#07070F"
 	accentColor = "#D4A843"
-	allowKeepInventory = true
+	allowKeepInventory = false
 	#Commands to execute when Normal difficulty is selected.
 	commands = []
 
@@ -162,7 +162,7 @@
 		confirmSound = ""
 		commands = []
 		traits = []
-		allowKeepInventory = true
+		allowKeepInventory = false
 
 	[custom_difficulties.custom_1]
 		id = ""

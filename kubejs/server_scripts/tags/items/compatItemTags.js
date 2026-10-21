@@ -9,6 +9,10 @@ ServerEvents.tags('item', event => {
         'create:zinc_ingot'
     ]);
 
+    remove('forge:salt', [
+        'otherverse:salt'
+    ]);
+
     remove('trinkets:chest/back', [
         'usefulbackpacks:backpack_small'
     ]);
@@ -183,6 +187,17 @@ ServerEvents.tags('item', event => {
     add('lychee:fire_immune', [
         'desecratedcore:forbidden_knowledge',
         'bloodyhell:forbidden_bookshelf_block'
+    ]);
+
+    add('keep_equipment:kept_equipment', [
+        "desecratedcore:vine_key_item", 
+        "desecratedcore:iron_key_item", 
+        "desecratedcore:artificer_key_item", 
+        "desecratedcore:practitioner_key_item", 
+        "desecratedcore:yore_key_item", 
+        "desecratedcore:moon_key_item", 
+        "desecratedcore:exile_key_item", 
+        "desecratedcore:knowledge_fruit"
     ]);
 
     add('sol_valheim_reforged:always_edible', [

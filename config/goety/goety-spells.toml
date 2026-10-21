@@ -794,18 +794,6 @@
 		#How much base damage Quaking Spell deals, Default: 4.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		quakingDamage = 4.0
-		#Earth Fist Spell Cost, Default: 8
-		#Range: > 0
-		earthFistCost = 8
-		#Time to cast Earth Fist Spell, Default: 0
-		#Range: 0 ~ 72000
-		earthFistTime = 0
-		#Earth Fist Spell Cooldown, Default: 60
-		#Range: > 0
-		earthFistCoolDown = 60
-		#How much base damage Earth Fists deals, Default: 6.0
-		#Range: 1.0 ~ 1.7976931348623157E308
-		earthFistDamage = 6.0
 
 	[Spells."Smack Stone Spell"]
 		#Smack Stone Spell Cost, Default: 4
@@ -1786,6 +1774,37 @@
 		corruptedBeamDamage = 10.0
 		#Whether casting Corruption spell immobilizes the caster, Default: true
 		corruptionImmobile = true
+
+	[Spells."Earth Fist Spell"]
+		#Earth Fist Spell Cost, Default: 8
+		#Range: > 0
+		earthFistCost = 8
+		#Time to cast Earth Fist Spell, Default: 0
+		#Range: 0 ~ 72000
+		earthFistTime = 0
+		#Earth Fist Spell Cooldown, Default: 60
+		#Range: > 0
+		earthFistCoolDown = 60
+		#How much base damage Earth Fists deals, Default: 6.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		earthFistDamage = 6.0
+
+	[Spells."Temblor Clap Spell"]
+		#Temblor Clap Spell Cost, Default: 40
+		#Range: > 0
+		temblorClapCost = 40
+		#Time to cast Temblor Clap Spell, Default: 0
+		#Range: 0 ~ 72000
+		temblorClapTime = 0
+		#Temblor Clap Spell Cooldown, Default: 140
+		#Range: > 0
+		temblorClapCoolDown = 140
+		#How much base minimum damage Temblor Clap Spell deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		temblorClapMinDamage = 3.0
+		#How much base maximum damage Temblor Clap Spell deals, Default: 9.0
+		#Range: 2.0 ~ 1.7976931348623157E308
+		temblorClapMaxDamage = 9.0
 
 ["Servant Limits"]
 	#Number of Spider Servants that an individual player can have in total, Default: 32

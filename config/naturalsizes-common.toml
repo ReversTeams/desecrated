@@ -5,7 +5,7 @@
 	minScale = 0.7
 	#Maximum scale multiplier (Default: 1.1)
 	#Range: 0.1 ~ 16.0
-	maxScale = 1.2
+	maxScale = 1.35
 	#Should max health scale with size?
 	shouldScaleHealth = true
 	#Should attack damage scale with size?

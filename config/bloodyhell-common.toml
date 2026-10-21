@@ -6,7 +6,7 @@
 ["Global Spell Scaling"]
 	#Global multiplier applied to ALL spells. (1.0 = Default, 0.5 = Half Damage, 2.0 = Double Damage)
 	#Range: 0.0 ~ 100.0
-	globalDamageMultiplier = 2.0
+	globalDamageMultiplier = 3.0
 
 ["Individual Spell Scaling"]
 	#Multipliers for specific spells. These stack multiplicatively with the Global multiplier.

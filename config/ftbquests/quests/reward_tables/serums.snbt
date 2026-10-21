@@ -1,0 +1,14 @@
+{
+	id: "6A4D57C3CA51F9B6"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ item: "biomancy:rejuvenation_serum" }
+		{ item: "biomancy:ageing_serum" }
+		{ item: "biomancy:enlargement_serum" }
+		{ item: "biomancy:shrinking_serum" }
+		{ item: "biomancy:cleansing_serum" }
+		{ item: "biomancy:frenzy_serum" }
+	]
+	title: "Serums"
+}

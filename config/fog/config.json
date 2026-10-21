@@ -1,6 +1,7 @@
 {
 	"disableMod": false,
 	"disabledDimensions": [
+		"bloodyhell:soul_dimension",
 		"minecraft:the_nether"
 	],
 	"disableRaininessEffect": false,

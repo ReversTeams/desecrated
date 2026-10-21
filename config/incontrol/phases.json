@@ -2,8 +2,13 @@
     {
         "name": "day7",
         "conditions": {
-            "mindaycount": 7,
             "daycount": "repeat(4,0,1)"
+        }
+    },
+    {
+        "name": "days1-6",
+        "conditions" :{
+            "maxdaycount": 7
         }
     }
 ]

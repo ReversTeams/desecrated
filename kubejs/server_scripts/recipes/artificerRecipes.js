@@ -100,7 +100,11 @@ ServerEvents.recipes(event => {
         "artificers_armory:broom_copper",
         "artificers_armory:broom_iron",
         "artificers_armory:broom_gold",
-        "artificers_armory:broom_diamond"
+        "artificers_armory:broom_diamond",
+        "celestisynth:solar_crystal_boots",
+        "celestisynth:solar_crystal_chestplate",
+        "celestisynth:solar_crystal_helmet",
+        "celestisynth:solar_crystal_leggings"
     ]
 
     remove.forEach(item => {
@@ -1692,6 +1696,72 @@ ServerEvents.recipes(event => {
         {
             B: Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:4}').strongNBT(),
             A: 'minecraft:amethyst_shard'
+        }
+    )
+
+    event.shaped(
+        Item.of('desecratedcore:soleipse_crystal', 8),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            B: 'celestisynth:solar_crystal',
+            A: 'minecraft:glowstone',
+            C: 'reliquary:salamander_eye'
+        }
+    ).keepIngredient('reliquary:salamander_eye')
+
+    event.shaped(
+        Item.of('celestisynth:solar_crystal_helmet'),
+        [
+            'ABA',
+            'A A',
+            '   '
+        ],
+        {
+            A: 'desecratedcore:soleipse_crystal',
+            B: 'reliquary:molten_core'
+        }
+    )
+
+    event.shaped(
+        Item.of('celestisynth:solar_crystal_boots'),
+        [
+            'A A',
+            'ABA',
+            '   '
+        ],
+        {
+            A: 'desecratedcore:soleipse_crystal',
+            B: 'reliquary:molten_core'
+        }
+    )
+
+    event.shaped(
+        Item.of('celestisynth:solar_crystal_chestplate'),
+        [
+            'A A',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'desecratedcore:soleipse_crystal',
+            B: 'reliquary:molten_core'
+        }
+    )
+
+    event.shaped(
+        Item.of('celestisynth:solar_crystal_leggings'),
+        [
+            'ABA',
+            'A A',
+            'A A'
+        ],
+        {
+            A: 'desecratedcore:soleipse_crystal',
+            B: 'reliquary:molten_core'
         }
     )
 

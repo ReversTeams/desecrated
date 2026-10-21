@@ -1,0 +1,317 @@
+
+[storm_almanac]
+	#Which screen corner the Storm Almanac dial hangs from.
+	#The dial folds toward whichever edge this corner is on, so a bottom corner
+	#collapses downward rather than up.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	corner = "TOP_RIGHT"
+	#Distance in from the left or right screen edge, in GUI pixels.
+	#GUI pixels, not monitor pixels — at GUI scale 4 one of these is four real ones.
+	#Range: 0 ~ 1000
+	offsetX = 6
+	#Distance in from the top or bottom screen edge, in GUI pixels.
+	#Bottom corners leave room for the hotbar automatically; this is on top of that.
+	#Range: 0 ~ 1000
+	offsetY = 6
+	#Size of the dial. 1.0 is 48x48 GUI pixels.
+	#Below about 0.75 the readout stops being legible — the font does not scale
+	#smoothly, it just loses pixels.
+	#Range: 0.5 ~ 2.0
+	scale = 1.0
+
+[euphoria_bar]
+	#Show the Euphoria charge bar — Moxie, Inspiration, Eureka, Virtue or bullets,
+	#whichever the artifact in your Euphoria slot builds.
+	#Turning this off hides the readout only; the charge still builds and spends.
+	showBar = true
+	#Which screen corner the bar hangs from.
+	#Bottom-left by default: it is a background readout, and the middle of the
+	#screen belongs to the crosshair and the hotbar.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	corner = "BOTTOM_LEFT"
+	#Distance in from the left or right screen edge, in GUI pixels.
+	#GUI pixels, not monitor pixels — at GUI scale 4 one of these is four real ones.
+	#Range: 0 ~ 1000
+	offsetX = 6
+	#Distance in from the top or bottom screen edge, in GUI pixels.
+	#Measured to the bar itself. Its name and count sit ABOVE it and the anchor
+	#accounts for them, so raising this never pushes the label off-screen.
+	#A bottom corner sits at the very bottom — the hotbar is centred, so the
+	#corners are free. Room is only made when the bar would truly run into it,
+	#which happens at small window sizes and high GUI scales.
+	#Range: 0 ~ 1000
+	offsetY = 6
+	#Size of the bar. 1.0 is 88x5 GUI pixels plus its label.
+	#Below about 0.75 the label stops being legible — the font does not scale
+	#smoothly, it just loses pixels.
+	#Range: 0.5 ~ 2.0
+	scale = 1.0
+	#Keep the bar on screen once the ability is actually usable, instead of fading it.
+	#On by default. With this off the bar always fades after five seconds — which
+	#hides it at the one moment it answers something: you have banked a full charge
+	#and are choosing when to spend it.
+	holdWhenReady = true
+
+[year_display]
+	#Show the current year in a screen corner.
+	#The year still changes when this is off — this only hides the readout.
+	showYear = false
+	#Which corner the year sits in.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	corner = "TOP_RIGHT"
+	#Distance in from the left or right screen edge, in GUI pixels.
+	#Range: 0 ~ 1000
+	offsetX = 4
+	#Distance in from the top or bottom screen edge, in GUI pixels.
+	#Range: 0 ~ 1000
+	offsetY = 4
+	#Play the tape-reel cutscene when the Storm changes the year.
+	#Cosmetic only: with this off the year still changes, you just are not shown it.
+	showReel = false
+
+[sound]
+	#Volume of the aura music, 0.0 (silent) to 1.0 (full).
+	#The same slider that appears in Music & Sound Options.
+	#Range: 0.0 ~ 1.0
+	auraMusicVolume = 1.0
+	#Replace the game's menu and world music with Reverse Eon's own.
+	#Off gives you Minecraft's music back; it does not leave the game silent.
+	#Has no effect without the Reverse Eon Soundtrack mod installed.
+	ambientMusic = true
+	#Volume of that music, 0.0 (silent) to 1.0 (full).
+	#Multiplied by the game's own Music slider, never louder than it.
+	#Range: 0.0 ~ 1.0
+	ambientMusicVolume = 1.0
+
+#The Storm's rain, which falls upward. Ordinary rain is unaffected.
+[storm_rain]
+	#How much larger the droplets are than vanilla's. 1.0 leaves them alone.
+	#Larger values stretch the rain texture, so each streak covers more sky.
+	#⚠️ HAS NO EFFECT WITH SHADER PACKS. Shaders draw the droplets themselves in
+	#their own weather pass and ignore this texture, so only players without a
+	#shader pack will see this setting do anything. Direction and speed still
+	#work with shaders, because those come from the geometry rather than the
+	#texture. Confirmed by testing, not assumed.
+	#Range: 0.25 ~ 8.0
+	dropletScale = 4.0
+	#How much slower the rain travels than vanilla. 1.0 is vanilla speed,
+	#2.0 is half speed. Higher makes the climb more deliberate.
+	#Defaults to the top of the range: at 20x the rain barely crawls upward,
+	#which is what sells the Storm as time running backwards rather than as
+	#weather blowing the wrong way.
+	#Range: 0.1 ~ 20.0
+	slowness = 10.0
+	#Fraction of vanilla's rain amount to draw, 0.05 to 1.0.
+	#⚠️ This works by narrowing how far out rain is drawn around you, which is the
+	#only lever vanilla exposes — so very low values thin the rain but also pull it
+	#closer in rather than just spacing the drops out.
+	#Range: 0.05 ~ 1.0
+	density = 0.5
+
+#The Storm's floating blocks: ghostly copies of nearby blocks drifting upward.
+#Nothing in the world actually moves; these are copies drawn on your client only.
+[storm_floating_blocks]
+	#Draw floating block copies during The Storm at all.
+	enabled = true
+	#Shortest time a copy stays in the air, in milliseconds.
+	#Range: 250 ~ 600000
+	lifeMinMillis = 20000
+	#Longest time a copy stays in the air, in milliseconds.
+	#A wide gap between min and max is what scatters copies across many different
+	#heights at once, instead of every one of them sitting at the same altitude.
+	#Clamped to at least lifeMinMillis at runtime, so the pair cannot be inverted.
+	#Range: 250 ~ 600000
+	lifeMaxMillis = 110000
+	#Smallest total climb over a copy's whole lifetime, in blocks.
+	#Range: 0.0 ~ 512.0
+	riseMin = 7.0
+	#Largest total climb over a copy's whole lifetime, in blocks.
+	#High values are what put copies up where you have to look up to see them.
+	#Range: 0.0 ~ 512.0
+	riseMax = 70.0
+	#Shape of the climb. Below 1.0 the copy leaves the ground quickly and then
+	#slows the higher it gets, so it ends up hanging in the sky rather than
+	#travelling at a constant speed the whole way.
+	#1.0 is a straight line; 0.3 is a very sharp launch into a near-stop.
+	#Range: 0.05 ~ 3.0
+	riseEasing = 0.4
+	#How many blocks below the surface a copy may be taken from.
+	#1 lifts only the top layer; higher also pulls tree trunks and wall faces.
+	#Large values start pulling up buried stone, which is what this avoids.
+	#Range: 1 ~ 64
+	surfaceDepth = 4
+	#How far a copy drifts sideways on its way up, in blocks.
+	#0 makes them rise dead straight.
+	#Range: 0.0 ~ 32.0
+	driftBlocks = 1.3
+	#Maximum spin around the vertical axis over a lifetime, in degrees.
+	#Range: 0.0 ~ 1440.0
+	spinDegrees = 70.0
+	#Maximum tumble away from upright over a lifetime, in degrees.
+	#Range: 0.0 ~ 1440.0
+	tiltDegrees = 30.0
+	#Fraction of the lifetime spent shrinking away at the end, 0.0 to 0.9.
+	#0 makes copies vanish instantly, which reads as a glitch after a long float.
+	#Range: 0.0 ~ 0.9
+	fadeTail = 0.25
+	#How far around you groups are lifted from, in blocks.
+	#Wider spreads them out; narrower crowds them around you.
+	#Range: 8 ~ 192
+	groupRadius = 80
+	#Most groups in the air at once. Each is one to six joined blocks.
+	#The main dial for density and for framerate.
+	#Range: 0 ~ 500
+	maxGroups = 18
+	#How many new groups leave the ground each second.
+	#Low values read as a slow unravelling; high values as a storm of debris.
+	#Range: 0.05 ~ 50.0
+	groupsPerSecond = 1.2
+
+#The Storm's countdown: how long until it lands, and then until it passes.
+[storm_timer]
+	#Show the countdown at all.
+	#Off by default: a permanent four-digit readout in the corner is a strong
+	#thing to put on somebody's screen unasked, and the Reverse-Rain sky and the
+	#chat warnings already say a Storm is coming. Switch it on in the mod's
+	#settings screen (Mods → Reverse Eon → Config → Display) when you want the
+	#exact figure rather than the weather.
+	#⚠️ Off hides the readout only. The Storm still arrives on time and still
+	#strikes anyone it lands on unsheltered — this cannot opt you out of a world
+	#event, it can only stop telling you about it.
+	showTimer = false
+	#Keep counting once the Storm is overhead, down to when it passes.
+	#With this off the countdown appears only during the warning, which is the
+	#stretch where the number is an instruction rather than information.
+	showDuringStorm = true
+	#Which screen corner the countdown hangs from.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	corner = "TOP_LEFT"
+	#Distance in from the left or right screen edge, in GUI pixels.
+	#GUI pixels, not monitor pixels — at GUI scale 4 one of these is four real ones.
+	#Range: 0 ~ 1000
+	offsetX = 8
+	#Distance in from the top or bottom screen edge, in GUI pixels.
+	#Bottom corners leave room for the hotbar automatically; this is on top of that.
+	#Range: 0 ~ 1000
+	offsetY = 8
+	#Size of the countdown. 1.0 is a row of Nixie tubes about 96x50 GUI pixels.
+	#The tubes' wire is drawn as geometry rather than typed, so unlike every
+	#other readout in this mod it stays sharp at any size here.
+	#Range: 0.5 ~ 4.0
+	scale = 1.0
+
+#How the Storm looks from inside it.
+[storm_visuals]
+	#An accessibility setting: Storm Syndrome without the tearing screen, the
+	#double vision, the drifting view or the flashes in the clouds. The garbled text,
+	#the ringing ears and the clock stay — and so does the Syndrome itself.
+	#Also still strips any Blindness, Darkness or Nausea the Storm put on in older
+	#versions; Blindness from anything else, such as a boss's spell, is kept.
+	hideVisualDebuffs = false
+
+#Pieces the Storm tears off real buildings, as opposed to the drifting copies above.
+[storm_lift]
+	#Shape of the climb for pieces torn off a real building.
+	#Above 1.0 the piece barely moves at first and then accelerates, as though it
+	#were being pulled loose. Below 1.0 it launches and then hangs.
+	#⚠️ Separate from the drifting copies' own riseEasing on purpose. Loose debris
+	#reads well flung upward, but a roof section doing the same looks fired out of
+	#the building rather than drawn out of it.
+	#Range: 0.05 ~ 3.0
+	liftRiseEasing = 1.6
+
+[sharpodonty_purse]
+	#Show your Sharpodonty balance in a screen corner.
+	#You still earn and spend it with this off - this only hides the readout.
+	showPurse = false
+	#Which corner the purse sits in.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	corner = "BOTTOM_LEFT"
+	#Distance in from the left or right screen edge, in GUI pixels.
+	#Range: 0 ~ 1000
+	offsetX = 4
+	#Distance in from the top or bottom screen edge, in GUI pixels.
+	#A bottom corner already clears the hotbar and XP bar before this is applied.
+	#Range: 0 ~ 1000
+	offsetY = 4
+
+#Light round the Equilibrium Umbrella, and the light crossing to and from the island.
+[light]
+	#The Equilibrium Umbrella lights the ground round whoever is holding it - you, and
+	#anyone else you can see. Drawn by your own game only.
+	umbrellaLight = true
+	#How bright that light is, as block light goes: 15 is a glowstone, 14 a torch.
+	#Range: 1 ~ 15
+	umbrellaLightLevel = 12
+	#Light takes the screen as you cross to or from the island, and gives it back once
+	#the world round you has loaded.
+	crossingFlash = true
+	#How strong that light is at its brightest. Below 1 the world shows through it.
+	#Range: 0.2 ~ 1.0
+	crossingFlashStrength = 1.0
+
+#How creatures die: not a puff of smoke but the body coming undone — dissolving
+#piece by piece into black dust with a little red glowing in it, drifting up and
+#gone. Reverse Eon's bosses keep deaths of their own. What the Storm takes is torn
+#apart instead. Drawn only by your own game; nothing here is sent.
+[mob_death_vfx]
+	#Draw deaths this way at all. Off gives back the game's own.
+	enabled = true
+	#LOW: the body dissolving and a little dust. MEDIUM: all of it, fewer fragments.
+	#HIGH: all of it.
+	#Allowed Values: LOW, MEDIUM, HIGH
+	quality = "HIGH"
+	#Most death fragments alive at once, across every death on screen.
+	#Range: 20 ~ 5000
+	maxParticles = 700
+	#Within this many blocks a death is drawn in full; to twice it, reduced; to four
+	#times it, the body alone. Further away the game's own death is left.
+	#Range: 4 ~ 256
+	distance = 32
+	#A brief soft flash where the body starts to go, and again as the last of it does.
+	flashEnabled = true
+	#A ring of dust at the feet of a creature that dies on the ground.
+	groundEffect = true
+	#How many fragments a body comes apart into, 1.0 as designed.
+	#Range: 0.1 ~ 2.0
+	fragmentDensity = 1.0
+	#Seconds a body takes to burn away. The game removes the creature after one second
+	#either way; this is only how long it is seen to go.
+	#Range: 0.4 ~ 2.5
+	duration = 1.2
+
+#How The Storm looks: rain that climbs, air that bends, a world coming undone.
+#All of it is drawn here, from one number the server sends once a second — nothing
+#else about the Storm crosses the network.
+[storm_vfx]
+	#How much of the Storm to draw.
+	#LOW: a thin upward rain and a little fog.
+	#MEDIUM: the rain near and close, the fog, the Storm's colours.
+	#HIGH: the rain in three depths, dust, leaves and spray rising with it, the ground
+	#coming apart, the air bending.
+	#ULTRA: all of it, further out, with the colour splitting at the edges.
+	#The screen effects (colour and bending) switch themselves off under a shader pack.
+	#Allowed Values: LOW, MEDIUM, HIGH, ULTRA
+	quality = "HIGH"
+	#Most of the Storm's particles alive at once. The quality sets its own ceiling
+	#(600 / 1500 / 3000 / 4600); this can only lower it. The game's own Particles
+	#setting (All / Decreased / Minimal) is applied on top.
+	#Range: 50 ~ 12000
+	maxParticles = 4600
+	#Let the air bend while the Storm is overhead (HIGH and ULTRA).
+	#Off leaves the colours and everything else.
+	distortion = true
+	#Let the view drift and breathe very slightly at the height of the Storm.
+	#Also off whenever 'Hide the Storm's blinding effects' is on, and scaled by the
+	#game's own Distortion Effects and FOV Effects sliders.
+	camera = true
+	#Faint flashes in the clouds overhead from the Storm's second phase on.
+	#Soft and far off, never a strike. Off also while 'Hide the Storm's blinding
+	#effects' is on.
+	cloudFlashes = true
+	#Also draw the game's own rain, turned upward, under the Storm's.
+	#Off by default: the Storm's rain is its own now, and the game's streaks drawn
+	#under it read as a second, different rain. The storm_rain settings above only
+	#do anything while this is on.
+	vanillaRain = false
+

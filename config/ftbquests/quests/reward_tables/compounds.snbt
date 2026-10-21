@@ -1,0 +1,12 @@
+{
+	id: "2789CFDD4A40CAAD"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ item: "biomancy:organic_compound" }
+		{ item: "biomancy:unstable_compound" }
+		{ item: "biomancy:genetic_compound" }
+		{ item: "biomancy:exotic_compound" }
+	]
+	title: "Compounds"
+}

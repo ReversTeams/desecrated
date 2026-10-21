@@ -1,0 +1,11 @@
+{
+  "mobsSpin": true,
+  "spinSpeed": 1.0,
+  "tiltDegrees": 15.0,
+  "fullBright": true,
+  "idleAnimation": true,
+  "walkAnimation": false,
+  "tagCycle": true,
+  "tagCycleSeconds": 2.0,
+  "toastEntityIcons": true
+}
