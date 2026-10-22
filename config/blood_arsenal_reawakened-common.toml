@@ -129,33 +129,43 @@
 	#Health (HP) granted per heart consumed; 2.0 = one heart
 	#Range: 0.0 ~ 100.0
 	health_per_heart = 2.0
-	#Range: 0 ~ 1000
-	max_uses_per_type = 10
 	#Damage dealt when you try to eat a heart past the limit. 0 disables the punishment.
 	#Range: 0 ~ 1000
 	overeat_damage = 10
-	#The three heart rituals. Each is started by sneak-right-clicking with the catalyst
-	#while the offerings lie on the ground around you.
-	#Range: > 0
-	crimson_ritual_lp = 25000
-	#Range: 20 ~ 72000
-	crimson_ritual_ticks = 200
-	#The Rite of the Beating Core demands a wounded body: your health must be at or below this fraction.
+	#Range: 0 ~ 1000
+	crimson_max_uses = 5
+	#Range: 0 ~ 1000
+	sanguine_max_uses = 3
+	#Range: 0 ~ 1000
+	ascension_max_uses = 2
 	#Range: 0.0 ~ 1.0
-	crimson_ritual_max_health_fraction = 0.5
-	#Range: 0 ~ 3600
-	crimson_ritual_wither_seconds = 30
+	sanguine_lifesteal_per_heart = 0.02
+	#Range: 1 ~ 86400
+	ascension_shield_cooldown_seconds = 120
+	#Range: 0.0 ~ 1000.0
+	ascension_shield_damage = 10.0
 	#Range: > 0
-	sanguine_ritual_lp = 100000
+	crimson_rite_lp = 50000
+	#Range: 0 ~ 18
+	crimson_rite_max_misses = 5
+	#Range: 0.0 ~ 100.0
+	crimson_rite_miss_damage = 3.0
+	#Range: > 0
+	sanguine_rite_lp = 200000
 	#Range: 20 ~ 72000
-	sanguine_ritual_ticks = 300
-	#How many adult animals the Rite of the Stolen Pulse consumes.
+	sanguine_rite_ticks = 160
+	#Range: 5 ~ 3600
+	sanguine_thief_seconds = 60
+	#Range: 1.0 ~ 10000.0
+	sanguine_thief_health = 40.0
+	#Range: > 0
+	ascension_rite_lp = 750000
 	#Range: 1 ~ 64
-	sanguine_ritual_animals = 3
-	#Range: > 0
-	ascension_ritual_lp = 250000
-	#Range: 20 ~ 72000
-	ascension_ritual_ticks = 400
+	ascension_rite_charges = 7
+	#Range: 1 ~ 256
+	ascension_rite_max_strikes = 16
+	#Range: 0.0 ~ 100.0
+	ascension_rite_strike_damage = 3.0
 
 [bosses]
 	#Health and damage are applied when the boss spawns, so changes take effect for freshly
@@ -172,21 +182,34 @@
 	risen_devil_slam_damage = 10.0
 	#Range: 0.0 ~ 10000.0
 	risen_devil_nova_damage = 13.0
-	#The devil stops summoning once this many of its blazes are alive.
-	#Range: 0 ~ 128
-	risen_devil_max_blazes = 8
 	#Range: 0.0 ~ 10000.0
 	fallen_angel_smite_damage = 9.0
 	#Range: 0.0 ~ 10000.0
 	fallen_angel_burst_damage = 11.0
 	#Range: 0.0 ~ 10000.0
 	fallen_angel_judgment_damage = 12.0
-	#Range: 0 ~ 128
-	fallen_angel_max_vexes = 8
 	#Clean up summoned blazes and vexes when the boss dies.
 	minions_despawn_on_death = true
 	#Range: 0 ~ 100000
 	boss_xp_reward = 100
+	#Range: 0 ~ 64
+	risen_devil_max_minions = 6
+	#Range: 0.0 ~ 1000.0
+	risen_devil_blood_orb_damage = 8.0
+	#Range: 0.0 ~ 1000.0
+	risen_devil_geyser_damage = 10.0
+	#Range: 0.0 ~ 1000.0
+	risen_devil_tide_damage = 5.0
+	#Range: 0.0 ~ 1.0
+	risen_devil_obelisk_heal_per_second = 0.004
+	#Range: 0 ~ 64
+	fallen_seraph_max_minions = 6
+	#Range: 0.0 ~ 1000.0
+	fallen_seraph_halo_damage = 8.0
+	#Range: 0.0 ~ 1000.0
+	fallen_seraph_flash_damage = 6.0
+	#Range: 20 ~ 1200
+	fallen_seraph_stun_ticks = 120
 
 [drops]
 	#Range: 0 ~ 64
@@ -230,6 +253,9 @@
 	full_set_lifesteal = 0.1
 	#Range: 0.0 ~ 1024.0
 	full_set_lifesteal_max_per_hit = 4.0
+	white_day_burns_blood_armor = true
+	#Range: 0.0 ~ 100.0
+	white_day_burn_damage_per_piece = 0.5
 
 [rituals]
 	#Total LP drained over the whole Apotheosis ritual.
@@ -245,4 +271,16 @@
 	#Higher values are cheaper on the server; 1 restores the old every-tick behaviour.
 	#Range: 1 ~ 200
 	ritual_scan_interval = 10
+	#Range: > 0
+	crimson_well_lp = 50000
+	#Range: 1 ~ 10000
+	crimson_well_blood_needed = 100
+	#Range: 0 ~ 64
+	crimson_well_max_thralls = 5
+	#Range: > 0
+	sky_ladder_lp = 50000
+	#Range: 100 ~ 72000
+	sky_ladder_trial_ticks = 600
+	#Range: 0.0 ~ 1000.0
+	sky_ladder_smite_damage = 4.0
 
