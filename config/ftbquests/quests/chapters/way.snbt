@@ -102,6 +102,7 @@
 				use_as_quest_icon: 0b
 				walk_mode: "USE_GLOBAL"
 			}
+			hide_until_deps_complete: true
 			id: "148A223B1FB08B33"
 			size: 1.35d
 			tasks: [{

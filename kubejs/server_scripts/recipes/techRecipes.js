@@ -84,14 +84,15 @@ ServerEvents.recipes(event => {
         Item.of('butchery:blood_grate'),
         [
             'ABA',
-            'CDC',
-            'CCC'
+            'EDE',
+            'ECE'
         ],
         {
             A: 'butchery:hook',
             B: 'minecraft:iron_trapdoor',
             C: 'minecraft:iron_ingot',
-            D: 'minecraft:barrel'
+            D: 'minecraft:barrel',
+            E: 'concatenatedadditionsmachines:zinc_ingot'
         }
     )
 
@@ -99,15 +100,16 @@ ServerEvents.recipes(event => {
         Item.of('butchery:meat_grinder'),
         [
             'ABC',
-            'DEE',
-            ' E '
+            'DEF',
+            ' F '
         ],
         {
             A: 'butchery:hook',
             D: 'minecraft:iron_trapdoor',
             E: 'minecraft:iron_ingot',
             B: 'minecraft:cauldron',
-            C: 'minecraft:stick'
+            C: 'minecraft:stick',
+            F: 'concatenatedadditionsmachines:zinc_ingot'
         }
     )
 
@@ -218,14 +220,15 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('neepmeat:fluid_buffer'),
         [
-            'AAA',
+            'DAD',
             'BCB',
             'BBB'
         ],
         {
             C: '#forge:glass',
             A: 'minecraft:iron_ingot',
-            B: 'minecraft:copper_ingot'
+            B: 'minecraft:copper_ingot',
+            D: 'concatenatedadditionsmachines:zinc_ingot'
         }
     )
     event.shaped(
@@ -264,13 +267,14 @@ ServerEvents.recipes(event => {
         Item.of('neepmeat:pneumatic_motor'),
         [
             ' AB',
-            'ACC',
-            ' AC'
+            'ACD',
+            ' AD'
         ],
         {
             C: 'minecraft:iron_ingot',
             B: 'minecraft:redstone',
-            A: 'minecraft:copper_ingot'
+            A: 'minecraft:copper_ingot',
+            D: 'concatenatedadditionsmachines:zinc_ingot'
         }
     )
     event.shaped(
@@ -374,14 +378,15 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('neepmeat:vascular_conduit', 32),
         [
-            'AAA',
+            'DAD',
             'BCB',
-            'AAA'
+            'DAD'
         ],
         {
             A: 'minecraft:iron_nugget',
             B: 'incision:conductor_nerve',
-            C: 'neepmeat:integration_charge_crude'
+            C: 'neepmeat:integration_charge_crude',
+            D: 'concatenatedadditionsmachines:zinc_nugget'
         }
     )
 

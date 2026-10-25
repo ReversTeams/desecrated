@@ -16,6 +16,8 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('sons_of_sins:bloody_bone', 'Sinful Bone');
   event.renameItem('sons_of_sins:heart', 'Fleshy Heart');
 
+  event.renameItem('vampirism:blood_bucket', 'Raw Blood Bucket');
+
   event.renameItem('hexalia:small_cauldron', 'Brewing Cauldron');
   event.renameItem('hexalia:mortar_and_pestle', 'Natural Mortar and Pestle');
 

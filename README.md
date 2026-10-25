@@ -53,3 +53,4 @@ AgusDropOut - Bloody Hell Developer
 Meatwheeze - NEEPMeat Developer
 Noodlegamer - Fracture Developer
 anti - Ascendant Arcana Developer
+lor - Pact Magic Developer

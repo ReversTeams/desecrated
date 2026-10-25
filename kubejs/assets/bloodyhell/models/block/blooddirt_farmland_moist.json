@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_farmland",
-  "textures": {
-    "particle": "bloodyhell:block/blood_dirt_block",
-    "dirt": "bloodyhell:block/blood_dirt_block",
-    "top": "bloodyhell:block/blooddirt_farmland_moist"
-  }
-}

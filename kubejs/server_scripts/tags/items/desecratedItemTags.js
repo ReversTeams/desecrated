@@ -124,16 +124,21 @@ ServerEvents.tags('item', event => {
     ]);
 
     add('desecrated:macabre_key', [
-        'netherman:nether_spawner',
+        'netherman:azazel_trophy',
         'fdse:varunas_trident'
     ]);
 
     add('desecrated:macabre_hearts', [
-        "macabre:baal_heart", 
-        "macabre:gomoria_heart", 
-        "macabre:valamon_heart", 
-        "macabre:gargamaw_heart", 
+        "macabre:baal_heart",
+        "macabre:gomoria_heart",
+        "macabre:valamon_heart",
+        "macabre:gargamaw_heart",
         "macabre:morphegor_heart"
+    ]);
+
+    add('desecrated:crescent_heart', [
+        'desecratedcore:obelisk_heart',
+        'desecratedcore:organic_heart'
     ]);
 
     // Should be added to core mods

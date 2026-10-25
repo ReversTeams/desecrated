@@ -531,7 +531,11 @@
 		}
 		{
 			dependencies: ["0CA41706516F60D1"]
-			description: ["As sanguines preferred magical and traditional weapons, our manufacturing capabilities are quite underwhelming for firearms. Despite going underground, vampire society still has the ability to produce a few firearms. "]
+			description: [
+				"As sanguines preferred magical and traditional weapons, our manufacturing capabilities are quite underwhelming for firearms. Despite going underground, vampire society still has the ability to produce a few firearms."
+				""
+				"Perhaps I can purchase or requisition some. "
+			]
 			entity_vis_size: 1.0f
 			id: "582421ED6048E9FB"
 			rewards: [
@@ -609,9 +613,11 @@
 			description: [
 				"&aHere is a useful burst of starting information:"
 				""
-				"&aYou start as a vampire. Vampires are weak to the sun and fire but undead are not hostile to them. You must drink blood to survive. "
+				"&aYou start as a vampire. Vampires are weak to the sun and fire but undead are not hostile to them. You must drink blood to survive. Press V by default to drink blood from creatures."
 				""
 				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
+				"{@pagebreak}"
+				"&aYou have seven days until elite hunters with muskets and silver bullets arrive to kill you."
 			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:knowledge_book"
@@ -731,7 +737,11 @@
 			description: [
 				"The undead have always been a friendly force to converse with, but to blend in with humans and to obscure my trail, I may need to slay a few of these neutral foes. Their flesh and bones can prove useful after all..."
 				""
-				"As an undead myself, I am painfully aware of our weaknesses. The sun is a deadly laser. We are vulnerable to fire and holy materials such as silver or gold. However, we are also much more resistant to physical blows than humans are. These zombies and skeletons are the same, although they aren't as grand as a noble sanguine!"
+				"As an undead myself, I am painfully aware of our weaknesses. The sun is a deadly laser. We are vulnerable to fire and holy materials such as silver or gold. However, we are also much more resistant to physical blows than humans are. These zombies and skeletons are the same, although they aren't as grand as a noble sanguine! "
+				""
+				"If I need to slay one of them, I can light my weapon on fire &a(keep a torch in offhand) &rat a durability cost."
+				"{@pagebreak}"
+				"&a(Undead naturally have resistance unless they are hit by fire or holy damage such as silver or gold weapons or smite. As a result they will be very durable unless you hit their weaknesses. If you keep a torch in your offhand, you can light your weapon on fire, giving rudimentary fire aspect at a durability cost.)"
 			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:skeleton_skull"
@@ -811,48 +821,49 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["512D4EF547F94803"]
+			dependencies: ["42DE3640E44B36B9"]
 			description: [
-				"If I am lucky, I might be able to regroup with remnants of Red Barar forces. There are rumours of a vampire group rising to repulse the foreign powers in our lands. The Crescent Society seems to be formed of both former nobles and artificial vampires. I should take what I can get..."
+				"I was able to regroup with some sanguine remnants at last. They obviously aren't as great as I am, but I can use some more hands to defend my castle. I just need to care for them and protect them and they will protect me in return."
 				""
-				"Perhaps it would be possible to enlist their help with payment? "
+				"I just wonder... how are they not burning in the sun? Are their fancy little hats enchanted with sun protection?"
 			]
 			entity_vis_size: 1.5f
 			id: "0CA41706516F60D1"
-			rewards: [{
-				id: "4F019BB734D2BD6B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			subtitle: "Friends!"
-			tasks: [
+			rewards: [
 				{
-					entity_vis_cycle_seconds: 0.0f
-					entity_vis_enabled: false
-					entity_vis_idle_mode: "USE_GLOBAL"
-					entity_vis_offset_x: 0.0f
-					entity_vis_offset_y: 0.0f
-					entity_vis_rotation: 0.0f
-					entity_vis_silhouette_mode: "NONE"
-					entity_vis_size: 1.0f
-					entity_vis_slim_arms: false
-					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: true
-					entity_vis_walk_mode: "USE_GLOBAL"
-					id: "63F062C342397FFB"
-					observe_type: 5
-					timer: 0L
-					title: "Meet the Crescent Society"
-					to_observe: "simpleenemymod:pmcunit"
-					type: "observation"
+					exclude_from_claim_all: true
+					id: "74A330163463914A"
+					table_id: 6454273999420670365L
+					type: "choice"
 				}
 				{
-					id: "539A8B1B55E15BF2"
-					item: "simpleenemymod:recruit_table"
-					type: "item"
+					id: "4F019BB734D2BD6B"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
+			subtitle: "Friends!"
+			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: true
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "63F062C342397FFB"
+				observe_type: 5
+				timer: 0L
+				title: "Meet the Crescent Society"
+				to_observe: "simpleenemymod:pmcunit"
+				type: "observation"
+			}]
 			title: "The Crescent Society"
 			x: 2.0d
 			y: 4.5d
@@ -2112,6 +2123,8 @@
 				"&4You should be able to borrow the properties of amethyst to infuse rudimentary relic onto tools. You can combine any dormant relic with an infusion smithing template onto a tool to imbue it with more efficiency, durability, protection, speed or magic capacity."
 				""
 				"&4With an enchanting table made from copper and diamonds, you will be able to obtain common enchantments, but not anything particularly more advanced."
+				""
+				"&a(Amethyst infusion templates can only apply dormant relics. Higher tiers require Restorine infusion templates, available to Spectral Artificers.)"
 			]
 			entity_vis_size: 1.0f
 			icon: "ascendant_arcana:copper_enchanting_table"
@@ -2332,6 +2345,43 @@
 			title: "Armour Weight"
 			x: -4.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["512D4EF547F94803"]
+			description: [
+				"If I am lucky, I might be able to regroup with remnants of Red Barar forces. There are rumours of a vampire group rising to repulse the foreign powers in our lands. The Crescent Society seems to be formed of both former nobles and artificial vampires. I should take what I can get..."
+				""
+				"Perhaps it would be possible to enlist their help with payment?"
+				"{@pagebreak}"
+				"&4I believe we've found traces of them already in the ruins you scavenged through. You should make use of a traditional sanguine contacting method, along with offering tribute- gifts I mean."
+			]
+			entity_vis_size: 1.0f
+			id: "42DE3640E44B36B9"
+			rewards: [{
+				count: 3
+				id: "4C22293F995831D6"
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 9
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0921CEE6982DA55B"
+				item: {
+					Count: 1
+					id: "desecratedcore:crescent_calling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 	title: "Fallen"
