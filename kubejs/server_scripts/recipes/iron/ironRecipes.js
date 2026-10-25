@@ -1,5 +1,6 @@
 //priority: 200
 // Recipes
+//requires: modestmining
 
 ServerEvents.recipes(event => {
 

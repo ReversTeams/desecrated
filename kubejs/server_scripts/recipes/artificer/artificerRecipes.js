@@ -1,5 +1,9 @@
 //priority: 200
 // Recipes
+//requires: clockwork
+//requires: artificers_armory
+//requires: ascendant_arcana
+//requires: reliquary
 
 ServerEvents.recipes(event => {
 
@@ -1839,7 +1843,7 @@ ServerEvents.recipes(event => {
             'GHI'
         ],
         {
-            A: 'amendments:dragon_charge',
+            A: 'biomancy:creator_mix',
             I: 'reliquary:fortune_coin',
             E: 'minecraft:writable_book',
             F: 'reliquary:infernal_chalice',

@@ -1,5 +1,6 @@
 //priority: 200
-// Recipes
+// Reverse Eon Recipes
+//requires: reverseeon
 
 ServerEvents.recipes(event => {
 

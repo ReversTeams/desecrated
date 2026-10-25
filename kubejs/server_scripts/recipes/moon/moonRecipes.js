@@ -1,5 +1,7 @@
 //priority: 200
 // Recipes
+//requires: bloodmagic
+//requires: perdition
 
 ServerEvents.recipes(event => {
 

@@ -1,5 +1,6 @@
 //priority: 200
 // Recipes
+//requires: vampirism
 
 ServerEvents.recipes(event => {
 
@@ -64,6 +65,19 @@ ServerEvents.recipes(event => {
                         B: 'vampirism:vampire_orchid',
                         E: 'biomancy:stone_powder',
                         A: 'minecraft:black_wool'
+                }
+        )
+        event.shaped(
+                Item.of('desecratedcore:blood_filter'),
+                [
+                        'AAA',
+                        'BCB',
+                        'AAA'
+                ],
+                {
+                        B: 'minecraft:iron_trapdoor',
+                        C: 'minecraft:iron_ingot',
+                        A: 'concatenatedadditionsmachines:zinc_ingot'
                 }
         )
 });

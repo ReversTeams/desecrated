@@ -1,5 +1,7 @@
 //priority: 200
 // Recipes
+//requires: otherverse
+//requires: goety
 
 ServerEvents.recipes(event => {
 
