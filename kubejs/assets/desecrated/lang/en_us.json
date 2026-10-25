@@ -6,5 +6,7 @@
     "dimension.perdition.dis": "Dis",
     "dimension.perdition.purgatory": "Purgatory",
     
-    "message.hexalia.ritual.missing_ingredients": "Missing ingredients."
+    "message.hexalia.ritual.missing_ingredients": "Missing ingredients.",
+    "block.vampirism.blood": "Raw Blood",
+    "fluid_type.sons_of_sins.blood": "Etheric Blood"
 }

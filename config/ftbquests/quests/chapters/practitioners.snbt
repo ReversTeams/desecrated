@@ -9,6 +9,7 @@
 	images: [
 		{
 			alpha: 180
+			dependency: "5182A801B0828319"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
@@ -29,6 +30,7 @@
 		{
 			alpha: 180
 			color: 11766406
+			dependency: "37B247664DB669DC"
 			height: 1.5d
 			image: "otherverse:textures/portal/portal_4.png"
 			rotation: 0.0d
@@ -39,6 +41,7 @@
 		{
 			alpha: 180
 			color: 11141120
+			dependency: "7C44D6CC5F06EE5A"
 			height: 2.0d
 			image: "bloodmagic:models/alchemyarrays/voidsigil"
 			rotation: 0.0d
@@ -49,6 +52,7 @@
 		{
 			alpha: 180
 			color: 14277631
+			dependency: "2261826DF606EA11"
 			height: 2.2d
 			image: "goety:textures/entity/cultist/summon_apostle.png"
 			rotation: 0.0d
@@ -68,6 +72,7 @@
 				"&4How about chalk? You can grind down calcite into chalk with mystical properties using the talisman contract you found. It would be suitable for most ritual purposes as you only need to fill the chalk with spirituality."
 			]
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "7C44D6CC5F06EE5A"
 			rewards: [{
 				id: "451F985DC61CB380"
@@ -267,6 +272,7 @@
 				"&4No need, young sanguine. I have all of the knowledge a practitioner needs. However, it is very deep into my pages. I might need some materials to refresh my memory and regurgitate the knowledge you seek. How about settling for the essentials first?"
 			]
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "60A31D681BDC05E7"
 			rewards: [{
 				id: "51B141F98B6A70E0"
@@ -282,6 +288,7 @@
 						"patchouli:book": "otherverse:essentials"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
@@ -300,6 +307,7 @@
 						"patchouli:book": "otherverse:implementum"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.5d
@@ -318,6 +326,7 @@
 						"patchouli:book": "otherverse:shamanism"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.0d
@@ -336,6 +345,7 @@
 						"patchouli:book": "otherverse:famulus"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 1.5d
@@ -354,6 +364,7 @@
 						"patchouli:book": "otherverse:demesnes"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
@@ -373,6 +384,7 @@
 						"patchouli:book": "otherverse:ruins"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 7.0d
@@ -477,6 +489,7 @@
 				id: "1B037882C78727D6"
 				type: "checkmark"
 			}]
+			title: "Practitioner Completion"
 			x: 0.0d
 			y: -20.0d
 		}
@@ -536,6 +549,7 @@
 		{
 			dependencies: ["28113F3C960EC2FB"]
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "429A803195513FFD"
 			tasks: [{
 				id: "4054927A97FC7D69"
@@ -546,6 +560,7 @@
 						"patchouli:book": "goety:black_book"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d

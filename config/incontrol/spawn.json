@@ -81,7 +81,7 @@
   {
     "mod": "vampirism",
     "mincount": {
-      "amount": 24,
+      "amount": 48,
       "hostile": true,
       "perplayer": true
     },
@@ -98,6 +98,24 @@
   },
   {
     "mod": "enemyexpansion",
+    "mincount": {
+      "amount": 24,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "goety",
+    "mincount": {
+      "amount": 24,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "goetyhostility",
     "mincount": {
       "amount": 12,
       "hostile": true,

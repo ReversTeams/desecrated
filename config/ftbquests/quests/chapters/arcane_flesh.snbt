@@ -422,7 +422,7 @@
 			dependencies: ["5CA8FDF37BD413E4"]
 			description: ["&4This is quite strange... as you're describing it to me, I do not remember any part of this dimension. You see blue trees once in a while? I fear the soul dimension may have been overtaken with something.. foreign."]
 			entity_vis_size: 1.0f
-			icon: "bloodyhell:materialized_soul"
+			icon: "bloodyhell:blood_grass"
 			id: "22DDD3C6B3604CD9"
 			rewards: [
 				{
@@ -438,7 +438,7 @@
 			]
 			tasks: [{
 				dimension: "bloodyhell:soul_dimension"
-				icon: "bloodyhell:materialized_soul"
+				icon: "bloodyhell:blood_grass"
 				id: "05E81D8E5585CA1D"
 				title: "Visit the Soul Dimension"
 				type: "dimension"
@@ -5256,6 +5256,54 @@
 			}]
 			x: 19.349999999999998d
 			y: -29.7d
+		}
+		{
+			dependencies: ["6341285D27A686D9"]
+			entity_vis_size: 1.0f
+			id: "2EF6A2A4B3B14D00"
+			tasks: [{
+				id: "4BFA7C6DBC84A113"
+				item: "bloodyhell:staff_of_scarlet_cinder"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -25.5d
+		}
+		{
+			dependencies: ["16159AA464679A4C"]
+			entity_vis_size: 1.0f
+			id: "44F9F227C0DFB8FB"
+			tasks: [{
+				id: "2EC83139630C4F9C"
+				item: "bloodyhell:staff_of_the_golden_sorrow"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -39.0d
+		}
+		{
+			dependencies: ["1B25B0B9EE0E67D5"]
+			entity_vis_size: 1.0f
+			id: "7DCF3B745FAEFB9E"
+			tasks: [{
+				id: "1625EBC1EC2EC785"
+				item: "bloodyhell:incomplete_staff_of_the_pure_blooded"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["100F51F50BB44B53"]
+			entity_vis_size: 1.0f
+			id: "04D402C76F478AC1"
+			tasks: [{
+				id: "39D1617048916205"
+				item: "bloodyhell:the_omnitome"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -44.0d
 		}
 	]
 	title: "Arcane Flesh"

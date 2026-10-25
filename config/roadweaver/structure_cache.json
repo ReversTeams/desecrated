@@ -21,6 +21,186 @@
   ],
   "structures": [
     {
+      "id": "minecraft:abandoned_camp_bamboo_jungle",
+      "displayName": "Abandoned Camp Bamboo Jungle",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_birch_forest",
+      "displayName": "Abandoned Camp Birch Forest",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_cherry_grove",
+      "displayName": "Abandoned Camp Cherry Grove",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_dappled_forest",
+      "displayName": "Abandoned Camp Dappled Forest",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_flower_forest",
+      "displayName": "Abandoned Camp Flower Forest",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_forest",
+      "displayName": "Abandoned Camp Forest",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_meadow",
+      "displayName": "Abandoned Camp Meadow",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_old_growth_birch_forest",
+      "displayName": "Abandoned Camp Old Growth Birch Forest",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_old_growth_pine_taiga",
+      "displayName": "Abandoned Camp Old Growth Pine Taiga",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "displayName": "Abandoned Camp Old Growth Spruce Taiga",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_pale_garden",
+      "displayName": "Abandoned Camp Pale Garden",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_savanna",
+      "displayName": "Abandoned Camp Savanna",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_snowy_taiga",
+      "displayName": "Abandoned Camp Snowy Taiga",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_sparse_jungle",
+      "displayName": "Abandoned Camp Sparse Jungle",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_swamp",
+      "displayName": "Abandoned Camp Swamp",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_taiga",
+      "displayName": "Abandoned Camp Taiga",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_windswept_forest",
+      "displayName": "Abandoned Camp Windswept Forest",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
+      "id": "minecraft:abandoned_camp_wooded_badlands",
+      "displayName": "Abandoned Camp Wooded Badlands",
+      "isVanilla": true,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
+      ]
+    },
+    {
       "id": "minecraft:ancient_city",
       "displayName": "Ancient City",
       "isVanilla": true,
@@ -4200,6 +4380,30 @@
   ],
   "tags": [
     {
+      "tagId": "minecraft:abandoned_camp",
+      "displayName": "#Abandoned Camp",
+      "structureIds": [
+        "minecraft:abandoned_camp_bamboo_jungle",
+        "minecraft:abandoned_camp_birch_forest",
+        "minecraft:abandoned_camp_cherry_grove",
+        "minecraft:abandoned_camp_dappled_forest",
+        "minecraft:abandoned_camp_flower_forest",
+        "minecraft:abandoned_camp_forest",
+        "minecraft:abandoned_camp_meadow",
+        "minecraft:abandoned_camp_old_growth_birch_forest",
+        "minecraft:abandoned_camp_old_growth_pine_taiga",
+        "minecraft:abandoned_camp_old_growth_spruce_taiga",
+        "minecraft:abandoned_camp_pale_garden",
+        "minecraft:abandoned_camp_savanna",
+        "minecraft:abandoned_camp_snowy_taiga",
+        "minecraft:abandoned_camp_sparse_jungle",
+        "minecraft:abandoned_camp_swamp",
+        "minecraft:abandoned_camp_taiga",
+        "minecraft:abandoned_camp_windswept_forest",
+        "minecraft:abandoned_camp_wooded_badlands"
+      ]
+    },
+    {
       "tagId": "minecraft:ancient_city",
       "displayName": "#Ancient City",
       "structureIds": [
@@ -4296,6 +4500,76 @@
       ]
     },
     {
+      "tagId": "minecraft:on_abandoned_camp_bamboo_jungle",
+      "displayName": "#On Abandoned Camp Bamboo Jungle",
+      "structureIds": [
+        "minecraft:abandoned_camp_bamboo_jungle"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_birch_forest",
+      "displayName": "#On Abandoned Camp Birch Forest",
+      "structureIds": [
+        "minecraft:abandoned_camp_birch_forest"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_cherry_grove",
+      "displayName": "#On Abandoned Camp Cherry Grove",
+      "structureIds": [
+        "minecraft:abandoned_camp_cherry_grove"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_dappled_forest",
+      "displayName": "#On Abandoned Camp Dappled Forest",
+      "structureIds": [
+        "minecraft:abandoned_camp_dappled_forest"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_flower_forest",
+      "displayName": "#On Abandoned Camp Flower Forest",
+      "structureIds": [
+        "minecraft:abandoned_camp_flower_forest"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_pale_garden",
+      "displayName": "#On Abandoned Camp Pale Garden",
+      "structureIds": [
+        "minecraft:abandoned_camp_pale_garden"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_swamp",
+      "displayName": "#On Abandoned Camp Swamp",
+      "structureIds": [
+        "minecraft:abandoned_camp_swamp"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_windswept_forest",
+      "displayName": "#On Abandoned Camp Windswept Forest",
+      "structureIds": [
+        "minecraft:abandoned_camp_windswept_forest"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_ancient_city_maps",
+      "displayName": "#On Ancient City Maps",
+      "structureIds": [
+        "minecraft:ancient_city"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_desert_pyramid_maps",
+      "displayName": "#On Desert Pyramid Maps",
+      "structureIds": [
+        "minecraft:desert_pyramid"
+      ]
+    },
+    {
       "tagId": "minecraft:on_desert_village_maps",
       "displayName": "#On Desert Village Maps",
       "structureIds": [
@@ -4303,10 +4577,31 @@
       ]
     },
     {
+      "tagId": "minecraft:on_jungle_explorer_maps",
+      "displayName": "#On Jungle Explorer Maps",
+      "structureIds": [
+        "minecraft:jungle_pyramid"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_mineshaft_maps",
+      "displayName": "#On Mineshaft Maps",
+      "structureIds": [
+        "minecraft:mineshaft"
+      ]
+    },
+    {
       "tagId": "minecraft:on_ocean_explorer_maps",
       "displayName": "#On Ocean Explorer Maps",
       "structureIds": [
         "minecraft:monument"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_ocean_ruin_warm_maps",
+      "displayName": "#On Ocean Ruin Warm Maps",
+      "structureIds": [
+        "minecraft:ocean_ruin_warm"
       ]
     },
     {
@@ -4483,6 +4778,13 @@
       "structureIds": [
         "minecraft:desert_pyramid",
         "minecraft:village_desert"
+      ]
+    },
+    {
+      "tagId": "frozen_dominion:camp_locator",
+      "displayName": "#Camp Locator",
+      "structureIds": [
+        "frozen_dominion:expedition_camp"
       ]
     },
     {

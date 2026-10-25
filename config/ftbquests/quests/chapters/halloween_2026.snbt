@@ -16,6 +16,7 @@
 	id: "603B7ADC4EC528C2"
 	images: [{
 		alpha: 180
+		dependency: "63785492CE884D72"
 		height: 3.0d
 		image: "clanginghowl:textures/particle/blood_splash4.png"
 		rotation: 0.0d

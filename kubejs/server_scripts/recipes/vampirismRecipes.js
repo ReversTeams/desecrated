@@ -80,4 +80,21 @@ ServerEvents.recipes(event => {
                         A: 'concatenatedadditionsmachines:zinc_ingot'
                 }
         )
+
+        event.shaped(
+                Item.of('desecratedcore:crescent_calling'),
+                [
+                        'ABC',
+                        'BDB',
+                        'EBF'
+                ],
+                {
+                        E: 'vampirism:vampire_book',
+                        F: 'vampirism:vampire_orchid',
+                        C: 'vampiresdelight:blood_wine_bottle',
+                        B: 'vampirism:human_heart',
+                        D: '#desecrated:crescent_heart',
+                        A: 'vampirism:pure_blood_4'
+                }
+        )
 });

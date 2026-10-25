@@ -16,6 +16,7 @@
 		{
 			alpha: 180
 			color: 16211721
+			dependency: "51B4F0043EFD8726"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
 			rotation: 0.0d
@@ -36,6 +37,7 @@
 		{
 			alpha: 50
 			color: 16729372
+			dependency: "257E0F645B9B307D"
 			height: 4.0d
 			image: "ars_armorer:textures/misc/flash.png"
 			rotation: 0.0d
@@ -45,6 +47,7 @@
 		}
 		{
 			alpha: 180
+			dependency: "3220B67522BB5C0D"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/aquaflora_pierce_start/aquaflora_pierce_start2.png"
 			rotation: 45.0d
@@ -53,6 +56,7 @@
 			y: 8.4d
 		}
 		{
+			dependency: "76593EA6852DE6C8"
 			height: 0.75d
 			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
 			rotation: 0.0d
@@ -61,6 +65,7 @@
 			y: 4.0d
 		}
 		{
+			dependency: "76593EA6852DE6C8"
 			height: 0.75d
 			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
 			rotation: 90.0d
@@ -69,6 +74,7 @@
 			y: 5.0d
 		}
 		{
+			dependency: "76593EA6852DE6C8"
 			height: 0.75d
 			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
 			rotation: 180.0d
@@ -77,6 +83,7 @@
 			y: 5.0d
 		}
 		{
+			dependency: "76593EA6852DE6C8"
 			height: 0.75d
 			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
 			rotation: -90.0d
@@ -86,6 +93,7 @@
 		}
 		{
 			alpha: 180
+			dependency: "5DC274933162F9A6"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
@@ -2177,6 +2185,7 @@
 		{
 			dependencies: ["3913E4BF1C7341B8"]
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "desecratedcore:amethyst_tuning_wand"
@@ -2285,6 +2294,7 @@
 				"&fI've heard that a similar model has been in use for years, however, it's made to flatten ingots into plates instead. This model fell into disuse with the Industrial Revolution. Why take a minute to flatten ingots manually when you can spend hours to automate it?"
 			]
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "concatenatedadditionscore:hammer"
@@ -5994,11 +6004,12 @@
 				""
 				"&4Why do you drink blood?"
 				""
-				"To live... Oh nevermind, what should be the first step to delve into enchanting?."
+				"To live... Oh nevermind, what should be the first step to delve into enchanting?"
 				""
 				"&4Humans crudely use mere diamonds for enchanting anchors, but sanguines use restorite, a rarer material not found in every region, but abundant in our Red Barar. To harvest the most pure fragments, you will need a special amethyst harvesting wand."
 			]
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "4875801A20501BE7"
 			rewards: [
 				{
@@ -6049,6 +6060,7 @@
 				id: "4896E6E049AFB65A"
 				type: "checkmark"
 			}]
+			title: "Artificer Completion"
 			x: 13.299999999999999d
 			y: 18.2d
 		}
