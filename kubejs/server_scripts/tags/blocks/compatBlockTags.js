@@ -34,4 +34,8 @@ ServerEvents.tags('block', event => {
         'subwild:hot_red_sandstone',
         'subwild:mossy_sandstone'
     ]);
+
+    add('minecraft:enchantment_power_provider', [
+        'desecratedcore:bloody_bookshelf'
+    ]);
 });

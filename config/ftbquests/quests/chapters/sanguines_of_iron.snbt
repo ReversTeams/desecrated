@@ -23,6 +23,7 @@
 		{
 			alpha: 180
 			color: 16718090
+			dependency: "1CE2E59DF8AB13AF"
 			height: 2.5d
 			image: "tetra_view:textures/slot1.png"
 			rotation: 0.0d
@@ -42,6 +43,7 @@
 		}
 		{
 			alpha: 180
+			dependency: "718E019861370CB7"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
@@ -75,6 +77,7 @@
 			description: ["Sanguines of Iron always have their trusty hammers to forge other tools. I should get one of my own. Wood should do for now."]
 			disable_toast: true
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "67E46BEEC08F8EA1"
 			rewards: [
 				{
@@ -162,6 +165,7 @@
 			description: ["I sometimes encounter these geodes while mining. They seem to contain valuable resources, sometimes. I could crack them open with a hammer at the iron workbench."]
 			disable_toast: true
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "27080CDFCD7A0AC9"
 			rewards: [
 				{
@@ -220,6 +224,7 @@
 			]
 			disable_toast: true
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "0FDC63AE98A6BC06"
 			rewards: [
 				{
@@ -521,6 +526,7 @@
 				id: "29D24D9C1F7D1B4B"
 				type: "checkmark"
 			}]
+			title: "Iron Completion"
 			x: 0.0d
 			y: -9.5d
 		}
@@ -546,6 +552,7 @@
 		{
 			dependencies: ["20DC2110D654C2D8"]
 			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
 			id: "7FF4417F28BBA363"
 			rewards: [{
 				exclude_from_claim_all: true

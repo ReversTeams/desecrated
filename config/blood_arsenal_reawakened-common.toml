@@ -10,10 +10,50 @@
 	sanguine_scythe_damage = 6
 	#Range: -4.0 ~ 4.0
 	sanguine_scythe_speed = -2.4
+	#The Executioner finishes a target whose health would drop below this fraction of its maximum.
+	#Set to 0 to disable the execute entirely.
+	#Range: 0.0 ~ 1.0
+	execute_health_threshold = 0.2
+	#Targets with a higher maximum health than this cannot be executed.
+	#This is what keeps bosses (vanilla and modded) out of the instant-kill.
+	#Range: 0.0 ~ 100000.0
+	execute_max_target_max_health = 100.0
+	#Whether the execute may trigger on other players.
+	execute_allow_players = false
+	#LP added to your network on a successful execute. Respects your Blood Orb capacity.
+	#Range: > 0
+	execute_lp_gain = 500
+	#Range: > 0
+	blood_spear_lp_cost = 1500
+	#Range: 0.0 ~ 10000.0
+	blood_spear_damage = 15.0
+	#Range: 1.0 ~ 128.0
+	blood_spear_range = 20.0
+	#Range: 0 ~ 600
+	blood_spear_burn_seconds = 3
+	#Cooldown in ticks (20 ticks = 1 second)
+	#Range: 0 ~ 72000
+	blood_spear_cooldown = 30
+	#LP harvested per kill. Respects your Blood Orb capacity.
+	#Range: > 0
+	sanguine_scythe_lp_per_kill = 100
+	#Range: 0.0 ~ 10000.0
+	blood_vortex_damage = 8.0
+	#Range: 1.0 ~ 32.0
+	blood_vortex_radius = 5.0
+	#Damage the Blood Vortex costs its wielder. It can never drop you below half a heart.
+	#Range: 0.0 ~ 1000.0
+	blood_vortex_self_damage = 2.0
+	#Range: 0 ~ 72000
+	blood_vortex_cooldown = 100
 
 [sigils]
+	#The Divinity Sigil is the endgame item: while active it eats incoming damage outright.
+	#It is no longer a permanent invulnerability flag - every point of damage is paid for in LP,
+	#and the sigil shuts itself off the moment your network cannot cover the bill.
 	#Range: > 0
 	divinity_activation_lp = 1000000
+	#LP drained per second just for keeping the sigil lit.
 	#Range: > 0
 	divinity_upkeep_per_tick = 3500
 	#Range: > 0
@@ -33,15 +73,103 @@
 	ender_chest = 100
 	#Range: > 0
 	bloodlust_activation = 30000
+	#Additional LP burned per point of damage absorbed.
+	#0 means the sigil costs only its activation and upkeep, no matter how much it swallows.
+	#Range: > 0
+	divinity_lp_per_damage_absorbed = 0
+	#Damage above this value in a single hit still gets through, no matter how much LP you have.
+	#Set very high to make the sigil a true god-mode.
+	#Range: 0.0 ~ 1000000.0
+	divinity_max_absorbed_per_hit = 1000.0
+	#Effect levels: 0 = disabled, 1 = I, 2 = II, ...
+	#Range: 0 ~ 10
+	divinity_resistance_level = 5
+	#Range: 0 ~ 10
+	divinity_regeneration_level = 2
+	divinity_keeps_you_fed = true
+	#Range: > 0
+	flight_minimum_lp_to_activate = 100
+	#Range: 1 ~ 10
+	lightning_max_level = 5
+	#Set to false to make the summoned bolts purely cosmetic in terms of block damage.
+	lightning_starts_fires = true
+	#Range: 0 ~ 72000
+	bloodmoon_cooldown = 100
+	#Range: 1.0 ~ 256.0
+	ender_range = 64.0
+	#Range: 1 ~ 720000
+	bloodlust_power_ticks = 6000
+	#Range: 0 ~ 720000
+	bloodlust_crash_ticks = 1200
+	#Range: 0 ~ 720000
+	bloodlust_cooldown_ticks = 36000
+	#Effect levels granted during the power phase. 0 = disabled, 1 = I, 2 = II, ...
+	#Careful with resistance: vanilla treats level 5 and above as total immunity to damage,
+	#which makes the Bloodlust Sigil strictly better than the Divinity Sigil for a fraction of the cost.
+	#Range: 0 ~ 10
+	bloodlust_strength_level = 4
+	#Range: 0 ~ 10
+	bloodlust_resistance_level = 3
+	#Range: 0 ~ 10
+	bloodlust_regeneration_level = 3
+	#Range: 0 ~ 10
+	bloodlust_speed_level = 3
+	#Range: 0 ~ 10
+	bloodlust_jump_level = 2
+	bloodlust_saturation = true
+	#Effect levels during the crash phase - the price of the power phase.
+	#Range: 0 ~ 10
+	bloodlust_weakness_level = 3
+	#Range: 0 ~ 10
+	bloodlust_slowness_level = 3
+	#Range: 0 ~ 10
+	bloodlust_mining_fatigue_level = 3
 
 [hearts]
 	#Health (HP) granted per heart consumed; 2.0 = one heart
 	#Range: 0.0 ~ 100.0
 	health_per_heart = 2.0
+	#Damage dealt when you try to eat a heart past the limit. 0 disables the punishment.
 	#Range: 0 ~ 1000
-	max_uses_per_type = 10
+	overeat_damage = 10
+	#Range: 0 ~ 1000
+	crimson_max_uses = 5
+	#Range: 0 ~ 1000
+	sanguine_max_uses = 3
+	#Range: 0 ~ 1000
+	ascension_max_uses = 2
+	#Range: 0.0 ~ 1.0
+	sanguine_lifesteal_per_heart = 0.02
+	#Range: 1 ~ 86400
+	ascension_shield_cooldown_seconds = 120
+	#Range: 0.0 ~ 1000.0
+	ascension_shield_damage = 10.0
+	#Range: > 0
+	crimson_rite_lp = 50000
+	#Range: 0 ~ 18
+	crimson_rite_max_misses = 5
+	#Range: 0.0 ~ 100.0
+	crimson_rite_miss_damage = 3.0
+	#Range: > 0
+	sanguine_rite_lp = 200000
+	#Range: 20 ~ 72000
+	sanguine_rite_ticks = 160
+	#Range: 5 ~ 3600
+	sanguine_thief_seconds = 60
+	#Range: 1.0 ~ 10000.0
+	sanguine_thief_health = 40.0
+	#Range: > 0
+	ascension_rite_lp = 750000
+	#Range: 1 ~ 64
+	ascension_rite_charges = 7
+	#Range: 1 ~ 256
+	ascension_rite_max_strikes = 16
+	#Range: 0.0 ~ 100.0
+	ascension_rite_strike_damage = 3.0
 
 [bosses]
+	#Health and damage are applied when the boss spawns, so changes take effect for freshly
+	#spawned bosses without restarting the game.
 	#Range: 1.0 ~ 100000.0
 	risen_devil_health = 600.0
 	#Range: 0.0 ~ 10000.0
@@ -50,6 +178,38 @@
 	fallen_angel_health = 550.0
 	#Range: 0.0 ~ 10000.0
 	fallen_angel_damage = 14.0
+	#Range: 0.0 ~ 10000.0
+	risen_devil_slam_damage = 10.0
+	#Range: 0.0 ~ 10000.0
+	risen_devil_nova_damage = 13.0
+	#Range: 0.0 ~ 10000.0
+	fallen_angel_smite_damage = 9.0
+	#Range: 0.0 ~ 10000.0
+	fallen_angel_burst_damage = 11.0
+	#Range: 0.0 ~ 10000.0
+	fallen_angel_judgment_damage = 12.0
+	#Clean up summoned blazes and vexes when the boss dies.
+	minions_despawn_on_death = true
+	#Range: 0 ~ 100000
+	boss_xp_reward = 100
+	#Range: 0 ~ 64
+	risen_devil_max_minions = 6
+	#Range: 0.0 ~ 1000.0
+	risen_devil_blood_orb_damage = 8.0
+	#Range: 0.0 ~ 1000.0
+	risen_devil_geyser_damage = 10.0
+	#Range: 0.0 ~ 1000.0
+	risen_devil_tide_damage = 5.0
+	#Range: 0.0 ~ 1.0
+	risen_devil_obelisk_heal_per_second = 0.004
+	#Range: 0 ~ 64
+	fallen_seraph_max_minions = 6
+	#Range: 0.0 ~ 1000.0
+	fallen_seraph_halo_damage = 8.0
+	#Range: 0.0 ~ 1000.0
+	fallen_seraph_flash_damage = 6.0
+	#Range: 20 ~ 1200
+	fallen_seraph_stun_ticks = 120
 
 [drops]
 	#Range: 0 ~ 64
@@ -64,12 +224,63 @@
 	#Range: 0 ~ 10
 	leggings_speed_level = 2
 	#Range: 0 ~ 10
-	full_set_strength_level = 2
+	full_set_strength_level = 1
 	#Range: 0 ~ 10
-	full_set_regeneration_level = 3
+	full_set_regeneration_level = 1
 	#Range: 0 ~ 10
-	full_set_resistance_level = 3
+	full_set_resistance_level = 0
 	full_set_fire_resistance = true
 	full_set_saturation = true
 	full_set_water_breathing = true
+	full_set_negates_fall_damage = true
+	#What the full set does to your maximum health.
+	#SET  - clamps it to exactly full_set_health_value, whatever else you have eaten (the glass-cannon build).
+	#ADD  - adds full_set_health_value on top of your normal maximum.
+	#NONE - leaves your health alone.
+	#Allowed Values: NONE, ADD, SET
+	full_set_health_mode = "SET"
+	#Health value used by full_set_health_mode. 2.0 = one heart, so 4.0 is two hearts.
+	#Range: 1.0 ~ 1024.0
+	full_set_health_value = 4.0
+	#How often (in ticks) the boots freeze the water below you.
+	#Range: 1 ~ 200
+	boots_frost_walker_interval = 10
+	#Range: 0.0 ~ 1.0
+	blood_price_damage_per_heart = 0.02
+	#Range: 0.0 ~ 10.0
+	blood_price_max_damage_bonus = 1.0
+	#Range: 0.0 ~ 1.0
+	full_set_lifesteal = 0.1
+	#Range: 0.0 ~ 1024.0
+	full_set_lifesteal_max_per_hit = 4.0
+	white_day_burns_blood_armor = true
+	#Range: 0.0 ~ 100.0
+	white_day_burn_damage_per_piece = 0.5
+
+[rituals]
+	#Total LP drained over the whole Apotheosis ritual.
+	#Range: > 0
+	apotheosis_total_lp = 1000000
+	#Range: 0.0 ~ 1.0
+	apotheosis_min_health_fraction = 0.8
+	#Range: > 0
+	soul_anchor_revive_lp = 200000
+	#Whether the Soul Anchor is destroyed after saving you once.
+	soul_anchor_consumed_on_use = true
+	#How often (in ticks) dropped ritual catalysts look around for their offerings.
+	#Higher values are cheaper on the server; 1 restores the old every-tick behaviour.
+	#Range: 1 ~ 200
+	ritual_scan_interval = 10
+	#Range: > 0
+	crimson_well_lp = 50000
+	#Range: 1 ~ 10000
+	crimson_well_blood_needed = 100
+	#Range: 0 ~ 64
+	crimson_well_max_thralls = 5
+	#Range: > 0
+	sky_ladder_lp = 50000
+	#Range: 100 ~ 72000
+	sky_ladder_trial_ticks = 600
+	#Range: 0.0 ~ 1000.0
+	sky_ladder_smite_damage = 4.0
 

@@ -693,7 +693,7 @@
 			}]
 			tasks: [{
 				biome: "#minecraft:is_ocean"
-				icon: "subwild:water_puddle"
+				icon: "goety:water_jet_focus"
 				id: "557641224DA64857"
 				title: "Visit the ocean"
 				type: "biome"

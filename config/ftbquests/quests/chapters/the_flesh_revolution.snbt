@@ -37,8 +37,8 @@
 			image: "butchery:block/blood_splatter_8"
 			rotation: 0.0d
 			width: 2.75d
-			x: -0.5d
-			y: -6.5d
+			x: 0.10000000000000009d
+			y: -7.5d
 		}
 		{
 			alpha: 180
@@ -70,9 +70,9 @@
 			description: [
 				"Pressing blood into drinkable blood! Fully automatic! Mostly automatic.. "
 				""
-				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat in the sieve, the blood is not fully pure, but it's drinkable. I should place a tank under the grinder so that blood flows down there, easy for collection."
+				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat in the sieve, the blood is not fully pure, but it's drinkable. I should place a container under the grinder so that blood flows down there, easy for collection. Or, I could put a blood filter down there to clean the blood right at the source."
 				""
-				"I shouldn't try to mix unpure blood and pure blood, this is a bad idea."
+				"I shouldn't try to mix unpure blood and pure blood, that is a bad idea."
 			]
 			entity_vis_size: 1.0f
 			id: "34B4063F2F210048"
@@ -104,8 +104,24 @@
 				}
 				{
 					id: "3E6F0A7018D2E6B4"
-					item: "vampirism:blood_container"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vampirism:blood_container"
+								}
+								{
+									Count: 1b
+									id: "desecratedcore:blood_filter"
+								}
+							]
+						}
+					}
 					optional_task: true
+					title: "Blood Container or Blood Filter"
 					type: "item"
 				}
 			]
@@ -117,6 +133,8 @@
 			description: [
 				"These carcasses are quite cumbersome to carry around. They wouldn't be very useful if I left them in a chest. I should hang them up. Maybe a hook or a rope would do."
 				""
+				"Firstly, I need to drain the carcass with a cleaver. I'll need to wait until the carcass is drained, then I might need a skinning knife to remove the hide and then I can finally butcher it normally."
+				"{@pagebreak}"
 				"Cutting them open right there will just cause a mess on the floor. All of the organ, meats and blood will spill on the floor. What a waste! I should prepare something."
 			]
 			entity_vis_size: 1.0f
@@ -126,6 +144,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Processing Carcasses"
 			tasks: [
 				{
 					id: "5A75F1E5A4383EA7"
@@ -189,6 +208,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Inelegant!"
 			tasks: [{
 				id: "50A384161E70ECA3"
 				stat: "minecraft:mob_kills"
@@ -243,11 +263,7 @@
 		{
 			dependencies: ["623C14C05294EFCC"]
 			dependency_requirement: "one_started"
-			description: [
-				"By placing a grate below the hanging carcass, I can collect the drained blood. The grate will also purify the blood, no longer is it raw! Well, mostly. I should try not to mix raw and purified blood."
-				""
-				"&a(With butcher's papers, you can switch the type of blood in the grate. Beware, you cannot put back blood in a grate.)"
-			]
+			description: ["By placing a grate below the hanging carcass, I can collect the drained blood. The grate will also act as a filter and purify the blood, no longer is it raw! Well, mostly. I should try not to mix raw and purified blood, or raw and infected blood."]
 			entity_vis_size: 1.0f
 			id: "7522632161D258AA"
 			rewards: [
@@ -270,6 +286,7 @@
 				}
 			]
 			size: 1.15d
+			subtitle: "Collecting Blood"
 			tasks: [{
 				id: "272AFA21F258B742"
 				item: "butchery:blood_grate"
@@ -280,7 +297,11 @@
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
-			description: ["I should make an implement to dry skin easily. This way I should be able to more efficiently process skins into leather."]
+			description: [
+				"I should make an implement to dry skin easily. This way I should be able to more efficiently process skins into leather."
+				""
+				"I will need salt for the hide to cure. I could either produce some by evaporating water, or finding salt in the ground or at the bottom of oceans."
+			]
 			entity_vis_size: 1.0f
 			id: "5B9F02CB6F9F9342"
 			rewards: [{
@@ -407,6 +428,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Preservation"
 			tasks: [{
 				id: "1E1FEC769AB14559"
 				item: {
@@ -585,6 +607,7 @@
 				}
 			]
 			size: 1.15d
+			subtitle: "Steal Your Heart"
 			tasks: [
 				{
 					id: "190C7EEFC3D4965C"
@@ -628,6 +651,7 @@
 				}
 			]
 			size: 1.15d
+			subtitle: "Combustion Power!"
 			tasks: [{
 				id: "08310D2B943B756E"
 				item: "neepmeat:stirling_engine"
@@ -905,6 +929,7 @@
 				}
 			]
 			size: 1.1d
+			subtitle: "Crushing Power!"
 			tasks: [{
 				id: "0B29D57C85AEB96E"
 				item: "neepmeat:grinder"
@@ -1096,6 +1121,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "The Miracle Material"
 			tasks: [
 				{
 					id: "02FCEAC752DB0136"
@@ -1649,6 +1675,7 @@
 				}
 			]
 			size: 1.15d
+			subtitle: "Thrive In The Sun"
 			tasks: [
 				{
 					id: "7FD3A5FA8D612405"
@@ -2829,8 +2856,8 @@
 				item: "desecratedcore:blood_bucket"
 				type: "item"
 			}]
-			x: -1.1d
-			y: -7.0d
+			x: -0.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
@@ -3028,7 +3055,11 @@
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
-			description: ["With a basin, I can dedicate amounts of water to be evaporated over time, leaving only the salt behind."]
+			description: [
+				"With a basin, I can dedicate amounts of water to be evaporated over time, leaving only the salt behind."
+				""
+				"I could always go underground or dive to the bottom of oceans to find natural salt, but that's quite tedious."
+			]
 			entity_vis_size: 1.0f
 			id: "20D1A7AA42AEAE60"
 			rewards: [{
@@ -3228,11 +3259,12 @@
 				type: "item"
 			}]
 			title: "Meteorite Tools"
-			x: 1.5d
+			x: 2.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
+			description: ["Extraterrestrial ore can be harvested with a phage ray."]
 			entity_vis_size: 1.0f
 			id: "4D2F18ACAB325F21"
 			rewards: [{
@@ -4060,6 +4092,7 @@
 				}
 			]
 			size: 1.15d
+			subtitle: "Steam Power!"
 			tasks: [{
 				id: "2DC699AF1510ECA4"
 				item: "concatenatedadditionsmachines:boiler"
@@ -4214,7 +4247,7 @@
 				item: "concatenatedadditionsmachines:meteorite"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -9.5d
 		}
 		{
@@ -4786,6 +4819,43 @@
 			}]
 			x: 6.0d
 			y: -19.5d
+		}
+		{
+			dependencies: ["7522632161D258AA"]
+			description: [
+				"The blood grate isn't perfect for filtering and the blood sieve doesn't produce high enough quality blood. There's all of these bits of grinded meat in there. Sure, it adds a little taste for me, but when I use this blood for other endeavours, I will need cleaner blood."
+				""
+				"This blood filter has one purpose: cleaning the raw blood. It contains two internal tanks and a filter system making use of gravity. That way, just inputting raw blood suffices to clean it."
+			]
+			entity_vis_size: 1.0f
+			id: "532FD8D52F2ACDC8"
+			rewards: [
+				{
+					count: 3
+					id: "449BF47E63004DCF"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1478605BC8FB47C0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Filtering Blood"
+			tasks: [{
+				id: "1E06A765085543E1"
+				item: "desecratedcore:blood_filter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
 		}
 	]
 	title: "Flesh Industries"

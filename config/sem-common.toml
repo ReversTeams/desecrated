@@ -39,13 +39,13 @@
 [gun_ai_shooting_config]
 	#Maximum shooting distance
 	#Range: 10.0 ~ 384.0
-	maxShootDistance = 30.0
+	maxShootDistance = 20
 	#Base bullet spread (lower = more accurate)
 	#Range: 0.0 ~ 10.0
-	baseSpread = 1.4
+	baseSpread = 1.7
 	#Spread increase per block of distance to target (accuracy penalty at range)
 	#Range: 0.0 ~ 1.0
-	spreadIncrease = 0.012
+	spreadIncrease = 0.035
 	#Maximum bullet spread limit
 	#Prevents accuracy penalties from increasing indefinitely at long range
 	#Range: 0.0 ~ 10.0

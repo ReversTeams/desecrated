@@ -373,6 +373,9 @@
 		#Webbed Soul Cost, Default: 50
 		#Range: > 1
 		webbedCost = 50
+		#Slimy Soul Cost, Default: 50
+		#Range: > 1
+		slimyCost = 50
 
 ["Modded Capacity"]
 	#How much Capacity is given initially, Default: 1
@@ -505,6 +508,9 @@
 		#Webbed Extra Capacity, Default: 1
 		#Range: > 0
 		webbedCapacity = 1
+		#Slimy Extra Capacity, Default: 2
+		#Range: > 0
+		slimyCapacity = 2
 
 [Curable]
 	#Whether Pressure is curable via Milk or Wartful Egg, Default: false

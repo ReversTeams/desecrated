@@ -352,6 +352,17 @@
         "value": 2048
       }
     },
+    "minecraft:waypoint_transmit_range": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 60000000,
+        "value": 60000000
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -680,6 +691,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "minecraft:waypoint_receive_range": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 60000000,
+        "value": 60000000
       }
     },
     "tconstruct:generic.crouch_damage_multiplier": {
@@ -1023,17 +1045,6 @@
         "value": 2048
       }
     },
-    "additionalentityattributes:player.bonus_rare_loot_rolls": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 128,
-        "value": 128
-      }
-    },
     "ascendant_arcana:generic.protection": {
       "enabled": false,
       "min": {
@@ -1043,6 +1054,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "additionalentityattributes:player.bonus_rare_loot_rolls": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 128
       }
     },
     "additionalentityattributes:generic.water_speed": {
@@ -1848,17 +1870,6 @@
         "value": 100
       }
     },
-    "additionalentityattributes:generic.mob_detection_range": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "ascendant_arcana:generic.draw_speed": {
       "enabled": false,
       "min": {
@@ -1870,7 +1881,7 @@
         "value": 100
       }
     },
-    "spectrum:mental_presence": {
+    "additionalentityattributes:generic.mob_detection_range": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1890,6 +1901,17 @@
       "max": {
         "default": 256,
         "value": 256
+      }
+    },
+    "spectrum:mental_presence": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "tconstruct:generic.protection_cap": {

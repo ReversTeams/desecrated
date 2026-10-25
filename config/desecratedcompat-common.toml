@@ -1,0 +1,7 @@
+
+[general]
+	#Disable Desecrated interactions with Vampirism Blood Containers.
+	disableVampirismContainerInteraction = true
+	#Disable Desecrated interactions with Vampirism Blood Buckets.
+	disableVampirismBucketConversion = true
+
