@@ -69,12 +69,25 @@
 			]
 			entity_vis_size: 1.0f
 			id: "63785492CE884D72"
-			rewards: [{
-				count: 13
-				id: "3B294FAC22F44080"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 13
+					id: "3B294FAC22F44080"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "1DB71E7034411820"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "box_of_candies"
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				consume_items: true
@@ -104,12 +117,25 @@
 			]
 			entity_vis_size: 1.0f
 			id: "0702805376964E53"
-			rewards: [{
-				count: 9
-				id: "69555A41FF67667C"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "69555A41FF67667C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3305DB50C4E6065D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "box_of_candies"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 10L
@@ -138,17 +164,30 @@
 			]
 			entity_vis_size: 1.0f
 			id: "1BE7F4AA8E307379"
-			rewards: [{
-				id: "6A1AF49B0A4C0A69"
-				item: {
-					Count: 1
-					id: "macabre:ferrum_pickaxe"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "6A1AF49B0A4C0A69"
+					item: {
+						Count: 1
+						id: "macabre:ferrum_pickaxe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "00406E8ACA8472C6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "box_of_candies"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -175,17 +214,30 @@
 			]
 			entity_vis_size: 1.0f
 			id: "0E94DB0377908CD4"
-			rewards: [{
-				id: "612A2B70BF931106"
-				item: {
-					Count: 1
-					id: "concatenatedadditionstools:bloody_living_sword"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "612A2B70BF931106"
+					item: {
+						Count: 1
+						id: "concatenatedadditionstools:bloody_living_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "54B8546F6DC78301"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "box_of_candies"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -240,8 +292,13 @@
 		}
 		{
 			dependencies: ["4B7758AE76C7CB09"]
-			description: ["&a(Collect as many blood festival fragments as you can for now, redeeming them for rewards will be added in the next update.)"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fI can finally start earning fragments... the one who has the most fragments wins the competition. However, they can also be redeemed for various rewards. But if I spend them, I won't be able to win. Was this rigged?"
+			]
 			entity_vis_size: 1.0f
+			hide_dependent_lines: true
 			id: "6378F35C4C516CC5"
 			rewards: [{
 				id: "2C57BDF69EEEB2DA"
@@ -793,17 +850,24 @@
 			]
 			entity_vis_size: 1.0f
 			id: "1AAB788A86287E44"
-			rewards: [{
-				id: "24EA0A18175B07D6"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					id: "24EA0A18175B07D6"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0CEF0186566E7457"
+					item: "concatenatedadditionsfood:yumpearls"
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "76A17F883371381B"
@@ -830,18 +894,26 @@
 			]
 			entity_vis_size: 1.0f
 			id: "66D3355BB0B54F4B"
-			rewards: [{
-				id: "1A018350A462FCE2"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					id: "1A018350A462FCE2"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 2
+					type: "item"
 				}
-				random_bonus: 2
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "390C0916CB15832D"
+					item: "concatenatedadditionsfood:yumpearls"
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "6142AB99B855A09B"
@@ -860,18 +932,26 @@
 			]
 			entity_vis_size: 1.0f
 			id: "362713A059D9B040"
-			rewards: [{
-				id: "6C6B3ECAF6922200"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					id: "6C6B3ECAF6922200"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 2
+					type: "item"
 				}
-				random_bonus: 2
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "673D8FD536721F01"
+					item: "concatenatedadditionsfood:caramel_square"
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "363CED46CC6469CD"
@@ -896,19 +976,32 @@
 			]
 			entity_vis_size: 1.0f
 			id: "45B2D49DE7310E16"
-			rewards: [{
-				count: 3
-				id: "0F698623711B6A6B"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					count: 3
+					id: "0F698623711B6A6B"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 3
+					type: "item"
 				}
-				random_bonus: 3
-				type: "item"
-			}]
+				{
+					id: "510721BB6A9E7D51"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "box_of_candies"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "4EB09C07C91DB840"
@@ -959,19 +1052,27 @@
 			]
 			entity_vis_size: 1.0f
 			id: "440BB50959B73C9E"
-			rewards: [{
-				count: 3
-				id: "33A33E85206106F5"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					count: 3
+					id: "33A33E85206106F5"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 3
+					type: "item"
 				}
-				random_bonus: 3
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "4413DC9E71A7F6F1"
+					item: "concatenatedadditionsfood:spicy_drop"
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "2E6FE5BDE9D1876C"
@@ -990,19 +1091,27 @@
 			]
 			entity_vis_size: 1.0f
 			id: "5F08210A0C2A7304"
-			rewards: [{
-				count: 3
-				id: "1BD9C8A29127719E"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					count: 3
+					id: "1BD9C8A29127719E"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 3
+					type: "item"
 				}
-				random_bonus: 3
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "282C501F3A0523ED"
+					item: "concatenatedadditionsfood:mint_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "7C374FF3BD673474"
@@ -1027,19 +1136,27 @@
 			]
 			entity_vis_size: 1.0f
 			id: "610504B3244FF4C1"
-			rewards: [{
-				count: 6
-				id: "3F14A9A062592682"
-				item: {
-					Count: 1
-					id: "vampirism:blood_bottle"
-					tag: {
-						Damage: 9
+			rewards: [
+				{
+					count: 6
+					id: "3F14A9A062592682"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 9
+						}
 					}
+					random_bonus: 3
+					type: "item"
 				}
-				random_bonus: 3
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "65C88997DCA993C0"
+					item: "concatenatedadditionsfood:shiny_eclair"
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "002284F43A70FA42"
@@ -1054,6 +1171,422 @@
 			}]
 			x: -2.5d
 			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fAn adventurer is selling these ruby helmets he found... somewhere. They are quite fancy and can protect an entire body from the sun and fire. The helmet itself isn't quite sturdy though."
+			]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "concatenatedadditionsartefacts:bloody_ruby_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "41284553FB44B619"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "concatenatedadditionsartefacts:bloody_ruby_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "15F619DBD3570908"
+				item: {
+					Count: 1
+					id: "concatenatedadditionsartefacts:bloody_ruby_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 10L
+				id: "2B3DA1B0D45D2E39"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Bloody Ruby Helmet"
+			x: -1.5d
+			y: -11.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fA group of younglings are selling these candies that look like candles. How adorable. They brewed some potions they learned in their brewing classes and mixed some in there. I think some of them are definitely lethal but others are really good."
+			]
+			entity_vis_size: 1.0f
+			icon: "concatenatedadditionsartefacts:candle_candies"
+			id: "4D2427F150C26331"
+			rewards: [{
+				id: "38B7329123145E6C"
+				item: "concatenatedadditionsartefacts:candle_candies"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 3L
+				id: "2021CCAE5B22913D"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Molten Candle Candies"
+			x: 0.0d
+			y: -11.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fStay healthy. The sanguines collectively came together to offer these apples of health to everyone for a relatively cheap ticket price. They're still made of gold after all. You never know when vampire hunters are going to start an incursion."
+			]
+			entity_vis_size: 1.0f
+			icon: "minecraft:golden_apple"
+			id: "1969D2BE0D5496AF"
+			rewards: [{
+				id: "723202696287D1D5"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 2L
+				id: "133C45601D47A5E3"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Golden Apple"
+			x: 0.0d
+			y: -12.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThe miners are selling some redstone. I guess I might use this for some rituals or for circuitry?"
+			]
+			entity_vis_size: 1.0f
+			icon: "minecraft:redstone"
+			id: "6BD6DA74C2A38093"
+			rewards: [{
+				count: 4
+				id: "688DCA6BF0730CCB"
+				item: "minecraft:redstone"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "20C99EDF839DDBAF"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Redstone"
+			x: -1.5d
+			y: -12.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fI wouldn't expect anything less from candy sellers on such an event. A randomized bag of goodies for just a fragment? What a deal. And they're limited edition too!"
+			]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "box_of_candies"
+				}
+			}
+			id: "3831ED705B5EC64B"
+			rewards: [{
+				id: "10828096E3C327ED"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "box_of_candies"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "7731D0D16D8D9385"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Box of Candy"
+			x: 1.5d
+			y: -11.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fI've been surprised to find Death Card holders in Red Barar, but it fits the country. They sell more protection items."
+			]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "netherman:chance_totem"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D5940FC22894C4A"
+			rewards: [{
+				id: "26B3EAD384DC00C7"
+				item: {
+					Count: 1
+					id: "netherman:chance_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 8L
+				id: "2617C3EFE53803FC"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Death Totem"
+			x: 1.5d
+			y: -12.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&f&fPumpkin pies fit the season. It's no surprise they're being sold here, both for tickets, and for gold."
+			]
+			entity_vis_size: 1.0f
+			icon: "minecraft:pumpkin_pie"
+			id: "7D321CDE4A739D89"
+			rewards: [{
+				count: 8
+				id: "4E51ABF8FE1A2FC7"
+				item: "minecraft:pumpkin_pie"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "3C2E3FD43448B6BA"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Pumpkin Pie"
+			x: 1.5d
+			y: -14.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fIf I can escape death, I guess this would be useful. The people who make these kinds of items are seen as some sort of lunatic. This can help you return to where you died. But if I'm dead, I can't exactly come back to where I died. "
+				""
+				"&fWhat, do they think some sort of &6Demiurge &r&fwho can resurrect  themselves infinitely will come around and buy a ton of these? Even sanguines cannot come back if they're permanently killed."
+			]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tangiblecommands:back_item"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "287A428333408BD2"
+			rewards: [{
+				id: "648D714DB142EC94"
+				item: {
+					Count: 1
+					id: "tangiblecommands:back_item"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "28228CA7BCB255C6"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Soul Scroll"
+			x: 0.0d
+			y: -14.3d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fEndermen like to come and harvest bloody pumpkins for themselves. As a result, sanguines have slain a lot of them and put up their intact hearts as rewards."
+			]
+			entity_vis_size: 1.0f
+			icon: "reliquary:nebulous_heart"
+			id: "68F563E750171BAA"
+			rewards: [{
+				id: "1B7E47668EF4BED6"
+				item: "reliquary:nebulous_heart"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 2L
+				id: "4AE136256C66870F"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Nebulous Heart"
+			x: -1.5d
+			y: -14.3d
+		}
+		{
+			dependencies: [
+				"610504B3244FF4C1"
+				"45B2D49DE7310E16"
+				"440BB50959B73C9E"
+			]
+			description: [
+				"These stories are quite saddening, Grisha. I'll never be able to look back on those days again. Even if this Eleonore lived a century ago, I still lived through the last full blood festival I'll ever experience."
+				""
+				"Now is about time I try to contact what is left of our kind."
+			]
+			entity_vis_size: 1.0f
+			id: "4A43CA595D868A2E"
+			rewards: [
+				{
+					id: "44A402F5ED5E2319"
+					item: "concatenatedadditionsartefacts:karma_tome"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4BEF14A951FABAF4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "box_of_candies"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "296E647CB2CA1402"
+				item: {
+					Count: 1
+					id: "desecratedcore:crescent_calling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fSome miners are selling oreberries to the surface. That's a quite rare occasion as this breaks their monopoly over the underground minerals. It's still a randomized box and it might not contain every ore out there. I would still find it worth it if I had to start an oreberry farm."
+			]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "box_of_oreberries"
+				}
+			}
+			id: "0C0B715A16B92D0A"
+			rewards: [{
+				id: "5A569261FAA8A576"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "box_of_oreberries"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7E5FA4D0B5127885"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Box of Oreberries"
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5C65BB043F4CF436"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fI found some violent seeds within some of the blood pumpkins I harvested. I do believe they could increase the strength of my attacks."
+			]
+			entity_vis_size: 1.0f
+			id: "3B68EEFF686A8257"
+			rewards: [{
+				id: "2BC4AED22DFA0C3E"
+				item: "desecratedcore:blood_festival_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04A3C98A4E00C80A"
+				item: "concatenatedadditionsartefacts:hexed_seeds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Halloween 2026 Seasonal Event"]

@@ -618,6 +618,8 @@
 				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
 				"{@pagebreak}"
 				"&aYou have seven days until elite hunters with muskets and silver bullets arrive to kill you."
+				""
+				"&aCheck the different tabs of the quest book. Levelling up as a vampire is detailed in the Sanguine Legacy tab."
 			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:knowledge_book"

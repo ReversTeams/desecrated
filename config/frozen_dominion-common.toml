@@ -19,6 +19,10 @@
 	#for good. Off by default: the arena survives the boss. The sealed
 	#blocks of the outer shell are unbreakable either way.
 	cleaveBreaksFortress = false
+	#The dodge roll (X by default): a few blocks along the way you move, untouchable
+	#for the moment of it. Off = nobody can roll - the server refuses it and tells
+	#every client, so the key does nothing; unbinding it is not needed.
+	combatRoll = true
 
 #Damage multipliers. 1.0 is as shipped. See the class note:
 #an attack's own multiplier and its phase multiplier both apply.

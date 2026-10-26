@@ -930,4 +930,201 @@ ServerEvents.recipes(event => {
             'minecraft:bucket'
         ]
     )
+
+    event.shaped(
+        Item.of('minecraft:copper_shovel'),
+        [
+            ' A ',
+            ' B ',
+            ' B '
+        ],
+        {
+            B: 'minecraft:stick',
+            A: 'minecraft:copper_ingot'
+        }
+    )
+
+    event.shaped(
+    Item.of('minecraft:copper_pickaxe'),
+    [
+        'AAA',
+        ' B ',
+        ' B '
+    ],
+    {
+        B: 'minecraft:stick',
+        A: 'minecraft:copper_ingot'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:copper_axe'),
+    [
+        ' AA',
+        ' BA',
+        ' B '
+    ],
+    {
+        B: 'minecraft:stick',
+        A: 'minecraft:copper_ingot'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:copper_hoe'),
+    [
+        ' AA',
+        ' B ',
+        ' B '
+    ],
+    {
+        B: 'minecraft:stick',
+        A: 'minecraft:copper_ingot'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:copper_sword'),
+    [
+        ' A ',
+        ' A ',
+        ' B '
+    ],
+    {
+        B: 'minecraft:stick',
+        A: 'minecraft:copper_ingot'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:copper_spear'),
+    [
+        ' AB',
+        ' CA',
+        'C  '
+    ],
+    {
+        B: 'minecraft:flint',
+        C: 'minecraft:stick',
+        A: 'minecraft:copper_ingot'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:wooden_spear'),
+    [
+        ' AB',
+        ' CA',
+        'C  '
+    ],
+    {
+        B: 'minecraft:flint',
+        C: 'minecraft:stick',
+        A: '#minecraft:planks'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:stone_spear'),
+    [
+        ' AB',
+        ' CA',
+        'C  '
+    ],
+    {
+        B: 'minecraft:flint',
+        C: 'minecraft:stick',
+        A: '#quark:stone_tool_materials'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:iron_spear'),
+    [
+        ' AB',
+        ' CA',
+        'C  '
+    ],
+    {
+        B: 'minecraft:flint',
+        A: 'minecraft:iron_ingot',
+        C: 'minecraft:stick'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:golden_spear'),
+    [
+        ' AB',
+        ' CA',
+        'C  '
+    ],
+    {
+        A: 'minecraft:gold_ingot',
+        B: 'minecraft:flint',
+        C: 'minecraft:stick'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:diamond_spear'),
+    [
+        ' AB',
+        ' CA',
+        'C  '
+    ],
+    {
+        B: 'minecraft:flint',
+        A: 'minecraft:diamond',
+        C: 'minecraft:stick'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:copper_helmet'),
+    [
+        'AAA',
+        'A A',
+        '   '
+    ],
+    {
+        A: 'minecraft:copper_ingot'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:copper_leggings'),
+    [
+        'AAA',
+        'A A',
+        'A A'
+    ],
+    {
+        A: 'minecraft:copper_ingot'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:copper_boots'),
+    [
+        '   ',
+        'A A',
+        'A A'
+    ],
+    {
+        A: 'minecraft:copper_ingot'
+    }
+)
+
+event.shaped(
+    Item.of('minecraft:copper_chestplate'),
+    [
+        'A A',
+        'AAA',
+        'AAA'
+    ],
+    {
+        A: 'minecraft:copper_ingot'
+    }
+)
 });
