@@ -5,6 +5,8 @@
 ClientEvents.lang('en_us', event => {
   event.renameItem('ftbquests:book', 'Wise Grisha');
 
+  event.renameItem('minecraft:copper_chest', 'Functional Copper Chest');
+
   event.renameItem('butchery:bottle_of_blood', 'Bottle of Raw Blood');
   event.renameItem('butchery:bone_skinning_knife', 'Bone Knife');
   event.renameItem('butchery:copper_skinning_knife', 'Copper Knife');

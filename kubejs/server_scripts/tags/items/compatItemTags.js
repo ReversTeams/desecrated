@@ -241,7 +241,8 @@ ServerEvents.tags('item', event => {
         'neepmeat:blood_bubble',
         'neepmeat:meat_scrap',
         'neepmeat:enlightened_brain',
-        'neepmeat:asbestos_dust'
+        'neepmeat:asbestos_dust',
+        'concatenatedadditionsartefacts:candle_candies'
     ]);
 
     add('sol_valheim_reforged:low_nutrients_compat', [
