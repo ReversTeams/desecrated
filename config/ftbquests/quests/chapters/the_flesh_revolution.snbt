@@ -133,7 +133,7 @@
 			description: [
 				"These carcasses are quite cumbersome to carry around. They wouldn't be very useful if I left them in a chest. I should hang them up. Maybe a hook or a rope would do."
 				""
-				"Firstly, I need to drain the carcass with a cleaver. I'll need to wait until the carcass is drained, then I might need a skinning knife to remove the hide and then I can finally butcher it normally."
+				"Firstly, I need to drain the carcass with a cleaver. I'll need to wait until the carcass is drained, then I might need a skinning knife to remove the hide and then I can finally butcher it normally with my cleaver."
 				"{@pagebreak}"
 				"Cutting them open right there will just cause a mess on the floor. All of the organ, meats and blood will spill on the floor. What a waste! I should prepare something."
 			]
@@ -300,7 +300,7 @@
 			description: [
 				"I should make an implement to dry skin easily. This way I should be able to more efficiently process skins into leather."
 				""
-				"I will need salt for the hide to cure. I could either produce some by evaporating water, or finding salt in the ground or at the bottom of oceans."
+				"I will need to wet the skin first with a sponge or rag, then I will need salt for the hide to cure. I could either produce some by evaporating water, or finding salt in the ground or at the bottom of oceans."
 			]
 			entity_vis_size: 1.0f
 			id: "5B9F02CB6F9F9342"
@@ -3056,7 +3056,7 @@
 		{
 			dependencies: ["623C14C05294EFCC"]
 			description: [
-				"With a basin, I can dedicate amounts of water to be evaporated over time, leaving only the salt behind."
+				"With a basin, I can dedicate amounts of water to be evaporated over time, leaving only the salt behind. This is going to take a long time, however."
 				""
 				"I could always go underground or dive to the bottom of oceans to find natural salt, but that's quite tedious."
 			]

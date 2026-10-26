@@ -1,0 +1,21 @@
+{
+	id: "65FE12D106AA2203"
+	loot_crate: {
+		color: 5636095
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Box of Oreberries"
+		string_id: "box_of_oreberries"
+	}
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ item: "oreberriesreplanted:iron_oreberry_bush" }
+		{ item: "oreberriesreplanted:gold_oreberry_bush" }
+		{ item: "oreberriesreplanted:copper_oreberry_bush" }
+	]
+	title: "Box of Oreberries"
+}

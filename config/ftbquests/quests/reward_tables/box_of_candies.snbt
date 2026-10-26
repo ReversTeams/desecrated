@@ -1,0 +1,24 @@
+{
+	id: "2D732FDF4F24B231"
+	loot_crate: {
+		color: 7733248
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Box of Candies"
+		string_id: "box_of_candies"
+	}
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ item: "concatenatedadditionsfood:caramel_square", weight: 8.0f }
+		{ item: "concatenatedadditionsfood:shiny_eclair", weight: 8.0f }
+		{ item: "concatenatedadditionsfood:mint_apple", weight: 8.0f }
+		{ item: "concatenatedadditionsfood:spicy_drop", weight: 8.0f }
+		{ item: "concatenatedadditionsfood:yumpearls", weight: 4.0f }
+		{ item: "concatenatedadditionsfood:allcandy" }
+	]
+	title: "Box of Candies"
+}

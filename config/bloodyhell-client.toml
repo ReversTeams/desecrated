@@ -9,3 +9,11 @@
 	#True if you want to disable the red mod name and icon on bloody hell!'s items
 	disable_mod_tooltips = true
 
+["Bone Effects Settings"]
+	#Master switch of the visual bone effects: shaking and breaking bones, severed pieces and the implosion. They only change how entities are drawn on your screen. Turn it off if you see glitches with other mods.
+	enableBoneEffects = true
+	#Let the bone effects also act on entities of other mods. On by default; turn it off, or list the entity in excludedEntities, if an entity of another mod looks wrong.
+	affectOtherModsEntities = true
+	#Entity ids that never get bone effects, for example ["examplemod:dragon"].
+	excludedEntities = []
+

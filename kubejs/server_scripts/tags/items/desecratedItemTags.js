@@ -119,8 +119,8 @@ ServerEvents.tags('item', event => {
     ]);
 
     add('desecrated:ender_wish', [
-        'minecraft:popped_chorus_fruit',
-        'butchery:enderman_head'
+        'butchery:enderman_head',
+        'minecraft:popped_chorus_fruit'
     ]);
 
     add('desecrated:macabre_key', [
