@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "spectrum:pedestal_basic_amethyst"
+    },
+    "title": {
+      "translate": "advancements.spectrum.spectrum.title"
+    },
+    "description": {
+      "translate": "advancements.spectrum.spectrum.description"
+    },
+    "background": "spectrum:textures/gui/advancement_background.png"
+  },
+  "rewards": {
+    "loot": [
+      "spectrum:advancement_reward/adv_spectrum"
+    ]
+  }
+}

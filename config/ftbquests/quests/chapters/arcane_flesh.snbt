@@ -1214,7 +1214,7 @@
 			description: [
 				"The Shape-Shifting Etheric Tool is a most wonderful pickaxe, axe and shovel! It consumes some ether ashes to power its shape-shifting ability."
 				""
-				"As for the Etheric Sword, I believe it could forcefully extract the vitality of my ennemies and feed it to me!"
+				"As for the Etheric Sword, I believe it could forcefully extract the vitality of my enemies and feed it to me!"
 			]
 			entity_vis_size: 1.0f
 			id: "74AFAE94251EB275"
@@ -1404,6 +1404,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Soul Jar is Here"
 			tasks: [{
 				id: "4F839B0CBD50E9B5"
 				item: {
@@ -4554,6 +4555,8 @@
 				"Wait, really?"
 				""
 				"&4Their base is osseous tools after all. It's partially why they're so brittle. The flesh will also reach out further to the creatures you attack or when you mine. It extends your reach."
+				"{@pagebreak}"
+				"&a(Try being in the etheric blood at the same time as throwing the tool if you're struggling with it.)"
 			]
 			entity_vis_size: 1.0f
 			id: "7EDAF9050653AB37"

@@ -324,6 +324,7 @@
 				}
 			]
 			size: 1.1d
+			subtitle: "Zap Them"
 			tasks: [{
 				id: "040A238737E7BD38"
 				item: {
@@ -386,11 +387,13 @@
 				title: "Any Tuning Fork"
 				type: "item"
 			}]
+			title: "Tuning Fork"
 			x: 4.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3529407D1A72FFCB"]
+			description: ["I can imbue a torch's flame with spirituality to create a more potent spirit flame. This can be quite effective against the undead or to bleed out my enemies over time."]
 			entity_vis_size: 1.0f
 			id: "0640AC4ED27C6122"
 			rewards: [
@@ -406,6 +409,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Magic Fireballs"
 			tasks: [{
 				id: "1A92F84E1811611C"
 				item: {
@@ -461,6 +465,7 @@
 				title: "Any Firebrand"
 				type: "item"
 			}]
+			title: "Firebrand"
 			x: 2.5d
 			y: -5.0d
 		}
@@ -481,6 +486,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Holy Incense"
 			tasks: [{
 				id: "01CD81B2E411D92A"
 				item: {
@@ -634,6 +640,7 @@
 				title: "Any Censer"
 				type: "item"
 			}]
+			title: "Censer"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -654,6 +661,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Pestilence"
 			tasks: [{
 				id: "75580FFC2B41DDAA"
 				item: {
@@ -716,11 +724,17 @@
 				title: "Any Blight"
 				type: "item"
 			}]
+			title: "Blight"
 			x: -3.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3529407D1A72FFCB"]
+			description: [
+				"I would enjoy servants of my own again to die for me. Grisha, what can I make with the little spirituality these ingots can contain?"
+				""
+				"&4You could attempt rudimentary control over the dead. At the very least they can be friendly to you and fight for you. You might not have the most potent channeling materials right now, but later you can upgrade the candle."
+			]
 			entity_vis_size: 1.0f
 			id: "5A3B3B1D72398AA8"
 			rewards: [
@@ -736,6 +750,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Necromancy!"
 			tasks: [{
 				id: "068AD90802FC1CC2"
 				item: {
@@ -798,6 +813,7 @@
 				title: "Any Spirit Candle"
 				type: "item"
 			}]
+			title: "Spirit Candle"
 			x: 3.0d
 			y: -2.5d
 		}
@@ -818,6 +834,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Summon Friend!"
 			tasks: [{
 				id: "08F34554FB2ED7E2"
 				item: {
@@ -873,11 +890,13 @@
 				title: "Any Chime"
 				type: "item"
 			}]
+			title: "Chime"
 			x: -2.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["3529407D1A72FFCB"]
+			description: ["I think I recall some of my Sanguine of Vine and Spectral Artificer acquaintances merging some of their abilities to make a small spirit tool that can channel the force of nature. It created toxic grass on the floor."]
 			entity_vis_size: 1.0f
 			id: "494AFCB2DCBC7EBB"
 			rewards: [
@@ -893,6 +912,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Nature Fights"
 			tasks: [{
 				id: "7A8766F2104FAE4F"
 				item: {
@@ -955,11 +975,13 @@
 				title: "Any Sprig"
 				type: "item"
 			}]
+			title: "Sprig"
 			x: 3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3529407D1A72FFCB"]
+			description: ["&4The Oculus can protect its wielder by projecting deadly orbs around its owner. The orbs will home towards target and deal significant spiritual damage."]
 			entity_vis_size: 1.0f
 			id: "60B38266F5F4F8F7"
 			rewards: [
@@ -975,6 +997,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Wom"
 			tasks: [{
 				id: "2D6D963D865CCADC"
 				item: {
@@ -1037,6 +1060,7 @@
 				title: "Any Oculus"
 				type: "item"
 			}]
+			title: "Oculus"
 			x: 3.5d
 			y: -4.5d
 		}
@@ -1064,6 +1088,7 @@
 				}
 			]
 			size: 1.25d
+			subtitle: "Sentries Up"
 			tasks: [{
 				ftbquestsentityvis_icon: {
 					cycle_seconds: 0.0f
@@ -1172,6 +1197,7 @@
 				id: "669378201FE571F0"
 				observe_type: 5
 				timer: 0L
+				title: "Witness a Dragonfly"
 				to_observe: "clockwork:dragonfly"
 				type: "observation"
 			}]
@@ -2184,8 +2210,8 @@
 		}
 		{
 			dependencies: ["3913E4BF1C7341B8"]
+			description: ["I believe I can finely tune amethyst for use in gadgets. For this, I'll need a tuning wand. I just need some amethyst and redstone, along with something to hold it and infusing some spirituality into it."]
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "desecratedcore:amethyst_tuning_wand"
@@ -2223,6 +2249,11 @@
 		}
 		{
 			dependencies: ["3DD1F3BB424F9A9F"]
+			description: [
+				"I should finely tune some amethyst on an iron ingot to reinforce it spiritually. This way, the iron ingot can store some spirituality and can be used for rudimentary magic."
+				""
+				"&a(Hold an amethyst shard in your offhand and the tuning wand in your main hand. Punch an iron block with it.)"
+			]
 			entity_vis_size: 1.0f
 			id: "3529407D1A72FFCB"
 			rewards: [
@@ -2294,7 +2325,6 @@
 				"&fI've heard that a similar model has been in use for years, however, it's made to flatten ingots into plates instead. This model fell into disuse with the Industrial Revolution. Why take a minute to flatten ingots manually when you can spend hours to automate it?"
 			]
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "concatenatedadditionscore:hammer"
@@ -2726,6 +2756,7 @@
 					id: "4E55A5E372DC4F3B"
 					observe_type: 5
 					timer: 0L
+					title: "Witness a Censer Golem"
 					to_observe: "artificers_armory:censer_golem"
 					type: "observation"
 				}
@@ -2767,6 +2798,7 @@
 					id: "354AC829FD3E7924"
 					observe_type: 5
 					timer: 0L
+					title: "Witness an Electro Coil"
 					to_observe: "artificers_armory:electro_coil"
 					type: "observation"
 				}
@@ -2813,6 +2845,7 @@
 				id: "75F344A04C8D6F59"
 				observe_type: 5
 				timer: 0L
+				title: "Witness a Familiar"
 				to_observe: "artificers_armory:familiar"
 				type: "observation"
 			}]
@@ -2846,6 +2879,7 @@
 				id: "726C44433AF3D2CE"
 				observe_type: 5
 				timer: 0L
+				title: "Witness a Hover Sentry"
 				to_observe: "artificers_armory:hover_sentry"
 				type: "observation"
 			}]
@@ -2879,6 +2913,7 @@
 				id: "726D31B00B7D6D8C"
 				observe_type: 5
 				timer: 0L
+				title: "Witness a Mobile Gear"
 				to_observe: "artificers_armory:mobile_gear"
 				type: "observation"
 			}]
@@ -2913,6 +2948,7 @@
 					id: "042BB13228149603"
 					observe_type: 5
 					timer: 0L
+					title: "Witness a Redstone Laser"
 					to_observe: "artificers_armory:redstone_laser"
 					type: "observation"
 				}
@@ -2960,6 +2996,7 @@
 					id: "57DC6BF3211143D1"
 					observe_type: 5
 					timer: 0L
+					title: "Witness a Sentry"
 					to_observe: "artificers_armory:sentry"
 					type: "observation"
 				}
@@ -6009,7 +6046,6 @@
 				"&4Humans crudely use mere diamonds for enchanting anchors, but sanguines use restorite, a rarer material not found in every region, but abundant in our Red Barar. To harvest the most pure fragments, you will need a special amethyst harvesting wand."
 			]
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			id: "4875801A20501BE7"
 			rewards: [
 				{
@@ -6174,6 +6210,7 @@
 				id: "639D7337AB72CEB0"
 				observe_type: 5
 				timer: 0L
+				title: "Witness a Clockwork Drill"
 				to_observe: "clockwork:clockwork_drill"
 				type: "observation"
 			}]

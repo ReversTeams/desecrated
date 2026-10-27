@@ -77,7 +77,6 @@
 			description: ["Sanguines of Iron always have their trusty hammers to forge other tools. I should get one of my own. Wood should do for now."]
 			disable_toast: true
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			id: "67E46BEEC08F8EA1"
 			rewards: [
 				{
@@ -157,15 +156,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"20DC2110D654C2D8"
-				"623FB39372B70DDF"
-			]
+			dependencies: ["20DC2110D654C2D8"]
 			dependency_requirement: "one_started"
 			description: ["I sometimes encounter these geodes while mining. They seem to contain valuable resources, sometimes. I could crack them open with a hammer at the iron workbench."]
 			disable_toast: true
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			id: "27080CDFCD7A0AC9"
 			rewards: [
 				{
@@ -224,7 +219,6 @@
 			]
 			disable_toast: true
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			id: "0FDC63AE98A6BC06"
 			rewards: [
 				{
@@ -373,6 +367,7 @@
 		}
 		{
 			dependencies: ["1CE2E59DF8AB13AF"]
+			description: ["I'll need a place to store my tools. A rack on the wall should serve to display them. That's what the old Sanguines of Iron did after all."]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "6832804944E6968C"
@@ -551,8 +546,14 @@
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
+			description: [
+				"Next up should be a forge... I'll need it to forge specialized equipment. I can just modify a blast furnace."
+				""
+				"&4Are you trying to imitate Sanguines of Iron by memory?"
+				""
+				"Yes..."
+			]
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			id: "7FF4417F28BBA363"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -660,75 +661,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["77B94FC775C59E8F"]
-			entity_vis_size: 1.0f
-			id: "623FB39372B70DDF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "15545376BCAA80AC"
-					table_id: 6454273999420670365L
-					type: "choice"
-				}
-				{
-					id: "17CACFC51BCE8626"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [
-				{
-					entity_vis_cycle_seconds: 0.0f
-					entity_vis_enabled: false
-					entity_vis_idle_mode: "USE_GLOBAL"
-					entity_vis_offset_x: 0.0f
-					entity_vis_offset_y: 0.0f
-					entity_vis_rotation: 0.0f
-					entity_vis_silhouette_mode: "NONE"
-					entity_vis_size: 1.0f
-					entity_vis_slim_arms: false
-					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
-					entity_vis_walk_mode: "USE_GLOBAL"
-					icon: "modestmining:suspicious_dirt"
-					id: "7AD9A962D148E2A8"
-					observe_type: 0
-					timer: 0L
-					title: "Witness Suspicious Dirt"
-					to_observe: "modestmining:suspicious_dirt"
-					type: "observation"
-				}
-				{
-					entity_vis_cycle_seconds: 0.0f
-					entity_vis_enabled: false
-					entity_vis_idle_mode: "USE_GLOBAL"
-					entity_vis_offset_x: 0.0f
-					entity_vis_offset_y: 0.0f
-					entity_vis_rotation: 0.0f
-					entity_vis_silhouette_mode: "NONE"
-					entity_vis_size: 1.0f
-					entity_vis_slim_arms: false
-					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
-					entity_vis_walk_mode: "USE_GLOBAL"
-					icon: "modestmining:suspicious_stone"
-					id: "1706818B5D362A04"
-					observe_type: 0
-					timer: 0L
-					title: "Witness Suspicious Stone"
-					to_observe: "modestmining:suspicious_stone"
-					type: "observation"
-				}
-			]
-			title: "Suspicious Mining"
-			x: 5.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["0108AAE3F424D4AF"]
@@ -1242,6 +1176,18 @@
 			}]
 			x: -5.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["20DC2110D654C2D8"]
+			entity_vis_size: 1.0f
+			id: "6F25C560A2CD895B"
+			tasks: [{
+				id: "3CAA660C4A55A434"
+				item: "modestmining:millstone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
 		}
 	]
 	title: "Sanguines of Iron"

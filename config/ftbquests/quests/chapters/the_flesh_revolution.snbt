@@ -58,6 +58,15 @@
 			x: -9.5d
 			y: -5.0d
 		}
+		{
+			alpha: 180
+			height: 1.7d
+			image: "clanginghowl:textures/particle/blood_splash7.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: -3.0d
+			y: -7.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -70,7 +79,7 @@
 			description: [
 				"Pressing blood into drinkable blood! Fully automatic! Mostly automatic.. "
 				""
-				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat in the sieve, the blood is not fully pure, but it's drinkable. I should place a container under the grinder so that blood flows down there, easy for collection. Or, I could put a blood filter down there to clean the blood right at the source."
+				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat in the sieve, the blood is not fully pure, but it's drinkable. I should place a container under the sieve so that blood flows down there, easy for collection. Or, I could put a blood filter down there to clean the blood right at the source."
 				""
 				"I shouldn't try to mix unpure blood and pure blood, that is a bad idea."
 			]
@@ -300,7 +309,7 @@
 			description: [
 				"I should make an implement to dry skin easily. This way I should be able to more efficiently process skins into leather."
 				""
-				"I will need to wet the skin first with a sponge or rag, then I will need salt for the hide to cure. I could either produce some by evaporating water, or finding salt in the ground or at the bottom of oceans."
+				"I will need to salt the hide for it to cure. I could either produce some by evaporating water, or finding salt in the ground or at the bottom of oceans. Then I will need to wet the skin with a wet sponge or wet rag."
 			]
 			entity_vis_size: 1.0f
 			id: "5B9F02CB6F9F9342"
@@ -575,9 +584,10 @@
 		}
 		{
 			dependencies: [
-				"34B4063F2F210048"
 				"02ECCCD98242956B"
+				"532FD8D52F2ACDC8"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"So where do I go from here, Grisha?"
 				""
@@ -626,8 +636,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -9.0d
+			x: -1.7249999999999999d
+			y: -9.774999999999999d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -1253,7 +1263,11 @@
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
-			description: ["I will need a machine to pump liquid out of containers and into pipes. A redstone-activated pump should do the trick. The redstone should create enough motion on its fluid to move the fluid."]
+			description: [
+				"I will need a machine to pump liquid out of containers and into pipes. A redstone-activated pump should do the trick. The redstone should create enough motion on its fluid to move the fluid."
+				""
+				"&a(You can directly place the pump on a blood grate or filter. Make sure the small red light is pointing at the container you want to extract from.)"
+			]
 			entity_vis_size: 1.0f
 			id: "6B0E995FC2B51651"
 			rewards: [
@@ -1274,8 +1288,8 @@
 				item: "neepmeat:pump"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -11.5d
+			x: -2.5d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -1363,7 +1377,7 @@
 				}
 			]
 			title: "Tanks \\& Pipes"
-			x: -3.5d
+			x: -4.0d
 			y: -10.0d
 		}
 		{
@@ -2861,7 +2875,11 @@
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
-			description: ["To process an animal, I will need tools to skin it, cut and crack through bone and skulls."]
+			description: [
+				"To process an animal, I will need tools to skin it, cut and crack through bone and skulls."
+				""
+				"When processing a cracass, I will need to go through a specific sequence of cleaving, draining, skinning and cleaving again. I might need a hammer or saw to break bone."
+			]
 			entity_vis_size: 1.0f
 			id: "1891D96CF64826F6"
 			rewards: [
@@ -3059,6 +3077,8 @@
 				"With a basin, I can dedicate amounts of water to be evaporated over time, leaving only the salt behind. This is going to take a long time, however."
 				""
 				"I could always go underground or dive to the bottom of oceans to find natural salt, but that's quite tedious."
+				"{@pagebreak}"
+				"&a(Break the basin to pick up the salt.)"
 			]
 			entity_vis_size: 1.0f
 			id: "20D1A7AA42AEAE60"
@@ -4821,7 +4841,7 @@
 			y: -19.5d
 		}
 		{
-			dependencies: ["7522632161D258AA"]
+			dependencies: ["34B4063F2F210048"]
 			description: [
 				"The blood grate isn't perfect for filtering and the blood sieve doesn't produce high enough quality blood. There's all of these bits of grinded meat in there. Sure, it adds a little taste for me, but when I use this blood for other endeavours, I will need cleaner blood."
 				""
@@ -4854,8 +4874,8 @@
 				item: "desecratedcore:blood_filter"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.5d
+			x: -2.3d
+			y: -8.4d
 		}
 	]
 	title: "Flesh Industries"
