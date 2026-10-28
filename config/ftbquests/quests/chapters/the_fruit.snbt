@@ -50,7 +50,16 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["171FDA40D98FA659"]
+			dependencies: [
+				"171FDA40D98FA659"
+				"76EB939D9E63EC40"
+				"22DDD3C6B3604CD9"
+				"5DC274933162F9A6"
+				"718E019861370CB7"
+				"23F0394594209AF9"
+				"512B726C7BF16BC2"
+				"5182A801B0828319"
+			]
 			dependency_requirement: "one_completed"
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true

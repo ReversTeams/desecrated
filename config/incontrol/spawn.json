@@ -122,5 +122,14 @@
       "perplayer": true
     },
     "result": "deny"
+  },
+  {
+    "mod": "reverseeon",
+    "mincount": {
+      "amount": 12,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
   }
 ]

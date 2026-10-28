@@ -13,6 +13,10 @@ ServerEvents.tags('item', event => {
         'otherverse:salt'
     ]);
 
+    remove('modestmining:forge_fuels_tier_1', [
+        'minecraft:blaze_powder'
+    ]);
+
     remove('trinkets:chest/back', [
         'usefulbackpacks:backpack_small'
     ]);

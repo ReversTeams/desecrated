@@ -219,7 +219,6 @@
 			]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: false
-			hide_until_deps_complete: true
 			id: "5D7C1741C8D6F8E0"
 			rewards: [{
 				id: "2CC3128C6D363178"
@@ -2097,7 +2096,6 @@
 			dependencies: ["55F5FBB4ED5DFDD5"]
 			entity_vis_size: 1.0f
 			id: "7AC3623634395471"
-			invisible: true
 			rewards: [
 				{
 					advancement: "spectrum:spectrum"

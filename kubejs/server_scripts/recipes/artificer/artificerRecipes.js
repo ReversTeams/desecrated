@@ -1153,7 +1153,7 @@ ServerEvents.recipes(event => {
         }
     )
     event.shaped(
-        Item.of('artificers_armory:spirit_candle_wood'),
+        Item.of('artificers_armory:spirit_candle_stone'),
         [
             ' A ',
             'BCD',
