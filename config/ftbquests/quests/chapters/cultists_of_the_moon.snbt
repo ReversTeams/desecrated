@@ -45,7 +45,11 @@
 				"585D9482FF0C3669"
 				"4317E4672B9BDFF5"
 			]
-			description: ["Compel the lifeforce out of your veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fCompel the lifeforce out of your veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "068DF533DB041F37"
@@ -99,7 +103,11 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
-			description: ["Alchemy is a complex and spiritually charged process. Now its gates open to you, under the guidance of life essence. "]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fAlchemy is a complex and spiritually charged process. Now its gates open to you, under the guidance of life essence. "
+			]
 			entity_vis_size: 1.0f
 			id: "40EA73BEA023C14A"
 			rewards: [
@@ -147,7 +155,11 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
-			description: ["While the alchemy table works with life essence, the hellfire forge works with demonic will. The world of will manipulation is a relatively complex one, so be prepared if you do decide to embark on it. I, for one, never needed to delve into this art, but you may not have the luxury of alternative technologies."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fWhile the alchemy table works with life essence, the hellfire forge works with demonic will. The world of will manipulation is a relatively complex one, so be prepared if you do decide to embark on it. I, for one, never needed to delve into this art, but you may not have the luxury of alternative technologies."
+			]
 			entity_vis_size: 1.0f
 			id: "6CE0DB1AEB597BCE"
 			rewards: [
@@ -181,7 +193,11 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
-			description: ["These large runestones can be further inscribed with enchantments to augment the structure of a blood altar. Each tier of altar will require more to be used to allow for more advanced imbuements."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThese large runestones can be further inscribed with enchantments to augment the structure of a blood altar. Each tier of altar will require more to be used to allow for more advanced imbuements."
+			]
 			entity_vis_size: 1.0f
 			id: "25A618A3B28B8DEE"
 			rewards: [
@@ -215,7 +231,11 @@
 		}
 		{
 			dependencies: ["25A618A3B28B8DEE"]
-			description: ["Tired of bloodletting? If you have a steady source of creatures to kill, this dagger will allow you to efficiently rend the life force from their corporeal form. The world I lived in never lacked hostiles, that's for sure."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fTired of bloodletting? If you have a steady source of creatures to kill, this dagger will allow you to efficiently rend the life force from their corporeal form. The world I lived in never lacked hostiles, that's for sure."
+			]
 			entity_vis_size: 1.0f
 			id: "255F91EE26FB166D"
 			rewards: [
@@ -248,7 +268,11 @@
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
-			description: ["These strangely shaped gems can hold and stabilize demonic will within them, acting as portable reservoirs. They also automatically absorb it from kills performed with a sentient sword, which is an added bonus."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThese strangely shaped gems can hold and stabilize demonic will within them, acting as portable reservoirs. They also automatically absorb it from kills performed with a sentient sword, which is an added bonus."
+			]
 			entity_vis_size: 1.0f
 			id: "0D2E04D30E54E6C8"
 			rewards: [{
@@ -278,7 +302,11 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
-			description: ["An enchanted barbed snare to bootstrap any aspiring sanguimancer into the extraction of willpower from the souls of animated things. Unfortunately, it doesn't actually impede the movement of creatures that much, so it doesn't have much use afterwards."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fAn enchanted barbed snare to bootstrap any aspiring sanguimancer into the extraction of willpower from the souls of animated things. Unfortunately, it doesn't actually impede the movement of creatures that much, so it doesn't have much use afterwards."
+			]
 			entity_vis_size: 1.0f
 			id: "4CD27FD09EF16094"
 			rewards: [
@@ -312,9 +340,11 @@
 		{
 			dependencies: ["0D2E04D30E54E6C8"]
 			description: [
-				"The sentient sword is vaguely aware of its existence, and grows more powerful the more demonic will is nearby. Its most important attribute, however, is certainly how it seems to rip demonic will straight out of its victims, no ensnaring required."
+				"&o&7Notes from Eleonore's Travels, Tome VII"
 				""
-				"I once had a sentient sword. I believe it liked the smell of strawberries..."
+				"&fThe sentient sword is vaguely aware of its existence, and grows more powerful the more demonic will is nearby. Its most important attribute, however, is certainly how it seems to rip demonic will straight out of its victims, no ensnaring required."
+				""
+				"&fI once had a sentient sword. I believe it liked the smell of strawberries..."
 			]
 			entity_vis_size: 1.0f
 			id: "3E73EAD0A0A295F5"
@@ -355,7 +385,11 @@
 				"3E73EAD0A0A295F5"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The willpower of animated things. It's more sinister than life essence, and I believe it comes from a place deep beyond this world. While life essence, the impetus, maintains the physical form, will is the elusive, emotional 'soul' of things that guides their purpose."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThe willpower of animated things. It's more sinister than life essence, and I believe it comes from a place deep beyond this world. While life essence, the impetus, maintains the physical form, will is the elusive, emotional 'soul' of things that guides their purpose."
+			]
 			entity_vis_size: 1.0f
 			id: "346C594E62FFDB7A"
 			rewards: [
@@ -391,7 +425,11 @@
 		}
 		{
 			dependencies: ["3E73EAD0A0A295F5"]
-			description: ["All your tools can be made sentient! Though you may hear whispers, worry not, they probably aren't conspiring against you."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fAll your tools can be made sentient! Though you may hear whispers, worry not, they probably aren't conspiring against you."
+			]
 			entity_vis_size: 1.0f
 			id: "29FA37C27A60B1E0"
 			rewards: [
@@ -477,21 +515,18 @@
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
-			description: ["Life essence can be infused into various items to grant them special abilities. Stone sheets can be imbued to make them conductive to magic, and precious stones like diamonds can be infused to become blood orbs, which allow you to connect a channel to your life network."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fLife essence can be infused into various items to grant them special abilities. Stone sheets can be imbued to make them conductive to magic, and precious stones like diamonds can be infused to become blood orbs, which allow you to connect a channel to your life network."
+			]
 			entity_vis_size: 1.0f
 			id: "209C0E2550C84C69"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4D5B70BC50A43075"
-					type: "random"
-				}
-				{
-					id: "7E827F5DAEEB01BD"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "7E827F5DAEEB01BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "535EC0649F7AE316"
@@ -526,7 +561,11 @@
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
-			description: ["These ashes can be used to draw out alchemical arrays, a kind of magic circle. These will allow you to perform certain enchantments and cantrips, particularly for sigils or some small rituals."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThese ashes can be used to draw out alchemical arrays, a kind of magic circle. These will allow you to perform certain enchantments and cantrips, particularly for sigils or some small rituals."
+			]
 			entity_vis_size: 1.0f
 			id: "2DC6C224BD1881C9"
 			rewards: [
@@ -562,7 +601,11 @@
 		}
 		{
 			dependencies: ["2DC6C224BD1881C9"]
-			description: ["This sigil is by far one of the most important in sanguimancy, as it allows you to see the numerical quantity of life essence contained within blood altars or your life network."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThis sigil is by far one of the most important in sanguimancy, as it allows you to see the numerical quantity of life essence contained within blood altars or your life network."
+			]
 			entity_vis_size: 1.0f
 			id: "27BBE74203C33C95"
 			rewards: [
@@ -595,21 +638,18 @@
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
-			description: ["The alchemical reaction chamber, or ARC, is a useful machine for extra ore processing, recycling, or particular extractions such as separating blood shards out of saturated tau fruit."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThe alchemical reaction chamber, or ARC, is a useful machine for extra ore processing, recycling, or particular extractions such as separating blood shards out of saturated tau fruit."
+			]
 			entity_vis_size: 1.0f
 			id: "51EDC749A53FF0D3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0D0525D709CA556A"
-					type: "random"
-				}
-				{
-					id: "6CA99A17A0CDC123"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "6CA99A17A0CDC123"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "56E0404A51517B1C"
 				item: {
@@ -628,7 +668,11 @@
 		}
 		{
 			dependencies: ["51EDC749A53FF0D3"]
-			description: ["The weak blood shard is a product of the demonic tau fruit and can be used in the creation of the penultimate instruments of sanguimancy, as well as to unveil the true secrets of alchemy."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThe weak blood shard is a product of the demonic tau fruit and can be used in the creation of the penultimate instruments of sanguimancy, as well as to unveil the true secrets of alchemy."
+			]
 			entity_vis_size: 1.0f
 			id: "51CDC5BD509CE535"
 			rewards: [
@@ -662,21 +706,17 @@
 		{
 			dependencies: ["3913EED76917339E"]
 			description: [
-				"Large rituals require ritual stones, and this stone is the core of it all. While you're at it, you should probably fill up your life essence network, you'll need that power for activation."
-				"Rituals are complex things with many variations, so you should read up on them in the Science of Blood."
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fLarge rituals require ritual stones, and this stone is the core of it all. While you're at it, you should probably fill up your life essence network, you'll need that power for activation."
+				"&fRituals are complex things with many variations, so you should read up on them in the Science of Blood."
 			]
 			entity_vis_size: 1.0f
 			id: "6D27277DA055DFBC"
 			rewards: [
 				{
 					id: "3CCAB2F8B0FFA707"
-					item: {
-						Count: 1
-						id: "hexerei:lava_bottle"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -704,9 +744,11 @@
 		{
 			dependencies: ["6D27277DA055DFBC"]
 			description: [
-				"I personally believe time is a precious resource. While you may not be in the same circumstances as I am, surely you do too. The ritual diviner is an indispensable tool for this cause, as it builds up the structure of rituals automatically using the stones on your person. After that, you'll need an activation crystal to open the ritual's structure up to your personal life essence."
+				"&o&7Notes from Eleonore's Travels, Tome VII"
 				""
-				"At this point, you may want to challenge the gateway to what lies beyond: The Hidden Realm."
+				"&fI personally believe time is a precious resource. While you may not be in the same circumstances as I am, surely you do too. The ritual diviner is an indispensable tool for this cause, as it builds up the structure of rituals automatically using the stones on your person. After that, you'll need an activation crystal to open the ritual's structure up to your personal life essence."
+				""
+				"&fAt this point, you may want to challenge the gateway to what lies beyond: The Hidden Realm."
 			]
 			entity_vis_size: 1.0f
 			id: "579E8F816742653C"
@@ -757,9 +799,11 @@
 		{
 			dependencies: ["579E8F816742653C"]
 			description: [
-				"An upgraded ritual diviner, for the more advanced operations. Prepare with all of the strength you can acquire, because the next steps in this art require the exploration of the palace of demons: The Endless Realm."
+				"&o&7Notes from Eleonore's Travels, Tome VII"
 				""
-				"I never got far within the demon realm. In fact, a lot of the threats and monsters in there are more powerful than the nightmares on the surface world, and the maze-like geometry of their palace makes them hard to avoid."
+				"&fAn upgraded ritual diviner, for the more advanced operations. Prepare with all of the strength you can acquire, because the next steps in this art require the exploration of the palace of demons: The Endless Realm."
+				""
+				"&fI never got far within the demon realm. In fact, a lot of the threats and monsters in there are more powerful than the nightmares on the surface world, and the maze-like geometry of their palace makes them hard to avoid."
 			]
 			entity_vis_size: 1.0f
 			id: "29289B6D4610B9D4"
@@ -793,7 +837,11 @@
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
-			description: ["This funny-looking wrench thing lets you interface with activated rituals, allowing you to control their area of effect and other properties."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThis funny-looking wrench thing lets you interface with activated rituals, allowing you to control their area of effect and other properties."
+			]
 			entity_vis_size: 1.0f
 			id: "1AE3C9A1202FE409"
 			rewards: [
@@ -826,7 +874,11 @@
 		}
 		{
 			dependencies: ["29289B6D4610B9D4"]
-			description: ["This metal native to the demon realm is the highest order material of sanguimancy, and the most permeable to demonic will. Beyond this point, your infrastructure is no longer limited by your knowledge of the art, but rather by how many resources you can dedicate to it."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fThis metal native to the demon realm is the highest order material of sanguimancy, and the most permeable to demonic will. Beyond this point, your infrastructure is no longer limited by your knowledge of the art, but rather by how many resources you can dedicate to it."
+			]
 			entity_vis_size: 1.0f
 			id: "639817BED42EBC3A"
 			rewards: [
@@ -861,8 +913,10 @@
 		{
 			dependencies: ["40EA73BEA023C14A"]
 			description: [
-				"As a result of performing alchemy using life essence, some items can be imbued with a thimble of sapience, allowing these objects to perform logistical tasks automatically. "
-				"These proved quite useful when I did not have access to other forms of logistics in the wilderness, and they have a certain advantage in that they transmit through the air, regardless of line of sight."
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fAs a result of performing alchemy using life essence, some items can be imbued with a thimble of sapience, allowing these objects to perform logistical tasks automatically. "
+				"&fThese proved quite useful when I did not have access to other forms of logistics in the wilderness, and they have a certain advantage in that they transmit through the air, regardless of line of sight."
 			]
 			entity_vis_size: 1.0f
 			id: "234F7C53CB615880"
@@ -1000,20 +1054,14 @@
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
+			description: [""]
 			entity_vis_size: 1.0f
 			id: "4FA2BB65ED1D6A03"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "446E856F612B8915"
-					type: "choice"
-				}
-				{
-					id: "44AC12A078DF1546"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "44AC12A078DF1546"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "59DA2354D9E99CAE"
@@ -1061,7 +1109,11 @@
 		}
 		{
 			dependencies: ["209C0E2550C84C69"]
-			description: ["A better blood orb. Be careful, though, as a blood orb belonging to you will pull from your own life essence, regardless of who is using it."]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fA better blood orb. Be careful, though, as a blood orb belonging to you will pull from your own life essence, regardless of who is using it."
+			]
 			entity_vis_size: 1.0f
 			id: "3913EED76917339E"
 			rewards: [
@@ -1279,6 +1331,14 @@
 		{
 			dependencies: ["24F94D88BBD152DF"]
 			description: [
+				"Grisha, where should I go to find members of the Moon Cult? I heard they've fled to an unknown realm before the fall of Red Barar."
+				""
+				"&4Around a century ago, the Moon Cult was severely weakened by the loss of the connection to Limbo. Since then, they had opened the way to the Deep Void, Dis, and eventually, Purgatory. I believe they've escaped to that last location, but we do not have many hints as to how they travelled there."
+				"{@pagebreak}"
+				"That's even earlier than their collapse after the loss of tarot cards."
+				""
+				"&4Indeed, the Moon Cult has faced several hardships. This Eleonore's Travels book contained a lot of information about Purgatory and Dis towards the later chapters. You should be able to make a portal to Dis by replicating marble."
+				"{@pagebreak}"
 				"&o&7Notes from Eleonore's Travels, Tome IX"
 				""
 				"&2The realm of Dis is well suited to the &m---------&r&2' quarries, being an external world where destroying the environment doesn't matter, but quantities of ore still generate."
@@ -1308,6 +1368,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "The Escape of the Cultists"
 			tasks: [
 				{
 					id: "14827DF920182D05"
@@ -1331,6 +1392,11 @@
 		}
 		{
 			dependencies: ["2F27E02457BCBE92"]
+			description: [
+				"I've finally made it. This land is strange... a wasteland filled with layers of hazardous minerals within the earth. The oceans are black. I get sick when I get back home. Grisha, what do I need to find here?"
+				""
+				"&4You will need to find some of these rumored Dis gems. You can either mine some in a special kind of marble or try to replicate one. They come with a thick layer of resin that you will need to split using lightning."
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "0D9BE8A704ED8BB4"
@@ -1465,7 +1531,7 @@
 				""
 				"&2How did the door to Dis open? While trying to open a rift, I seem to have pierced through some kind of barrier formed from gray fog. My rift blade broke, but I ended up in this place. With the quartz and diamonds I had, I turned some of this normal marble into an elevated one, which someone managed to turn into a portal. After years of researching how to return, I've finally done it.&r"
 				"{@pagebreak}"
-				"&2This is not too useful of a dimension, but perhaps I could recommend that my Hierophant friends go quarrying here instead of destroying the world constantly. I did find this travel journal lately. To the next one who finds it, I will stick a little note for you!&r"
+				"&2This is not too useful of a dimension, but perhaps I could recommend that my &m--------&r &2friends go quarrying here instead of destroying the world constantly. I did find this travel journal lately. To the next one who finds it, I will stick a little note for you!&r"
 			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true

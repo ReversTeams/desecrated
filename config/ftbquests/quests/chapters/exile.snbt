@@ -617,9 +617,15 @@
 				""
 				"&aWhile it may seem like the starting amount of hearts is difficult, the more you level up as a vampire, the more hearts you gain. Furthermore, whenever you eat regular food, you gain a temporary amount of hearts."
 				"{@pagebreak}"
+				"&aThe Sanguine Factions are considered optional content. When you complete a faction's questline, you get a Dice of Fate to be able to join another faction. Sanguine Exiles can choose which faction to join by crafting their key item first."
+				"{@pagebreak}"
 				"&aYou have seven days until elite hunters with muskets and silver bullets arrive to kill you."
 				""
 				"&aCheck the different tabs of the quest book. Levelling up as a vampire is detailed in the Sanguine Legacy tab."
+				""
+				"&aThe mod with a storage system in this pack is Neepmeat."
+				""
+				"&aIf you find bugs or have suggestions, post them on our Discord server. The link is on the title screen."
 			]
 			entity_vis_size: 1.0f
 			icon: "minecraft:knowledge_book"
@@ -694,6 +700,8 @@
 				""
 				"&4I can teach you later."
 				"{@pagebreak}"
+				"&a(Press V by default on animals or villagers to drink their blood when you see the icon. Keep glass bottles in your hotbar to fill them with blood instead when you drink blood. Blood production can be automated in the &oFlesh Industries &r&aquest chapter.)"
+				""
 				"&a(You can right click any container with 1000mb of blood to fill the bottle with blood, whether it be a tank, a grate, etc. You can also throw a bottle into liquid blood blocks to fill the bottle.)"
 			]
 			entity_vis_size: 1.0f
@@ -1451,6 +1459,8 @@
 				"The sun is a terror in the skies above. If I do not set out with an umbrella, I will slowly shrivel up and decay. I should seek to avoid the day as much as possible. "
 				""
 				"Making a new coffin to pass the day should do. That way, my nocturnal self can sleep during the day. These puny humans aren't nocturnal after all, I can avoid them at night."
+				"{@pagebreak}"
+				"&a(Sleeping grants a buff depending on how \"comfortable\" your surroundings are when you sleep, similarly to how civilized areas work.)"
 			]
 			entity_vis_size: 1.0f
 			id: "7C7D065A52F9A7D2"
@@ -1771,6 +1781,8 @@
 				"&fAnyone can create man-made paths from materials such as path blocks made through a shovel interaction with dirt, wood, stone, bricks, etc."
 				""
 				"&fA charting map with signs can create quick travel points on a path."
+				"{@pagebreak}"
+				"&a(You will see white and red areas on the world and minimap. These are civilized areas from Civillis. The more you build and live in a place, the more civilized the area becomes, deterring hostile mobs and preventing their spawns. This means you don't have to light up everything at all times.)"
 			]
 			entity_vis_size: 1.0f
 			icon: "via_romana:charting_map"
@@ -1953,7 +1965,11 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
-			description: ["Making use of some glass, iron and planks, I can store a greater quantity of blood in one place and even transport it with me! This way, I can fill bottles much more easily."]
+			description: [
+				"Making use of some glass, iron and planks, I can store a greater quantity of blood in one place and even transport it with me! This way, I can fill bottles much more easily."
+				"{@pagebreak}"
+				"&a(Only raw blood, from buckets and blood bottles, goes into the blood container.)"
+			]
 			entity_vis_size: 1.0f
 			id: "07E9BD4DB2D5F0FD"
 			rewards: [
@@ -1991,6 +2007,8 @@
 				"While I had not joined any of the older sanguine factions, I had contacts within each. Those acquaintances may no logner prove useful. I should try to find knowledge left behind by the members of these factions."
 				""
 				"This old family relic, the Sanguine Blood Charm is powerful in its own right. It empowers my strikes with significant force. But it has another special property. It can be used in the stead of the fateful core ingredient for the special relics of other factions. "
+				"{@pagebreak}"
+				"&a(The Sanguine Blood Charm can be used to join any faction, including the Moon Cultists. You just need to craft their key item.)"
 			]
 			disable_toast: true
 			entity_vis_size: 1.0f

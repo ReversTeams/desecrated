@@ -272,7 +272,6 @@
 				"&4No need, young sanguine. I have all of the knowledge a practitioner needs. However, it is very deep into my pages. I might need some materials to refresh my memory and regurgitate the knowledge you seek. How about settling for the essentials first?"
 			]
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			id: "60A31D681BDC05E7"
 			rewards: [{
 				id: "51B141F98B6A70E0"
@@ -549,7 +548,6 @@
 		{
 			dependencies: ["28113F3C960EC2FB"]
 			entity_vis_size: 1.0f
-			hide_until_deps_complete: true
 			id: "429A803195513FFD"
 			tasks: [{
 				id: "4054927A97FC7D69"

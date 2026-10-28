@@ -116,7 +116,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "An exiled noble vampire having escaped the fall of Red Barar."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&cNo Faction", "&a+10% Strength"]
+		stats = ["&aVampire", "&cNo Faction", "&a+20% Strength"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
@@ -164,7 +164,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire tinkering gadgets, studying enchanting and searching for powerful relics."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&aArtificer Faction", "&a+10% Speed"]
+		stats = ["&aVampire", "&aArtificer Faction", "&a+15% Speed"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
@@ -188,7 +188,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire, friend of the vine, specializing in natural magic, astral rituals and harnessing the power of colours."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&aVine Faction", "&a+10% Health"]
+		stats = ["&aVampire", "&aVine Faction", "&a+20% Health"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.
@@ -212,7 +212,7 @@
 		#Lore text shown in the panel. (Supports translation keys)
 		description = "A noble vampire of the Iron Sanguine faction, forging new tools and arms."
 		#Cosmetic stat summary lines.
-		stats = ["&aVampire", "&aIron Faction", "&a+10% Knockback Resistance"]
+		stats = ["&aVampire", "&aIron Faction", "&a+50% Knockback Resistance"]
 		#Mechanical modifiers (format: attribute=value:operation).
 		attributes = []
 		#Main hand item.

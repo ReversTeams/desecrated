@@ -195,3 +195,26 @@
 	#Range: 0.0 ~ 1.0
 	bossHealOnDefeat = 0.2
 
+#The players' side: the weapons this mod gives. For packs whose other gear hits far harder.
+#1.0 is as shipped. Must match across a server.
+[weapons]
+	#Multiplies the weapons' own blows: a melee weapon's attack damage, as its
+	#tooltip shows it (tempering and other mods' bonuses are added on top, unscaled),
+	#and the arrows of the bows (Everfrost, Kingsrime, Last Watch).
+	#PL: Mnoży obrażenia samych broni: obrażenia ataku broni do walki wręcz (opis
+	#przedmiotu pokazuje nową wartość; hartowanie i premie innych modów dochodzą
+	#bez mnożenia) i strzały łuków.
+	#Range: 0.0 ~ 100.0
+	weaponDamage = 1.0
+	#Multiplies their skills' damage and that of what they call up: Throne's Bane,
+	#Sovereign's Lament, the Kingsrime Blade and Bow, the Bow of the Last Watch, the
+	#Staff of the Hollow King (its spells and shades), the Wand of the Dead (its
+	#skeletons), the Femur of the Chase, the Shield King's Bulwark, Winter's Horn,
+	#Sovereign's Signet, Hollow Breath and the Rimebound Focus. Armour set bonuses
+	#are not touched.
+	#PL: Mnoży obrażenia umiejętności tych broni i tego, co przywołują (cienie
+	#Kostura Pustego Króla, szkielety Różdżki Umarłych). Premii z zestawów zbroi
+	#nie zmienia.
+	#Range: 0.0 ~ 100.0
+	weaponSkillDamage = 1.0
+
