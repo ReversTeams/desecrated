@@ -97,4 +97,12 @@ ServerEvents.recipes(event => {
                         A: 'vampirism:pure_blood_4'
                 }
         )
+
+        event.shapeless(
+                Item.of('vampirism:blood_bottle', '{Damage:9}'),
+                [
+                        'desecratedcore:blood_bucket',
+                        'minecraft:glass_bottle'
+                ]
+        )
 });

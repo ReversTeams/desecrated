@@ -74,7 +74,15 @@
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
-			description: ["Sanguines of Iron always have their trusty hammers to forge other tools. I should get one of my own. Wood should do for now."]
+			description: [
+				"Sanguines of Iron always have their trusty hammers to forge other tools. I should get one of my own. Wood should do for now."
+				""
+				"&4Are you trying to imitate Sanguines of Iron by memory?"
+				""
+				"Yes..."
+				""
+				"&4This is bound to be amusing."
+			]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "67E46BEEC08F8EA1"
@@ -180,8 +188,8 @@
 				item: "tetra:geode"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["27080CDFCD7A0AC9"]
@@ -207,8 +215,8 @@
 				id: "6038A97743354D67"
 				type: "advancement"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
@@ -254,7 +262,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
@@ -499,6 +507,7 @@
 				"2F231685847D74F5"
 				"58A84DDA66A0816D"
 				"3CED3F5BBA4B35A5"
+				"406F219B54EEDBD5"
 			]
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:chooser_key_item"
@@ -541,17 +550,17 @@
 				item: "oreberriesreplanted:iron_oreberry_bush"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
 			description: [
-				"Next up should be a forge... I'll need it to forge specialized equipment. I can just modify a blast furnace."
+				"I don't have access to a dedicated forge to create specialized equipment and alloys... Is it finally time I join up with one of these false vampire groups?"
 				""
-				"&4Are you trying to imitate Sanguines of Iron by memory?"
+				"&4You truly want to join these artificial vampires?"
 				""
-				"Yes..."
+				"I have no choice, I don't have the infrastructure needed to forge better tools. I can still blend in perfectly. I am the real deal after all."
 			]
 			entity_vis_size: 1.0f
 			id: "7FF4417F28BBA363"
@@ -566,11 +575,15 @@
 				item: "modestmining:forge"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["7FF4417F28BBA363"]
+			dependencies: [
+				"7FF4417F28BBA363"
+				"77B94FC775C59E8F"
+			]
+			description: ["Clams can be found on various beaches around the island of Red Barar. It can be quite risky to venture there as the hunters arrive by boat. I need to open these clams fast!"]
 			entity_vis_size: 1.0f
 			id: "6CB1DE4BBF000098"
 			rewards: [
@@ -591,13 +604,18 @@
 				item: "modestmining:pearl"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
 				"6CB1DE4BBF000098"
 				"50CE7F52FC6B44F0"
+			]
+			description: [
+				"&4Quite an interesting material... I haven't heard of prismarite before."
+				""
+				"It's a new material they discovered after the Fall apparently. It's as strong as Netherite, even possibly stronger, but it only requires materials from the ocean."
 			]
 			entity_vis_size: 1.0f
 			id: "0108AAE3F424D4AF"
@@ -612,8 +630,8 @@
 				item: "modestmining:prismarite_ingot"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7FF4417F28BBA363"]
@@ -637,11 +655,12 @@
 				item: "modestmining:coke"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7FF4417F28BBA363"]
+			description: ["Apparently, the higher ranked vampires around this encampment all wield prismarite. We can find some of the materials needed in clams, but they are tough to open. They have recommended I make an amethyst-copper chisel."]
 			entity_vis_size: 1.0f
 			id: "77B94FC775C59E8F"
 			rewards: [{
@@ -661,8 +680,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0108AAE3F424D4AF"]
@@ -730,8 +749,8 @@
 				type: "item"
 			}]
 			title: "Prismarite Tools"
-			x: 7.0d
-			y: -2.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0108AAE3F424D4AF"]
@@ -797,275 +816,8 @@
 				}
 			]
 			title: "Prismarite Armour"
-			x: 7.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7FF4417F28BBA363"]
-			entity_vis_size: 1.0f
-			id: "20D37E357AC221B0"
-			rewards: [
-				{
-					id: "00C508DA777D521E"
-					item: {
-						Count: 1
-						id: "vampirism:blood_bottle"
-						tag: {
-							Damage: 9
-						}
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "2F4B6C6064AA1D4C"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "162222E4260F4D24"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "modestmining:wooden_glaive"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:stone_glaive"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:iron_glaive"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:golden_glaive"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:diamond_glaive"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:netherite_glaive"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:prismarite_glaive"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "Any Glaive"
-				type: "item"
-			}]
-			title: "Glaive"
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7FF4417F28BBA363"]
-			entity_vis_size: 1.0f
-			id: "0B0BFB80FE0DA237"
-			rewards: [
-				{
-					id: "6676D03FB6D2B3A9"
-					item: {
-						Count: 1
-						id: "vampirism:blood_bottle"
-						tag: {
-							Damage: 9
-						}
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "616516996BF7FAA4"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "27D3B0CF6F975DCC"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "modestmining:wooden_katana"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:stone_katana"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:golden_katana"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:iron_katana"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:diamond_katana"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:netherite_katana"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:prismarite_katana"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "Any Katana"
-				type: "item"
-			}]
-			title: "Katana"
-			x: 3.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7FF4417F28BBA363"]
-			entity_vis_size: 1.0f
-			id: "487A5F582FC5FCC3"
-			rewards: [
-				{
-					id: "0F635478D44F8DF7"
-					item: {
-						Count: 1
-						id: "vampirism:blood_bottle"
-						tag: {
-							Damage: 9
-						}
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "0752E727222B65F7"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "53D1DE64173EBE92"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "modestmining:wooden_mace"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:stone_mace"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:golden_mace"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:iron_mace"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:diamond_mace"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:netherite_mace"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "modestmining:prismarite_mace"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "Any Mace"
-				type: "item"
-			}]
-			title: "Mace"
-			x: 4.0d
-			y: -4.0d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2F231685847D74F5"]
@@ -1179,15 +931,635 @@
 		}
 		{
 			dependencies: ["20DC2110D654C2D8"]
+			description: [
+				"The artificial vampires have left behind some of these millstones when they moved their camp. They're so crude. "
+				""
+				"There's not that much these millstones can crush, but it can be quite useful to destroy some tools and materials down to their basic components."
+			]
 			entity_vis_size: 1.0f
 			id: "6F25C560A2CD895B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ABBF3FFAD06E52C"
+				table_id: 202078780076458684L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3CAA660C4A55A434"
 				item: "modestmining:millstone"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"50CE7F52FC6B44F0"
+				"16990FCDA38E91EA"
+			]
+			entity_vis_size: 1.0f
+			id: "44DFDBD5405B9DFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61F991B5A8410C37"
+				table_id: 8119722541992150387L
+				type: "random"
+			}]
+			tasks: [{
+				id: "122014AFFAF42E2C"
+				item: "modestmining:valkyrium_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			id: "16990FCDA38E91EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04883D0415FCEA79"
+					table_id: 6522480712724039605L
+					type: "random"
+				}
+				{
+					id: "6E4F09F11F3F4A2B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2BEA3971B405E0F9"
+				item: "modestmining:meteoric_scrap"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44DFDBD5405B9DFC"]
+			entity_vis_size: 1.0f
+			id: "78D2417B01C44ED7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B918E1AE33731E3"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "40DA1A12C08EB133"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "490F03ED3B888BD7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:valkyrium_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:valkyrium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:valkyrium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:valkyrium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:valkyrium_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Valkyrium Tool"
+				type: "item"
+			}]
+			title: "Valkyrium Tools"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["44DFDBD5405B9DFC"]
+			entity_vis_size: 1.0f
+			id: "6CB99E726C8274A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11C8274FFDB8B5C6"
+					table_id: 3682133338790196090L
+					type: "random"
+				}
+				{
+					id: "19096CC77167785B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "2F683E770DCA84E7"
+					item: {
+						Count: 1
+						id: "modestmining:valkyrium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "571862001FCE6346"
+					item: {
+						Count: 1
+						id: "modestmining:valkyrium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EFD8071C462BD52"
+					item: {
+						Count: 1
+						id: "modestmining:valkyrium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19403988B32A42C9"
+					item: {
+						Count: 1
+						id: "modestmining:valkyrium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Valkyrium Armour"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			id: "6E0EE99538C716C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E9F95469D6B24B1"
+					table_id: 8119722541992150387L
+					type: "random"
+				}
+				{
+					id: "77FC9C862D8328D3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "26B5820E285B0EDD"
+				item: "modestmining:bronze_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E0EE99538C716C8"]
+			entity_vis_size: 1.0f
+			id: "4EE8D334BADC216F"
+			tasks: [
+				{
+					id: "558E553ADFA8CADA"
+					item: {
+						Count: 1
+						id: "modestmining:bronze_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4028E559FCC765E1"
+					item: {
+						Count: 1
+						id: "modestmining:bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04E55FC5B991A517"
+					item: {
+						Count: 1
+						id: "modestmining:bronze_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22E99A47933E4B6F"
+					item: {
+						Count: 1
+						id: "modestmining:bronze_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bronze Armour"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E0EE99538C716C8"]
+			entity_vis_size: 1.0f
+			id: "1685903E9BEC864C"
+			tasks: [{
+				id: "53AF13F8A5F24A48"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:bronze_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:bronze_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:bronze_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:bronze_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:bronze_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Bronze Tool"
+				type: "item"
+			}]
+			title: "Bronze Tools"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["50CE7F52FC6B44F0"]
+			entity_vis_size: 1.0f
+			id: "068187AE203C2AA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "084684955619BAAE"
+				table_id: 8119722541992150387L
+				type: "random"
+			}]
+			tasks: [{
+				id: "049617E3D9195E21"
+				item: "modestmining:steel_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["068187AE203C2AA4"]
+			entity_vis_size: 1.0f
+			id: "732DA14244B97851"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A333EA1B979727"
+				table_id: 8119722541992150387L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D525FC80D4A6B69"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:steel_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:steel_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:steel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:steel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:steel_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Steel Tool"
+				type: "item"
+			}]
+			title: "Steel Tools"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["068187AE203C2AA4"]
+			entity_vis_size: 1.0f
+			id: "499B7B167A27A266"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F7FD51DE3D166EF"
+				table_id: 8119722541992150387L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4F04E41EECB58F99"
+					item: {
+						Count: 1
+						id: "modestmining:steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4408A12B0EE15E24"
+					item: {
+						Count: 1
+						id: "modestmining:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65BF1BBFDD115684"
+					item: {
+						Count: 1
+						id: "modestmining:steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "180493D9516F5EFC"
+					item: {
+						Count: 1
+						id: "modestmining:steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Steel Armour"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			description: ["These artificial vampires use javelins and spears to stay as far from the holy blades of hunters. It is a most logical choice for a weapon. The range advantage always beats whatever damage advantage the enemy has."]
+			entity_vis_size: 1.0f
+			id: "51B70A11B47E34A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7844316FCB435648"
+				table_id: 7349332330884506115L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36DA702FB5074C7D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:flint_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:wooden_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:stone_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:bronze_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:iron_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:steel_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:golden_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:diamond_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:netherite_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "modestmining:valkyrium_javelin"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Javelin"
+				type: "item"
+			}]
+			title: "Javelins"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FF4417F28BBA363"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "406F219B54EEDBD5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5730135603C1DF47"
+					table_id: 6522480712724039605L
+					type: "random"
+				}
+				{
+					id: "7F663C6D4043F4E5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0838CBB0D2E9DD95"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modestmining:valkyrium_ingot"
+							}
+							{
+								Count: 1b
+								id: "modestmining:prismarite_ingot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_ingot"
+							}
+						]
+					}
+				}
+				title: "Any Advanced Material"
+				type: "item"
+			}]
+			title: "Advanced Materials"
+			x: 6.0d
+			y: -8.5d
 		}
 	]
 	title: "Sanguines of Iron"

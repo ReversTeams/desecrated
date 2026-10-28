@@ -441,7 +441,7 @@ element {
 
 element {
   interactable = true
-  source = Minecraft {"placeholder":"mcversion"} %n%Desecrated Release 1.2.1%n%{"placeholder":"loadedmods"} mods loaded. 518 intended.
+  source = Minecraft {"placeholder":"mcversion"} %n%Desecrated Release 1.2.2%n%{"placeholder":"loadedmods"} mods loaded. 530 intended.
   source_mode = direct
   shadow = true
   enable_scrolling = true

@@ -700,6 +700,8 @@
 				""
 				"&4I can teach you later."
 				"{@pagebreak}"
+				"&a(Press V by default on animals or villagers to drink their blood when you see the icon. Keep glass bottles in your hotbar to fill them with blood instead when you drink blood. Blood production can be automated in the &oFlesh Industries &r&aquest chapter.)"
+				""
 				"&a(You can right click any container with 1000mb of blood to fill the bottle with blood, whether it be a tank, a grate, etc. You can also throw a bottle into liquid blood blocks to fill the bottle.)"
 			]
 			entity_vis_size: 1.0f
@@ -1963,7 +1965,11 @@
 		}
 		{
 			dependencies: ["19AC0B8C0B44FA30"]
-			description: ["Making use of some glass, iron and planks, I can store a greater quantity of blood in one place and even transport it with me! This way, I can fill bottles much more easily."]
+			description: [
+				"Making use of some glass, iron and planks, I can store a greater quantity of blood in one place and even transport it with me! This way, I can fill bottles much more easily."
+				"{@pagebreak}"
+				"&a(Only raw blood, from buckets and blood bottles, goes into the blood container.)"
+			]
 			entity_vis_size: 1.0f
 			id: "07E9BD4DB2D5F0FD"
 			rewards: [

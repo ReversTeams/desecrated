@@ -2277,7 +2277,12 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["43A95B77D0DCE884"]
+			dependencies: [
+				"43A95B77D0DCE884"
+				"3A5B721A7E614679"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Brass is a compound of copper and zinc. I can crush down copper and zinc with a hammer or a crushing machine. But I don't have the heat required to alloy the two substances together... Fire charges should do the trick. I can burn down some logs or planks until they are charred, then they can yield fire charges."]
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:brass_ingot"
 			id: "422F8B4E485EE7B3"
@@ -2308,6 +2313,12 @@
 				{
 					id: "099BC439816C2D02"
 					item: "desecratedcore:brass_part"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B9011EA247661A9"
+					item: "minecraft:fire_charge"
 					optional_task: true
 					type: "item"
 				}
