@@ -1382,6 +1382,13 @@
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
+			description: [
+				"This mixing machine will be very useful for producing various solutions, suspensions, and slurries... but why can't I pump fluid in?"
+				""
+				"&4The mixer uses the standard fluid container port, denoted by a copepry plate and two inwards-pointing yellow arrows. This type of port draws directly from external storage, like tanks, and can't be pumped into directly."
+				""
+				"Ah, I see!"
+			]
 			entity_vis_size: 1.0f
 			id: "13F215BB3664621C"
 			rewards: [{
@@ -1507,6 +1514,15 @@
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
+			description: [
+				"I can see the possibiilites before me... Automated storage! Logistics! Applied mechanistics!"
+				""
+				"&4Applied En--uhh... How do you know these things?"
+				""
+				"There are many popular fiction novels involving more sophisticated storage methods. I can get you a copy to eat if you'd like."
+				""
+				"&4No, it should be fine... sophisticated..."
+			]
 			entity_vis_size: 1.0f
 			id: "0740A62EA79185DE"
 			rewards: [{
@@ -1566,6 +1582,13 @@
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
+			description: [
+				"&4The ejector and item pump are similar in function but different in execution. While the item pump will queue items inside itself and attempt to route them via pipe one by one, the item pump can accomplish the same task sixteen items at a time and while pulling from multiple pipe-connected inventories, too."
+				""
+				"Is the item pump then a direct upgrade to the ejector?"
+				""
+				"&4Not exactly. As you will see later, the ejector family of devices can turn out to be even more useful in certain cases."
+			]
 			entity_vis_size: 1.0f
 			id: "76184AF5B662D149"
 			rewards: [{
@@ -1585,11 +1608,17 @@
 					type: "item"
 				}
 			]
+			title: "Ejector and Item Pump"
 			x: -5.0d
 			y: -24.5d
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
+			description: [
+				"&4These are relatively self-explanatory: using the strangely precise innate identifier system, the items travelling through a section of pipe can be routed into different branches."
+				""
+				"Do all items in the world get labelled by some sort of &6Demiurge&r?"
+			]
 			entity_vis_size: 1.0f
 			id: "383F0CE846800B66"
 			rewards: [{
@@ -1842,7 +1871,18 @@
 			y: -16.5d
 		}
 		{
-			dependencies: ["7FA3BBF85B8DC373"]
+			dependencies: ["0740A62EA79185DE"]
+			description: [
+				"&4Fabricator units are extremely useful to automate the crafting of various components."
+				""
+				"What if I need to craft something with components that themselves need to be crafted?"
+				""
+				"&4Ah, recursive crafting. If you invest in networked pipes with the Pipe Driver, you can connect multiple fabricators to the same pipe network and they will become able to fulfil deferred requests."
+				""
+				"Ah. I see. There's going to be a lot of network jargon now isn't there."
+				""
+				"&4Indeed. For any clarifications, you can use the guide projector, as usual. Just don't get retinal burn-in."
+			]
 			entity_vis_size: 1.0f
 			id: "5463C9816BB2B2AF"
 			rewards: [{
@@ -1855,23 +1895,55 @@
 				item: "neepmeat:fabricator"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -21.0d
+			x: -6.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["2ED8C90203220E71"]
+			description: [
+				"I have so many different kinds of food items on my hands, it's starting to cause serious clutter. &4Grisha&r, is there a solution to this?"
+				""
+				"&4You could put them all into a Mincer to turn them into indistinguishable nutrient-rich food paste."
+				""
+				"That doesn't sound appetising..."
+				""
+				"&4This is how sausages are made. You should know this, young sanguine, it's quite common knowledge."
+				""
+				"I know, but the way you put it makes it seem wrong."
+				""
+				"&4Why are you acting over-lucid now? You were writing about the wonders of flesh just a few hours ago."
+				"{@pagebreak}"
+				"&a(The Item Mincer can mince food items into Reconstituted Food fluid. This fluid can mix within NEEPMeat tanks.)"
+				""
+				"&a(The Bottler can insert fluids from a tank below into supported items placed inside, such as living tools, pressure washers, or cartons.)"
+			]
 			entity_vis_size: 1.0f
 			id: "448AA4CC0FADE7BB"
-			rewards: [{
-				id: "4162625EF8A32EB1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "143FEF09ED73350E"
-				item: "neepmeat:item_mincer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4162625EF8A32EB1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "54235995B9516B96"
+					item: "neepmeat:meat_carton"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "143FEF09ED73350E"
+					item: "neepmeat:item_mincer"
+					type: "item"
+				}
+				{
+					id: "60AAE5B568EE33C9"
+					item: "neepmeat:bottler"
+					type: "item"
+				}
+			]
+			title: "Reconstituted Food and Bottling"
 			x: -2.0d
 			y: -21.0d
 		}
@@ -1937,6 +2009,7 @@
 		}
 		{
 			dependencies: ["187D75D48A04D454"]
+			description: ["A larger air compressor! Do I even need compressed air anymore? I can't even figure out how to run this thing... Maybe more complex machinery will eventually help with this? This unit would be large enough to actuate a large pneumatic piston or pump..."]
 			entity_vis_size: 1.0f
 			id: "7B80019ED864FE05"
 			rewards: [{
@@ -4354,6 +4427,7 @@
 		}
 		{
 			dependencies: ["64FCA03D70F9CBEC"]
+			description: [""]
 			entity_vis_size: 1.0f
 			id: "2DAC335CFE949E98"
 			rewards: [{
@@ -4362,11 +4436,19 @@
 				xp_levels: 1
 			}]
 			size: 1.25d
-			tasks: [{
-				id: "0617425C5A771B6C"
-				item: "neepmeat:advanced_integrator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0617425C5A771B6C"
+					item: "neepmeat:advanced_integrator"
+					type: "item"
+				}
+				{
+					id: "1348E5FA3BFBE5B8"
+					item: "neepmeat:pylon"
+					type: "item"
+				}
+			]
+			title: "The Advanced Integrator"
 			x: 4.5d
 			y: -29.0d
 		}
@@ -4379,23 +4461,26 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [
-				{
-					id: "13A1C34007267AA8"
-					item: "neepmeat:upgrade_manager"
-					type: "item"
-				}
-				{
-					id: "686F7FFC5094AD55"
-					item: "neepmeat:implanter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "686F7FFC5094AD55"
+				item: "neepmeat:implanter"
+				type: "item"
+			}]
+			title: "Implants"
 			x: 4.0d
 			y: -24.0d
 		}
 		{
 			dependencies: ["6316E079115AB0BC"]
+			description: [
+				"&4Grisha&r, I have &cdesecrated&r the divine child. I see the mother-worm in the sky. It- it &ocongradulated&r me, rewarded and cursed me with knowledge I cannot contain."
+				""
+				"&4Young sanguine? Are you alright?"
+				""
+				"No, no. I have heard. I know what must be done."
+				"{@pagebreak}"
+				"&a(Use the Tissue Operator to cut open an Integrator Egg)"
+			]
 			entity_vis_size: 1.0f
 			id: "7E578A9787FE3B42"
 			rewards: [{
@@ -4412,7 +4497,21 @@
 			y: -25.5d
 		}
 		{
-			dependencies: ["7E578A9787FE3B42"]
+			dependencies: [
+				"7E578A9787FE3B42"
+				"62D4C1223BCCADBD"
+			]
+			description: [
+				"The divine child's pupal form must be elevated by the combination of its enlightened neurovasculature with a lowly phenomenal husk from our world. I should insert it into a cow to gestate, to reveal its true and glorious form."
+				""
+				"&4..."
+				""
+				"I will need a new device to allow me to filter the glorious and terrible appearance in a way that can be seen by such puny life as myself.... or I could replace my eyes altogether."
+				"{@pagebreak}"
+				"&a(Implant the Divine Chrysalis into a cow using the PLC's IMPLANT instruction. The cow must be standing on top of a surgery platform to be recognized.)"
+				""
+				"&a(Be warned, the Bovine Horror may damage its surroundings and will definitely try to damage you.)"
+			]
 			entity_vis_size: 1.0f
 			id: "64FCA03D70F9CBEC"
 			rewards: [{
@@ -4552,6 +4651,21 @@
 				"76EB939D9E63EC40"
 				"0740A62EA79185DE"
 			]
+			description: [
+				"&4The heart of the pipe network. The Pipe Driver handles requests from pipe-networked devices like requesters, fabricators, and storage drivers."
+				""
+				"It's making piglin noises."
+				""
+				"&4Did you not make it using a piglin?"
+				""
+				"No. I could do that?"
+				""
+				"&4That's one of the ways to make them, yes?"
+				""
+				"... Would it be cheaper?"
+				""
+				"&4Your pure pragmatism concerns me, young sanguine. I can't stop you, either way. It could be less expensive resource-wise, yes."
+			]
 			entity_vis_size: 1.0f
 			id: "244378143BF3B0D3"
 			tasks: [{
@@ -4564,6 +4678,15 @@
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
+			description: [
+				"Plants can photosynthesize, can I use this behaviour to produce power?"
+				""
+				"&4A perfect first bio-engineering project, young sanguine. Perhaps this will make you go outside again."
+				""
+				"But the sun hurts."
+				""
+				"&4Quit your excuses, you should have at least an asbestos helmet already."
+			]
 			entity_vis_size: 1.0f
 			id: "7169247966F70F91"
 			rewards: [{
@@ -4576,11 +4699,25 @@
 				item: "neepmeat:power_flower_seeds"
 				type: "item"
 			}]
+			title: "The Power Flower"
 			x: -0.5d
 			y: -24.5d
 		}
 		{
 			dependencies: ["7169247966F70F91"]
+			description: [
+				"The glory of the plant-flesh! The delectable tension of the photosynthetic vacuole! I quiver in delight! Grow, my power flowers!"
+				""
+				"&4... Have you by any chance checked your enlightenment exposure recently?"
+				""
+				"I am perfectly fine, I simply &omust&r praise the glory of the purposed organisms. Oh how it grows! It grows! It... wait, it's growing vines over itself, how am I going to maintain steady ichor production with these... these... &ogrines&r growing all over them?!"
+				""
+				"&4You could clear them by hand, or make use of a pressure washer of some kind to blast them off with water."
+				""
+				"Or I could feed them with delicious reconstituted food."
+				""
+				"&4Or that. You can do that too."
+			]
 			entity_vis_size: 1.0f
 			id: "0D80DDDC0EA03205"
 			rewards: [{
@@ -4639,6 +4776,19 @@
 		}
 		{
 			dependencies: ["0D80DDDC0EA03205"]
+			description: [
+				"&4The Heart Machine will allow you to circulate power more efficiently, but will require the appropriately upgraded infrastructure."
+				""
+				"What are the gains of circulating droplets of integration fluid instead of raw ichor?"
+				""
+				"&4Previous records show a half-fold increase."
+				""
+				"That's not much..."
+				""
+				"&4If you take it as a baseline, your current power is only two-thirds as efficient. The difference can be quite significant, especially since the more advanced motors can go up to twice the speed."
+				""
+				"Hmm... indeed, that could help quite a bit."
+			]
 			entity_vis_size: 1.0f
 			id: "25375D02836A613F"
 			rewards: [{
@@ -4876,6 +5026,70 @@
 			}]
 			x: -2.3d
 			y: -8.4d
+		}
+		{
+			dependencies: ["76184AF5B662D149"]
+			description: [
+				"Oh, I see now! These ejectors, while they can still only pull from one inventory, implement the features found in the filters."
+				""
+				"&4Indeed. The Advanced Ejector also has an integrated pipe section, meaning it can be placed directly in the flow of the network and let items pass along through it if they need to."
+			]
+			entity_vis_size: 1.0f
+			id: "7AD082DA76219A04"
+			tasks: [
+				{
+					id: "01F710A03735D0B0"
+					item: "neepmeat:filtered_ejector"
+					type: "item"
+				}
+				{
+					id: "69AF553D3FEDC6D5"
+					item: "neepmeat:advanced_ejector"
+					type: "item"
+				}
+			]
+			title: "Specialised Ejectors"
+			x: -5.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["244378143BF3B0D3"]
+			description: [
+				"&4The main use for a pipe network is routed storage. Using the Manual Requester and Storage Driver, one can access multiple adjointed storages and even emit requests to craft items if a Fabricator with a corresponding recipe is also attached."
+				""
+				"I can see how this comes together with the other pipe devices to create a powerful central storage system."
+				""
+				"&4Indeed. In fact, there are rumours of an even more powerful storage paradigm after this one, though my records are currently incomplete. It has something to do with extraterrestrial technology only obtainable with highly enlightened technology."
+			]
+			entity_vis_size: 1.0f
+			id: "315F9AFDB7B32BE9"
+			tasks: [
+				{
+					id: "22F0A0A3ADFBBE49"
+					item: "neepmeat:item_requester"
+					type: "item"
+				}
+				{
+					id: "60776C77B599CD85"
+					item: "neepmeat:storage_bus"
+					type: "item"
+				}
+			]
+			title: "Connected Storage"
+			x: -2.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["62D4C1223BCCADBD"]
+			entity_vis_size: 1.0f
+			id: "1431175D39AB48F1"
+			tasks: [{
+				id: "784CE548E713C3FF"
+				item: "neepmeat:upgrade_manager"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -24.0d
 		}
 	]
 	title: "Flesh Industries"
