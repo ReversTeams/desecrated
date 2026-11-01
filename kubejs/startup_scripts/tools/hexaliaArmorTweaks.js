@@ -13,16 +13,16 @@ ItemEvents.modification(event => {
 		"setArmorProtection",
 
 		// Hexalia Bloomwrap
-		660, ["hexalia:bloomwrap_hat", 5],
-		960, ["hexalia:bloomwrap_robes", 10],
-		900, ["hexalia:bloomwrap_leggings", 8],
-		780, ["hexalia:bloomwrap_boots", 5],
+		263, ["hexalia:bloomwrap_hat", 4],
+		428, ["hexalia:bloomwrap_robes", 9],
+		395, ["hexalia:bloomwrap_leggings", 7],
+		329, ["hexalia:bloomwrap_boots", 4],
 
 		// Hexalia Moonweave
-		363, ["hexalia:moonweave_hood", 3],
-		528, ["hexalia:moonweave_mantle", 8],
-		495, ["hexalia:moonweave_bindings", 6],
-		429, ["hexalia:moonweave_footwraps", 3],
+		263, ["hexalia:moonweave_hood", 3],
+		428, ["hexalia:moonweave_mantle", 8],
+		395, ["hexalia:moonweave_bindings", 6],
+		329, ["hexalia:moonweave_footwraps", 3],
 
 	].forEach(en => {
 		if (typeof en === "number") return d = en;
