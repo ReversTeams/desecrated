@@ -17,7 +17,7 @@
 
 [food_duration]
 	#Time (in seconds) that food should last per saturation level (range 60-600, default 180)
-	food_duration = 130.0
+	food_duration = 120.0
 
 [unstackable_food_duration]
 	#Increased duration for food items that don't stack up to 64 (boolean, default = true)
