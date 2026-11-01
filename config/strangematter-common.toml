@@ -11,32 +11,32 @@
 		enableGravityAnomaly = true
 		#Gravity Anomaly spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		gravityAnomalyRarity = 800
+		gravityAnomalyRarity = 1600
 		#Enable Temporal Bloom world generation
 		enableTemporalBloom = true
 		#Temporal Bloom spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		temporalBloomRarity = 800
+		temporalBloomRarity = 1600
 		#Enable Warp Gate world generation
 		enableWarpGate = true
 		#Warp Gate spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		warpGateRarity = 600
+		warpGateRarity = 1200
 		#Enable Energetic Rift world generation
 		enableEnergeticRift = true
 		#Energetic Rift spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		energeticRiftRarity = 800
+		energeticRiftRarity = 1600
 		#Enable Echoing Shadow world generation
 		enableEchoingShadow = true
 		#Echoing Shadow spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		echoingShadowRarity = 800
+		echoingShadowRarity = 1600
 		#Enable Thoughtwell world generation
 		enableThoughtwell = true
 		#Thoughtwell spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		thoughtwellRarity = 800
+		thoughtwellRarity = 1600
 		#Dimensions where Gravity Anomalies can spawn (empty list = all dimensions)
 		gravityAnomalyDimensions = ["minecraft:overworld", "perdition:purgatory"]
 		#Dimensions where Temporal Blooms can spawn (empty list = all dimensions)
