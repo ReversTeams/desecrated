@@ -1,0 +1,243 @@
+
+[systems]
+	#Causes enabled systems to only become active for players that are wearing modular armor
+	opt_in_features = true
+
+	[systems.energy]
+		#Enable/disable the energy system
+		enable = true
+		#The number of ticks between updates for the energy system
+		#Range: > 1
+		tick_rate = 4
+		#The amount of ticks before a players energy instance gets purged
+		#Range: > 1
+		purge_delay = 1200
+		#The number of ticks between energy syncs to the client
+		#Range: > 1
+		sync_rate = 10
+		#The amount of max energy gained per point of agility
+		#Range: 0.0 ~ 1.7976931348623157E308
+		max_agility_bonus = 0.1
+		#The amount of energy system ticks of not using energy a player needs to start regenerating energy, multiply this by tick_rate to get the actual delay
+		#Range: > 0
+		regen_delay = 15
+		#The base amount of energy regenerated per tick
+		#Range: 0.0 ~ 1.7976931348623157E308
+		regen_base = 0.05
+		#The amount of energy regeneration gained per point of agility
+		#Range: 0.0 ~ 1.7976931348623157E308
+		regen_agility_bonus = 0.0025
+		#Trigger energy regeneration cooldown while the player is sprinting
+		regen_sprint_cooldown = false
+		#Whether crouching triggers the energy regeneration cooldown: ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the stealth attribute is present, which gets a bit weird as crouching always stealth the player regardless of the attribute being present)
+		#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+		regen_crouch_cooldown = "ON"
+
+		[systems.energy.temperature_modifiers]
+			#Configure how player temperature affects the player's energy
+			#Energy multiplier for players in hot conditions
+			#Range: 0.0 ~ 1.7976931348623157E308
+			max_hot_multiplier = 0.7
+			#Energy multiplier for players in searing conditions
+			#Range: 0.0 ~ 1.7976931348623157E308
+			max_searing_multiplier = 0.4
+			#Energy regeneration multiplier for players in cold conditions
+			#Range: 0.0 ~ 1.7976931348623157E308
+			regen_cold_multiplier = 0.5
+			#Energy regeneration multiplier for players in freezing conditions
+			#Range: 0.0 ~ 1.7976931348623157E308
+			regen_freezing_multiplier = 0.25
+
+		[systems.energy.exhaust]
+			#Configure values for how exhaustion affects energy
+			#Exhaustion is removed when energy reaches this percentage of max energy, e.g. a value of 0.5 would cause exhaustion to be removed when energy is at 50%
+			#Range: 0.0 ~ 1.0
+			exhaust_clear_factor = 0.6666
+			#Acts as a minimum bound for the clear threshold, if factor * maxEnergy < min, then exhaust will clear when energy reaches min. Exhaustion clears at 100% energy if min value is higher than max energy. Set to 0 to disable.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			min = 1.0
+			#Acts as a maximum bound for the clear threshold, if factor * maxEnergy > max, then exhaust will clear when energy reaches max. Set to -1 to disable.
+			#Range: -1.0 ~ 1.7976931348623157E308
+			max = -1.0
+			#Energy regeneration is multiplied by this factor while the player is exhausted
+			#Range: 0.001 ~ 1.7976931348623157E308
+			regen_factor = 0.5
+
+		[systems.energy.energy_mining_effects]
+			#Configure mining bonuses gained from using energy
+			#Mining speed multiplier applied while the player has energy
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_mining_multiplier = 2.0
+			#Energy drained per tick while mining
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_mining_cost = 0.08
+			#Whether the mining energy effect is active: ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the energy harvest speed attribute is present)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_mining_enabled = "REQUIRES_ATTRIBUTE"
+			#Trigger energy regeneration cooldown when mining regardless of the effect being active. Only relevant when energy_mining_enabled is REQUIRES_ATTRIBUTE.
+			energy_mining_always_prevent_regen = true
+			#Harvest speed multiplier while the player is exhausted, a value of 1 would result in no penalty, and a value of 0 would make the player unable to harvest blocks while exhausted..
+			#Range: 0.0 ~ 1.7976931348623157E308
+			exhaust_mining_multiplier = 1.0
+
+		[systems.energy.energy_attack_effects]
+			#Configure attack bonuses gained from using energy
+			#Attack damage multiplier applied while the player has energy
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_attack_multiplier = 1.2
+			#Energy drained per attack (hitting an entity or swinging in the air, drain from clicking blocks is determined by mining energy cost)
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_attack_cost = 0.1
+			#Whether the attack energy effect is active: ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the energy attack damage attribute is present)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_attack_enabled = "REQUIRES_ATTRIBUTE"
+			#Whether swinging in the air costs energy: ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the attack energy effect is active)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_attack_miss_cost_enabled = "REQUIRES_ATTRIBUTE"
+			#Trigger energy regeneration cooldown when attacking regardless of the effect being active. Only relevant when energy_attack_enabled is REQUIRES_ATTRIBUTE.
+			energy_attack_always_prevent_regen = true
+			#Energy cost multiplier for items with slower attack speed. The multiplier scales inversely with attack speed, the full multiplier is applied at 0 attack speed, and no multiplier is applied at 4 attack speed (default unarmed speed).
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_attack_speed_cost_multiplier = 4.0
+			#Attack damage multiplier while the player is exhausted, a value of 1 would result in no penalty, and a value of 0 would cause the player to deal no damage while exhausted.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+		[systems.energy.energy_defence_effects]
+			#Configure defence bonuses gained from using energy
+			#Determines energy drained when taking damage, calculated as: damageTaken * factor
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_defence_cost_factor = 0.04
+			#Minimum energy drained when taking damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_defence_min_cost = 0.04
+			#Maximum energy drained when taking damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_defence_max_cost = 1.0
+			#Whether the defence energy effect is active: ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the energy defence attribute is present)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_defence_enabled = "REQUIRES_ATTRIBUTE"
+			#Trigger energy regeneration cooldown when taking damage regardless of the effect being active. Only relevant when energy_defence_enabled is REQUIRES_ATTRIBUTE.
+			energy_defence_always_prevent_regen = true
+
+		[systems.energy.energy_bow_effects]
+			#Configure how energy behaves when drawing bows and crossbows
+			#Whether the bow energy effect is active: ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the tetra draw strength or draw speed attribute is present, e.g. granted by armor)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_bow_enabled = "REQUIRES_ATTRIBUTE"
+			#Include bows and crossbows that extend the vanilla classes in addition to tetra modular bows/crossbows. The energy_bow_exclude tag excludes specific items, the energy_bow_include tag includes specific items regardless of this setting.
+			energy_bow_include_all_ranged_weapons = false
+			#Energy drained per tick while drawing a bow or crossbow
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_bow_draw_tick_cost = 0.01
+			#Trigger energy regeneration cooldown while drawing a bow or crossbow regardless of the effect being active. Only relevant when energy_bow_enabled is REQUIRES_ATTRIBUTE.
+			energy_bow_always_prevent_regen = true
+
+		[systems.energy.energy_shield_effects]
+			#Configure how energy behaves when blocking with a shield. Applies to items that can perform the shield block action.
+			#Include all blockable items by default. The energy_shield_exclude tag excludes items when this is true, the energy_shield_include tag includes items when this is false.
+			energy_shield_include_all_items = true
+			#Energy drained per tick while actively raising a shield, set to 0 to disable
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_shield_tick_cost = 0.01
+			#Energy drained per point of damage blocked when blocking an attack with a shield, set to 0 to disable
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_shield_block_cost_factor = 0.05
+			#Flat energy drained each time an attack is blocked with a shield, in addition to the per-damage cost
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_shield_block_cost_flat = 0.0
+			#Trigger energy regeneration cooldown while raising a shield regardless of whether it drains energy
+			energy_shield_always_prevent_regen = true
+
+		[systems.energy.energy_instant_use_effects]
+			#Configure how energy behaves when instant-using items (e.g. jab, scraping, tilling). Bows/crossbows are handled by the bow effects, shields by the shield effects.
+			#Whether the instant use energy effect is active when using an item on a block (e.g. scraping copper, tilling): ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the player has the energy attack damage attribute and the used item has the attack damage attribute)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_instant_use_block_enabled = "OFF"
+			#Whether the instant use energy effect is active when using an item on an entity: ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the player has the energy attack damage attribute and the used item has the attack damage attribute)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_instant_use_entity_enabled = "REQUIRES_ATTRIBUTE"
+			#Whether the instant use energy effect is active when using an item without a target (e.g. throwing an ender pearl): ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the player has the energy attack damage attribute and the used item has the attack damage attribute)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_instant_use_untargeted_enabled = "REQUIRES_ATTRIBUTE"
+			#Include all items by default. The energy_instant_use_exclude tag excludes items when this is true, the energy_instant_use_include tag includes items when this is false.
+			energy_instant_use_include_all_items = false
+			#Energy drained when completing an instant use item action (e.g., scraping copper, throwing ender pearl)
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_instant_use_cost = 0.1
+			#Trigger energy regeneration cooldown when completing an instant use item action regardless of whether it drains energy
+			energy_instant_use_always_prevent_regen = true
+
+		[systems.energy.energy_continuous_use_effects]
+			#Configure how energy behaves when continuously using/channeling an item (e.g. a charged ability). Bows/crossbows are handled by the bow effects, shields by the shield effects.
+			#Whether the continuous use energy effect is active: ON (always), OFF (never), REQUIRES_ATTRIBUTE (only when the player has the energy attack damage attribute and the used item has the attack damage attribute)
+			#Allowed Values: ON, OFF, REQUIRES_ATTRIBUTE
+			energy_continuous_use_enabled = "ON"
+			#Include all items by default. The energy_continuous_use_exclude tag excludes items when this is true, the energy_continuous_use_include tag includes items when this is false.
+			energy_continuous_use_include_all_items = false
+			#Energy drained per tick while continuously using/channeling an item
+			#Range: 0.0 ~ 1.7976931348623157E308
+			energy_continuous_use_tick_cost = 0.01
+			#Trigger energy regeneration cooldown while continuously using an item regardless of whether it drains energy
+			energy_continuous_use_always_prevent_regen = true
+
+	[systems.temperature]
+		#Enable/disable the temperature system
+		enable = false
+
+	[systems.stealth]
+		#Makes the stealth system based on entity facing, very unpredictable in practice as AI entities constantly spin around
+		facing_based = false
+
+	[systems.dodge]
+		#Enable/disable the dodge system
+		enable = true
+		#Horizontal strength of a dodge
+		#Range: 0.0 ~ 1.7976931348623157E308
+		horizontal_strength = 0.5
+		#Vertical strength of a dodge
+		#Range: 0.0 ~ 1.7976931348623157E308
+		vertical_strength = 0.3
+		#The amount of energy drained per dodge
+		#Range: 0.0 ~ 1.7976931348623157E308
+		energy_cost = 1.0
+		#The amount of saturation drained per dodge
+		#Range: 0.0 ~ 1.7976931348623157E308
+		saturation_cost = 2.0
+
+#Control honing progression values for modular armor, see base tetra config for better descriptions
+[module_progression]
+	#Base value for helmet honing
+	#Range: > -2147483648
+	hone_helmet_base = 256
+	#Integrity multiplier for helmet honing
+	#Range: > -2147483648
+	hone_helmet_integrity_multiplier = 128
+	#Base value for chest honing
+	#Range: > -2147483648
+	hone_chest_base = 256
+	#Integrity multiplier for chest honing
+	#Range: > -2147483648
+	hone_chest_integrity_multiplier = 128
+	#Base value for leggings honing
+	#Range: > -2147483648
+	hone_leggings_base = 256
+	#Integrity multiplier for leggings honing
+	#Range: > -2147483648
+	hone_leggings_integrity_multiplier = 128
+	#Base value for boots honing
+	#Range: > -2147483648
+	hone_boots_base = 256
+	#Integrity multiplier for boots honing
+	#Range: > -2147483648
+	hone_boots_integrity_multiplier = 128
+	#A random piece of worn armor will gain this much honing progress when the wearer kills an entity, set to 0 to disable
+	#Range: > 0
+	hone_wear_kill_entity_amount = 2
+	#Probability for a random piece of worn armor to gain honing progress when the wearer breaks a block, set to 0 to disable
+	#Range: 0.0 ~ 1.0
+	hone_wear_break_block_chance = 0.25
+	#A random piece of worn armor will gain this much honing progress when the wearer breaks a block
+	#Range: > 0
+	hone_wear_break_block_amount = 1
+

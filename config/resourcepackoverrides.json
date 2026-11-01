@@ -28,7 +28,8 @@
       "file/LowOnFire_1.20.1.zip",
       "file/cubic-sun-moon-v1.8.5.zip",
       "file/elysiapresents_lootr.zip",
-      "doublechests_old_textures"
+      "doublechests_old_textures",
+      "builtin/ascendant_arcana_classic"
     ],
     "$$1": {
       "required": true,

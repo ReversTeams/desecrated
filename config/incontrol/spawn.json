@@ -79,9 +79,14 @@
     "result": "deny"
   },
   {
+    "dimension": "minecraft:overworld",
+    "mod": "reverseeon",
+    "result": "deny"
+  },
+  {
     "mod": "vampirism",
     "mincount": {
-      "amount": 48,
+      "amount": 120,
       "hostile": true,
       "perplayer": true
     },
@@ -90,8 +95,17 @@
   {
     "mod": "fracture",
     "mincount": {
-      "amount": 24,
+      "amount": 120,
       "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "fracture",
+    "mincount": {
+      "amount": 120,
+      "hostile": false,
       "perplayer": true
     },
     "result": "deny"
@@ -116,15 +130,6 @@
   },
   {
     "mod": "goetyhostility",
-    "mincount": {
-      "amount": 12,
-      "hostile": true,
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "reverseeon",
     "mincount": {
       "amount": 12,
       "hostile": true,

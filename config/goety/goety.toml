@@ -154,6 +154,12 @@
 	sarcophagusUndead = true
 	#Whether Sarcophagus can be sleep in, Default: true
 	sarcophagusSleep = true
+	#The amount of Soul Energy used to power the Sealer, Default: 1
+	#Range: > 0
+	sealerCost = 1
+	#How many seconds before Sealer needs to be powered with Soul Energy, Default: 60
+	#Range: > 0
+	sealerIntervalCost = 60
 
 ["Soul Taken"]
 	#Multiplies the amount of Souls taken by this amount, Default: 2
