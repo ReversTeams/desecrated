@@ -18,7 +18,7 @@
 		}
 		{
 			alpha: 180
-			dependency: "5043493D9D378B57"
+			dependency: "7E76C7368365FAD4"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
@@ -28,7 +28,7 @@
 		}
 		{
 			alpha: 150
-			dependency: "640C90A0767F97C4"
+			dependency: "7E76C7368365FAD4"
 			height: 3.0d
 			image: "reverseeon:textures/gui/fate_wheel_gui.png"
 			rotation: 0.0d

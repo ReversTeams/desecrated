@@ -37,8 +37,8 @@
 			image: "butchery:block/blood_splatter_8"
 			rotation: 0.0d
 			width: 2.75d
-			x: 0.10000000000000009d
-			y: -7.5d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			alpha: 180
@@ -47,7 +47,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			alpha: 120
@@ -65,7 +65,7 @@
 			rotation: 0.0d
 			width: 1.7d
 			x: -3.0d
-			y: -7.0d
+			y: -6.5d
 		}
 	]
 	order_index: 1
@@ -82,6 +82,10 @@
 				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat in the sieve, the blood is not fully pure, but it's drinkable. I should place a container under the sieve so that blood flows down there, easy for collection. Or, I could put a blood filter down there to clean the blood right at the source."
 				""
 				"I shouldn't try to mix unpure blood and pure blood, that is a bad idea."
+				"{@pagebreak}"
+				"&a(Only raw blood, from buckets and blood bottles, goes into the blood container.)"
+				""
+				"&a(Blood, also known as regular blood or filtered blood, is used for the subsequent Neepmeat machines. You can still bottle it up by right clicking a container with 900mb of blood with a glass bottle.)"
 			]
 			entity_vis_size: 1.0f
 			id: "34B4063F2F210048"
@@ -135,7 +139,7 @@
 				}
 			]
 			x: -3.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -185,7 +189,7 @@
 			]
 			title: "Hanging"
 			x: -4.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -227,7 +231,7 @@
 			}]
 			title: "Culinary Elegance"
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -267,7 +271,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -302,7 +306,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -342,7 +346,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7522632161D258AA"]
@@ -408,7 +412,7 @@
 			]
 			title: "Butcher's Table"
 			x: -1.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -495,7 +499,7 @@
 			}]
 			title: "Cleaver"
 			x: -1.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
@@ -527,13 +531,10 @@
 			}]
 			title: "Carcasses"
 			x: -3.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"3C411C6CC29A7BBB"
-				"6B0E995FC2B51651"
-			]
+			dependencies: ["3C411C6CC29A7BBB"]
 			dependency_requirement: "one_completed"
 			description: [
 				"I threw this heart into a pool of lava surrounded by rusted metal and... what was that creature from the sky? Is this egg even safe?"
@@ -585,7 +586,8 @@
 		{
 			dependencies: [
 				"02ECCCD98242956B"
-				"532FD8D52F2ACDC8"
+				"720FB6E79AB03072"
+				"6B0E995FC2B51651"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -636,8 +638,8 @@
 					type: "item"
 				}
 			]
-			x: -1.7249999999999999d
-			y: -9.774999999999999d
+			x: -2.3d
+			y: -11.499999999999998d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -1262,10 +1264,10 @@
 			y: -22.5d
 		}
 		{
-			dependencies: ["720FB6E79AB03072"]
+			dependencies: ["532FD8D52F2ACDC8"]
 			description: [
 				"I will need a machine to pump liquid out of containers and into pipes. A redstone-activated pump should do the trick. The redstone should create enough motion on its fluid to move the fluid."
-				""
+				"{@pagebreak}"
 				"&a(You can directly place the pump on a blood grate or filter. Make sure the small red light is pointing at the container you want to extract from.)"
 			]
 			entity_vis_size: 1.0f
@@ -1288,18 +1290,14 @@
 				item: "neepmeat:pump"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -11.0d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
-			dependencies: [
-				"5C5A1D9906886DF4"
-				"5D4499D4254102B7"
-			]
+			dependencies: ["532FD8D52F2ACDC8"]
 			dependency_requirement: "one_started"
 			description: ["Pipes will be needed to move fluids such as blood efficiently, and tanks will be needed to store it. Plain iron and copper should do."]
 			entity_vis_size: 1.0f
-			hide_dependency_lines: true
 			id: "720FB6E79AB03072"
 			rewards: [
 				{
@@ -1377,7 +1375,7 @@
 				}
 			]
 			title: "Tanks \\& Pipes"
-			x: -4.0d
+			x: -2.0d
 			y: -10.0d
 		}
 		{
@@ -1401,8 +1399,8 @@
 				item: "neepmeat:mixer"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -12.0d
+			x: -0.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3E79771244634868"]
@@ -2768,8 +2766,8 @@
 				item: "neepmeat:fluid_drain"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -12.0d
+			x: -0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -2952,7 +2950,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -8.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
@@ -3150,7 +3148,7 @@
 			]
 			title: "Butchering Tools"
 			x: -3.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -3181,7 +3179,7 @@
 				}
 			]
 			x: -5.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["63F1C9A1095AEC1E"]
@@ -3242,7 +3240,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -3274,7 +3272,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1E9B68675477C2B1"]
@@ -3360,8 +3358,8 @@
 				type: "item"
 			}]
 			title: "Meteorite Tools"
-			x: 2.5d
-			y: -11.0d
+			x: -13.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
@@ -4162,8 +4160,8 @@
 				}
 			]
 			title: "Browne"
-			x: -5.0d
-			y: -8.5d
+			x: -5.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -4348,8 +4346,8 @@
 				item: "concatenatedadditionsmachines:meteorite"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.5d
+			x: -13.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
@@ -4671,7 +4669,7 @@
 				}
 			]
 			x: -6.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2388743859062AD5"]
@@ -5092,6 +5090,8 @@
 				"The blood grate isn't perfect for filtering and the blood sieve doesn't produce high enough quality blood. There's all of these bits of ground meat in there. Sure, it adds a little taste for me, but when I use this blood for other endeavours, I will need cleaner blood."
 				""
 				"This blood filter has one purpose: cleaning the raw blood. It contains two internal tanks and a filter system making use of gravity. That way, just inputting raw blood suffices to clean it."
+				"{@pagebreak}"
+				"&a(Blood, also known as regular blood or filtered blood, is used for the subsequent Neepmeat machines. You can still bottle it up by right clicking a container with 900mb of blood with a glass bottle.)"
 			]
 			entity_vis_size: 1.0f
 			id: "532FD8D52F2ACDC8"
@@ -5120,8 +5120,8 @@
 				item: "desecratedcore:blood_filter"
 				type: "item"
 			}]
-			x: -2.3d
-			y: -8.4d
+			x: -3.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["76184AF5B662D149"]

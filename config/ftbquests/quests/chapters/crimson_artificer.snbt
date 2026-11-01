@@ -16,7 +16,6 @@
 		{
 			alpha: 180
 			color: 16211721
-			dependency: "51B4F0043EFD8726"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
 			rotation: 0.0d
@@ -37,7 +36,6 @@
 		{
 			alpha: 50
 			color: 16729372
-			dependency: "257E0F645B9B307D"
 			height: 4.0d
 			image: "ars_armorer:textures/misc/flash.png"
 			rotation: 0.0d
@@ -47,7 +45,6 @@
 		}
 		{
 			alpha: 180
-			dependency: "3220B67522BB5C0D"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/aquaflora_pierce_start/aquaflora_pierce_start2.png"
 			rotation: 45.0d
@@ -56,7 +53,6 @@
 			y: 8.4d
 		}
 		{
-			dependency: "76593EA6852DE6C8"
 			height: 0.75d
 			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
 			rotation: 0.0d
@@ -65,7 +61,6 @@
 			y: 4.0d
 		}
 		{
-			dependency: "76593EA6852DE6C8"
 			height: 0.75d
 			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
 			rotation: 90.0d
@@ -74,7 +69,6 @@
 			y: 5.0d
 		}
 		{
-			dependency: "76593EA6852DE6C8"
 			height: 0.75d
 			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
 			rotation: 180.0d
@@ -83,7 +77,6 @@
 			y: 5.0d
 		}
 		{
-			dependency: "76593EA6852DE6C8"
 			height: 0.75d
 			image: "knightlib:textures/entity/great_chalice_starset_ring_5.png"
 			rotation: -90.0d
@@ -93,7 +86,6 @@
 		}
 		{
 			alpha: 180
-			dependency: "5DC274933162F9A6"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
@@ -3285,7 +3277,7 @@
 			description: [
 				"&4You won't be able to see all enchantments available at first. You will need bookshelves to be able to decrypt enchantments and apply them onto your equipment. Regular bookshelves are not enough. You will need bloody bookshelves or any bookshelf that is more powerful. You can also make enchanted bookshelves by inserting enchanted books into chiseled bookshelves, which is a potent way of increasing enchanting power."
 				""
-				"&a(Jade does not display the correct enchanting power on the table, open the table to see the blue bar's enchanting power.)"
+				"&a(Jade does not display the correct enchanting power on the table, open the table to see the blue bar's enchanting power. Enchanting Tables can detect bookshelves wider than the vanilla range.)"
 			]
 			entity_vis_size: 1.0f
 			id: "1101E3B8A9748513"
@@ -3303,7 +3295,7 @@
 				}
 			]
 			tasks: [{
-				id: "2A26C9C233249916"
+				id: "2262C8B4441ADB5B"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -3311,13 +3303,15 @@
 						items: [
 							{
 								Count: 1b
-								id: "fracture:bloody_bookshelf"
-								tag: { }
+								id: "fracture:inkwood_bookshelf"
+							}
+							{
+								Count: 1b
+								id: "desecratedcore:bloody_bookshelf"
 							}
 							{
 								Count: 1b
 								id: "bloodyhell:forbidden_bookshelf_block"
-								tag: { }
 							}
 						]
 					}
@@ -3624,69 +3618,69 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "1F70C42018DD4504"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "itemfilters:strong_nbt"
-								tag: {
-									value: {
-										RelicStrength: 5
-										RelicType: 0
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "itemfilters:strong_nbt"
-								tag: {
-									value: {
-										RelicStrength: 5
-										RelicType: 1
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "itemfilters:strong_nbt"
-								tag: {
-									value: {
-										RelicStrength: 5
-										RelicType: 2
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "itemfilters:strong_nbt"
-								tag: {
-									value: {
-										RelicStrength: 5
-										RelicType: 3
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "itemfilters:strong_nbt"
-								tag: {
-									value: {
-										RelicStrength: 5
-										RelicType: 4
-									}
-								}
-							}
-						]
+			tasks: [
+				{
+					id: "6348F0456E8559AF"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5b
+							RelicType: "ascendant_arcana:durability"
+						}
 					}
+					type: "item"
 				}
-				title: "Any Ascendant Relic"
-				type: "item"
-			}]
+				{
+					id: "0A60850AC05649C2"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5b
+							RelicType: "ascendant_arcana:enchantment_capacity"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63F57BCA03D62E4E"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5b
+							RelicType: "ascendant_arcana:haste"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7106F00557607250"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5b
+							RelicType: "ascendant_arcana:protection"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BA2B1EE02FDA7A7"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5b
+							RelicType: "ascendant_arcana:damage"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ascendant Relics"
 			x: -7.6499999999999995d
 			y: 7.15d
 		}

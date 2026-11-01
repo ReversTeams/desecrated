@@ -23,7 +23,6 @@
 		{
 			alpha: 180
 			color: 16718090
-			dependency: "1CE2E59DF8AB13AF"
 			height: 2.5d
 			image: "tetra_view:textures/slot1.png"
 			rotation: 0.0d
@@ -43,7 +42,6 @@
 		}
 		{
 			alpha: 180
-			dependency: "718E019861370CB7"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
@@ -468,7 +466,7 @@
 				id: "21578304A4C91B69"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: -6.0d
 		}
 		{
@@ -494,12 +492,11 @@
 				id: "403CECD8A6BBBC03"
 				type: "advancement"
 			}]
-			x: 5.0d
-			y: -7.5d
+			x: 7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
-				"231627414397C6D6"
 				"5CA75CA01A803357"
 				"142CEAE28CC979B5"
 				"5DEADC68E94F930F"
@@ -508,6 +505,9 @@
 				"58A84DDA66A0816D"
 				"3CED3F5BBA4B35A5"
 				"406F219B54EEDBD5"
+				"2170141E58EFD247"
+				"77188E3C74C1654E"
+				"189F2C8B3D6D9C32"
 			]
 			entity_vis_size: 1.0f
 			icon: "desecratedcore:chooser_key_item"
@@ -872,10 +872,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"3CED3F5BBA4B35A5"
-				"718E019861370CB7"
-			]
+			dependencies: ["3CED3F5BBA4B35A5"]
 			entity_vis_size: 1.0f
 			id: "0E4B3D5802A7BB0F"
 			rewards: [
@@ -897,14 +894,11 @@
 				id: "59436DB1184EBCEE"
 				type: "advancement"
 			}]
-			x: -7.5d
-			y: -8.0d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
-			dependencies: [
-				"3CED3F5BBA4B35A5"
-				"718E019861370CB7"
-			]
+			dependencies: ["3CED3F5BBA4B35A5"]
 			entity_vis_size: 1.0f
 			id: "2170141E58EFD247"
 			rewards: [
@@ -926,7 +920,7 @@
 				id: "4EA53D39C8DC4E27"
 				type: "advancement"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -8.5d
 		}
 		{
@@ -1558,8 +1552,73 @@
 				type: "item"
 			}]
 			title: "Advanced Materials"
-			x: 6.0d
+			x: 7.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["58A84DDA66A0816D"]
+			entity_vis_size: 1.0f
+			id: "77188E3C74C1654E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BC7E009EF05829E"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "0A49DFE5A77F07F1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/destabilized_item"
+				criterion: ""
+				id: "3E80AD667BDF77A0"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1CE2E59DF8AB13AF"]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tetrawear:modular_chest"
+				tag: {
+					Damage: 0
+					HideFlags: 3
+					"armor/chest/harness_material": "harness/makeshift"
+					"armor/chest/shoulderguards_material": "shoulderguards/leather"
+					"chest/arms": "armor/chest/shoulderguards"
+					"chest/inner": "armor/chest/harness"
+					honing_progress: 384
+					id: "47f92f86-1956-406a-85de-eb85328d4f28"
+				}
+			}
+			id: "189F2C8B3D6D9C32"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43B4B969C2A2E7A1"
+					table_id: 9068938414053408072L
+					type: "random"
+				}
+				{
+					id: "159D9C9EBF7D09D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1CB8B76C86C565A5"
+				type: "checkmark"
+			}]
+			title: "Modular Armour"
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	title: "Sanguines of Iron"

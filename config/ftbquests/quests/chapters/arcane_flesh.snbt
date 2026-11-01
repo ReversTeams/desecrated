@@ -1388,6 +1388,8 @@
 				"I hope this thing isn't sentient.. It's containing the souls of over a hundred dead.. entities..."
 				""
 				"&4Make it go for a run once in a while!"
+				"{@pagebreak}"
+				"&a(Note: the Urn and Ether Engine only work in the Belt Curio Slot, not the \"Curio\" Curio Slot.)"
 			]
 			entity_vis_size: 1.0f
 			id: "33F207B4C699F6C5"
@@ -1731,7 +1733,11 @@
 		}
 		{
 			dependencies: ["60A547780F1428FA"]
-			description: ["&4The Ether Engine can power ether artefacts infinitely or nearly. It can replace a soul urn and you can stop hunting for ether ashes. It is one of the most useful remains of the Sins, but one you might replace the most easily as I doubt you will keep using etheric tools for more than a century."]
+			description: [
+				"&4The Ether Engine can power ether artefacts infinitely or nearly. It can replace a soul urn and you can stop hunting for ether ashes. It is one of the most useful remains of the Sins, but one you might replace the most easily as I doubt you will keep using etheric tools for more than a century."
+				"{@pagebreak}"
+				"&a(Note: the Urn and Ether Engine only work in the Belt Curio Slot, not the \"Curio\" Curio Slot.)"
+			]
 			entity_vis_size: 1.0f
 			id: "4CEF240547D1B822"
 			rewards: [
