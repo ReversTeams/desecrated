@@ -13,16 +13,16 @@ ItemEvents.modification(event => {
 		"setArmorProtection",
 
 		// Reverse Eon Arcanist
-		4730, ["reverseeon:arcanist_helmet", 14],
-		6880, ["reverseeon:arcanist_chestplate", 19],
-		6450, ["reverseeon:arcanist_leggings", 14],
-		5590, ["reverseeon:arcanist_boots", 12],
+		730, ["reverseeon:arcanist_helmet", 9],
+		880, ["reverseeon:arcanist_chestplate", 14],
+		450, ["reverseeon:arcanist_leggings", 12],
+		590, ["reverseeon:arcanist_boots", 8],
 
 		// Reverse Eon Vertin
-		4730, ["reverseeon:vertin_hat", 14],
-		6880, ["reverseeon:vertin_suit", 19],
-		6450, ["reverseeon:vertin_leggings", 14],
-		5590, ["reverseeon:vertin_boots", 12],
+		730, ["reverseeon:vertin_hat", 9],
+		880, ["reverseeon:vertin_suit", 14],
+		450, ["reverseeon:vertin_leggings", 12],
+		590, ["reverseeon:vertin_boots", 8],
 
 	].forEach(en => {
 		if (typeof en === "number") return d = en;

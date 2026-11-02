@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "reverseeon_all",
+      "structures": [
+        "reverseeon:guiding_camp",
+        "reverseeon:manus_outpost",
+        "reverseeon:suspicious_abandoned_house",
+        "reverseeon:suspicious_abandoned_house_snowy"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

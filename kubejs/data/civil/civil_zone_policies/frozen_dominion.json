@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "frozen_dominion_all",
+      "structures": [
+        "frozen_dominion:expedition_camp",
+        "frozen_dominion:frozen_citadel",
+        "frozen_dominion:frozen_watchtower"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

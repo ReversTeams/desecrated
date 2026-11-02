@@ -16,9 +16,9 @@
 	#Range: 0.01 ~ 100.0
 	light = 1.0
 	#Range: 0.01 ~ 100.0
-	medium = 0.95
+	medium = 0.9
 	#Range: 0.01 ~ 100.0
-	heavy = 0.9
+	heavy = 0.85
 	#Range: 0.01 ~ 100.0
 	veryHeavy = 0.8
 

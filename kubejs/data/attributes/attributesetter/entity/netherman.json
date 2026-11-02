@@ -1,0 +1,36 @@
+{
+  "azazel": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 500,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "ADDITION"
+    }
+  ],
+  "azazel_human": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1500,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ]
+}

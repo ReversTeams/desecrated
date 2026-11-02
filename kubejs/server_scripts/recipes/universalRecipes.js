@@ -8,7 +8,8 @@ ServerEvents.recipes(event => {
         'fracture:infected_core',
         'fishermens_trap:fishtrap',
         'mahoutsukai:hammer',
-        'simpleenemymod:recruit_table'
+        'simpleenemymod:recruit_table',
+        'minecraft:shield'
     ]
 
     remove.forEach(item => {
@@ -575,186 +576,228 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-    Item.of('minecraft:copper_pickaxe'),
-    [
-        'AAA',
-        ' B ',
-        ' B '
-    ],
-    {
-        B: 'minecraft:stick',
-        A: 'minecraft:copper_ingot'
-    }
-)
+        Item.of('minecraft:copper_pickaxe'),
+        [
+            'AAA',
+            ' B ',
+            ' B '
+        ],
+        {
+            B: 'minecraft:stick',
+            A: 'minecraft:copper_ingot'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:copper_axe'),
-    [
-        ' AA',
-        ' BA',
-        ' B '
-    ],
-    {
-        B: 'minecraft:stick',
-        A: 'minecraft:copper_ingot'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:copper_axe'),
+        [
+            ' AA',
+            ' BA',
+            ' B '
+        ],
+        {
+            B: 'minecraft:stick',
+            A: 'minecraft:copper_ingot'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:copper_hoe'),
-    [
-        ' AA',
-        ' B ',
-        ' B '
-    ],
-    {
-        B: 'minecraft:stick',
-        A: 'minecraft:copper_ingot'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:copper_hoe'),
+        [
+            ' AA',
+            ' B ',
+            ' B '
+        ],
+        {
+            B: 'minecraft:stick',
+            A: 'minecraft:copper_ingot'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:copper_sword'),
-    [
-        ' A ',
-        ' A ',
-        ' B '
-    ],
-    {
-        B: 'minecraft:stick',
-        A: 'minecraft:copper_ingot'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:copper_sword'),
+        [
+            ' A ',
+            ' A ',
+            ' B '
+        ],
+        {
+            B: 'minecraft:stick',
+            A: 'minecraft:copper_ingot'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:copper_spear'),
-    [
-        ' AB',
-        ' CA',
-        'C  '
-    ],
-    {
-        B: 'minecraft:flint',
-        C: 'minecraft:stick',
-        A: 'minecraft:copper_ingot'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:copper_spear'),
+        [
+            ' AB',
+            ' CA',
+            'C  '
+        ],
+        {
+            B: 'minecraft:flint',
+            C: 'minecraft:stick',
+            A: 'minecraft:copper_ingot'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:wooden_spear'),
-    [
-        ' AB',
-        ' CA',
-        'C  '
-    ],
-    {
-        B: 'minecraft:flint',
-        C: 'minecraft:stick',
-        A: '#minecraft:planks'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:wooden_spear'),
+        [
+            ' AB',
+            ' CA',
+            'C  '
+        ],
+        {
+            B: 'minecraft:flint',
+            C: 'minecraft:stick',
+            A: '#minecraft:planks'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:stone_spear'),
-    [
-        ' AB',
-        ' CA',
-        'C  '
-    ],
-    {
-        B: 'minecraft:flint',
-        C: 'minecraft:stick',
-        A: '#quark:stone_tool_materials'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:stone_spear'),
+        [
+            ' AB',
+            ' CA',
+            'C  '
+        ],
+        {
+            B: 'minecraft:flint',
+            C: 'minecraft:stick',
+            A: '#quark:stone_tool_materials'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:iron_spear'),
-    [
-        ' AB',
-        ' CA',
-        'C  '
-    ],
-    {
-        B: 'minecraft:flint',
-        A: 'minecraft:iron_ingot',
-        C: 'minecraft:stick'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:iron_spear'),
+        [
+            ' AB',
+            ' CA',
+            'C  '
+        ],
+        {
+            B: 'minecraft:flint',
+            A: 'minecraft:iron_ingot',
+            C: 'minecraft:stick'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:golden_spear'),
-    [
-        ' AB',
-        ' CA',
-        'C  '
-    ],
-    {
-        A: 'minecraft:gold_ingot',
-        B: 'minecraft:flint',
-        C: 'minecraft:stick'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:golden_spear'),
+        [
+            ' AB',
+            ' CA',
+            'C  '
+        ],
+        {
+            A: 'minecraft:gold_ingot',
+            B: 'minecraft:flint',
+            C: 'minecraft:stick'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:diamond_spear'),
-    [
-        ' AB',
-        ' CA',
-        'C  '
-    ],
-    {
-        B: 'minecraft:flint',
-        A: 'minecraft:diamond',
-        C: 'minecraft:stick'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:diamond_spear'),
+        [
+            ' AB',
+            ' CA',
+            'C  '
+        ],
+        {
+            B: 'minecraft:flint',
+            A: 'minecraft:diamond',
+            C: 'minecraft:stick'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:copper_helmet'),
-    [
-        'AAA',
-        'A A',
-        '   '
-    ],
-    {
-        A: 'minecraft:copper_ingot'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:copper_helmet'),
+        [
+            'AAA',
+            'A A',
+            '   '
+        ],
+        {
+            A: 'minecraft:copper_ingot'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:copper_leggings'),
-    [
-        'AAA',
-        'A A',
-        'A A'
-    ],
-    {
-        A: 'minecraft:copper_ingot'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:copper_leggings'),
+        [
+            'AAA',
+            'A A',
+            'A A'
+        ],
+        {
+            A: 'minecraft:copper_ingot'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:copper_boots'),
-    [
-        '   ',
-        'A A',
-        'A A'
-    ],
-    {
-        A: 'minecraft:copper_ingot'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:copper_boots'),
+        [
+            '   ',
+            'A A',
+            'A A'
+        ],
+        {
+            A: 'minecraft:copper_ingot'
+        }
+    )
 
-event.shaped(
-    Item.of('minecraft:copper_chestplate'),
-    [
-        'A A',
-        'AAA',
-        'AAA'
-    ],
-    {
-        A: 'minecraft:copper_ingot'
-    }
-)
+    event.shaped(
+        Item.of('minecraft:copper_chestplate'),
+        [
+            'A A',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:copper_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('fracture:laser_gun'),
+        [
+            ' AA',
+            'ABC',
+            ' AA'
+        ],
+        {
+            A: 'sons_of_sins:soul_steel',
+            B: 'fracture:boreas_key',
+            C: 'meatweapons:meat_steel_barrel'
+        }
+    )
+
+    event.shaped(
+        Item.of('minecraft:grass_block'),
+        [
+            'ADC',
+            'BCB',
+            'CBC'
+        ],
+        {
+            A: 'concatenationcore:mixing_tool',
+            B: 'minecraft:dirt',
+            C: 'minecraft:wheat_seeds',
+            D: 'hexalia:earth_node'
+        }
+    )
+
+    event.shaped(
+        Item.of('minecraft:shield'),
+        [
+            'ABA',
+            'AAA',
+            ' A '
+        ],
+        {
+            B: 'minecraft:iron_ingot',
+            A: '#minecraft:planks'
+        }
+    )
 });

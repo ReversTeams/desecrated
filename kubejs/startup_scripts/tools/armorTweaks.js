@@ -10,11 +10,17 @@ ItemEvents.modification(event => {
 		/////////////
 		"setArmorProtection",
 
+		// Netherite
+		407, ["minecraft:netherite_helmet", 4],
+		592, ["minecraft:netherite_chestplate", 10],
+		555, ["minecraft:netherite_leggings", 7],
+		481, ["minecraft:netherite_boots", 4],
+
 		// Butchery Dragon Scale
-		4730, ["butchery:dragon_scale_armor_helmet", 14],
-		6880, ["butchery:dragon_scale_armor_chestplate", 19],
-		6450, ["butchery:dragon_scale_armor_leggings", 14],
-		5590, ["butchery:dragon_scale_armor_boots", 12],
+		4730, ["butchery:dragon_scale_armor_helmet", 12],
+		6880, ["butchery:dragon_scale_armor_chestplate", 17],
+		6450, ["butchery:dragon_scale_armor_leggings", 12],
+		5590, ["butchery:dragon_scale_armor_boots", 10],
 
 		// Biomancy Acolyte
 		200, ["biomancy:acolyte_armor_helmet", 4],

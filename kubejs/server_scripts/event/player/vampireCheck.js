@@ -12,8 +12,8 @@ PlayerEvents.loggedIn(event => {
     if (!server.persistentData.getBoolean('kubejs_vampire_check')) {
         if (!vampirePlayer || vampirePlayer.getLevel() == 0) {
             player.runCommandSilent('vampirism level vampirism:vampire 1 @s');
-            server.persistentData.putBoolean('kubejs_vampire_check', true)
         }
+        server.persistentData.putBoolean('kubejs_vampire_check', true)
     }
 
 });

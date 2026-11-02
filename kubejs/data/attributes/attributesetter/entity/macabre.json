@@ -1,0 +1,121 @@
+{
+  "the_hollow_man": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 500,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ],
+  "baal": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "gomoria": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "valamon": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "gargamaw": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "morphegor": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "meshuggeneh": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ]
+}

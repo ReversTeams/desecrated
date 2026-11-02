@@ -37,8 +37,8 @@
 			image: "butchery:block/blood_splatter_8"
 			rotation: 0.0d
 			width: 2.75d
-			x: 0.10000000000000009d
-			y: -7.5d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			alpha: 180
@@ -47,7 +47,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			alpha: 120
@@ -65,7 +65,7 @@
 			rotation: 0.0d
 			width: 1.7d
 			x: -3.0d
-			y: -7.0d
+			y: -6.5d
 		}
 	]
 	order_index: 1
@@ -82,6 +82,10 @@
 				"Putting a grinder above a sieve should automate the production of drinkable blood. While I can extract the blood from most meat in the sieve, the blood is not fully pure, but it's drinkable. I should place a container under the sieve so that blood flows down there, easy for collection. Or, I could put a blood filter down there to clean the blood right at the source."
 				""
 				"I shouldn't try to mix unpure blood and pure blood, that is a bad idea."
+				"{@pagebreak}"
+				"&a(Only raw blood, from buckets and blood bottles, goes into the blood container.)"
+				""
+				"&a(Blood, also known as regular blood or filtered blood, is used for the subsequent Neepmeat machines. You can still bottle it up by right clicking a container with 900mb of blood with a glass bottle.)"
 			]
 			entity_vis_size: 1.0f
 			id: "34B4063F2F210048"
@@ -135,7 +139,7 @@
 				}
 			]
 			x: -3.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -185,7 +189,7 @@
 			]
 			title: "Hanging"
 			x: -4.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -227,7 +231,7 @@
 			}]
 			title: "Culinary Elegance"
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -267,7 +271,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -302,7 +306,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -342,7 +346,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7522632161D258AA"]
@@ -408,7 +412,7 @@
 			]
 			title: "Butcher's Table"
 			x: -1.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -495,7 +499,7 @@
 			}]
 			title: "Cleaver"
 			x: -1.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
@@ -527,13 +531,10 @@
 			}]
 			title: "Carcasses"
 			x: -3.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"3C411C6CC29A7BBB"
-				"6B0E995FC2B51651"
-			]
+			dependencies: ["3C411C6CC29A7BBB"]
 			dependency_requirement: "one_completed"
 			description: [
 				"I threw this heart into a pool of lava surrounded by rusted metal and... what was that creature from the sky? Is this egg even safe?"
@@ -585,7 +586,8 @@
 		{
 			dependencies: [
 				"02ECCCD98242956B"
-				"532FD8D52F2ACDC8"
+				"720FB6E79AB03072"
+				"6B0E995FC2B51651"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -636,8 +638,8 @@
 					type: "item"
 				}
 			]
-			x: -1.7249999999999999d
-			y: -9.774999999999999d
+			x: -2.3d
+			y: -11.499999999999998d
 		}
 		{
 			dependencies: ["3A5B721A7E614679"]
@@ -1262,10 +1264,10 @@
 			y: -22.5d
 		}
 		{
-			dependencies: ["720FB6E79AB03072"]
+			dependencies: ["532FD8D52F2ACDC8"]
 			description: [
 				"I will need a machine to pump liquid out of containers and into pipes. A redstone-activated pump should do the trick. The redstone should create enough motion on its fluid to move the fluid."
-				""
+				"{@pagebreak}"
 				"&a(You can directly place the pump on a blood grate or filter. Make sure the small red light is pointing at the container you want to extract from.)"
 			]
 			entity_vis_size: 1.0f
@@ -1288,18 +1290,14 @@
 				item: "neepmeat:pump"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -11.0d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
-			dependencies: [
-				"5C5A1D9906886DF4"
-				"5D4499D4254102B7"
-			]
+			dependencies: ["532FD8D52F2ACDC8"]
 			dependency_requirement: "one_started"
 			description: ["Pipes will be needed to move fluids such as blood efficiently, and tanks will be needed to store it. Plain iron and copper should do."]
 			entity_vis_size: 1.0f
-			hide_dependency_lines: true
 			id: "720FB6E79AB03072"
 			rewards: [
 				{
@@ -1377,11 +1375,18 @@
 				}
 			]
 			title: "Tanks \\& Pipes"
-			x: -4.0d
+			x: -2.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["720FB6E79AB03072"]
+			description: [
+				"This mixing machine will be very useful for producing various solutions, suspensions, and slurries... but why can't I pump fluid in?"
+				""
+				"&4The mixer uses the standard fluid container port, denoted by a copepry plate and two inwards-pointing yellow arrows. This type of port draws directly from external storage, like tanks, and can't be pumped into directly."
+				""
+				"Ah, I see!"
+			]
 			entity_vis_size: 1.0f
 			id: "13F215BB3664621C"
 			rewards: [{
@@ -1394,8 +1399,8 @@
 				item: "neepmeat:mixer"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -12.0d
+			x: -0.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3E79771244634868"]
@@ -1507,6 +1512,15 @@
 		}
 		{
 			dependencies: ["7FA3BBF85B8DC373"]
+			description: [
+				"I can see the possibiilites before me... Automated storage! Logistics! Applied mechanistics!"
+				""
+				"&4Applied En--uhh... How do you know these things?"
+				""
+				"There are many popular fiction novels involving more sophisticated storage methods. I can get you a copy to eat if you'd like."
+				""
+				"&4No, it should be fine... sophisticated..."
+			]
 			entity_vis_size: 1.0f
 			id: "0740A62EA79185DE"
 			rewards: [{
@@ -1566,6 +1580,13 @@
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
+			description: [
+				"&4The ejector and item pump are similar in function but different in execution. While the item pump will queue items inside itself and attempt to route them via pipe one by one, the item pump can accomplish the same task sixteen items at a time and while pulling from multiple pipe-connected inventories, too."
+				""
+				"Is the item pump then a direct upgrade to the ejector?"
+				""
+				"&4Not exactly. As you will see later, the ejector family of devices can turn out to be even more useful in certain cases."
+			]
 			entity_vis_size: 1.0f
 			id: "76184AF5B662D149"
 			rewards: [{
@@ -1585,11 +1606,17 @@
 					type: "item"
 				}
 			]
+			title: "Ejector and Item Pump"
 			x: -5.0d
 			y: -24.5d
 		}
 		{
 			dependencies: ["0740A62EA79185DE"]
+			description: [
+				"&4These are relatively self-explanatory: using the strangely precise innate identifier system, the items travelling through a section of pipe can be routed into different branches."
+				""
+				"Do all items in the world get labelled by some sort of &6Demiurge&r?"
+			]
 			entity_vis_size: 1.0f
 			id: "383F0CE846800B66"
 			rewards: [{
@@ -1742,6 +1769,11 @@
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
+			description: [
+				"By mixing gland potatoes into water, eldritch enzymes can be made, which easily form fat compounds with various minerals if dissolved in a rendering basin. These fats can then be siphoned up by a dedicated collector. "
+				""
+				"From there, I can spin these fats down to clean them of impurities and press the oils out of the result to get a higher yield than processing ore in a furnace."
+			]
 			entity_vis_size: 1.0f
 			id: "3B0305E4481DF5EB"
 			rewards: [{
@@ -1761,13 +1793,14 @@
 					type: "item"
 				}
 			]
+			title: "Ore Fat Dissolution"
 			x: -9.0d
 			y: -17.5d
 		}
 		{
 			dependencies: ["7B5907164F7959A4"]
 			description: [
-				"&4The pressing basin, paired with a matching hydraulic press, can turn liquid suspensions back into solid items."
+				"&4The pressing basin, paired with a matching hydraulic press, can turn liquid suspensions such as fats and oils back into solid items."
 				""
 				"Can I press meat?"
 				""
@@ -1800,6 +1833,11 @@
 		}
 		{
 			dependencies: ["7DC39383E7D870D5"]
+			description: [
+				"I swear these move sometimes."
+				""
+				"&4Of course they move, that's precisely one of their purposes. These components are extremely versatile and can perform basic automatic actuations or simply transmit energy or motion."
+			]
 			entity_vis_size: 1.0f
 			id: "538E3136ADC8067A"
 			rewards: [
@@ -1842,7 +1880,18 @@
 			y: -16.5d
 		}
 		{
-			dependencies: ["7FA3BBF85B8DC373"]
+			dependencies: ["0740A62EA79185DE"]
+			description: [
+				"&4Fabricator units are extremely useful to automate the crafting of various components."
+				""
+				"What if I need to craft something with components that themselves need to be crafted?"
+				""
+				"&4Ah, recursive crafting. If you invest in networked pipes with the Pipe Driver, you can connect multiple fabricators to the same pipe network and they will become able to fulfil deferred requests."
+				""
+				"Ah. I see. There's going to be a lot of network jargon now isn't there."
+				""
+				"&4Indeed. For any clarifications, you can use the guide projector, as usual. Just don't get retinal burn-in."
+			]
 			entity_vis_size: 1.0f
 			id: "5463C9816BB2B2AF"
 			rewards: [{
@@ -1855,23 +1904,55 @@
 				item: "neepmeat:fabricator"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -21.0d
+			x: -6.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["2ED8C90203220E71"]
+			description: [
+				"I have so many different kinds of food items on my hands, it's starting to cause serious clutter. &4Grisha&r, is there a solution to this?"
+				""
+				"&4You could put them all into a Mincer to turn them into indistinguishable nutrient-rich food paste."
+				""
+				"That doesn't sound appetising..."
+				""
+				"&4This is how sausages are made. You should know this, young sanguine, it's quite common knowledge."
+				""
+				"I know, but the way you put it makes it seem wrong."
+				""
+				"&4Why are you acting over-lucid now? You were writing about the wonders of flesh just a few hours ago."
+				"{@pagebreak}"
+				"&a(The Item Mincer can mince food items into Reconstituted Food fluid. This fluid can mix within NEEPMeat tanks.)"
+				""
+				"&a(The Bottler can insert fluids from a tank below into supported items placed inside, such as living tools, pressure washers, or cartons.)"
+			]
 			entity_vis_size: 1.0f
 			id: "448AA4CC0FADE7BB"
-			rewards: [{
-				id: "4162625EF8A32EB1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "143FEF09ED73350E"
-				item: "neepmeat:item_mincer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4162625EF8A32EB1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "54235995B9516B96"
+					item: "neepmeat:meat_carton"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "143FEF09ED73350E"
+					item: "neepmeat:item_mincer"
+					type: "item"
+				}
+				{
+					id: "60AAE5B568EE33C9"
+					item: "neepmeat:bottler"
+					type: "item"
+				}
+			]
+			title: "Reconstituted Food and Bottling"
 			x: -2.0d
 			y: -21.0d
 		}
@@ -1920,6 +2001,11 @@
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
+			description: [
+				"Now I can suck up trees like noodles!"
+				""
+				"&4I fear asking how much suction force this device is somehow capable of producing. Myabe equivalent to the near gravitational pull of a small star?"
+			]
 			entity_vis_size: 1.0f
 			id: "5711D5111A0391DF"
 			rewards: [{
@@ -1932,12 +2018,14 @@
 				item: "neepmeat:tree_vacuum"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -21.0d
+			x: 2.5d
+			y: -21.5d
 		}
 		{
-			dependencies: ["187D75D48A04D454"]
+			dependencies: ["7CB4D77815BD3A65"]
+			description: ["A larger air compressor! Do I even need compressed air anymore? Maybe more complex machinery will eventually have a use for this? This unit would be large enough to actuate a large pneumatic piston or pump..."]
 			entity_vis_size: 1.0f
+			hide_dependent_lines: true
 			id: "7B80019ED864FE05"
 			rewards: [{
 				id: "200E38F478CB0640"
@@ -1949,11 +2037,18 @@
 				item: "neepmeat:large_compressor"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -14.0d
+			x: 0.5d
+			y: -29.0d
 		}
 		{
-			dependencies: ["76EB939D9E63EC40"]
+			dependencies: ["7F638D83710A4BFD"]
+			description: [
+				"How does this even make the vaporised matter return to the machine base for output?"
+				""
+				"&4I believe it is \"suggesting\" its behaviour as a drill to the ray. Being made of channelled enlightenment, it will readily take this suggestion into its behaviour."
+				""
+				"Blessed are we, holders of this power..."
+			]
 			entity_vis_size: 1.0f
 			id: "65DC84966035E4A3"
 			rewards: [{
@@ -1966,8 +2061,8 @@
 				item: "neepmeat:extractor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -22.0d
+			x: 5.0d
+			y: -32.5d
 		}
 		{
 			dependencies: [
@@ -2032,11 +2127,12 @@
 				type: "item"
 			}]
 			title: "Meat Steel Tools"
-			x: -3.0d
-			y: -17.0d
+			x: -4.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
+			description: ["This specialised workbench should make it much easier to put together, take apart, and modify modular tools and weapons! I wonder what the most effective modular weapon is..."]
 			entity_vis_size: 1.0f
 			id: "2AFF8D698827E4C9"
 			rewards: [{
@@ -2063,6 +2159,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Carbon neutral?"
 			tasks: [{
 				id: "3C4A4BC8AC53FF93"
 				item: "meatweapons:airtruck"
@@ -2155,6 +2252,7 @@
 					type: "item"
 				}
 			]
+			title: "Staff and Melee"
 			x: 6.0d
 			y: -12.5d
 		}
@@ -2400,8 +2498,9 @@
 				title: "Any Gun Base"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -14.0d
+			title: "Gun Bases"
+			x: 7.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["2BCABB8D4AB8F275"]
@@ -2449,8 +2548,8 @@
 				title: "Any Barrel"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -13.5d
+			x: 8.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["2AFF8D698827E4C9"]
@@ -2462,7 +2561,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "0450D77E5B6D3E97"
+				id: "38FA920D6F460BB1"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -2484,12 +2583,17 @@
 								Count: 1b
 								id: "meatweapons:bone_stealer"
 							}
+							{
+								Count: 1b
+								id: "meatweapons:phage_ray_speed_modifier"
+							}
 						]
 					}
 				}
 				title: "Any Meatgun Module"
 				type: "item"
 			}]
+			title: "Meatgun Modules"
 			x: 7.5d
 			y: -15.5d
 		}
@@ -2503,51 +2607,11 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "36135A0DB3434FA6"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "meatweapons:slow_barrel"
-							}
-							{
-								Count: 1b
-								id: "meatweapons:basic_stock"
-							}
-							{
-								Count: 1b
-								id: "meatweapons:x2_firing_mechanism"
-							}
-							{
-								Count: 1b
-								id: "meatweapons:x8_firing_mechanism"
-							}
-						]
-					}
-				}
-				title: "Any Meatgun Stock"
+				id: "761323D361C87F7B"
+				item: "meatweapons:basic_stock"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -17.0d
-		}
-		{
-			dependencies: ["284AA21204626971"]
-			entity_vis_size: 1.0f
-			id: "2A6D6B86EC28F5B2"
-			rewards: [{
-				id: "65974566877B58E6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "04B0B0CB5EB1B295"
-				item: "meatweapons:phage_ray_speed_modifier"
-				type: "item"
-			}]
+			title: "Stock"
 			x: 9.0d
 			y: -15.5d
 		}
@@ -2585,11 +2649,19 @@
 				title: "Any Meatgun Implant"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -17.0d
+			title: "Meatgun-Related Implants"
+			x: 8.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["2DAC335CFE949E98"]
+			description: [
+				"&4The Divine Organ."
+				""
+				"The Divine Organ..."
+				""
+				"&4This heart will pump the veins of the world with the flow of enlightenment. Channelling this esoteric energy is the gateway to reshaping the very nature of the Earth."
+			]
 			entity_vis_size: 1.0f
 			id: "5EAEE969037829A4"
 			rewards: [{
@@ -2609,6 +2681,11 @@
 			dependencies: [
 				"5EAEE969037829A4"
 				"3460CBDF9DA51D73"
+			]
+			description: [
+				"&4Most fascinating, this so-called \"Phage Ray\" is intense in enlightenment radiation. It should be able to break down the extraterrestrial minerals that have been raining upon these lands."
+				""
+				"I can finally get back at these clanging, howling horrors that have been infesting my livestock!"
 			]
 			entity_vis_size: 1.0f
 			id: "7F638D83710A4BFD"
@@ -2689,8 +2766,8 @@
 				item: "neepmeat:fluid_drain"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -12.0d
+			x: -0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -2699,6 +2776,7 @@
 			]
 			description: ["&4When moving from raw transient ichor to vascular power, you will need a better transport. This three-way vascular conduit filled with integration fluid can efficiently balance this new form of power."]
 			entity_vis_size: 1.0f
+			hide_dependent_lines: true
 			id: "2C7E9493B5246AF6"
 			rewards: [
 				{
@@ -2712,6 +2790,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Veins for a Heart Machine"
 			tasks: [{
 				id: "213C9848EF8C24B2"
 				item: "neepmeat:vascular_conduit"
@@ -2820,8 +2899,8 @@
 				item: "neepmeat:blood_bubble_sapling"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -19.0d
+			x: 1.6500000000000001d
+			y: -19.8d
 		}
 		{
 			dependencies: ["15C64A76D9BDAF58"]
@@ -2852,7 +2931,7 @@
 				item: "neepmeat:blood_bubble"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -20.0d
 		}
 		{
@@ -2871,7 +2950,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -8.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1A04E17C449CBCF1"]
@@ -3069,7 +3148,7 @@
 			]
 			title: "Butchering Tools"
 			x: -3.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -3100,7 +3179,7 @@
 				}
 			]
 			x: -5.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["63F1C9A1095AEC1E"]
@@ -3161,7 +3240,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["623C14C05294EFCC"]
@@ -3193,7 +3272,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1E9B68675477C2B1"]
@@ -3279,8 +3358,8 @@
 				type: "item"
 			}]
 			title: "Meteorite Tools"
-			x: 2.5d
-			y: -11.0d
+			x: -13.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7F638D83710A4BFD"]
@@ -4081,8 +4160,8 @@
 				}
 			]
 			title: "Browne"
-			x: -5.0d
-			y: -8.5d
+			x: -5.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -4267,11 +4346,12 @@
 				item: "concatenatedadditionsmachines:meteorite"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.5d
+			x: -13.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
+			description: ["Looks friendly. Does a good job. Good critter."]
 			entity_vis_size: 1.0f
 			id: "0EBD548B39FF4C0C"
 			rewards: [
@@ -4301,6 +4381,7 @@
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
+			description: ["With this, my tools will be able to repair themselves directly from food! This can also replace the pneumatic motor in my drill, removing the requirement for an air compressor! I should carry around a tank of reconstituted food for quick top-ups."]
 			entity_vis_size: 1.0f
 			id: "647EC0D4E1BC3C39"
 			rewards: [
@@ -4349,11 +4430,36 @@
 				item: "neepmeat:grave_brome"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -17.5d
+			x: 2.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["64FCA03D70F9CBEC"]
+			description: [
+				"THE ENLIGHTENED ONE PRESENTS ITSELF UPON OUR &cDESECRATED&r LANDS TO MEET US!"
+				""
+				"&4Young sanguine. Listen. Your enlightenment exposure is beyond reasonable. This is a fascinating advancement, yes, but for my safety and your own, stop scrutinizing the abyss so intently. It has been staring back all the while crawling its way over."
+				""
+				"IT DEMANDS TO BE FED GREATER DATA!"
+				""
+				"&4Perhaps I can share your burden? I am unsure if my sentience is of a compatible kind, but if I can consume so much knowledge, surely I am more adapted to contain this enlightenment?"
+				"{@pagebreak}"
+				"&4..."
+				""
+				"... &4Grisha&r? My mind is clearer now, are you here?"
+				""
+				"&4I have no head and yet it spins... Young sanguine, you owe me your sanity... I have digested the knowledge stemming from the enlightenment but I can do nothing about the radiation itself..."
+				""
+				"Did you learn something useful?"
+				""
+				"&4I have seen the Sacred and the Terrible, the Enlightened and the Obscene. I know what came before, and I glimpse at what comes after. I feel shivers across my cover, a twitching in my spine."
+				"{@pagebreak}"
+				"&4The Advanced Integrator is capable of containing twice the amount of enligtenment data. Provided, that is, that an appropriately powered pylon is present nearby to allow it to surpass its natural bounds. Extending meat steel blocks in a pyramid shape from the base of a pylon will amplify its range and power, but beware of potential instability..."
+				""
+				"What can we acquire from this?"
+				""
+				"&4Young sanguine, we are entering a new era, supplied by the Divine. There is no telling the ways we will be able to remake the world."
+			]
 			entity_vis_size: 1.0f
 			id: "2DAC335CFE949E98"
 			rewards: [{
@@ -4362,11 +4468,19 @@
 				xp_levels: 1
 			}]
 			size: 1.25d
-			tasks: [{
-				id: "0617425C5A771B6C"
-				item: "neepmeat:advanced_integrator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0617425C5A771B6C"
+					item: "neepmeat:advanced_integrator"
+					type: "item"
+				}
+				{
+					id: "1348E5FA3BFBE5B8"
+					item: "neepmeat:pylon"
+					type: "item"
+				}
+			]
+			title: "The Advanced Integrator"
 			x: 4.5d
 			y: -29.0d
 		}
@@ -4379,23 +4493,26 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [
-				{
-					id: "13A1C34007267AA8"
-					item: "neepmeat:upgrade_manager"
-					type: "item"
-				}
-				{
-					id: "686F7FFC5094AD55"
-					item: "neepmeat:implanter"
-					type: "item"
-				}
-			]
-			x: 4.0d
+			tasks: [{
+				id: "686F7FFC5094AD55"
+				item: "neepmeat:implanter"
+				type: "item"
+			}]
+			title: "Implants"
+			x: 4.5d
 			y: -24.0d
 		}
 		{
 			dependencies: ["6316E079115AB0BC"]
+			description: [
+				"&4Grisha&r, I have &cdesecrated&r the divine child. I see the mother-worm in the sky. It- it &ocongradulated&r me, rewarded and cursed me with knowledge I cannot contain."
+				""
+				"&4Young sanguine? Are you alright?"
+				""
+				"No, no. I have heard. I know what must be done."
+				"{@pagebreak}"
+				"&a(Use the Tissue Operator to cut open an Integrator Egg)"
+			]
 			entity_vis_size: 1.0f
 			id: "7E578A9787FE3B42"
 			rewards: [{
@@ -4412,7 +4529,21 @@
 			y: -25.5d
 		}
 		{
-			dependencies: ["7E578A9787FE3B42"]
+			dependencies: [
+				"7E578A9787FE3B42"
+				"62D4C1223BCCADBD"
+			]
+			description: [
+				"The divine child's pupal form must be elevated by the combination of its enlightened neurovasculature with a lowly phenomenal husk from our world. I should insert it into a cow to gestate, to reveal its true and glorious form."
+				""
+				"&4..."
+				""
+				"I will need a new device to allow me to filter the glorious and terrible appearance in a way that can be seen by such puny life as myself.... or I could replace my eyes altogether."
+				"{@pagebreak}"
+				"&a(Implant the Divine Chrysalis into a cow using the PLC's IMPLANT instruction. The cow must be standing on top of a surgery platform to be recognized.)"
+				""
+				"&a(Be warned, the Bovine Horror may damage its surroundings and will definitely try to damage you.)"
+			]
 			entity_vis_size: 1.0f
 			id: "64FCA03D70F9CBEC"
 			rewards: [{
@@ -4473,7 +4604,18 @@
 			y: -27.0d
 		}
 		{
-			dependencies: ["5EAEE969037829A4"]
+			dependencies: [
+				"5EAEE969037829A4"
+				"7B80019ED864FE05"
+			]
+			description: [
+				"Was this in the guide projector all along?"
+				""
+				"&4Yes. We simply couldn't perceive it. "
+				"&4This pump will allow us to churn up the very bowels of the earth and to plumb even into adjacent planes, returning their ores to our surface. We will stain the world a blackened brown, a meager cost for the boundless resources this process will supply us forevermore."
+				""
+				"This will require a large volume of integration fluid and... Ah! Finally, a use for my large compressor! This is just the kind of pneumatic actuator it was made for!"
+			]
 			entity_vis_size: 1.0f
 			id: "30BF5FDB595996F0"
 			rewards: [{
@@ -4527,7 +4669,7 @@
 				}
 			]
 			x: -6.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2388743859062AD5"]
@@ -4552,6 +4694,21 @@
 				"76EB939D9E63EC40"
 				"0740A62EA79185DE"
 			]
+			description: [
+				"&4The heart of the pipe network. The Pipe Driver handles requests from pipe-networked devices like requesters, fabricators, and storage drivers."
+				""
+				"It's making piglin noises."
+				""
+				"&4Did you not make it using a piglin?"
+				""
+				"No. I could do that?"
+				""
+				"&4That's one of the ways to make them, yes?"
+				""
+				"... Would it be cheaper?"
+				""
+				"&4Your pure pragmatism concerns me, young sanguine. I can't stop you, either way. It could be less expensive resource-wise, yes."
+			]
 			entity_vis_size: 1.0f
 			id: "244378143BF3B0D3"
 			tasks: [{
@@ -4564,6 +4721,15 @@
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
+			description: [
+				"Plants can photosynthesize, can I use this behaviour to produce power?"
+				""
+				"&4A perfect first bio-engineering project, young sanguine. Perhaps this will make you go outside again."
+				""
+				"But the sun hurts."
+				""
+				"&4Quit your excuses, you should have at least an asbestos helmet already."
+			]
 			entity_vis_size: 1.0f
 			id: "7169247966F70F91"
 			rewards: [{
@@ -4576,11 +4742,27 @@
 				item: "neepmeat:power_flower_seeds"
 				type: "item"
 			}]
+			title: "The Power Flower"
 			x: -0.5d
 			y: -24.5d
 		}
 		{
 			dependencies: ["7169247966F70F91"]
+			description: [
+				"The glory of the plant-flesh! The delectable tension of the photosynthetic vacuole! I quiver in delight! Grow, my power flowers!"
+				""
+				"&4... Have you by any chance checked your enlightenment exposure recently?"
+				""
+				"I am perfectly fine, I simply &omust&r praise the glory of the purposed organisms. Oh how it grows! It grows!"
+				"{@pagebreak}"
+				"It... wait, it's growing vines over itself, how am I going to maintain steady ichor production with these... these... &ogrines&r growing all over them?!"
+				""
+				"&4You could clear them by hand, or make use of a pressure washer of some kind to blast them off with water."
+				""
+				"Or I could feed them with delicious reconstituted food."
+				""
+				"&4Or that. You can do that too."
+			]
 			entity_vis_size: 1.0f
 			id: "0D80DDDC0EA03205"
 			rewards: [{
@@ -4638,7 +4820,23 @@
 			y: -26.0d
 		}
 		{
-			dependencies: ["0D80DDDC0EA03205"]
+			dependencies: [
+				"0D80DDDC0EA03205"
+				"2C7E9493B5246AF6"
+			]
+			description: [
+				"&4The Heart Machine will allow you to circulate power more efficiently, but will require the appropriately upgraded infrastructure."
+				""
+				"What are the gains of circulating droplets of integration fluid instead of raw ichor?"
+				""
+				"&4Previous records show a half-fold increase."
+				""
+				"That's not much..."
+				""
+				"&4If you take it as a baseline, your current power is only two-thirds as efficient. The difference can be quite significant, especially since the more advanced motors can go up to twice the speed."
+				""
+				"Hmm... indeed, that could help quite a bit."
+			]
 			entity_vis_size: 1.0f
 			id: "25375D02836A613F"
 			rewards: [{
@@ -4659,6 +4857,7 @@
 				"25375D02836A613F"
 				"7CB4D77815BD3A65"
 			]
+			description: ["&4You seek a less manual power generation method than overgrown power flowers? It is wise to turn from plant metabolism to animal metabolism. With a stomach and metaboliser array, you can convert feed directly into fascular power, bypassing the conversion to and from transient ichor."]
 			entity_vis_size: 1.0f
 			id: "110E1041B34B98D0"
 			rewards: [{
@@ -4678,11 +4877,17 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -28.5d
+			title: "Metabolic Power"
+			x: -1.0d
+			y: -29.0d
 		}
 		{
 			dependencies: ["110E1041B34B98D0"]
+			description: [
+				"It's simple: more motor per motor."
+				""
+				"&4It also notably has a four hundred esoteric joules higher power limit than the advanced motor, so it's also more power per motor. Given machines can only take pwoer from a single motor, this can be a quite significant gain."
+			]
 			entity_vis_size: 1.0f
 			id: "7C9CD7D04AD20AA6"
 			rewards: [{
@@ -4695,11 +4900,22 @@
 				item: "neepmeat:large_motor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -30.0d
+			x: -1.0d
+			y: -30.5d
 		}
 		{
 			dependencies: ["76EB939D9E63EC40"]
+			description: [
+				"There are so many ways to put together a living machine! Using biomechanical and other more specialised components, I can make self-regulating systems capable of higher complexity and higher efficiency manufacturing. &4Grisha&r, what type of machine block is the most efficient?"
+				""
+				"&4Out of the recorded types, the skin machine block seems to have the most efficient balance of mass, power rating, and healing factor."
+				""
+				"Perfect, I'll cover them all in skin."
+				"{@pagebreak}"
+				"&4Do remember to keep some of the standard yellow-painted ones, as they're the only ones supported in the manufacturing process of controllers. Though, is the appearance of wide areas of skin not unnerving to you? I hear that seeing animal parts being misplaced or distorted causes a promordial discomfort reaction in other animal species."
+				""
+				"I see my own skin every day, do I not?"
+			]
 			entity_vis_size: 1.0f
 			id: "38F020EC3A2770E9"
 			rewards: [
@@ -4749,6 +4965,21 @@
 		}
 		{
 			dependencies: ["38F020EC3A2770E9"]
+			description: [
+				"&4Your living machines will need ports to transfer resources into and out of them. Solids, liquids, and mechanical energy may be involved."
+				""
+				"That's a lot of types to manufacture and store..."
+				""
+				"&4It is recorded that engineers that have touched enlightenment are somehow capable of transform any port type into any other through sheer concentration and... squatting."
+				""
+				"Squatting? Like, the exercise?"
+				""
+				"&4Indeed, these are strange records..."
+				"{@pagebreak}"
+				"&a(Sneak-scroll to switch between living machine port types.)"
+				""
+				"&a(Crafting fluid input ports and swapping them from there is the most material-efficient because of the crafting ratio of pipes.)"
+			]
 			entity_vis_size: 1.0f
 			id: "17088B6A27E2C546"
 			rewards: [{
@@ -4773,11 +5004,23 @@
 					type: "item"
 				}
 			]
+			title: "Living Machine Ports"
 			x: 2.0d
 			y: -26.0d
 		}
 		{
 			dependencies: ["38F020EC3A2770E9"]
+			description: [
+				"Machine casing, a screen, and a control unit tied together with a pouring of integration fluid. It's alive! With this controller, the inner workings of living machines should be able to sort themselves out for the most part."
+				""
+				"&4Remember to keep it healthy, or it may quit the job you gave it."
+				""
+				"... It can do that?"
+				""
+				"&4It can simply crawl away if critically stressed. There are many such cases. It may even attempt to bite your legs off if it comes to it."
+				""
+				"Noted. I'll take good care of it."
+			]
 			entity_vis_size: 1.0f
 			id: "7CB4D77815BD3A65"
 			rewards: [{
@@ -4795,6 +5038,7 @@
 		}
 		{
 			dependencies: ["7CB4D77815BD3A65"]
+			description: ["A bigger trommel can process more liquid in its barrel at a time and at lower speeds. This should be an overall efficiency increase, if I can afford it."]
 			entity_vis_size: 1.0f
 			id: "162BD9699201E50E"
 			rewards: [{
@@ -4807,8 +5051,8 @@
 				item: "neepmeat:large_trommel"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -28.0d
+			x: 2.0d
+			y: -27.5d
 		}
 		{
 			dependencies: [
@@ -4843,9 +5087,11 @@
 		{
 			dependencies: ["34B4063F2F210048"]
 			description: [
-				"The blood grate isn't perfect for filtering and the blood sieve doesn't produce high enough quality blood. There's all of these bits of grinded meat in there. Sure, it adds a little taste for me, but when I use this blood for other endeavours, I will need cleaner blood."
+				"The blood grate isn't perfect for filtering and the blood sieve doesn't produce high enough quality blood. There's all of these bits of ground meat in there. Sure, it adds a little taste for me, but when I use this blood for other endeavours, I will need cleaner blood."
 				""
 				"This blood filter has one purpose: cleaning the raw blood. It contains two internal tanks and a filter system making use of gravity. That way, just inputting raw blood suffices to clean it."
+				"{@pagebreak}"
+				"&a(Blood, also known as regular blood or filtered blood, is used for the subsequent Neepmeat machines. You can still bottle it up by right clicking a container with 900mb of blood with a glass bottle.)"
 			]
 			entity_vis_size: 1.0f
 			id: "532FD8D52F2ACDC8"
@@ -4874,8 +5120,160 @@
 				item: "desecratedcore:blood_filter"
 				type: "item"
 			}]
-			x: -2.3d
-			y: -8.4d
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["76184AF5B662D149"]
+			description: [
+				"Oh, I see now! These ejectors, while they can still only pull from one inventory, implement the features found in the filters."
+				""
+				"&4Indeed. The Advanced Ejector also has an integrated pipe section, meaning it can be placed directly in the flow of the network and let items pass along through it if they need to."
+			]
+			entity_vis_size: 1.0f
+			id: "7AD082DA76219A04"
+			tasks: [
+				{
+					id: "01F710A03735D0B0"
+					item: "neepmeat:filtered_ejector"
+					type: "item"
+				}
+				{
+					id: "69AF553D3FEDC6D5"
+					item: "neepmeat:advanced_ejector"
+					type: "item"
+				}
+			]
+			title: "Specialised Ejectors"
+			x: -5.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["244378143BF3B0D3"]
+			description: [
+				"&4The main use for a pipe network is routed storage. Using the Manual Requester and Storage Driver, one can access multiple adjointed storages and even emit requests to craft items if a Fabricator with a corresponding recipe is also attached."
+				""
+				"I can see how this comes together with the other pipe devices to create a powerful central storage system."
+				""
+				"&4Indeed. In fact, there are rumours of an even more powerful storage paradigm after this one, though my records are currently incomplete. It has something to do with extraterrestrial technology only obtainable with highly enlightened technology."
+			]
+			entity_vis_size: 1.0f
+			id: "315F9AFDB7B32BE9"
+			tasks: [
+				{
+					id: "22F0A0A3ADFBBE49"
+					item: "neepmeat:item_requester"
+					type: "item"
+				}
+				{
+					id: "60776C77B599CD85"
+					item: "neepmeat:storage_bus"
+					type: "item"
+				}
+			]
+			title: "Connected Storage"
+			x: -2.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["62D4C1223BCCADBD"]
+			entity_vis_size: 1.0f
+			id: "1431175D39AB48F1"
+			tasks: [{
+				id: "784CE548E713C3FF"
+				item: "neepmeat:upgrade_manager"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["65DC84966035E4A3"]
+			description: ["How blasting matter with a beam of enlightenment could ever become delicate and silky from such a simple addition is beyond my understanding, even now."]
+			entity_vis_size: 1.0f
+			id: "01FD29110950F164"
+			tasks: [{
+				id: "027B3A4BF58287D7"
+				item: "neepmeat:silky_extractor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["7CB4D77815BD3A65"]
+			description: [
+				"This larger crusher can benefit from stacking more crushing jaw segments and generally benefits from the efficiency gains of scale. With its large hopper, it can also fit whole creatures! I wonder what I could crush in this?"
+				""
+				"&4Perhaps you could lure those extraterrestrial abominations into it to more easily deal with them?"
+				""
+				"Wonderful idea!"
+			]
+			entity_vis_size: 1.0f
+			id: "7B010880EE23B3F4"
+			tasks: [
+				{
+					id: "40F40A1AAD0D953C"
+					item: "neepmeat:largest_hopper"
+					type: "item"
+				}
+				{
+					id: "0BD592BBE45CF012"
+					item: "neepmeat:crusher_segment"
+					type: "item"
+				}
+				{
+					id: "67899EDB1EED007A"
+					item: "neepmeat:lucky_one"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Large Crusher"
+			x: 1.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["284AA21204626971"]
+			entity_vis_size: 1.0f
+			id: "373A277D23268929"
+			tasks: [{
+				id: "1A3C758241D3B62A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "meatweapons:x2_firing_mechanism"
+							}
+							{
+								Count: 1b
+								id: "meatweapons:x8_firing_mechanism"
+							}
+						]
+					}
+				}
+				title: "Any Firing Mechanism"
+				type: "item"
+			}]
+			title: "Firing Mechanisms"
+			x: 8.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7396E6E0E4CD2397"]
+			entity_vis_size: 1.0f
+			id: "3C4E8242B4A2DDE2"
+			tasks: [{
+				id: "3C72E99EEAD5425C"
+				item: "meatweapons:slow_barrel"
+				type: "item"
+			}]
+			title: "Barrel Attachments"
+			x: 10.0d
+			y: -13.0d
 		}
 	]
 	title: "Flesh Industries"

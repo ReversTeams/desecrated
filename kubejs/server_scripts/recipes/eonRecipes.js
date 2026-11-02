@@ -35,12 +35,29 @@ ServerEvents.recipes(event => {
             'AFA'
         ],
         {
-            A: 'reverseeon:french_blue',
+            A: 'desecratedcore:overflowing_red',
             E: 'desecratedcore:artificial_life',
             B: 'desecratedcore:enlightened_chrysalis',
             C: 'desecratedcore:primordial_life',
             D: 'desecratedcore:macabre_heart',
             F: 'desecratedcore:bloody_whisper'
+        }
+    )
+
+    event.shaped(
+        Item.of('desecratedcore:overflowing_red'),
+        [
+            'ABC',
+            'BDB',
+            'EBF'
+        ],
+        {
+            A: 'desecratedcore:all_node',
+            C: 'reliquary:witherless_rose',
+            B: 'reverseeon:french_blue',
+            E: 'otherverse:cinnabar',
+            F: 'modestmining:valkyrium_ingot',
+            D: 'desecratedcore:mana_apple'
         }
     )
 })

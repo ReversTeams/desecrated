@@ -1151,15 +1151,6 @@
       ]
     },
     {
-      "id": "blood_arsenal_reawakened:celestial_cathedral",
-      "displayName": "Celestial Cathedral",
-      "isVanilla": false,
-      "dimensions": [
-        "blood_arsenal_reawakened:white_day",
-        "reverseeon:depth_of_myth"
-      ]
-    },
-    {
       "id": "blood_arsenal_reawakened:choir_ruins",
       "displayName": "Choir Ruins",
       "isVanilla": false,
@@ -1220,6 +1211,16 @@
       "dimensions": [
         "reverseeon:depth_of_myth",
         "blood_arsenal_reawakened:black_void"
+      ]
+    },
+    {
+      "id": "blood_arsenal_reawakened:sleeper_crypt",
+      "displayName": "Sleeper Crypt",
+      "isVanilla": false,
+      "dimensions": [
+        "reverseeon:depth_of_myth",
+        "minecraft:overworld",
+        "fracture:flesh_dimension"
       ]
     },
     {

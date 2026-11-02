@@ -1,0 +1,16 @@
+{
+  "prowler": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "BASE"
+    }
+  ],
+  "blood_spreader": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 15,
+      "operation": "BASE"
+    }
+  ]
+}

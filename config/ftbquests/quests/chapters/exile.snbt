@@ -702,7 +702,7 @@
 				"{@pagebreak}"
 				"&a(Press V by default on animals or villagers to drink their blood when you see the icon. Keep glass bottles in your hotbar to fill them with blood instead when you drink blood. Blood production can be automated in the &oFlesh Industries &r&aquest chapter.)"
 				""
-				"&a(You can right click any container with 1000mb of blood to fill the bottle with blood, whether it be a tank, a grate, etc. You can also throw a bottle into liquid blood blocks to fill the bottle.)"
+				"&a(You can right click any container with 900mb of blood to fill the bottle with blood, whether it be a tank, a grate, etc. You can also throw a bottle into liquid blood blocks to fill the bottle.)"
 			]
 			entity_vis_size: 1.0f
 			id: "3F69B451E4B11129"
@@ -2039,11 +2039,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "75BA4B7290E1DA00"
-			rewards: [{
-				id: "5354A5C3532AEDEC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "434B7027748617A9"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "5354A5C3532AEDEC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Vine Amulet"
 			tasks: [{
 				id: "27053741C5223121"
@@ -2051,8 +2059,8 @@
 				type: "item"
 			}]
 			title: "Sanguine of Vine"
-			x: 0.0d
-			y: 9.0d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
@@ -2060,11 +2068,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "2139C028FEBE8500"
-			rewards: [{
-				id: "33606F1F9F7ABF41"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A411FE24D3DA957"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "33606F1F9F7ABF41"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Darkstone Ring"
 			tasks: [{
 				id: "395989B7E42FBDA2"
@@ -2072,7 +2088,7 @@
 				type: "item"
 			}]
 			title: "Sanguine of Iron"
-			x: 1.0d
+			x: 0.0d
 			y: 10.0d
 		}
 		{
@@ -2085,11 +2101,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "04E0E5A8D3613D91"
-			rewards: [{
-				id: "3D03F1CE4950724E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CDE21C59161D6A2"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "3D03F1CE4950724E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Spectral Feather"
 			tasks: [{
 				id: "2F6214FC32F1CE77"
@@ -2097,8 +2121,8 @@
 				type: "item"
 			}]
 			title: "Spectral Artificer"
-			x: 3.0d
-			y: 10.0d
+			x: 2.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["71FEEA1CF45FCE10"]
@@ -2110,11 +2134,19 @@
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "3B6BAB7182971A38"
-			rewards: [{
-				id: "10514781DB08653E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66E3BD1B45DA35AF"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "10514781DB08653E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Tarot: The Moon"
 			tasks: [{
 				id: "40A1B80F22D3CCCF"
@@ -2122,8 +2154,8 @@
 				type: "item"
 			}]
 			title: "Cultists of the Moon"
-			x: 4.0d
-			y: 9.0d
+			x: 3.5d
+			y: 10.0d
 		}
 		{
 			description: [
@@ -2144,7 +2176,7 @@
 				""
 				"&4With an enchanting table made from copper and diamonds, you will be able to obtain common enchantments, but not anything particularly more advanced."
 				""
-				"&a(Amethyst infusion templates can only apply dormant relics. Higher tiers require Restorine infusion templates, available to Spectral Artificers.)"
+				"&a(Amethyst infusion templates can only apply dormant, stirring, and waking relics. Higher tiers require Restorine infusion templates, available to Spectral Artificers.)"
 			]
 			entity_vis_size: 1.0f
 			icon: "ascendant_arcana:copper_enchanting_table"
@@ -2190,62 +2222,18 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "itemfilters:strong_nbt"
-									tag: {
-										value: {
-											RelicStrength: 1
-											RelicType: 0
-										}
-									}
+							items: [{
+								Count: 1b
+								id: "ascendant_arcana:relic"
+								tag: {
+									RelicStrength: 1
+									RelicType: "ascendant_arcana:damage"
 								}
-								{
-									Count: 1b
-									id: "itemfilters:strong_nbt"
-									tag: {
-										value: {
-											RelicStrength: 1
-											RelicType: 1
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "itemfilters:strong_nbt"
-									tag: {
-										value: {
-											RelicStrength: 1
-											RelicType: 2
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "itemfilters:strong_nbt"
-									tag: {
-										value: {
-											RelicStrength: 1
-											RelicType: 3
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "itemfilters:strong_nbt"
-									tag: {
-										value: {
-											RelicStrength: 1
-											RelicType: 4
-										}
-									}
-								}
-							]
+							}]
 						}
 					}
 					optional_task: true
-					title: "Any Dormant Relic"
+					title: "Any Relic"
 					type: "item"
 				}
 			]
@@ -2402,6 +2390,38 @@
 			}]
 			x: 2.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["71FEEA1CF45FCE10"]
+			description: [
+				"The Dark Practitioners form contracts with great entities, other worlds and spirits. They bind creatures, use the force of souls and research the world around them."
+				""
+				"Practitioners need a contract to enter into this reverse of the world. From there, they can either practice their pact magic or research the power of the soul."
+			]
+			entity_vis_size: 1.0f
+			id: "0145F6B9F3CC0E03"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2444ED10C1414383"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "2B211C069DAC4DFF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Contract Talisman"
+			tasks: [{
+				id: "135DF6384144BE21"
+				item: "desecratedcore:practitioner_key_item"
+				type: "item"
+			}]
+			title: "Dark Practitioner"
+			x: 4.5d
+			y: 8.5d
 		}
 	]
 	title: "Fallen"
