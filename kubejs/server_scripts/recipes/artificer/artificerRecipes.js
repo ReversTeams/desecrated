@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
             C: 'bloodyhell:rhnull',
             F: 'concatenatedadditionstools:kestrel',
             D: 'reliquary:magicbane',
-            E: Item.of('ascendant_arcana:relic', '{RelicStrength:5,RelicType:0}').strongNBT()
+            E: Item.of('ascendant_arcana:relic', '{RelicStrength:5,RelicType:"ascendant_arcana:damage"}').strongNBT()
         }
     )
 
@@ -1398,7 +1398,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:4}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:enchantment_capacity"}'),
         [
             'ABA',
             'BCB',
@@ -1412,7 +1412,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:4}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:"ascendant_arcana:enchantment_capacity"}'),
         [
             'ABA',
             'BCB',
@@ -1426,7 +1426,7 @@ ServerEvents.recipes(event => {
     ).damageIngredient('reliquary:alkahestry_tome')
 
     event.shaped(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:4}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:enchantment_capacity"}'),
         [
             'ABA',
             'BCB',
@@ -1440,7 +1440,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:3}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:haste"}'),
         [
             'minecraft:amethyst_shard',
             'spectrum:citrine_shard',
@@ -1451,7 +1451,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:0}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:damage"}'),
         [
             'minecraft:amethyst_shard',
             'quark:red_corundum_cluster',
@@ -1462,7 +1462,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:2}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:protection"}'),
         [
             'minecraft:amethyst_shard',
             'spectrum:topaz_shard',
@@ -1473,7 +1473,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:1}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:durability"}'),
         [
             'minecraft:amethyst_shard',
             'ascendant_arcana:restorine',
@@ -1484,9 +1484,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:2}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:protection"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:2}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:protection"}').strongNBT(),
             'spectrum:topaz_shard',
             'spectrum:topaz_shard',
             'minecraft:obsidian',
@@ -1496,9 +1496,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:3}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:haste"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:3}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:haste"}').strongNBT(),
             'spectrum:citrine_shard',
             'spectrum:citrine_shard',
             'minecraft:honeycomb',
@@ -1508,9 +1508,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:0}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:damage"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:0}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:damage"}').strongNBT(),
             'quark:red_corundum_cluster',
             'quark:red_corundum_cluster',
             'minecraft:blaze_powder',
@@ -1520,9 +1520,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:1}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:durability"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:1}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:durability"}').strongNBT(),
             'ascendant_arcana:restorine',
             'ascendant_arcana:restorine',
             'minecraft:obsidian',
@@ -1532,9 +1532,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:1}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:durability"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:1}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:durability"}').strongNBT(),
             'ascendant_arcana:restorine',
             'ascendant_arcana:restorine',
             'desecratedcore:pure_restorine',
@@ -1544,9 +1544,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:1}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:"ascendant_arcana:durability"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:1}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:durability"}').strongNBT(),
             'ascendant_arcana:restorine',
             'ascendant_arcana:restorine',
             'minecraft:netherite_ingot',
@@ -1555,9 +1555,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:3}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:haste"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:3}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:haste"}').strongNBT(),
             'spectrum:citrine_shard',
             'spectrum:citrine_shard',
             'minecraft:honeycomb',
@@ -1567,9 +1567,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:3}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:haste"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:3}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:haste"}').strongNBT(),
             'spectrum:citrine_shard',
             'spectrum:citrine_shard',
             'minecraft:ender_pearl',
@@ -1579,9 +1579,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:3}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:"ascendant_arcana:haste"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:3}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:haste"}').strongNBT(),
             'spectrum:citrine_shard',
             'spectrum:citrine_shard',
             'concatenatedadditionstools:glowing_gold',
@@ -1591,9 +1591,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:0}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:damage"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:0}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:damage"}').strongNBT(),
             'quark:red_corundum_cluster',
             'quark:red_corundum_cluster',
             '#desecrated:violent_flesh',
@@ -1603,9 +1603,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:0}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:damage"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:0}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:damage"}').strongNBT(),
             'quark:red_corundum_cluster',
             'quark:red_corundum_cluster',
             'celestisynth:solar_crystal',
@@ -1615,9 +1615,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:0}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:"ascendant_arcana:damage"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:0}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:damage"}').strongNBT(),
             'quark:red_corundum_cluster',
             'quark:red_corundum_cluster',
             'reliquary:infernal_claws',
@@ -1626,9 +1626,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:2}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:protection"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:2}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:protection"}').strongNBT(),
             'spectrum:topaz_shard',
             'spectrum:topaz_shard',
             'fracture:inkwood_sapling',
@@ -1638,9 +1638,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:2}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:protection"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:2}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:protection"}').strongNBT(),
             'spectrum:topaz_shard',
             'spectrum:topaz_shard',
             'celestisynth:lunar_scrap',
@@ -1650,9 +1650,9 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:2}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:4,RelicType:"ascendant_arcana:protection"}'),
         [
-            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:2}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:protection"}').strongNBT(),
             'spectrum:topaz_shard',
             'spectrum:topaz_shard',
             'concatenatedadditionstools:ice_shard',
@@ -1675,7 +1675,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-        Item.of('ascendant_arcana:relic', '{RelicStrength:5,RelicType:4}'),
+        Item.of('ascendant_arcana:relic', '{RelicStrength:5,RelicType:"ascendant_arcana:enchantment_capacity"}'),
         [
             ' A ',
             'BCB',
@@ -1698,7 +1698,7 @@ ServerEvents.recipes(event => {
             ' A '
         ],
         {
-            B: Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:4}').strongNBT(),
+            B: Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:enchantment_capacity"}').strongNBT(),
             A: 'minecraft:amethyst_shard'
         }
     )
@@ -1777,7 +1777,7 @@ ServerEvents.recipes(event => {
             'minecraft:ghast_tear',
             'reliquary:slime_pearl',
             'reliquary:nebulous_heart',
-            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:4}').strongNBT(),
+            Item.of('ascendant_arcana:relic', '{RelicStrength:1,RelicType:"ascendant_arcana:enchantment_capacity"}').strongNBT(),
             'ascendant_arcana:infusion_smithing_template'
         ]
     )
@@ -1788,7 +1788,7 @@ ServerEvents.recipes(event => {
             'reliquary:witch_hat',
             'reliquary:molten_core',
             'reliquary:infernal_claw',
-            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:4}').strongNBT()
+            Item.of('ascendant_arcana:relic', '{RelicStrength:2,RelicType:"ascendant_arcana:enchantment_capacity"}').strongNBT()
         ]
     )
 
@@ -2061,7 +2061,7 @@ ServerEvents.recipes(event => {
         ],
         {
             C: 'reliquary:destruction_catalyst',
-            B: Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:4}').strongNBT(),
+            B: Item.of('ascendant_arcana:relic', '{RelicStrength:3,RelicType:"ascendant_arcana:enchantment_capacity"}').strongNBT(),
             E: 'concatenatedadditionstools:glowing_gold_block',
             A: Item.of('tacz:ammo', '{AmmoId:"ars_armorer:mana"}').strongNBT(),
             D: 'minecraft:stone_bricks'

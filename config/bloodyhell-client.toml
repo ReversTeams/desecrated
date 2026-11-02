@@ -17,3 +17,10 @@
 	#Entity ids that never get bone effects, for example ["examplemod:dragon"].
 	excludedEntities = []
 
+["Frenzy Eyes Settings"]
+	#Where the golden eyes of high Frenzy sit on YOUR skin; other players see your choice. VANILLA: eyes of 2x1 pixels on the 5th row of the face (Steve, Alex). ANIME: eyes of 2x2 pixels on the 6th and 7th rows (big anime style eyes). OFF: your eyes never glow.
+	#Allowed Values: VANILLA, ANIME, OFF
+	frenzyEyeShape = "VANILLA"
+	#Show the golden eyes of high Frenzy on players and mobs on your screen.
+	showFrenzyEyes = true
+

@@ -8,5 +8,10 @@
     
     "message.hexalia.ritual.missing_ingredients": "Missing ingredients.",
     "block.vampirism.blood": "Raw Blood",
-    "fluid_type.sons_of_sins.blood": "Etheric Blood"
+    "fluid_type.sons_of_sins.blood": "Etheric Blood",
+    "entity.fracture.obelisk_laser": "Laser",
+    "item.ascendant_arcana.smithing_template.infusion.title": "Infusion Template",
+    "item.ascendant_arcana.smithing_template.infusion.applies_to": "All Tools",
+    "item.ascendant_arcana.smithing_template.infusion.ingredients": "All Relics",
+    "item.ascendant_arcana.amethyst_smithing_template.infusion.ingredients": "Dormant, Stirring, Waking Relics"
 }

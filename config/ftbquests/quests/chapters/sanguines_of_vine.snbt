@@ -8,7 +8,6 @@
 	id: "4E87211C732B487C"
 	images: [
 		{
-			dependency: "4F640C8FE1FC8EFE"
 			height: 2.0d
 			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash5.png"
 			rotation: 0.0d
@@ -18,7 +17,6 @@
 		}
 		{
 			alpha: 180
-			dependency: "67B5B4FBA053EA21"
 			height: 2.0d
 			image: "celestisynth:textures/entity/visuals/breezebreaker_wheel_impact/breezebreaker_wheel_impact3.png"
 			rotation: 0.0d
@@ -28,7 +26,6 @@
 		}
 		{
 			alpha: 180
-			dependency: "6EBB47896FADA673"
 			height: 4.25d
 			image: "celestisynth:textures/entity/visuals/skin/frostbound_impact_crack_seabreeze.png"
 			rotation: -35.0d
@@ -39,7 +36,6 @@
 		{
 			alpha: 180
 			color: 2227978
-			dependency: "5D7C1741C8D6F8E0"
 			height: 3.0d
 			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash3.png"
 			rotation: 0.0d
@@ -49,7 +45,6 @@
 		}
 		{
 			alpha: 180
-			dependency: "512B726C7BF16BC2"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
@@ -89,7 +84,6 @@
 		}
 		{
 			alpha: 240
-			dependency: "376E7364A9D63333"
 			height: 1.0d
 			image: "hexalia:block/wild_sunfire_tomato"
 			rotation: 0.0d
@@ -99,7 +93,6 @@
 		}
 		{
 			alpha: 240
-			dependency: "324985E19423593A"
 			height: 1.0d
 			image: "hexalia:block/galeberries_vine_lit"
 			rotation: 0.0d
@@ -109,7 +102,6 @@
 		}
 		{
 			alpha: 240
-			dependency: "02094B42E4290262"
 			height: 1.0d
 			image: "hexalia:block/wild_mandrake"
 			rotation: 0.0d
@@ -119,7 +111,6 @@
 		}
 		{
 			alpha: 240
-			dependency: "70D080A715D3317C"
 			height: 1.0d
 			image: "hexalia:block/chillberry_bush_stage3"
 			rotation: 0.0d
@@ -129,7 +120,6 @@
 		}
 		{
 			alpha: 240
-			dependency: "5F838290AD659F48"
 			height: 1.0d
 			image: "hexalia:block/rabbage_crop_stage3"
 			rotation: 0.0d
@@ -140,7 +130,6 @@
 		{
 			alpha: 180
 			color: 43520
-			dependency: "2541F19B9838484F"
 			height: 1.5d
 			image: "spectrum:block/fiery_shooting_star"
 			rotation: 0.0d
@@ -151,7 +140,6 @@
 		{
 			alpha: 180
 			color: 2756864
-			dependency: "3AFEAB8E568538B8"
 			height: 2.0d
 			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash2.png"
 			rotation: 0.0d
@@ -170,7 +158,6 @@
 		}
 		{
 			alpha: 180
-			dependency: "1FD01CDA1731655D"
 			height: 1.0d
 			image: "minecraft:block/bamboo_small_leaves"
 			rotation: 0.0d
@@ -198,7 +185,6 @@
 		}
 		{
 			alpha: 180
-			dependency: "79A14B394FAEBEA1"
 			height: 2.0d
 			image: "biomesoplenty:block/redwood_leaves_bushy"
 			rotation: 0.0d

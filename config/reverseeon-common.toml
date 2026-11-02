@@ -35,7 +35,7 @@
 	#0 turns raids off. So does the reverseeonStormGriefing gamerule. An operator can
 	#still start one with /reverseeon manus raid start.
 	#Range: 0.0 ~ 1.0
-	manusRaidChance = 0.35
+	manusRaidChance = 0.7
 	#Which phase of the Storm the raid is rolled at the start of: 2 or 3.
 	#Phase 2 brings the raid earlier, into a Storm that still has longer to run.
 	#Range: 2 ~ 3
@@ -613,10 +613,10 @@
 	#chunk is first made, so without this they stop appearing once an area has been
 	#explored. 0 turns it off; 1 tries every time.
 	#Range: 0.0 ~ 1.0
-	wanderChance = 0.35
+	wanderChance = 0.02
 	#No critter wanders in while this many wild ones are already within 64 blocks.
 	#Range: 0 ~ 32
-	wanderCap = 4
+	wanderCap = 2
 
 [gilded_annuity]
 	#What it costs to unlock a Gilded Annuity through its own panel.

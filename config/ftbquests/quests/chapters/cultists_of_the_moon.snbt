@@ -9,7 +9,7 @@
 	images: [
 		{
 			color: 16714507
-			dependency: "068DF533DB041F37"
+			dependency: "4317E4672B9BDFF5"
 			height: 3.0d
 			image: "bloodmagic:models/alchemyarrays/moonarray"
 			rotation: 0.0d

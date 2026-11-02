@@ -89,12 +89,12 @@ ServerEvents.recipes(event => {
                         'EBF'
                 ],
                 {
-                        E: 'vampirism:vampire_book',
+                        E: 'minecraft:golden_apple',
                         F: 'vampirism:vampire_orchid',
                         C: 'vampiresdelight:blood_wine_bottle',
                         B: 'vampirism:human_heart',
                         D: '#desecrated:crescent_heart',
-                        A: 'vampirism:pure_blood_4'
+                        A: 'minecraft:diamond'
                 }
         )
 

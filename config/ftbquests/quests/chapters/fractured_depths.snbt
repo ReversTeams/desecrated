@@ -719,6 +719,18 @@
 			x: 9.5d
 			y: -10.0d
 		}
+		{
+			dependencies: ["2D7D4AEFBB50C92E"]
+			entity_vis_size: 1.0f
+			id: "29CDC2DE2481CE9E"
+			tasks: [{
+				id: "35753EE0B48F4557"
+				item: "fracture:laser_gun"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
 	]
 	title: "Fractured Depths"
 }

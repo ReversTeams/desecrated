@@ -9,7 +9,6 @@
 	images: [
 		{
 			alpha: 180
-			dependency: "5182A801B0828319"
 			height: 2.5d
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
@@ -30,7 +29,6 @@
 		{
 			alpha: 180
 			color: 11766406
-			dependency: "37B247664DB669DC"
 			height: 1.5d
 			image: "otherverse:textures/portal/portal_4.png"
 			rotation: 0.0d
@@ -41,7 +39,6 @@
 		{
 			alpha: 180
 			color: 11141120
-			dependency: "7C44D6CC5F06EE5A"
 			height: 2.0d
 			image: "bloodmagic:models/alchemyarrays/voidsigil"
 			rotation: 0.0d
@@ -52,7 +49,6 @@
 		{
 			alpha: 180
 			color: 14277631
-			dependency: "2261826DF606EA11"
 			height: 2.2d
 			image: "goety:textures/entity/cultist/summon_apostle.png"
 			rotation: 0.0d

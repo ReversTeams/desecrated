@@ -1,0 +1,149 @@
+{
+  "velkhar": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "frostbound_sentinel": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ],
+  "rimeweaver": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ],
+  "stillbow": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ],
+  "ice_monstrosity": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ],
+  "turnkey": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 250,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ],
+  "bone_lord": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 350,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "lamplighter": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 350,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "vault_warden": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 150,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ],
+  "shade_shepherd": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 150,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ],
+  "forge_overseer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 150,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 30,
+      "operation": "ADDITION"
+    }
+  ]
+}
