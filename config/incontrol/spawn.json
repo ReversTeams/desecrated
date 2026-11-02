@@ -79,11 +79,6 @@
     "result": "deny"
   },
   {
-    "dimension": "minecraft:overworld",
-    "mod": "reverseeon",
-    "result": "deny"
-  },
-  {
     "mod": "vampirism",
     "mincount": {
       "amount": 120,
