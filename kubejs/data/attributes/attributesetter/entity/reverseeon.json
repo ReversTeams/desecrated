@@ -185,5 +185,22 @@
       "value": 10,
       "operation": "ADDITION"
     }
+  ],
+  "guiding_ones_creation": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 3000,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 100,
+      "operation": "ADDITION"
+    }
   ]
 }
