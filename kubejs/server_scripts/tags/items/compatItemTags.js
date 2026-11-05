@@ -183,6 +183,10 @@ ServerEvents.tags('item', event => {
         'modestmining:copper_nugget'
     ]);
 
+    add('bloodyhell:gem_frames', [
+        'vampirism:pure_blood_3'
+    ]);
+
     add('lychee:lightning_immune', [
         'desecratedcore:forbidden_knowledge',
         'bloodyhell:forbidden_bookshelf_block'
