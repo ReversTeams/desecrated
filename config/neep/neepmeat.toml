@@ -1,7 +1,7 @@
 # If true, the Meatgun's ammo counter will be rendered on the item model instead of in the hud.
 # Set to false if transparency issues occur.
 # default: true
-meatgunAmmoOnModel = true
+meatgunAmmoOnModel = false
 # Max module complexity of the drill chassis
 # default: 16
 drillChassisMaxComplexity = 16
