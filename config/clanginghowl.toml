@@ -101,7 +101,7 @@
 
 [General]
 	#Whether Technoflesh creatures gain buffs as game time goes by, Default: true
-	TechnoFleshBuff = true
+	TechnoFleshBuff = false
 	#If 'TechnoFleshBuff' is set to true, whether it gains buffs via minecraft days instead of game time, Default: false
 	TechnoFleshBuffDayTime = false
 	#If set above 0 and 'TechnoFleshBuff' is set to true, Technoflesh creatures will always be buffed as though the 'TechnoFleshBuffDayTime' is enabled and the input amount of days have passed, set to 0 to disable, Default: 0
