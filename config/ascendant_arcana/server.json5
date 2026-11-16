@@ -38,6 +38,8 @@
 	"very_rare_enchanting_power": 126,
 	// Enchanted Books can only have one enchantment on them. Otherwise, they use the regular capacity system.
 	"single_enchantment_books": false,
+	// If single_enchantment_books is true, setting this option to true will destroy extra enchantments on books.
+	"update_old_books": false,
 	// Enchanted Books placed in Chiseled Bookshelves near an Enchanting Table will remove the scrap cost for that enchantment.
 	"books_remove_scrap_cost": false,
 	/* The amount of tiers having an Enchanted Book in a Chiseled Bookshelf bypasses.
@@ -97,8 +99,8 @@
 		"minecraft:sweeping": 2,
 		"minecraft:thorns": 2,
 		"artificers_armory:lifedrain": 3,
-		"minecraft:flame": 2,
 		"minecraft:feather_falling": 1,
+		"minecraft:flame": 2,
 		"artificers_armory:singularity": 3,
 		"minecraft:projectile_protection": 3,
 		"artificers_armory:transmutation": 3,

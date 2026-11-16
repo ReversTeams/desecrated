@@ -13,5 +13,9 @@
     "item.ascendant_arcana.smithing_template.infusion.title": "Infusion Template",
     "item.ascendant_arcana.smithing_template.infusion.applies_to": "All Tools",
     "item.ascendant_arcana.smithing_template.infusion.ingredients": "All Relics",
-    "item.ascendant_arcana.amethyst_smithing_template.infusion.ingredients": "Dormant, Stirring, Waking Relics"
+    "item.ascendant_arcana.amethyst_smithing_template.infusion.ingredients": "Dormant, Stirring, Waking Relics",
+    "item.bloodyhell.blood_bucket": "Pure Blood Bucket",
+    "item.bloodyhell.filled_blood_flask": "Pure Blood Flask",
+    "item.bloodyhell.filled_blood_flask.effect.empty": "Pure Blood Flask",
+    "block.bloodyhell.blood_fluid_block": "Pure Blood"
 }

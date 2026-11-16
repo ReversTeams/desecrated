@@ -9,7 +9,14 @@
   "blood_spreader": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 15,
+      "value": 10,
+      "operation": "BASE"
+    }
+  ],
+  "bloody_copy": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1,
       "operation": "BASE"
     }
   ]

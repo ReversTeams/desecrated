@@ -78,7 +78,7 @@
 	#Range: 0.1 ~ 10.0
 	armorMultiplier = 1.0
 	#Damage of the boss signature weapons (hemorrhage sword, the cleave, soaked gorescythe...),
-	#before weaponDamageMultiplier.
+	#before weaponDamageMultiplier. Hubris hits for twice this.
 	#Range: 1.0 ~ 1000.0
 	bossWeaponDamage = 32.0
 	#Extra multiplier on the five boss armour sets only (on top of armorMultiplier).
@@ -109,7 +109,7 @@
 	#Range: 0.1 ~ 50.0
 	bossHealthMultiplier = 1.0
 	#Multiplier on damage bosses and their minions/projectiles deal to players.
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 1000.0
 	bossDamageMultiplier = 1.0
 	#After a boss uses an ability it waits this long before the next (ticks, 20 = 1 s).
 	#Range: 0 ~ 600

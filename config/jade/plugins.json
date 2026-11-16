@@ -61,9 +61,6 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "butchery": {
-    "player_corpse_status": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -115,7 +112,8 @@
     "corpse": true
   },
   "goetyawaken": {
-    "mob_enchant": true
+    "mob_enchant": true,
+    "angler_status": true
   },
   "goety": {
     "block_owner": true,

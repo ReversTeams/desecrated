@@ -3124,7 +3124,7 @@
 					id: "ascendant_arcana:relic"
 					tag: {
 						RelicStrength: 1
-						RelicType: 0
+						RelicType: "ascendant_arcana:damage"
 					}
 				}
 				match_nbt: true
@@ -3143,16 +3143,15 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "2F0A95D0C0220537"
+				id: "1F262AC7E340A359"
 				item: {
 					Count: 1
 					id: "ascendant_arcana:relic"
 					tag: {
 						RelicStrength: 1
-						RelicType: 1
+						RelicType: "ascendant_arcana:durability"
 					}
 				}
-				match_nbt: true
 				type: "item"
 			}]
 			x: -4.6499999999999995d
@@ -3168,13 +3167,13 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "12D1D8DD6D563EDD"
+				id: "3EEAB7813381AC7C"
 				item: {
 					Count: 1
 					id: "ascendant_arcana:relic"
 					tag: {
 						RelicStrength: 1
-						RelicType: 2
+						RelicType: "ascendant_arcana:protection"
 					}
 				}
 				match_nbt: true
@@ -3193,13 +3192,13 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "7E6C92808B67344E"
+				id: "039A8202605A83C1"
 				item: {
 					Count: 1
 					id: "ascendant_arcana:relic"
 					tag: {
 						RelicStrength: 1
-						RelicType: 3
+						RelicType: "ascendant_arcana:haste"
 					}
 				}
 				match_nbt: true
@@ -3232,13 +3231,13 @@
 			]
 			size: 1.1d
 			tasks: [{
-				id: "6682007B4FCEE9BF"
+				id: "3E2DC1B1B4F16B28"
 				item: {
 					Count: 1
 					id: "ascendant_arcana:relic"
 					tag: {
 						RelicStrength: 1
-						RelicType: 4
+						RelicType: "ascendant_arcana:enchantment_capacity"
 					}
 				}
 				match_nbt: true
@@ -3334,40 +3333,42 @@
 			}]
 			tasks: [
 				{
-					id: "0AF4785F2EF579A4"
+					id: "0504DBF36438B6C1"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 2
-							RelicType: 0
+							RelicType: "ascendant_arcana:damage"
 						}
 					}
 					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "24E046A326F2AB30"
+					id: "33B8519F8546860A"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 3
-							RelicType: 0
+							RelicType: "ascendant_arcana:damage"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "69A6B0D4BAF403ED"
+					id: "21A25D2D98F46DA5"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 4
-							RelicType: 0
+							RelicType: "ascendant_arcana:damage"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -3385,40 +3386,42 @@
 			}]
 			tasks: [
 				{
-					id: "1C447FE256BF6165"
+					id: "55108F40C6D94D15"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 2
-							RelicType: 1
+							RelicType: "ascendant_arcana:durability"
 						}
 					}
 					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "66C4D504D100D30F"
+					id: "725E19C9B94348FC"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 3
-							RelicType: 1
+							RelicType: "ascendant_arcana:durability"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "19227EAAF403B4F3"
+					id: "4BBAF17CAA787586"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 4
-							RelicType: 1
+							RelicType: "ascendant_arcana:durability"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -3436,40 +3439,42 @@
 			}]
 			tasks: [
 				{
-					id: "3AB4EFD492DA6A9F"
+					id: "08198C44B00DFE03"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 2
-							RelicType: 2
+							RelicType: "ascendant_arcana:protection"
 						}
 					}
 					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "74C6AA3AC3CA7A30"
+					id: "064C9BC4B50E7569"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 3
-							RelicType: 2
+							RelicType: "ascendant_arcana:protection"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "538DAC48F6628A78"
+					id: "71AB25AC63E7AC4B"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 4
-							RelicType: 2
+							RelicType: "ascendant_arcana:protection"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -3487,40 +3492,42 @@
 			}]
 			tasks: [
 				{
-					id: "335CB14099F322FE"
+					id: "744BEDEBA531940A"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 2
-							RelicType: 3
+							RelicType: "ascendant_arcana:haste"
 						}
 					}
 					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "60736A4813CBC259"
+					id: "33454505EBCB1DF7"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 3
-							RelicType: 3
+							RelicType: "ascendant_arcana:haste"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "2ED65AE61DE662C9"
+					id: "1AC651B445B357AA"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
 							RelicStrength: 4
-							RelicType: 3
+							RelicType: "ascendant_arcana:haste"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -3540,13 +3547,13 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "4F9E67F801CCE1DD"
+				id: "19AB95DB88D1BE05"
 				item: {
 					Count: 1
 					id: "ascendant_arcana:relic"
 					tag: {
 						RelicStrength: 2
-						RelicType: 4
+						RelicType: "ascendant_arcana:enchantment_capacity"
 					}
 				}
 				match_nbt: true
@@ -3565,13 +3572,13 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "0AC91A6D716D1E3A"
+				id: "301C80D67870DE0C"
 				item: {
 					Count: 1
 					id: "ascendant_arcana:relic"
 					tag: {
 						RelicStrength: 3
-						RelicType: 4
+						RelicType: "ascendant_arcana:enchantment_capacity"
 					}
 				}
 				match_nbt: true
@@ -3590,15 +3597,16 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "19E9644D63800F5E"
+				id: "201542E35A2E8610"
 				item: {
 					Count: 1
 					id: "ascendant_arcana:relic"
 					tag: {
 						RelicStrength: 4
-						RelicType: 4
+						RelicType: "ascendant_arcana:enchantment_capacity"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 10.400000000000002d
@@ -3620,63 +3628,68 @@
 			}]
 			tasks: [
 				{
-					id: "6348F0456E8559AF"
+					id: "31A9551B72328533"
 					item: {
 						Count: 1
 						id: "ascendant_arcana:relic"
 						tag: {
-							RelicStrength: 5b
-							RelicType: "ascendant_arcana:durability"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0A60850AC05649C2"
-					item: {
-						Count: 1
-						id: "ascendant_arcana:relic"
-						tag: {
-							RelicStrength: 5b
-							RelicType: "ascendant_arcana:enchantment_capacity"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63F57BCA03D62E4E"
-					item: {
-						Count: 1
-						id: "ascendant_arcana:relic"
-						tag: {
-							RelicStrength: 5b
-							RelicType: "ascendant_arcana:haste"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7106F00557607250"
-					item: {
-						Count: 1
-						id: "ascendant_arcana:relic"
-						tag: {
-							RelicStrength: 5b
-							RelicType: "ascendant_arcana:protection"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4BA2B1EE02FDA7A7"
-					item: {
-						Count: 1
-						id: "ascendant_arcana:relic"
-						tag: {
-							RelicStrength: 5b
+							RelicStrength: 5
 							RelicType: "ascendant_arcana:damage"
 						}
 					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "24ABA71D5E61CD04"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5
+							RelicType: "ascendant_arcana:durability"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "78AF05CFBA2917C4"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5
+							RelicType: "ascendant_arcana:enchantment_capacity"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6CFDF20116DCE9DA"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5
+							RelicType: "ascendant_arcana:haste"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7D77C2D7EE3C2FE0"
+					item: {
+						Count: 1
+						id: "ascendant_arcana:relic"
+						tag: {
+							RelicStrength: 5
+							RelicType: "ascendant_arcana:protection"
+						}
+					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -3711,10 +3724,17 @@
 						Count: 1
 						id: "tacz:modern_kinetic_gun"
 						tag: {
+							AttachmentGRIP: {
+								Count: 1b
+								id: "tacz:attachment"
+								tag: {
+									AttachmentId: "ars_armorer:spell_damage"
+								}
+							}
 							GunCurrentAmmoCount: 200
 							GunFireMode: "SEMI"
 							GunId: "ars_armorer:pistol_source_ejector"
-							HasBulletInBarrel: 1b
+							HasBulletInBarrel: 0b
 						}
 					}
 					match_nbt: true
@@ -4067,15 +4087,22 @@
 			}]
 			tasks: [
 				{
-					id: "39B3E5B80DDB54DC"
+					id: "6DD888AE60179242"
 					item: {
 						Count: 1
 						id: "tacz:modern_kinetic_gun"
 						tag: {
+							AttachmentGRIP: {
+								Count: 1b
+								id: "tacz:attachment"
+								tag: {
+									AttachmentId: "ars_armorer:spell_damage"
+								}
+							}
 							GunCurrentAmmoCount: 280
 							GunFireMode: "SEMI"
 							GunId: "ars_armorer:sniper_distance_ejector"
-							HasBulletInBarrel: 1b
+							HasBulletInBarrel: 0b
 						}
 					}
 					match_nbt: true
@@ -4433,10 +4460,17 @@
 						Count: 1
 						id: "tacz:modern_kinetic_gun"
 						tag: {
-							GunCurrentAmmoCount: 400
+							AttachmentGRIP: {
+								Count: 1b
+								id: "tacz:attachment"
+								tag: {
+									AttachmentId: "ars_armorer:spell_damage"
+								}
+							}
+							GunCurrentAmmoCount: 0
 							GunFireMode: "AUTO"
 							GunId: "ars_armorer:auto_rifle_stream_ejector"
-							HasBulletInBarrel: 1b
+							HasBulletInBarrel: 0b
 						}
 					}
 					match_nbt: true
@@ -4789,40 +4823,47 @@
 			}]
 			tasks: [
 				{
-					id: "48B850A2F74CFB9B"
+					id: "5CFA319FA7B012F4"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "tacz:modern_kinetic_gun"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "itemfilters:strong_nbt"
-									tag: {
-										value: {
-											GunCurrentAmmoCount: 250
-											GunFireMode: "SEMI"
-											GunId: "ars_armorer:shotgun_splash_ejector"
-											HasBulletInBarrel: 1b
-										}
-									}
+							AttachmentGRIP: {
+								Count: 1b
+								id: "tacz:attachment"
+								tag: {
+									AttachmentId: "ars_armorer:spell_damage"
 								}
-								{
-									Count: 1b
-									id: "itemfilters:strong_nbt"
-									tag: {
-										value: {
-											GunCurrentAmmoCount: 350
-											GunFireMode: "AUTO"
-											GunId: "ars_armorer:shotgun_jet_ejector"
-											HasBulletInBarrel: 1b
-										}
-									}
-								}
-							]
+							}
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "ars_armorer:shotgun_jet_ejector"
+							HasBulletInBarrel: 0b
 						}
 					}
-					title: "Any Shotgun Spellrifle"
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "24F10831D5169B3F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							AttachmentGRIP: {
+								Count: 1b
+								id: "tacz:attachment"
+								tag: {
+									AttachmentId: "ars_armorer:spell_damage"
+								}
+							}
+							GunCurrentAmmoCount: 174
+							GunFireMode: "SEMI"
+							GunId: "ars_armorer:shotgun_splash_ejector"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -5147,6 +5188,7 @@
 					type: "item"
 				}
 			]
+			title: "Lifeforce Shotguns"
 			x: -0.34999999999999876d
 			y: 20.4d
 		}
@@ -5161,15 +5203,15 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "547F2FFFB9DF923C"
+				id: "186F6D09F5919686"
 				item: {
 					Count: 1
 					id: "tacz:modern_kinetic_gun"
 					tag: {
-						GunCurrentAmmoCount: 200
+						GunCurrentAmmoCount: 0
 						GunFireMode: "BURST"
 						GunId: "ars_armorer:special_miner_drill"
-						HasBulletInBarrel: 1b
+						HasBulletInBarrel: 0b
 					}
 				}
 				match_nbt: true
@@ -5205,10 +5247,10 @@
 						Count: 1
 						id: "tacz:modern_kinetic_gun"
 						tag: {
-							GunCurrentAmmoCount: 400
+							GunCurrentAmmoCount: 0
 							GunFireMode: "SEMI"
 							GunId: "ars_armorer:mortar_source_thrower"
-							HasBulletInBarrel: 1b
+							HasBulletInBarrel: 0b
 						}
 					}
 					match_nbt: true
@@ -5323,10 +5365,17 @@
 						Count: 1
 						id: "tacz:modern_kinetic_gun"
 						tag: {
-							GunCurrentAmmoCount: 6
+							AttachmentGRIP: {
+								Count: 1b
+								id: "tacz:attachment"
+								tag: {
+									AttachmentId: "ars_armorer:spell_damage"
+								}
+							}
+							GunCurrentAmmoCount: 0
 							GunFireMode: "SEMI"
 							GunId: "ars_armorer:special_source_flying_blade"
-							HasBulletInBarrel: 1b
+							HasBulletInBarrel: 0b
 						}
 					}
 					match_nbt: true

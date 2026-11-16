@@ -239,7 +239,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'bloodyhell:sanguinite',
-            B: 'bloodyhell:rhnull',
+            B: 'minecraft:gold_ingot',
             C: 'bloodyhell:aureal_revenant_dagger'
         }
     )
