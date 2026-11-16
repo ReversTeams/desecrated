@@ -1,0 +1,4 @@
+{
+    "action": "remove",
+    "items": ["butchery:bottle_of_blood", "butchery:raw_blood_sausage", "butchery:cooked_blood_sausage"]
+}
