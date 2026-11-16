@@ -12,7 +12,8 @@ ServerEvents.recipes(event => {
 
         const removeCraftingShapeless = [
                 'vampirism:blood_infused_iron_ingot',
-                'vampirism:blood_infused_enhanced_iron_ingot'
+                'vampirism:blood_infused_enhanced_iron_ingot',
+                'vampiresdelight:blood_sausage'
         ]
 
         remove.forEach(item => {
