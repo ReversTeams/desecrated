@@ -12,5 +12,9 @@
             "client_scripts"
         ],
         "target": "ES2015"
-    }
+    },
+    "include": [
+        "./**/*.js",
+        "probe/generated/**/*.d.ts"
+    ]
 }

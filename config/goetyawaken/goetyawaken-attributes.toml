@@ -239,10 +239,10 @@
 		#How much armor toughness Tower Guards have, Default: 12.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		towerGuardArmorToughness = 12.0
-		#How much damage Tower Guards deals, Default: 11.0
+		#How much damage Tower Guards deals, Default: 12.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		towerGuardDamage = 11.0
-		#How much damage Tower Guards' shield can absorb before breaking, Default: 10.0
+		#How much damage Tower Guards' shield can absorb before breaking, Default: 15.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		towerGuardShieldCapacity = 10.0
 		#How much movement speed Tower Guards have, Default: 0.30
@@ -469,15 +469,21 @@
 		towerWraithDamage = 3.0
 
 	[Attributes."Tower Witch"]
-		#How much Max Health Tower Witches have, Default: 30.0
+		#How much Max Health Tower Witches have, Default: 150.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		towerWitchHealth = 30.0
-		#How much natural armor points Tower Witches have, Default: 2.0
+		#How much natural armor points Tower Witches have, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		towerWitchArmor = 2.0
 		#How much movement speed Tower Witches have, Default: 0.3
 		#Range: 0.0 ~ 1.7976931348623157E308
 		towerWitchMovementSpeed = 0.3
+		#How much attack damage Tower Witches have, Default: 6.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		towerWitchDamage = 6.0
+		#How far Tower Witches can follow targets, Default: 40.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		towerWitchFollowRange = 40.0
 
 	[Attributes."Giant Ghast"]
 		#How much Max Health Giant Ghast has, Default: 140.0
@@ -817,50 +823,199 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		boundMinisterDamage = 5.0
 
-	[Attributes."Bound Enchanter"]
-		#How much Max Health Bound Enchanters have, Default: 24.0
-		#Range: 1.0 ~ 1.7976931348623157E308
-		boundEnchanterHealth = 24.0
-		#How much natural armor points Bound Enchanters have, Default: 0.0
-		#Range: 0.0 ~ 1.7976931348623157E308
-		boundEnchanterArmor = 0.0
-		#How much following/detection range Bound Enchanters have, Default: 16.0
-		#Range: 1.0 ~ 2048.0
-		boundEnchanterFollowRange = 16.0
-
 	[Attributes."Blasting Wraith"]
 		#How much damage Blasting Wraiths deals, Default: 3.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		blastingWraithDamage = 3.0
 
-	[Attributes."Enchanter Servant"]
-		#How much Max Health Enchanter Servants have, Default: 24.0
+	[Attributes."Soul Bound Royalguard"]
+		#How much Max Health Soul Bound Royalguards have, Default: 48.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		enchanterServantHealth = 24.0
-		#How much natural armor points Enchanter Servants have, Default: 0.0
+		soulBoundRoyalguardHealth = 48.0
+		#How much natural armor points Soul Bound Royalguards have, Default: 16.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		enchanterServantArmor = 0.0
-		#How much armor toughness Enchanter Servants have, Default: 0.0
+		soulBoundRoyalguardArmor = 16.0
+		#How much armor toughness Soul Bound Royalguards have, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		enchanterServantArmorToughness = 0.0
-		#How far Enchanter Servants can detect targets, Default: 16.0
+		soulBoundRoyalguardArmorToughness = 4.0
+		#How much damage Soul Bound Royalguards deal, Default: 12.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		soulBoundRoyalguardDamage = 12.0
+		#How much damage a Soul Bound Royalguard shield can absorb before breaking, Default: 15.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		soulBoundRoyalguardShieldCapacity = 15.0
+		#Bonus damage added to a Soul Bound Royalguard leap slam attack, Default: 6.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		soulBoundRoyalguardLeapDamageBonus = 6.0
+
+	[Attributes."Angler Servant"]
+		#How much Max Health Angler Servants have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		anglerServantHealth = 20.0
+		#How much natural armor points Angler Servants have, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		anglerServantArmor = 2.0
+		#How much movement speed Angler Servants have, Default: 0.30
+		#Range: 0.0 ~ 1.7976931348623157E308
+		anglerServantMovementSpeed = 0.3
+		#How much following/detection range Angler Servants have, Default: 16.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		anglerServantFollowRange = 16.0
+		#How much luck Angler Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		anglerServantLuck = 0.0
+
+	[Attributes.Prophet]
+		#How much Max Health the Prophet has, Default: 120.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		prophetHealth = 120.0
+		#How much natural armor points the Prophet has, Default: 6.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		prophetArmor = 6.0
+		#How much armor toughness the Prophet has, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		prophetArmorToughness = 2.0
+		#How much attack damage the Prophet has, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		prophetAttackDamage = 4.0
+
+	[Attributes.Cursechanter]
+		#How much Max Health Cursechanters have, Default: 30.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		cursechanterHealth = 30.0
+		#How much natural armor points Cursechanters have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		cursechanterArmor = 4.0
+		#How much armor toughness Cursechanters have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		cursechanterArmorToughness = 0.0
+		#How much melee attack damage Cursechanters deal, Default: 6.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		cursechanterAttackDamage = 6.0
+		#How much following/detection range Cursechanters have, Default: 16.0
 		#Range: 1.0 ~ 2048.0
-		enchanterServantFollowRange = 16.0
-		#How fast Enchanter Servants move, Default: 0.35
-		#Range: 0.01 ~ 1.7976931348623157E308
-		enchanterServantMovementSpeed = 0.35
-		#Cooldown in ticks between enchant attempts, Default: 600
-		#Range: > 20
-		enchanterInterval = 600
-		#Maximum number of enchanted allies an Enchanter Servant can maintain, Default: 5
+		cursechanterFollowRange = 16.0
+		#Maximum number of enchanted allies a Cursechanter can maintain, Default: 5
 		#Range: > 1
-		enchanterMaxLinkedTargets = 5
-		#Maximum number of different enchant types a mob can have before it can no longer be enchanted by Enchanter, Default: 4
+		cursechanterMaxLinkedTargets = 5
+		#Maximum number of different beneficial enchant types a mob can have before the Cursechanter can no longer enchant it, Default: 4
 		#Range: > 1
-		enchanterMaxEnchantsPerEntity = 4
-		#Maximum total enchant levels a mob can have before it can no longer be enchanted by Enchanter, Default: 7
+		cursechanterMaxEnchantsPerEntity = 4
+		#Maximum total beneficial enchant levels a mob can have before the Cursechanter can no longer enchant it, Default: 7
 		#Range: > 1
-		enchanterMaxTotalEnchantLevels = 7
+		cursechanterMaxTotalEnchantLevels = 7
+		#Maximum number of different curse types a mob can have before the Cursechanter can no longer curse it, Default: 6
+		#Range: > 1
+		cursechanterMaxCursesPerEntity = 8
+		#Maximum total curse levels a mob can have before the Cursechanter can no longer curse it, Default: 12
+		#Range: > 1
+		cursechanterMaxTotalCurseLevels = 15
 		#Enchant types and their maximum levels that can be applied, each entry in the form [enchant_name, max_level]. Setting a max level of 0 disables that enchant, Default: [[protection, 5], [tough, 3], [health_boost, 5], [speedy, 5], [strong, 4], [thorn, 3], [multishot, 1], [huge, 3], [fast_attack, 5], [fire_aspect, 4]]
-		enchanterEnchants = ["[protection, 5]", "[tough, 3]", "[health_boost, 5]", "[speedy, 5]", "[strong, 4]", "[thorn, 3]", "[multishot, 1]", "[huge, 3]", "[fast_attack, 5]", "[fire_aspect, 4]"]
+		cursechanterEnchants = ["[protection, 5]", "[tough, 3]", "[health_boost, 5]", "[speedy, 5]", "[strong, 4]", "[thorn, 3]", "[multishot, 1]", "[huge, 3]", "[fast_attack, 5]", "[fire_aspect, 4]"]
+
+	[Attributes."Fang Master"]
+		#How much Max Health Fang Masters have, Default: 150.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		fangMasterHealth = 150.0
+		#How much armor Fang Masters have, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		fangMasterArmor = 2.0
+		#How much armor toughness Fang Masters have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		fangMasterArmorToughness = 0.0
+		#Base attack damage of Fang Masters; the diamond sword adds 6, so the default effective attack is 7 and fang damage scales against it, Default: 1.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		fangMasterAttackDamage = 1.0
+		#How much follow range Fang Masters have, Default: 32.0
+		#Range: 1.0 ~ 2048.0
+		fangMasterFollowRange = 32.0
+
+	[Attributes."Bulwark Servant"]
+		#How much Max Health Bulwark Servants have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		bulwarkServantHealth = 24.0
+		#How much damage Bulwark Servants deals, Default: 5.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		bulwarkServantDamage = 5.0
+		#How much movement speed Bulwark Servants have, Default: 0.25
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bulwarkServantMovementSpeed = 0.25
+		#How much follow range Bulwark Servants have, Default: 32.0
+		#Range: 1.0 ~ 2048.0
+		bulwarkServantFollowRange = 32.0
+		#How much natural armor points Bulwark Servants have, Default: 17.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bulwarkServantArmor = 17.0
+		#How much armor toughness Bulwark Servants have, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bulwarkServantArmorToughness = 4.0
+		#How much extra damage Bulwark Servants chemthrower shots deal, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bulwarkServantRangeDamage = 0.0
+
+	[Attributes."Commando Servant"]
+		#How much Max Health Commando Servants have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		commandoServantHealth = 24.0
+		#How much damage Commando Servants deals, Default: 5.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		commandoServantDamage = 5.0
+		#How much movement speed Commando Servants have, Default: 0.35
+		#Range: 0.0 ~ 1.7976931348623157E308
+		commandoServantMovementSpeed = 0.35
+		#How much follow range Commando Servants have, Default: 32.0
+		#Range: 1.0 ~ 2048.0
+		commandoServantFollowRange = 32.0
+		#How much natural armor points Commando Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		commandoServantArmor = 0.0
+		#How much armor toughness Commando Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		commandoServantArmorToughness = 0.0
+		#How much extra damage Commando Servants revolver bullets deal, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		commandoServantRangeDamage = 0.0
+
+	[Attributes."Fusilier Servant"]
+		#How much Max Health Fusilier Servants have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		fusilierServantHealth = 24.0
+		#How much damage Fusilier Servants deals, Default: 5.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		fusilierServantDamage = 5.0
+		#How much movement speed Fusilier Servants have, Default: 0.35
+		#Range: 0.0 ~ 1.7976931348623157E308
+		fusilierServantMovementSpeed = 0.35
+		#How much follow range Fusilier Servants have, Default: 32.0
+		#Range: 1.0 ~ 2048.0
+		fusilierServantFollowRange = 32.0
+		#How much natural armor points Fusilier Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		fusilierServantArmor = 0.0
+		#How much armor toughness Fusilier Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		fusilierServantArmorToughness = 0.0
+		#How much extra damage Fusilier Servants railgun shots deal, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		fusilierServantRangeDamage = 0.0
+
+	[Attributes."Hunter Servant"]
+		#How much Max Health Hunter Servants have, Default: 26.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		hunterServantHealth = 26.0
+		#How much damage Hunter Servants deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		hunterServantDamage = 3.0
+		#How much movement speed Hunter Servants have, Default: 0.3
+		#Range: 0.0 ~ 1.7976931348623157E308
+		hunterServantMovementSpeed = 0.3
+		#How much follow range Hunter Servants have, Default: 20.0
+		#Range: 1.0 ~ 2048.0
+		hunterServantFollowRange = 20.0
+		#How much natural armor points Hunter Servants have, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		hunterServantArmor = 1.0
+		#How much armor toughness Hunter Servants have, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		hunterServantArmorToughness = 0.0
 

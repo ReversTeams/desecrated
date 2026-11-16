@@ -1260,8 +1260,8 @@
       ]
     },
     {
-      "id": "bloodyhell:portal",
-      "displayName": "Portal",
+      "id": "bloodyhell:sanctum_of_the_unbound",
+      "displayName": "Sanctum Of The Unbound",
       "isVanilla": false,
       "dimensions": [
         "reverseeon:depth_of_myth",
@@ -1269,8 +1269,8 @@
       ]
     },
     {
-      "id": "bloodyhell:sanctum_of_the_unbound",
-      "displayName": "Sanctum Of The Unbound",
+      "id": "bloodyhell:seliora_pyramid",
+      "displayName": "Seliora Pyramid",
       "isVanilla": false,
       "dimensions": [
         "reverseeon:depth_of_myth",
@@ -1604,7 +1604,6 @@
       "displayName": "Frozen Watchtower",
       "isVanilla": false,
       "dimensions": [
-        "reverseeon:depth_of_myth",
         "minecraft:overworld",
         "fracture:flesh_dimension"
       ]
@@ -4893,13 +4892,6 @@
       ]
     },
     {
-      "tagId": "frozen_dominion:camp_locator",
-      "displayName": "#Camp Locator",
-      "structureIds": [
-        "frozen_dominion:expedition_camp"
-      ]
-    },
-    {
       "tagId": "idas:campsites",
       "displayName": "#Campsites",
       "structureIds": [
@@ -5573,7 +5565,8 @@
       "tagId": "bloodyhell:seliora_pyramid",
       "displayName": "#Seliora Pyramid",
       "structureIds": [
-        "bloodyhell:pool"
+        "bloodyhell:pool",
+        "bloodyhell:seliora_pyramid"
       ]
     },
     {

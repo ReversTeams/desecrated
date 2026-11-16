@@ -1,0 +1,14 @@
+
+#Inventory synchronisation
+[sync]
+	#Sync players' visualisable inventory items to nearby clients.
+	#Turning this off limits the mod to items held in hand.
+	enabled = true
+	#How often (in ticks) inventories are checked for changes.
+	#Packets are only sent when the relevant items actually changed.
+	#Range: 1 ~ 200
+	intervalTicks = 10
+	#Most items sent per player.
+	#Range: 1 ~ 36
+	maxItems = 12
+

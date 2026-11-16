@@ -197,6 +197,10 @@ ServerEvents.tags('item', event => {
         'bloodyhell:forbidden_bookshelf_block'
     ]);
 
+    add('item_filters:check_nbt', [
+        "ascendant_arcana:relic"
+    ]);
+
     add('keep_equipment:kept_equipment', [
         "desecratedcore:vine_key_item", 
         "desecratedcore:iron_key_item", 

@@ -6,6 +6,11 @@ meatgunAmmoOnModel = false
 # default: 16
 drillChassisMaxComplexity = 16
 
+[general]
+	# Whether to show a player a tank's contents after right-clicking. Don't disable this unless you have another way to inspect fluid containers.
+	# default: true
+	sendTankMessage = true
+
 [ore_fat]
 	# Rendering ore fat yield when not overridden in JSON
 	# default: 1.2
