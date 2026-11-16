@@ -27,15 +27,15 @@
 	#Carrying MORE than this many tents in your inventory applies Slowness, imitating heavy gear.
 	#0 disables the effect entirely.
 	#Range: 0 ~ 64
-	heavyTentThreshold = 0
+	heavyTentThreshold = 2
 	#Slowness amplifier used by heavyTentThreshold. 0 = Slowness I, 1 = Slowness II, ...
 	#Range: 0 ~ 4
-	heavyTentSlownessLevel = 0
+	heavyTentSlownessLevel = 1
 
 [Rendering]
 	#If true, tents count as a transparent block: sky light passes through and they do not dim the interior.
 	#If false, tents block light like a solid block. Reload the world after changing this.
-	tentTransparent = true
+	tentTransparent = false
 
 [Concealment]
 	#If true, hostile mobs cannot target a player who is inside a tent.
@@ -49,4 +49,14 @@
 	#ALL        = anything standing inside, hostile mobs included.
 	#Players are never packed, and neither is a mob a player is riding.
 	capturedEntities = "DECORATION"
+	#When a tent is packed, drop any tents held by containers inside it instead of nesting them.
+	#Guards against unbounded tent-in-chest-in-tent chains. Containers on containerWhitelist are skipped.
+	#Separate from allowTentsInContainers so backpacks can carry tents while this stays on.
+	ejectNestedTentsOnPack = false
+	#Block ids a tent must never pack up; they are left standing when the tent is packed.
+	#Merged with the #simplytents:do_not_pack block tag. Example: sophisticatedbackpacks:backpack
+	packBlacklist = []
+	#Scan loaded chunks for pre-3.0 tent blocks and convert them.
+	#Every non-empty chunk section is scanned block by block on load; turn this off once your world is converted.
+	legacyTentConversion = true
 

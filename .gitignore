@@ -72,6 +72,9 @@ kubejs/probe
 /particular_cache
 config/QuantifiedAPI/cache
 journeymap/icon
+!config/flywheel-client.toml
+/entities_list.json
+/.probe
 
 # explicitly included config
 !config/ProjectE/client.toml
@@ -115,3 +118,5 @@ journeymap/icon
 /mods - Copy
 
 eula.txt
+.probe/*
+!.probe/probe-settings.json

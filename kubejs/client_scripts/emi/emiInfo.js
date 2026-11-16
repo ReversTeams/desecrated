@@ -13,6 +13,7 @@ JEIEvents.information(event => {
   event.addItem( 'neepmeat:integrator_egg', ['Obtained by throwing a reanimated heart into lava surrounded by 8 rusted metal.'])
 
   event.addItem( 'vampirism:blood_bottle', ['Obtained by drinking a creature\'s blood with a glass bottle.', 'You can right click any tank with 1000mb of blood to create a bottle of blood.'])
+  event.addItem( 'vampiresdelight:blood_sausage', ['Produced in the meat grinder.', 'Requires meat, intestines, blood syrup and a sausage attachment.'])
 
   event.addItem( 'hexalia:spirit_bloom', ['Generates naturally in the world.'])
   event.addItem( 'hexalia:dreamshroom', ['Generates naturally in the world.'])

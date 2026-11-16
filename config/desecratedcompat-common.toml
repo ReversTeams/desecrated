@@ -1,7 +1,13 @@
 
 [general]
-	#Disable Desecrated interactions with Vampirism Blood Containers.
-	disableVampirismContainerInteraction = true
-	#Disable Desecrated interactions with Vampirism Blood Buckets.
-	disableVampirismBucketConversion = true
+	#Disable interactions with Vampirism Blood Containers.
+	disableVampirismContainerInteraction = false
+	#Disable interactions with Vampirism Blood Buckets.
+	disableVampirismBucketConversion = false
+	#Disable glass bottle interactions.
+	disableGlassBottleInteraction = false
+	#Disable glass bottle interactions for Neepmeat and Butchery.
+	disableCustomTankGlassBottleInteraction = false
+	#Disable bucket interactions.
+	disableBucketInteraction = true
 

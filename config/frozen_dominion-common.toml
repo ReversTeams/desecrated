@@ -194,6 +194,27 @@
 	#kow (od nowa, uspieni na swoim miejscu). Velkhara nie dotyczy.
 	#Range: 0.0 ~ 1.0
 	bossHealOnDefeat = 0.2
+	#While a miniboss's window is shut (the Forge Overseer not opened, the Priestess not spent, the
+	#Aurochs and the Bone Lord on their feet, Frosty's teeth not in the floor, the Ice Monstrosity
+	#in its prison not on its knee), the two ceilings above times this: 0.2 lets a fifth through.
+	#The Shade Shepherd's shrink with his herd instead. 1 = as before 03.11.2026.
+	#Range: 0.01 ~ 1.0
+	minibossClosedCapFactor = 0.2
+	#Velkhar as the Hollow Magus on the ground: his ceilings (a blow, a second) times this, except
+	#for a few seconds after a star the players sent back strikes him. 0.25 lets a quarter through;
+	#1 = no difference (as before 03.11.2026).
+	#Range: 0.01 ~ 1.0
+	magusClosedCapFactor = 0.25
+	#The least, in health points (2 = one heart), that a blow of the citadel's garrison -
+	#Frostbound Sentinel, Rimeweaver, Stillbow, Frostmaw, Vault Warden, Frost Skeleton,
+	#Shade - takes off a player whatever protects them. Never more than the blow itself;
+	#a shield that blocks it still blocks all of it. 0 turns this off.
+	#Range: 0.0 ~ 20.0
+	garrisonDamageFloor = 2.0
+	#The same least blow for the Frost Skeletons alone (1 = half a heart) - in place of
+	#garrisonDamageFloor for them. 0 turns it off.
+	#Range: 0.0 ~ 20.0
+	skeletonDamageFloor = 1.0
 
 #The players' side: the weapons this mod gives. For packs whose other gear hits far harder.
 #1.0 is as shipped. Must match across a server.
@@ -217,4 +238,22 @@
 	#nie zmienia.
 	#Range: 0.0 ~ 100.0
 	weaponSkillDamage = 1.0
+
+#The citadel's defenders. Must match across a server.
+[court]
+	#How much of a player's Iron's Spells mana the Rimeweaver's circle burns as it closes on
+	#them: 1.0 all of it, 0 none (then everyone caught gets the frozen hands below).
+	#PL: Ile many z Iron's Spells wypala krag Szronotkacza graczowi, ktory nie wyszedl z niego
+	#przed zamknieciem: 1.0 cala, 0 nic (wtedy kazdy zlapany dostaje skute dlonie).
+	#Range: 0.0 ~ 1.0
+	rimeweaverManaBurn = 1.0
+	#For whoever the circle catches with little or no mana to lose (no Iron's Spells, or under
+	#20): ticks for which what they hold in either hand cannot be used - no shield, no bow, no
+	#food or potion, no weapon skill - nor changed: the hotbar slot stays, the hands are not
+	#swapped. 0 turns it off.
+	#PL: Kto ma malo many albo wcale (bez Iron's Spells lub ponizej 20): przez tyle tickow
+	#przedmiotow w obu rekach nie da sie uzyc - tarczy, luku, jedzenia, mikstury, zdolnosci
+	#broni - ani zmienic: slot paska stoi, rak nie da sie zamienic. 0 wylacza.
+	#Range: 0 ~ 400
+	rimeweaverFrozenHands = 60
 
