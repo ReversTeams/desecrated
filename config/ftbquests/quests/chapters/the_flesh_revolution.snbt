@@ -243,8 +243,11 @@
 				"Really? Sausages?"
 				""
 				"&4They're a sanguine delicacy, I'll have you know! Your grandfather was quite fond of them."
+				"{@pagebreak}"
+				"&4You'll need some meat, preferably pork to keep with tradition, intestines and blood syrup. Oh, and a sausage attachment. Then, you can start producing these nutritious blood sausages."
 			]
 			entity_vis_size: 1.0f
+			icon: "butchery:meat_grinder"
 			id: "63F1C9A1095AEC1E"
 			rewards: [
 				{
@@ -265,11 +268,35 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				id: "5EA973AFC3ADC54F"
-				item: "butchery:meat_grinder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5EA973AFC3ADC54F"
+					item: "butchery:meat_grinder"
+					type: "item"
+				}
+				{
+					id: "1A71CF1B90A4CFC5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vampiresdelight:blood_syrup"
+								}
+								{
+									Count: 1b
+									id: "vampiresdelight:blood_sausage"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Blood Sausage Hints"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -6.0d
 		}
