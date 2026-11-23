@@ -345,7 +345,6 @@
 					}
 					title: "Any Pure Blood"
 					type: "item"
-					weak_nbt_match: true
 				}
 				{
 					id: "572CB6EF2F9E599F"
