@@ -26,7 +26,7 @@
 		{ count: 16, item: "butchery:raw_lamb_shoulder" }
 		{ count: 16, item: "butchery:raw_lamb_sirloin" }
 		{ count: 16, item: "butchery:raw_leg_of_lamb" }
-		{ count: 16, item: "butchery:raw_bat_meat" }
+		{ count: 16, item: "vampiresdelight:raw_bat" }
 		{ count: 16, item: "butchery:raw_chicken_wing" }
 		{ count: 16, item: "butchery:raw_chicken_leg" }
 		{ count: 16, item: "butchery:raw_ocelot_meat" }

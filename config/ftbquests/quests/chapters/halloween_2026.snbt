@@ -28,6 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5043493D9D378B57"]
 			description: [
 				"&o&7Notes from Eleonore's Travels, Tome VII"
 				""

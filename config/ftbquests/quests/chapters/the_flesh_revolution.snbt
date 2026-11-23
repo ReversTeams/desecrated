@@ -5118,7 +5118,7 @@
 				""
 				"This blood filter has one purpose: cleaning the raw blood. It contains two internal tanks and a filter system making use of gravity. That way, just inputting raw blood suffices to clean it."
 				"{@pagebreak}"
-				"&a(Blood, also known as regular blood or filtered blood, is used for the subsequent Neepmeat machines. You can still bottle it up by right clicking a container with 900mb of blood with a glass bottle.)"
+				"&a(Filtered blood is used for the subsequent Neepmeat machines. You can still bottle it up by right clicking a container with 900mb of blood with a glass bottle. A redstone signal inverts the behaviour, it converts filtered blood to raw blood instead of the opposite.)"
 			]
 			entity_vis_size: 1.0f
 			id: "532FD8D52F2ACDC8"

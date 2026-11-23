@@ -2183,6 +2183,21 @@
 				"The Spectral Artificers create fascinating gadgets and tools that range from most useful to most useless, both technological and magical in nature. I've heard that during the fall of Red Barar, the Spectral Artificers and the Scholars of Yore, specialized in high sorcery, magic circles and enchanting, have merged together and gone underground."
 				""
 				"Higher ranked Spectral Artificers become powerful reliquerers, gathering relics to craft mighty artefacts and enter the realm of Rifled Spellcasting."
+				"{@pagebreak}"
+				"Grisha, what is this...a feather?"
+				""
+				"&4It’s not an ordinary feather, young sanguine. It is a spectral feather created by the Spectral Artificers of Red Barar."
+				""
+				"I remember they combined their knowledge of magic and engineering to"
+				"create inventions of...varied usefulness. So how useful is this feather?"
+				"{@pagebreak}"
+				"&4Just stick it into your boots and you will move faster."
+				""
+				"That's all it takes? ...Remarkable. Can I learn to make marvels like this?"
+				""
+				"&4You can. I hold enough knowledge of their craft to set you on the path. But if you were to find one of their abandoned libraries, the books there would carry you much further, much faster."
+				""
+				"Are you just hungry?"
 			]
 			entity_vis_size: 1.0f
 			id: "3913E4BF1C7341B8"
@@ -2202,7 +2217,18 @@
 		}
 		{
 			dependencies: ["3913E4BF1C7341B8"]
-			description: ["I believe I can finely tune amethyst for use in gadgets. For this, I'll need a tuning wand. I just need some amethyst and redstone, along with something to hold it and infusing some spirituality into it."]
+			description: [
+				"So where should I start?"
+				""
+				"&4An amethyst tuning wand. With it, the Artificers infused amethyst into iron to forge amethyst-reinforced iron, the heart of nearly every one of their gadgets. You'll need amethyst, redstone, and iron to bind it all together."
+				""
+				"Wait, the amethyst is humming near my feather. Can I extract some of its"
+				"magic to empower the wand?"
+				"{@pagebreak}"
+				"&4...Hm. That is precisely how the Artificers did it. A little essence is all it takes, and the feather will be none the worse for it. Well done, young sanguine. You learn quickly."
+				""
+				"I believe I can finely tune amethyst for use in gadgets. For this, I'll need a tuning wand. I just need some amethyst and redstone, along with something to hold it and infusing some spirituality into it."
+			]
 			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
@@ -2243,6 +2269,16 @@
 			dependencies: ["3DD1F3BB424F9A9F"]
 			description: [
 				"I should finely tune some amethyst on an iron ingot to reinforce it spiritually. This way, the iron ingot can store some spirituality and can be used for rudimentary magic."
+				""
+				"Amethyst in one hand, my new wand in the other. Now I strike the block of"
+				"iron and..."
+				""
+				"&4And there it is. Amethyst-reinforced iron. Impressive for a first attempt, young sanguine."
+				"{@pagebreak}"
+				"I can feel the magic within it. So this is how the Artificers fused magic into"
+				"their inventions."
+				""
+				"&4Indeed. And now that you can make it, the real work begins."
 				""
 				"&a(Hold an amethyst shard in your offhand and the tuning wand in your main hand. Punch an iron block with it.)"
 			]
@@ -2321,6 +2357,17 @@
 		{
 			dependencies: ["3913E4BF1C7341B8"]
 			description: [
+				"&4The Spectral Artificers did not create with mere iron. They would forge special alloys capable of retaining magical energy."
+				""
+				"These ingots I create are too stiff to combine. Any suggestions?"
+				""
+				"&4Allow me. I keep a passage on this very subject somewhere in my pages."
+				""
+				"So, smash them with a hammer?"
+				""
+				"&4...Yes. Mind your fingers."
+				""
+				"{@pagebreak}"
 				"&o&7Notes from Eleonore's Travels, Tome I"
 				""
 				"&fThe crushing hammer is the first tool holders of &m-----------&r &fwill find to smash ingots into powder."
