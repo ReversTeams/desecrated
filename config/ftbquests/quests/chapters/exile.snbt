@@ -2278,6 +2278,7 @@
 				"&a(You can break your fall, cling to walls, mantle up walls, perform charged jumps, crawl, dodge, dive, fast run, wall run, vault, wall jump, and more. There is a hidden stamina bar to these actions.)"
 			]
 			entity_vis_size: 1.0f
+			icon: "minecraft:feather"
 			id: "0D7BD35FCA5D3234"
 			rewards: [
 				{
@@ -2298,9 +2299,9 @@
 				}
 			]
 			tasks: [{
-				id: "78DEAF50A7DDBE7C"
-				item: "minecraft:feather"
-				type: "item"
+				id: "3334BF20BBB1A728"
+				title: "Movement Opportunity"
+				type: "checkmark"
 			}]
 			title: "Movement Opportunity"
 			x: 8.5d
