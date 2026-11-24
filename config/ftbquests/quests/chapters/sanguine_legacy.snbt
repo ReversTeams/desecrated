@@ -329,11 +329,6 @@
 			}]
 			tasks: [
 				{
-					id: "0DACFC0192369732"
-					item: "vampirism:human_heart"
-					type: "item"
-				}
-				{
 					icon: "vampirism:pure_blood_4"
 					id: "1D05487A9A8D21EA"
 					item: {
@@ -344,6 +339,11 @@
 						}
 					}
 					title: "Any Pure Blood"
+					type: "item"
+				}
+				{
+					id: "0DACFC0192369732"
+					item: "vampirism:human_heart"
 					type: "item"
 				}
 				{
