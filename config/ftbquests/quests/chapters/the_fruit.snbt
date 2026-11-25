@@ -84,7 +84,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["640C90A0767F97C4"]
@@ -372,7 +372,11 @@
 		{
 			dependencies: ["30B8AF0CD59F096C"]
 			dependency_requirement: "one_completed"
-			description: ["Vertin also sells a mural"]
+			description: [
+				"&aVertin also sells a mural"
+				""
+				"&aYou can't move normally in the Depths of Myth, you need to bring teleportation or movement related items."
+			]
 			entity_vis_size: 1.0f
 			id: "724B5313422D79D1"
 			tasks: [
