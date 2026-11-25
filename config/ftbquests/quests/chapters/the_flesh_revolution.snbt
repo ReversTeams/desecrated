@@ -2931,7 +2931,7 @@
 		}
 		{
 			dependencies: ["15C64A76D9BDAF58"]
-			description: ["&4This blood-filled alveolar sac is the product of blood bubble trees. The concentrated fuid can be extracted into liquid blood by diluting it with water in a mixer."]
+			description: ["&4This blood-filled alveolar sac is the product of blood bubble trees. The concentrated fluid can be extracted directly into filtered blood by diluting it with water in a mixer."]
 			entity_vis_size: 1.0f
 			id: "56C3A5105479F0AF"
 			rewards: [
