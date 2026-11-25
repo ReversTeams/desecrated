@@ -800,4 +800,28 @@ ServerEvents.recipes(event => {
             A: '#minecraft:planks'
         }
     )
+
+    event.shaped(
+        Item.of('minecraft:stone', 2),
+        [
+            'A  ',
+            '   ',
+            '   '
+        ],
+        {
+            A: 'perdition:marmor_exaltatus'
+        }
+    )
+
+    event.shaped(
+        Item.of('minecraft:chest'),
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+        {
+            A: '#minecraft:planks'
+        }
+    )
 });

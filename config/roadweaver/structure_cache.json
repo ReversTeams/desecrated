@@ -3387,6 +3387,14 @@
       ]
     },
     {
+      "id": "otherverse:end_cottage",
+      "displayName": "End Cottage",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
       "id": "perdition:scintillating_gateway",
       "displayName": "Scintillating Gateway",
       "isVanilla": false,

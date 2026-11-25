@@ -895,7 +895,7 @@
 		}
 		{
 			dependencies: ["538E3136ADC8067A"]
-			description: ["&4Another sign of the enlightenment exposure of the world: stones that bleed. The transient ichor from verrucous stone is essentially free, although it doesn't have much throughput."]
+			description: ["&4Another sign of the enlightenment exposure of the world: stones that bleed. The transient ichor from verrucous stone is essentially free, although it doesn't have much output."]
 			entity_vis_size: 1.0f
 			id: "01D544725B5B1137"
 			rewards: [
@@ -1410,7 +1410,7 @@
 			description: [
 				"This mixing machine will be very useful for producing various solutions, suspensions, and slurries... but why can't I pump fluid in?"
 				""
-				"&4The mixer uses the standard fluid container port, denoted by a copepry plate and two inwards-pointing yellow arrows. This type of port draws directly from external storage, like tanks, and can't be pumped into directly."
+				"&4The mixer uses the standard fluid container port, denoted by a coppery plate and two inwards-pointing yellow arrows. This type of port draws directly from external storage, like tanks, and can't be pumped into directly."
 				""
 				"Ah, I see!"
 			]
@@ -2031,7 +2031,7 @@
 			description: [
 				"Now I can suck up trees like noodles!"
 				""
-				"&4I fear asking how much suction force this device is somehow capable of producing. Myabe equivalent to the near gravitational pull of a small star?"
+				"&4I fear asking how much suction force this device is somehow capable of producing. Maybe equivalent to the near gravitational pull of a small star?"
 			]
 			entity_vis_size: 1.0f
 			id: "5711D5111A0391DF"
@@ -4532,7 +4532,7 @@
 		{
 			dependencies: ["6316E079115AB0BC"]
 			description: [
-				"&4Grisha&r, I have &cdesecrated&r the divine child. I see the mother-worm in the sky. It- it &ocongradulated&r me, rewarded and cursed me with knowledge I cannot contain."
+				"&4Grisha&r, I have &cdesecrated&r the divine child. I see the mother-worm in the sky. It- it &ocongratulated&r me, rewarded and cursed me with knowledge I cannot contain."
 				""
 				"&4Young sanguine? Are you alright?"
 				""
@@ -4913,7 +4913,7 @@
 			description: [
 				"It's simple: more motor per motor."
 				""
-				"&4It also notably has a four hundred esoteric joules higher power limit than the advanced motor, so it's also more power per motor. Given machines can only take pwoer from a single motor, this can be a quite significant gain."
+				"&4It also notably has a four hundred esoteric joules higher power limit than the advanced motor, so it's also more power per motor. Given machines can only take power from a single motor, this can be a quite significant gain."
 			]
 			entity_vis_size: 1.0f
 			id: "7C9CD7D04AD20AA6"
@@ -4939,7 +4939,7 @@
 				""
 				"Perfect, I'll cover them all in skin."
 				"{@pagebreak}"
-				"&4Do remember to keep some of the standard yellow-painted ones, as they're the only ones supported in the manufacturing process of controllers. Though, is the appearance of wide areas of skin not unnerving to you? I hear that seeing animal parts being misplaced or distorted causes a promordial discomfort reaction in other animal species."
+				"&4Do remember to keep some of the standard yellow-painted ones, as they're the only ones supported in the manufacturing process of controllers. Though, is the appearance of wide areas of skin not unnerving to you? I hear that seeing animal parts being misplaced or distorted causes a primordial discomfort reaction in other animal species."
 				""
 				"I see my own skin every day, do I not?"
 			]
@@ -5118,7 +5118,7 @@
 				""
 				"This blood filter has one purpose: cleaning the raw blood. It contains two internal tanks and a filter system making use of gravity. That way, just inputting raw blood suffices to clean it."
 				"{@pagebreak}"
-				"&a(Blood, also known as regular blood or filtered blood, is used for the subsequent Neepmeat machines. You can still bottle it up by right clicking a container with 900mb of blood with a glass bottle.)"
+				"&a(Filtered blood is used for the subsequent Neepmeat machines. You can still bottle it up by right clicking a container with 900mb of blood with a glass bottle. A redstone signal inverts the behaviour, it converts filtered blood to raw blood instead of the opposite.)"
 			]
 			entity_vis_size: 1.0f
 			id: "532FD8D52F2ACDC8"

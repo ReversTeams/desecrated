@@ -27,7 +27,7 @@
 			height: 2.0d
 			image: "bloodyhell:block/blood_fire"
 			rotation: 0.0d
-			width: 1.5d
+			width: 1.0d
 			x: 21.5d
 			y: -26.0d
 		}
@@ -3723,7 +3723,7 @@
 			}]
 			tasks: [{
 				id: "41F95BAC3DD0A1C1"
-				item: "bloodyhell:soul_log"
+				item: "bloodyhell:blood_log"
 				type: "item"
 			}]
 			x: 18.0d

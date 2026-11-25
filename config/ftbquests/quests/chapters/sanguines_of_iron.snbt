@@ -117,7 +117,7 @@
 							"double/handle": "double/basic_handle"
 							"double/head_left": "double/basic_hammer_left"
 							"double/head_right": "double/basic_hammer_right"
-							id: "ff7e5ac9-9c1a-4f9f-acaa-cdea0a0ab236"
+							id: "1bb934c6-eb97-45ab-b925-6ca44d48c6b7"
 						}
 					}
 					match_nbt: true
@@ -400,6 +400,7 @@
 		}
 		{
 			dependencies: ["1CE2E59DF8AB13AF"]
+			description: ["&a(The advancement demands specifically a stone hammer, not andesite, diorite or granite.)"]
 			disable_toast: true
 			entity_vis_size: 1.0f
 			id: "5CA75CA01A803357"

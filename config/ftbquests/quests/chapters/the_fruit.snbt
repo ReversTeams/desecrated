@@ -24,7 +24,7 @@
 			rotation: 0.0d
 			width: 2.5d
 			x: -2.0d
-			y: -18.0d
+			y: -20.0d
 		}
 		{
 			alpha: 150
@@ -34,7 +34,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -2.0d
-			y: -6.5d
+			y: -8.5d
 		}
 		{
 			alpha: 180
@@ -62,21 +62,46 @@
 				"645A41C6166C6AFB"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"What kind of suitcase is this? It doesn't feel like it's real."
+				""
+				"&4I haven't heard of suitcase artefacts."
+				""
+				"I'll try to open it, let's see what's inside."
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "7E76C7368365FAD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A2EA7F75FD2E9D8"
+				table_id: 6454273999420670365L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5247AA6ACF39DBB0"
 				item: "reverseeon:dimension_portal"
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["640C90A0767F97C4"]
+			description: [
+				"After exploring the caves of this floating islands, I've found an intact portal to the End! How wonderful!"
+				""
+				"&4I'm growing suspicious of the reason for the cracking of the portals in our world. Something similar happened to the Moon Cultists when their connection to limbo was lost. I suspect a higher power is responsible."
+				""
+				"A higher power? Some sort of god?"
+			]
 			entity_vis_size: 1.0f
 			id: "0AA4D0CCC184FAB7"
+			rewards: [{
+				id: "0463905797690B56"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_stone"
@@ -85,7 +110,7 @@
 				type: "dimension"
 			}]
 			x: -2.0d
-			y: -8.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["0AA4D0CCC184FAB7"]
@@ -120,7 +145,7 @@
 			}]
 			title: "The Enderdragon"
 			x: -2.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6C5E0B16261EB864"]
@@ -132,7 +157,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -9.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["5B090F8DAAB074FE"]
@@ -185,10 +210,15 @@
 				}
 			]
 			x: -5.0d
-			y: -9.0d
+			y: -11.0d
 		}
 		{
 			description: [
+				"I am done defeating the sinful legends of the macabre lands. Nothing can stand in my way anymore, whether it be hunters, sins or false gods. Actually, there is one creature from legends that I should find. It was said in Eleonore's Travels that many, many years ago, adventurers ventured to find the Enderdragon and challenge it."
+				""
+				"&4You might find a portal in an ancient stronghold. You might have to venture beyond the lands of Red Barar to find a grand stronghold. They were not built by humans, but rather by an unknown ancient civilization."
+				""
+				"{@pagebreak}"
 				"&o&7Notes from Eleonore's Travels, Tome V"
 				""
 				"&fLeft behind by an ancient civilization that has been theorized to be the Endermen's ancestors, underground Strongholds are sprawling mazes of fortifications."
@@ -197,11 +227,19 @@
 			]
 			entity_vis_size: 1.0f
 			id: "171FDA40D98FA659"
-			rewards: [{
-				id: "699D8980BDF2B400"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1194737CE306E2B2"
+					table_id: 5114517534435723353L
+					type: "random"
+				}
+				{
+					id: "699D8980BDF2B400"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				icon: "minecraft:cracked_stone_bricks"
 				id: "349F619C05F0664D"
@@ -215,14 +253,32 @@
 		}
 		{
 			dependencies: ["171FDA40D98FA659"]
+			description: [
+				"Curses be foiled! The portal is completely cracked. I thought these were said to be completely unbreakable."
+				""
+				"&4Unbreakable to human hands, perhaps. There are always tricks to fool nature into breaking any material. This is most disapointing. How about you head to some of the forsaken sanguine lands? There might be some ancient artefacts that were once retrieved by sanguine ancestors."
+				"{@pagebreak}"
+				""
+				"And these were not looted by the invaders?"
+				""
+				"&4The forsaken lands are cold. Extremely cold. This isn't an issue for sanguines, but humans prefer not to venture into cold areas. I believe some expeditions wiped out the inhabitants of these lands but they could not linger any longer."
+			]
 			entity_vis_size: 1.0f
 			id: "6353A090E01229D8"
 			invisible: true
-			rewards: [{
-				id: "79E2BE07D0E81962"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "550E9FABD1E4515A"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "79E2BE07D0E81962"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				entity_vis_cycle_seconds: 0.0f
 				entity_vis_enabled: false
@@ -267,14 +323,31 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -18.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["7E76C7368365FAD4"]
+			description: [
+				"The suitcase sucked me into... a place. Where am I?"
+				""
+				"&6&oThis realm is not supposed to exist. This timeline was not planned. What kind of trickery is this?"
+				""
+				"What was that whisper?"
+				""
+				"&4I can't hear, young dummy. I'm a sentient book."
+				""
+				"That whisper sounded like it came from the book."
+				"{@pagebreak}"
+				"There seem to be people on this island who are as surprised as me. Let me go talk to them."
+				""
+				"..."
+				""
+				"They also don't come from this world, how odd. There's apparently a most deadly storm that is now ever-present that they brought with them. "
+			]
 			entity_vis_size: 1.0f
 			id: "640C90A0767F97C4"
 			rewards: [{
-				auto: "invisible"
+				auto: "enabled"
 				command: "/dia_dialogue"
 				elevate_perms: true
 				icon: "desecratedcore:exile_key_item"
@@ -284,6 +357,7 @@
 				title: "???'s Dialogue"
 				type: "command"
 			}]
+			subtitle: "Correcting the Timeline"
 			tasks: [{
 				dimension: "reverseeon:island_dim"
 				icon: "reverseeon:soul_hourglass"
@@ -293,12 +367,16 @@
 			}]
 			title: "Visit The Island"
 			x: -2.0d
-			y: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["30B8AF0CD59F096C"]
 			dependency_requirement: "one_completed"
-			description: ["Vertin also sells a mural"]
+			description: [
+				"&aVertin also sells a mural"
+				""
+				"&aYou can't move normally in the Depths of Myth, you need to bring teleportation or movement related items."
+			]
 			entity_vis_size: 1.0f
 			id: "724B5313422D79D1"
 			tasks: [
@@ -315,7 +393,7 @@
 				}
 			]
 			x: -2.0d
-			y: -13.0d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -330,7 +408,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7E76C7368365FAD4"]
@@ -342,7 +420,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["640C90A0767F97C4"]
@@ -354,7 +432,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["51829B2DC3089EA9"]
@@ -372,7 +450,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["51829B2DC3089EA9"]
@@ -390,7 +468,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["51829B2DC3089EA9"]
@@ -408,7 +486,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["51829B2DC3089EA9"]
@@ -420,7 +498,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["51829B2DC3089EA9"]
@@ -473,7 +551,7 @@
 				}
 			]
 			x: 0.0d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["724B5313422D79D1"]
@@ -485,7 +563,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -14.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["724B5313422D79D1"]
@@ -497,7 +575,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -14.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["724B5313422D79D1"]
@@ -509,7 +587,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -14.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["724B5313422D79D1"]
@@ -521,7 +599,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -14.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6C5E0B16261EB864"]
@@ -539,7 +617,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -11.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["724B5313422D79D1"]
@@ -551,13 +629,38 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -14.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["171FDA40D98FA659"]
 			entity_vis_size: 2.0f
 			hide_until_deps_complete: true
 			id: "645A41C6166C6AFB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "488CF273DFB03B0A"
+					table_id: 7289787470242145730L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8AA107A96EE0B6"
+					table_id: 5749829554896931113L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E01C86A0B4AF8B9"
+					table_id: 6454273999420670365L
+					type: "random"
+				}
+				{
+					id: "3B1A9333780D327A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				entity: "frozen_dominion:velkhar"
 				entity_use_tag: false
@@ -578,11 +681,15 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Velkhar"
 			x: -2.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["724B5313422D79D1"]
+			dependencies: [
+				"724B5313422D79D1"
+				"5E4843A125E63E64"
+			]
 			entity_vis_size: 1.0f
 			id: "75F95CECD4AA16BF"
 			tasks: [{
@@ -591,9 +698,10 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -16.0d
+			y: -18.0d
 		}
 		{
+			dependencies: ["724B5313422D79D1"]
 			entity_vis_size: 2.0f
 			id: "5E4843A125E63E64"
 			size: 1.2d
@@ -618,7 +726,89 @@
 				value: 1L
 			}]
 			x: -2.0d
-			y: -14.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["171FDA40D98FA659"]
+			description: [
+				"I've come across a camp left behind by the invaders. I cannot distinguish whether the skeletons left behind are those of humans or some kind of forsaken creature."
+				""
+				"They left behind a sort of journal, do you want to eat that, Grisha?"
+				""
+				"&4Is it as cold as ice cream?"
+				""
+				"Well... it sure is frozen."
+				""
+				"&4A treat!"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "1F69E0EBAE7154B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6146A6B143492B77"
+					table_id: 7289787470242145730L
+					type: "random"
+				}
+				{
+					id: "76269BB24F9EF980"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: "frozen_dominion:hallevin_compass"
+				id: "1A612861E399D176"
+				structure: "frozen_dominion:expedition_camp"
+				title: "Find the Expedition Camp"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F69E0EBAE7154B8"]
+			description: [
+				"&4It seems like one of the ancient sanguine castles in the region had lost its lord. The spirit-powered autonomous defenders of the citadel still guard it, along with a few defense systems."
+				""
+				"Such as?"
+				""
+				"&4A frost aura might acompany the area and will freeze any intruders to death. You would need a specific amulet or potion that provides intense warmth."
+				""
+				"Fortunately, the fallen expedition still had some."
+			]
+			entity_vis_size: 1.0f
+			id: "55BE63C70186410D"
+			rewards: [{
+				id: "5C7F335FF448CEFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7DC7B99352D0CA01"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "frozen_dominion:warmth_potion"
+							}
+							{
+								Count: 1b
+								id: "frozen_dominion:hearth_amulet"
+							}
+						]
+					}
+				}
+				title: "Any Warmth Tool"
+				type: "item"
+			}]
+			title: "Warmth"
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	title: "The Fruit"

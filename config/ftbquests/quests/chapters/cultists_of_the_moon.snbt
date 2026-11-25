@@ -1656,7 +1656,7 @@
 				count: 4
 				icon: "minecraft:echo_shard"
 				id: "1409C5E151372656"
-				item: "hexerei:selenite_shard"
+				item: "minecraft:echo_shard"
 				type: "item"
 			}]
 			tasks: [{
@@ -1935,7 +1935,7 @@
 			rewards: [{
 				icon: "concatenatedadditionstools:glowing_gold_block"
 				id: "6ABA44BA47CBE5E4"
-				item: "concatenationcore:glowing_gold_block"
+				item: "concatenatedadditionstools:glowing_gold_block"
 				type: "item"
 			}]
 			tasks: [
