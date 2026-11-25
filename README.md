@@ -35,15 +35,9 @@ If you wish to contribute to the modpack, please follow the contribution guideli
 - Vauldrus - Playtester
 
 #### Concatenation Division
-- SporiumCorium - Pack Developer
-- MysticSquire - Pack Developer
 - Sem__lan - Writer
+- Bladelord54 - Writer
 - Ashh - Writer, Proofreader
-- Honeyglazedlady - Artist
-- JessePlays - Wiki Editor
-- Waayzii - Wiki Editor
-- Bajan - Wiki Editor
-- Mimnin - Wiki Editor
 
 #### Contributors
 - Ink Disorder
@@ -54,3 +48,4 @@ Meatwheeze - NEEPMeat Developer
 Noodlegamer - Fracture Developer
 anti - Ascendant Arcana Developer
 lor - Pact Magic Developer
+DaFuqsy - Spectrum Developer

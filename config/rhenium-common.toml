@@ -1,0 +1,7 @@
+#Template cache budget in MB. 0 = auto (10% of max heap, up to 256).
+#Range: 0 ~ 65536
+templateCacheBudgetMB = 0
+#Templates used within this many seconds are never evicted.
+#Range: 0 ~ 3600
+minIdleSeconds = 30
+

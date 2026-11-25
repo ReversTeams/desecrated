@@ -36,6 +36,7 @@ ServerEvents.tags('block', event => {
     ]);
 
     add('minecraft:enchantment_power_provider', [
-        'desecratedcore:bloody_bookshelf'
+        'desecratedcore:bloody_bookshelf',
+        'bloodyhell:forbidden_bookshelf_block'
     ]);
 });
