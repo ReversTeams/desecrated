@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1794789374946
+  last_edited_time = 1795578280930
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:051eb143-7054-4f2b-85e7-1dbf3577c6a1-1794789241081] = [groups:][instances:]
+  [loading_requirement_container_meta:4d4a12d6-2804-4946-9920-c55cabcea74f-1795578176509] = [groups:][instances:]
 }
 
 menu_background {
@@ -673,7 +673,7 @@ element {
   anchor_point_element = 22586fa0-6397-418a-8b9c-1667ffcb7277-1761669299899
   x = -2
   y = 13
-  width = 42
+  width = 71
   height = 25
   stay_on_screen = true
   element_loading_requirement_container_identifier = 0b91ee0f-7702-40f0-9f4f-b720f93529f2-1761669800699
@@ -708,7 +708,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/event-titles/desecratedhalloween.png
+  source = [source:local]/config/fancymenu/assets/desecrated_title_small.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -946,7 +946,7 @@ element {
 
 element {
   interactable = true
-  source = The blood filter can now be inverted.  Blood sausages now require the meat grinder. More mobs will now eat your crops. Many bug and performance fixes.
+  source = Quality of life additions. Many performance, desync and crash fixes. It is now safe to look through the creative inventory and EMI.
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -1033,7 +1033,7 @@ element {
 
 element {
   interactable = true
-  source = 11/15/2026 - 1.3.1%n%11/01/2026 - 1.3.0 "Overflowing Red"%n%10/27/2026 - 1.2.2%n%10/26/2026 - 1.2.1%n%10/25/2026 - 1.2.0 "Crescent Calling"%n%10/21/2026 - 1.1.1%n%10/20/2026 - 1.1.0 "Blood Festival"%n%10/04/2026 - 1.0.0 "Flesh and Blood"%n%09/27/2026 - 0.9.0%n%09/04/2026 - 0.6.4%n%08/30/2026 - 0.6.3%n%08/25/2026 - 0.6.1%n%08/22/2026 - 0.6.0%n%08/18/2026 - 0.5.8%n%08/15/2026 - 0.5.7%n%08/13/2026 - 0.5.6%n%08/11/2026 - 0.5.5%n%08/01/2026 - 0.5.0%n%07/23/2026 - 0.4.0%n%07/15/2026 - 0.3.0%n%07/14/2026 - 0.2.0%n%07/12/2026 - 0.1.0%n%07/10/2026 - 0.07%n%07/08/2026 - 0.06%n%06/25/2026 - 0.0.5%n%06/20/2026 - 0.0.4%n%06/18/2026 - 0.0.3
+  source = 11/24/2026 - 1.3.2%n%11/15/2026 - 1.3.1%n%11/01/2026 - 1.3.0 "Overflowing Red"%n%10/27/2026 - 1.2.2%n%10/26/2026 - 1.2.1%n%10/25/2026 - 1.2.0 "Crescent Calling"%n%10/21/2026 - 1.1.1%n%10/20/2026 - 1.1.0 "Blood Festival"%n%10/04/2026 - 1.0.0 "Flesh and Blood"%n%09/27/2026 - 0.9.0%n%09/04/2026 - 0.6.4%n%08/30/2026 - 0.6.3%n%08/25/2026 - 0.6.1%n%08/22/2026 - 0.6.0%n%08/18/2026 - 0.5.8%n%08/15/2026 - 0.5.7%n%08/13/2026 - 0.5.6%n%08/11/2026 - 0.5.5%n%08/01/2026 - 0.5.0%n%07/23/2026 - 0.4.0%n%07/15/2026 - 0.3.0%n%07/14/2026 - 0.2.0%n%07/12/2026 - 0.1.0%n%07/10/2026 - 0.07%n%07/08/2026 - 0.06%n%06/25/2026 - 0.0.5%n%06/20/2026 - 0.0.4%n%06/18/2026 - 0.0.3
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -1120,7 +1120,7 @@ element {
 
 element {
   interactable = true
-  source = The Halloween 2026 Blood Festival is now open! Collect as much blood as you can! Redeem rewards! Curse pumpkins into blood pumpkins and defend them to your last dying breath!
+  source = No current active event.
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -1203,5 +1203,85 @@ element {
   table_line_thickness = 1.0
   table_cell_padding = 8.0
   table_margin = 4.0
+}
+
+element {
+  button_element_executable_block_identifier = b0aaece5-c602-47ed-be4e-aa6a8a3b82b4-1795578175060
+  [executable_block:b0aaece5-c602-47ed-be4e-aa6a8a3b82b4-1795578175060][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/event-titles/desecratedhalloween.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/event-titles/desecratedhalloween.png
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  label = 
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 842584e5-9762-4c07-8f88-b3250c0c5f58-1795578175060
+  [loading_requirement_container_meta:842584e5-9762-4c07-8f88-b3250c0c5f58-1795578175060] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  element_type = custom_button
+  instance_identifier = 43fbe4fb-c98e-40e8-a5a4-4e8faf0daa83-1795578175060
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1480
+  auto_sizing_base_gui_scale = 5.0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 42
+  y = -79
+  width = 52
+  height = 31
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 9a0680f1-a039-4654-bce4-c790269bbca4-1795578175059
+  [loading_requirement_container_meta:9a0680f1-a039-4654-bce4-c790269bbca4-1795578175059] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 
