@@ -28,6 +28,12 @@ ServerEvents.recipes(event => {
         '#desecrated:soap_ingredient'
     )
 
+    event.replaceInput(
+        { output: 'farmersdelight:fried_egg' },
+        'minecraft:egg',
+        '#c:eggs'
+    )
+
     // event.replaceInput(
     //     { input: '#biomancy:raw_meats' },
     //     '#biomancy:raw_meats',
