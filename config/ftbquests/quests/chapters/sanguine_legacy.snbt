@@ -329,15 +329,22 @@
 			}]
 			tasks: [
 				{
-					id: "0DACFC0192369732"
-					item: "vampirism:human_heart"
+					icon: "vampirism:pure_blood_4"
+					id: "1D05487A9A8D21EA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vampirism:pure_blood"
+						}
+					}
+					title: "Any Pure Blood"
 					type: "item"
 				}
 				{
-					id: "1D05487A9A8D21EA"
-					item: "vampirism:pure_blood_4"
+					id: "0DACFC0192369732"
+					item: "vampirism:human_heart"
 					type: "item"
-					weak_nbt_match: true
 				}
 				{
 					id: "572CB6EF2F9E599F"

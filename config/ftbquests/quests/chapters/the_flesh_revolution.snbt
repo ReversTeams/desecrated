@@ -376,8 +376,12 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["7522632161D258AA"]
-			description: ["I will need a place to place carcasses for processing and I will not be a mere peasant and use the dirty floor."]
+			dependencies: ["623C14C05294EFCC"]
+			description: [
+				"I will need a place to place carcasses for processing and I will not be a mere peasant and use the dirty floor."
+				""
+				"&4Cleanliness isn't essential to survival. The floor is sufficient. If you would rather know what you eat or drink hasn't touched the ground, then consider making a table."
+			]
 			entity_vis_size: 1.0f
 			id: "4C54DFACCDB8E8E0"
 			rewards: [{
@@ -434,12 +438,13 @@
 				{
 					id: "4EA929E61B37F7A8"
 					item: "butchery:metal_tray"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Butcher's Table"
-			x: -1.0d
-			y: -3.5d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5D4499D4254102B7"]
@@ -2931,7 +2936,7 @@
 		}
 		{
 			dependencies: ["15C64A76D9BDAF58"]
-			description: ["&4This blood-filled alveolar sac is the product of blood bubble trees. The concentrated fuid can be extracted into liquid blood by diluting it with water in a mixer."]
+			description: ["&4This blood-filled alveolar sac is the product of blood bubble trees. The concentrated fluid can be extracted directly into filtered blood by diluting it with water in a mixer."]
 			entity_vis_size: 1.0f
 			id: "56C3A5105479F0AF"
 			rewards: [
